@@ -1,0 +1,3935 @@
+{
+  "transport": "stdio",
+  "client": "shell-hosted Python JSON-RPC verification client invoked by Codex",
+  "native_codex_tool_catalog_verified": false,
+  "protocol_version": "2024-11-05",
+  "server_info": {
+    "name": "unity-mcp",
+    "version": "1.0.0-beta.12"
+  },
+  "tools": [
+    {
+      "name": "add_animator_layer",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "controller": {
+            "type": "string",
+            "description": "Reference to the AnimatorController to edit (path / guid / globalId)."
+          },
+          "name": {
+            "type": "string",
+            "description": "Layer name."
+          },
+          "weight": {
+            "type": "number",
+            "description": "Layer weight (default 1).",
+            "default": 1
+          },
+          "blendingMode": {
+            "type": "string",
+            "description": "Blending mode: Override | Additive (default Override).",
+            "default": "Override"
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate inputs without writing the layer.",
+            "default": false
+          }
+        },
+        "required": [
+          "controller",
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "add_animator_parameter",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "controller": {
+            "type": "string",
+            "description": "Reference to the AnimatorController to edit (path / guid / globalId)."
+          },
+          "name": {
+            "type": "string",
+            "description": "Parameter name."
+          },
+          "type": {
+            "type": "string",
+            "description": "Parameter type: Float | Int | Bool | Trigger."
+          },
+          "defaultValue": {
+            "type": "string",
+            "description": "Default value for Float/Int/Bool (ignored for Trigger)."
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate inputs without writing the parameter.",
+            "default": false
+          }
+        },
+        "required": [
+          "controller",
+          "name",
+          "type"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "add_animator_state",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "controller": {
+            "type": "string",
+            "description": "Reference to the AnimatorController to edit (path / guid / globalId)."
+          },
+          "layer": {
+            "type": "string",
+            "description": "Layer index (int) or name (string). Default 0 (Base Layer)."
+          },
+          "name": {
+            "type": "string",
+            "description": "State name."
+          },
+          "motion": {
+            "type": "string",
+            "description": "Optional AnimationClip or BlendTree asset to assign as the state's motion."
+          },
+          "isDefault": {
+            "type": "boolean",
+            "description": "If true, set this state as the layer's default state.",
+            "default": false
+          },
+          "position": {
+            "type": "string",
+            "description": "Optional [x, y] node position in the graph (cosmetic)."
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate inputs without writing the state.",
+            "default": false
+          }
+        },
+        "required": [
+          "controller",
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "add_animator_transition",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "controller": {
+            "type": "string",
+            "description": "Reference to the AnimatorController to edit (path / guid / globalId)."
+          },
+          "layer": {
+            "type": "string",
+            "description": "Layer index (int) or name (string). Default 0 (Base Layer)."
+          },
+          "fromState": {
+            "type": "string",
+            "description": "Source state name, or the special \"AnyState\" / \"Entry\"."
+          },
+          "toState": {
+            "type": "string",
+            "description": "Destination state name, or the special \"Exit\"."
+          },
+          "conditions": {
+            "type": "string",
+            "description": "Optional conditions: [{ parameter, mode: \"If\"|\"IfNot\"|\"Greater\"|\"Less\"|\"Equals\"|\"NotEqual\", threshold? }]."
+          },
+          "hasExitTime": {
+            "type": "boolean",
+            "description": "If true, the transition uses exit time (default false).",
+            "default": false
+          },
+          "exitTime": {
+            "type": "number",
+            "description": "Normalized exit time (0..1) when hasExitTime is set.",
+            "default": 0
+          },
+          "duration": {
+            "type": "number",
+            "description": "Transition duration in seconds (default 0.25).",
+            "default": 0.25
+          },
+          "hasFixedDuration": {
+            "type": "boolean",
+            "description": "If true, duration is in seconds; otherwise normalized (default true).",
+            "default": true
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate everything (states, parameters, mode/type) without writing the transition.",
+            "default": false
+          }
+        },
+        "required": [
+          "controller",
+          "fromState",
+          "toState"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "add_component",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Handle of the GameObject."
+          },
+          "type": {
+            "type": "string",
+            "description": "Component type name (e.g. 'Rigidbody' or 'UnityEngine.Camera')."
+          }
+        },
+        "required": [
+          "target",
+          "type"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "add_scene_to_build",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Scene path to add (authoring-root relative; Assets/ prefix and .unity optional)."
+          },
+          "enabled": {
+            "type": "boolean",
+            "description": "Whether the scene is enabled in the build list.",
+            "default": true
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "add_timeline_clip",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "timeline": {
+            "type": "string",
+            "description": "Reference to the TimelineAsset to edit (path / guid / globalId)."
+          },
+          "track": {
+            "type": "string",
+            "description": "Target track name."
+          },
+          "start": {
+            "type": "number",
+            "description": "Clip start time in seconds.",
+            "default": 0
+          },
+          "duration": {
+            "type": "number",
+            "description": "Clip duration in seconds.",
+            "default": 0
+          },
+          "asset": {
+            "type": "string",
+            "description": "Source asset: for Animation tracks an AnimationClip; for Audio tracks an AudioClip. Required for those track types."
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate inputs without writing the clip.",
+            "default": false
+          }
+        },
+        "required": [
+          "timeline",
+          "track",
+          "start",
+          "duration"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "add_timeline_track",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "timeline": {
+            "type": "string",
+            "description": "Reference to the TimelineAsset to edit (path / guid / globalId)."
+          },
+          "trackType": {
+            "type": "string",
+            "description": "Track type: Animation | Audio | Activation | Control | Playable | Signal | Marker."
+          },
+          "name": {
+            "type": "string",
+            "description": "Optional track display name."
+          },
+          "parentTrack": {
+            "type": "string",
+            "description": "Optional name of an existing group/track to nest the new track under."
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate inputs without writing the track.",
+            "default": false
+          }
+        },
+        "required": [
+          "timeline",
+          "trackType"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "apply_prefab_overrides",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "instance": {
+            "type": "string",
+            "description": "Reference to a prefab instance GameObject in a scene (instanceId/hierarchyPath/globalId)."
+          }
+        },
+        "required": [
+          "instance"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "attach_script",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Reference to the GameObject to add the component to (globalId/path/guid/instanceId/hierarchyPath)."
+          },
+          "type": {
+            "type": "string",
+            "description": "Component type name to add, e.g. PlayerController or Game.Player.PlayerController. Must already be compiled. Mutually exclusive with 'script'."
+          },
+          "script": {
+            "type": "string",
+            "description": "Script asset path, e.g. 'Assets/Pool/Scripts/CueShooter.cs'. The backing class is resolved via MonoScript.GetClass(), so the class name may differ from the filename. Mutually exclusive with 'type'."
+          }
+        },
+        "required": [
+          "target"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "audit",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "categories": {
+            "type": "string",
+            "description": "Comma-separated issue categories to scan (e.g. Code,ProjectSetting,Texture). Default: all categories.",
+            "default": ""
+          },
+          "output": {
+            "type": "string",
+            "description": "CSV output path (absolute or relative to the project root). Defaults to Temp/pipeline-audit/<scanId>.csv.",
+            "default": ""
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "audit_status",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "bake_lighting",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "confirm": {
+            "type": "boolean",
+            "description": "Recommended (true): a bake overwrites existing lightmap data. Accepted for parity; not required.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate there is an open bakeable scene and return the current lighting settings without baking.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "bake_navmesh",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "confirm": {
+            "type": "boolean",
+            "description": "Accepted for parity (a bake overwrites the existing NavMesh); not required.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate there is an open scene and return current NavMesh settings without baking.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "bake_navmesh_surfaces",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "bake_occlusion_culling",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "smallest_occluder": {
+            "type": "number",
+            "description": "Smallest object that will occlude others (meters). Defaults to Unity's current value.",
+            "default": -3.40282347e+38
+          },
+          "smallest_hole": {
+            "type": "number",
+            "description": "Smallest gap geometry can have that the view can see through (meters). Defaults to Unity's current value.",
+            "default": -3.40282347e+38
+          },
+          "backface_threshold": {
+            "type": "number",
+            "description": "Backface threshold (1-100); lower trims more backfaces. Defaults to Unity's current value.",
+            "default": -3.40282347e+38
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Accepted for parity (a bake overwrites existing occlusion data); not required.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate there is an open scene and report the parameters that would be used without baking.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "batch",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "operations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "description": "Optional id for referencing this op's result from a later op (\"$<id>.<field>\"). Unique within the batch; must match ^[A-Za-z_][A-Za-z0-9_-]*$ (not purely numeric, no dots)."
+                },
+                "command": {
+                  "type": "string",
+                  "description": "Name of the registered command to run."
+                },
+                "params": {
+                  "type": "string",
+                  "description": "Parameters for the command. String values may reference a prior op's result: \"$<id-or-index>.<jsonPath>\"."
+                }
+              },
+              "required": [
+                "command"
+              ],
+              "additionalProperties": false
+            },
+            "description": "Ordered operations to run; each is { id?, command, params }. Max 200."
+          },
+          "transactional": {
+            "type": "boolean",
+            "description": "Group all ops into one Undo step and revert every applied op if any op fails. Default true. Forced false when on_error=continue. Rejects commands whose mutations Undo cannot revert (asset/file/settings writes).",
+            "default": true
+          },
+          "on_error": {
+            "type": "string",
+            "description": "abort (default): stop at the first failing op. continue: run every op, collecting per-op errors (forces transactional=false).",
+            "default": "abort"
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Validate command names, parameters, reference topology and excluded commands without mutating anything.",
+            "default": false
+          },
+          "result_fields": {
+            "type": "string",
+            "description": "Optional per-op result projection: map of op id-or-index -> array of result field paths to keep (context economy)."
+          },
+          "time_budget_ms": {
+            "type": "integer",
+            "description": "Cooperative time budget for the whole batch in milliseconds (default 50000, max 3600000). Checked before each op after the first; when exhausted the remaining ops are skipped and a transactional batch rolls back. Use \"job\": true for long batches.",
+            "default": 50000
+          }
+        },
+        "required": [
+          "operations"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "build",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "BuildTarget name (e.g. StandaloneWindows64). Defaults to the active target. Must be installed.",
+            "default": ""
+          },
+          "outputPath": {
+            "type": "string",
+            "description": "Output path (absolute, or relative to the project root). Defaults to the last/auto path.",
+            "default": ""
+          },
+          "profileName": {
+            "type": "string",
+            "description": "Build Profile name to activate before building (Unity 6 only; ignored otherwise).",
+            "default": ""
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "BuildOptions names. Omit to get just DetailedBuildReport; supplying any disables that default."
+          },
+          "scenes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Scene asset paths to build (e.g. Assets/Scenes/Main.unity). Defaults to EditorBuildSettings."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Acknowledge and run the build; without it the call is refused. Use dry_run to validate only.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Validate target/outputPath/scenes without building.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "build_status",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "cancel_lighting_bake",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "cancel_navmesh_bake",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "cancel_occlusion_bake",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "cancel_tests",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "capture_game_view",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "width": {
+            "type": "integer",
+            "description": "Output width in px (default 1280; capped 4096).",
+            "default": 1280
+          },
+          "height": {
+            "type": "integer",
+            "description": "Output height in px (default 720; capped 4096).",
+            "default": 720
+          },
+          "camera": {
+            "type": "string",
+            "description": "Optional camera name (source=camera only); defaults to Camera.main, else the first enabled camera."
+          },
+          "save_path": {
+            "type": "string",
+            "description": "Optional project-relative path to write the PNG (e.g. Screenshots/foo.png). When set, the result omits the inline base64 image unless include_inline_image=true."
+          },
+          "include_inline_image": {
+            "type": "boolean",
+            "description": "Also return the image inline as base64 when save_path is set (default false: path-only result). Only meaningful together with save_path.",
+            "default": false
+          },
+          "max_resolution": {
+            "type": "integer",
+            "description": "Cap on the inline image's longest edge (e.g. 512). Only applies when an inline image is returned (no save_path, or save_path + include_inline_image=true); the save_path file keeps the requested resolution.",
+            "default": 0
+          },
+          "source": {
+            "type": "string",
+            "description": "What to capture: 'screen' (default) captures the game view's own render target — what the Game window shows, incl. Screen Space - Overlay UI (HUDs) in Play Mode; 'camera' renders a single camera off-screen instead and never sees overlay canvases. Defaults to 'camera' when a camera name is given."
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "capture_scene_view",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "width": {
+            "type": "integer",
+            "description": "Output width in px (default 1280; capped 4096).",
+            "default": 1280
+          },
+          "height": {
+            "type": "integer",
+            "description": "Output height in px (default 720; capped 4096).",
+            "default": 720
+          },
+          "save_path": {
+            "type": "string",
+            "description": "Optional project-relative path to write the PNG (e.g. Screenshots/foo.png). When set, the result omits the inline base64 image unless include_inline_image=true."
+          },
+          "include_inline_image": {
+            "type": "boolean",
+            "description": "Also return the image inline as base64 when save_path is set (default false: path-only result). Only meaningful together with save_path.",
+            "default": false
+          },
+          "max_resolution": {
+            "type": "integer",
+            "description": "Cap on the inline image's longest edge (e.g. 512). Only applies when an inline image is returned (no save_path, or save_path + include_inline_image=true); the save_path file keeps the requested resolution.",
+            "default": 0
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "cleanup_codereload",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "assemblyDir": {
+            "type": "string",
+            "description": "Directory containing assemblies to cleanup"
+          },
+          "force_domain_reload": {
+            "type": "boolean",
+            "description": "Force Unity domain reload after cleanup",
+            "default": true
+          }
+        },
+        "required": [
+          "assemblyDir"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "clear_baked_lighting",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "confirm": {
+            "type": "boolean",
+            "description": "Must be true to actually clear (destructive, not undoable via Unity's Undo).",
+            "default": false
+          },
+          "include_disk_cache": {
+            "type": "boolean",
+            "description": "If true, also clear the GI disk cache (Lightmapping.ClearDiskCache()).",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, report what would be cleared without clearing.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "clear_console",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "clear_navmesh",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "confirm": {
+            "type": "boolean",
+            "description": "Must be true to actually clear (destructive, not undoable via Unity's Undo).",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, report what would be cleared without clearing.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "clear_occlusion_culling",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "confirm": {
+            "type": "boolean",
+            "description": "Must be true to actually clear (destructive, not undoable via Unity's Undo).",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, report what would be cleared without clearing.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "codereload_status",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "console",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "tail": {
+            "type": "integer",
+            "description": "Maximum number of most-recent entries to return",
+            "default": 100
+          },
+          "level": {
+            "type": "string",
+            "description": "Minimum severity to include: log | warn | error",
+            "default": "log"
+          },
+          "since": {
+            "type": "integer",
+            "description": "Cursor: only return entries newer than this seq. Use the 'cursor' from a previous response to follow.",
+            "default": -1
+          },
+          "since_session": {
+            "type": "string",
+            "description": "Session the 'since' cursor came from: pass the 'session' from a previous response. A cursor from another session is refused and the tail returned with reset=true."
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "console_status",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "copy_asset",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "asset": {
+            "type": "string",
+            "description": "Reference to the asset to copy (path / guid / globalId)."
+          },
+          "destination": {
+            "type": "string",
+            "description": "Destination asset path relative to the authoring root, including extension. The Assets/ prefix is optional."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Required (true) only when overwriting an existing asset at the destination path.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate inputs and report what would be copied without writing anything.",
+            "default": false
+          }
+        },
+        "required": [
+          "asset",
+          "destination"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "create_animation_clip",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Asset path ending in .anim, relative to the authoring root. The Assets/ prefix is optional."
+          },
+          "frameRate": {
+            "type": "number",
+            "description": "Sampling frame rate of the clip (default 60).",
+            "default": 60
+          },
+          "loop": {
+            "type": "boolean",
+            "description": "If true, set the clip's loop-time flag in its AnimationClipSettings (default false).",
+            "default": false
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Required (true) only when overwriting an existing asset at the path.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate inputs and report what would be created without writing anything.",
+            "default": false
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "create_animator_controller",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Asset path ending in .controller, relative to the authoring root. The Assets/ prefix is optional."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Required (true) only when overwriting an existing asset at the path.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate inputs and report what would be created without writing anything.",
+            "default": false
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "create_asset",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Asset path relative to the authoring root, including extension (e.g. Data/Config.asset or Materials/Wall.mat). The Assets/ prefix is optional."
+          },
+          "type": {
+            "type": "string",
+            "description": "Fully-qualified or short type name to instantiate (e.g. UnityEngine.Material, MyGame.GameConfig). Must derive from UnityEngine.Object and be creatable."
+          },
+          "shader": {
+            "type": "string",
+            "description": "Material-only (ignored otherwise): shader name to assign (e.g. Standard, \"Universal Render Pipeline/Lit\"). When omitted, defaults to \"Universal Render Pipeline/Lit\" if a Scriptable Render Pipeline is active, otherwise the built-in \"Standard\" shader (falling back to \"Standard\" if URP/Lit is unavailable)."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Required (true) only when overwriting an existing asset at the path. Ignored when the path is empty.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate inputs and report what would be created without writing anything.",
+            "default": false
+          }
+        },
+        "required": [
+          "path",
+          "type"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "create_folder",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Folder path relative to the authoring root (default Assets/); the Assets/ prefix is optional. e.g. Gameplay/Enemies or Assets/Gameplay/Enemies"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "create_gameobject",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name for the new GameObject. Defaults to 'GameObject' (or the primitive name)."
+          },
+          "primitive": {
+            "type": "string",
+            "description": "Optional primitive type: cube, sphere, capsule, cylinder, plane, quad. Omit for an empty GameObject."
+          },
+          "parent": {
+            "type": "string",
+            "description": "Optional parent handle (globalId/path/guid/instanceId/hierarchyPath). The new object becomes a child of it."
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "create_gameobjects",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Base name. With count>1 and no explicit names, objects are suffixed Name1..NameN."
+          },
+          "primitive": {
+            "type": "string",
+            "description": "Optional primitive type: cube, sphere, capsule, cylinder, plane, quad. Omit for empty GameObjects."
+          },
+          "parent": {
+            "type": "string",
+            "description": "Optional parent handle. Every created object becomes a child of it."
+          },
+          "count": {
+            "type": "integer",
+            "description": "How many GameObjects to create. Default 1.",
+            "default": 1
+          },
+          "positions": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "description": "Local positions, one [x,y,z] per object. Length must equal count when supplied."
+          },
+          "rotations": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "description": "Local Euler rotations (degrees), one [x,y,z] per object. Length must equal count when supplied."
+          },
+          "scales": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "description": "Local scales, one [x,y,z] per object. Length must equal count when supplied."
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "create_prefab",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "Reference to the source GameObject to save as a prefab (globalId/path/guid/instanceId/hierarchyPath)."
+          },
+          "path": {
+            "type": "string",
+            "description": "Prefab asset path relative to the authoring root (the Assets/ prefix is optional and the .prefab extension is added if missing). e.g. Prefabs/Enemy or Prefabs/Enemy.prefab"
+          }
+        },
+        "required": [
+          "source",
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "create_prefab_variant",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "base": {
+            "type": "string",
+            "description": "Reference to the base prefab asset (path/guid/globalId)."
+          },
+          "path": {
+            "type": "string",
+            "description": "Variant prefab asset path relative to the authoring root (.prefab added if missing)."
+          }
+        },
+        "required": [
+          "base",
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "create_scene",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Scene path relative to the authoring root (default Assets/); the Assets/ prefix and the .unity extension are optional. e.g. Scenes/Level1"
+          },
+          "additive": {
+            "type": "boolean",
+            "description": "Open the new scene additively alongside currently open scenes instead of replacing them.",
+            "default": false
+          },
+          "template": {
+            "type": "string",
+            "description": "Initial contents: 'empty' (default) for a blank scene, or 'default' to seed a Main Camera + Directional Light matching Unity's built-in 3D template.",
+            "default": "empty"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "create_script",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Class/file name without extension, e.g. PlayerController. Must be a valid C# identifier."
+          },
+          "path": {
+            "type": "string",
+            "description": "Folder (relative to the authoring root; the Assets/ prefix is optional) to write the .cs into. Defaults to the authoring root."
+          },
+          "namespace": {
+            "type": "string",
+            "description": "Optional namespace to wrap the class in. Omit for the global namespace."
+          },
+          "base_class": {
+            "type": "string",
+            "description": "Base class to derive from. Defaults to MonoBehaviour.",
+            "default": "MonoBehaviour"
+          },
+          "overwrite": {
+            "type": "boolean",
+            "description": "Overwrite the file if it already exists. Defaults to false (an existing file is an error).",
+            "default": false
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "create_timeline",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Asset path ending in .playable, relative to the authoring root. The Assets/ prefix is optional."
+          },
+          "frameRate": {
+            "type": "number",
+            "description": "Timeline frame rate (default 60).",
+            "default": 60
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Required (true) only when overwriting an existing asset at the path.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate inputs and report what would be created without writing anything.",
+            "default": false
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "delete_asset",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "asset": {
+            "type": "string",
+            "description": "Reference to the asset to delete (path / guid / globalId)."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Must be true to actually delete. Without it the command refuses (destructive guard).",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, report the asset that would be deleted without deleting it.",
+            "default": false
+          }
+        },
+        "required": [
+          "asset"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "delete_gameobject",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Handle of the GameObject to delete."
+          }
+        },
+        "required": [
+          "target"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "editor_focus",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "editor_pause",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "editor_play",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "editor_status",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "editor_stop",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "eval",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "description": "C# code to evaluate"
+          },
+          "timeout": {
+            "type": "integer",
+            "description": "Timeout in milliseconds",
+            "default": 5000
+          }
+        },
+        "required": [
+          "code"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "eval_file",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "file": {
+            "type": "string",
+            "description": "Path to a .cs file to evaluate"
+          },
+          "timeout": {
+            "type": "integer",
+            "description": "Timeout in milliseconds",
+            "default": 5000
+          }
+        },
+        "required": [
+          "file"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "find_assets",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "Type name to filter by (e.g. Material, GameObject, ScriptableObject, MyGame.GameConfig). Resolved to a System.Type and matched against each asset's actual main type."
+          },
+          "name": {
+            "type": "string",
+            "description": "Name substring to filter by (AssetDatabase name filter)."
+          },
+          "label": {
+            "type": "string",
+            "description": "Asset label to filter by (AssetDatabase 'l:' filter)."
+          },
+          "search_in": {
+            "type": "string",
+            "description": "Folder to scope the search to, relative to the authoring root (default: the authoring root)."
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Maximum number of results to return (default 200).",
+            "default": 200
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "find_gameobjects",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Exact name to match."
+          },
+          "tag": {
+            "type": "string",
+            "description": "Tag to match (e.g. 'Player')."
+          },
+          "type": {
+            "type": "string",
+            "description": "Component type name to match (e.g. 'Rigidbody', 'UnityEngine.Camera')."
+          },
+          "hierarchy_path": {
+            "type": "string",
+            "description": "Exact hierarchy path to match (e.g. '/Root/Child')."
+          },
+          "include_inactive": {
+            "type": "boolean",
+            "description": "Include inactive GameObjects. Default true.",
+            "default": true
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_animation_clip",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "clip": {
+            "type": "string",
+            "description": "Reference to the AnimationClip to read (path / guid / globalId)."
+          },
+          "includeKeys": {
+            "type": "boolean",
+            "description": "If true, include each binding's keyframes (default false).",
+            "default": false
+          }
+        },
+        "required": [
+          "clip"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_animator_controller",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "controller": {
+            "type": "string",
+            "description": "Reference to the AnimatorController to read (path / guid / globalId)."
+          }
+        },
+        "required": [
+          "controller"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_audio_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_authoring_root",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_build_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_component_properties",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Handle of the component, OR of the GameObject when 'type' is given."
+          },
+          "type": {
+            "type": "string",
+            "description": "Component type name on the target GameObject (omit when 'target' is a component handle)."
+          }
+        },
+        "required": [
+          "target"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_graphics_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_import_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "asset": {
+            "type": "string",
+            "description": "Reference to the asset whose importer to read (path / guid / globalId)."
+          },
+          "platform": {
+            "type": "string",
+            "description": "Platform whose override to read: Default | Standalone | iOS | Android | WebGL | tvOS. Defaults to Default.",
+            "default": "Default"
+          }
+        },
+        "required": [
+          "asset"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_input_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_lighting_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_material_properties",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "material": {
+            "type": "string",
+            "description": "Reference to the .mat asset (or a loaded material) to read (path / guid / globalId / instanceId)."
+          }
+        },
+        "required": [
+          "material"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_navmesh_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_performance_stats",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_physics_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_player_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_quality_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_runtime_pipeline_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_scene_hierarchy",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Path of the open scene to snapshot (authoring-root relative; Assets/ prefix and .unity optional). Omit for the active scene."
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_selection",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_serialized_fields",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Reference to the component or asset to read (globalId/path/guid/instanceId/hierarchyPath). May be a GameObject when 'component' is given."
+          },
+          "field": {
+            "type": "string",
+            "description": "Optional single SerializedProperty path to read (e.g. 'speed' or 'items.Array.data[0]'). Omit to read all top-level fields."
+          },
+          "component": {
+            "type": "string",
+            "description": "Component type name on the target GameObject (e.g. 'Rigidbody'). Use when 'target' is a GameObject; omit when 'target' is already a component handle."
+          },
+          "format": {
+            "type": "string",
+            "description": "Output shape. Omit (default) for a full descriptor per field {name,path,propertyType,isArray,arrayLength,value}; 'value' returns just the value(s): the raw value for a single 'field', or a {name: value} map for all fields."
+          }
+        },
+        "required": [
+          "target"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_shader_properties",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "shader": {
+            "type": "string",
+            "description": "Shader name (e.g. \"Universal Render Pipeline/Lit\"). Provide this OR 'material'."
+          },
+          "material": {
+            "type": "string",
+            "description": "Reference to a material to read the shader from instead of naming it. Provide this OR 'shader'."
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_tags_layers",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_time_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_timeline",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "timeline": {
+            "type": "string",
+            "description": "Reference to the TimelineAsset to read (path / guid / globalId)."
+          }
+        },
+        "required": [
+          "timeline"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "import_asset",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "Absolute filesystem path to the external file to import."
+          },
+          "path": {
+            "type": "string",
+            "description": "Destination asset path relative to the authoring root, including extension. The Assets/ prefix is optional."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Required (true) only when overwriting an existing asset at the destination path.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate inputs and report what would be imported without writing anything.",
+            "default": false
+          }
+        },
+        "required": [
+          "source",
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "instantiate_prefab",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "prefab": {
+            "type": "string",
+            "description": "Reference to the prefab asset to instantiate (path/guid/globalId)."
+          },
+          "scene_path": {
+            "type": "string",
+            "description": "Optional path of a loaded scene to instantiate into; defaults to the active scene."
+          },
+          "name": {
+            "type": "string",
+            "description": "Optional name for the created instance; defaults to the prefab name."
+          }
+        },
+        "required": [
+          "prefab"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "lighting_bake_status",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "list_build_profiles",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "list_build_targets",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "list_open_scenes",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "list_shaders",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "filter": {
+            "type": "string",
+            "description": "Case-insensitive substring matched against the shader name (e.g. \"URP\", \"Lit\")."
+          },
+          "includeBuiltin": {
+            "type": "boolean",
+            "description": "Include built-in/engine shaders (those with no project asset path). Default true.",
+            "default": true
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Maximum number of shaders to return (default 200).",
+            "default": 200
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "list_tests",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "description": "Test mode: all, editor, playmode (default: all)",
+            "default": "all"
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "log",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "description": "Message to log to console"
+          },
+          "level": {
+            "type": "string",
+            "description": "Log level: info, warning, error",
+            "default": "info"
+          }
+        },
+        "required": [
+          "message"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "menu",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Menu item path to execute, e.g. \"Assets/Reimport All\". Omit to list available menu items.",
+            "default": ""
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "move_asset",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "asset": {
+            "type": "string",
+            "description": "Reference to the asset to move (path / guid / globalId)."
+          },
+          "destination": {
+            "type": "string",
+            "description": "Destination asset path relative to the authoring root, including extension. The Assets/ prefix is optional."
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate the move (via AssetDatabase.ValidateMoveAsset) without performing it.",
+            "default": false
+          }
+        },
+        "required": [
+          "asset",
+          "destination"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "navmesh_bake_status",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "occlusion_bake_status",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "open_scene",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Scene path relative to the authoring root (default Assets/); the Assets/ prefix and the .unity extension are optional."
+          },
+          "additive": {
+            "type": "boolean",
+            "description": "Open additively alongside currently open scenes instead of replacing them.",
+            "default": false
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "package_add",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string",
+            "description": "Package to add: 'com.unity.foo@1.2.3', a git URL, or 'file:../Path'.",
+            "default": ""
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Apply the change. Without it the call is refused.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Preview the change without applying it.",
+            "default": false
+          },
+          "wait": {
+            "type": "boolean",
+            "description": "Block until the operation completes and return the result (synchronous). Default: return immediately and poll package_status.",
+            "default": false
+          }
+        },
+        "required": [
+          "identifier"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "package_list",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "scope": {
+            "type": "string",
+            "description": "Which packages to list: installed (default) | available | all.",
+            "default": "installed"
+          },
+          "include_indirect": {
+            "type": "boolean",
+            "description": "Include indirect (transitive) installed dependencies (applies to scope=installed/all).",
+            "default": true
+          },
+          "offline": {
+            "type": "boolean",
+            "description": "For available/all: query the local cache instead of the registry.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "package_remove",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Package name to remove (e.g. com.unity.foo).",
+            "default": ""
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Apply the change. Without it the call is refused.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Preview the change without applying it.",
+            "default": false
+          },
+          "wait": {
+            "type": "boolean",
+            "description": "Block until the operation completes and return the result (synchronous). Default: return immediately and poll package_status.",
+            "default": false
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "package_resolve",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "package_search",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Package name to search for. Omit/empty to list all available packages.",
+            "default": ""
+          },
+          "offline": {
+            "type": "boolean",
+            "description": "Search the local cache only.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "package_status",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "quit",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "exitCode": {
+            "type": "integer",
+            "description": "Exit code for the application",
+            "default": 0
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "read_text_file",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Text file path relative to the authoring root. The Assets/ prefix is optional."
+          },
+          "max_bytes": {
+            "type": "integer",
+            "description": "Reject files larger than this many bytes (default 1048576 = 1 MiB) to avoid huge payloads.",
+            "default": 1048576
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "recompile",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "focus": {
+            "type": "boolean",
+            "description": "If true, bring the Editor to the foreground before compiling. Off by default.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "recompile_status",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "reload_file",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "filename": {
+            "type": "string",
+            "description": "Source file containing [CodeReload] methods (e.g. Assets/Scripts/Player.cs)"
+          },
+          "timeout": {
+            "type": "integer",
+            "description": "Compilation timeout in milliseconds",
+            "default": 30000
+          },
+          "assemblyDir": {
+            "type": "string",
+            "description": "Directory to save compiled assemblies to disk (optional, default is in-memory only)"
+          },
+          "pdb": {
+            "type": "boolean",
+            "description": "Emit debug symbols (portable PDB) mapped to the original source so breakpoints bind in your editor. Compiles unoptimized.",
+            "default": false
+          }
+        },
+        "required": [
+          "filename"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "reload_file_editor_interpreter",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "filename": {
+            "type": "string",
+            "description": "Source file containing [CodeReload] methods (e.g. Assets/Scripts/Player.cs)"
+          },
+          "timeout": {
+            "type": "integer",
+            "description": "Compilation timeout in milliseconds",
+            "default": 30000
+          },
+          "assemblyDir": {
+            "type": "string",
+            "description": "Directory to save compiled assemblies to disk (optional, default is in-memory only)"
+          },
+          "pdb": {
+            "type": "boolean",
+            "description": "Emit debug symbols (portable PDB) mapped to the original source so breakpoints bind in your editor. Compiles unoptimized.",
+            "default": false
+          }
+        },
+        "required": [
+          "filename"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "reload_file_player_interpreter",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "filename": {
+            "type": "string",
+            "description": "Source .cs file or a folder containing [CodeReload] methods (e.g. Assets/pong.cs or Assets/Scripts)"
+          },
+          "player": {
+            "type": "integer",
+            "description": "Target connected player id; -1 = broadcast to all connected players",
+            "default": -1
+          }
+        },
+        "required": [
+          "filename"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "remove_animation_curve",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "clip": {
+            "type": "string",
+            "description": "Reference to the AnimationClip to edit (path / guid / globalId)."
+          },
+          "path": {
+            "type": "string",
+            "description": "GameObject path relative to the animated root the binding lives on. Empty string (default) targets the root.",
+            "default": ""
+          },
+          "type": {
+            "type": "string",
+            "description": "Component type of the binding to remove, e.g. \"Transform\". Resolved via the component TypeResolver."
+          },
+          "property": {
+            "type": "string",
+            "description": "Curve property name to remove, e.g. \"m_LocalPosition.x\"."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Must be true to actually remove the binding (destructive guard).",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, report the binding that would be removed without removing it.",
+            "default": false
+          }
+        },
+        "required": [
+          "clip",
+          "type",
+          "property"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "remove_component",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Handle of the component to remove, OR of the GameObject when 'type' is given."
+          },
+          "type": {
+            "type": "string",
+            "description": "Component type name to remove from the target GameObject (omit when 'target' already points at a component)."
+          }
+        },
+        "required": [
+          "target"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "remove_scene_from_build",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Scene path to remove (authoring-root relative; Assets/ prefix and .unity optional)."
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "rename_asset",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "asset": {
+            "type": "string",
+            "description": "Reference to the asset to rename (path / guid / globalId)."
+          },
+          "new_name": {
+            "type": "string",
+            "description": "New file name WITHOUT a folder path. The extension is preserved if omitted."
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate the rename without performing it.",
+            "default": false
+          }
+        },
+        "required": [
+          "asset",
+          "new_name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "rename_gameobject",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Handle of the GameObject."
+          },
+          "name": {
+            "type": "string",
+            "description": "New name."
+          }
+        },
+        "required": [
+          "target",
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "report_evals",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "top": {
+            "type": "integer",
+            "description": "Maximum entries in each ranked list (API fingerprints, and uncovered patterns suggested as commands). Accepted range: 0 or greater; negative values fall back to the default (50).",
+            "default": 50
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "revert_prefab_overrides",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "instance": {
+            "type": "string",
+            "description": "Reference to a prefab instance GameObject in a scene (instanceId/hierarchyPath/globalId)."
+          }
+        },
+        "required": [
+          "instance"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "run_script",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "file": {
+            "type": "string",
+            "description": "Path to a .cs file to compile. Relative paths resolve against the PROJECT ROOT (the parent of Assets/), not the process working directory. May live OUTSIDE Assets/ (e.g. AgentScripts/) so writing it never triggers an asset import or domain reload."
+          },
+          "entry": {
+            "type": "string",
+            "description": "Entry point as Namespace.Type.Method (or Type.Method, or a bare Method name). Default: the single public static method if unambiguous, else a method named Main. Static methods only in v1. Ephemeral mode only (rejected with mode=hotpatch, which never invokes an entry point)."
+          },
+          "args": {
+            "type": "string",
+            "description": "JSON array of arguments passed to the entry point, coerced to its parameter types: primitives, enum names, string[], and a string/object handle (ObjectRef) for UnityEngine.Object parameters. Ephemeral mode only (rejected with mode=hotpatch)."
+          },
+          "mode": {
+            "type": "string",
+            "description": "ephemeral (default): compile to an in-memory assembly, run the entry, discard. hotpatch: apply [CodeReload] method replacements to already-loaded types (reload_file semantics).",
+            "default": "ephemeral"
+          },
+          "references": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Extra assembly name prefixes to reference beyond the auto-resolved set. In the Editor all loaded assemblies are already referenced, so this is effectively a no-op there. Ephemeral mode only; not applied by hotpatch (which delegates to reload_file's own compile)."
+          },
+          "defines": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Extra scripting define symbols APPENDED to the project's active editor defines (UNITY_EDITOR etc. are already set) for the compilation's #if directives. Ephemeral mode only; not applied by hotpatch."
+          },
+          "pdb": {
+            "type": "boolean",
+            "description": "Emit a portable PDB mapped to the source file so breakpoints bind and exception stack traces map to file:line. Compiles unoptimized.",
+            "default": false
+          },
+          "timeout_ms": {
+            "type": "integer",
+            "description": "Timeout in milliseconds. Bounds the main-thread dispatcher wait AND, for an async entry point, how long its Task is awaited (on expiry the task keeps running detached).",
+            "default": 30000
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Compile only: return diagnostics; the emitted assembly is NOT loaded into the domain and nothing executes. Ephemeral mode only (rejected with mode=hotpatch, which would apply live method replacements).",
+            "default": false
+          }
+        },
+        "required": [
+          "file"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "run_tests",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "description": "Test mode: all, editor, playmode (default: all)",
+            "default": "all"
+          },
+          "filter": {
+            "type": "string",
+            "description": "Test name filter pattern (case-insensitive partial match)",
+            "default": ""
+          },
+          "filter_type": {
+            "type": "string",
+            "description": "Filter type: testName, assembly, category (default: testName)",
+            "default": "testName"
+          },
+          "include_explicit": {
+            "type": "boolean",
+            "description": "Include tests marked with [Explicit] attribute",
+            "default": false
+          },
+          "async_tests": {
+            "type": "boolean",
+            "description": "Run asynchronously - return immediately, poll /test-status for results",
+            "default": false
+          },
+          "timeout": {
+            "type": "integer",
+            "description": "Test execution timeout in seconds (default: 300)",
+            "default": 300
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "runtime_status",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "save_all",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "save_prefab_contents",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "prefab": {
+            "type": "string",
+            "description": "Reference to the prefab asset to edit (path/guid/globalId)."
+          },
+          "rename_child": {
+            "type": "string",
+            "description": "Optional child name (relative path under the root, e.g. 'Body/Head') to rename."
+          },
+          "new_name": {
+            "type": "string",
+            "description": "New name for the child identified by rename_child."
+          },
+          "set_active_child": {
+            "type": "string",
+            "description": "Optional child name (relative path under the root) whose active state to set."
+          },
+          "active": {
+            "type": "boolean",
+            "description": "Active state to apply when set_active_child is provided.",
+            "default": true
+          }
+        },
+        "required": [
+          "prefab"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "save_scene",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Path of the open scene to save (authoring-root relative; Assets/ prefix and .unity optional). Omit to save the active scene."
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "screenshot",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "view": {
+            "type": "string",
+            "description": "Which view to capture: 'game' (default) or 'scene'",
+            "default": "game"
+          },
+          "output": {
+            "type": "string",
+            "description": "Output PNG path (absolute, or relative to the project root). Defaults to a timestamped file under <project>/Temp/pipeline-screenshots/.",
+            "default": ""
+          },
+          "width": {
+            "type": "integer",
+            "description": "Output width in pixels. 0 (default) uses the view camera's current width.",
+            "default": 0
+          },
+          "height": {
+            "type": "integer",
+            "description": "Output height in pixels. 0 (default) uses the view camera's current height.",
+            "default": 0
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "search",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Unity Search query string, e.g. 't:Material', 'p: my asset', 'h: Main Camera'."
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Max results to return (capped 200).",
+            "default": 50
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_active",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Handle of the GameObject."
+          },
+          "active": {
+            "type": "boolean",
+            "description": "Desired active state."
+          }
+        },
+        "required": [
+          "target",
+          "active"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_active_scene",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Path of an already-open scene to make active (authoring-root relative; Assets/ prefix and .unity optional)."
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_animation_curve",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "clip": {
+            "type": "string",
+            "description": "Reference to the AnimationClip to edit (path / guid / globalId)."
+          },
+          "path": {
+            "type": "string",
+            "description": "GameObject path relative to the animated root the property lives on. Empty string (default) targets the root.",
+            "default": ""
+          },
+          "type": {
+            "type": "string",
+            "description": "Component type the property lives on, e.g. \"Transform\", \"UnityEngine.Light\". Resolved via the component TypeResolver."
+          },
+          "property": {
+            "type": "string",
+            "description": "Curve property name, e.g. \"m_LocalPosition.x\", \"m_LocalScale.y\", \"localEulerAnglesRaw.z\"."
+          },
+          "keys": {
+            "type": "string",
+            "description": "Keyframes: [{ time, value, inTangent?, outTangent?, weightedMode?: \"None\"|\"In\"|\"Out\"|\"Both\" }]. Omitted tangents default to 0 (flat); this is NOT Unity's Auto tangent mode."
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate type/property/keys without writing the curve.",
+            "default": false
+          }
+        },
+        "required": [
+          "clip",
+          "type",
+          "property",
+          "keys"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_audio_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "settings": {
+            "type": "object",
+            "properties": {
+              "volume": {
+                "type": "number",
+                "description": "Global audio volume (0..1)."
+              },
+              "rolloffScale": {
+                "type": "number",
+                "description": "Global rolloff scale."
+              },
+              "dopplerFactor": {
+                "type": "number",
+                "description": "Global doppler factor."
+              }
+            },
+            "additionalProperties": false,
+            "description": "Fields to change; omitted fields are left unchanged."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Apply the change. Without it the call is refused.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Preview the change without applying it.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_authoring_root",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "root": {
+            "type": "string",
+            "description": "Project-relative folder under Assets/, e.g. Assets/AgentWork. Use 'Assets' to allow the whole project."
+          }
+        },
+        "required": [
+          "root"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_autotick",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "enable": {
+            "type": "boolean",
+            "description": "Enable (true) or disable (false) auto-tick mode",
+            "default": true
+          },
+          "interval_ms": {
+            "type": "integer",
+            "description": "Minimum milliseconds between forced ticks. 0 = every update (max rate, pegs a CPU core). Default 16 (~60Hz).",
+            "default": 16
+          },
+          "persist": {
+            "type": "boolean",
+            "description": "Persist this choice to SessionState so it survives a domain reload. Set false for a one-off/expensive setting (e.g. interval_ms=0) that should revert to the last persisted choice (or the default) after the next recompile instead of sticking for the rest of the session.",
+            "default": true
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_build_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "settings": {
+            "type": "object",
+            "properties": {
+              "developmentBuild": {
+                "type": "boolean",
+                "description": "Build a Development Player (enables the debugger/profiler)."
+              },
+              "allowDebugging": {
+                "type": "boolean",
+                "description": "Allow script debugging (only effective with developmentBuild=true)."
+              },
+              "connectWithProfiler": {
+                "type": "boolean",
+                "description": "Auto-connect the Profiler (only effective with developmentBuild=true)."
+              },
+              "buildScriptsOnly": {
+                "type": "boolean",
+                "description": "Build only the scripts (skip data) for faster iteration."
+              },
+              "symlinkSources": {
+                "type": "boolean",
+                "description": "Symlink runtime/plugin sources instead of copying (where supported)."
+              },
+              "il2CppCodeGeneration": {
+                "type": "string",
+                "description": "IL2CPP code generation for the active target: OptimizeSpeed | OptimizeSize."
+              }
+            },
+            "additionalProperties": false,
+            "description": "Fields to change; omitted fields are left unchanged."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Apply the changes. Without it the call is refused.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Preview the change without applying it.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_component_properties",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Handle of the component, OR of the GameObject when 'type' is given."
+          },
+          "properties": {
+            "type": "string",
+            "description": "Map of serialized property name to value. Vectors/colors are arrays; object refs are handle objects."
+          },
+          "type": {
+            "type": "string",
+            "description": "Component type name on the target GameObject (omit when 'target' is a component handle)."
+          }
+        },
+        "required": [
+          "target",
+          "properties"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_graphics_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "settings": {
+            "type": "object",
+            "properties": {
+              "renderPipelineAsset": {
+                "type": "string",
+                "description": "Reference (path / guid / globalId) to a RenderPipelineAsset to set as the default. Pass an empty reference ({}) to select the built-in pipeline; omit to leave unchanged."
+              }
+            },
+            "additionalProperties": false,
+            "description": "Fields to change; omitted fields are left unchanged."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Apply the change. Without it the call is refused.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Preview the change without applying it.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_import_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "asset": {
+            "type": "string",
+            "description": "Reference to the asset whose importer to edit (path / guid / globalId)."
+          },
+          "settings": {
+            "type": "string",
+            "description": "JSON object of importer property/field names to values, e.g. {\"isReadable\": true, \"textureType\": \"NormalMap\"}. For platform != Default on a texture/audio importer, keys map onto the platform-settings struct (e.g. maxTextureSize, format, compressionFormat, quality, and overridden)."
+          },
+          "platform": {
+            "type": "string",
+            "description": "Target platform: Default | Standalone | iOS | Android | WebGL | tvOS. Defaults to Default (top-level importer properties). A real platform writes a per-platform override (textures/audio only).",
+            "default": "Default"
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate which settings would apply (and which are unknown) without writing or re-importing.",
+            "default": false
+          }
+        },
+        "required": [
+          "asset",
+          "settings"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_input_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "settings": {
+            "type": "object",
+            "properties": {
+              "axis": {
+                "type": "string",
+                "description": "Name of the axis to modify (e.g. 'Horizontal')."
+              },
+              "sensitivity": {
+                "type": "number",
+                "description": "New sensitivity."
+              },
+              "gravity": {
+                "type": "number",
+                "description": "New gravity."
+              },
+              "dead": {
+                "type": "number",
+                "description": "New dead-zone size."
+              }
+            },
+            "required": [
+              "axis"
+            ],
+            "additionalProperties": false,
+            "description": "Axis change. 'axis' selects the axis by name; omitted numeric fields are left unchanged."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Apply the change. Without it the call is refused.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Preview the change without applying it.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_layer",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Handle of the GameObject."
+          },
+          "layer": {
+            "type": "string",
+            "description": "Layer name (e.g. 'UI') or numeric index 0-31."
+          }
+        },
+        "required": [
+          "target",
+          "layer"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_lighting_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "settings": {
+            "type": "string",
+            "description": "JSON object with a subset of lighting fields to set (same names/enums as get_lighting_settings)."
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate the keys and report applied/unknown without changing anything.",
+            "default": false
+          }
+        },
+        "required": [
+          "settings"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_material_properties",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "material": {
+            "type": "string",
+            "description": "Reference to the .mat asset (or a loaded material) to edit (path / guid / globalId / instanceId)."
+          },
+          "shader": {
+            "type": "string",
+            "description": "Reassign the material's shader by name (e.g. \"Standard\", \"Universal Render Pipeline/Lit\", or a Shader Graph shader name). Applied before properties so new property names resolve against the new shader."
+          },
+          "properties": {
+            "type": "string",
+            "description": "JSON object of shader property name -> value. Names must include the leading underscore (e.g. _BaseColor). Float/Range/Int=number; Color=[r,g,b,a] or hex string; Vector=[x,y,z,w]; Texture=an object reference {guid/path} or null."
+          },
+          "renderQueue": {
+            "type": "integer",
+            "description": "Explicit render queue, or -1 to inherit from the shader. Omit to leave unchanged."
+          },
+          "enableKeywords": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Shader keywords to enable (e.g. _NORMALMAP, _EMISSION)."
+          },
+          "disableKeywords": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Shader keywords to disable."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Reserved for parity; editing an existing material is non-destructive and undoable, so it is not required.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate the shader, resolve property names and texture refs, and report applied[]/unknown[] without writing anything.",
+            "default": false
+          }
+        },
+        "required": [
+          "material"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_navmesh_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "settings": {
+            "type": "string",
+            "description": "JSON object with a subset of NavMesh fields to set (same names as get_navmesh_settings)."
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate the keys and report applied/unknown without changing anything.",
+            "default": false
+          }
+        },
+        "required": [
+          "settings"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_parent",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Handle of the GameObject to reparent."
+          },
+          "parent": {
+            "type": "string",
+            "description": "Handle of the new parent. Omit (or empty) to move the object to the scene root."
+          },
+          "world_position_stays": {
+            "type": "boolean",
+            "description": "Keep the object's world position when reparenting. Default true.",
+            "default": true
+          }
+        },
+        "required": [
+          "target"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_physics_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "settings": {
+            "type": "object",
+            "properties": {
+              "gravityX": {
+                "type": "number",
+                "description": "Gravity X component."
+              },
+              "gravityY": {
+                "type": "number",
+                "description": "Gravity Y component (e.g. -9.81)."
+              },
+              "gravityZ": {
+                "type": "number",
+                "description": "Gravity Z component."
+              },
+              "defaultSolverIterations": {
+                "type": "integer",
+                "description": "Default solver iteration count."
+              },
+              "bounceThreshold": {
+                "type": "number",
+                "description": "Bounce threshold velocity."
+              }
+            },
+            "additionalProperties": false,
+            "description": "Fields to change; omitted fields are left unchanged."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Apply the change. Without it the call is refused.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Preview the change without applying it.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_player_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "settings": {
+            "type": "object",
+            "properties": {
+              "companyName": {
+                "type": "string",
+                "description": "Company name."
+              },
+              "productName": {
+                "type": "string",
+                "description": "Product name."
+              },
+              "bundleVersion": {
+                "type": "string",
+                "description": "Bundle/application version string."
+              },
+              "scriptingBackend": {
+                "type": "string",
+                "enum": [
+                  "Mono2x",
+                  "IL2CPP",
+                  "WinRTDotNET",
+                  "CoreCLR"
+                ],
+                "description": "Scripting backend (e.g. Mono2x, IL2CPP). Triggers a domain reload."
+              },
+              "apiCompatibilityLevel": {
+                "type": "string",
+                "enum": [
+                  "NET_2_0",
+                  "NET_2_0_Subset",
+                  "NET_4_6",
+                  "NET_Unity_4_8",
+                  "NET_Web",
+                  "NET_Micro",
+                  "NET_Standard_2_0",
+                  "NET_Standard",
+                  "NET"
+                ],
+                "description": "API compatibility level (e.g. NET_Standard_2_0, NET_Unity_4_8). Triggers a domain reload."
+              }
+            },
+            "additionalProperties": false,
+            "description": "Fields to change; omitted fields are left unchanged."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Apply the change. Without it the call is refused.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Preview the change without applying it.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_quality_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "settings": {
+            "type": "object",
+            "properties": {
+              "level": {
+                "type": "integer",
+                "description": "Quality level index (see levelNames from get_quality_settings)."
+              },
+              "vSyncCount": {
+                "type": "integer",
+                "description": "VSync count (0 = off, 1, 2)."
+              },
+              "antiAliasing": {
+                "type": "integer",
+                "description": "MSAA sample count (0, 2, 4, 8)."
+              }
+            },
+            "additionalProperties": false,
+            "description": "Fields to change; omitted fields are left unchanged."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Apply the change. Without it the call is refused.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Preview the change without applying it.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_runtime_pipeline_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "settings": {
+            "type": "object",
+            "properties": {
+              "enableInBuilds": {
+                "type": "boolean",
+                "description": "Enable the Pipeline HTTP server in Player builds. SECURITY WARNING: only enable in development/QA builds."
+              },
+              "port": {
+                "type": "integer",
+                "description": "HTTP port for the Pipeline server. 0 = auto-assign from range 7900-7999."
+              },
+              "requestTimeoutMs": {
+                "type": "integer",
+                "description": "Request timeout in milliseconds."
+              },
+              "enableAuditLogging": {
+                "type": "boolean",
+                "description": "Log every remote request for security auditing."
+              },
+              "autoStart": {
+                "type": "boolean",
+                "description": "Start the server automatically when the Player boots (or Play Mode is entered)."
+              },
+              "maxWorkItemsPerFrame": {
+                "type": "integer",
+                "description": "Maximum work items the dispatcher processes per frame."
+              }
+            },
+            "additionalProperties": false,
+            "description": "Fields to change; omitted fields are left unchanged."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Apply the change. Without it the call is refused.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Preview the change without applying it.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_selection",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "instance_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Scene/loaded object instance IDs to select."
+          },
+          "paths": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Asset paths to select (e.g. Assets/Foo.prefab)."
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_serialized_field",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Reference to the component or asset to modify (globalId/path/guid/instanceId/hierarchyPath). May be a GameObject when 'component' is given."
+          },
+          "field": {
+            "type": "string",
+            "description": "SerializedProperty path, e.g. 'speed', 'settings.speed', or 'waypoints.Array.data[0]'."
+          },
+          "value": {
+            "type": "string",
+            "description": "JSON value to assign. For object references pass an ObjectRef object (or null to clear). For enums pass the value name."
+          },
+          "component": {
+            "type": "string",
+            "description": "Component type name on the target GameObject (e.g. 'Rigidbody'). Use when 'target' is a GameObject; omit when 'target' is already a component handle."
+          }
+        },
+        "required": [
+          "target",
+          "field",
+          "value"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_tag",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Handle of the GameObject."
+          },
+          "tag": {
+            "type": "string",
+            "description": "Tag to assign (must exist in the Tag Manager)."
+          }
+        },
+        "required": [
+          "target",
+          "tag"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_tags_layers",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "settings": {
+            "type": "object",
+            "properties": {
+              "addTags": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Tag names to add."
+              },
+              "removeTags": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Tag names to remove."
+              },
+              "setLayers": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "index": {
+                      "type": "integer",
+                      "description": "Layer index (8-31 for user layers)."
+                    },
+                    "name": {
+                      "type": "string",
+                      "description": "Layer name (empty string clears the slot)."
+                    }
+                  },
+                  "required": [
+                    "index",
+                    "name"
+                  ],
+                  "additionalProperties": false
+                },
+                "description": "User layer assignments (index 8-31)."
+              }
+            },
+            "additionalProperties": false,
+            "description": "Tag/layer changes to make."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Apply the change. Without it the call is refused.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Preview the change without applying it.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_target_framerate",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "frameRate": {
+            "type": "integer",
+            "description": "Target frame rate (-1 for platform default, 0 for unlimited)"
+          }
+        },
+        "required": [
+          "frameRate"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_time_settings",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "settings": {
+            "type": "object",
+            "properties": {
+              "fixedDeltaTime": {
+                "type": "number",
+                "description": "Fixed timestep in seconds (e.g. 0.02)."
+              },
+              "maximumDeltaTime": {
+                "type": "number",
+                "description": "Maximum allowed timestep in seconds."
+              },
+              "timeScale": {
+                "type": "number",
+                "description": "Time scale (1 = real-time)."
+              }
+            },
+            "additionalProperties": false,
+            "description": "Fields to change; omitted fields are left unchanged."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Apply the change. Without it the call is refused.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Preview the change without applying it.",
+            "default": false
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_timescale",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "scale": {
+            "type": "number",
+            "description": "Time scale multiplier (0.0 to pause, 1.0 for normal speed)"
+          }
+        },
+        "required": [
+          "scale"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "set_transform",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Handle of the GameObject to modify."
+          },
+          "position": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "description": "Local position as [x,y,z]."
+          },
+          "rotation": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "description": "Local rotation as Euler angles [x,y,z] in degrees."
+          },
+          "scale": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "description": "Local scale as [x,y,z]."
+          }
+        },
+        "required": [
+          "target"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "simulate_key",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string",
+            "description": "Input System Key name, e.g. Space, W, Enter, LeftArrow"
+          },
+          "action": {
+            "type": "string",
+            "description": "down | up | press (down+up). Default: press",
+            "default": "press"
+          }
+        },
+        "required": [
+          "key"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "simulate_pointer",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "number",
+            "description": "Screen X in pixels (origin bottom-left)"
+          },
+          "y": {
+            "type": "number",
+            "description": "Screen Y in pixels (origin bottom-left)"
+          },
+          "action": {
+            "type": "string",
+            "description": "move | down | up | click (down+up). Default: click",
+            "default": "click"
+          },
+          "button": {
+            "type": "string",
+            "description": "left | right | middle. Default: left",
+            "default": "left"
+          }
+        },
+        "required": [
+          "x",
+          "y"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "switch_build_target",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "BuildTarget name to switch to (must be installed; see list_build_targets).",
+            "default": ""
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Apply the switch. Without it the call is refused.",
+            "default": false
+          }
+        },
+        "required": [
+          "target"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "switch_build_target_status",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "test_status",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "unpack_prefab",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "instance": {
+            "type": "string",
+            "description": "Reference to a prefab instance GameObject in a scene (instanceId/hierarchyPath/globalId)."
+          },
+          "completely": {
+            "type": "boolean",
+            "description": "If true, unpack all nested prefab levels (Completely); if false, only the outermost level (OutermostRoot).",
+            "default": false
+          }
+        },
+        "required": [
+          "instance"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "wait_cancel",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "wait_id": {
+            "type": "string",
+            "description": "The wait id to cancel."
+          }
+        },
+        "required": [
+          "wait_id"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "wait_for",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "condition": {
+            "type": "object",
+            "properties": {
+              "member": {
+                "type": "string",
+                "description": "Dotted member path. With no target/findType it is a fully-qualified static path (e.g. \"UnityEditor.EditorApplication.isPlaying\"); with target/findType it walks instance members (e.g. \"State\" or \"Health.CurrentHealth\"). Read-only members only."
+              },
+              "target": {
+                "type": "string",
+                "description": "Object handle (instanceId / hierarchyPath / guid / path / globalId) to read instance members from. Omit for a static member path or to use findType."
+              },
+              "findType": {
+                "type": "string",
+                "description": "Fully-qualified UnityEngine.Object type name; the member walks from its first loaded instance. Alternative to target."
+              },
+              "op": {
+                "type": "string",
+                "description": "Comparison: equals (default) | notEquals | greaterThan | lessThan | contains (strings) | changed (met on first change from the initially observed value; needs no value). changed is for value-like members (primitives/enums/strings); content mutations inside a reference-typed member are not detected."
+              },
+              "value": {
+                "type": "string",
+                "description": "Comparison operand, coerced to the member's type (primitive, enum name, or string). Required for every op except 'changed'. equals/notEquals accept an EXPLICIT null (e.g. wait-until-destroyed: a destroyed leaf value observes as null); omitting the key entirely is rejected."
+              }
+            },
+            "required": [
+              "member"
+            ],
+            "additionalProperties": false,
+            "description": "Condition to wait for: { member, target?, findType?, op, value }. member is a dotted path (static, or instance under target/findType); op is equals|notEquals|greaterThan|lessThan|contains|changed."
+          },
+          "timeout_s": {
+            "type": "number",
+            "description": "Maximum seconds to wait (default 30, clamped to 0-600; must be finite).",
+            "default": 30
+          },
+          "poll_interval_ms": {
+            "type": "number",
+            "description": "How often to re-check the condition, in milliseconds (default 100, clamped to 16-5000; must be finite).",
+            "default": 100
+          },
+          "on_met": {
+            "type": "object",
+            "properties": {
+              "capture": {
+                "type": "object",
+                "properties": {
+                  "view": {
+                    "type": "string",
+                    "description": "Which view to capture: game (default) or scene."
+                  },
+                  "source": {
+                    "type": "string",
+                    "description": "Game view only: 'camera' (default) renders a camera and misses Screen Space - Overlay UI; 'screen' captures the composited game view incl. overlay canvases (HUDs), Play Mode only."
+                  },
+                  "save_path": {
+                    "type": "string",
+                    "description": "Project-relative path to write the PNG (e.g. Screenshots/victory.png)."
+                  },
+                  "width": {
+                    "type": "integer",
+                    "description": "Output width in px (default 1280)."
+                  },
+                  "height": {
+                    "type": "integer",
+                    "description": "Output height in px (default 720)."
+                  },
+                  "include_image": {
+                    "type": "boolean",
+                    "description": "Also return the PNG inline as base64 (default false: path-only when save_path is set)."
+                  }
+                },
+                "additionalProperties": false,
+                "description": "Capture the game or scene view the moment the condition holds (reuses the capture command internals)."
+              },
+              "pause": {
+                "type": "boolean",
+                "description": "Pause play mode on the frame the condition holds (no-op outside play mode)."
+              }
+            },
+            "additionalProperties": false,
+            "description": "Follow-up run in the same editor frame the condition first holds: { capture: { view, source, save_path, width, height, include_image }, pause }."
+          },
+          "return_history": {
+            "type": "boolean",
+            "description": "Include the observed value/timestamp samples (a ring buffer of the last 200, so the tail near the transition is kept).",
+            "default": false
+          },
+          "tolerate_missing": {
+            "type": "boolean",
+            "description": "Treat resolution failures (type/member/instance not found) as condition-not-met and retry until timeout, instead of failing fast. Enables waiting for something to exist (e.g. a spawned object via findType).",
+            "default": false
+          },
+          "async": {
+            "type": "boolean",
+            "description": "Return a wait_id immediately and evaluate in the background; poll wait_status and cancel with wait_cancel. Use this for long waits and whenever the condition depends on a command you still need to issue — a sync wait blocks it.",
+            "default": false
+          }
+        },
+        "required": [
+          "condition"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "wait_status",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "wait_id": {
+            "type": "string",
+            "description": "The wait id returned by wait_for when async=true."
+          }
+        },
+        "required": [
+          "wait_id"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "write_text_file",
+      "annotations": {},
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Text file path relative to the authoring root, including extension. The Assets/ prefix is optional."
+          },
+          "contents": {
+            "type": "string",
+            "description": "The full text content to write (replaces the file)."
+          },
+          "confirm": {
+            "type": "boolean",
+            "description": "Required (true) only when overwriting an existing file at the path.",
+            "default": false
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "If true, validate inputs and report what would be written without writing anything.",
+            "default": false
+          }
+        },
+        "required": [
+          "path",
+          "contents"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ],
+  "initialize_passed": true,
+  "tools_list_passed": true,
+  "called_tool": "get_scene_hierarchy",
+  "tool_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"sceneName\": \"SetupSmoke\",\n  \"scenePath\": \"Assets/Smoke/SetupSmoke.unity\",\n  \"isDirty\": false,\n  \"isActive\": true,\n  \"roots\": [\n    {\n      \"name\": \"GameSetupSmokeCube\",\n      \"instanceId\": 3298534904300,\n      \"hierarchyPath\": \"/GameSetupSmokeCube\",\n      \"activeSelf\": true,\n      \"components\": [\n        \"Transform\",\n        \"MeshFilter\",\n        \"BoxCollider\",\n        \"MeshRenderer\"\n      ],\n      \"children\": []\n    },\n    {\n      \"name\": \"GameSetupSmokeCamera\",\n      \"instanceId\": 1099511648816,\n      \"hierarchyPath\": \"/GameSetupSmokeCamera\",\n      \"activeSelf\": true,\n      \"components\": [\n        \"Transform\",\n        \"Camera\"\n      ],\n      \"children\": []\n    },\n    {\n      \"name\": \"GameSetupSmokeLight\",\n      \"instanceId\": 3298534904160,\n      \"hierarchyPath\": \"/GameSetupSmokeLight\",\n      \"activeSelf\": true,\n      \"components\": [\n        \"Transform\",\n        \"Light\"\n      ],\n      \"children\": []\n    }\n  ]\n}"
+      }
+    ]
+  },
+  "tool_call_passed": true
+}

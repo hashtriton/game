@@ -1,0 +1,12 @@
+{
+  "source_version": "1.0.3",
+  "source_original_sha256": "e77e7b967d021f817a19d9269d3bf44068559aed7487c326eab8c7f3ab1187a3",
+  "patched_sha256": "5a608f16c449f1eb4c46fde9092f8fdc08b608b73f29980c8a9ad6c7f45533cc",
+  "patch": "stdin=subprocess.DEVNULL",
+  "source": "https://projects.blender.org/lab/blender_mcp/issues/58",
+  "cause_status": "hypothesis matching upstream report; MCP retry pending separate owner consent",
+  "paths": [
+    "C:\\Users\\Netes\\Desktop\\proj\\game\\.local\\blender-mcp-source\\blmcp\\tools_helpers\\blender_cli.py",
+    "C:\\Users\\Netes\\Desktop\\proj\\game\\.local\\blender-mcp-venv\\Lib\\site-packages\\blmcp\\tools_helpers\\blender_cli.py"
+  ]
+}

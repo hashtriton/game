@@ -1,0 +1,4 @@
+{
+  "blend_file": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\smoke\\blender-smoke.blend",
+  "code": "import bpy\nresult = {\"blender_version\": bpy.app.version_string, \"objects\": [o.name for o in bpy.context.scene.objects]}"
+}

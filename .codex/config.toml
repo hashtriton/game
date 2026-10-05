@@ -1,0 +1,33 @@
+# Только проект game. Общая конфигурация и sandbox Codex не изменяются.
+[mcp_servers.unity]
+command = 'C:\Program Files\Unity Hub\resources\unity.exe'
+args = ['mcp', '--project-path', 'C:\Users\Netes\Desktop\proj\game\unity']
+cwd = 'C:\Users\Netes\Desktop\proj\game'
+enabled = true
+startup_timeout_sec = 30
+tool_timeout_sec = 60
+enabled_tools = ['editor_status', 'get_scene_hierarchy', 'list_open_scenes', 'get_component_properties', 'find_assets', 'package_list']
+default_tools_approval_mode = 'prompt'
+
+[mcp_servers.blender]
+command = 'C:\Users\Netes\Desktop\proj\game\.local\blender-mcp-venv\Scripts\python.exe'
+args = ['-m', 'blmcp', '--transport', 'stdio']
+cwd = 'C:\Users\Netes\Desktop\proj\game'
+enabled = true
+startup_timeout_sec = 30
+tool_timeout_sec = 150
+enabled_tools = ['execute_blender_code_for_cli']
+default_tools_approval_mode = 'prompt'
+
+[mcp_servers.blender.tools.execute_blender_code_for_cli]
+approval_mode = 'prompt'
+
+[mcp_servers.blender.env]
+BLENDER_PATH = 'C:\Program Files\Blender Foundation\Blender 5.2\blender.exe'
+BLENDER_MCP_HOST = '127.0.0.1'
+BLENDER_MCP_PORT = '19876'
+BLENDER_USER_RESOURCES = 'C:\Users\Netes\Desktop\proj\game\.local\blender-profile'
+BLENDER_USER_CONFIG = 'C:\Users\Netes\Desktop\proj\game\.local\blender-profile\config'
+BLENDER_USER_SCRIPTS = 'C:\Users\Netes\Desktop\proj\game\.local\blender-profile\scripts'
+BLENDER_USER_EXTENSIONS = 'C:\Users\Netes\Desktop\proj\game\.local\blender-profile\extensions'
+BLENDER_USER_DATAFILES = 'C:\Users\Netes\Desktop\proj\game\.local\blender-profile\datafiles'

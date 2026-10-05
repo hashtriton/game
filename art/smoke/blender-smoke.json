@@ -1,0 +1,17 @@
+{
+  "test": "blender_cli_scene_save_export_reimport",
+  "passed": true,
+  "blender_version": "5.2.2 LTS",
+  "objects_saved": [
+    "GameSetupSmokeCamera",
+    "GameSetupSmokeCube",
+    "GameSetupSmokeLight"
+  ],
+  "objects_imported": [
+    "GameSetupSmokeCube"
+  ],
+  "mesh_count_imported": 1,
+  "glb_bytes": 1768,
+  "mcp_tested": false,
+  "execution": "factory-startup background process; not an OS sandbox"
+}

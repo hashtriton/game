@@ -1,0 +1,21 @@
+{
+  "no_blender_python_code_executed": true,
+  "variants": [
+    {
+      "stdin": "inherited_open_pipe",
+      "timed_out": false,
+      "exit_code": 0,
+      "elapsed_sec": 1.99,
+      "stdout": "00:01.781  blend            | Read blend: \"C:\\Users\\Netes\\Desktop\\proj\\game\\art\\smoke\\blender-smoke.blend\"\nBlender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)\n\nBlender quit\n",
+      "stderr": ""
+    },
+    {
+      "stdin": "closed_stdin_DEVNULL",
+      "timed_out": false,
+      "exit_code": 0,
+      "elapsed_sec": 2.08,
+      "stdout": "00:01.875  blend            | Read blend: \"C:\\Users\\Netes\\Desktop\\proj\\game\\art\\smoke\\blender-smoke.blend\"\nBlender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)\n\nBlender quit\n",
+      "stderr": ""
+    }
+  ]
+}

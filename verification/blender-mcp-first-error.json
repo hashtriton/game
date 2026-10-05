@@ -1,0 +1,16 @@
+{
+  "test": "blender_mcp_read_smoke",
+  "initialize_passed": true,
+  "tools_list_passed": true,
+  "tool": "execute_blender_code_for_cli",
+  "tool_call_passed": false,
+  "error_type": "queue.Empty",
+  "failure_phase": "tools/call",
+  "client_timeout_sec": 120,
+  "official_tool_timeout_sec": 120,
+  "result_received": false,
+  "hypothesis": "Windows background Blender inherited MCP stdin pipe; source lacks stdin=subprocess.DEVNULL",
+  "evidence_source": "https://projects.blender.org/lab/blender_mcp/issues/58",
+  "root_cause_verified_locally": false,
+  "extra_python_calls": 0
+}

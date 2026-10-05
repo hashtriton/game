@@ -1,0 +1,5 @@
+{
+  "command": "C:\\Program Files\\Unity Hub\\resources\\unity.exe",
+  "args": ["mcp", "--project-path", "C:\\Users\\Netes\\Desktop\\proj\\game\\unity"],
+  "cwd": "C:\\Users\\Netes\\Desktop\\proj\\game"
+}

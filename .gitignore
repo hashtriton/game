@@ -1,0 +1,46 @@
+# Unity generated data
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Bb]uild/
+[Bb]uilds/
+*.csproj
+*.sln
+*.slnx
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# Local credentials, configuration backups and runtime state
+.env
+.env.*
+!.env.example
+*.token
+*.key
+*.pem
+*.pfx
+*.lic
+*.ulf
+*.bak
+verification/*.log
+.local/
+.venv/
+__pycache__/
+
+# Blender intermediate backups
+*.blend1
+*.blend2
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vs/
+
+# Installed agent documentation and generated MCP tool catalogs
+.agents/skills/unity-cli/
+verification/*-mcp-catalog.json
