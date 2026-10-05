@@ -1,0 +1,21 @@
+{
+  "source": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\creatures\\jade-scorpion\\jade-scorpion.blend",
+  "high_triangles": 35532,
+  "game_triangles": 13686,
+  "materials": 1,
+  "uv_layers": [
+    "UVMap"
+  ],
+  "texture_size": 2048,
+  "bounds_min_m": [
+    -1.4143,
+    -2.0127,
+    0.0
+  ],
+  "bounds_max_m": [
+    1.416,
+    1.7962,
+    2.0524
+  ],
+  "fbx": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\creatures\\jade-scorpion\\game\\JadeScorpion.fbx"
+}

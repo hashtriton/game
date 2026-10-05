@@ -1,0 +1,17 @@
+{
+  "unity": "6000.6.4f1",
+  "pipeline": "URP",
+  "method": "unity command eval_file tools/unity/scorpion_setup.cs (live editor, preview scene)",
+  "prefab": "Assets/Creatures/JadeScorpion/JadeScorpion.prefab",
+  "material": "Assets/Creatures/JadeScorpion/JadeScorpion.mat (Universal Render Pipeline/Lit, _BaseMap + _EmissionMap)",
+  "triangles": 13686,
+  "vertices": 20596,
+  "submeshes": 1,
+  "bounds_min": [-1.42, 0.0, -1.80],
+  "bounds_max": [1.41, 2.05, 2.01],
+  "claw_mean_z": 1.83,
+  "facing": "+Z",
+  "console_errors": 0,
+  "console_warnings_note": "9 warnings CS0618 in Assets/Arena/Tests/PlayMode/ArenaPlayModeTests.cs, not related to this asset",
+  "shot": "verification/jade-scorpion-unity.png"
+}
