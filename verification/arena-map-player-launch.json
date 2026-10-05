@@ -1,0 +1,13 @@
+{
+  "logBytes": 1831,
+  "verifiedUtc": "2026-10-05T17:09:05.4364386Z",
+  "inputScope": "Input and game scenarios tested in Unity PlayMode; standalone startup/window/log checked",
+  "graphicsDeviceInitialized": true,
+  "responding": true,
+  "running": true,
+  "windowHandle": 10228348,
+  "pid": 18476,
+  "windowTitle": "Arena Map Prototype",
+  "managedExceptions": 0,
+  "graphicsDiagnostic": "d3d12: failed to query info queue interface (0x80004002)."
+}

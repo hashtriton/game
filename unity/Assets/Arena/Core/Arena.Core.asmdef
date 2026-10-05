@@ -1,0 +1,7 @@
+{
+    "name": "Arena.Core",
+    "rootNamespace": "Arena",
+    "references": [],
+    "autoReferenced": true,
+    "noEngineReferences": true
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "title": "Fantasy Town Kit",
+  "version": "2.0",
+  "sourceUrl": "https://kenney.nl/assets/fantasy-town-kit",
+  "downloadUrl": "https://kenney.nl/media/pages/assets/fantasy-town-kit/efe948d309-1754222374/kenney_fantasy-town-kit_2.0.zip",
+  "archiveSha256": "1a7530c09f4d2fa2cdee259876f089334f8b1f27fa86a0c4f54ef86cdd8676ef",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "verifiedUtc": "2026-10-05T16:39:44.600874+00:00",
+  "files": [
+    {
+      "path": "License.txt",
+      "archiveMember": "License.txt",
+      "size": 705,
+      "sha256": "fb8e4817197ef9f62215e95b4451a0f09c769c8e03e416e3a2ce108dfa6117e4"
+    },
+    {
+      "path": "Models/Textures/colormap.png",
+      "archiveMember": "Models/FBX format/Textures/colormap.png",
+      "size": 11143,
+      "sha256": "4aac939dc33195e35caf8c382ee3cb170054da763577f22d3c22692ec6afccdf"
+    },
+    {
+      "path": "Models/stall-red.fbx",
+      "archiveMember": "Models/FBX format/stall-red.fbx",
+      "size": 29792,
+      "sha256": "d282f6ac4b8dd5e305f044b50aa6e0768eeb30ae01899a0ce478cefde99fe861"
+    },
+    {
+      "path": "Models/stall-green.fbx",
+      "archiveMember": "Models/FBX format/stall-green.fbx",
+      "size": 30176,
+      "sha256": "0200dd0e85fe061618fe221e72c8f1b6337a36024d0922efe5cefd68ea75be57"
+    },
+    {
+      "path": "Models/fountain-round-detail.fbx",
+      "archiveMember": "Models/FBX format/fountain-round-detail.fbx",
+      "size": 82656,
+      "sha256": "273951f4d9ea296a5dc6c2d34b17b5df2444727d796d7c7f0c92283ff7bb2c97"
+    }
+  ],
+  "models": [
+    {
+      "name": "stall-red",
+      "objBoundsMin": [
+        -0.5,
+        0.0,
+        -0.5
+      ],
+      "objBoundsMax": [
+        0.5,
+        1.236983,
+        0.5
+      ],
+      "objVertexCount": 182,
+      "objMaterialReferences": [
+        "mtllib stall-red.mtl",
+        "usemtl colormap"
+      ]
+    },
+    {
+      "name": "stall-green",
+      "objBoundsMin": [
+        -0.5,
+        0.0,
+        -0.5
+      ],
+      "objBoundsMax": [
+        0.5,
+        1.236983,
+        0.5
+      ],
+      "objVertexCount": 208,
+      "objMaterialReferences": [
+        "mtllib stall-green.mtl",
+        "usemtl colormap"
+      ]
+    },
+    {
+      "name": "fountain-round-detail",
+      "objBoundsMin": [
+        -1.0,
+        -4.591168e-20,
+        -1.0
+      ],
+      "objBoundsMax": [
+        1.0,
+        0.48,
+        1.0
+      ],
+      "objVertexCount": 864,
+      "objMaterialReferences": [
+        "mtllib fountain-round-detail.mtl",
+        "usemtl Water",
+        "usemtl colormap"
+      ],
+      "materialNote": "Two source materials: colormap and Water. Preserve Water slot when assigning the palette material; see original OBJ MTL in official archive."
+    }
+  ],
+  "unityImportVerified": false,
+  "notes": [
+    "Original asset bytes preserved. Only selected FBX, palette and license copied.",
+    "OBJ bounds are source coordinates; verify FBX import scale through Unity renderer bounds."
+  ]
+}

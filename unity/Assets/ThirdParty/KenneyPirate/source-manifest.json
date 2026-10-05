@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "title": "Pirate Kit",
+  "version": "2.1",
+  "sourceUrl": "https://kenney.nl/assets/pirate-kit",
+  "downloadUrl": "https://kenney.nl/media/pages/assets/pirate-kit/e6d4bb1525-1771333093/kenney_pirate-kit.zip",
+  "archiveSha256": "667ed2caf92954ddb98f7b7cede831fe99ab75063c26b25e23d32715bee9c943",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "verifiedUtc": "2026-10-05T16:39:44.528935+00:00",
+  "files": [
+    {
+      "path": "License.txt",
+      "archiveMember": "License.txt",
+      "size": 699,
+      "sha256": "5e99246a5a65fa3420a1a1c7a8616f096202c78866f73d7aacfe73c0aab0ca36"
+    },
+    {
+      "path": "Models/Textures/colormap.png",
+      "archiveMember": "Models/FBX format/Textures/colormap.png",
+      "size": 10061,
+      "sha256": "451e1d7a53b8e76f4b2ee58742e241509fee5f82cf2cee6e3f7aca86ba718abe"
+    },
+    {
+      "path": "Models/barrel.fbx",
+      "archiveMember": "Models/FBX format/barrel.fbx",
+      "size": 28736,
+      "sha256": "41b41db50b51163b04a4a4eea80f9e3c52c7c5c74464a83ce8c8aad1960737ba"
+    },
+    {
+      "path": "Models/crate.fbx",
+      "archiveMember": "Models/FBX format/crate.fbx",
+      "size": 26496,
+      "sha256": "1aa54267698fa8bc335bc299f28a1b71262ce025a1e8cd994a8584b2c6ffa63c"
+    },
+    {
+      "path": "Models/structure.fbx",
+      "archiveMember": "Models/FBX format/structure.fbx",
+      "size": 30816,
+      "sha256": "a805e70bea10ac4e5597c1f847416fe2bef4c4652c1ae1338ca4b06202eecb32"
+    }
+  ],
+  "models": [
+    {
+      "name": "barrel",
+      "objBoundsMin": [
+        -0.6680491,
+        0.0,
+        -0.6680491
+      ],
+      "objBoundsMax": [
+        0.6680491,
+        1.229143,
+        0.6680491
+      ],
+      "objVertexCount": 80,
+      "objMaterialReferences": [
+        "mtllib barrel.mtl",
+        "usemtl colormap"
+      ]
+    },
+    {
+      "name": "crate",
+      "objBoundsMin": [
+        -0.539,
+        0.0,
+        -0.6545
+      ],
+      "objBoundsMax": [
+        0.539,
+        0.77,
+        0.6545
+      ],
+      "objVertexCount": 72,
+      "objMaterialReferences": [
+        "mtllib crate.mtl",
+        "usemtl colormap"
+      ]
+    },
+    {
+      "name": "structure",
+      "objBoundsMin": [
+        -1.25,
+        0.0,
+        -1.25
+      ],
+      "objBoundsMax": [
+        1.25,
+        2.2,
+        1.25
+      ],
+      "objVertexCount": 192,
+      "objMaterialReferences": [
+        "mtllib structure.mtl",
+        "usemtl colormap"
+      ]
+    }
+  ],
+  "unityImportVerified": false,
+  "notes": [
+    "Original asset bytes preserved. Only selected FBX, palette and license copied.",
+    "OBJ bounds are source coordinates; verify FBX import scale through Unity renderer bounds."
+  ]
+}

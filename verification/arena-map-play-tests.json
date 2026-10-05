@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "duration": 11.67,
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "Arena.Tests.ArenaPlayModeTests.AnimatedModelsRemainVisibleAndCameraFramesHero",
+      "Status": "Passed",
+      "Duration": 0.9290192,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Arena.Tests.ArenaPlayModeTests.ControlledCombatCompletesAllWavesAndBossWithRealDamage",
+      "Status": "Passed",
+      "Duration": 7.164188,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Arena.Tests.ArenaPlayModeTests.KeyboardPointerAbilitiesPauseAndRetry_WorkThroughRuntime",
+      "Status": "Passed",
+      "Duration": 1.0854337,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Arena.Tests.ArenaPlayModeTests.OriginalMapCanBeExploredBeforeCombat",
+      "Status": "Passed",
+      "Duration": 0.6437705,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Arena.Tests.ArenaPlayModeTests.StationaryHeroCanLoseAndRestartWithoutStaleEnemies",
+      "Status": "Passed",
+      "Duration": 1.8098109,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

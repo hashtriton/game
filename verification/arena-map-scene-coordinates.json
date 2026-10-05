@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var map=UnityEngine.Object.FindAnyObjectByType<Arena.ArenaMap>();var parent=UnityEngine.GameObject.Find(\"Original doodad positions - CC0 substitutes\").transform;int n=0;float error=0;foreach(UnityEngine.Transform p in parent){var d=map.Layout.doodads.First(x=>p.name.StartsWith(x.id+\"#\"+x.editorId+\" /\"));error=UnityEngine.Mathf.Max(error,UnityEngine.Vector3.Distance(p.position,new UnityEngine.Vector3(d.x,d.z,d.y)/64));n++;}var terrain=UnityEngine.Terrain.activeTerrain;float heightError=0;foreach(var v in map.Layout.terrain.vertices){var point=new UnityEngine.Vector3(v.x/64,0,v.y/64);heightError=UnityEngine.Mathf.Max(heightError,UnityEngine.Mathf.Abs(terrain.SampleHeight(point)+terrain.transform.position.y-v.height/64));}return Newtonsoft.Json.JsonConvert.SerializeObject(new{sourceDoodads=map.Layout.doodads.Length,visibleDoodads=n,maxPlacementErrorMeters=error,maxTerrainVertexErrorMeters=heightError,services=UnityEngine.GameObject.Find(\"Original service and spawn locations\").transform.childCount,heroHeight=UnityEngine.Object.FindAnyObjectByType<Arena.ArenaGame>().Hero.GetComponentInChildren<UnityEngine.SkinnedMeshRenderer>().bounds.size.y});",
+      "timeout": "20000"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": "{\"sourceDoodads\":2736,\"visibleDoodads\":1372,\"maxPlacementErrorMeters\":0.0,\"maxTerrainVertexErrorMeters\":0.000289917,\"services\":23,\"heroHeight\":1.88156676}"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\Netes\\Desktop\\proj\\game\\unity"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

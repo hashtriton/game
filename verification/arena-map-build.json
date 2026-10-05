@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "buildId": "build_319468085129",
+  "result": "Succeeded",
+  "platform": "StandaloneWindows64",
+  "outputPath": "C:/Users/Netes/Desktop/proj/game/unity/Builds/Lia39Arena/Lia39Arena.exe",
+  "totalSizeBytes": 125483784,
+  "buildTimeMs": 20988,
+  "buildStartedAt": "2026-10-05T17:07:19.8006241Z",
+  "buildEndedAt": "2026-10-05T17:07:40.78906Z",
+  "totalWarnings": 1,
+  "totalErrors": 0,
+  "errors": [],
+  "warnings": [
+    {
+      "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+    }
+  ]
+}

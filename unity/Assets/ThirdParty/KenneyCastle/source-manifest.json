@@ -1,0 +1,171 @@
+{
+  "title": "Castle Kit",
+  "sourceUrl": "https://kenney.nl/assets/castle-kit",
+  "downloadUrl": "https://kenney.nl/media/pages/assets/castle-kit/a395102d20-1711543616/kenney_castle-kit.zip",
+  "license": "CC0-1.0",
+  "archiveSha256": "921f3f73927bb23106cae34bc21d5ab4b033a9fc120475e96f714a406e3169df",
+  "files": [
+    {
+      "path": "flag-banner-long.fbx",
+      "archiveMember": "Models/FBX format/flag-banner-long.fbx",
+      "sha256": "b91a603945746cd40a0e9770d4be6c488a5c66dbe4df254ee8f09df7eaee68ed",
+      "size": 26592
+    },
+    {
+      "path": "flag.fbx",
+      "archiveMember": "Models/FBX format/flag.fbx",
+      "sha256": "814cddb997386764f0667ea9845c45c47618dbd3e2902950811aa3da50907afc",
+      "size": 28288
+    },
+    {
+      "path": "gate.fbx",
+      "archiveMember": "Models/FBX format/gate.fbx",
+      "sha256": "2902b66f40775e9ac2fb272d22b418307cec3adbf17c41aa49073958e6b217a6",
+      "size": 27104
+    },
+    {
+      "path": "ground.fbx",
+      "archiveMember": "Models/FBX format/ground.fbx",
+      "sha256": "36619c197c174c91bc7e9e00fe7d0722087f24128b5d96adc1a88b2647c9384a",
+      "size": 23936
+    },
+    {
+      "path": "License.txt",
+      "archiveMember": "License.txt",
+      "sha256": "aac944f18106b3a3e29c6fdeec02523d4cab4c735abc01f5a8fa88a79ae173ef",
+      "size": 713
+    },
+    {
+      "path": "rocks-large.fbx",
+      "archiveMember": "Models/FBX format/rocks-large.fbx",
+      "sha256": "4080dfa76d60857af7fa7cd595f71838c43bec5acd7453fb0d123b082048c858",
+      "size": 29376
+    },
+    {
+      "path": "rocks-small.fbx",
+      "archiveMember": "Models/FBX format/rocks-small.fbx",
+      "sha256": "c92090967fe74e7877a7fdc337e34bcaf537b572ae1058d61f8396fe1c4d6687",
+      "size": 28688
+    },
+    {
+      "path": "stairs-stone.fbx",
+      "archiveMember": "Models/FBX format/stairs-stone.fbx",
+      "sha256": "9bf3222fd4af6d8d157a75978f7dd5360007af0038ae5de3dce1628150463d13",
+      "size": 25456
+    },
+    {
+      "path": "Textures/variation-a.png",
+      "archiveMember": "Models/Textures/variation-a.png",
+      "sha256": "0dd97ff54f3875abe9d44c53732f2b870aa82e0dc40243104ba7eaa4196cedd0",
+      "size": 7275
+    },
+    {
+      "path": "Textures/variation-b.png",
+      "archiveMember": "Models/Textures/variation-b.png",
+      "sha256": "86c24e2d004ef945ecae6d89a811ab369588195b90c2f803939e996895f17896",
+      "size": 6790
+    },
+    {
+      "path": "Textures/variation-c.png",
+      "archiveMember": "Models/Textures/variation-c.png",
+      "sha256": "3e2177899d218e70793e63553e03e2a689a944acc056aefe3356a94be8979476",
+      "size": 7024
+    },
+    {
+      "path": "Textures/variation-d.png",
+      "archiveMember": "Models/Textures/variation-d.png",
+      "sha256": "048fac1067071c4e8111d0b3f843560e813ce22224d5da42ae5547d3e2d1265d",
+      "size": 5974
+    },
+    {
+      "path": "Textures/variation-e.png",
+      "archiveMember": "Models/Textures/variation-e.png",
+      "sha256": "94973a973e80e085185bf2f616e3529369a381636af9f0d22fd592c30740d743",
+      "size": 5242
+    },
+    {
+      "path": "Textures/variation-f.png",
+      "archiveMember": "Models/Textures/variation-f.png",
+      "sha256": "fe27cd1c3f7ff77b67839ef4a8fc8667d137a0f030413eead070a0bd73a24b48",
+      "size": 5807
+    },
+    {
+      "path": "Textures/variation-g.png",
+      "archiveMember": "Models/Textures/variation-g.png",
+      "sha256": "6b7628b53e9402d8da77c061dd5d9c7f60c95e4fee272774289d330504f68ea6",
+      "size": 5143
+    },
+    {
+      "path": "tower-hexagon-base.fbx",
+      "archiveMember": "Models/FBX format/tower-hexagon-base.fbx",
+      "sha256": "eca5cd4895390c68be6c4bcf428234e760eba527bab030f88b442e328b721475",
+      "size": 27680
+    },
+    {
+      "path": "tower-hexagon-top.fbx",
+      "archiveMember": "Models/FBX format/tower-hexagon-top.fbx",
+      "sha256": "f68ee7720a7786ca754f622fa452baae51cd561aca6093b59c637090b8c267b5",
+      "size": 26880
+    },
+    {
+      "path": "tower-square-base-border.fbx",
+      "archiveMember": "Models/FBX format/tower-square-base-border.fbx",
+      "sha256": "186767b7102de4a73712021aa1434dd0bd5e68bd1e99f41b9dd9d514c7b7ad60",
+      "size": 26368
+    },
+    {
+      "path": "tree-large.fbx",
+      "archiveMember": "Models/FBX format/tree-large.fbx",
+      "sha256": "1357841f5bcbfede7e13907dd14c38ff3afe872ba2efd2f9ffe11765b4cb4a74",
+      "size": 33744
+    },
+    {
+      "path": "tree-log.fbx",
+      "archiveMember": "Models/FBX format/tree-log.fbx",
+      "sha256": "efb275a5d6eecaa34ac0d6ec30a30737335d0889cf9e185f9dbef87a39bd0257",
+      "size": 28400
+    },
+    {
+      "path": "tree-small.fbx",
+      "archiveMember": "Models/FBX format/tree-small.fbx",
+      "sha256": "c57911331471431e0ec51aa672d87d08c2c29a79886cb7cfc007a84f889e2f9a",
+      "size": 30752
+    },
+    {
+      "path": "tree-trunk.fbx",
+      "archiveMember": "Models/FBX format/tree-trunk.fbx",
+      "sha256": "7a23fdef8e3e0501f1947da3d485f5c170bc05ffae574045fb6bf21b897381e8",
+      "size": 28688
+    },
+    {
+      "path": "wall-half-modular.fbx",
+      "archiveMember": "Models/FBX format/wall-half-modular.fbx",
+      "sha256": "9d7bdf01903bf40f8c8fdadbbac3be719306751bb821eac12ae6783c6ecf67a6",
+      "size": 27056
+    },
+    {
+      "path": "wall-narrow-wood-fence.fbx",
+      "archiveMember": "Models/FBX format/wall-narrow-wood-fence.fbx",
+      "sha256": "9a6a18d72776a5be606723ae203d2412897d8f347e6037990a51866f0fcc29f3",
+      "size": 31248
+    },
+    {
+      "path": "wall-pillar.fbx",
+      "archiveMember": "Models/FBX format/wall-pillar.fbx",
+      "sha256": "306fef3a327296097ca7b84dc4445746f586b87ac186bd1876ff0566f129dc24",
+      "size": 27152
+    },
+    {
+      "path": "wall-stud.fbx",
+      "archiveMember": "Models/FBX format/wall-stud.fbx",
+      "sha256": "91432ec41351b80afca9e1b16b5833bcafe66c43ddfdd9154a8ee7b784d18878",
+      "size": 25648
+    },
+    {
+      "path": "wall.fbx",
+      "archiveMember": "Models/FBX format/wall.fbx",
+      "sha256": "69cd3c951ebb02249fa1a4a6fb022bf271dc6b0be36eaaef1e90b0a4d35cc0c5",
+      "size": 27376
+    }
+  ]
+}

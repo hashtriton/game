@@ -1,0 +1,6 @@
+{
+  "name": "Arena.Tests.PlayMode",
+  "references": ["Arena.Core", "Arena.Runtime", "Arena.Presentation", "Unity.InputSystem", "Unity.ugui"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "LiaMapBuilder.Build(); return UnityEngine.SceneManagement.SceneManager.GetActiveScene().path;",
+      "timeout": "120000"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": "Assets/Arena/Scenes/Lia39Arena.unity"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\Netes\\Desktop\\proj\\game\\unity"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

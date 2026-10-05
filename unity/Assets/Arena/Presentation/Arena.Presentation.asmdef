@@ -1,0 +1,5 @@
+{
+  "name": "Arena.Presentation",
+  "references": ["Arena.Core", "Arena.Runtime", "Unity.ugui", "Unity.InputSystem"],
+  "autoReferenced": true
+}

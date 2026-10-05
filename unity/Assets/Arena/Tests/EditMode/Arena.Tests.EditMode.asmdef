@@ -1,0 +1,8 @@
+{
+    "name": "Arena.Tests.EditMode",
+    "rootNamespace": "Arena.Tests",
+    "references": ["Arena.Core", "Arena.Runtime"],
+    "includePlatforms": ["Editor"],
+    "optionalUnityReferences": ["TestAssemblies"],
+    "autoReferenced": false
+}

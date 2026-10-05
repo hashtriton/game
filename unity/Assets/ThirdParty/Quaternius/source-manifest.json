@@ -1,0 +1,1110 @@
+{
+  "retrieved_at_utc": "2026-10-05T16:06:58.053480+00:00",
+  "author": "Quaternius",
+  "notes": [
+    "Downloaded official public files without login/payment.",
+    "FBX animation presence was parsed statically at download; subsequent Unity import and animated-model checks are recorded in verification/arena-map-play-tests.json.",
+    "Selected models and textures are imported in Unity Assets/ThirdParty/Quaternius with their original license files.",
+    "The original Monsters_License.txt has a reused header naming Ultimate Platformer Pack; the Ultimate Monsters official page independently states CC0. The original license file is preserved unchanged."
+  ],
+  "files": [
+    {
+      "file": "Warrior.fbx",
+      "role": "hero",
+      "source_url": "https://quaternius.com/packs/rpgcharacters.html",
+      "download_url": "https://drive.usercontent.google.com/uc?id=1mPcA-6gGZYLiwD9gle7E1bPckGEkoapx&export=download",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "bytes": 2622924,
+      "sha256": "2efc58cabe03e711ca78e4e2d3e3ae1260a1dc07c5f1c1cd943baa5a9f7e0f0f",
+      "http_status": 200,
+      "fbx_version": 7400,
+      "animation_stacks": [
+        {
+          "name": "CharacterArmature|Death",
+          "id": 254971717
+        },
+        {
+          "name": "CharacterArmature|Idle",
+          "id": 741351074
+        },
+        {
+          "name": "CharacterArmature|Idle_Attacking",
+          "id": 563954253
+        },
+        {
+          "name": "CharacterArmature|Idle_Weapon",
+          "id": 390983062
+        },
+        {
+          "name": "CharacterArmature|PickUp",
+          "id": 387242102
+        },
+        {
+          "name": "CharacterArmature|Punch",
+          "id": 552992101
+        },
+        {
+          "name": "CharacterArmature|RecieveHit",
+          "id": 266411485
+        },
+        {
+          "name": "CharacterArmature|RecieveHit_2",
+          "id": 505952261
+        },
+        {
+          "name": "CharacterArmature|Roll",
+          "id": 336366558
+        },
+        {
+          "name": "CharacterArmature|Run",
+          "id": 289553445
+        },
+        {
+          "name": "CharacterArmature|Run_Weapon",
+          "id": 814805503
+        },
+        {
+          "name": "CharacterArmature|Sword_Attack",
+          "id": 8829543
+        },
+        {
+          "name": "CharacterArmature|Sword_AttackFast",
+          "id": 415319305
+        },
+        {
+          "name": "CharacterArmature|Walk",
+          "id": 416202854
+        }
+      ],
+      "materials": [
+        {
+          "name": "Warrior_Sword_Texture",
+          "type": ""
+        },
+        {
+          "name": "Warrior_Texture",
+          "type": ""
+        }
+      ],
+      "models": [
+        {
+          "name": "CharacterArmature",
+          "type": "Null"
+        },
+        {
+          "name": "Warrior_Sword",
+          "type": "Mesh"
+        },
+        {
+          "name": "Face",
+          "type": "Mesh"
+        },
+        {
+          "name": "ShoulderPad.R",
+          "type": "Mesh"
+        },
+        {
+          "name": "ShoulderPad.L",
+          "type": "Mesh"
+        },
+        {
+          "name": "Warrior_Body",
+          "type": "Mesh"
+        },
+        {
+          "name": "Root",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Foot.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Body",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Hips",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Abdomen",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Torso",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Neck",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Head",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Shoulder.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "UpperArm.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerArm.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Fist.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Fist1.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Fist2.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb1.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb2.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Shoulder.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "UpperArm.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerArm.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Fist.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Fist1.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Fist2.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Weapon.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb1.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb2.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "UpperLeg.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerLeg.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "UpperLeg.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerLeg.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "PoleTarget.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Foot.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "PoleTarget.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "PoleTarget.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Fist2.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb2.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Foot.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Fist2.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Foot.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "PoleTarget.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb2.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Weapon.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerLeg.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerLeg.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Head_end",
+          "type": "LimbNode"
+        }
+      ],
+      "referenced_texture_names": [],
+      "required_texture_names": [
+        "Warrior_Texture.png",
+        "Warrior_Sword_Texture.png"
+      ]
+    },
+    {
+      "file": "Warrior_Texture.png",
+      "role": "hero texture",
+      "source_url": "https://quaternius.com/packs/rpgcharacters.html",
+      "download_url": "https://drive.usercontent.google.com/uc?id=1aCbtzIG86g5VJz63pAZ0a6_00e8nexyW&export=download",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "bytes": 693384,
+      "sha256": "5d016c19db78e8b6077eead3e1086a3bb3453cfaa8adb5e583b08dc39869ff17",
+      "http_status": 200
+    },
+    {
+      "file": "Warrior_Sword_Texture.png",
+      "role": "hero sword texture",
+      "source_url": "https://quaternius.com/packs/rpgcharacters.html",
+      "download_url": "https://drive.usercontent.google.com/uc?id=1cCpUS52kHkshfNuS-YQuF71egLQe9CFq&export=download",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "bytes": 169153,
+      "sha256": "ae902ecaba0eb6d15d47ef428e81d63f9ca2d8a266aad7dae393a8363ea9344a",
+      "http_status": 200
+    },
+    {
+      "file": "RPG_License.txt",
+      "role": "license",
+      "source_url": "https://quaternius.com/packs/rpgcharacters.html",
+      "download_url": "https://drive.usercontent.google.com/uc?id=1dc19T9_fxiy7jscseYp0lP2IhRi-e2b6&export=download",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "bytes": 364,
+      "sha256": "83d8959f9fc56353ed571fbe2dc52e4bcd64508e2399501cd45ac2ce3df0bf8c",
+      "http_status": 200
+    },
+    {
+      "file": "Orc.fbx",
+      "role": "melee enemy",
+      "source_url": "https://quaternius.com/packs/ultimatemonsters.html",
+      "download_url": "https://drive.usercontent.google.com/uc?id=1qK7tiH8cDHQKC3mHd7baTQYOI7tzt2fF&export=download",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "bytes": 3476844,
+      "sha256": "571811f39af3741a8bdc299f6022f0e3136ecd95891aad5f0945479e149c5981",
+      "http_status": 200,
+      "fbx_version": 7400,
+      "animation_stacks": [
+        {
+          "name": "CharacterArmature|Death",
+          "id": 46564491
+        },
+        {
+          "name": "CharacterArmature|Duck",
+          "id": 269898715
+        },
+        {
+          "name": "CharacterArmature|HitReact",
+          "id": 581462866
+        },
+        {
+          "name": "CharacterArmature|Idle",
+          "id": 587149304
+        },
+        {
+          "name": "CharacterArmature|Jump",
+          "id": 323038355
+        },
+        {
+          "name": "CharacterArmature|Jump_Idle",
+          "id": 259792851
+        },
+        {
+          "name": "CharacterArmature|Jump_Land",
+          "id": 825423146
+        },
+        {
+          "name": "CharacterArmature|No",
+          "id": 197286932
+        },
+        {
+          "name": "CharacterArmature|Punch",
+          "id": 736961405
+        },
+        {
+          "name": "CharacterArmature|Run",
+          "id": 792829565
+        },
+        {
+          "name": "CharacterArmature|Walk",
+          "id": 12949127
+        },
+        {
+          "name": "CharacterArmature|Wave",
+          "id": 606462024
+        },
+        {
+          "name": "CharacterArmature|Weapon",
+          "id": 467200912
+        },
+        {
+          "name": "CharacterArmature|Yes",
+          "id": 801338246
+        }
+      ],
+      "materials": [
+        {
+          "name": "Atlas",
+          "type": ""
+        }
+      ],
+      "models": [
+        {
+          "name": "CharacterArmature",
+          "type": "Null"
+        },
+        {
+          "name": "Orc",
+          "type": "Mesh"
+        },
+        {
+          "name": "Orc_Weapon",
+          "type": "Mesh"
+        },
+        {
+          "name": "Root",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Foot.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Body",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Hips",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Abdomen",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Torso",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Neck",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Head",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Shoulder.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "UpperArm.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerArm.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky1.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky2.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky3.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle1.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle2.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle3.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index1.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index2.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index3.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb1.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb2.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Shoulder.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "UpperArm.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerArm.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky1.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky2.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky3.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle1.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle2.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle3.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index1.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index2.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index3.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb1.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb2.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "UpperLeg.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerLeg.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "UpperLeg.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerLeg.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "PoleTarget.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Foot.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "PoleTarget.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Foot.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Head_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky3.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle3.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index3.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb2.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky3.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle3.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index3.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb2.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerLeg.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerLeg.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "PoleTarget.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Foot.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "PoleTarget.R_end",
+          "type": "LimbNode"
+        }
+      ],
+      "referenced_texture_names": [
+        "Atlas_Monsters.png"
+      ],
+      "required_texture_names": [
+        "Atlas_Monsters.png"
+      ]
+    },
+    {
+      "file": "GreenBlob.fbx",
+      "role": "light enemy",
+      "source_url": "https://quaternius.com/packs/ultimatemonsters.html",
+      "download_url": "https://drive.usercontent.google.com/uc?id=1fltj3Hv25Cpo_12IJ04SB74bdyTjAXa5&export=download",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "bytes": 318684,
+      "sha256": "682e216c54011fb79c3898c467c9d44cefc88b513cedb95d622b4aa0ef6a3fb4",
+      "http_status": 200,
+      "fbx_version": 7400,
+      "animation_stacks": [
+        {
+          "name": "CharacterArmature|Bite_Front",
+          "id": 10181027
+        },
+        {
+          "name": "CharacterArmature|Dance",
+          "id": 780752326
+        },
+        {
+          "name": "CharacterArmature|Death",
+          "id": 46564491
+        },
+        {
+          "name": "CharacterArmature|HitRecieve",
+          "id": 685743635
+        },
+        {
+          "name": "CharacterArmature|Idle",
+          "id": 587149304
+        },
+        {
+          "name": "CharacterArmature|Jump",
+          "id": 323038355
+        },
+        {
+          "name": "CharacterArmature|No",
+          "id": 197286932
+        },
+        {
+          "name": "CharacterArmature|Walk",
+          "id": 12949127
+        },
+        {
+          "name": "CharacterArmature|Yes",
+          "id": 801338246
+        }
+      ],
+      "materials": [
+        {
+          "name": "Atlas",
+          "type": ""
+        }
+      ],
+      "models": [
+        {
+          "name": "CharacterArmature",
+          "type": "Null"
+        },
+        {
+          "name": "Green_Blob.001",
+          "type": "Mesh"
+        },
+        {
+          "name": "Green_Blob",
+          "type": "Mesh"
+        },
+        {
+          "name": "Body",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Head",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Head2",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Head3",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Body_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Head3_end",
+          "type": "LimbNode"
+        }
+      ],
+      "referenced_texture_names": [
+        "Atlas_Monsters.png"
+      ],
+      "required_texture_names": [
+        "Atlas_Monsters.png"
+      ]
+    },
+    {
+      "file": "Demon.fbx",
+      "role": "boss",
+      "source_url": "https://quaternius.com/packs/ultimatemonsters.html",
+      "download_url": "https://drive.usercontent.google.com/uc?id=1sTTMBk576jvY59k6kI4zNim3elEWqC3g&export=download",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "bytes": 3463660,
+      "sha256": "88ca081ed981e44e79dc9bb0ccca58759848f70b300e4893c3a7a34a3ee4d5af",
+      "http_status": 200,
+      "fbx_version": 7400,
+      "animation_stacks": [
+        {
+          "name": "CharacterArmature|Death",
+          "id": 46564491
+        },
+        {
+          "name": "CharacterArmature|Duck",
+          "id": 269898715
+        },
+        {
+          "name": "CharacterArmature|HitReact",
+          "id": 581462866
+        },
+        {
+          "name": "CharacterArmature|Idle",
+          "id": 587149304
+        },
+        {
+          "name": "CharacterArmature|Jump",
+          "id": 323038355
+        },
+        {
+          "name": "CharacterArmature|Jump_Idle",
+          "id": 259792851
+        },
+        {
+          "name": "CharacterArmature|Jump_Land",
+          "id": 825423146
+        },
+        {
+          "name": "CharacterArmature|No",
+          "id": 197286932
+        },
+        {
+          "name": "CharacterArmature|Punch",
+          "id": 736961405
+        },
+        {
+          "name": "CharacterArmature|Run",
+          "id": 792829565
+        },
+        {
+          "name": "CharacterArmature|Walk",
+          "id": 12949127
+        },
+        {
+          "name": "CharacterArmature|Wave",
+          "id": 606462024
+        },
+        {
+          "name": "CharacterArmature|Weapon",
+          "id": 467200912
+        },
+        {
+          "name": "CharacterArmature|Yes",
+          "id": 801338246
+        }
+      ],
+      "materials": [
+        {
+          "name": "Atlas",
+          "type": ""
+        }
+      ],
+      "models": [
+        {
+          "name": "CharacterArmature",
+          "type": "Null"
+        },
+        {
+          "name": "Demon",
+          "type": "Mesh"
+        },
+        {
+          "name": "Trident",
+          "type": "Mesh"
+        },
+        {
+          "name": "Root",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Foot.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Body",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Hips",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Abdomen",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Torso",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Neck",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Head",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Shoulder.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "UpperArm.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerArm.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky1.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky2.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky3.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle1.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle2.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle3.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index1.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index2.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index3.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb1.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb2.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Shoulder.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "UpperArm.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerArm.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky1.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky2.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky3.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle1.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle2.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle3.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index1.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index2.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index3.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb1.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb2.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "UpperLeg.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerLeg.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "UpperLeg.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerLeg.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "PoleTarget.L",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Foot.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "PoleTarget.R",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Foot.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Head_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky3.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle3.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index3.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb2.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Pinky3.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Middle3.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Index3.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Thumb2.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerLeg.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "LowerLeg.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "PoleTarget.L_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "Foot.R_end",
+          "type": "LimbNode"
+        },
+        {
+          "name": "PoleTarget.R_end",
+          "type": "LimbNode"
+        }
+      ],
+      "referenced_texture_names": [
+        "Atlas_Monsters.png"
+      ],
+      "required_texture_names": [
+        "Atlas_Monsters.png"
+      ]
+    },
+    {
+      "file": "Atlas_Monsters.png",
+      "role": "monster shared atlas",
+      "source_url": "https://quaternius.com/packs/ultimatemonsters.html",
+      "download_url": "https://drive.usercontent.google.com/uc?id=1CtLGgAKj-6a6GGNVNQT7GRPM7uyo9Fj8&export=download",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "bytes": 9007,
+      "sha256": "b970ed1359ce749fd81a8395d58ff5f3044d843213e17fb94b97892d417c0af9",
+      "http_status": 200
+    },
+    {
+      "file": "Monsters_License.txt",
+      "role": "license",
+      "source_url": "https://quaternius.com/packs/ultimatemonsters.html",
+      "download_url": "https://drive.usercontent.google.com/uc?id=16GqsDGESyEOfRbc4dS7EqAwkIUSIW4_y&export=download",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "bytes": 374,
+      "sha256": "de990ef6fc68cffd7fd1ae342c4d0c823b541b8848d8f76bca5d3339f4de6f6e",
+      "http_status": 200
+    }
+  ]
+}

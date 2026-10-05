@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {
+      "level": "error",
+      "tail": "10"
+    },
+    "result": {
+      "entries": [],
+      "cursor": 167,
+      "session": "76f717936c0c477b9ab9b7c1a97b9c14",
+      "returned": 0,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 0,
+        "warn": 9,
+        "log": 17
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-10-05T17:10:48.4615901Z",
+        "ageMs": 54,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 0,
+        "consoleLogs": 0,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\Netes\\Desktop\\proj\\game\\unity"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}
