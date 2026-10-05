@@ -1,0 +1,238 @@
+[
+  {
+    "file": "scripts\\war3map.j",
+    "independent_reader_match": true
+  },
+  {
+    "file": "war3map.w3a",
+    "independent_reader_match": true
+  },
+  {
+    "file": "war3map.w3b",
+    "independent_reader_match": true
+  },
+  {
+    "file": "war3map.w3d",
+    "independent_reader_match": true
+  },
+  {
+    "file": "war3map.w3h",
+    "independent_reader_match": true
+  },
+  {
+    "file": "war3mapMisc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "war3mapExtra.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "war3mapSkin.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\ItemFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\ItemStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\ItemAbilityFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\ItemAbilityStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Splats\\LightningData.slk",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\UnitAbilities.slk",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\UnitBalance.slk",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\UnitData.slk",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\UnitUI.slk",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\UnitWeapons.slk",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\ItemData.slk",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\AbilityData.slk",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\UpgradeData.slk",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\HumanUnitStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\HumanUnitFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\HumanAbilityStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\HumanAbilityFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\HumanUpgradeStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\HumanUpgradeFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\OrcUnitStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\OrcUnitFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\OrcAbilityStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\OrcAbilityFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\OrcUpgradeStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\OrcUpgradeFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\UndeadUnitStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\UndeadUnitFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\UndeadAbilityStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\UndeadAbilityFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\UndeadUpgradeStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\UndeadUpgradeFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\NightElfUnitStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\NightElfUnitFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\NightElfAbilityStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\NightElfAbilityFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\NightElfUpgradeStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\NightElfUpgradeFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\NeutralUnitStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\NeutralUnitFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\NeutralAbilityStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\NeutralAbilityFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\NeutralUpgradeStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\NeutralUpgradeFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\CampaignUnitStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\CampaignUnitFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\CampaignAbilityStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\CampaignAbilityFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\CampaignUpgradeStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\CampaignUpgradeFunc.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\CommonAbilityStrings.txt",
+    "independent_reader_match": true
+  },
+  {
+    "file": "Units\\CommonAbilityFunc.txt",
+    "independent_reader_match": true
+  }
+]

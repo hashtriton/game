@@ -1,0 +1,56 @@
+[
+  {
+    "source": "Units\\ItemAbilityFunc.txt",
+    "object_id": "AIdd",
+    "field": "Art",
+    "previous_line": 333,
+    "line": 339,
+    "previous_value": "ReplaceableTextures\\CommandButtons\\BTNDefend.blp",
+    "value": "ReplaceableTextures\\CommandButtons\\BTNDefend.blp"
+  },
+  {
+    "source": "Units\\ItemAbilityFunc.txt",
+    "object_id": "AIdd",
+    "field": "Casterart",
+    "previous_line": 334,
+    "line": 340,
+    "previous_value": "Abilities\\Spells\\Human\\Defend\\DefendCaster.mdl",
+    "value": "Abilities\\Spells\\Human\\Defend\\DefendCaster.mdl"
+  },
+  {
+    "source": "Units\\ItemAbilityStrings.txt",
+    "object_id": "AImi",
+    "field": "Name",
+    "previous_line": 70,
+    "line": 93,
+    "previous_value": "Item Permanent Life Gain",
+    "value": "Item Life Gain"
+  },
+  {
+    "source": "Units\\ItemAbilityStrings.txt",
+    "object_id": "AIdd",
+    "field": "Name",
+    "previous_line": 195,
+    "line": 199,
+    "previous_value": "Defend",
+    "value": "Passive Defense"
+  },
+  {
+    "source": "Units\\OrcAbilityStrings.txt",
+    "object_id": "Awar",
+    "field": "Name",
+    "previous_line": 53,
+    "line": 68,
+    "previous_value": "Pulverize",
+    "value": "Pulverize"
+  },
+  {
+    "source": "Units\\NeutralAbilityStrings.txt",
+    "object_id": "ANre",
+    "field": "Name",
+    "previous_line": 386,
+    "line": 495,
+    "previous_value": "Mana Regeneration",
+    "value": "Life Regeneration Aura"
+  }
+]

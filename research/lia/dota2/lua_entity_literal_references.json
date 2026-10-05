@@ -1,0 +1,3509 @@
+[
+  {
+    "source": "game/scripts/vscripts/abilities/5_wave_firestorm.lua",
+    "line": 10,
+    "end_line": 10,
+    "function": "RainOfFireStart",
+    "value": "dummy_unit_vulnerable"
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_9_morphallaxis.lua",
+    "line": 57,
+    "end_line": 57,
+    "function": "modifier_wave_9_morphallaxis:OnAttackLanded",
+    "value": "9_wave_creep_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_9_morphallaxis.lua",
+    "line": 59,
+    "end_line": 59,
+    "function": "modifier_wave_9_morphallaxis:OnAttackLanded",
+    "value": "9_wave_creep"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 24,
+    "end_line": 24,
+    "function": "Precache",
+    "value": "npc_water_elemental_1"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 25,
+    "end_line": 25,
+    "function": "Precache",
+    "value": "npc_water_elemental_2"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 26,
+    "end_line": 26,
+    "function": "Precache",
+    "value": "npc_water_elemental_3"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 27,
+    "end_line": 27,
+    "function": "Precache",
+    "value": "npc_water_elemental_4"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 29,
+    "end_line": 29,
+    "function": "Precache",
+    "value": "spirit_of_the_plains1"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 30,
+    "end_line": 30,
+    "function": "Precache",
+    "value": "spirit_of_the_plains2"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 31,
+    "end_line": 31,
+    "function": "Precache",
+    "value": "spirit_of_the_plains3"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 33,
+    "end_line": 33,
+    "function": "Precache",
+    "value": "ghost_1"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 34,
+    "end_line": 34,
+    "function": "Precache",
+    "value": "ghost_2"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 35,
+    "end_line": 35,
+    "function": "Precache",
+    "value": "ghost_3"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 36,
+    "end_line": 36,
+    "function": "Precache",
+    "value": "ghost_4"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 38,
+    "end_line": 38,
+    "function": "Precache",
+    "value": "necromancer_skeleton1"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 39,
+    "end_line": 39,
+    "function": "Precache",
+    "value": "necromancer_skeleton2"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 40,
+    "end_line": 40,
+    "function": "Precache",
+    "value": "necromancer_skeleton3"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 41,
+    "end_line": 41,
+    "function": "Precache",
+    "value": "necromancer_skeleton4"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 43,
+    "end_line": 43,
+    "function": "Precache",
+    "value": "pure_light_totem"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 45,
+    "end_line": 45,
+    "function": "Precache",
+    "value": "android_pocket_factory_building1"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 46,
+    "end_line": 46,
+    "function": "Precache",
+    "value": "android_pocket_factory_building2"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 47,
+    "end_line": 47,
+    "function": "Precache",
+    "value": "android_pocket_factory_building3"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 109,
+    "end_line": 109,
+    "function": "Precache",
+    "value": "npc_dota_hero_terrorblade"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 110,
+    "end_line": 110,
+    "function": "Precache",
+    "value": "npc_dota_hero_mirana"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 112,
+    "end_line": 112,
+    "function": "Precache",
+    "value": "5_wave_megaboss"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 113,
+    "end_line": 113,
+    "function": "Precache",
+    "value": "10_wave_megaboss"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 114,
+    "end_line": 114,
+    "function": "Precache",
+    "value": "15_wave_megaboss"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 115,
+    "end_line": 115,
+    "function": "Precache",
+    "value": "orn_megaboss"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 116,
+    "end_line": 116,
+    "function": "Precache",
+    "value": "orn_mutant_boss"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 117,
+    "end_line": 117,
+    "function": "Precache",
+    "value": "npc_lia_boar"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 118,
+    "end_line": 118,
+    "function": "Precache",
+    "value": "item_lia_healing_ward_unit"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 120,
+    "end_line": 120,
+    "function": "Precache",
+    "value": "white_wolf_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 121,
+    "end_line": 121,
+    "function": "Precache",
+    "value": "jungle_stalker_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 122,
+    "end_line": 122,
+    "function": "Precache",
+    "value": "phoenix_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 123,
+    "end_line": 123,
+    "function": "Precache",
+    "value": "bear_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 124,
+    "end_line": 124,
+    "function": "Precache",
+    "value": "phoenix_egg_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 127,
+    "end_line": 127,
+    "function": "Precache",
+    "value": "item_lia_lightning_bow"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 128,
+    "end_line": 128,
+    "function": "Precache",
+    "value": "item_lia_staff_of_help"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 129,
+    "end_line": 129,
+    "function": "Precache",
+    "value": "item_lia_staff_of_help_2"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 130,
+    "end_line": 130,
+    "function": "Precache",
+    "value": "item_lia_ice_sword"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 131,
+    "end_line": 131,
+    "function": "Precache",
+    "value": "item_lia_rune_of_lifesteal"
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 134,
+    "end_line": 134,
+    "function": "Precache",
+    "value": "spherical_staff_fire_golem"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/11_wave_creeps.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "11_wave_immolation"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/11_wave_creeps_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "11_wave_immolation_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/12_wave_bosses.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "12_wave_bloodlust"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/12_wave_bosses.lua",
+    "line": 12,
+    "end_line": 12,
+    "function": "Spawn",
+    "value": "12_wave_roots"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/12_wave_bosses_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "12_wave_bloodlust_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/12_wave_bosses_extreme.lua",
+    "line": 12,
+    "end_line": 12,
+    "function": "Spawn",
+    "value": "12_wave_roots_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/12_wave_creeps.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "12_wave_stomp"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/13_wave_creeps.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "13_wave_hurl_boulder"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/14_wave_bosses.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "14_wave_storm_bolt"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/14_wave_bosses_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "14_wave_storm_bolt_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/14_wave_creeps.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "14_wave_shadow_strike"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/14_wave_creeps_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "14_wave_shadow_strike_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/15_megaboss.lua",
+    "line": 10,
+    "end_line": 10,
+    "function": "Spawn",
+    "value": "15_megaboss_illusions"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/15_megaboss.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "15_megaboss_astral"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/15_megaboss.lua",
+    "line": 12,
+    "end_line": 12,
+    "function": "Spawn",
+    "value": "15_megaboss_silence"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/16_wave_bosses.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "wave_16_mana_burn"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/16_wave_bosses.lua",
+    "line": 12,
+    "end_line": 12,
+    "function": "Spawn",
+    "value": "16_wave_slow"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/16_wave_bosses_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "wave_16_mana_burn_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/16_wave_bosses_extreme.lua",
+    "line": 12,
+    "end_line": 12,
+    "function": "Spawn",
+    "value": "16_wave_slow_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/16_wave_creeps.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "wave_16_mana_burn"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/16_wave_creeps_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "wave_16_mana_burn_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/17_wave_creeps.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "17_wave_purge"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/17_wave_creeps_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "17_wave_purge_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/18_wave_creeps.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "18_wave_silence"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/18_wave_creeps_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "18_wave_silence_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/19_wave_bosses.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "19_wave_polymorph"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/19_wave_bosses_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "19_wave_polymorph_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/19_wave_creeps.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "19_wave_faerie_fire"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/19_wave_creeps_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "19_wave_faerie_fire_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/1_wave_bosses.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "1_wave_stomp"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/1_wave_bosses_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "1_wave_stomp_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/2_wave_bosses.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "second_wave_wave_of_force"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/2_wave_bosses_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "2_wave_war_stomp_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/2_wave_bosses_extreme.lua",
+    "line": 12,
+    "end_line": 12,
+    "function": "Spawn",
+    "value": "second_wave_wave_of_force_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/3_wave_bosses.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "3_wave_rejuvenation"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/3_wave_bosses_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "3_wave_rejuvenation_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/4_wave_bosses.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "4_wave_death_coil"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/4_wave_bosses_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "4_wave_death_coil"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/4_wave_bosses_extreme.lua",
+    "line": 12,
+    "end_line": 12,
+    "function": "Spawn",
+    "value": "4_wave_ensnare_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/6_wave_bosses.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "6_wave_cripple"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/6_wave_bosses.lua",
+    "line": 12,
+    "end_line": 12,
+    "function": "Spawn",
+    "value": "6_wave_cripple"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/6_wave_bosses_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "6_wave_cripple"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/6_wave_bosses_extreme.lua",
+    "line": 12,
+    "end_line": 12,
+    "function": "Spawn",
+    "value": "6_wave_curse"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/6_wave_bosses_extreme.lua",
+    "line": 13,
+    "end_line": 13,
+    "function": "Spawn",
+    "value": "6_wave_cripple"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/7_wave_bosses.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "7_wave_howl_of_terror"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/7_wave_bosses_extreme.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "7_wave_howl_of_terror_extreme"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/8_wave_bosses.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "8_wave_storm_bolt"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/9_wave_bosses.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "9_wave_frost_nova"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/orn_mutant_boss_slow.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "Spawn",
+    "value": "orn_mutant_boss_slow"
+  },
+  {
+    "source": "game/scripts/vscripts/AI/TrollHealer.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "Spawn",
+    "value": "troll_healer_heal"
+  },
+  {
+    "source": "game/scripts/vscripts/destrSpawn.lua",
+    "line": 8,
+    "end_line": 8,
+    "function": "Spawn",
+    "value": "barrel_no_health_bar"
+  },
+  {
+    "source": "game/scripts/vscripts/destrSpawn.lua",
+    "line": 12,
+    "end_line": 12,
+    "function": "Spawn",
+    "value": "barricades"
+  },
+  {
+    "source": "game/scripts/vscripts/destrSpawn.lua",
+    "line": 12,
+    "end_line": 12,
+    "function": "Spawn",
+    "value": "arena_rock"
+  },
+  {
+    "source": "game/scripts/vscripts/destrSpawn.lua",
+    "line": 16,
+    "end_line": 16,
+    "function": "Spawn",
+    "value": "barricades_big"
+  },
+  {
+    "source": "game/scripts/vscripts/destrSpawn.lua",
+    "line": 20,
+    "end_line": 20,
+    "function": "Spawn",
+    "value": "barricades_small"
+  },
+  {
+    "source": "game/scripts/vscripts/destrSpawn.lua",
+    "line": 24,
+    "end_line": 24,
+    "function": "Spawn",
+    "value": "big_barrel"
+  },
+  {
+    "source": "game/scripts/vscripts/destrSpawn.lua",
+    "line": 28,
+    "end_line": 28,
+    "function": "Spawn",
+    "value": "small_barrel"
+  },
+  {
+    "source": "game/scripts/vscripts/destrSpawn.lua",
+    "line": 32,
+    "end_line": 32,
+    "function": "Spawn",
+    "value": "npc_dota_creature_barrel"
+  },
+  {
+    "source": "game/scripts/vscripts/destrSpawn.lua",
+    "line": 36,
+    "end_line": 36,
+    "function": "Spawn",
+    "value": "small_barrel_side"
+  },
+  {
+    "source": "game/scripts/vscripts/destrSpawn.lua",
+    "line": 40,
+    "end_line": 40,
+    "function": "Spawn",
+    "value": "tnt_barrel"
+  },
+  {
+    "source": "game/scripts/vscripts/destrSpawn.lua",
+    "line": 41,
+    "end_line": 41,
+    "function": "Spawn",
+    "value": "barrel_explosion"
+  },
+  {
+    "source": "game/scripts/vscripts/filtering.lua",
+    "line": 139,
+    "end_line": 139,
+    "function": "LiA:FilterDamage",
+    "value": "knight_ancient_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Acron/Explosion.lua",
+    "line": 18,
+    "end_line": 18,
+    "function": "Explosion",
+    "value": "acron_battle_fevor"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Acron/firerage.lua",
+    "line": 31,
+    "end_line": 31,
+    "function": "StackCountIncrease",
+    "value": "acron_battle_fevor"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Alchemist/alchemist_fire_potion.lua",
+    "line": 70,
+    "end_line": 70,
+    "function": "alchemist_fire_potion:OnSpellStart",
+    "value": "alchemist_side_effect"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Alchemist/alchemist_fire_potion.lua",
+    "line": 89,
+    "end_line": 89,
+    "function": "alchemist_fire_potion:OnProjectileThink",
+    "value": "dummy_unit_side_effect"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Alchemist/modifier_alchemist_side_effect.lua",
+    "line": 29,
+    "end_line": 29,
+    "function": "modifier_alchemist_side_effect:IncrementPotionCount/anonymous@24",
+    "value": "dummy_unit_side_effect"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Alchemist/modifier_alchemist_swiftness_potion_caster.lua",
+    "line": 30,
+    "end_line": 30,
+    "function": "modifier_alchemist_swiftness_potion_caster:OnCreated",
+    "value": "dummy_unit_phase_hero"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Alchemist/modifier_alchemist_swiftness_potion_caster.lua",
+    "line": 160,
+    "end_line": 160,
+    "function": "modifier_alchemist_swiftness_potion_caster:OnDestroy",
+    "value": "alchemist_side_effect"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Android/android_cluster_rockets.lua",
+    "line": 94,
+    "end_line": 94,
+    "function": "modifier_cluster_rockets:FireRocket",
+    "value": "dummy_unit_vulnerable"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Android/PocketFactory.lua",
+    "line": 16,
+    "end_line": 16,
+    "function": "BuildPocketFactory",
+    "value": "npc_dummy_blank"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Android/PocketFactory.lua",
+    "line": 39,
+    "end_line": 39,
+    "function": "BuildPocketFactory",
+    "value": "android_pocket_factory_spawn_goblin"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Android/PocketFactory.lua",
+    "line": 40,
+    "end_line": 40,
+    "function": "BuildPocketFactory",
+    "value": "android_pocket_factory_spawn_goblin"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Android/PocketFactory.lua",
+    "line": 55,
+    "end_line": 55,
+    "function": "StartGoblinSpawn",
+    "value": "android_clockwerk_goblin_kaboom"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Android/PocketFactory.lua",
+    "line": 56,
+    "end_line": 56,
+    "function": "StartGoblinSpawn",
+    "value": "android_pocket_factory_spawn_goblin"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Archmage/archmage_anomaly.lua",
+    "line": 36,
+    "end_line": 36,
+    "function": "archmage_anomaly:OnSpellStart",
+    "value": "dummy_unit_anomaly"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Archmage/archmage_shooting_star.lua",
+    "line": 115,
+    "end_line": 115,
+    "function": "archmage_shooting_star:OnSpellStart/anonymous@100",
+    "value": "archmage_shooting_star"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Archmage/archmage_shooting_star.lua",
+    "line": 136,
+    "end_line": 136,
+    "function": "archmage_shooting_star:OnSpellStart",
+    "value": "dummy_unit_anomaly"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Archmage/archmage_shooting_star_staff.lua",
+    "line": 92,
+    "end_line": 92,
+    "function": "archmage_shooting_star_staff:OnSpellStart/anonymous@77",
+    "value": "archmage_shooting_star"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Archmage/archmage_shooting_star_staff.lua",
+    "line": 113,
+    "end_line": 113,
+    "function": "archmage_shooting_star_staff:OnSpellStart",
+    "value": "dummy_unit_anomaly"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Archmage/Polymorph.lua",
+    "line": 23,
+    "end_line": 23,
+    "function": "Polymorph",
+    "value": "dummy_unit_anomaly"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Beastmaster/Beasts.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "SummonBeasts",
+    "value": "white_wolf_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Beastmaster/Beasts.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "SummonBeasts",
+    "value": "jungle_stalker_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Beastmaster/Beasts.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "SummonBeasts",
+    "value": "phoenix_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Beastmaster/Beasts.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "SummonBeasts",
+    "value": "bear_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Beastmaster/Phoenix.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "SpawnEgg",
+    "value": "npc_dummy_blank"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Beastmaster/Phoenix.lua",
+    "line": 6,
+    "end_line": 6,
+    "function": "SpawnEgg",
+    "value": "phoenix_egg_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Beastmaster/Phoenix.lua",
+    "line": 16,
+    "end_line": 16,
+    "function": "SpawnPhoenix",
+    "value": "phoenix_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie.lua",
+    "line": 71,
+    "end_line": 71,
+    "function": "butcher_zombie:OnSpellStart",
+    "value": "butcher_zombie_1"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie.lua",
+    "line": 71,
+    "end_line": 71,
+    "function": "butcher_zombie:OnSpellStart",
+    "value": "butcher_zombie_2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie.lua",
+    "line": 71,
+    "end_line": 71,
+    "function": "butcher_zombie:OnSpellStart",
+    "value": "butcher_zombie_3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie.lua",
+    "line": 72,
+    "end_line": 72,
+    "function": "butcher_zombie:OnSpellStart",
+    "value": "butcher_skin"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie.lua",
+    "line": 81,
+    "end_line": 81,
+    "function": "butcher_zombie:OnSpellStart",
+    "value": "butcher_skin"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie_new.lua",
+    "line": 30,
+    "end_line": 30,
+    "function": "butcher_zombie:CreateZombie",
+    "value": "butcher_zombie_1"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie_new.lua",
+    "line": 30,
+    "end_line": 30,
+    "function": "butcher_zombie:CreateZombie",
+    "value": "butcher_zombie_2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie_new.lua",
+    "line": 30,
+    "end_line": 30,
+    "function": "butcher_zombie:CreateZombie",
+    "value": "butcher_zombie_3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie_new.lua",
+    "line": 31,
+    "end_line": 31,
+    "function": "butcher_zombie:CreateZombie",
+    "value": "butcher_skin"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie_new.lua",
+    "line": 40,
+    "end_line": 40,
+    "function": "butcher_zombie:CreateZombie",
+    "value": "butcher_skin"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie_new.lua",
+    "line": 120,
+    "end_line": 120,
+    "function": "modifier_butcher_zombie:OnDeath",
+    "value": "butcher_zombie"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/DarkRanger/dark_ranger_black_arrow.lua",
+    "line": 12,
+    "end_line": 12,
+    "function": "dark_ranger_black_arrow:GetManaCost",
+    "value": "dark_ranger_fury"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Demonologist/MasteryOfDemonology.lua",
+    "line": 34,
+    "end_line": 34,
+    "function": "GiveAbility",
+    "value": "demonologist_mastery_of_demonology_creep"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Demonologist/MasteryOfDemonology.lua",
+    "line": 35,
+    "end_line": 35,
+    "function": "GiveAbility",
+    "value": "demonologist_mastery_of_demonology_creep"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Demonologist/MasteryOfDemonology.lua",
+    "line": 36,
+    "end_line": 36,
+    "function": "GiveAbility",
+    "value": "demonologist_mastery_of_demonology_creep"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Demonologist/modifier_demonologist_ritual_of_summoning_thinker.lua",
+    "line": 67,
+    "end_line": 67,
+    "function": "modifier_demonologist_ritual_of_summoning_thinker:OnDestroy",
+    "value": "19_wave_creep"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Demonologist/modifier_demonologist_ritual_of_summoning_thinker.lua",
+    "line": 68,
+    "end_line": 68,
+    "function": "modifier_demonologist_ritual_of_summoning_thinker:OnDestroy",
+    "value": "19_wave_boss"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Firelord/firelord_fire_serpent.lua",
+    "line": 17,
+    "end_line": 17,
+    "function": "firelord_fire_serpent:OnSpellStart",
+    "value": "npc_serpent_ward_2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Firelord/firelord_fire_serpent.lua",
+    "line": 17,
+    "end_line": 17,
+    "function": "firelord_fire_serpent:OnSpellStart",
+    "value": "npc_serpent_ward_3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Firelord/firelord_fire_serpent.lua",
+    "line": 17,
+    "end_line": 17,
+    "function": "firelord_fire_serpent:OnSpellStart",
+    "value": "npc_serpent_ward_4"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Firelord/firelord_fire_serpent.lua",
+    "line": 19,
+    "end_line": 19,
+    "function": "firelord_fire_serpent:OnSpellStart",
+    "value": "npc_serpent_ward_1"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Firelord/firelord_fire_serpent.lua",
+    "line": 19,
+    "end_line": 19,
+    "function": "firelord_fire_serpent:OnSpellStart",
+    "value": "npc_serpent_ward_2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Firelord/firelord_fire_serpent.lua",
+    "line": 19,
+    "end_line": 19,
+    "function": "firelord_fire_serpent:OnSpellStart",
+    "value": "npc_serpent_ward_3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Firelord/FireTrap.lua",
+    "line": 7,
+    "end_line": 7,
+    "function": "StasisStart",
+    "value": "fire_trap_unit"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Firelord/FireTrap.lua",
+    "line": 47,
+    "end_line": 47,
+    "function": "StasisThink/anonymous@32",
+    "value": "fire_trap_unit"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/FurbolgChampion/modifier_furbolg_champion_swelling_rage.lua",
+    "line": 40,
+    "end_line": 40,
+    "function": "modifier_furbolg_champion_swelling_rage:OnTakeDamage",
+    "value": "furbolg_champion_furious_clap"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Hermit/hermit_storm.lua",
+    "line": 73,
+    "end_line": 73,
+    "function": "hermit_storm:OnProjectileHit",
+    "value": "hermit_summon_water_elemental"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Hermit/hermit_storm.lua",
+    "line": 80,
+    "end_line": 80,
+    "function": "hermit_storm:OnProjectileHit",
+    "value": "npc_water_elemental_4"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Hermit/hermit_summon_water_elemental.lua",
+    "line": 18,
+    "end_line": 18,
+    "function": "hermit_summon_water_elemental:OnSpellStart",
+    "value": "npc_water_elemental_2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Hermit/hermit_summon_water_elemental.lua",
+    "line": 18,
+    "end_line": 18,
+    "function": "hermit_summon_water_elemental:OnSpellStart",
+    "value": "npc_water_elemental_3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Hermit/hermit_summon_water_elemental.lua",
+    "line": 18,
+    "end_line": 18,
+    "function": "hermit_summon_water_elemental:OnSpellStart",
+    "value": "npc_water_elemental_4"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Hermit/hermit_summon_water_elemental.lua",
+    "line": 21,
+    "end_line": 21,
+    "function": "hermit_summon_water_elemental:OnSpellStart",
+    "value": "npc_water_elemental_1"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Hermit/hermit_summon_water_elemental.lua",
+    "line": 21,
+    "end_line": 21,
+    "function": "hermit_summon_water_elemental:OnSpellStart",
+    "value": "npc_water_elemental_2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Hermit/hermit_summon_water_elemental.lua",
+    "line": 21,
+    "end_line": 21,
+    "function": "hermit_summon_water_elemental:OnSpellStart",
+    "value": "npc_water_elemental_3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Hermit/hermit_summon_water_elemental.lua",
+    "line": 40,
+    "end_line": 40,
+    "function": "hermit_summon_water_elemental:OnSpellStart",
+    "value": "npc_water_elemental_4"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Illusionist/illusionist_mastery_of_deception.lua",
+    "line": 35,
+    "end_line": 35,
+    "function": "illusions",
+    "value": "illusionist_whiff_of_deception"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Illusionist/illusionist_mastery_of_deception.lua",
+    "line": 47,
+    "end_line": 47,
+    "function": "illusions",
+    "value": "illusionist_agility_paws"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Illusionist/illusionist_mastery_of_illusions.lua",
+    "line": 29,
+    "end_line": 29,
+    "function": "AddModifier",
+    "value": "illusionist_agility_paws"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Illusionist/illusionist_mastery_of_illusions.lua",
+    "line": 49,
+    "end_line": 49,
+    "function": "AddModifier",
+    "value": "illusionist_whiff_of_deception"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/KeeperOfTheGrove/keeper_of_the_grove_guardian_spirit.lua",
+    "line": 15,
+    "end_line": 15,
+    "function": "keeper_of_the_grove_guardian_spirit:OnSpellStart",
+    "value": "keeper_of_the_grove_guardian_spirit"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/KeeperOfTheGrove/keeper_of_the_grove_guardian_spirit.lua",
+    "line": 21,
+    "end_line": 21,
+    "function": "keeper_of_the_grove_guardian_spirit:OnSpellStart",
+    "value": "keeper_of_the_grove_guardian_spirit_narure_forces"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/KeeperOfTheGrove/Reborn.lua",
+    "line": 7,
+    "end_line": 7,
+    "function": "Reborn",
+    "value": "keeper_of_the_grove_young_treant"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Knight/illusions.lua",
+    "line": 58,
+    "end_line": 58,
+    "function": "illusions",
+    "value": "knight_dark_gifts"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/LightningLord/lord_of_lightning_chain_lightning.lua",
+    "line": 70,
+    "end_line": 70,
+    "function": "lord_of_lightning_chain_lightning:OnSpellStart/anonymous@58",
+    "value": "dummy_unit"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Minotaur/minotaur_thunder_strike.lua",
+    "line": 14,
+    "end_line": 14,
+    "function": "minotaur_thunder_strike:OnAbilityPhaseStart",
+    "value": "minotaur_thunder_strike"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/deads.lua",
+    "line": 20,
+    "end_line": 20,
+    "function": "Create",
+    "value": "necromancer_skeleton2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/deads.lua",
+    "line": 23,
+    "end_line": 23,
+    "function": "Create",
+    "value": "necromancer_skeleton3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/deads.lua",
+    "line": 26,
+    "end_line": 26,
+    "function": "Create",
+    "value": "necromancer_skeleton4"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/deads.lua",
+    "line": 30,
+    "end_line": 30,
+    "function": "Create",
+    "value": "necromancer_skeleton1"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/deads.lua",
+    "line": 33,
+    "end_line": 33,
+    "function": "Create",
+    "value": "necromancer_skeleton2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/deads.lua",
+    "line": 36,
+    "end_line": 36,
+    "function": "Create",
+    "value": "necromancer_skeleton3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/necromancer_walking_corpses.lua",
+    "line": 17,
+    "end_line": 17,
+    "function": "necromancer_walking_corpses:OnSpellStart",
+    "value": "necromancer_skeleton2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/necromancer_walking_corpses.lua",
+    "line": 17,
+    "end_line": 17,
+    "function": "necromancer_walking_corpses:OnSpellStart",
+    "value": "necromancer_skeleton3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/necromancer_walking_corpses.lua",
+    "line": 17,
+    "end_line": 17,
+    "function": "necromancer_walking_corpses:OnSpellStart",
+    "value": "necromancer_skeleton4"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/necromancer_walking_corpses.lua",
+    "line": 19,
+    "end_line": 19,
+    "function": "necromancer_walking_corpses:OnSpellStart",
+    "value": "necromancer_skeleton1"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/necromancer_walking_corpses.lua",
+    "line": 19,
+    "end_line": 19,
+    "function": "necromancer_walking_corpses:OnSpellStart",
+    "value": "necromancer_skeleton2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/necromancer_walking_corpses.lua",
+    "line": 19,
+    "end_line": 19,
+    "function": "necromancer_walking_corpses:OnSpellStart",
+    "value": "necromancer_skeleton3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Ranger/ranger_trap.lua",
+    "line": 23,
+    "end_line": 23,
+    "function": "ranger_trap:ThrowNet",
+    "value": "dummy_unit"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Ranger/ranger_volley_of_arrows.lua",
+    "line": 114,
+    "end_line": 114,
+    "function": "modifier_ranger_fan_of_arrows_pull:OnDestroy",
+    "value": "ranger_trap"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/SerpentQueen/BallLightning.lua",
+    "line": 14,
+    "end_line": 14,
+    "function": "LocustSwarmStart",
+    "value": "npc_crypt_lord_locust"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/ShadowMaster/AgilityOfShadows.lua",
+    "line": 13,
+    "end_line": 13,
+    "function": "ApplyBuffs",
+    "value": "shadow_master_shadow"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/ShadowMaster/AgilityOfShadows.lua",
+    "line": 18,
+    "end_line": 18,
+    "function": "ApplyBuffs",
+    "value": "shadow_master_art_of_shadows"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/ShadowMaster/Shadow.lua",
+    "line": 56,
+    "end_line": 56,
+    "function": "_G.CreateShadow",
+    "value": "shadow_master_shadow"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Speedwarden/speedwarden_wardens_swiftness.lua",
+    "line": 61,
+    "end_line": 61,
+    "function": "modifier_speedwarden_wardens_swiftness:OnIntervalThink",
+    "value": "speedwarden_time_strike"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/SpiderQueen/modifier_spider_queen_infection.lua",
+    "line": 45,
+    "end_line": 45,
+    "function": "modifier_spider_queen_infection:OnDeath",
+    "value": "spider_queen_spider_yarn"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/BoomerangAxe.lua",
+    "line": 22,
+    "end_line": 22,
+    "function": "Initialize",
+    "value": "troll_cutthroat_enchanted_axes"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/BoomerangAxe.lua",
+    "line": 42,
+    "end_line": 42,
+    "function": "BoomerangAxes",
+    "value": "troll_cutthroat_enchanted_axes"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/BoomerangAxe.lua",
+    "line": 44,
+    "end_line": 44,
+    "function": "BoomerangAxes",
+    "value": "troll_cutthroat_vulnerability"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/modifier_troll_cutthroat_battle_trance.lua",
+    "line": 19,
+    "end_line": 19,
+    "function": "modifier_troll_cutthroat_battle_trance:OnCreated",
+    "value": "troll_cutthroat_enchanted_axes"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_boomeang_axe.lua",
+    "line": 17,
+    "end_line": 17,
+    "function": "troll_cutthroat_boomeang_axe:OnSpellStart",
+    "value": "troll_cutthroat_boomeang_axe"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_boomeang_axe.lua",
+    "line": 18,
+    "end_line": 18,
+    "function": "troll_cutthroat_boomeang_axe:OnSpellStart",
+    "value": "troll_cutthroat_boomeang_axe_return"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_boomeang_axe.lua",
+    "line": 21,
+    "end_line": 21,
+    "function": "troll_cutthroat_boomeang_axe:OnSpellStart",
+    "value": "troll_cutthroat_boomeang_axe"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_boomeang_axe.lua",
+    "line": 21,
+    "end_line": 21,
+    "function": "troll_cutthroat_boomeang_axe:OnSpellStart",
+    "value": "troll_cutthroat_boomeang_axe_return"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_boomeang_axe.lua",
+    "line": 29,
+    "end_line": 29,
+    "function": "troll_cutthroat_boomeang_axe:OnSpellStart",
+    "value": "troll_cutthroat_enchanted_axes"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_boomeang_axe.lua",
+    "line": 132,
+    "end_line": 132,
+    "function": "troll_cutthroat_boomeang_axe:OnProjectileHit",
+    "value": "troll_cutthroat_enchanted_axes"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_boomeang_axe.lua",
+    "line": 133,
+    "end_line": 133,
+    "function": "troll_cutthroat_boomeang_axe:OnProjectileHit",
+    "value": "troll_cutthroat_boomeang_axe"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_boomeang_axe.lua",
+    "line": 134,
+    "end_line": 134,
+    "function": "troll_cutthroat_boomeang_axe:OnProjectileHit",
+    "value": "troll_cutthroat_boomeang_axe_return"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_boomeang_axe.lua",
+    "line": 141,
+    "end_line": 141,
+    "function": "troll_cutthroat_boomeang_axe:OnProjectileHit",
+    "value": "troll_cutthroat_boomeang_axe_return"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_boomeang_axe.lua",
+    "line": 141,
+    "end_line": 141,
+    "function": "troll_cutthroat_boomeang_axe:OnProjectileHit",
+    "value": "troll_cutthroat_boomeang_axe"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/VowenFromBlood/StealBlood.lua",
+    "line": 56,
+    "end_line": 56,
+    "function": "StealBlood/anonymous@44",
+    "value": "dummy_unit"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/WalkingDead/walking_dead_decay.lua",
+    "line": 20,
+    "end_line": 20,
+    "function": "walking_dead_decay:OnToggle",
+    "value": "walking_dead_vitality"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/ghosts.lua",
+    "line": 18,
+    "end_line": 18,
+    "function": "ghostsCreate",
+    "value": "ghost_2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/ghosts.lua",
+    "line": 21,
+    "end_line": 21,
+    "function": "ghostsCreate",
+    "value": "ghost_3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/ghosts.lua",
+    "line": 24,
+    "end_line": 24,
+    "function": "ghostsCreate",
+    "value": "ghost_4"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/ghosts.lua",
+    "line": 28,
+    "end_line": 28,
+    "function": "ghostsCreate",
+    "value": "ghost_1"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/ghosts.lua",
+    "line": 31,
+    "end_line": 31,
+    "function": "ghostsCreate",
+    "value": "ghost_2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/ghosts.lua",
+    "line": 34,
+    "end_line": 34,
+    "function": "ghostsCreate",
+    "value": "ghost_3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/spirit.lua",
+    "line": 17,
+    "end_line": 17,
+    "function": "spiritCreate",
+    "value": "spirit_of_the_plains1"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/spirit.lua",
+    "line": 20,
+    "end_line": 20,
+    "function": "spiritCreate",
+    "value": "spirit_of_the_plains2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/spirit.lua",
+    "line": 23,
+    "end_line": 23,
+    "function": "spiritCreate",
+    "value": "spirit_of_the_plains3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/wanderer_ghosts.lua",
+    "line": 17,
+    "end_line": 17,
+    "function": "wanderer_ghosts:OnSpellStart",
+    "value": "ghost_2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/wanderer_ghosts.lua",
+    "line": 17,
+    "end_line": 17,
+    "function": "wanderer_ghosts:OnSpellStart",
+    "value": "ghost_3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/wanderer_ghosts.lua",
+    "line": 17,
+    "end_line": 17,
+    "function": "wanderer_ghosts:OnSpellStart",
+    "value": "ghost_4"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/wanderer_ghosts.lua",
+    "line": 19,
+    "end_line": 19,
+    "function": "wanderer_ghosts:OnSpellStart",
+    "value": "ghost_1"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/wanderer_ghosts.lua",
+    "line": 19,
+    "end_line": 19,
+    "function": "wanderer_ghosts:OnSpellStart",
+    "value": "ghost_2"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/wanderer_ghosts.lua",
+    "line": 19,
+    "end_line": 19,
+    "function": "wanderer_ghosts:OnSpellStart",
+    "value": "ghost_3"
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Warlock/firestorm.lua",
+    "line": 10,
+    "end_line": 10,
+    "function": "RainOfFireStart",
+    "value": "dummy_unit_vulnerable"
+  },
+  {
+    "source": "game/scripts/vscripts/items/Boar.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "SpawnBoar",
+    "value": "npc_lia_boar"
+  },
+  {
+    "source": "game/scripts/vscripts/items/BookOfTheDeath.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "SpawnSkeletons",
+    "value": "book_of_the_dead_skeleton_melee"
+  },
+  {
+    "source": "game/scripts/vscripts/items/BookOfTheDeath.lua",
+    "line": 15,
+    "end_line": 15,
+    "function": "SpawnSkeletons",
+    "value": "book_of_the_dead_skeleton_melee"
+  },
+  {
+    "source": "game/scripts/vscripts/items/BookOfTheDeath.lua",
+    "line": 21,
+    "end_line": 21,
+    "function": "SpawnSkeletons",
+    "value": "book_of_the_dead_skeleton_melee_ranged"
+  },
+  {
+    "source": "game/scripts/vscripts/items/BookOfTheDeath.lua",
+    "line": 25,
+    "end_line": 25,
+    "function": "SpawnSkeletons",
+    "value": "book_of_the_dead_skeleton_melee_ranged"
+  },
+  {
+    "source": "game/scripts/vscripts/items/cleave_axes.lua",
+    "line": 6,
+    "end_line": 6,
+    "function": "OnEquipHugeAxe/anonymous@2",
+    "value": "item_lia_huge_axe"
+  },
+  {
+    "source": "game/scripts/vscripts/items/cleave_axes.lua",
+    "line": 19,
+    "end_line": 19,
+    "function": "OnEquipBloodMoon/anonymous@15",
+    "value": "item_lia_blood_moon"
+  },
+  {
+    "source": "game/scripts/vscripts/items/cleave_axes.lua",
+    "line": 35,
+    "end_line": 35,
+    "function": "OnUnequip",
+    "value": "item_lia_huge_axe"
+  },
+  {
+    "source": "game/scripts/vscripts/items/Crusher.lua",
+    "line": 66,
+    "end_line": 66,
+    "function": "ChainLightning/anonymous@54",
+    "value": "dummy_unit"
+  },
+  {
+    "source": "game/scripts/vscripts/items/HealingWard.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "SpawnWard",
+    "value": "npc_dummy_blank"
+  },
+  {
+    "source": "game/scripts/vscripts/items/HealingWard.lua",
+    "line": 6,
+    "end_line": 6,
+    "function": "SpawnWard",
+    "value": "item_lia_healing_ward_unit"
+  },
+  {
+    "source": "game/scripts/vscripts/items/HellMask.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "SpawnHellBeast",
+    "value": "hell_beast"
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_alanith_spear.lua",
+    "line": 44,
+    "end_line": 44,
+    "function": "modifier_item_lia_alanith_spear:OnOrbImpact",
+    "value": "vampire_lifesteal"
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_blood_blade.lua",
+    "line": 85,
+    "end_line": 85,
+    "function": "modifier_item_lia_blood_blade:OnOrbImpact",
+    "value": "vampire_lifesteal"
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_boots_of_invisibility.lua",
+    "line": 18,
+    "end_line": 18,
+    "function": "item_lia_boots_of_invisibility:OnSpellStart",
+    "value": "item_lia_widow_boots"
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_healing_ward.lua",
+    "line": 6,
+    "end_line": 6,
+    "function": "item_lia_healing_ward:OnSpellStart",
+    "value": "npc_dummy_blank"
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_healing_ward.lua",
+    "line": 8,
+    "end_line": 8,
+    "function": "item_lia_healing_ward:OnSpellStart",
+    "value": "item_lia_healing_ward_unit"
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_knight_cuirass.lua",
+    "line": 107,
+    "end_line": 107,
+    "function": "modifier_item_lia_knight_cuirass:OnCreated/anonymous@106",
+    "value": "item_lia_knight_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_knight_cuirass.lua",
+    "line": 108,
+    "end_line": 108,
+    "function": "modifier_item_lia_knight_cuirass:OnCreated/anonymous@106",
+    "value": "item_lia_knight_cuirass"
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_knight_shield.lua",
+    "line": 94,
+    "end_line": 94,
+    "function": "modifier_item_lia_knight_shield:OnCreated/anonymous@93",
+    "value": "item_lia_knight_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_knight_shield.lua",
+    "line": 95,
+    "end_line": 95,
+    "function": "modifier_item_lia_knight_shield:OnCreated/anonymous@93",
+    "value": "item_lia_knight_cuirass"
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_mask_of_death.lua",
+    "line": 38,
+    "end_line": 38,
+    "function": "modifier_item_lia_mask_of_death:OnOrbImpact",
+    "value": "vampire_lifesteal"
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_spherical_staff.lua",
+    "line": 49,
+    "end_line": 49,
+    "function": "item_ultimate_scepter:OnSpellStart/anonymous@29",
+    "value": "spherical_staff_fire_golem"
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_top_lover.lua",
+    "line": 33,
+    "end_line": 33,
+    "function": "modifier_item_lia_top_lover:OnCreated/anonymous@32",
+    "value": "item_lia_knight_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_top_lover.lua",
+    "line": 34,
+    "end_line": 34,
+    "function": "modifier_item_lia_top_lover:OnCreated/anonymous@32",
+    "value": "item_lia_knight_cuirass"
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_widow_boots.lua",
+    "line": 21,
+    "end_line": 21,
+    "function": "item_lia_widow_boots:OnSpellStart",
+    "value": "item_lia_boots_of_invisibility"
+  },
+  {
+    "source": "game/scripts/vscripts/items/LightningSpear.lua",
+    "line": 53,
+    "end_line": 53,
+    "function": "ChainLightning/anonymous@41",
+    "value": "dummy_unit"
+  },
+  {
+    "source": "game/scripts/vscripts/items/modifier_spellbreaker.lua",
+    "line": 57,
+    "end_line": 57,
+    "function": "modifier_spellbreaker:OnIntervalThink",
+    "value": "item_lia_spellbreaker"
+  },
+  {
+    "source": "game/scripts/vscripts/items/modifier_spellbreaker.lua",
+    "line": 57,
+    "end_line": 57,
+    "function": "modifier_spellbreaker:OnIntervalThink",
+    "value": "item_lia_staff_of_power"
+  },
+  {
+    "source": "game/scripts/vscripts/items/modifier_spellbreaker.lua",
+    "line": 57,
+    "end_line": 57,
+    "function": "modifier_spellbreaker:OnIntervalThink",
+    "value": "item_lia_amulet_of_spell_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/modifier_spellbreaker.lua",
+    "line": 85,
+    "end_line": 85,
+    "function": "modifier_spellbreaker:OnDestroy",
+    "value": "item_lia_spellbreaker"
+  },
+  {
+    "source": "game/scripts/vscripts/items/modifier_spellbreaker.lua",
+    "line": 86,
+    "end_line": 86,
+    "function": "modifier_spellbreaker:OnDestroy",
+    "value": "item_lia_staff_of_power"
+  },
+  {
+    "source": "game/scripts/vscripts/items/modifier_spellbreaker.lua",
+    "line": 87,
+    "end_line": 87,
+    "function": "modifier_spellbreaker:OnDestroy",
+    "value": "item_lia_amulet_of_spell_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/onlyone.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "KnightCuirassShield",
+    "value": "item_lia_knight_cuirass"
+  },
+  {
+    "source": "game/scripts/vscripts/items/onlyone.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "KnightCuirassShield",
+    "value": "item_lia_knight_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/onlyone.lua",
+    "line": 13,
+    "end_line": 13,
+    "function": "DivineArmor",
+    "value": "item_lia_divine_armor"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 39,
+    "end_line": 39,
+    "function": "_G.RuneOfProtection",
+    "value": "item_lia_rune_of_protection"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 66,
+    "end_line": 66,
+    "function": "<file>",
+    "value": "item_lia_health_stone_potion"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 67,
+    "end_line": 67,
+    "function": "<file>",
+    "value": "item_lia_mana_stone_potion"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 68,
+    "end_line": 68,
+    "function": "<file>",
+    "value": "item_lia_health_elixir"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 69,
+    "end_line": 69,
+    "function": "<file>",
+    "value": "item_lia_mana_elixir"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 70,
+    "end_line": 70,
+    "function": "<file>",
+    "value": "item_lia_healing_ward"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 71,
+    "end_line": 71,
+    "function": "<file>",
+    "value": "item_lia_dust_of_appearance"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 72,
+    "end_line": 72,
+    "function": "<file>",
+    "value": "item_lia_anti_magic_potion"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 73,
+    "end_line": 73,
+    "function": "<file>",
+    "value": "item_lia_potion_of_invulnerability"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 74,
+    "end_line": 74,
+    "function": "<file>",
+    "value": "item_lia_potion_of_invisibility"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 75,
+    "end_line": 75,
+    "function": "<file>",
+    "value": "item_lia_scroll_of_restoration"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 76,
+    "end_line": 76,
+    "function": "<file>",
+    "value": "item_lia_scroll_of_secret_knowledge"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 77,
+    "end_line": 77,
+    "function": "<file>",
+    "value": "item_lia_book_of_the_dead"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 78,
+    "end_line": 78,
+    "function": "<file>",
+    "value": "item_lia_boar"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 79,
+    "end_line": 79,
+    "function": "<file>",
+    "value": "item_lia_troll_defender"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 80,
+    "end_line": 80,
+    "function": "<file>",
+    "value": "item_lia_troll_healer"
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 81,
+    "end_line": 81,
+    "function": "<file>",
+    "value": "item_lia_demonic_figurine"
+  },
+  {
+    "source": "game/scripts/vscripts/items/ScepterOfPower.lua",
+    "line": 35,
+    "end_line": 35,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_destroy",
+    "value": "item_lia_spellbreaker"
+  },
+  {
+    "source": "game/scripts/vscripts/items/ScepterOfPower.lua",
+    "line": 35,
+    "end_line": 35,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_destroy",
+    "value": "item_lia_staff_of_power"
+  },
+  {
+    "source": "game/scripts/vscripts/items/ScepterOfPower.lua",
+    "line": 35,
+    "end_line": 35,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_destroy",
+    "value": "item_lia_amulet_of_spell_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/ScepterOfPower.lua",
+    "line": 57,
+    "end_line": 57,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_interval_think",
+    "value": "item_lia_staff_of_power"
+  },
+  {
+    "source": "game/scripts/vscripts/items/ScepterOfPower.lua",
+    "line": 57,
+    "end_line": 57,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_interval_think",
+    "value": "item_lia_amulet_of_spell_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/ScepterOfPower.lua",
+    "line": 73,
+    "end_line": 73,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_interval_think",
+    "value": "item_lia_spellbreaker"
+  },
+  {
+    "source": "game/scripts/vscripts/items/ScepterOfPower.lua",
+    "line": 73,
+    "end_line": 73,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_interval_think",
+    "value": "item_lia_staff_of_power"
+  },
+  {
+    "source": "game/scripts/vscripts/items/ScepterOfPower.lua",
+    "line": 73,
+    "end_line": 73,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_interval_think",
+    "value": "item_lia_amulet_of_spell_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/SpellShield.lua",
+    "line": 35,
+    "end_line": 35,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_destroy",
+    "value": "item_lia_staff_of_power"
+  },
+  {
+    "source": "game/scripts/vscripts/items/SpellShield.lua",
+    "line": 35,
+    "end_line": 35,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_destroy",
+    "value": "item_lia_amulet_of_spell_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/SpellShield.lua",
+    "line": 57,
+    "end_line": 57,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_interval_think",
+    "value": "item_lia_spellbreaker"
+  },
+  {
+    "source": "game/scripts/vscripts/items/SpellShield.lua",
+    "line": 57,
+    "end_line": 57,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_interval_think",
+    "value": "item_lia_staff_of_power"
+  },
+  {
+    "source": "game/scripts/vscripts/items/SpellShield.lua",
+    "line": 57,
+    "end_line": 57,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_interval_think",
+    "value": "item_lia_amulet_of_spell_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/SpellShield.lua",
+    "line": 73,
+    "end_line": 73,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_interval_think",
+    "value": "item_lia_spellbreaker"
+  },
+  {
+    "source": "game/scripts/vscripts/items/SpellShield.lua",
+    "line": 73,
+    "end_line": 73,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_interval_think",
+    "value": "item_lia_staff_of_power"
+  },
+  {
+    "source": "game/scripts/vscripts/items/SpellShield.lua",
+    "line": 73,
+    "end_line": 73,
+    "function": "modifier_item_lia_amulet_of_spell_shield_on_interval_think",
+    "value": "item_lia_amulet_of_spell_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/StaffOfHelp.lua",
+    "line": 53,
+    "end_line": 53,
+    "function": "HealingWave/anonymous@41",
+    "value": "dummy_unit"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 22,
+    "end_line": 22,
+    "function": "OnEquip",
+    "value": "npc_dota_hero_chen"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 25,
+    "end_line": 25,
+    "function": "OnEquip",
+    "value": "paladin_blizzard"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 33,
+    "end_line": 33,
+    "function": "OnEquip",
+    "value": "paladin_grace"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 43,
+    "end_line": 43,
+    "function": "OnEquip",
+    "value": "npc_dota_hero_pugna"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 46,
+    "end_line": 46,
+    "function": "OnEquip",
+    "value": "skeleton_mage_light_magic"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 54,
+    "end_line": 54,
+    "function": "OnEquip",
+    "value": "skeleton_mage_dark_magic"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 63,
+    "end_line": 63,
+    "function": "OnEquip",
+    "value": "npc_dota_hero_warlock"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 66,
+    "end_line": 66,
+    "function": "OnEquip",
+    "value": "earth_lord_earth_burn"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 74,
+    "end_line": 74,
+    "function": "OnEquip",
+    "value": "earth_lord_split_earth"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 83,
+    "end_line": 83,
+    "function": "OnEquip",
+    "value": "npc_dota_hero_lich"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 86,
+    "end_line": 86,
+    "function": "OnEquip",
+    "value": "frost_lord_frost_breath"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 94,
+    "end_line": 94,
+    "function": "OnEquip",
+    "value": "frost_lord_ice"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 103,
+    "end_line": 103,
+    "function": "OnEquip",
+    "value": "npc_dota_hero_spirit_breaker"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 106,
+    "end_line": 106,
+    "function": "OnEquip",
+    "value": "time_lord_death"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 114,
+    "end_line": 114,
+    "function": "OnEquip",
+    "value": "time_lord_timelapse"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 123,
+    "end_line": 123,
+    "function": "OnEquip",
+    "value": "npc_dota_hero_leshrac"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 126,
+    "end_line": 126,
+    "function": "OnEquip",
+    "value": "keeper_of_the_grove_guardian_spirit"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 134,
+    "end_line": 134,
+    "function": "OnEquip",
+    "value": "keeper_of_the_grove_natures_curse"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 142,
+    "end_line": 142,
+    "function": "OnEquip",
+    "value": "npc_dota_hero_mirana"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 145,
+    "end_line": 145,
+    "function": "OnEquip",
+    "value": "ancient_priestess_mana_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 153,
+    "end_line": 153,
+    "function": "OnEquip",
+    "value": "ancient_priestess_ritual_protection"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 161,
+    "end_line": 161,
+    "function": "OnEquip",
+    "value": "npc_dota_hero_disruptor"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 164,
+    "end_line": 164,
+    "function": "OnEquip",
+    "value": "lord_of_lightning_lightning_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 172,
+    "end_line": 172,
+    "function": "OnEquip",
+    "value": "lord_of_lightning_chain_lightning"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 182,
+    "end_line": 182,
+    "function": "OnEquip",
+    "value": "npc_dota_hero_invoker"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 185,
+    "end_line": 185,
+    "function": "OnEquip",
+    "value": "firelord_flame_strike"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 193,
+    "end_line": 193,
+    "function": "OnEquip",
+    "value": "firelord_fire_serpent"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 202,
+    "end_line": 202,
+    "function": "OnEquip",
+    "value": "npc_dota_hero_abyssal_underlord"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 205,
+    "end_line": 205,
+    "function": "OnEquip",
+    "value": "necromancer_stabbing_death"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 222,
+    "end_line": 222,
+    "function": "OnEquip",
+    "value": "npc_dota_hero_keeper_of_the_light"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 225,
+    "end_line": 225,
+    "function": "OnEquip",
+    "value": "archmage_shooting_star"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 233,
+    "end_line": 233,
+    "function": "OnEquip",
+    "value": "archmage_anomaly"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 242,
+    "end_line": 242,
+    "function": "OnEquip",
+    "value": "npc_dota_hero_shadow_demon"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 245,
+    "end_line": 245,
+    "function": "OnEquip",
+    "value": "demonologist_demonic_seal"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 253,
+    "end_line": 253,
+    "function": "OnEquip",
+    "value": "demonologist_ritual_of_summoning"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 308,
+    "end_line": 308,
+    "function": "OnUnequip",
+    "value": "npc_dota_hero_bane"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 312,
+    "end_line": 312,
+    "function": "OnUnequip",
+    "value": "hermit_frost_arrows"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 321,
+    "end_line": 321,
+    "function": "OnUnequip",
+    "value": "npc_dota_hero_chen"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 325,
+    "end_line": 325,
+    "function": "OnUnequip",
+    "value": "paladin_blizzard"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 333,
+    "end_line": 333,
+    "function": "OnUnequip",
+    "value": "paladin_grace"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 342,
+    "end_line": 342,
+    "function": "OnUnequip",
+    "value": "npc_dota_hero_pugna"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 346,
+    "end_line": 346,
+    "function": "OnUnequip",
+    "value": "skeleton_mage_light_magic"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 354,
+    "end_line": 354,
+    "function": "OnUnequip",
+    "value": "skeleton_mage_dark_magic"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 362,
+    "end_line": 362,
+    "function": "OnUnequip",
+    "value": "npc_dota_hero_warlock"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 366,
+    "end_line": 366,
+    "function": "OnUnequip",
+    "value": "earth_lord_earth_burn"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 374,
+    "end_line": 374,
+    "function": "OnUnequip",
+    "value": "earth_lord_split_earth"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 382,
+    "end_line": 382,
+    "function": "OnUnequip",
+    "value": "npc_dota_hero_lich"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 386,
+    "end_line": 386,
+    "function": "OnUnequip",
+    "value": "frost_lord_frost_breath"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 394,
+    "end_line": 394,
+    "function": "OnUnequip",
+    "value": "frost_lord_ice"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 402,
+    "end_line": 402,
+    "function": "OnUnequip",
+    "value": "npc_dota_hero_spirit_breaker"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 406,
+    "end_line": 406,
+    "function": "OnUnequip",
+    "value": "time_lord_death"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 414,
+    "end_line": 414,
+    "function": "OnUnequip",
+    "value": "time_lord_timelapse"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 423,
+    "end_line": 423,
+    "function": "OnUnequip",
+    "value": "npc_dota_hero_leshrac"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 427,
+    "end_line": 427,
+    "function": "OnUnequip",
+    "value": "keeper_of_the_grove_guardian_spirit"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 435,
+    "end_line": 435,
+    "function": "OnUnequip",
+    "value": "keeper_of_the_grove_natures_curse"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 443,
+    "end_line": 443,
+    "function": "OnUnequip",
+    "value": "npc_dota_hero_mirana"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 447,
+    "end_line": 447,
+    "function": "OnUnequip",
+    "value": "ancient_priestess_mana_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 455,
+    "end_line": 455,
+    "function": "OnUnequip",
+    "value": "ancient_priestess_ritual_protection"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 463,
+    "end_line": 463,
+    "function": "OnUnequip",
+    "value": "npc_dota_hero_disruptor"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 467,
+    "end_line": 467,
+    "function": "OnUnequip",
+    "value": "lord_of_lightning_lightning_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 475,
+    "end_line": 475,
+    "function": "OnUnequip",
+    "value": "lord_of_lightning_chain_lightning"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 483,
+    "end_line": 483,
+    "function": "OnUnequip",
+    "value": "npc_dota_hero_invoker"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 487,
+    "end_line": 487,
+    "function": "OnUnequip",
+    "value": "firelord_flame_strike"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 495,
+    "end_line": 495,
+    "function": "OnUnequip",
+    "value": "firelord_fire_serpent"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 503,
+    "end_line": 503,
+    "function": "OnUnequip",
+    "value": "npc_dota_hero_abyssal_underlord"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 507,
+    "end_line": 507,
+    "function": "OnUnequip",
+    "value": "necromancer_stabbing_death"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 523,
+    "end_line": 523,
+    "function": "OnUnequip",
+    "value": "npc_dota_hero_keeper_of_the_light"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 527,
+    "end_line": 527,
+    "function": "OnUnequip",
+    "value": "archmage_shooting_star"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 535,
+    "end_line": 535,
+    "function": "OnUnequip",
+    "value": "archmage_anomaly"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 543,
+    "end_line": 543,
+    "function": "OnUnequip",
+    "value": "npc_dota_hero_shadow_demon"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 547,
+    "end_line": 547,
+    "function": "OnUnequip",
+    "value": "demonologist_demonic_seal"
+  },
+  {
+    "source": "game/scripts/vscripts/items/STupgrades.lua",
+    "line": 555,
+    "end_line": 555,
+    "function": "OnUnequip",
+    "value": "demonologist_ritual_of_summoning"
+  },
+  {
+    "source": "game/scripts/vscripts/items/TrollDefender.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "SpawnTroll",
+    "value": "npc_lia_troll_defender"
+  },
+  {
+    "source": "game/scripts/vscripts/items/TrollHealer.lua",
+    "line": 11,
+    "end_line": 11,
+    "function": "SpawnTroll",
+    "value": "npc_lia_troll_healer"
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 243,
+    "end_line": 243,
+    "function": "LiA:OnNPCSpawned",
+    "value": "npc_dota_hero_wisp"
+  },
+  {
+    "source": "game/scripts/vscripts/physics.lua",
+    "line": 1657,
+    "end_line": 1657,
+    "function": "Physics:PhysicsTestCommand",
+    "value": "npc_dummy_blank"
+  },
+  {
+    "source": "game/scripts/vscripts/physics.lua",
+    "line": 1692,
+    "end_line": 1692,
+    "function": "Physics:PhysicsTestCommand",
+    "value": "npc_dummy_blank"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/duels.lua",
+    "line": 25,
+    "end_line": 25,
+    "function": "Survival:StartDuels/anonymous@19",
+    "value": "time_lord_wisdom_flow"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/duels.lua",
+    "line": 88,
+    "end_line": 88,
+    "function": "Survival:Duel/anonymous@78",
+    "value": "item_lia_rune_of_protection"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/duels.lua",
+    "line": 93,
+    "end_line": 93,
+    "function": "Survival:Duel/anonymous@78",
+    "value": "item_lia_rune_of_protection"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/duels.lua",
+    "line": 246,
+    "end_line": 246,
+    "function": "Survival:EndDuel",
+    "value": "item_lia_fire_gloves"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/duels.lua",
+    "line": 246,
+    "end_line": 246,
+    "function": "Survival:EndDuel",
+    "value": "item_lia_fire_gloves_2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/duels.lua",
+    "line": 257,
+    "end_line": 257,
+    "function": "Survival:EndDuel",
+    "value": "item_lia_fire_gloves"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/duels.lua",
+    "line": 257,
+    "end_line": 257,
+    "function": "Survival:EndDuel",
+    "value": "item_lia_fire_gloves_2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/duels.lua",
+    "line": 306,
+    "end_line": 306,
+    "function": "Survival:EndDuels/anonymous@296",
+    "value": "time_lord_wisdom_flow"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/events.lua",
+    "line": 8,
+    "end_line": 8,
+    "function": "Survival:OnNPCSpawned/anonymous@6",
+    "value": "item_enchanted_mango"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/events.lua",
+    "line": 8,
+    "end_line": 8,
+    "function": "Survival:OnNPCSpawned/anonymous@6",
+    "value": "item_tpscroll"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/events.lua",
+    "line": 182,
+    "end_line": 182,
+    "function": "Survival:OnEntityKilled/anonymous@179",
+    "value": "dummy_unit"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/events.lua",
+    "line": 393,
+    "end_line": 393,
+    "function": "Survival:OnPlayerChat",
+    "value": "1_wave_creep"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/finalBoss.lua",
+    "line": 10,
+    "end_line": 10,
+    "function": "Survival:FinalBoss_StartSecondStage/anonymous@8",
+    "value": "orn_mutant_boss"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 121,
+    "end_line": 121,
+    "function": "Survival:InitSurvival",
+    "value": "item_lia_healing_ward"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 210,
+    "end_line": 210,
+    "function": "Survival:OrderFilter",
+    "value": "item_lia_knight_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 210,
+    "end_line": 210,
+    "function": "Survival:OrderFilter",
+    "value": "item_lia_knight_cuirass"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 212,
+    "end_line": 212,
+    "function": "Survival:OrderFilter",
+    "value": "item_lia_knight_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 212,
+    "end_line": 212,
+    "function": "Survival:OrderFilter",
+    "value": "item_lia_knight_cuirass"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 231,
+    "end_line": 231,
+    "function": "Survival:OrderFilter",
+    "value": "item_lia_rune_of_healing"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 231,
+    "end_line": 231,
+    "function": "Survival:OrderFilter",
+    "value": "item_lia_rune_of_mana"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 231,
+    "end_line": 231,
+    "function": "Survival:OrderFilter",
+    "value": "item_lia_rune_of_restoration"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 231,
+    "end_line": 231,
+    "function": "Survival:OrderFilter",
+    "value": "item_lia_rune_of_speed"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 231,
+    "end_line": 231,
+    "function": "Survival:OrderFilter",
+    "value": "item_lia_rune_of_lifesteal"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 231,
+    "end_line": 231,
+    "function": "Survival:OrderFilter",
+    "value": "item_lia_rune_of_protection"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 264,
+    "end_line": 264,
+    "function": "Survival:ItemAddFilter",
+    "value": "item_lia_knight_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 264,
+    "end_line": 264,
+    "function": "Survival:ItemAddFilter",
+    "value": "item_lia_knight_cuirass"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 265,
+    "end_line": 265,
+    "function": "Survival:ItemAddFilter",
+    "value": "item_lia_knight_shield"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 265,
+    "end_line": 265,
+    "function": "Survival:ItemAddFilter",
+    "value": "item_lia_knight_cuirass"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 318,
+    "end_line": 318,
+    "function": "Survival:onThink",
+    "value": "npc_dota_hero_nyx_assassin"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 406,
+    "end_line": 406,
+    "function": "Survival:EndRound/anonymous@402",
+    "value": "item_lia_rune_of_protection"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 524,
+    "end_line": 524,
+    "function": "Survival:_SpawnMegaboss",
+    "value": "orn_megaboss"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 720,
+    "end_line": 720,
+    "function": "HeroToPedestal",
+    "value": "item_lia_fire_gloves"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 720,
+    "end_line": 720,
+    "function": "HeroToPedestal",
+    "value": "item_lia_fire_gloves_2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 134,
+    "end_line": 134,
+    "function": "<file>",
+    "value": "android_clockwerk_goblin1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 135,
+    "end_line": 135,
+    "function": "<file>",
+    "value": "android_clockwerk_goblin2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 136,
+    "end_line": 136,
+    "function": "<file>",
+    "value": "android_clockwerk_goblin3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 138,
+    "end_line": 138,
+    "function": "<file>",
+    "value": "phoenix_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 139,
+    "end_line": 139,
+    "function": "<file>",
+    "value": "phoenix_egg_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 141,
+    "end_line": 141,
+    "function": "<file>",
+    "value": "firelord_lava_spawn1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 142,
+    "end_line": 142,
+    "function": "<file>",
+    "value": "firelord_lava_spawn2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 143,
+    "end_line": 143,
+    "function": "<file>",
+    "value": "firelord_lava_spawn3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 145,
+    "end_line": 145,
+    "function": "<file>",
+    "value": "npc_serpent_ward_1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 146,
+    "end_line": 146,
+    "function": "<file>",
+    "value": "npc_serpent_ward_2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 147,
+    "end_line": 147,
+    "function": "<file>",
+    "value": "npc_serpent_ward_3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 148,
+    "end_line": 148,
+    "function": "<file>",
+    "value": "npc_serpent_ward_4"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 150,
+    "end_line": 150,
+    "function": "<file>",
+    "value": "npc_water_elemental_1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 151,
+    "end_line": 151,
+    "function": "<file>",
+    "value": "npc_water_elemental_2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 152,
+    "end_line": 152,
+    "function": "<file>",
+    "value": "npc_water_elemental_3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 153,
+    "end_line": 153,
+    "function": "<file>",
+    "value": "npc_water_elemental_4"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 155,
+    "end_line": 155,
+    "function": "<file>",
+    "value": "item_lia_healing_ward_unit"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 157,
+    "end_line": 157,
+    "function": "<file>",
+    "value": "keeper_of_the_grove_treant_1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 158,
+    "end_line": 158,
+    "function": "<file>",
+    "value": "keeper_of_the_grove_treant_2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 159,
+    "end_line": 159,
+    "function": "<file>",
+    "value": "keeper_of_the_grove_treant_3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 160,
+    "end_line": 160,
+    "function": "<file>",
+    "value": "keeper_of_the_grove_young_treant"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 162,
+    "end_line": 162,
+    "function": "<file>",
+    "value": "necromancer_skeleton1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 163,
+    "end_line": 163,
+    "function": "<file>",
+    "value": "necromancer_skeleton2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 164,
+    "end_line": 164,
+    "function": "<file>",
+    "value": "necromancer_skeleton3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 165,
+    "end_line": 165,
+    "function": "<file>",
+    "value": "necromancer_skeleton4"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 167,
+    "end_line": 167,
+    "function": "<file>",
+    "value": "book_of_the_dead_skeleton_melee"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 168,
+    "end_line": 168,
+    "function": "<file>",
+    "value": "book_of_the_dead_skeleton_melee_ranged"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 170,
+    "end_line": 170,
+    "function": "<file>",
+    "value": "npc_lia_boar"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 172,
+    "end_line": 172,
+    "function": "<file>",
+    "value": "spherical_staff_fire_golem"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 174,
+    "end_line": 174,
+    "function": "<file>",
+    "value": "spirit_of_the_plains1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 175,
+    "end_line": 175,
+    "function": "<file>",
+    "value": "spirit_of_the_plains2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 176,
+    "end_line": 176,
+    "function": "<file>",
+    "value": "spirit_of_the_plains3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 178,
+    "end_line": 178,
+    "function": "<file>",
+    "value": "ghost_1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 179,
+    "end_line": 179,
+    "function": "<file>",
+    "value": "ghost_2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 180,
+    "end_line": 180,
+    "function": "<file>",
+    "value": "ghost_3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 181,
+    "end_line": 181,
+    "function": "<file>",
+    "value": "ghost_4"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 183,
+    "end_line": 183,
+    "function": "<file>",
+    "value": "fire_golem_10_wave"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 185,
+    "end_line": 185,
+    "function": "<file>",
+    "value": "shadow_master_shadow"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 186,
+    "end_line": 186,
+    "function": "<file>",
+    "value": "hell_beast"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 200,
+    "end_line": 200,
+    "function": "<file>",
+    "value": "android_clockwerk_goblin1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 201,
+    "end_line": 201,
+    "function": "<file>",
+    "value": "android_clockwerk_goblin2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 202,
+    "end_line": 202,
+    "function": "<file>",
+    "value": "android_clockwerk_goblin3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 204,
+    "end_line": 204,
+    "function": "<file>",
+    "value": "white_wolf_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 205,
+    "end_line": 205,
+    "function": "<file>",
+    "value": "jungle_stalker_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 206,
+    "end_line": 206,
+    "function": "<file>",
+    "value": "phoenix_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 207,
+    "end_line": 207,
+    "function": "<file>",
+    "value": "phoenix_egg_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 208,
+    "end_line": 208,
+    "function": "<file>",
+    "value": "bear_bm"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 210,
+    "end_line": 210,
+    "function": "<file>",
+    "value": "butcher_zombie_1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 211,
+    "end_line": 211,
+    "function": "<file>",
+    "value": "butcher_zombie_2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 212,
+    "end_line": 212,
+    "function": "<file>",
+    "value": "butcher_zombie_3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 214,
+    "end_line": 214,
+    "function": "<file>",
+    "value": "firelord_lava_spawn1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 215,
+    "end_line": 215,
+    "function": "<file>",
+    "value": "firelord_lava_spawn2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 216,
+    "end_line": 216,
+    "function": "<file>",
+    "value": "firelord_lava_spawn3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 218,
+    "end_line": 218,
+    "function": "<file>",
+    "value": "npc_serpent_ward_1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 219,
+    "end_line": 219,
+    "function": "<file>",
+    "value": "npc_serpent_ward_2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 220,
+    "end_line": 220,
+    "function": "<file>",
+    "value": "npc_serpent_ward_3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 221,
+    "end_line": 221,
+    "function": "<file>",
+    "value": "npc_serpent_ward_4"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 223,
+    "end_line": 223,
+    "function": "<file>",
+    "value": "npc_water_elemental_1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 224,
+    "end_line": 224,
+    "function": "<file>",
+    "value": "npc_water_elemental_2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 225,
+    "end_line": 225,
+    "function": "<file>",
+    "value": "npc_water_elemental_3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 226,
+    "end_line": 226,
+    "function": "<file>",
+    "value": "npc_water_elemental_4"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 228,
+    "end_line": 228,
+    "function": "<file>",
+    "value": "item_lia_healing_ward_unit"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 230,
+    "end_line": 230,
+    "function": "<file>",
+    "value": "keeper_of_the_grove_treant_1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 231,
+    "end_line": 231,
+    "function": "<file>",
+    "value": "keeper_of_the_grove_treant_2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 232,
+    "end_line": 232,
+    "function": "<file>",
+    "value": "keeper_of_the_grove_treant_3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 233,
+    "end_line": 233,
+    "function": "<file>",
+    "value": "keeper_of_the_grove_young_treant"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 235,
+    "end_line": 235,
+    "function": "<file>",
+    "value": "necromancer_skeleton1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 236,
+    "end_line": 236,
+    "function": "<file>",
+    "value": "necromancer_skeleton2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 237,
+    "end_line": 237,
+    "function": "<file>",
+    "value": "necromancer_skeleton3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 238,
+    "end_line": 238,
+    "function": "<file>",
+    "value": "necromancer_skeleton4"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 240,
+    "end_line": 240,
+    "function": "<file>",
+    "value": "book_of_the_dead_skeleton_melee"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 241,
+    "end_line": 241,
+    "function": "<file>",
+    "value": "book_of_the_dead_skeleton_melee_ranged"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 242,
+    "end_line": 242,
+    "function": "<file>",
+    "value": "npc_lia_troll_defender"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 243,
+    "end_line": 243,
+    "function": "<file>",
+    "value": "npc_lia_troll_healer"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 244,
+    "end_line": 244,
+    "function": "<file>",
+    "value": "npc_doom_guard_spawn"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 245,
+    "end_line": 245,
+    "function": "<file>",
+    "value": "npc_lia_boar"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 247,
+    "end_line": 247,
+    "function": "<file>",
+    "value": "hell_beast"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 253,
+    "end_line": 253,
+    "function": "<file>",
+    "value": "spherical_staff_fire_golem"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 255,
+    "end_line": 255,
+    "function": "<file>",
+    "value": "spirit_of_the_plains1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 256,
+    "end_line": 256,
+    "function": "<file>",
+    "value": "spirit_of_the_plains2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 257,
+    "end_line": 257,
+    "function": "<file>",
+    "value": "spirit_of_the_plains3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 258,
+    "end_line": 258,
+    "function": "<file>",
+    "value": "ghost_1"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 259,
+    "end_line": 259,
+    "function": "<file>",
+    "value": "ghost_2"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 260,
+    "end_line": 260,
+    "function": "<file>",
+    "value": "ghost_3"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 261,
+    "end_line": 261,
+    "function": "<file>",
+    "value": "ghost_4"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 263,
+    "end_line": 263,
+    "function": "<file>",
+    "value": "fire_golem_10_wave"
+  },
+  {
+    "source": "game/scripts/vscripts/survival/utils.lua",
+    "line": 265,
+    "end_line": 265,
+    "function": "<file>",
+    "value": "shadow_master_shadow"
+  },
+  {
+    "source": "game/scripts/vscripts/units/item_lia_healing_ward_unit.lua",
+    "line": 7,
+    "end_line": 7,
+    "function": "Spawn",
+    "value": "healing_ward_ability"
+  },
+  {
+    "source": "game/scripts/vscripts/utils.lua",
+    "line": 12,
+    "end_line": 12,
+    "function": "ResetAllAbilitiesCooldown",
+    "value": "time_lord_wisdom_flow"
+  },
+  {
+    "source": "game/scripts/vscripts/utils.lua",
+    "line": 82,
+    "end_line": 82,
+    "function": "SetCameraToPosForPlayer",
+    "value": "camera_guy"
+  },
+  {
+    "source": "game/scripts/vscripts/utils.lua",
+    "line": 226,
+    "end_line": 226,
+    "function": "CreateIllusion",
+    "value": "pirate_metamorphosis"
+  },
+  {
+    "source": "game/scripts/vscripts/utils.lua",
+    "line": 231,
+    "end_line": 231,
+    "function": "CreateIllusion",
+    "value": "vampire_transformation"
+  },
+  {
+    "source": "game/scripts/vscripts/utils.lua",
+    "line": 299,
+    "end_line": 299,
+    "function": "CreateIllusion_CustomModifier",
+    "value": "pirate_metamorphosis"
+  },
+  {
+    "source": "game/scripts/vscripts/utils.lua",
+    "line": 304,
+    "end_line": 304,
+    "function": "CreateIllusion_CustomModifier",
+    "value": "vampire_transformation"
+  }
+]

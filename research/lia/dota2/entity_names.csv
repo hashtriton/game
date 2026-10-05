@@ -1,0 +1,976 @@
+category,id,name_ru,localization_source,localization_line,definition_source,definition_line
+heroes,npc_dota_hero_alchemist,Алхимик,game/resource/addon_russian.txt,301,game/scripts/npc/heroes/npc_lia_hero_alchemist.txt,3
+heroes,npc_dota_hero_mirana,Древняя Жрица,game/resource/addon_russian.txt,280,game/scripts/npc/heroes/npc_lia_hero_ancient_priestess.txt,3
+heroes,npc_dota_hero_shredder,Андроид,game/resource/addon_russian.txt,288,game/scripts/npc/heroes/npc_lia_hero_android.txt,3
+heroes,npc_dota_hero_night_stalker,Воин Плети,game/resource/addon_russian.txt,263,game/scripts/npc/heroes/npc_lia_hero_araman.txt,3
+heroes,npc_dota_hero_keeper_of_the_light,Архимаг,game/resource/addon_russian.txt,297,game/scripts/npc/heroes/npc_lia_hero_archmage.txt,3
+heroes,npc_dota_hero_beastmaster,Повелитель Зверей,game/resource/addon_russian.txt,286,game/scripts/npc/heroes/npc_lia_hero_beastmaster.txt,3
+heroes,npc_dota_hero_huskar,Берсеркер,game/resource/addon_russian.txt,252,game/scripts/npc/heroes/npc_lia_hero_berserker.txt,3
+heroes,npc_dota_hero_brewmaster,Пивовар,game/resource/addon_russian.txt,253,game/scripts/npc/heroes/npc_lia_hero_brewmaster.txt,3
+heroes,npc_dota_hero_pudge,Мясник,game/resource/addon_russian.txt,260,game/scripts/npc/heroes/npc_lia_hero_butcher.txt,3
+heroes,npc_dota_hero_abaddon,Темный Рыцарь,game/resource/addon_russian.txt,291,game/scripts/npc/heroes/npc_lia_hero_dark_knight.txt,3
+heroes,npc_dota_hero_drow_ranger,Темная Лучница,game/resource/addon_russian.txt,290,game/scripts/npc/heroes/npc_lia_hero_dark_ranger.txt,3
+heroes,npc_dota_hero_shadow_demon,Демонолог,game/resource/addon_russian.txt,298,game/scripts/npc/heroes/npc_lia_hero_demonologist.txt,3
+heroes,npc_dota_hero_axe,Вождь Орков,game/resource/addon_russian.txt,258,game/scripts/npc/heroes/npc_lia_hero_dice.txt,3
+heroes,npc_dota_hero_warlock,Повелитель Земли,game/resource/addon_russian.txt,274,game/scripts/npc/heroes/npc_lia_hero_earth_lord.txt,3
+heroes,npc_dota_hero_nyx_assassin,Падший Воитель,game/resource/addon_russian.txt,293,game/scripts/npc/heroes/npc_lia_hero_fallen_champion.txt,3
+heroes,npc_dota_hero_invoker,Повелитель Огня,game/resource/addon_russian.txt,278,game/scripts/npc/heroes/npc_lia_hero_firelord.txt,3
+heroes,npc_dota_hero_lich,Повелитель Холода,game/resource/addon_russian.txt,276,game/scripts/npc/heroes/npc_lia_hero_frost_lord.txt,3
+heroes,npc_dota_hero_ursa,Беорн-Воитель,game/resource/addon_russian.txt,303,game/scripts/npc/heroes/npc_lia_hero_furbolg_champion.txt,3
+heroes,npc_dota_hero_chaos_knight,Генерал,game/resource/addon_russian.txt,254,game/scripts/npc/heroes/npc_lia_hero_general.txt,3
+heroes,npc_dota_hero_life_stealer,Вурдалак,game/resource/addon_russian.txt,287,game/scripts/npc/heroes/npc_lia_hero_ghoul.txt,3
+heroes,npc_dota_hero_wisp,Голем,game/resource/addon_russian.txt,255,game/scripts/npc/heroes/npc_lia_hero_golem.txt,3
+heroes,npc_dota_hero_bane,Пустынник,game/resource/addon_russian.txt,277,game/scripts/npc/heroes/npc_lia_hero_hermit.txt,3
+heroes,npc_dota_hero_tusk,Горец,game/resource/addon_russian.txt,266,game/scripts/npc/heroes/npc_lia_hero_highlander.txt,3
+heroes,npc_dota_hero_luna,Охотница,game/resource/addon_russian.txt,273,game/scripts/npc/heroes/npc_lia_hero_huntress.txt,3
+heroes,npc_dota_hero_arc_warden,Иллюзионист,game/resource/addon_russian.txt,294,game/scripts/npc/heroes/npc_lia_hero_illusionist.txt,3
+heroes,npc_dota_hero_leshrac,Хранитель Рощи,game/resource/addon_russian.txt,282,game/scripts/npc/heroes/npc_lia_hero_keeper_of_the_grove.txt,3
+heroes,npc_dota_hero_dragon_knight,Рыцарь,game/resource/addon_russian.txt,285,game/scripts/npc/heroes/npc_lia_hero_knight.txt,3
+heroes,npc_dota_hero_slark,Морлок,game/resource/addon_russian.txt,272,game/scripts/npc/heroes/npc_lia_hero_kret.txt,3
+heroes,npc_dota_hero_disruptor,Владыка Молний,game/resource/addon_russian.txt,292,game/scripts/npc/heroes/npc_lia_hero_lord_of_lightning.txt,3
+heroes,npc_dota_hero_sniper,Стрелок,game/resource/addon_russian.txt,305,game/scripts/npc/heroes/npc_lia_hero_marksman.txt,3
+heroes,npc_dota_hero_elder_titan,Вождь Минотавров,game/resource/addon_russian.txt,256,game/scripts/npc/heroes/npc_lia_hero_minotaur.txt,3
+heroes,npc_dota_hero_slardar,Нага-Гвардеец,game/resource/addon_russian.txt,251,game/scripts/npc/heroes/npc_lia_hero_naga_royal_guard.txt,3
+heroes,npc_dota_hero_naga_siren,Нага-Сирена,game/resource/addon_russian.txt,267,game/scripts/npc/heroes/npc_lia_hero_naga_siren.txt,3
+heroes,npc_dota_hero_abyssal_underlord,Некромант,game/resource/addon_russian.txt,295,game/scripts/npc/heroes/npc_lia_hero_necromancer.txt,3
+heroes,npc_dota_hero_chen,Святой Рыцарь,game/resource/addon_russian.txt,270,game/scripts/npc/heroes/npc_lia_hero_paladin.txt,3
+heroes,npc_dota_hero_antimage,Пират,game/resource/addon_russian.txt,268,game/scripts/npc/heroes/npc_lia_hero_pirate.txt,3
+heroes,npc_dota_hero_windrunner,Егерь,game/resource/addon_russian.txt,304,game/scripts/npc/heroes/npc_lia_hero_ranger.txt,3
+heroes,npc_dota_hero_medusa,Королева Змей,game/resource/addon_russian.txt,289,game/scripts/npc/heroes/npc_lia_hero_serpent_queen.txt,3
+heroes,npc_dota_hero_terrorblade,Мастер Теней,game/resource/addon_russian.txt,283,game/scripts/npc/heroes/npc_lia_hero_shadow_master.txt,3
+heroes,npc_dota_hero_bloodseeker,Шаман,game/resource/addon_russian.txt,269,game/scripts/npc/heroes/npc_lia_hero_shaman.txt,3
+heroes,npc_dota_hero_pugna,Скелет-Маг,game/resource/addon_russian.txt,262,game/scripts/npc/heroes/npc_lia_hero_skeleton_mage.txt,3
+heroes,npc_dota_hero_skeleton_king,Король Вор,game/resource/addon_russian.txt,264,game/scripts/npc/heroes/npc_lia_hero_skeleton_thief.txt,3
+heroes,npc_dota_hero_faceless_void,Хранитель Скорости,game/resource/addon_russian.txt,306,game/scripts/npc/heroes/npc_lia_hero_speedwarden.txt,3
+heroes,npc_dota_hero_broodmother,Королева Пауков,game/resource/addon_russian.txt,259,game/scripts/npc/heroes/npc_lia_hero_spider_queen.txt,3
+heroes,npc_dota_hero_earthshaker,Минотавр-Чемпион,game/resource/addon_russian.txt,299,game/scripts/npc/heroes/npc_lia_hero_tauren_champion.txt,3
+heroes,npc_dota_hero_spirit_breaker,Повелитель Времени,game/resource/addon_russian.txt,275,game/scripts/npc/heroes/npc_lia_hero_time_lord.txt,3
+heroes,npc_dota_hero_treant,Энт-Защитник,game/resource/addon_russian.txt,300,game/scripts/npc/heroes/npc_lia_hero_treant.txt,3
+heroes,npc_dota_hero_troll_warlord,Тролль-Головорез,game/resource/addon_russian.txt,296,game/scripts/npc/heroes/npc_lia_hero_troll_cutthroat.txt,3
+heroes,npc_dota_hero_phantom_assassin,Валькирия,game/resource/addon_russian.txt,257,game/scripts/npc/heroes/npc_lia_hero_valkyrie.txt,3
+heroes,npc_dota_hero_lycan,Вампир,game/resource/addon_russian.txt,284,game/scripts/npc/heroes/npc_lia_hero_vampire.txt,3
+heroes,npc_dota_hero_nevermore,Сотканный из Крови,game/resource/addon_russian.txt,261,game/scripts/npc/heroes/npc_lia_hero_vowen_from_blood.txt,3
+heroes,npc_dota_hero_undying,Ходячий Мертвец,game/resource/addon_russian.txt,302,game/scripts/npc/heroes/npc_lia_hero_walking_dead.txt,3
+heroes,npc_dota_hero_silencer,Странник,game/resource/addon_russian.txt,281,game/scripts/npc/heroes/npc_lia_hero_wanderer.txt,3
+heroes,npc_dota_hero_lion,Колдун,game/resource/addon_russian.txt,271,game/scripts/npc/heroes/npc_lia_hero_warlock.txt,3
+heroes,npc_dota_hero_omniknight,Воин Света,game/resource/addon_russian.txt,265,game/scripts/npc/heroes/npc_lia_hero_warrior_of_light.txt,3
+heroes,npc_dota_hero_shadow_shaman,Знахарь,game/resource/addon_russian.txt,279,game/scripts/npc/heroes/npc_lia_hero_witch_doctor.txt,3
+abilities,attribute_bonuses,Бонус к Характеристикам,game/resource/addon_russian.txt,858,game/scripts/npc/abilities/attribute_bonus.txt,3
+abilities,barrel_no_health_bar,,,,game/scripts/npc/abilities/barrel_no_health_bar.txt,6
+abilities,barrel_explosion,,,,game/scripts/npc/abilities/barrel_no_health_bar.txt,70
+abilities,barrel_invulnerability,Неуязвимость,game/resource/addon_russian.txt,350,game/scripts/npc/abilities/barrel_no_health_bar.txt,119
+abilities,camera_passive,,,,game/scripts/npc/abilities/barrel_no_health_bar.txt,129
+abilities,custom_spell_immunity,,,,game/scripts/npc/abilities/common_abilities.txt,3
+abilities,item_courier,,,,game/scripts/npc/abilities/dota_items_disable.txt,4
+abilities,item_flying_courier,,,,game/scripts/npc/abilities/dota_items_disable.txt,9
+abilities,item_abyssal_blade,,,,game/scripts/npc/abilities/dota_items_disable.txt,16
+abilities,item_aegis,,,,game/scripts/npc/abilities/dota_items_disable.txt,21
+abilities,item_ancient_janggo,,,,game/scripts/npc/abilities/dota_items_disable.txt,26
+abilities,item_arcane_boots,,,,game/scripts/npc/abilities/dota_items_disable.txt,31
+abilities,item_armlet,,,,game/scripts/npc/abilities/dota_items_disable.txt,36
+abilities,item_assault,,,,game/scripts/npc/abilities/dota_items_disable.txt,41
+abilities,item_band_of_elvenskin,,,,game/scripts/npc/abilities/dota_items_disable.txt,46
+abilities,item_basher,,,,game/scripts/npc/abilities/dota_items_disable.txt,51
+abilities,item_belt_of_strength,,,,game/scripts/npc/abilities/dota_items_disable.txt,56
+abilities,item_bfury,,,,game/scripts/npc/abilities/dota_items_disable.txt,61
+abilities,item_black_king_bar,,,,game/scripts/npc/abilities/dota_items_disable.txt,66
+abilities,item_blades_of_attack,,,,game/scripts/npc/abilities/dota_items_disable.txt,71
+abilities,item_blade_mail,,,,game/scripts/npc/abilities/dota_items_disable.txt,76
+abilities,item_blade_of_alacrity,,,,game/scripts/npc/abilities/dota_items_disable.txt,81
+abilities,item_blink,,,,game/scripts/npc/abilities/dota_items_disable.txt,86
+abilities,item_bloodstone,,,,game/scripts/npc/abilities/dota_items_disable.txt,91
+abilities,item_boots,,,,game/scripts/npc/abilities/dota_items_disable.txt,96
+abilities,item_boots_of_elves,,,,game/scripts/npc/abilities/dota_items_disable.txt,101
+abilities,item_bottle,,,,game/scripts/npc/abilities/dota_items_disable.txt,106
+abilities,item_bracer,,,,game/scripts/npc/abilities/dota_items_disable.txt,111
+abilities,item_branches,,,,game/scripts/npc/abilities/dota_items_disable.txt,116
+abilities,item_broadsword,,,,game/scripts/npc/abilities/dota_items_disable.txt,121
+abilities,item_buckler,,,,game/scripts/npc/abilities/dota_items_disable.txt,126
+abilities,item_butterfly,,,,game/scripts/npc/abilities/dota_items_disable.txt,131
+abilities,item_chainmail,,,,game/scripts/npc/abilities/dota_items_disable.txt,136
+abilities,item_cheese,,,,game/scripts/npc/abilities/dota_items_disable.txt,141
+abilities,item_circlet,,,,game/scripts/npc/abilities/dota_items_disable.txt,146
+abilities,item_clarity,,,,game/scripts/npc/abilities/dota_items_disable.txt,151
+abilities,item_claymore,,,,game/scripts/npc/abilities/dota_items_disable.txt,156
+abilities,item_cloak,,,,game/scripts/npc/abilities/dota_items_disable.txt,161
+abilities,item_dagon,,,,game/scripts/npc/abilities/dota_items_disable.txt,166
+abilities,item_dagon_2,,,,game/scripts/npc/abilities/dota_items_disable.txt,171
+abilities,item_dagon_3,,,,game/scripts/npc/abilities/dota_items_disable.txt,176
+abilities,item_dagon_4,,,,game/scripts/npc/abilities/dota_items_disable.txt,181
+abilities,item_dagon_5,,,,game/scripts/npc/abilities/dota_items_disable.txt,186
+abilities,item_demon_edge,,,,game/scripts/npc/abilities/dota_items_disable.txt,191
+abilities,item_desolator,,,,game/scripts/npc/abilities/dota_items_disable.txt,196
+abilities,item_diffusal_blade,,,,game/scripts/npc/abilities/dota_items_disable.txt,201
+abilities,item_diffusal_blade_2,,,,game/scripts/npc/abilities/dota_items_disable.txt,206
+abilities,item_dust,,,,game/scripts/npc/abilities/dota_items_disable.txt,211
+abilities,item_eagle,,,,game/scripts/npc/abilities/dota_items_disable.txt,216
+abilities,item_energy_booster,,,,game/scripts/npc/abilities/dota_items_disable.txt,221
+abilities,item_ethereal_blade,,,,game/scripts/npc/abilities/dota_items_disable.txt,226
+abilities,item_cyclone,,,,game/scripts/npc/abilities/dota_items_disable.txt,231
+abilities,item_flask,,,,game/scripts/npc/abilities/dota_items_disable.txt,236
+abilities,item_flask2,,,,game/scripts/npc/abilities/dota_items_disable.txt,241
+abilities,item_force_staff,,,,game/scripts/npc/abilities/dota_items_disable.txt,246
+abilities,item_gauntlets,,,,game/scripts/npc/abilities/dota_items_disable.txt,251
+abilities,item_gem,,,,game/scripts/npc/abilities/dota_items_disable.txt,256
+abilities,item_gem_of_true_sight,,,,game/scripts/npc/abilities/dota_items_disable.txt,261
+abilities,item_ghost,,,,game/scripts/npc/abilities/dota_items_disable.txt,266
+abilities,item_ghost_scepter,,,,game/scripts/npc/abilities/dota_items_disable.txt,271
+abilities,item_gloves,,,,game/scripts/npc/abilities/dota_items_disable.txt,276
+abilities,item_gloves_of_haste,,,,game/scripts/npc/abilities/dota_items_disable.txt,281
+abilities,item_greater_clarity,,,,game/scripts/npc/abilities/dota_items_disable.txt,286
+abilities,item_greater_crit,,,,game/scripts/npc/abilities/dota_items_disable.txt,291
+abilities,item_hand_of_midas,,,,game/scripts/npc/abilities/dota_items_disable.txt,296
+abilities,item_headdress,,,,game/scripts/npc/abilities/dota_items_disable.txt,301
+abilities,item_heart,,,,game/scripts/npc/abilities/dota_items_disable.txt,306
+abilities,item_heavens_halberd,,,,game/scripts/npc/abilities/dota_items_disable.txt,311
+abilities,item_helm_of_iron_will,,,,game/scripts/npc/abilities/dota_items_disable.txt,316
+abilities,item_helm_of_the_dominator,,,,game/scripts/npc/abilities/dota_items_disable.txt,321
+abilities,item_hood_of_defiance,,,,game/scripts/npc/abilities/dota_items_disable.txt,326
+abilities,item_hyperstone,,,,game/scripts/npc/abilities/dota_items_disable.txt,331
+abilities,item_invis_sword,,,,game/scripts/npc/abilities/dota_items_disable.txt,336
+abilities,item_javelin,,,,game/scripts/npc/abilities/dota_items_disable.txt,341
+abilities,item_lesser_crit,,,,game/scripts/npc/abilities/dota_items_disable.txt,346
+abilities,item_lifesteal,,,,game/scripts/npc/abilities/dota_items_disable.txt,351
+abilities,item_maelstrom,,,,game/scripts/npc/abilities/dota_items_disable.txt,356
+abilities,item_magic_stick,,,,game/scripts/npc/abilities/dota_items_disable.txt,361
+abilities,item_magic_wand,,,,game/scripts/npc/abilities/dota_items_disable.txt,366
+abilities,item_manta,,,,game/scripts/npc/abilities/dota_items_disable.txt,371
+abilities,item_mantle,,,,game/scripts/npc/abilities/dota_items_disable.txt,376
+abilities,item_mask_of_madness,,,,game/scripts/npc/abilities/dota_items_disable.txt,381
+abilities,item_medallion_of_courage,,,,game/scripts/npc/abilities/dota_items_disable.txt,386
+abilities,item_mekansm,,,,game/scripts/npc/abilities/dota_items_disable.txt,391
+abilities,item_mithril_hammer,,,,game/scripts/npc/abilities/dota_items_disable.txt,396
+abilities,item_mjollnir,,,,game/scripts/npc/abilities/dota_items_disable.txt,401
+abilities,item_monkey_king_bar,,,,game/scripts/npc/abilities/dota_items_disable.txt,406
+abilities,item_mystic_staff,,,,game/scripts/npc/abilities/dota_items_disable.txt,411
+abilities,item_necronomicon,,,,game/scripts/npc/abilities/dota_items_disable.txt,416
+abilities,item_necronomicon_2,,,,game/scripts/npc/abilities/dota_items_disable.txt,421
+abilities,item_necronomicon_3,,,,game/scripts/npc/abilities/dota_items_disable.txt,426
+abilities,item_null_talisman,,,,game/scripts/npc/abilities/dota_items_disable.txt,431
+abilities,item_oblivion_staff,,,,game/scripts/npc/abilities/dota_items_disable.txt,436
+abilities,item_ogre_axe,,,,game/scripts/npc/abilities/dota_items_disable.txt,441
+abilities,item_orb_of_venom,,,,game/scripts/npc/abilities/dota_items_disable.txt,446
+abilities,item_orchid,,,,game/scripts/npc/abilities/dota_items_disable.txt,451
+abilities,item_pers,,,,game/scripts/npc/abilities/dota_items_disable.txt,456
+abilities,item_phase_boots,,,,game/scripts/npc/abilities/dota_items_disable.txt,461
+abilities,item_pipe,,,,game/scripts/npc/abilities/dota_items_disable.txt,466
+abilities,item_platemail,,,,game/scripts/npc/abilities/dota_items_disable.txt,471
+abilities,item_point_booster,,,,game/scripts/npc/abilities/dota_items_disable.txt,476
+abilities,item_poor_mans_shield,,,,game/scripts/npc/abilities/dota_items_disable.txt,481
+abilities,item_power_treads,,,,game/scripts/npc/abilities/dota_items_disable.txt,486
+abilities,item_quarterstaff,,,,game/scripts/npc/abilities/dota_items_disable.txt,491
+abilities,item_quelling_blade,,,,game/scripts/npc/abilities/dota_items_disable.txt,496
+abilities,item_radiance,,,,game/scripts/npc/abilities/dota_items_disable.txt,501
+abilities,item_rapier,,,,game/scripts/npc/abilities/dota_items_disable.txt,506
+abilities,item_reaver,,,,game/scripts/npc/abilities/dota_items_disable.txt,511
+abilities,item_refresher,,,,game/scripts/npc/abilities/dota_items_disable.txt,516
+abilities,item_relic,,,,game/scripts/npc/abilities/dota_items_disable.txt,521
+abilities,item_ring_of_aquila,,,,game/scripts/npc/abilities/dota_items_disable.txt,526
+abilities,item_ring_of_basilius,,,,game/scripts/npc/abilities/dota_items_disable.txt,531
+abilities,item_ring_of_health,,,,game/scripts/npc/abilities/dota_items_disable.txt,536
+abilities,item_ring_of_protection,,,,game/scripts/npc/abilities/dota_items_disable.txt,541
+abilities,item_ring_of_regen,,,,game/scripts/npc/abilities/dota_items_disable.txt,546
+abilities,item_robe,,,,game/scripts/npc/abilities/dota_items_disable.txt,551
+abilities,item_rod_of_atos,,,,game/scripts/npc/abilities/dota_items_disable.txt,556
+abilities,item_salve,,,,game/scripts/npc/abilities/dota_items_disable.txt,561
+abilities,item_sange,,,,game/scripts/npc/abilities/dota_items_disable.txt,566
+abilities,item_sange_and_yasha,,,,game/scripts/npc/abilities/dota_items_disable.txt,571
+abilities,item_satanic,,,,game/scripts/npc/abilities/dota_items_disable.txt,576
+abilities,item_shadow_amulet,,,,game/scripts/npc/abilities/dota_items_disable.txt,581
+abilities,item_sheepstick,,,,game/scripts/npc/abilities/dota_items_disable.txt,586
+abilities,item_shivas_guard,,,,game/scripts/npc/abilities/dota_items_disable.txt,591
+abilities,item_skadi,,,,game/scripts/npc/abilities/dota_items_disable.txt,596
+abilities,item_slippers,,,,game/scripts/npc/abilities/dota_items_disable.txt,601
+abilities,item_slippers_of_halcyon,,,,game/scripts/npc/abilities/dota_items_disable.txt,606
+abilities,item_smoke_of_deceit,,,,game/scripts/npc/abilities/dota_items_disable.txt,611
+abilities,item_sobi_mask,,,,game/scripts/npc/abilities/dota_items_disable.txt,616
+abilities,item_soul_booster,,,,game/scripts/npc/abilities/dota_items_disable.txt,621
+abilities,item_soul_ring,,,,game/scripts/npc/abilities/dota_items_disable.txt,626
+abilities,item_sphere,,,,game/scripts/npc/abilities/dota_items_disable.txt,631
+abilities,item_staff_of_wizardry,,,,game/scripts/npc/abilities/dota_items_disable.txt,636
+abilities,item_stout_shield,,,,game/scripts/npc/abilities/dota_items_disable.txt,641
+abilities,item_talisman_of_evasion,,,,game/scripts/npc/abilities/dota_items_disable.txt,646
+abilities,item_tango,,,,game/scripts/npc/abilities/dota_items_disable.txt,651
+abilities,item_tango_single,,,,game/scripts/npc/abilities/dota_items_disable.txt,656
+abilities,item_tombstone,,,,game/scripts/npc/abilities/dota_items_disable.txt,661
+abilities,item_tpscroll,,,,game/scripts/npc/abilities/dota_items_disable.txt,666
+abilities,item_tranquil_boots,,,,game/scripts/npc/abilities/dota_items_disable.txt,671
+abilities,item_travel_boots,,,,game/scripts/npc/abilities/dota_items_disable.txt,676
+abilities,item_ultimate_orb,,,,game/scripts/npc/abilities/dota_items_disable.txt,681
+abilities,item_urn_of_shadows,,,,game/scripts/npc/abilities/dota_items_disable.txt,691
+abilities,item_vanguard,,,,game/scripts/npc/abilities/dota_items_disable.txt,696
+abilities,item_veil_of_discord,,,,game/scripts/npc/abilities/dota_items_disable.txt,701
+abilities,item_vitality_booster,,,,game/scripts/npc/abilities/dota_items_disable.txt,706
+abilities,item_vladmir,,,,game/scripts/npc/abilities/dota_items_disable.txt,711
+abilities,item_void_stone,,,,game/scripts/npc/abilities/dota_items_disable.txt,716
+abilities,item_ward_observer,,,,game/scripts/npc/abilities/dota_items_disable.txt,721
+abilities,item_ward_sentry,,,,game/scripts/npc/abilities/dota_items_disable.txt,726
+abilities,item_wraith_band,,,,game/scripts/npc/abilities/dota_items_disable.txt,731
+abilities,item_yasha,,,,game/scripts/npc/abilities/dota_items_disable.txt,736
+abilities,item_enchanted_mango,,,,game/scripts/npc/abilities/dota_items_disable.txt,741
+abilities,item_moon_shard,,,,game/scripts/npc/abilities/dota_items_disable.txt,746
+abilities,item_travel_boots_2,,,,game/scripts/npc/abilities/dota_items_disable.txt,751
+abilities,item_silver_edge,,,,game/scripts/npc/abilities/dota_items_disable.txt,756
+abilities,item_guardian_greaves,,,,game/scripts/npc/abilities/dota_items_disable.txt,761
+abilities,item_octarine_core,,,,game/scripts/npc/abilities/dota_items_disable.txt,766
+abilities,item_solar_crest,,,,game/scripts/npc/abilities/dota_items_disable.txt,771
+abilities,item_lotus_orb,,,,game/scripts/npc/abilities/dota_items_disable.txt,776
+abilities,item_glimmer_cape,,,,game/scripts/npc/abilities/dota_items_disable.txt,781
+abilities,item_crimson_guard,,,,game/scripts/npc/abilities/dota_items_disable.txt,786
+abilities,item_dragon_lance,,,,game/scripts/npc/abilities/dota_items_disable.txt,791
+abilities,item_aether_lens,,,,game/scripts/npc/abilities/dota_items_disable.txt,796
+abilities,item_faerie_fire,,,,game/scripts/npc/abilities/dota_items_disable.txt,801
+abilities,item_iron_talon,,,,game/scripts/npc/abilities/dota_items_disable.txt,806
+abilities,item_bloodthorn,,,,game/scripts/npc/abilities/dota_items_disable.txt,811
+abilities,item_wind_lace,,,,game/scripts/npc/abilities/dota_items_disable.txt,816
+abilities,item_infused_raindrop,,,,game/scripts/npc/abilities/dota_items_disable.txt,821
+abilities,item_blight_stone,,,,game/scripts/npc/abilities/dota_items_disable.txt,826
+abilities,item_echo_sabre,,,,game/scripts/npc/abilities/dota_items_disable.txt,831
+abilities,item_tome_of_knowledge,,,,game/scripts/npc/abilities/dota_items_disable.txt,836
+abilities,item_hurricane_pike,,,,game/scripts/npc/abilities/dota_items_disable.txt,841
+abilities,item_banana,,,,game/scripts/npc/abilities/dota_items_disable.txt,846
+abilities,item_meteor_hammer,,,,game/scripts/npc/abilities/dota_items_disable.txt,851
+abilities,item_nullifier,,,,game/scripts/npc/abilities/dota_items_disable.txt,856
+abilities,item_combo_breaker,,,,game/scripts/npc/abilities/dota_items_disable.txt,861
+abilities,item_trident,,,,game/scripts/npc/abilities/dota_items_disable.txt,866
+abilities,item_spirit_vessel,,,,game/scripts/npc/abilities/dota_items_disable.txt,871
+abilities,item_witch_blade,,,,game/scripts/npc/abilities/dota_items_disable.txt,876
+abilities,item_blitz_knuckles,,,,game/scripts/npc/abilities/dota_items_disable.txt,881
+abilities,item_aghanims_shard,,,,game/scripts/npc/abilities/dota_items_disable.txt,886
+abilities,item_crown,,,,game/scripts/npc/abilities/dota_items_disable.txt,891
+abilities,item_fluffy_hat,,,,game/scripts/npc/abilities/dota_items_disable.txt,896
+abilities,item_voodoo_mask,,,,game/scripts/npc/abilities/dota_items_disable.txt,901
+abilities,item_falcon_blade,,,,game/scripts/npc/abilities/dota_items_disable.txt,906
+abilities,item_orb_of_corrosion,,,,game/scripts/npc/abilities/dota_items_disable.txt,911
+abilities,item_helm_of_the_overlord,,,,game/scripts/npc/abilities/dota_items_disable.txt,916
+abilities,item_holy_locket,,,,game/scripts/npc/abilities/dota_items_disable.txt,921
+abilities,item_wraith_pact,,,,game/scripts/npc/abilities/dota_items_disable.txt,926
+abilities,item_boots_of_bearing,,,,game/scripts/npc/abilities/dota_items_disable.txt,931
+abilities,item_ultimate_scepter_2,,,,game/scripts/npc/abilities/dota_items_disable.txt,936
+abilities,item_revenants_brooch,,,,game/scripts/npc/abilities/dota_items_disable.txt,941
+abilities,item_gungir,,,,game/scripts/npc/abilities/dota_items_disable.txt,946
+abilities,item_wind_waker,,,,game/scripts/npc/abilities/dota_items_disable.txt,951
+abilities,item_eternal_shroud,,,,game/scripts/npc/abilities/dota_items_disable.txt,956
+abilities,item_kaya,,,,game/scripts/npc/abilities/dota_items_disable.txt,961
+abilities,item_kaya_and_sange,,,,game/scripts/npc/abilities/dota_items_disable.txt,966
+abilities,item_yasha_and_kaya,,,,game/scripts/npc/abilities/dota_items_disable.txt,971
+abilities,item_mage_slayer,,,,game/scripts/npc/abilities/dota_items_disable.txt,976
+abilities,item_overwhelming_blink,,,,game/scripts/npc/abilities/dota_items_disable.txt,981
+abilities,item_swift_blink,,,,game/scripts/npc/abilities/dota_items_disable.txt,986
+abilities,item_arcane_blink,,,,game/scripts/npc/abilities/dota_items_disable.txt,991
+abilities,dummy_passive,,,,game/scripts/npc/abilities/dummy_passive.txt,3
+abilities,dummy_passive_nofly,,,,game/scripts/npc/abilities/dummy_passive.txt,11
+abilities,dummy_passive_vulnerable,,,,game/scripts/npc/abilities/dummy_passive.txt,19
+abilities,1_wave_stomp_extreme,Удар по Земле,game/resource/addon_russian.txt,364,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,3
+abilities,2_wave_war_stomp_extreme,Топот,game/resource/addon_russian.txt,431,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,98
+abilities,second_wave_wave_of_force_extreme,Волна Силы,game/resource/addon_russian.txt,428,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,184
+abilities,3_wave_rejuvenation_extreme,Омоложение,game/resource/addon_russian.txt,451,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,231
+abilities,4_wave_ensnare_extreme,Ловчий,game/resource/addon_russian.txt,460,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,292
+abilities,6_wave_curse,Проклятие,game/resource/addon_russian.txt,507,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,397
+abilities,7_wave_howl_of_terror_extreme,Леденящий Крик,game/resource/addon_russian.txt,540,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,457
+abilities,11_wave_immolation_extreme,Жар Преисподней,game/resource/addon_russian.txt,655,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,532
+abilities,12_wave_roots_extreme,Гнев Деревьев,game/resource/addon_russian.txt,691,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,612
+abilities,12_wave_bloodlust_extreme,,,,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,702
+abilities,14_wave_shadow_strike_extreme,Отравленный Нож,game/resource/addon_russian.txt,722,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,766
+abilities,14_wave_storm_bolt_extreme,Молот Бурь,game/resource/addon_russian.txt,716,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,897
+abilities,wave_16_mana_burn_extreme,Магический Огонь,game/resource/addon_russian.txt,755,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,968
+abilities,16_wave_slow_extreme,Замедление,game/resource/addon_russian.txt,761,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,995
+abilities,17_wave_purge_extreme,Очищение,game/resource/addon_russian.txt,786,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,1064
+abilities,18_wave_silence_extreme,Безмолвие,game/resource/addon_russian.txt,795,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,1157
+abilities,19_wave_faerie_fire_extreme,Волшебный Огонь,game/resource/addon_russian.txt,819,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,1243
+abilities,19_wave_polymorph_extreme,Полиморф,game/resource/addon_russian.txt,810,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,1309
+abilities,orn_mutant_boss_slow,,,,game/scripts/npc/abilities/extreme_mode_creep_actives.txt,1409
+abilities,wave_1_poison_extreme,Яд,game/resource/addon_russian.txt,375,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,3
+abilities,wave_2_aura_of_vengeance_extreme,Аура Возмездия,game/resource/addon_russian.txt,399,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,30
+abilities,wave_2_centaurs_revenge_extreme,Месть Кентавров,game/resource/addon_russian.txt,407,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,51
+abilities,2_wave_centaur_chieftain_aura_extreme,Аура Вождя Кентавров,game/resource/addon_russian.txt,419,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,65
+abilities,wave_2_centaur_chieftain_aura_extreme,,,,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,107
+abilities,wave_3_evasion_extreme,Уворот,game/resource/addon_russian.txt,438,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,131
+abilities,4_wave_true_hit_extreme,Меткий Бросок,game/resource/addon_russian.txt,469,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,145
+abilities,wave_6_assassin_extreme,Убийца,game/resource/addon_russian.txt,525,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,227
+abilities,7_wave_sharp_claws_extreme,Острые Шипы,game/resource/addon_russian.txt,557,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,254
+abilities,wave_8_lifesteal_extreme,Вампиризм,game/resource/addon_russian.txt,584,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,301
+abilities,wave_9_incorporeity_extreme,Жидкая Сущность,game/resource/addon_russian.txt,599,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,319
+abilities,wave_11_mana_break_extreme,Сожжение Маны,game/resource/addon_russian.txt,643,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,334
+abilities,wave_11_mana_break_extreme_creeps,Сожжение Маны,game/resource/addon_russian.txt,646,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,355
+abilities,wave_12_crit_extreme,Смертельный Удар,game/resource/addon_russian.txt,685,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,377
+abilities,wave_13_command_aura_extreme,Боевой Дух,game/resource/addon_russian.txt,707,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,398
+abilities,wave_16_evasion_extreme,Уворот,game/resource/addon_russian.txt,771,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,421
+abilities,wave_17_evasion_extreme,Уворот,game/resource/addon_russian.txt,779,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,435
+abilities,wave_18_bash_extreme,Сильный Удар,game/resource/addon_russian.txt,804,game/scripts/npc/abilities/extreme_mode_creep_passives.txt,450
+abilities,healing_ward_ability,Лечение,game/resource/addon_russian.txt,2963,game/scripts/npc/abilities/healing_ward_ability.txt,3
+abilities,1_wave_stomp,Удар по Земле,game/resource/addon_russian.txt,356,game/scripts/npc/abilities/normal_mode_creep_actives.txt,3
+abilities,second_wave_wave_of_force,Волна Силы,game/resource/addon_russian.txt,425,game/scripts/npc/abilities/normal_mode_creep_actives.txt,100
+abilities,3_wave_rejuvenation,Омоложение,game/resource/addon_russian.txt,445,game/scripts/npc/abilities/normal_mode_creep_actives.txt,147
+abilities,4_wave_death_coil,Лик Смерти,game/resource/addon_russian.txt,457,game/scripts/npc/abilities/normal_mode_creep_actives.txt,209
+abilities,5_megaboss_firestorm,Огненный Дождь,game/resource/addon_russian.txt,475,game/scripts/npc/abilities/normal_mode_creep_actives.txt,287
+abilities,5_megaboss_stomp,Громовая Поступь,game/resource/addon_russian.txt,481,game/scripts/npc/abilities/normal_mode_creep_actives.txt,438
+abilities,6_wave_cripple,Увечье,game/resource/addon_russian.txt,497,game/scripts/npc/abilities/normal_mode_creep_actives.txt,536
+abilities,7_wave_howl_of_terror,Леденящий Крик,game/resource/addon_russian.txt,531,game/scripts/npc/abilities/normal_mode_creep_actives.txt,595
+abilities,8_wave_storm_bolt,Молот Бурь,game/resource/addon_russian.txt,563,game/scripts/npc/abilities/normal_mode_creep_actives.txt,668
+abilities,9_wave_frost_nova,Ледяная Звезда,game/resource/addon_russian.txt,587,game/scripts/npc/abilities/normal_mode_creep_actives.txt,744
+abilities,10_wave_antimagic,Антимагия,game/resource/addon_russian.txt,616,game/scripts/npc/abilities/normal_mode_creep_actives.txt,813
+abilities,10_wave_slow,Замедление,game/resource/addon_russian.txt,622,game/scripts/npc/abilities/normal_mode_creep_actives.txt,877
+abilities,10_wave_fire_golem,Огненный Голем,game/resource/addon_russian.txt,628,game/scripts/npc/abilities/normal_mode_creep_actives.txt,934
+abilities,10_wave_rejuvenation,Омоложение,game/resource/addon_russian.txt,605,game/scripts/npc/abilities/normal_mode_creep_actives.txt,1040
+abilities,11_wave_immolation,Жар Преисподней,game/resource/addon_russian.txt,649,game/scripts/npc/abilities/normal_mode_creep_actives.txt,1100
+abilities,12_wave_stomp,Громовая поступь,game/resource/addon_russian.txt,661,game/scripts/npc/abilities/normal_mode_creep_actives.txt,1180
+abilities,12_wave_roots,Гнев Деревьев,game/resource/addon_russian.txt,688,game/scripts/npc/abilities/normal_mode_creep_actives.txt,1258
+abilities,12_wave_bloodlust,Кровожадность,game/resource/addon_russian.txt,667,game/scripts/npc/abilities/normal_mode_creep_actives.txt,1348
+abilities,13_wave_hurl_boulder,Бросить Камень,game/resource/addon_russian.txt,697,game/scripts/npc/abilities/normal_mode_creep_actives.txt,1411
+abilities,14_wave_shadow_strike,Отравленный Нож,game/resource/addon_russian.txt,719,game/scripts/npc/abilities/normal_mode_creep_actives.txt,1490
+abilities,14_wave_storm_bolt,Молот Бурь,game/resource/addon_russian.txt,713,game/scripts/npc/abilities/normal_mode_creep_actives.txt,1619
+abilities,15_megaboss_illusions,Иллюзии,game/resource/addon_russian.txt,728,game/scripts/npc/abilities/normal_mode_creep_actives.txt,1690
+abilities,15_megaboss_astral,Изгнание в Астрал,game/resource/addon_russian.txt,731,game/scripts/npc/abilities/normal_mode_creep_actives.txt,1773
+abilities,15_megaboss_silence,Безмолвие,game/resource/addon_russian.txt,740,game/scripts/npc/abilities/normal_mode_creep_actives.txt,1902
+abilities,wave_16_mana_burn,Магический Огонь,game/resource/addon_russian.txt,752,game/scripts/npc/abilities/normal_mode_creep_actives.txt,1986
+abilities,16_wave_slow,Замедление,game/resource/addon_russian.txt,758,game/scripts/npc/abilities/normal_mode_creep_actives.txt,2013
+abilities,17_wave_purge,Очищение,game/resource/addon_russian.txt,783,game/scripts/npc/abilities/normal_mode_creep_actives.txt,2076
+abilities,18_wave_silence,Безмолвие,game/resource/addon_russian.txt,792,game/scripts/npc/abilities/normal_mode_creep_actives.txt,2168
+abilities,19_wave_polymorph,Полиморф,game/resource/addon_russian.txt,807,game/scripts/npc/abilities/normal_mode_creep_actives.txt,2253
+abilities,19_wave_faerie_fire,Волшебный Огонь,game/resource/addon_russian.txt,816,game/scripts/npc/abilities/normal_mode_creep_actives.txt,2353
+abilities,orn_mutant_boss_slow,,,,game/scripts/npc/abilities/normal_mode_creep_actives.txt,2418
+abilities,true_sight,Ясновидение,game/resource/addon_russian.txt,472,game/scripts/npc/abilities/normal_mode_creep_passives.txt,3
+abilities,spell_immunity,Иммунитет к Магии,game/resource/addon_russian.txt,442,game/scripts/npc/abilities/normal_mode_creep_passives.txt,69
+abilities,wave_1_poison,Яд,game/resource/addon_russian.txt,385,game/scripts/npc/abilities/normal_mode_creep_passives.txt,94
+abilities,wave_2_aura_of_vengeance,Аура Возмездия,game/resource/addon_russian.txt,394,game/scripts/npc/abilities/normal_mode_creep_passives.txt,121
+abilities,wave_2_centaurs_revenge,Месть Кентавров,game/resource/addon_russian.txt,410,game/scripts/npc/abilities/normal_mode_creep_passives.txt,143
+abilities,wave_3_evasion,Уворот,game/resource/addon_russian.txt,434,game/scripts/npc/abilities/normal_mode_creep_passives.txt,159
+abilities,4_wave_true_hit,Меткий Бросок,game/resource/addon_russian.txt,466,game/scripts/npc/abilities/normal_mode_creep_passives.txt,173
+abilities,megaboss_5_bash,Сильный Удар,game/resource/addon_russian.txt,487,game/scripts/npc/abilities/normal_mode_creep_passives.txt,255
+abilities,megaboss_5_crit,Смертельный Удар,game/resource/addon_russian.txt,490,game/scripts/npc/abilities/normal_mode_creep_passives.txt,279
+abilities,6_wave_spell_resist,Сопротивление магии,game/resource/addon_russian.txt,494,game/scripts/npc/abilities/normal_mode_creep_passives.txt,305
+abilities,wave_6_assassin,Убийца,game/resource/addon_russian.txt,522,game/scripts/npc/abilities/normal_mode_creep_passives.txt,330
+abilities,wave_6_invisibility,Постоянная Невидимость,game/resource/addon_russian.txt,528,game/scripts/npc/abilities/normal_mode_creep_passives.txt,357
+abilities,7_wave_sharp_claws,Острые Шипы,game/resource/addon_russian.txt,554,game/scripts/npc/abilities/normal_mode_creep_passives.txt,377
+abilities,7_wave_plague,Ядовитое Облако,game/resource/addon_russian.txt,549,game/scripts/npc/abilities/normal_mode_creep_passives.txt,425
+abilities,wave_8_lifesteal_aura,Аура Вампиризма,game/resource/addon_russian.txt,570,game/scripts/npc/abilities/normal_mode_creep_passives.txt,511
+abilities,wave_8_cleave,Демоническая Сила,game/resource/addon_russian.txt,567,game/scripts/npc/abilities/normal_mode_creep_passives.txt,530
+abilities,wave_9_morphallaxis,Морфаллаксис,game/resource/addon_russian.txt,596,game/scripts/npc/abilities/normal_mode_creep_passives.txt,552
+abilities,wave_9_incorporeity,Жидкая Сущность,game/resource/addon_russian.txt,602,game/scripts/npc/abilities/normal_mode_creep_passives.txt,566
+abilities,fire_golem_10_wave_megaboss_immolation,Жар Преисподней,game/resource/addon_russian.txt,631,game/scripts/npc/abilities/normal_mode_creep_passives.txt,581
+abilities,megaboss_10_return,Панцирь с Шипами,game/resource/addon_russian.txt,613,game/scripts/npc/abilities/normal_mode_creep_passives.txt,643
+abilities,wave_11_cleave,Демоническая Сила,game/resource/addon_russian.txt,637,game/scripts/npc/abilities/normal_mode_creep_passives.txt,657
+abilities,wave_11_mana_break,Сожжение Маны,game/resource/addon_russian.txt,640,game/scripts/npc/abilities/normal_mode_creep_passives.txt,679
+abilities,wave_12_bash,Сильный Удар,game/resource/addon_russian.txt,676,game/scripts/npc/abilities/normal_mode_creep_passives.txt,700
+abilities,wave_12_crit,Смертельный Удар,game/resource/addon_russian.txt,679,game/scripts/npc/abilities/normal_mode_creep_passives.txt,719
+abilities,wave_13_command_aura,Боевой Дух,game/resource/addon_russian.txt,701,game/scripts/npc/abilities/normal_mode_creep_passives.txt,739
+abilities,megaboss_15_ghoul_purge,Очищение Вурдалака,game/resource/addon_russian.txt,746,game/scripts/npc/abilities/normal_mode_creep_passives.txt,762
+abilities,megaboss_15_mana_break,Сожжение Маны,game/resource/addon_russian.txt,749,game/scripts/npc/abilities/normal_mode_creep_passives.txt,783
+abilities,wave_17_evasion,Уворот,game/resource/addon_russian.txt,775,game/scripts/npc/abilities/normal_mode_creep_passives.txt,804
+abilities,wave_18_bash,Сильный Удар,game/resource/addon_russian.txt,801,game/scripts/npc/abilities/normal_mode_creep_passives.txt,818
+abilities,wave_18_death,,,,game/scripts/npc/abilities/normal_mode_creep_passives.txt,836
+abilities,orn_all_bonuses,Змеиная Ловкость,game/resource/addon_russian.txt,825,game/scripts/npc/abilities/normal_mode_creep_passives.txt,868
+abilities,orn_cleave_manabreak_lifesteal,Переполняющая Мощь,game/resource/addon_russian.txt,828,game/scripts/npc/abilities/normal_mode_creep_passives.txt,897
+abilities,orn_mana_break,Сожжение Маны,game/resource/addon_russian.txt,840,game/scripts/npc/abilities/normal_mode_creep_passives.txt,964
+abilities,orn_bash,Сильный Удар,game/resource/addon_russian.txt,831,game/scripts/npc/abilities/normal_mode_creep_passives.txt,985
+abilities,orn_crit,Смертельный Удар,game/resource/addon_russian.txt,834,game/scripts/npc/abilities/normal_mode_creep_passives.txt,1068
+abilities,orn_return,Панцирь с Шипами,game/resource/addon_russian.txt,837,game/scripts/npc/abilities/normal_mode_creep_passives.txt,1147
+abilities,alchemist_fire_potion,Огненное Зелье,game/resource/addon_russian.txt,2689,game/scripts/npc/abilities/npc_lia_hero_alchemist.txt,3
+abilities,alchemist_swiftness_potion,Зелье Скорости,game/resource/addon_russian.txt,2699,game/scripts/npc/abilities/npc_lia_hero_alchemist.txt,60
+abilities,alchemist_unity,Единство,game/resource/addon_russian.txt,2709,game/scripts/npc/abilities/npc_lia_hero_alchemist.txt,113
+abilities,alchemist_side_effect,Побочный Эффект,game/resource/addon_russian.txt,2713,game/scripts/npc/abilities/npc_lia_hero_alchemist.txt,136
+abilities,ancient_priestess_surge_of_intelligence,Всплеск Интеллекта,game/resource/addon_russian.txt,2184,game/scripts/npc/abilities/npc_lia_hero_ancient_priestess.txt,3
+abilities,ancient_priestess_spirit_link,Эмпатия,game/resource/addon_russian.txt,2188,game/scripts/npc/abilities/npc_lia_hero_ancient_priestess.txt,63
+abilities,ancient_priestess_mana_shield,Магический Щит,game/resource/addon_russian.txt,2198,game/scripts/npc/abilities/npc_lia_hero_ancient_priestess.txt,101
+abilities,ancient_priestess_ritual_protection,Ритуал Защиты,game/resource/addon_russian.txt,2209,game/scripts/npc/abilities/npc_lia_hero_ancient_priestess.txt,144
+abilities,android_war_stomp,Громовая Поступь,game/resource/addon_russian.txt,1791,game/scripts/npc/abilities/npc_lia_hero_android.txt,3
+abilities,android_pocket_factory,Мини-Завод,game/resource/addon_russian.txt,1796,game/scripts/npc/abilities/npc_lia_hero_android.txt,91
+abilities,android_pocket_factory_spawn_goblin,,,,game/scripts/npc/abilities/npc_lia_hero_android.txt,154
+abilities,android_clockwerk_goblin_kaboom,Взорвать,game/resource/addon_russian.txt,1802,game/scripts/npc/abilities/npc_lia_hero_android.txt,190
+abilities,android_armor,Броня,game/resource/addon_russian.txt,1814,game/scripts/npc/abilities/npc_lia_hero_android.txt,245
+abilities,android_cluster_rockets,Ракетный Удар,game/resource/addon_russian.txt,1818,game/scripts/npc/abilities/npc_lia_hero_android.txt,266
+abilities,android_pocket_factory_spawn_goblin1,Сильный удар,game/resource/addon_russian.txt,1805,game/scripts/npc/abilities/npc_lia_hero_android.txt,313
+abilities,android_pocket_factory_spawn_goblin2,Сильный удар,game/resource/addon_russian.txt,1808,game/scripts/npc/abilities/npc_lia_hero_android.txt,366
+abilities,android_pocket_factory_spawn_goblin3,Сильный удар,game/resource/addon_russian.txt,1811,game/scripts/npc/abilities/npc_lia_hero_android.txt,419
+abilities,araman_curse,Проклятие,game/resource/addon_russian.txt,1193,game/scripts/npc/abilities/npc_lia_hero_araman.txt,3
+abilities,araman_armor_of_darkness,Доспехи Тьмы,game/resource/addon_russian.txt,1199,game/scripts/npc/abilities/npc_lia_hero_araman.txt,96
+abilities,araman_morale,Боевой Дух,game/resource/addon_russian.txt,1204,game/scripts/npc/abilities/npc_lia_hero_araman.txt,115
+abilities,araman_power_of_scourge,Сила Плети,game/resource/addon_russian.txt,1211,game/scripts/npc/abilities/npc_lia_hero_araman.txt,137
+abilities,archmage_shooting_star,Падающая Звезда,game/resource/addon_russian.txt,2538,game/scripts/npc/abilities/npc_lia_hero_archmage.txt,3
+abilities,archmage_polymorph,Полиморф,game/resource/addon_russian.txt,2556,game/scripts/npc/abilities/npc_lia_hero_archmage.txt,82
+abilities,archmage_anomaly,Аномалия,game/resource/addon_russian.txt,2572,game/scripts/npc/abilities/npc_lia_hero_archmage.txt,191
+abilities,archmage_magic_barrier,Чародейский Барьер,game/resource/addon_russian.txt,2564,game/scripts/npc/abilities/npc_lia_hero_archmage.txt,238
+abilities,beastmaster_dominate,Подчинение,game/resource/addon_russian.txt,1935,game/scripts/npc/abilities/npc_lia_hero_beastmaster.txt,3
+abilities,beastmaster_brutality,Озверение,game/resource/addon_russian.txt,1941,game/scripts/npc/abilities/npc_lia_hero_beastmaster.txt,33
+abilities,beastmaster_help,Помощь,game/resource/addon_russian.txt,1949,game/scripts/npc/abilities/npc_lia_hero_beastmaster.txt,119
+abilities,beastmaster_beasts,Звери,game/resource/addon_russian.txt,1953,game/scripts/npc/abilities/npc_lia_hero_beastmaster.txt,136
+abilities,white_wolf_bm_howl,Рёв,game/resource/addon_russian.txt,1957,game/scripts/npc/abilities/npc_lia_hero_beastmaster.txt,187
+abilities,white_wolf_bm_crit,Критический Удар,game/resource/addon_russian.txt,1963,game/scripts/npc/abilities/npc_lia_hero_beastmaster.txt,266
+abilities,jungle_stalker_bm_rejuvenation,Омоложение,game/resource/addon_russian.txt,1967,game/scripts/npc/abilities/npc_lia_hero_beastmaster.txt,339
+abilities,jungle_stalker_bm_crit,Критический Удар,game/resource/addon_russian.txt,1973,game/scripts/npc/abilities/npc_lia_hero_beastmaster.txt,401
+abilities,phoenix_bm_spawn_egg,Яйцо Феникса,game/resource/addon_russian.txt,1977,game/scripts/npc/abilities/npc_lia_hero_beastmaster.txt,474
+abilities,phoenix_bm_phoenix_fire,Огонь Феникса,game/resource/addon_russian.txt,1980,game/scripts/npc/abilities/npc_lia_hero_beastmaster.txt,525
+abilities,phoenix_egg_bm_spawn_phoenix,,,,game/scripts/npc/abilities/npc_lia_hero_beastmaster.txt,619
+abilities,berserker_fire_spear,Огненное Копьё,game/resource/addon_russian.txt,939,game/scripts/npc/abilities/npc_lia_hero_berserker.txt,3
+abilities,berserker_frenzy_aura,Аура Ярости,game/resource/addon_russian.txt,947,game/scripts/npc/abilities/npc_lia_hero_berserker.txt,46
+abilities,berserker_desperation,Безрассудство,game/resource/addon_russian.txt,955,game/scripts/npc/abilities/npc_lia_hero_berserker.txt,68
+abilities,berserker_madness,Безумие,game/resource/addon_russian.txt,962,game/scripts/npc/abilities/npc_lia_hero_berserker.txt,90
+abilities,brewmaster_might,Сила,game/resource/addon_russian.txt,1027,game/scripts/npc/abilities/npc_lia_hero_brewmaster.txt,3
+abilities,brewmaster_ferocity,Свирепость,game/resource/addon_russian.txt,1036,game/scripts/npc/abilities/npc_lia_hero_brewmaster.txt,74
+abilities,brewmaster_punisment,Наказание,game/resource/addon_russian.txt,1043,game/scripts/npc/abilities/npc_lia_hero_brewmaster.txt,99
+abilities,brewmaster_avatar,Мощь Гор,game/resource/addon_russian.txt,1047,game/scripts/npc/abilities/npc_lia_hero_brewmaster.txt,143
+abilities,butcher_rage,Мясорубка,game/resource/addon_russian.txt,1158,game/scripts/npc/abilities/npc_lia_hero_butcher.txt,3
+abilities,butcher_skin,Гнилая Шкура,game/resource/addon_russian.txt,1165,game/scripts/npc/abilities/npc_lia_hero_butcher.txt,40
+abilities,butcher_zombie,Зомби,game/resource/addon_russian.txt,1170,game/scripts/npc/abilities/npc_lia_hero_butcher.txt,61
+abilities,butcher_howl_of_terror,Леденящий Крик,game/resource/addon_russian.txt,1184,game/scripts/npc/abilities/npc_lia_hero_butcher.txt,96
+abilities,butcher_zombie_bash,Сильный Удар,game/resource/addon_russian.txt,1181,game/scripts/npc/abilities/npc_lia_hero_butcher.txt,189
+abilities,dark_knight_dark_forces,Тёмные Силы,game/resource/addon_russian.txt,2087,game/scripts/npc/abilities/npc_lia_hero_dark_knight.txt,3
+abilities,dark_knight_dark_energy_zone,Зона Вечной Энергии,game/resource/addon_russian.txt,2094,game/scripts/npc/abilities/npc_lia_hero_dark_knight.txt,108
+abilities,dark_knight_incinerate,Поглощающий Мрак,game/resource/addon_russian.txt,2102,game/scripts/npc/abilities/npc_lia_hero_dark_knight.txt,142
+abilities,dark_knight_speed,Безжалостный Натиск,game/resource/addon_russian.txt,2111,game/scripts/npc/abilities/npc_lia_hero_dark_knight.txt,174
+abilities,dark_ranger_black_arrow,Чёрная Стрела,game/resource/addon_russian.txt,2119,game/scripts/npc/abilities/npc_lia_hero_dark_ranger.txt,3
+abilities,dark_ranger_magic_arrow,Магическая Стрела,game/resource/addon_russian.txt,2127,game/scripts/npc/abilities/npc_lia_hero_dark_ranger.txt,38
+abilities,dark_ranger_spiked_charm,Шипастый Оберег,game/resource/addon_russian.txt,2137,game/scripts/npc/abilities/npc_lia_hero_dark_ranger.txt,182
+abilities,dark_ranger_fury,Ярость,game/resource/addon_russian.txt,2145,game/scripts/npc/abilities/npc_lia_hero_dark_ranger.txt,209
+abilities,demonologist_demonic_seal,Демоническая Печать,game/resource/addon_russian.txt,2582,game/scripts/npc/abilities/npc_lia_hero_demonologist.txt,3
+abilities,demonologist_touch_of_darkness,Прикосновение Тьмы,game/resource/addon_russian.txt,2597,game/scripts/npc/abilities/npc_lia_hero_demonologist.txt,58
+abilities,demonologist_mastery_of_demonology,Мастерство Демонологии,game/resource/addon_russian.txt,2602,game/scripts/npc/abilities/npc_lia_hero_demonologist.txt,93
+abilities,demonologist_mastery_of_demonology_creep,Мастерство Демонологии,game/resource/addon_russian.txt,2608,game/scripts/npc/abilities/npc_lia_hero_demonologist.txt,171
+abilities,demonologist_ritual_of_summoning,Ритуал Призыва,game/resource/addon_russian.txt,2617,game/scripts/npc/abilities/npc_lia_hero_demonologist.txt,226
+abilities,dice_rage,Гнев,game/resource/addon_russian.txt,970,game/scripts/npc/abilities/npc_lia_hero_dice.txt,3
+abilities,dice_bash,Сильный Удар,game/resource/addon_russian.txt,979,game/scripts/npc/abilities/npc_lia_hero_dice.txt,68
+abilities,dice_endurance_aura,Аура Выносливости,game/resource/addon_russian.txt,984,game/scripts/npc/abilities/npc_lia_hero_dice.txt,117
+abilities,dice_steelstorm,Стальной Вихрь,game/resource/addon_russian.txt,992,game/scripts/npc/abilities/npc_lia_hero_dice.txt,168
+abilities,earth_lord_earth_burn,Раскаленная Земля,game/resource/addon_russian.txt,1752,game/scripts/npc/abilities/npc_lia_hero_earth_lord.txt,3
+abilities,earth_lord_split_earth,Земляные Шипы,game/resource/addon_russian.txt,1759,game/scripts/npc/abilities/npc_lia_hero_earth_lord.txt,54
+abilities,earth_lord_stone_skin,Каменная Кожа,game/resource/addon_russian.txt,1768,game/scripts/npc/abilities/npc_lia_hero_earth_lord.txt,105
+abilities,earth_lord_might_of_the_earth,Мощь Земли,game/resource/addon_russian.txt,1783,game/scripts/npc/abilities/npc_lia_hero_earth_lord.txt,209
+abilities,fallen_champion_shell,Панцирь,game/resource/addon_russian.txt,2329,game/scripts/npc/abilities/npc_lia_hero_fallen_champion.txt,3
+abilities,fallen_champion_return,Шипы,game/resource/addon_russian.txt,2333,game/scripts/npc/abilities/npc_lia_hero_fallen_champion.txt,132
+abilities,fallen_champion_absorption,Поглощение,game/resource/addon_russian.txt,2338,game/scripts/npc/abilities/npc_lia_hero_fallen_champion.txt,155
+abilities,fallen_champion_roar,Рёв,game/resource/addon_russian.txt,2346,game/scripts/npc/abilities/npc_lia_hero_fallen_champion.txt,175
+abilities,firelord_flame_strike,Огненный Столб,game/resource/addon_russian.txt,2357,game/scripts/npc/abilities/npc_lia_hero_firelord.txt,3
+abilities,firelord_summon_lava_spawn,Духи Огня,game/resource/addon_russian.txt,2371,game/scripts/npc/abilities/npc_lia_hero_firelord.txt,62
+abilities,firelord_fire_trap,Огненная Ловушка,game/resource/addon_russian.txt,2379,game/scripts/npc/abilities/npc_lia_hero_firelord.txt,307
+abilities,firelord_fire_serpent,Огненные Змеи,game/resource/addon_russian.txt,2388,game/scripts/npc/abilities/npc_lia_hero_firelord.txt,388
+abilities,frost_lord_frost_breath,Ледяное Дыхание,game/resource/addon_russian.txt,1859,game/scripts/npc/abilities/npc_lia_hero_frost_lord.txt,3
+abilities,frost_lord_cold,Прикосновение Холода,game/resource/addon_russian.txt,1873,game/scripts/npc/abilities/npc_lia_hero_frost_lord.txt,65
+abilities,frost_lord_freezing,Обморожение,game/resource/addon_russian.txt,1885,game/scripts/npc/abilities/npc_lia_hero_frost_lord.txt,181
+abilities,frost_lord_ice,Ледяное Ядро,game/resource/addon_russian.txt,1893,game/scripts/npc/abilities/npc_lia_hero_frost_lord.txt,211
+abilities,furbolg_champion_furious_clap,Яростный удар,game/resource/addon_russian.txt,2774,game/scripts/npc/abilities/npc_lia_hero_furbolg_champion.txt,3
+abilities,furbolg_champion_sharp_claws,Острые когти,game/resource/addon_russian.txt,2781,game/scripts/npc/abilities/npc_lia_hero_furbolg_champion.txt,34
+abilities,furbolg_champion_swelling_rage,Нарастающая ярость,game/resource/addon_russian.txt,2789,game/scripts/npc/abilities/npc_lia_hero_furbolg_champion.txt,55
+abilities,furbolg_champion_bears_agility,Медвежья ловкость,game/resource/addon_russian.txt,2793,game/scripts/npc/abilities/npc_lia_hero_furbolg_champion.txt,75
+abilities,general_rumble,Топот,game/resource/addon_russian.txt,915,game/scripts/npc/abilities/npc_lia_hero_general.txt,3
+abilities,general_dark_magic_flow,Поток Темной Магии,game/resource/addon_russian.txt,923,game/scripts/npc/abilities/npc_lia_hero_general.txt,104
+abilities,general_furious_strike,Яростный Удар,game/resource/addon_russian.txt,931,game/scripts/npc/abilities/npc_lia_hero_general.txt,216
+abilities,general_magic_armor,Магические Доспехи,game/resource/addon_russian.txt,935,game/scripts/npc/abilities/npc_lia_hero_general.txt,238
+abilities,ghoul_blood_thirst,Кровожадность,game/resource/addon_russian.txt,1716,game/scripts/npc/abilities/npc_lia_hero_ghoul.txt,3
+abilities,ghoul_devour,Сожрать,game/resource/addon_russian.txt,1725,game/scripts/npc/abilities/npc_lia_hero_ghoul.txt,95
+abilities,ghoul_mortal_strike,Смертельный Удар,game/resource/addon_russian.txt,1740,game/scripts/npc/abilities/npc_lia_hero_ghoul.txt,207
+abilities,ghoul_persistence,Стойкость,game/resource/addon_russian.txt,1745,game/scripts/npc/abilities/npc_lia_hero_ghoul.txt,233
+abilities,akron_explosion,Живая Бомба,game/resource/addon_russian.txt,1057,game/scripts/npc/abilities/npc_lia_hero_golem.txt,3
+abilities,acron_battle_fevor,Боевой Пыл,game/resource/addon_russian.txt,1066,game/scripts/npc/abilities/npc_lia_hero_golem.txt,90
+abilities,akron_firerage,Горящая Душа,game/resource/addon_russian.txt,1075,game/scripts/npc/abilities/npc_lia_hero_golem.txt,128
+abilities,acron_molten_fury,Литая Ярость,game/resource/addon_russian.txt,1082,game/scripts/npc/abilities/npc_lia_hero_golem.txt,216
+abilities,akron_ground_slam,Литая Ярость,game/resource/addon_russian.txt,1098,game/scripts/npc/abilities/npc_lia_hero_golem.txt,355
+abilities,hermit_summon_water_elemental,Духи Воды,game/resource/addon_russian.txt,1672,game/scripts/npc/abilities/npc_lia_hero_hermit.txt,3
+abilities,hermit_astral,Изгнание в Астрал,game/resource/addon_russian.txt,1683,game/scripts/npc/abilities/npc_lia_hero_hermit.txt,56
+abilities,hermit_frost_arrows,Ледяные Стрелы,game/resource/addon_russian.txt,1694,game/scripts/npc/abilities/npc_lia_hero_hermit.txt,103
+abilities,hermit_storm,Шторм,game/resource/addon_russian.txt,1709,game/scripts/npc/abilities/npc_lia_hero_hermit.txt,163
+abilities,hermit_storm1,,,,game/scripts/npc/abilities/npc_lia_hero_hermit.txt,214
+abilities,highlander_storm_bolt,Молот Бурь,game/resource/addon_russian.txt,1371,game/scripts/npc/abilities/npc_lia_hero_highlander.txt,3
+abilities,highlander_heavy_axe,Тяжёлый Топор,game/resource/addon_russian.txt,1379,game/scripts/npc/abilities/npc_lia_hero_highlander.txt,73
+abilities,highlander_improved_armor,Улучшенная Броня,game/resource/addon_russian.txt,1388,game/scripts/npc/abilities/npc_lia_hero_highlander.txt,148
+abilities,highlander_might_of_the_highlander,Мощь Горца,game/resource/addon_russian.txt,1398,game/scripts/npc/abilities/npc_lia_hero_highlander.txt,169
+abilities,huntress_curse_of_elune,Проклятие Элуны,game/resource/addon_russian.txt,1408,game/scripts/npc/abilities/npc_lia_hero_huntress.txt,3
+abilities,huntress_moon_glaive,Лунный Чакрум,game/resource/addon_russian.txt,1420,game/scripts/npc/abilities/npc_lia_hero_huntress.txt,38
+abilities,huntress_power_of_the_moon,Сила Луны,game/resource/addon_russian.txt,1425,game/scripts/npc/abilities/npc_lia_hero_huntress.txt,67
+abilities,huntress_moon_rite,Ритуал,game/resource/addon_russian.txt,1432,game/scripts/npc/abilities/npc_lia_hero_huntress.txt,88
+abilities,illusionist_whiff_of_deception,Дуновение Обмана,game/resource/addon_russian.txt,2398,game/scripts/npc/abilities/npc_lia_hero_illusionist.txt,3
+abilities,illusionist_mastery_of_deception,Мастерство Обмана,game/resource/addon_russian.txt,2404,game/scripts/npc/abilities/npc_lia_hero_illusionist.txt,87
+abilities,illusionist_agility_paws,Ловкость Лап,game/resource/addon_russian.txt,2410,game/scripts/npc/abilities/npc_lia_hero_illusionist.txt,186
+abilities,illusionist_mastery_of_illusions,Мастерство Иллюзий,game/resource/addon_russian.txt,2417,game/scripts/npc/abilities/npc_lia_hero_illusionist.txt,291
+abilities,keeper_of_the_grove_roots,Шипастые Лозы,game/resource/addon_russian.txt,2024,game/scripts/npc/abilities/npc_lia_hero_keeper_of_the_grove.txt,3
+abilities,keeper_of_the_grove_treants,Энты,game/resource/addon_russian.txt,2034,game/scripts/npc/abilities/npc_lia_hero_keeper_of_the_grove.txt,116
+abilities,keeper_of_the_grove_guardian_spirit,Дух-Защитник,game/resource/addon_russian.txt,192,game/scripts/npc/abilities/npc_lia_hero_keeper_of_the_grove.txt,167
+abilities,keeper_of_the_grove_natures_curse,Проклятие Природы,game/resource/addon_russian.txt,2072,game/scripts/npc/abilities/npc_lia_hero_keeper_of_the_grove.txt,211
+abilities,keeper_of_the_grove_treants_unity,Единство,game/resource/addon_russian.txt,2039,game/scripts/npc/abilities/npc_lia_hero_keeper_of_the_grove.txt,264
+abilities,keeper_of_the_grove_treants_reborn,Перерождение,game/resource/addon_russian.txt,2045,game/scripts/npc/abilities/npc_lia_hero_keeper_of_the_grove.txt,285
+abilities,keeper_of_the_grove_treants_cyclone,Циклон,game/resource/addon_russian.txt,2042,game/scripts/npc/abilities/npc_lia_hero_keeper_of_the_grove.txt,309
+abilities,keeper_of_the_grove_guardian_spirit_narure_forces,Природные Силы,game/resource/addon_russian.txt,2056,game/scripts/npc/abilities/npc_lia_hero_keeper_of_the_grove.txt,410
+abilities,knight_illusions,Иллюзии,game/resource/addon_russian.txt,2154,game/scripts/npc/abilities/npc_lia_hero_knight.txt,3
+abilities,knight_dark_shield,Тёмный Щит,game/resource/addon_russian.txt,2170,game/scripts/npc/abilities/npc_lia_hero_knight.txt,146
+abilities,knight_ancient_shield,Древний Щит,game/resource/addon_russian.txt,2162,game/scripts/npc/abilities/npc_lia_hero_knight.txt,166
+abilities,knight_dark_gifts,Тёмные Дары,game/resource/addon_russian.txt,2174,game/scripts/npc/abilities/npc_lia_hero_knight.txt,187
+abilities,kret_acid,Кислота,game/resource/addon_russian.txt,1503,game/scripts/npc/abilities/npc_lia_hero_kret.txt,3
+abilities,kret_poisoning,Жгучая Чешуя,game/resource/addon_russian.txt,1518,game/scripts/npc/abilities/npc_lia_hero_kret.txt,146
+abilities,kret_lust_for_life,Жажда Жизни,game/resource/addon_russian.txt,1524,game/scripts/npc/abilities/npc_lia_hero_kret.txt,175
+abilities,kret_virus,Ядовитый Плевок,game/resource/addon_russian.txt,1530,game/scripts/npc/abilities/npc_lia_hero_kret.txt,196
+abilities,lord_of_lightning_chain_lightning,Цепная Молния,game/resource/addon_russian.txt,2219,game/scripts/npc/abilities/npc_lia_hero_lord_of_lightning.txt,3
+abilities,lord_of_lightning_lightning_shield,Щит Молний,game/resource/addon_russian.txt,2230,game/scripts/npc/abilities/npc_lia_hero_lord_of_lightning.txt,67
+abilities,lord_of_lightning_holy_wrath,Гнев Небес,game/resource/addon_russian.txt,2242,game/scripts/npc/abilities/npc_lia_hero_lord_of_lightning.txt,121
+abilities,lord_of_lightning_brain_storm,Мозговой Шторм,game/resource/addon_russian.txt,2250,game/scripts/npc/abilities/npc_lia_hero_lord_of_lightning.txt,208
+abilities,marksman_explosive_rounds,Разрывные патроны,game/resource/addon_russian.txt,2830,game/scripts/npc/abilities/npc_lia_hero_marksman.txt,3
+abilities,marksman_ricochet,Рикошет,game/resource/addon_russian.txt,2839,game/scripts/npc/abilities/npc_lia_hero_marksman.txt,36
+abilities,marksman_marksmans_mastery,Мастерство стрелка,game/resource/addon_russian.txt,2850,game/scripts/npc/abilities/npc_lia_hero_marksman.txt,78
+abilities,marksman_dragon_breath,Дыхание дракона,game/resource/addon_russian.txt,2856,game/scripts/npc/abilities/npc_lia_hero_marksman.txt,98
+abilities,royal_naga_guard_sea_wave,Сокрушительная Волна,game/resource/addon_russian.txt,863,game/scripts/npc/abilities/npc_lia_hero_naga_royal_guard.txt,3
+abilities,naga_royal_guard_persistence,Стойкость,game/resource/addon_russian.txt,866,game/scripts/npc/abilities/npc_lia_hero_naga_royal_guard.txt,91
+abilities,naga_royal_guard_bash,Сильный Удар,game/resource/addon_russian.txt,871,game/scripts/npc/abilities/npc_lia_hero_naga_royal_guard.txt,111
+abilities,naga_royal_guard_crush,Давка,game/resource/addon_russian.txt,876,game/scripts/npc/abilities/npc_lia_hero_naga_royal_guard.txt,163
+abilities,naga_siren_fury,Ярость Приливов,game/resource/addon_russian.txt,1543,game/scripts/npc/abilities/npc_lia_hero_naga_siren.txt,3
+abilities,naga_siren_eating,Помощь Глубин,game/resource/addon_russian.txt,1553,game/scripts/npc/abilities/npc_lia_hero_naga_siren.txt,40
+abilities,naga_siren_art_of_battle,Искусство Боя,game/resource/addon_russian.txt,1557,game/scripts/npc/abilities/npc_lia_hero_naga_siren.txt,75
+abilities,naga_siren_song,Песня,game/resource/addon_russian.txt,1564,game/scripts/npc/abilities/npc_lia_hero_naga_siren.txt,96
+abilities,necromancer_stabbing_death,Пронзающая Смерть,game/resource/addon_russian.txt,2426,game/scripts/npc/abilities/npc_lia_hero_necromancer.txt,3
+abilities,necromancer_walking_corpses,Мертвецы,game/resource/addon_russian.txt,2434,game/scripts/npc/abilities/npc_lia_hero_necromancer.txt,52
+abilities,necromancer_reincarnation,Перерождение,game/resource/addon_russian.txt,2447,game/scripts/npc/abilities/npc_lia_hero_necromancer.txt,101
+abilities,necromancer_skel_return,Панцирь,game/resource/addon_russian.txt,2444,game/scripts/npc/abilities/npc_lia_hero_necromancer.txt,137
+abilities,necromancer_galvanization,Гальванизация,game/resource/addon_russian.txt,2450,game/scripts/npc/abilities/npc_lia_hero_necromancer.txt,157
+abilities,paladin_blizzard,Буран,game/resource/addon_russian.txt,1636,game/scripts/npc/abilities/npc_lia_hero_paladin.txt,3
+abilities,paladin_grace,Благодать,game/resource/addon_russian.txt,1646,game/scripts/npc/abilities/npc_lia_hero_paladin.txt,64
+abilities,paladin_elect,Избранный,game/resource/addon_russian.txt,1655,game/scripts/npc/abilities/npc_lia_hero_paladin.txt,111
+abilities,paladin_impregnability,Неуязвимость,game/resource/addon_russian.txt,1664,game/scripts/npc/abilities/npc_lia_hero_paladin.txt,134
+abilities,pirate_magic_rum,Магический Ром,game/resource/addon_russian.txt,1470,game/scripts/npc/abilities/npc_lia_hero_pirate.txt,3
+abilities,pirate_poisoned_weapon,Отравленное Оружие,game/resource/addon_russian.txt,1479,game/scripts/npc/abilities/npc_lia_hero_pirate.txt,121
+abilities,pirate_evasion,Змеиная Ловкость,game/resource/addon_russian.txt,1489,game/scripts/npc/abilities/npc_lia_hero_pirate.txt,150
+abilities,pirate_metamorphosis,Перевоплощение,game/resource/addon_russian.txt,1494,game/scripts/npc/abilities/npc_lia_hero_pirate.txt,168
+abilities,ranger_steel_hail,Стальной град,game/resource/addon_russian.txt,2802,game/scripts/npc/abilities/npc_lia_hero_ranger.txt,3
+abilities,ranger_trap,Ловчий силок,game/resource/addon_russian.txt,2810,game/scripts/npc/abilities/npc_lia_hero_ranger.txt,39
+abilities,ranger_aimed_shot,Прицельная атака,game/resource/addon_russian.txt,2819,game/scripts/npc/abilities/npc_lia_hero_ranger.txt,81
+abilities,ranger_volley_of_arrows,Веер стрел,game/resource/addon_russian.txt,2826,game/scripts/npc/abilities/npc_lia_hero_ranger.txt,102
+abilities,serpent_queen_ball_lightning,Шаровые Молнии,game/resource/addon_russian.txt,1907,game/scripts/npc/abilities/npc_lia_hero_serpent_queen.txt,3
+abilities,serpent_queen_heavenly_power,Небесная Сила,game/resource/addon_russian.txt,1915,game/scripts/npc/abilities/npc_lia_hero_serpent_queen.txt,159
+abilities,serpent_queen_accuracy,Меткость,game/resource/addon_russian.txt,1923,game/scripts/npc/abilities/npc_lia_hero_serpent_queen.txt,211
+abilities,serpent_queen_anger,Злоба,game/resource/addon_russian.txt,1927,game/scripts/npc/abilities/npc_lia_hero_serpent_queen.txt,255
+abilities,shadow_master_shadow,Тень,game/resource/addon_russian.txt,234,game/scripts/npc/abilities/npc_lia_hero_shadow_master.txt,3
+abilities,shadow_master_steal_shadow,Отнять Тень,game/resource/addon_russian.txt,2471,game/scripts/npc/abilities/npc_lia_hero_shadow_master.txt,59
+abilities,shadow_master_art_of_shadows,Искусство Теней,game/resource/addon_russian.txt,2480,game/scripts/npc/abilities/npc_lia_hero_shadow_master.txt,137
+abilities,shadow_master_agility_of_shadows,Ловкость Теней,game/resource/addon_russian.txt,2489,game/scripts/npc/abilities/npc_lia_hero_shadow_master.txt,158
+abilities,shaman_starfall_datadriven,Звездопад,game/resource/addon_russian.txt,1440,game/scripts/npc/abilities/npc_lia_hero_shaman.txt,8
+abilities,shaman_madness_datadriven,Безумие,game/resource/addon_russian.txt,1449,game/scripts/npc/abilities/npc_lia_hero_shaman.txt,186
+abilities,shaman_resourcefulness,Изворотливость,game/resource/addon_russian.txt,1458,game/scripts/npc/abilities/npc_lia_hero_shaman.txt,256
+abilities,shaman_ancient_forces,Древние Силы,game/resource/addon_russian.txt,1466,game/scripts/npc/abilities/npc_lia_hero_shaman.txt,274
+abilities,skeleton_mage_aqua_vitae,Живая Вода,game/resource/addon_russian.txt,1220,game/scripts/npc/abilities/npc_lia_hero_skeleton_mage.txt,3
+abilities,skeleton_mage_light_magic,Испытание Веры,game/resource/addon_russian.txt,1228,game/scripts/npc/abilities/npc_lia_hero_skeleton_mage.txt,109
+abilities,skeleton_mage_dark_magic,Проклятие Тьмы,game/resource/addon_russian.txt,1247,game/scripts/npc/abilities/npc_lia_hero_skeleton_mage.txt,171
+abilities,skeleton_mage_death_energy,Энергия Смерти,game/resource/addon_russian.txt,1253,game/scripts/npc/abilities/npc_lia_hero_skeleton_mage.txt,195
+abilities,skeleton_thief_wind_walk,Стремительность,game/resource/addon_russian.txt,1263,game/scripts/npc/abilities/npc_lia_hero_skeleton_thief.txt,3
+abilities,skeleton_thief_fury,Ярость,game/resource/addon_russian.txt,1268,game/scripts/npc/abilities/npc_lia_hero_skeleton_thief.txt,176
+abilities,skeleton_thief_shield_of_death,Щит Смерти,game/resource/addon_russian.txt,1276,game/scripts/npc/abilities/npc_lia_hero_skeleton_thief.txt,257
+abilities,skeleton_thief_concentration,Концентрация,game/resource/addon_russian.txt,1282,game/scripts/npc/abilities/npc_lia_hero_skeleton_thief.txt,280
+abilities,skeleton_thief_obsession,Одержимость,game/resource/addon_russian.txt,1291,game/scripts/npc/abilities/npc_lia_hero_skeleton_thief.txt,378
+abilities,speedwarden_speed_burst,Вспышка скорости,game/resource/addon_russian.txt,2865,game/scripts/npc/abilities/npc_lia_hero_speedwarden.txt,3
+abilities,speedwarden_mad_charge,Шальной заряд,game/resource/addon_russian.txt,2870,game/scripts/npc/abilities/npc_lia_hero_speedwarden.txt,37
+abilities,speedwarden_time_strike,Удар времени,game/resource/addon_russian.txt,2880,game/scripts/npc/abilities/npc_lia_hero_speedwarden.txt,58
+abilities,speedwarden_wardens_swiftness,Прыткость Хранителя,game/resource/addon_russian.txt,2890,game/scripts/npc/abilities/npc_lia_hero_speedwarden.txt,88
+abilities,spider_queen_killer_instinct,Инстинкт Убийцы,game/resource/addon_russian.txt,1107,game/scripts/npc/abilities/npc_lia_hero_spider_queen.txt,3
+abilities,spider_queen_spider_yarn,Паутинная Пряжа,game/resource/addon_russian.txt,1117,game/scripts/npc/abilities/npc_lia_hero_spider_queen.txt,32
+abilities,spider_queen_infection,Инфекция,game/resource/addon_russian.txt,1127,game/scripts/npc/abilities/npc_lia_hero_spider_queen.txt,65
+abilities,spider_queen_thick_cover,Плотный Покров,game/resource/addon_russian.txt,1137,game/scripts/npc/abilities/npc_lia_hero_spider_queen.txt,95
+abilities,minotaur_thunder_strike,Удар Грома,game/resource/addon_russian.txt,999,game/scripts/npc/abilities/npc_lia_hero_taur.txt,3
+abilities,minotaur_fear,Страх,game/resource/addon_russian.txt,1008,game/scripts/npc/abilities/npc_lia_hero_taur.txt,40
+abilities,minotaur_demonic_power,Сила Минотавра,game/resource/addon_russian.txt,1016,game/scripts/npc/abilities/npc_lia_hero_taur.txt,63
+abilities,minotaur_guardian_spirits,Духи-Хранители,game/resource/addon_russian.txt,1020,game/scripts/npc/abilities/npc_lia_hero_taur.txt,90
+abilities,minotaur_guardian_spirits1,,,,game/scripts/npc/abilities/npc_lia_hero_taur.txt,124
+abilities,tauren_champion_crushing_totem,Сокрушающий Тотем,game/resource/addon_russian.txt,2626,game/scripts/npc/abilities/npc_lia_hero_tauren_champion.txt,3
+abilities,tauren_champion_champions_jump,Прыжок Чемпиона,game/resource/addon_russian.txt,2635,game/scripts/npc/abilities/npc_lia_hero_tauren_champion.txt,43
+abilities,tauren_champion_accumulated_rage,Накопленная Ярость,game/resource/addon_russian.txt,2639,game/scripts/npc/abilities/npc_lia_hero_tauren_champion.txt,81
+abilities,tauren_champion_finish_off,Добивание,game/resource/addon_russian.txt,2650,game/scripts/npc/abilities/npc_lia_hero_tauren_champion.txt,113
+abilities,time_lord_death,Смерть,game/resource/addon_russian.txt,1573,game/scripts/npc/abilities/npc_lia_hero_time_lord.txt,3
+abilities,time_lord_timelapse,Прошлое,game/resource/addon_russian.txt,1579,game/scripts/npc/abilities/npc_lia_hero_time_lord.txt,41
+abilities,time_lord_wisdom_flow,Прилив Мудрости,game/resource/addon_russian.txt,1585,game/scripts/npc/abilities/npc_lia_hero_time_lord.txt,84
+abilities,time_lord_stop_time,Остановить Время,game/resource/addon_russian.txt,1593,game/scripts/npc/abilities/npc_lia_hero_time_lord.txt,145
+abilities,treant_butterfly_flock,Стая Бабочек,game/resource/addon_russian.txt,2658,game/scripts/npc/abilities/npc_lia_hero_treant.txt,3
+abilities,treant_take_root,Пустить Корни,game/resource/addon_russian.txt,2663,game/scripts/npc/abilities/npc_lia_hero_treant.txt,41
+abilities,treant_craving_for_nature,Тяга к Природе,game/resource/addon_russian.txt,2676,game/scripts/npc/abilities/npc_lia_hero_treant.txt,83
+abilities,treant_sharp_thorns,Острые Шипы,game/resource/addon_russian.txt,2680,game/scripts/npc/abilities/npc_lia_hero_treant.txt,123
+abilities,troll_cutthroat_boomeang_axe,Топор-Бумеранг,game/resource/addon_russian.txt,2497,game/scripts/npc/abilities/npc_lia_hero_troll_cutthroat.txt,3
+abilities,troll_cutthroat_boomeang_axe_return,Вернуть Топор,game/resource/addon_russian.txt,2507,game/scripts/npc/abilities/npc_lia_hero_troll_cutthroat.txt,43
+abilities,troll_cutthroat_vulnerability,Уязвимость,game/resource/addon_russian.txt,2510,game/scripts/npc/abilities/npc_lia_hero_troll_cutthroat.txt,80
+abilities,troll_cutthroat_enchanted_axes,Зачарованные Топоры,game/resource/addon_russian.txt,2519,game/scripts/npc/abilities/npc_lia_hero_troll_cutthroat.txt,108
+abilities,troll_cutthroat_battle_trance,Боевой Транс,game/resource/addon_russian.txt,2529,game/scripts/npc/abilities/npc_lia_hero_troll_cutthroat.txt,263
+abilities,valkyrie_rage,Размашистые Удары,game/resource/addon_russian.txt,886,game/scripts/npc/abilities/npc_lia_hero_valkyrie.txt,3
+abilities,valkyrie_rage1,,,,game/scripts/npc/abilities/npc_lia_hero_valkyrie.txt,40
+abilities,valkyrie_true_hit,Проклятие Великанов,game/resource/addon_russian.txt,895,game/scripts/npc/abilities/npc_lia_hero_valkyrie.txt,156
+abilities,valkyrie_agility,Вдохновение,game/resource/addon_russian.txt,900,game/scripts/npc/abilities/npc_lia_hero_valkyrie.txt,212
+abilities,valkyrie_fury,Благословение Скорости,game/resource/addon_russian.txt,907,game/scripts/npc/abilities/npc_lia_hero_valkyrie.txt,234
+abilities,vampire_life_drain,Высосать Жизнь,game/resource/addon_russian.txt,1986,game/scripts/npc/abilities/npc_lia_hero_vampire.txt,3
+abilities,vampire_lifesteal,Вампиризм,game/resource/addon_russian.txt,1994,game/scripts/npc/abilities/npc_lia_hero_vampire.txt,108
+abilities,vampire_thirst,Жажда,game/resource/addon_russian.txt,2002,game/scripts/npc/abilities/npc_lia_hero_vampire.txt,126
+abilities,vampire_transformation,Превращение,game/resource/addon_russian.txt,2010,game/scripts/npc/abilities/npc_lia_hero_vampire.txt,191
+abilities,vowen_from_blood_steal_blood,Кровавый Червь,game/resource/addon_russian.txt,1298,game/scripts/npc/abilities/npc_lia_hero_vowen_from_blood.txt,3
+abilities,vowen_from_blood_spiritual_flame,Духовное Пламя,game/resource/addon_russian.txt,1308,game/scripts/npc/abilities/npc_lia_hero_vowen_from_blood.txt,57
+abilities,vowen_from_blood_soul_burn,Пламя Обречённости,game/resource/addon_russian.txt,1321,game/scripts/npc/abilities/npc_lia_hero_vowen_from_blood.txt,110
+abilities,vowen_from_blood_chaos,Хаос,game/resource/addon_russian.txt,1336,game/scripts/npc/abilities/npc_lia_hero_vowen_from_blood.txt,203
+abilities,walking_dead_decay,Разложение,game/resource/addon_russian.txt,2730,game/scripts/npc/abilities/npc_lia_hero_walking_dead.txt,3
+abilities,walking_dead_rot_curse,Проклятие Гниения,game/resource/addon_russian.txt,2746,game/scripts/npc/abilities/npc_lia_hero_walking_dead.txt,47
+abilities,walking_dead_vitality,Живучесть,game/resource/addon_russian.txt,2755,game/scripts/npc/abilities/npc_lia_hero_walking_dead.txt,90
+abilities,walking_dead_cemetery_power,Кладбищенская Мощь,game/resource/addon_russian.txt,2764,game/scripts/npc/abilities/npc_lia_hero_walking_dead.txt,116
+abilities,wanderer_cancel_standard_aura,,,,game/scripts/npc/abilities/npc_lia_hero_wanderer.txt,3
+abilities,wanderer_spirit_of_the_plains,Дух Равнин,game/resource/addon_russian.txt,2266,game/scripts/npc/abilities/npc_lia_hero_wanderer.txt,41
+abilities,wanderer_the_flow_of_life,Поток Жизни,game/resource/addon_russian.txt,2278,game/scripts/npc/abilities/npc_lia_hero_wanderer.txt,97
+abilities,wanderer_arcane_aura,Чародейская Аура,game/resource/addon_russian.txt,2295,game/scripts/npc/abilities/npc_lia_hero_wanderer.txt,147
+abilities,wanderer_ghosts,Призраки,game/resource/addon_russian.txt,2307,game/scripts/npc/abilities/npc_lia_hero_wanderer.txt,182
+abilities,warlock_storm,Гром и Молния,game/resource/addon_russian.txt,1606,game/scripts/npc/abilities/npc_lia_hero_warlock.txt,3
+abilities,warlock_sacrifice,Жертвоприношение,game/resource/addon_russian.txt,1613,game/scripts/npc/abilities/npc_lia_hero_warlock.txt,50
+abilities,warlock_magic_splash,Магический Всплеск,game/resource/addon_russian.txt,1620,game/scripts/npc/abilities/npc_lia_hero_warlock.txt,148
+abilities,warlock_firestorm,Огненный Дождь,game/resource/addon_russian.txt,1624,game/scripts/npc/abilities/npc_lia_hero_warlock.txt,193
+abilities,warrior_of_light_fetters,Оковы Света,game/resource/addon_russian.txt,1345,game/scripts/npc/abilities/npc_lia_hero_warrior_of_light.txt,3
+abilities,warrior_of_light_will_light,Воля Света,game/resource/addon_russian.txt,1354,game/scripts/npc/abilities/npc_lia_hero_warrior_of_light.txt,89
+abilities,warrior_of_light_holy_power,Святая Сила,game/resource/addon_russian.txt,1358,game/scripts/npc/abilities/npc_lia_hero_warrior_of_light.txt,113
+abilities,warrior_of_light_divine_protection,Божественная Защита,game/resource/addon_russian.txt,1362,game/scripts/npc/abilities/npc_lia_hero_warrior_of_light.txt,131
+abilities,witch_doctor_negative_energy,Негативная Энергия,game/resource/addon_russian.txt,1823,game/scripts/npc/abilities/npc_lia_hero_witch_doctor.txt,3
+abilities,witch_doctor_frost_armor,Ледяная Броня,game/resource/addon_russian.txt,1832,game/scripts/npc/abilities/npc_lia_hero_witch_doctor.txt,46
+abilities,witch_doctor_discharge,Разряд,game/resource/addon_russian.txt,1849,game/scripts/npc/abilities/npc_lia_hero_witch_doctor.txt,103
+abilities,witch_doctor_regeneration,Регенерация,game/resource/addon_russian.txt,1856,game/scripts/npc/abilities/npc_lia_hero_witch_doctor.txt,193
+abilities,invulnerability,,,,game/scripts/npc/abilities/purchasable_units_skills.txt,3
+abilities,troll_defender_armor_aura,Доспехи Веры,game/resource/addon_russian.txt,2930,game/scripts/npc/abilities/purchasable_units_skills.txt,23
+abilities,doom_spawn_cripple,Увечье,game/resource/addon_russian.txt,2936,game/scripts/npc/abilities/purchasable_units_skills.txt,63
+abilities,doom_spawn_stomp,Громовая Поступь,game/resource/addon_russian.txt,2946,game/scripts/npc/abilities/purchasable_units_skills.txt,123
+abilities,hell_beast_bloodlust,Кровожадность,game/resource/addon_russian.txt,2910,game/scripts/npc/abilities/purchasable_units_skills.txt,220
+abilities,hell_beast_sleep,Сон,game/resource/addon_russian.txt,2918,game/scripts/npc/abilities/purchasable_units_skills.txt,287
+abilities,boar_poison,Яд,game/resource/addon_russian.txt,2954,game/scripts/npc/abilities/purchasable_units_skills.txt,316
+abilities,troll_healer_heal,Лечение,game/resource/addon_russian.txt,2927,game/scripts/npc/abilities/purchasable_units_skills.txt,389
+abilities,shadow_return_to_owner,Вернуться к Хозяину,game/resource/addon_russian.txt,2459,game/scripts/npc/abilities/shadow_abilities.txt,3
+abilities,shadow_shadow_mastery,Теневое Мастерство,game/resource/addon_russian.txt,2462,game/scripts/npc/abilities/shadow_abilities.txt,39
+abilities,shadow_world_of_shadows,Уйти в Мир Теней,game/resource/addon_russian.txt,2465,game/scripts/npc/abilities/shadow_abilities.txt,70
+abilities,spherical_staff_fire_golem_immolation,Жар Преисподней,game/resource/addon_russian.txt,2960,game/scripts/npc/abilities/spherical_staff_fire_golem_immolation.txt,3
+abilities,stats_bonus_fix,,,,game/scripts/npc/abilities/stats_bonus_fix.txt,3
+abilities,spirit_of_the_plains_fog,Туман,game/resource/addon_russian.txt,2272,game/scripts/npc/abilities/wanderer_abilities.txt,3
+abilities,spirit_of_the_plains_slow,Замедление,game/resource/addon_russian.txt,2275,game/scripts/npc/abilities/wanderer_abilities.txt,91
+abilities,essence_of_the_ghost_aura1,Сущность Призрака,game/resource/addon_russian.txt,2317,game/scripts/npc/abilities/wanderer_abilities.txt,155
+abilities,essence_of_the_ghost_aura2,Сущность Призрака,game/resource/addon_russian.txt,2320,game/scripts/npc/abilities/wanderer_abilities.txt,198
+abilities,essence_of_the_ghost_aura3,Сущность Призрака,game/resource/addon_russian.txt,2323,game/scripts/npc/abilities/wanderer_abilities.txt,243
+abilities,essence_of_the_ghost_aura4,Сущность Призрака,game/resource/addon_russian.txt,2326,game/scripts/npc/abilities/wanderer_abilities.txt,286
+abilities,water_elemental_4_orb,Морозная Атака,game/resource/addon_russian.txt,2969,game/scripts/npc/abilities/water_elemental.txt,3
+items,item_recipe_lia_alanith_spear,Рецепт,game/resource/addon_russian.txt,2994,game/scripts/npc/items/item_lia_alanith_spear.txt,3
+items,item_lia_alanith_spear,Копьё Аланита,game/resource/addon_russian.txt,3177,game/scripts/npc/items/item_lia_alanith_spear.txt,24
+items,item_lia_amulet,Амулет,game/resource/addon_russian.txt,3097,game/scripts/npc/items/item_lia_amulet.txt,3
+items,item_lia_amulet_of_spell_shield,Амулет Защиты,game/resource/addon_russian.txt,3121,game/scripts/npc/items/item_lia_amulet_of_spell_shield.txt,3
+items,item_lia_ancient_glove,Древняя Перчатка,game/resource/addon_russian.txt,3279,game/scripts/npc/items/item_lia_ancient_glove.txt,3
+items,item_lia_anti_magic_potion,Антимагический Эликсир,game/resource/addon_russian.txt,3532,game/scripts/npc/items/item_lia_anti_magic_potion.txt,3
+items,item_recipe_lia_armor_of_the_red_mist,Рецепт,game/resource/addon_russian.txt,3041,game/scripts/npc/items/item_lia_armor_of_the_red_mist.txt,3
+items,item_lia_armor_of_the_red_mist,Доспехи Красного Тумана,game/resource/addon_russian.txt,3622,game/scripts/npc/items/item_lia_armor_of_the_red_mist.txt,22
+items,item_lia_axe,Топор,game/resource/addon_russian.txt,3049,game/scripts/npc/items/item_lia_axe.txt,3
+items,item_recipe_lia_banner_of_victory,Рецепт,game/resource/addon_russian.txt,3031,game/scripts/npc/items/item_lia_banner_of_victory.txt,3
+items,item_lia_banner_of_victory,Знамя Победы,game/resource/addon_russian.txt,3498,game/scripts/npc/items/item_lia_banner_of_victory.txt,22
+items,item_recipe_lia_battle_axe,Рецепт,game/resource/addon_russian.txt,3007,game/scripts/npc/items/item_lia_battle_axe.txt,3
+items,item_lia_battle_axe,Боевой Топор,game/resource/addon_russian.txt,3262,game/scripts/npc/items/item_lia_battle_axe.txt,23
+items,item_recipe_lia_battle_javelin,Рецепт,game/resource/addon_russian.txt,3043,game/scripts/npc/items/item_lia_battle_javelin.txt,3
+items,item_lia_battle_javelin,Боевой Дротик,game/resource/addon_russian.txt,3650,game/scripts/npc/items/item_lia_battle_javelin.txt,22
+items,item_recipe_lia_blade_of_incorporeality,Рецепт,game/resource/addon_russian.txt,3045,game/scripts/npc/items/item_lia_blade_of_incorporeality.txt,3
+items,item_lia_blade_of_incorporeality,Клинок Бестелесности,game/resource/addon_russian.txt,3666,game/scripts/npc/items/item_lia_blade_of_incorporeality.txt,22
+items,item_recipe_lia_blood_blade,Рецепт,game/resource/addon_russian.txt,2995,game/scripts/npc/items/item_lia_blood_blade.txt,3
+items,item_lia_blood_blade,Меч Крови,game/resource/addon_russian.txt,3181,game/scripts/npc/items/item_lia_blood_blade.txt,23
+items,item_recipe_lia_blood_moon,Рецепт,game/resource/addon_russian.txt,2990,game/scripts/npc/items/item_lia_blood_moon.txt,3
+items,item_lia_blood_moon,Кровавая Луна,game/resource/addon_russian.txt,3154,game/scripts/npc/items/item_lia_blood_moon.txt,23
+items,item_lia_boar,,,,game/scripts/npc/items/item_lia_boar.txt,3
+items,item_lia_book_of_the_dead,Книга Мёртвых,game/resource/addon_russian.txt,3484,game/scripts/npc/items/item_lia_book_of_the_dead.txt,3
+items,item_lia_boots,Сапоги,game/resource/addon_russian.txt,3105,game/scripts/npc/items/item_lia_boots.txt,3
+items,item_recipe_lia_boots_of_invisibility,Рецепт,game/resource/addon_russian.txt,3020,game/scripts/npc/items/item_lia_boots_of_invisibility.txt,3
+items,item_lia_boots_of_invisibility,Сапоги-Невидимки,game/resource/addon_russian.txt,3382,game/scripts/npc/items/item_lia_boots_of_invisibility.txt,23
+items,item_recipe_lia_bounty_hunters_crossbow,Рецепт,game/resource/addon_russian.txt,3044,game/scripts/npc/items/item_lia_bounty_hunters_crossbow.txt,3
+items,item_lia_bounty_hunters_crossbow,Арбалет Охотника за Головами,game/resource/addon_russian.txt,3658,game/scripts/npc/items/item_lia_bounty_hunters_crossbow.txt,22
+items,item_lia_claws,Когти,game/resource/addon_russian.txt,3077,game/scripts/npc/items/item_lia_claws.txt,3
+items,item_recipe_lia_crown_of_death,Рецепт,game/resource/addon_russian.txt,3015,game/scripts/npc/items/item_lia_crown_of_death.txt,3
+items,item_lia_crown_of_death,Корона Смерти,game/resource/addon_russian.txt,3320,game/scripts/npc/items/item_lia_crown_of_death.txt,23
+items,item_recipe_lia_crusher,Рецепт,game/resource/addon_russian.txt,3038,game/scripts/npc/items/item_lia_crusher.txt,3
+items,item_lia_crusher,Сокрушитель,game/resource/addon_russian.txt,3605,game/scripts/npc/items/item_lia_crusher.txt,23
+items,item_recipe_lia_demon_edge,Рецепт,game/resource/addon_russian.txt,3046,game/scripts/npc/items/item_lia_demon_edge.txt,3
+items,item_lia_demon_edge,Лезвие Демона,game/resource/addon_russian.txt,3655,game/scripts/npc/items/item_lia_demon_edge.txt,23
+items,item_lia_demonic_figurine,Статуэтка Демона,game/resource/addon_russian.txt,3487,game/scripts/npc/items/item_lia_demonic_figure.txt,3
+items,item_recipe_lia_divine_armor,Рецепт,game/resource/addon_russian.txt,3001,game/scripts/npc/items/item_lia_divine_armor.txt,3
+items,item_lia_divine_armor,Доспехи Бога,game/resource/addon_russian.txt,3215,game/scripts/npc/items/item_lia_divine_armor.txt,23
+items,item_lia_dust_of_appearance,Порошок Прозрения,game/resource/addon_russian.txt,3559,game/scripts/npc/items/item_lia_dust_of_appearance.txt,3
+items,item_recipe_lia_dwarf_armor,Рецепт,game/resource/addon_russian.txt,2998,game/scripts/npc/items/item_lia_dwarf_armor.txt,3
+items,item_lia_dwarf_armor,Гномья Броня,game/resource/addon_russian.txt,3199,game/scripts/npc/items/item_lia_dwarf_armor.txt,23
+items,item_recipe_lia_enchanted_shield,Рецепт,game/resource/addon_russian.txt,3012,game/scripts/npc/items/item_lia_enchanted_shield.txt,3
+items,item_recipe_lia_enchanted_shield_2,,,,game/scripts/npc/items/item_lia_enchanted_shield.txt,23
+items,item_lia_enchanted_shield,Заколдованный Щит,game/resource/addon_russian.txt,3297,game/scripts/npc/items/item_lia_enchanted_shield.txt,41
+items,item_lia_enchanted_shield_2,Заколдованный Щит,game/resource/addon_russian.txt,3302,game/scripts/npc/items/item_lia_enchanted_shield.txt,73
+items,item_recipe_lia_ferus_shield,Рецепт,game/resource/addon_russian.txt,3036,game/scripts/npc/items/item_lia_ferus_shield.txt,3
+items,item_lia_ferus_shield,Щит Феруса,game/resource/addon_russian.txt,3562,game/scripts/npc/items/item_lia_ferus_shield.txt,23
+items,item_recipe_lia_fire_gloves,Рецепт,game/resource/addon_russian.txt,3018,game/scripts/npc/items/item_lia_fire_gloves.txt,3
+items,item_recipe_lia_fire_gloves_2,,,,game/scripts/npc/items/item_lia_fire_gloves.txt,23
+items,item_lia_fire_gloves,Перчатки Огня,game/resource/addon_russian.txt,3341,game/scripts/npc/items/item_lia_fire_gloves.txt,41
+items,item_lia_fire_gloves_2,Перчатки Огня,game/resource/addon_russian.txt,3349,game/scripts/npc/items/item_lia_fire_gloves.txt,87
+items,item_recipe_lia_fire_rod,Рецепт,game/resource/addon_russian.txt,3023,game/scripts/npc/items/item_lia_fire_rod.txt,3
+items,item_lia_fire_rod,Жезл Огня,game/resource/addon_russian.txt,3409,game/scripts/npc/items/item_lia_fire_rod.txt,23
+items,item_recipe_lia_fire_sword,Рецепт,game/resource/addon_russian.txt,3009,game/scripts/npc/items/item_lia_fire_sword.txt,3
+items,item_lia_fire_sword,Огненный Меч,game/resource/addon_russian.txt,3282,game/scripts/npc/items/item_lia_fire_sword.txt,23
+items,item_recipe_lia_ghost_blade,Рецепт,game/resource/addon_russian.txt,3008,game/scripts/npc/items/item_lia_ghost_blade.txt,3
+items,item_lia_ghost_blade,Призрачный Меч,game/resource/addon_russian.txt,3269,game/scripts/npc/items/item_lia_ghost_blade.txt,24
+items,item_recipe_lia_glove_of_pain,Рецепт,game/resource/addon_russian.txt,3022,game/scripts/npc/items/item_lia_glove_of_pain.txt,3
+items,item_lia_glove_of_pain,Перчатка Боли,game/resource/addon_russian.txt,3398,game/scripts/npc/items/item_lia_glove_of_pain.txt,23
+items,item_lia_gloves_of_haste,Перчатки Скорости,game/resource/addon_russian.txt,3101,game/scripts/npc/items/item_lia_gloves_of_haste.txt,3
+items,item_lia_gloves_of_strength,Перчатки Силы,game/resource/addon_russian.txt,3069,game/scripts/npc/items/item_lia_gloves_of_strength.txt,3
+items,item_recipe_lia_hammer,Рецепт,game/resource/addon_russian.txt,3002,game/scripts/npc/items/item_lia_hammer.txt,3
+items,item_lia_hammer,Молот Превосходства,game/resource/addon_russian.txt,3222,game/scripts/npc/items/item_lia_hammer.txt,24
+items,item_recipe_lia_hammer_of_titans,Рецепт,game/resource/addon_russian.txt,3040,game/scripts/npc/items/item_lia_hammer_of_titans.txt,3
+items,item_lia_hammer_of_titans,Молот Титанов,game/resource/addon_russian.txt,3634,game/scripts/npc/items/item_lia_hammer_of_titans.txt,23
+items,item_lia_healing_ward,Духи-Целители,game/resource/addon_russian.txt,3526,game/scripts/npc/items/item_lia_healing_ward.txt,3
+items,item_lia_health_elixir,Эликсир Здоровья,game/resource/addon_russian.txt,3143,game/scripts/npc/items/item_lia_health_elixir.txt,3
+items,item_lia_health_stone_potion,Отвар Здоровья,game/resource/addon_russian.txt,3133,game/scripts/npc/items/item_lia_health_stone_potion.txt,3
+items,item_recipe_lia_hell_gloves,Рецепт,game/resource/addon_russian.txt,2991,game/scripts/npc/items/item_lia_hell_gloves.txt,3
+items,item_lia_hell_gloves,Адские Перчатки,game/resource/addon_russian.txt,3160,game/scripts/npc/items/item_lia_hell_gloves.txt,23
+items,item_recipe_lia_hell_mask,Рецепт,game/resource/addon_russian.txt,3030,game/scripts/npc/items/item_lia_hell_mask.txt,3
+items,item_lia_hell_mask,Адская Маска,game/resource/addon_russian.txt,3493,game/scripts/npc/items/item_lia_hell_mask.txt,23
+items,item_lia_helm,Шлем,game/resource/addon_russian.txt,3089,game/scripts/npc/items/item_lia_helm.txt,3
+items,item_recipe_lia_huge_axe,Рецепт,game/resource/addon_russian.txt,2989,game/scripts/npc/items/item_lia_huge_axe.txt,3
+items,item_lia_huge_axe,Огромный Топор,game/resource/addon_russian.txt,3149,game/scripts/npc/items/item_lia_huge_axe.txt,23
+items,item_recipe_lia_hyper_boots,,,,game/scripts/npc/items/item_lia_hyper_boots.txt,3
+items,item_lia_hyper_boots,Гиперсапоги,game/resource/addon_russian.txt,3575,game/scripts/npc/items/item_lia_hyper_boots.txt,23
+items,item_lia_hyper_boots_old,,,,game/scripts/npc/items/item_lia_hyper_boots.txt,67
+items,item_recipe_lia_ice_sword,Рецепт,game/resource/addon_russian.txt,3025,game/scripts/npc/items/item_lia_ice_sword.txt,3
+items,item_lia_ice_sword,Ледяной Меч,game/resource/addon_russian.txt,3426,game/scripts/npc/items/item_lia_ice_sword.txt,23
+items,item_recipe_lia_knight_cuirass,Рецепт,game/resource/addon_russian.txt,2997,game/scripts/npc/items/item_lia_knight_cuirass.txt,3
+items,item_lia_knight_cuirass,Кираса Рыцаря,game/resource/addon_russian.txt,3190,game/scripts/npc/items/item_lia_knight_cuirass.txt,23
+items,item_recipe_lia_knight_shield,Рецепт,game/resource/addon_russian.txt,2996,game/scripts/npc/items/item_lia_knight_shield.txt,3
+items,item_lia_knight_shield,Рыцарский Щит,game/resource/addon_russian.txt,3185,game/scripts/npc/items/item_lia_knight_shield.txt,23
+items,item_recipe_lia_lightning_bow,Рецепт,game/resource/addon_russian.txt,3033,game/scripts/npc/items/item_lia_lightning_bow.txt,3
+items,item_lia_lightning_bow,Лук Молний,game/resource/addon_russian.txt,3508,game/scripts/npc/items/item_lia_lightning_bow.txt,23
+items,item_recipe_lia_lightning_spear,Рецепт,game/resource/addon_russian.txt,3032,game/scripts/npc/items/item_lia_lightning_spear.txt,3
+items,item_lia_lightning_spear,Копьё Молний,game/resource/addon_russian.txt,3504,game/scripts/npc/items/item_lia_lightning_spear.txt,23
+items,item_recipe_lia_lunar_necklace,Рецепт,game/resource/addon_russian.txt,3021,game/scripts/npc/items/item_lia_lunar_necklace.txt,3
+items,item_lia_lunar_necklace,Лунное Колье,game/resource/addon_russian.txt,3389,game/scripts/npc/items/item_lia_lunar_necklace.txt,23
+items,item_recipe_lia_magic_bow,Рецепт,game/resource/addon_russian.txt,3003,game/scripts/npc/items/item_lia_magic_bow.txt,3
+items,item_lia_magic_bow,Волшебный Лук,game/resource/addon_russian.txt,3229,game/scripts/npc/items/item_lia_magic_bow.txt,23
+items,item_recipe_lia_magic_helm,Рецепт,game/resource/addon_russian.txt,3000,game/scripts/npc/items/item_lia_magic_helm.txt,3
+items,item_lia_magic_helm,Магический Шлем,game/resource/addon_russian.txt,3210,game/scripts/npc/items/item_lia_magic_helm.txt,23
+items,item_recipe_lia_magic_necklace,Рецепт,game/resource/addon_russian.txt,3011,game/scripts/npc/items/item_lia_magic_necklace.txt,3
+items,item_lia_magic_necklace,Магическое Ожерелье,game/resource/addon_russian.txt,3293,game/scripts/npc/items/item_lia_magic_necklace.txt,23
+items,item_recipe_lia_magic_staff,Рецепт,game/resource/addon_russian.txt,3013,game/scripts/npc/items/item_lia_magic_staff.txt,3
+items,item_lia_magic_staff,Волшебный Посох,game/resource/addon_russian.txt,3307,game/scripts/npc/items/item_lia_magic_staff.txt,23
+items,item_recipe_lia_magician_armor,,,,game/scripts/npc/items/item_lia_magician_armor.txt,3
+items,item_lia_magician_armor,Доспехи Заклинателя,game/resource/addon_russian.txt,3686,game/scripts/npc/items/item_lia_magician_armor.txt,23
+items,item_lia_mana_elixir,Эликсир Маны,game/resource/addon_russian.txt,3146,game/scripts/npc/items/item_lia_mana_elixir.txt,3
+items,item_recipe_lia_mana_staff,Рецепт,game/resource/addon_russian.txt,3014,game/scripts/npc/items/item_lia_mana_staff.txt,3
+items,item_lia_mana_staff,Посох Маны,game/resource/addon_russian.txt,3312,game/scripts/npc/items/item_lia_mana_staff.txt,23
+items,item_lia_mana_stone,Камень Маны,game/resource/addon_russian.txt,3117,game/scripts/npc/items/item_lia_mana_stone.txt,3
+items,item_lia_mana_stone_potion,Отвар Маны,game/resource/addon_russian.txt,3138,game/scripts/npc/items/item_lia_mana_stone_potion.txt,3
+items,item_lia_mantle,Мантия,game/resource/addon_russian.txt,3061,game/scripts/npc/items/item_lia_mantle.txt,3
+items,item_lia_mask,Маска,game/resource/addon_russian.txt,3109,game/scripts/npc/items/item_lia_mask.txt,3
+items,item_lia_mask_of_death,Маска Смерти,game/resource/addon_russian.txt,3130,game/scripts/npc/items/item_lia_mask_of_death.txt,3
+items,item_recipe_lia_mithril_armor,Рецепт,game/resource/addon_russian.txt,3017,game/scripts/npc/items/item_lia_mithril_armor.txt,3
+items,item_lia_mithril_armor,Мифриловый Доспех,game/resource/addon_russian.txt,3333,game/scripts/npc/items/item_lia_mithril_armor.txt,23
+items,item_lia_necklace,Ожерелье,game/resource/addon_russian.txt,3053,game/scripts/npc/items/item_lia_necklace.txt,3
+items,item_lia_orb_of_fire,Сфера Огня,game/resource/addon_russian.txt,3371,game/scripts/npc/items/item_lia_orb_of_fire.txt,3
+items,item_recipe_lia_orb_of_frost,Рецепт,game/resource/addon_russian.txt,3024,game/scripts/npc/items/item_lia_orb_of_frost.txt,3
+items,item_lia_orb_of_frost,Сфера Льда,game/resource/addon_russian.txt,3415,game/scripts/npc/items/item_lia_orb_of_frost.txt,23
+items,item_recipe_lia_pantilus_blade,Рецепт,game/resource/addon_russian.txt,2993,game/scripts/npc/items/item_lia_pantilus_blade.txt,3
+items,item_lia_pantilus_blade,Меч Пантилуса,game/resource/addon_russian.txt,3171,game/scripts/npc/items/item_lia_pantilus_blade.txt,23
+items,item_recipe_lia_poleaxe_of_rage,Рецепт,game/resource/addon_russian.txt,3010,game/scripts/npc/items/item_lia_poleaxe_of_rage.txt,3
+items,item_lia_poleaxe_of_rage,Секира Ярости,game/resource/addon_russian.txt,3286,game/scripts/npc/items/item_lia_poleaxe_of_rage.txt,23
+items,item_lia_potion_of_invisibility,Зелье Невидимости,game/resource/addon_russian.txt,3553,game/scripts/npc/items/item_lia_potion_of_invisibility.txt,3
+items,item_lia_potion_of_invulnerability,Зелье Неуязвимости,game/resource/addon_russian.txt,3538,game/scripts/npc/items/item_lia_potion_of_invulnerability.txt,3
+items,item_recipe_lia_pure_light,Рецепт,game/resource/addon_russian.txt,3039,game/scripts/npc/items/item_lia_pure_light.txt,3
+items,item_lia_pure_light,Чистейший Свет,game/resource/addon_russian.txt,3611,game/scripts/npc/items/item_lia_pure_light.txt,23
+items,item_recipe_lia_blade_of_rage_agi,Рецепт,game/resource/addon_russian.txt,3004,game/scripts/npc/items/item_lia_rage_sword_agi.txt,3
+items,item_lia_blade_of_rage_agi,Меч Гнева (Ловкость),game/resource/addon_russian.txt,3235,game/scripts/npc/items/item_lia_rage_sword_agi.txt,23
+items,item_recipe_lia_blade_of_rage_int,Рецепт,game/resource/addon_russian.txt,3006,game/scripts/npc/items/item_lia_rage_sword_int.txt,3
+items,item_lia_blade_of_rage_int,Меч Гнева (Интеллект),game/resource/addon_russian.txt,3253,game/scripts/npc/items/item_lia_rage_sword_int.txt,23
+items,item_recipe_lia_blade_of_rage_str,Рецепт,game/resource/addon_russian.txt,3005,game/scripts/npc/items/item_lia_rage_sword_str.txt,3
+items,item_lia_blade_of_rage_str,Меч Гнева (Сила),game/resource/addon_russian.txt,3244,game/scripts/npc/items/item_lia_rage_sword_str.txt,23
+items,item_lia_ring_of_protection,Кольцо Защиты,game/resource/addon_russian.txt,3085,game/scripts/npc/items/item_lia_ring_of_protection.txt,3
+items,item_lia_ring_of_regeneration,Кольцо Регенерации,game/resource/addon_russian.txt,3093,game/scripts/npc/items/item_lia_ring_of_regeneration.txt,3
+items,item_lia_rune_gold,Монетка,game/resource/addon_russian.txt,332,game/scripts/npc/items/item_lia_rune_gold.txt,3
+items,item_lia_rune_lumber,Дерево,game/resource/addon_russian.txt,333,game/scripts/npc/items/item_lia_rune_lumber.txt,3
+items,item_lia_rune_of_agility,Книга Ловкости,game/resource/addon_russian.txt,330,game/scripts/npc/items/item_lia_rune_of_agility.txt,3
+items,item_lia_rune_of_healing,Руна Исцеления,game/resource/addon_russian.txt,325,game/scripts/npc/items/item_lia_rune_of_healing.txt,3
+items,item_lia_rune_of_intellect,Книга Интеллекта,game/resource/addon_russian.txt,331,game/scripts/npc/items/item_lia_rune_of_intellect.txt,3
+items,item_lia_rune_of_lifesteal,Руна Вампиризма,game/resource/addon_russian.txt,334,game/scripts/npc/items/item_lia_rune_of_lifesteal.txt,3
+items,item_lia_rune_of_luck,Руна Удачи,game/resource/addon_russian.txt,335,game/scripts/npc/items/item_lia_rune_of_luck.txt,3
+items,item_lia_rune_of_mana,Руна Маны,game/resource/addon_russian.txt,326,game/scripts/npc/items/item_lia_rune_of_mana.txt,3
+items,item_lia_rune_of_protection,Руна Защиты,game/resource/addon_russian.txt,336,game/scripts/npc/items/item_lia_rune_of_protection.txt,3
+items,item_lia_rune_of_restoration,Руна Восстановления,game/resource/addon_russian.txt,327,game/scripts/npc/items/item_lia_rune_of_restoration.txt,3
+items,item_lia_rune_of_speed,Руна Скорости,game/resource/addon_russian.txt,328,game/scripts/npc/items/item_lia_rune_of_speed.txt,3
+items,item_lia_rune_of_strength,Книга Силы,game/resource/addon_russian.txt,329,game/scripts/npc/items/item_lia_rune_of_strength.txt,3
+items,item_lia_runed_bracers,Рунный Браслет,game/resource/addon_russian.txt,3113,game/scripts/npc/items/item_lia_runed_bracers.txt,3
+items,item_recipe_lia_runed_gloves,Рецепт,game/resource/addon_russian.txt,2992,game/scripts/npc/items/item_lia_runed_gloves.txt,3
+items,item_lia_runed_gloves,Рунные Перчатки,game/resource/addon_russian.txt,3166,game/scripts/npc/items/item_lia_runed_gloves.txt,23
+items,item_recipe_lia_staff_of_power,Рецепт,game/resource/addon_russian.txt,3026,game/scripts/npc/items/item_lia_scepter_of_power.txt,3
+items,item_lia_staff_of_power,Скипетр Власти,game/resource/addon_russian.txt,3440,game/scripts/npc/items/item_lia_scepter_of_power.txt,23
+items,item_lia_scroll_of_restoration,Свиток Восстановления,game/resource/addon_russian.txt,3550,game/scripts/npc/items/item_lia_scroll_of_restoration.txt,3
+items,item_lia_scroll_of_secret_knowledge,Свиток Тайного Знания,game/resource/addon_russian.txt,3544,game/scripts/npc/items/item_lia_scroll_of_secret_knowledge.txt,3
+items,item_recipe_lia_seal_of_power_shop,Рецепт,game/resource/addon_russian.txt,3037,game/scripts/npc/items/item_lia_seal_of_power.txt,3
+items,item_lia_seal_of_power_shop,Печать Силы,game/resource/addon_russian.txt,3579,game/scripts/npc/items/item_lia_seal_of_power.txt,22
+items,item_recipe_lia_shield_of_death,Рецепт,game/resource/addon_russian.txt,3016,game/scripts/npc/items/item_lia_shield_of_death.txt,3
+items,item_lia_shield_of_death,Щит Смерти,game/resource/addon_russian.txt,3325,game/scripts/npc/items/item_lia_shield_of_death.txt,23
+items,item_recipe_lia_shield_of_endurance,Рецепт,game/resource/addon_russian.txt,2999,game/scripts/npc/items/item_lia_shield_of_endurance.txt,3
+items,item_lia_shield_of_endurance,Щит Выносливости,game/resource/addon_russian.txt,3204,game/scripts/npc/items/item_lia_shield_of_endurance.txt,23
+items,item_lia_spear,Копьё,game/resource/addon_russian.txt,3081,game/scripts/npc/items/item_lia_spear.txt,3
+items,item_recipe_lia_spellbreaker,Рецепт,game/resource/addon_russian.txt,3042,game/scripts/npc/items/item_lia_spellbreaker.txt,3
+items,item_lia_spellbreaker,Разрушитель Заклинаний,game/resource/addon_russian.txt,3644,game/scripts/npc/items/item_lia_spellbreaker.txt,23
+items,item_recipe_ultimate_scepter,,,,game/scripts/npc/items/item_lia_spherical_staff.txt,3
+items,item_ultimate_scepter,Сферический Посох,game/resource/addon_russian.txt,3521,game/scripts/npc/items/item_lia_spherical_staff.txt,23
+items,item_lia_spider_ring,Кольцо Паука,game/resource/addon_russian.txt,3376,game/scripts/npc/items/item_lia_spider_ring.txt,3
+items,item_lia_staff,Посох,game/resource/addon_russian.txt,3065,game/scripts/npc/items/item_lia_staff.txt,3
+items,item_recipe_lia_staff_of_help,Рецепт,game/resource/addon_russian.txt,3019,game/scripts/npc/items/item_lia_staff_of_help.txt,3
+items,item_recipe_lia_staff_of_help_2,,,,game/scripts/npc/items/item_lia_staff_of_help.txt,23
+items,item_lia_staff_of_help,Посох Помощи,game/resource/addon_russian.txt,3355,game/scripts/npc/items/item_lia_staff_of_help.txt,42
+items,item_lia_staff_of_help_2,Посох Помощи,game/resource/addon_russian.txt,3363,game/scripts/npc/items/item_lia_staff_of_help.txt,135
+items,item_recipe_lia_staff_of_illusions,Рецепт,game/resource/addon_russian.txt,3034,game/scripts/npc/items/item_lia_staff_of_illusions.txt,3
+items,item_lia_staff_of_illusions,Посох Иллюзий,game/resource/addon_russian.txt,3515,game/scripts/npc/items/item_lia_staff_of_illusions.txt,23
+items,item_recipe_lia_staff_of_life,,,,game/scripts/npc/items/item_lia_staff_of_life.txt,3
+items,item_lia_staff_of_life,Посох Жизни,game/resource/addon_russian.txt,3677,game/scripts/npc/items/item_lia_staff_of_life.txt,23
+items,item_recipe_lia_staff_of_light,Рецепт,game/resource/addon_russian.txt,3028,game/scripts/npc/items/item_lia_staff_of_light.txt,3
+items,item_lia_staff_of_light,Посох Света,game/resource/addon_russian.txt,3455,game/scripts/npc/items/item_lia_staff_of_light.txt,23
+items,item_lia_steel_sword,Стальной Меч,game/resource/addon_russian.txt,3073,game/scripts/npc/items/item_lia_steel_sword.txt,3
+items,item_lia_stormwind_horn,Рог Ветров,game/resource/addon_russian.txt,3124,game/scripts/npc/items/item_lia_stormwind_horn.txt,3
+items,item_recipe_lia_sword_of_solidarity,Рецепт,game/resource/addon_russian.txt,3029,game/scripts/npc/items/item_lia_sword_of_solidarity.txt,3
+items,item_recipe_lia_sword_of_solidarity_2,,,,game/scripts/npc/items/item_lia_sword_of_solidarity.txt,23
+items,item_lia_sword_of_solidarity,Меч Единства,game/resource/addon_russian.txt,3466,game/scripts/npc/items/item_lia_sword_of_solidarity.txt,41
+items,item_lia_sword_of_solidarity_2,Меч Единства,game/resource/addon_russian.txt,3475,game/scripts/npc/items/item_lia_sword_of_solidarity.txt,117
+items,item_lia_thugs_dagger,Кинжал Разбойника,game/resource/addon_russian.txt,3057,game/scripts/npc/items/item_lia_thugs_dagger.txt,3
+items,item_recipe_lia_totem_of_persistence,Рецепт,game/resource/addon_russian.txt,3027,game/scripts/npc/items/item_lia_totem_of_persistence.txt,3
+items,item_lia_totem_of_persistence,Тотем Стойкости,game/resource/addon_russian.txt,3448,game/scripts/npc/items/item_lia_totem_of_persistence.txt,23
+items,item_lia_troll_defender,Тролль-Защитник,game/resource/addon_russian.txt,3490,game/scripts/npc/items/item_lia_troll_defender.txt,3
+items,item_lia_troll_healer,Тролль-Лекарь,game/resource/addon_russian.txt,3572,game/scripts/npc/items/item_lia_troll_healer.txt,3
+items,item_recipe_lia_widow_boots,Рецепт,game/resource/addon_russian.txt,3697,game/scripts/npc/items/item_lia_widow_boots.txt,3
+items,item_lia_widow_boots,Сапоги Вдовы,game/resource/addon_russian.txt,3693,game/scripts/npc/items/item_lia_widow_boots.txt,22
+units,fire_golem_10_wave,,,,game/scripts/npc/units/10_wave_megaboss.txt,3
+units,10_wave_megaboss,Мегабосс,game/resource/addon_russian.txt,81,game/scripts/npc/units/10_wave_megaboss.txt,68
+units,15_wave_megaboss,Мегабосс,game/resource/addon_russian.txt,90,game/scripts/npc/units/15_wave_megaboss.txt,3
+units,5_wave_megaboss,Мегабосс,game/resource/addon_russian.txt,72,game/scripts/npc/units/5_wave_megaboss.txt,3
+units,android_clockwerk_goblin1,Заводной Гоблин,game/resource/addon_russian.txt,181,game/scripts/npc/units/android_units.txt,3
+units,android_clockwerk_goblin2,Заводной Гоблин,game/resource/addon_russian.txt,182,game/scripts/npc/units/android_units.txt,82
+units,android_clockwerk_goblin3,Заводной Гоблин,game/resource/addon_russian.txt,183,game/scripts/npc/units/android_units.txt,161
+units,android_pocket_factory_building1,Мини-Завод,game/resource/addon_russian.txt,184,game/scripts/npc/units/android_units.txt,244
+units,android_pocket_factory_building2,Мини-Завод,game/resource/addon_russian.txt,185,game/scripts/npc/units/android_units.txt,316
+units,android_pocket_factory_building3,Мини-Завод,game/resource/addon_russian.txt,186,game/scripts/npc/units/android_units.txt,388
+units,white_wolf_bm,Белый Волк,game/resource/addon_russian.txt,166,game/scripts/npc/units/beastmaster_creeps.txt,3
+units,jungle_stalker_bm,Повелитель Джунглей,game/resource/addon_russian.txt,167,game/scripts/npc/units/beastmaster_creeps.txt,63
+units,phoenix_bm,Феникс,game/resource/addon_russian.txt,168,game/scripts/npc/units/beastmaster_creeps.txt,123
+units,phoenix_egg_bm,Яйцо Феникса,game/resource/addon_russian.txt,169,game/scripts/npc/units/beastmaster_creeps.txt,186
+units,bear_bm,Медведь,game/resource/addon_russian.txt,170,game/scripts/npc/units/beastmaster_creeps.txt,235
+units,npc_crypt_lord_locust,,,,game/scripts/npc/units/beetle.txt,3
+units,butcher_zombie_1,Зомби,game/resource/addon_russian.txt,194,game/scripts/npc/units/butcher_zombies.txt,3
+units,butcher_zombie_2,Зомби,game/resource/addon_russian.txt,195,game/scripts/npc/units/butcher_zombies.txt,60
+units,butcher_zombie_3,Зомби,game/resource/addon_russian.txt,196,game/scripts/npc/units/butcher_zombies.txt,117
+units,camera_guy,,,,game/scripts/npc/units/camera_guy.txt,3
+units,arena_rock,Камень,game/resource/addon_russian.txt,236,game/scripts/npc/units/decorations.txt,3
+units,arena_rock_2,Камень,game/resource/addon_russian.txt,237,game/scripts/npc/units/decorations.txt,49
+units,arena_rock_3,Камень,game/resource/addon_russian.txt,238,game/scripts/npc/units/decorations.txt,95
+units,arena_rock_4,Камень,game/resource/addon_russian.txt,239,game/scripts/npc/units/decorations.txt,140
+units,arena_rock_5,Камень,game/resource/addon_russian.txt,240,game/scripts/npc/units/decorations.txt,185
+units,arena_center_box,Коробка,game/resource/addon_russian.txt,241,game/scripts/npc/units/decorations.txt,231
+units,barricades,Баррикады,game/resource/addon_russian.txt,242,game/scripts/npc/units/decorations.txt,277
+units,barricades_small,Баррикады,game/resource/addon_russian.txt,243,game/scripts/npc/units/decorations.txt,325
+units,barricades_big,Баррикады,game/resource/addon_russian.txt,244,game/scripts/npc/units/decorations.txt,373
+units,npc_dota_creature_barrel,Бочка,game/resource/addon_russian.txt,245,game/scripts/npc/units/decorations.txt,421
+units,small_barrel,Бочка,game/resource/addon_russian.txt,246,game/scripts/npc/units/decorations.txt,472
+units,small_barrel_side,Бочка,game/resource/addon_russian.txt,247,game/scripts/npc/units/decorations.txt,518
+units,big_barrel,Бочка,game/resource/addon_russian.txt,248,game/scripts/npc/units/decorations.txt,565
+units,tnt_barrel,Бочка со Взрывчаткой,game/resource/addon_russian.txt,249,game/scripts/npc/units/decorations.txt,611
+units,barricades_halloween,,,,game/scripts/npc/units/decorations.txt,657
+units,barricades_halloween2,,,,game/scripts/npc/units/decorations.txt,705
+units,barricades_halloween3,,,,game/scripts/npc/units/decorations.txt,753
+units,dummy_unit,,,,game/scripts/npc/units/dummy_unit.txt,3
+units,dummy_unit_vulnerable,,,,game/scripts/npc/units/dummy_unit.txt,15
+units,dummy_unit_building,,,,game/scripts/npc/units/dummy_unit.txt,27
+units,dummy_unit_anomaly,,,,game/scripts/npc/units/dummy_unit.txt,40
+units,dummy_unit_side_effect,,,,game/scripts/npc/units/dummy_unit.txt,52
+units,dummy_unit_phase_hero,,,,game/scripts/npc/units/dummy_unit.txt,64
+units,dummy_unit_pure_light,,,,game/scripts/npc/units/dummy_unit.txt,77
+units,1_wave_boss_extreme,Босс,game/resource/addon_russian.txt,100,game/scripts/npc/units/extreme_mode_bosses.txt,3
+units,2_wave_boss_extreme,Босс,game/resource/addon_russian.txt,102,game/scripts/npc/units/extreme_mode_bosses.txt,68
+units,3_wave_boss_extreme,Босс,game/resource/addon_russian.txt,104,game/scripts/npc/units/extreme_mode_bosses.txt,132
+units,4_wave_boss_extreme,Босс,game/resource/addon_russian.txt,106,game/scripts/npc/units/extreme_mode_bosses.txt,195
+units,6_wave_boss_extreme,Босс,game/resource/addon_russian.txt,108,game/scripts/npc/units/extreme_mode_bosses.txt,259
+units,7_wave_boss_extreme,Босс,game/resource/addon_russian.txt,110,game/scripts/npc/units/extreme_mode_bosses.txt,319
+units,8_wave_boss_extreme,Босс,game/resource/addon_russian.txt,112,game/scripts/npc/units/extreme_mode_bosses.txt,384
+units,9_wave_boss_extreme,Босс,game/resource/addon_russian.txt,114,game/scripts/npc/units/extreme_mode_bosses.txt,448
+units,11_wave_boss_extreme,Босс,game/resource/addon_russian.txt,116,game/scripts/npc/units/extreme_mode_bosses.txt,529
+units,12_wave_boss_extreme,Босс,game/resource/addon_russian.txt,118,game/scripts/npc/units/extreme_mode_bosses.txt,593
+units,13_wave_boss_extreme,Босс,game/resource/addon_russian.txt,120,game/scripts/npc/units/extreme_mode_bosses.txt,657
+units,14_wave_boss_extreme,Босс,game/resource/addon_russian.txt,122,game/scripts/npc/units/extreme_mode_bosses.txt,721
+units,16_wave_boss_extreme,Босс,game/resource/addon_russian.txt,124,game/scripts/npc/units/extreme_mode_bosses.txt,794
+units,17_wave_boss_extreme,Босс,game/resource/addon_russian.txt,126,game/scripts/npc/units/extreme_mode_bosses.txt,859
+units,18_wave_boss_extreme,Босс,game/resource/addon_russian.txt,128,game/scripts/npc/units/extreme_mode_bosses.txt,924
+units,19_wave_boss_extreme,Босс,game/resource/addon_russian.txt,130,game/scripts/npc/units/extreme_mode_bosses.txt,1000
+units,1_wave_creep_extreme,Кобольд,game/resource/addon_russian.txt,99,game/scripts/npc/units/extreme_mode_creeps.txt,3
+units,2_wave_creep_extreme,Кентавр-Воин,game/resource/addon_russian.txt,101,game/scripts/npc/units/extreme_mode_creeps.txt,68
+units,3_wave_creep_extreme,Драконид,game/resource/addon_russian.txt,103,game/scripts/npc/units/extreme_mode_creeps.txt,133
+units,4_wave_creep_extreme,Темный тролль,game/resource/addon_russian.txt,105,game/scripts/npc/units/extreme_mode_creeps.txt,198
+units,6_wave_creep_extreme,Головорез,game/resource/addon_russian.txt,107,game/scripts/npc/units/extreme_mode_creeps.txt,263
+units,7_wave_creep_extreme,Чумной Энт,game/resource/addon_russian.txt,109,game/scripts/npc/units/extreme_mode_creeps.txt,325
+units,8_wave_creep_extreme,Властитель,game/resource/addon_russian.txt,111,game/scripts/npc/units/extreme_mode_creeps.txt,390
+units,9_wave_creep_extreme,Дух Воды,game/resource/addon_russian.txt,113,game/scripts/npc/units/extreme_mode_creeps.txt,455
+units,11_wave_creep_extreme,Опустошитель,game/resource/addon_russian.txt,115,game/scripts/npc/units/extreme_mode_creeps.txt,521
+units,12_wave_creep_extreme,Адский Медведь,game/resource/addon_russian.txt,117,game/scripts/npc/units/extreme_mode_creeps.txt,586
+units,13_wave_creep_extreme,Каменный Голем,game/resource/addon_russian.txt,119,game/scripts/npc/units/extreme_mode_creeps.txt,649
+units,14_wave_creep_extreme,Громовая Ящерица,game/resource/addon_russian.txt,121,game/scripts/npc/units/extreme_mode_creeps.txt,714
+units,16_wave_creep_extreme,Призрак,game/resource/addon_russian.txt,123,game/scripts/npc/units/extreme_mode_creeps.txt,787
+units,17_wave_creep_extreme,Хвататель,game/resource/addon_russian.txt,125,game/scripts/npc/units/extreme_mode_creeps.txt,852
+units,18_wave_creep_extreme,Хранитель Пустоты,game/resource/addon_russian.txt,127,game/scripts/npc/units/extreme_mode_creeps.txt,917
+units,19_wave_creep_extreme,Адский Сатир,game/resource/addon_russian.txt,129,game/scripts/npc/units/extreme_mode_creeps.txt,991
+units,firelord_lava_spawn1,Дух Огня,game/resource/addon_russian.txt,218,game/scripts/npc/units/firelord_units.txt,3
+units,firelord_lava_spawn2,Дух Огня,game/resource/addon_russian.txt,219,game/scripts/npc/units/firelord_units.txt,69
+units,firelord_lava_spawn3,Дух Огня,game/resource/addon_russian.txt,220,game/scripts/npc/units/firelord_units.txt,135
+units,npc_serpent_ward_1,Огненная Змея,game/resource/addon_russian.txt,222,game/scripts/npc/units/firelord_units.txt,201
+units,npc_serpent_ward_2,Огненная Змея,game/resource/addon_russian.txt,223,game/scripts/npc/units/firelord_units.txt,281
+units,npc_serpent_ward_3,Огненная Змея,game/resource/addon_russian.txt,224,game/scripts/npc/units/firelord_units.txt,361
+units,npc_serpent_ward_4,Огненная Змея,game/resource/addon_russian.txt,225,game/scripts/npc/units/firelord_units.txt,441
+units,fire_trap_unit,Огненная Ловушка,game/resource/addon_russian.txt,227,game/scripts/npc/units/firelord_units.txt,521
+units,npc_water_elemental_1,Дух Воды,game/resource/addon_russian.txt,198,game/scripts/npc/units/hermit_water_elementals.txt,3
+units,npc_water_elemental_2,Дух Воды,game/resource/addon_russian.txt,199,game/scripts/npc/units/hermit_water_elementals.txt,92
+units,npc_water_elemental_3,Дух Воды,game/resource/addon_russian.txt,200,game/scripts/npc/units/hermit_water_elementals.txt,180
+units,npc_water_elemental_4,Дух Воды,game/resource/addon_russian.txt,201,game/scripts/npc/units/hermit_water_elementals.txt,268
+units,item_lia_healing_ward_unit,Дух-Целитель,game/resource/addon_russian.txt,203,game/scripts/npc/units/item_lia_healing_ward_unit.txt,3
+units,keeper_of_the_grove_treant_1,Энт,game/resource/addon_russian.txt,188,game/scripts/npc/units/keeper_of_the_grove_units.txt,3
+units,keeper_of_the_grove_treant_2,Энт,game/resource/addon_russian.txt,189,game/scripts/npc/units/keeper_of_the_grove_units.txt,65
+units,keeper_of_the_grove_treant_3,Энт,game/resource/addon_russian.txt,190,game/scripts/npc/units/keeper_of_the_grove_units.txt,127
+units,keeper_of_the_grove_young_treant,Молодой Энт,game/resource/addon_russian.txt,191,game/scripts/npc/units/keeper_of_the_grove_units.txt,190
+units,keeper_of_the_grove_guardian_spirit,Дух-Защитник,game/resource/addon_russian.txt,192,game/scripts/npc/units/keeper_of_the_grove_units.txt,252
+units,necromancer_skeleton1,Мертвец,game/resource/addon_russian.txt,229,game/scripts/npc/units/necromancer_creeps.txt,3
+units,necromancer_skeleton2,Мертвец,game/resource/addon_russian.txt,230,game/scripts/npc/units/necromancer_creeps.txt,59
+units,necromancer_skeleton3,Мертвец,game/resource/addon_russian.txt,231,game/scripts/npc/units/necromancer_creeps.txt,115
+units,necromancer_skeleton4,Мертвец,game/resource/addon_russian.txt,232,game/scripts/npc/units/necromancer_creeps.txt,170
+units,1_wave_boss,Босс,game/resource/addon_russian.txt,65,game/scripts/npc/units/normal_mode_bosses.txt,3
+units,2_wave_boss,Босс,game/resource/addon_russian.txt,67,game/scripts/npc/units/normal_mode_bosses.txt,68
+units,3_wave_boss,Босс,game/resource/addon_russian.txt,69,game/scripts/npc/units/normal_mode_bosses.txt,132
+units,4_wave_boss,Босс,game/resource/addon_russian.txt,71,game/scripts/npc/units/normal_mode_bosses.txt,195
+units,6_wave_boss,Босс,game/resource/addon_russian.txt,74,game/scripts/npc/units/normal_mode_bosses.txt,259
+units,7_wave_boss,Босс,game/resource/addon_russian.txt,76,game/scripts/npc/units/normal_mode_bosses.txt,319
+units,8_wave_boss,Босс,game/resource/addon_russian.txt,78,game/scripts/npc/units/normal_mode_bosses.txt,384
+units,9_wave_boss,Босс,game/resource/addon_russian.txt,80,game/scripts/npc/units/normal_mode_bosses.txt,448
+units,11_wave_boss,Босс,game/resource/addon_russian.txt,83,game/scripts/npc/units/normal_mode_bosses.txt,529
+units,12_wave_boss,Босс,game/resource/addon_russian.txt,85,game/scripts/npc/units/normal_mode_bosses.txt,593
+units,13_wave_boss,Босс,game/resource/addon_russian.txt,87,game/scripts/npc/units/normal_mode_bosses.txt,657
+units,14_wave_boss,Босс,game/resource/addon_russian.txt,89,game/scripts/npc/units/normal_mode_bosses.txt,722
+units,16_wave_boss,Босс,game/resource/addon_russian.txt,92,game/scripts/npc/units/normal_mode_bosses.txt,795
+units,17_wave_boss,Босс,game/resource/addon_russian.txt,94,game/scripts/npc/units/normal_mode_bosses.txt,861
+units,18_wave_boss,Босс,game/resource/addon_russian.txt,96,game/scripts/npc/units/normal_mode_bosses.txt,926
+units,19_wave_boss,Босс,game/resource/addon_russian.txt,98,game/scripts/npc/units/normal_mode_bosses.txt,1002
+units,1_wave_creep,Кобольд,game/resource/addon_russian.txt,64,game/scripts/npc/units/normal_mode_creeps.txt,3
+units,2_wave_creep,Кентавр-Воин,game/resource/addon_russian.txt,66,game/scripts/npc/units/normal_mode_creeps.txt,69
+units,3_wave_creep,Драконид,game/resource/addon_russian.txt,68,game/scripts/npc/units/normal_mode_creeps.txt,134
+units,4_wave_creep,Темный тролль,game/resource/addon_russian.txt,70,game/scripts/npc/units/normal_mode_creeps.txt,199
+units,6_wave_creep,Головорез,game/resource/addon_russian.txt,73,game/scripts/npc/units/normal_mode_creeps.txt,264
+units,7_wave_creep,Чумной Энт,game/resource/addon_russian.txt,75,game/scripts/npc/units/normal_mode_creeps.txt,324
+units,8_wave_creep,Властитель,game/resource/addon_russian.txt,77,game/scripts/npc/units/normal_mode_creeps.txt,389
+units,9_wave_creep,Дух Воды,game/resource/addon_russian.txt,79,game/scripts/npc/units/normal_mode_creeps.txt,454
+units,11_wave_creep,Опустошитель,game/resource/addon_russian.txt,82,game/scripts/npc/units/normal_mode_creeps.txt,520
+units,12_wave_creep,Адский Медведь,game/resource/addon_russian.txt,84,game/scripts/npc/units/normal_mode_creeps.txt,585
+units,13_wave_creep,Каменный Голем,game/resource/addon_russian.txt,86,game/scripts/npc/units/normal_mode_creeps.txt,650
+units,14_wave_creep,Громовая Ящерица,game/resource/addon_russian.txt,88,game/scripts/npc/units/normal_mode_creeps.txt,716
+units,16_wave_creep,Призрак,game/resource/addon_russian.txt,91,game/scripts/npc/units/normal_mode_creeps.txt,789
+units,17_wave_creep,Хвататель,game/resource/addon_russian.txt,93,game/scripts/npc/units/normal_mode_creeps.txt,855
+units,18_wave_creep,Хранитель Пустоты,game/resource/addon_russian.txt,95,game/scripts/npc/units/normal_mode_creeps.txt,921
+units,19_wave_creep,Адский Сатир,game/resource/addon_russian.txt,97,game/scripts/npc/units/normal_mode_creeps.txt,996
+units,npc_dummy_blank,,,,game/scripts/npc/units/npc_dummy_blank.txt,4
+units,orn_megaboss,Орн,game/resource/addon_russian.txt,313,game/scripts/npc/units/orn_megaboss.txt,3
+units,orn_mutant_boss,,,,game/scripts/npc/units/orn_mutant_boss.txt,3
+units,book_of_the_dead_skeleton_melee,Скелет-Воин,game/resource/addon_russian.txt,172,game/scripts/npc/units/purchasable_units.txt,3
+units,book_of_the_dead_skeleton_melee_ranged,Скелет-Лучник,game/resource/addon_russian.txt,173,game/scripts/npc/units/purchasable_units.txt,62
+units,npc_lia_troll_defender,Тролль-Защитник,game/resource/addon_russian.txt,175,game/scripts/npc/units/purchasable_units.txt,145
+units,npc_lia_troll_healer,Тролль-Лекарь,game/resource/addon_russian.txt,176,game/scripts/npc/units/purchasable_units.txt,213
+units,npc_doom_guard_spawn,Привратник Ада,game/resource/addon_russian.txt,174,game/scripts/npc/units/purchasable_units.txt,267
+units,hell_beast,Адская Тварь,game/resource/addon_russian.txt,177,game/scripts/npc/units/purchasable_units.txt,356
+units,spherical_staff_fire_golem,Огненный Голем,game/resource/addon_russian.txt,178,game/scripts/npc/units/purchasable_units.txt,439
+units,npc_lia_boar,Кабан,game/resource/addon_russian.txt,179,game/scripts/npc/units/purchasable_units.txt,503
+units,pure_light_totem,,,,game/scripts/npc/units/pure_light_totem.txt,3
+units,shadow_master_shadow,Тень,game/resource/addon_russian.txt,234,game/scripts/npc/units/shadow_master_shadow.txt,3
+units,npc_dota_broodmother_spiderling_custom_1,Слабый Паук,game/resource/addon_russian.txt,205,game/scripts/npc/units/spider_queen_spiders.txt,3
+units,npc_dota_broodmother_spiderling_custom_2,Сильный Паук,game/resource/addon_russian.txt,206,game/scripts/npc/units/spider_queen_spiders.txt,56
+units,npc_dota_broodmother_spiderling_custom_3,Паук-Воин,game/resource/addon_russian.txt,207,game/scripts/npc/units/spider_queen_spiders.txt,109
+units,spirit_of_the_plains1,Дух Равнин,game/resource/addon_russian.txt,209,game/scripts/npc/units/wanderer_creeps.txt,3
+units,spirit_of_the_plains2,Дух Равнин,game/resource/addon_russian.txt,210,game/scripts/npc/units/wanderer_creeps.txt,71
+units,spirit_of_the_plains3,Дух Равнин,game/resource/addon_russian.txt,211,game/scripts/npc/units/wanderer_creeps.txt,146
+units,ghost_1,Призрак,game/resource/addon_russian.txt,213,game/scripts/npc/units/wanderer_creeps.txt,221
+units,ghost_2,Призрак,game/resource/addon_russian.txt,214,game/scripts/npc/units/wanderer_creeps.txt,301
+units,ghost_3,Призрак,game/resource/addon_russian.txt,215,game/scripts/npc/units/wanderer_creeps.txt,379
+units,ghost_4,Призрак,game/resource/addon_russian.txt,216,game/scripts/npc/units/wanderer_creeps.txt,460

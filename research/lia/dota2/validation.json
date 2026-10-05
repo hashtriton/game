@@ -1,0 +1,268 @@
+{
+  "commit": "012fab34e8c84ad0aa73cd4eadde1736e3c9df29",
+  "extraction_checks_passed": true,
+  "reproducibility_verified": true,
+  "reproducibility_status": "passed",
+  "runtime_verified": false,
+  "checks": [
+    {
+      "name": "KV duplicate keys preserved",
+      "passed": true,
+      "evidence": "Independent fixture"
+    },
+    {
+      "name": "KV typed vector",
+      "passed": true,
+      "evidence": "Numeric vector fixture"
+    },
+    {
+      "name": "KV backslash path and URL preserved",
+      "passed": true,
+      "evidence": "String/comment fixture"
+    },
+    {
+      "name": "KV source line",
+      "passed": true,
+      "evidence": "Comment/newline fixture"
+    },
+    {
+      "name": "KV malformed block rejected",
+      "passed": true,
+      "evidence": "Missing value fixture"
+    },
+    {
+      "name": "ZIP hash matches manifest",
+      "passed": true,
+      "evidence": "6a6793b5cddd69b8a453aa6c11b92d8291b9a2698b97716508df961523764afb"
+    },
+    {
+      "name": "All ZIP files extracted exactly",
+      "passed": true,
+      "evidence": {
+        "files": 2447,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "All script KV documents accounted for",
+      "passed": true,
+      "evidence": {
+        "candidates": 279,
+        "kv1": 278,
+        "kv3": 1
+      }
+    },
+    {
+      "name": "All base/include targets exist",
+      "passed": true,
+      "evidence": {
+        "edges": 269,
+        "unresolved": []
+      }
+    },
+    {
+      "name": "heroes entity accounting",
+      "passed": true,
+      "evidence": {
+        "definitions": 56
+      }
+    },
+    {
+      "name": "heroes ID source lines",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "items entity accounting",
+      "passed": true,
+      "evidence": {
+        "definitions": 185
+      }
+    },
+    {
+      "name": "items ID source lines",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "units entity accounting",
+      "passed": true,
+      "evidence": {
+        "definitions": 153
+      }
+    },
+    {
+      "name": "units ID source lines",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "abilities entity accounting",
+      "passed": true,
+      "evidence": {
+        "definitions": 581
+      }
+    },
+    {
+      "name": "abilities ID source lines",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "Hero stats/ability regression sample",
+      "passed": true,
+      "evidence": {
+        "source": "game/scripts/npc/heroes/npc_lia_hero_alchemist.txt",
+        "line": 3
+      }
+    },
+    {
+      "name": "Ability level/scepter regression sample",
+      "passed": true,
+      "evidence": {
+        "source": "game/scripts/npc/abilities/npc_lia_hero_alchemist.txt",
+        "line": 3
+      }
+    },
+    {
+      "name": "Commented battle axe damage excluded",
+      "passed": true,
+      "evidence": {
+        "source": "game/scripts/npc/items/item_lia_battle_axe.txt",
+        "line": 58
+      }
+    },
+    {
+      "name": "Repeated recipe components retained",
+      "passed": true,
+      "evidence": [
+        "item_lia_staff",
+        "item_lia_staff",
+        "item_lia_mask"
+      ]
+    },
+    {
+      "name": "Unit bounty/stats sample",
+      "passed": true,
+      "evidence": {
+        "source": "game/scripts/npc/units/normal_mode_creeps.txt",
+        "line": 3
+      }
+    },
+    {
+      "name": "All Lua parsed or explicitly classified",
+      "passed": true,
+      "evidence": {
+        "files": 683,
+        "parsed": 680,
+        "excluded_invalid_source_files": [
+          "game/scripts/vscripts/abilities/7_wave_damage_block.lua",
+          "game/scripts/vscripts/abilities/9_wave_incorporiety.lua",
+          "game/scripts/vscripts/heroes/Hermit/modifier_hermit_decrepify.lua"
+        ]
+      }
+    },
+    {
+      "name": "Invalid Lua has no discovered load path",
+      "passed": true,
+      "evidence": "Literal bootstrap/KV/require/LinkLuaModifier graph only; VMAP dynamic loading not proved"
+    },
+    {
+      "name": "Battle axe no ApplyDamage call in parsed file",
+      "passed": true,
+      "evidence": {
+        "source": "game/scripts/vscripts/items/BattleAxe.lua",
+        "call_count": 17
+      }
+    },
+    {
+      "name": "Reproducibility",
+      "passed": true,
+      "evidence": {
+        "files_compared": 50,
+        "regenerated_files": 50,
+        "missing": [],
+        "extra": [],
+        "changed": [],
+        "all_subprocesses_succeeded": true,
+        "subprocess_failures": [],
+        "reference_artifacts_unchanged": true,
+        "output_mode": "clean_temporary_directory"
+      }
+    }
+  ],
+  "known_source_limitations": {
+    "lua_syntax_errors": [
+      {
+        "source": "game/scripts/vscripts/abilities/7_wave_damage_block.lua",
+        "error": "syntax errors: None"
+      },
+      {
+        "source": "game/scripts/vscripts/abilities/9_wave_incorporiety.lua",
+        "error": "syntax errors: None"
+      },
+      {
+        "source": "game/scripts/vscripts/heroes/Hermit/modifier_hermit_decrepify.lua",
+        "error": "syntax errors: line 23:18: no viable alternative at input ':'"
+      }
+    ],
+    "missing_lua_files": [
+      {
+        "source": "game/scripts/vscripts/heroes/Archmage/ShootingStar.lua",
+        "line": 1,
+        "end_line": 1,
+        "function": "<file>",
+        "kind": "LinkLuaModifier",
+        "target_raw": "heroes/Archmage/modifier_archmage_shooting_star_cooldown.lua",
+        "target": null,
+        "exists_exact_case": false
+      },
+      {
+        "source": "game/scripts/vscripts/heroes/EarthLord/earth_lord_split_earth.lua",
+        "line": 2,
+        "end_line": 2,
+        "function": "<file>",
+        "kind": "LinkLuaModifier",
+        "target_raw": "heroes/EarthLord/modifier_earth_lord_split_earth_thinker.lua",
+        "target": null,
+        "exists_exact_case": false
+      },
+      {
+        "source": "game/scripts/vscripts/heroes/SpiderQueen/spider_queen_infection.lua",
+        "line": 3,
+        "end_line": 3,
+        "function": "<file>",
+        "kind": "LinkLuaModifier",
+        "target_raw": "heroes/SpiderQueen/modifier_spider_queen_infection_debuff.lua",
+        "target": null,
+        "exists_exact_case": false
+      },
+      {
+        "source": "game/scripts/vscripts/LiA_GameMode.lua",
+        "line": 46,
+        "end_line": 46,
+        "function": "<file>",
+        "kind": "LinkLuaModifier",
+        "target_raw": "heroes/Demonologist/modifier_demonologist_riual_of_summoning_status_effect.lua",
+        "target": null,
+        "exists_exact_case": false
+      }
+    ],
+    "missing_kv_scripts": [
+      {
+        "category": "abilities",
+        "entity": "stats_bonus_fix",
+        "source": "game/scripts/npc/abilities/stats_bonus_fix.txt",
+        "line": 6,
+        "key_path": "ScriptFile[1]",
+        "target_raw": "heroes\\stats_bonus_fix.lua",
+        "target": null,
+        "exists_exact_case": false,
+        "included": true
+      }
+    ],
+    "engine_defaults_unresolved": true,
+    "workshop_equivalence_unverified": true
+  },
+  "meaning": "extraction_checks_passed covers the checks actually run; reproducibility is confirmed only when reproducibility_verified is true. Neither proves source correctness, completeness of runtime mechanics, license clearance, or live game balance."
+}

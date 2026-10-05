@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-05",
+  "commit": "012fab34e8c84ad0aa73cd4eadde1736e3c9df29",
+  "runtime_executed": false,
+  "passed": true,
+  "checks": [
+    "source anchors matched",
+    "8 participant entries",
+    "19 round bounty entries",
+    "456 economy rows",
+    "24 boss rows",
+    "50 progression rows",
+    "independent arithmetic examples asserted"
+  ],
+  "source_files": {
+    "vscripts/survival/survival.lua": {
+      "sha256": "4e974ee548f3c4458a61a8809a6a8f776ea8e354d773ec6fc4dea4a6c96b7774",
+      "lines": 784
+    },
+    "vscripts/LiA_GameMode.lua": {
+      "sha256": "e4e81936551ec60d796f2a4fc24b07459f4cada8e2d34c76341c8069aa320ec6",
+      "lines": 394
+    },
+    "vscripts/heroes/modifier_attribute_bonus_custom.lua": {
+      "sha256": "a094b1f54c0b529a84c7317cf749d11989765d44b85200b58ddd8735aeaf1a4d",
+      "lines": 60
+    },
+    "vscripts/units/Megaboss5Stats.lua": {
+      "sha256": "a6060f86dbc085ffae3a9aa1aad11e5ab18a20ef74773b3237128e751a882f96",
+      "lines": 22
+    },
+    "vscripts/units/Megaboss10Stats.lua": {
+      "sha256": "d0bf8527c147a669b681b08b3af767c3aa16b4a03a815a10d6fed6640e0ec957",
+      "lines": 21
+    },
+    "vscripts/units/MegabossOrnStats.lua": {
+      "sha256": "fabf500049a2b142a0939de59d6f0dd78983d2be58319d8bf761853d45400d45",
+      "lines": 22
+    }
+  },
+  "limits": [
+    "Engine rounding is not modeled",
+    "Gold excludes kill bounty, runes, duels and unenabled equalgold branch",
+    "Grid assumes unchanged participant count; spawn and reward sample it at different times",
+    "Boss output describes Spawn setters, not all later modifiers or effective health",
+    "Wave 20 victory has no ordinary end-round bounty entry",
+    "No game code was executed and no win rate is inferred"
+  ]
+}

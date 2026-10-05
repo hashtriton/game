@@ -1,0 +1,20 @@
+[
+  {
+    "path": "game/scripts/custom_net_tables.txt",
+    "format": "kv3",
+    "tables": [
+      {
+        "name": "custom_modifier_state",
+        "line": 5
+      },
+      {
+        "name": "lia_player_table",
+        "line": 6
+      },
+      {
+        "name": "upgrades",
+        "line": 7
+      }
+    ]
+  }
+]

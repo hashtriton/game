@@ -1,0 +1,87 @@
+[
+  {
+    "object_id": "TALT",
+    "field": "DependencyOr",
+    "earlier": {
+      "source": "war3mapMisc.txt",
+      "field": "DependencyOr",
+      "value": "n02L,n000,n07F,n00S,n007,n07H,n04Q,n04R,n07G",
+      "line": 33
+    },
+    "later": {
+      "source": "Units\\ItemFunc.txt",
+      "field": "DependencyOr",
+      "value": "halt,oalt,eate,uaod",
+      "line": 11
+    },
+    "status": "unresolved-engine-precedence; catalog shows last visited profile"
+  },
+  {
+    "object_id": "Ambt",
+    "field": "Order",
+    "earlier": {
+      "source": "Units\\NightElfAbilityStrings.txt",
+      "field": "Order",
+      "value": "replenish",
+      "line": 149
+    },
+    "later": {
+      "source": "Units\\NightElfAbilityFunc.txt",
+      "field": "Order",
+      "value": "recharge",
+      "line": 184
+    },
+    "status": "unresolved-engine-precedence; catalog shows last visited profile"
+  },
+  {
+    "object_id": "A11H",
+    "field": "Tip",
+    "earlier": {
+      "source": "Units\\NeutralAbilityStrings.txt",
+      "field": "Tip",
+      "value": "\"Перерождение\"",
+      "line": 2866
+    },
+    "later": {
+      "source": "Units\\NeutralAbilityFunc.txt",
+      "field": "Tip",
+      "value": "Reincarnation",
+      "line": 3034
+    },
+    "status": "unresolved-engine-precedence; catalog shows last visited profile"
+  },
+  {
+    "object_id": "Bdet",
+    "field": "Bufftip",
+    "earlier": {
+      "source": "Units\\ItemAbilityStrings.txt",
+      "field": "Bufftip",
+      "value": "Dust of Appearance",
+      "line": 195
+    },
+    "later": {
+      "source": "Units\\CommonAbilityStrings.txt",
+      "field": "Bufftip",
+      "value": "Detected",
+      "line": 42
+    },
+    "status": "unresolved-engine-precedence; catalog shows last visited profile"
+  },
+  {
+    "object_id": "Bdet",
+    "field": "Buffubertip",
+    "earlier": {
+      "source": "Units\\ItemAbilityStrings.txt",
+      "field": "Buffubertip",
+      "value": "\"The Dust of Appearance reveals invisible units to enemy players.\"",
+      "line": 196
+    },
+    "later": {
+      "source": "Units\\CommonAbilityStrings.txt",
+      "field": "Buffubertip",
+      "value": "\"This unit is detected; an enemy player can see it.\"",
+      "line": 43
+    },
+    "status": "unresolved-engine-precedence; catalog shows last visited profile"
+  }
+]

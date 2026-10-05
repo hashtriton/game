@@ -1,0 +1,276 @@
+{
+  "names_total_definitions": 975,
+  "names_resolved": 732,
+  "parameters": 2912,
+  "parameter_level_rows": 4611,
+  "kv_entity_references": 685,
+  "kv_special_references": 738,
+  "recipes_with_cost_difference": [
+    {
+      "recipe": "item_recipe_lia_bounty_hunters_crossbow",
+      "result": "item_lia_bounty_hunters_crossbow",
+      "alternative": "01",
+      "components": [
+        "item_lia_battle_javelin",
+        "item_lia_demon_edge"
+      ],
+      "component_declared_costs": [
+        800,
+        550
+      ],
+      "recipe_cost": 650,
+      "sum_declared_component_plus_recipe_costs": 2000,
+      "result_declared_cost": 1900,
+      "difference": 100,
+      "source": "game/scripts/npc/items/item_lia_bounty_hunters_crossbow.txt",
+      "line": 18,
+      "included": true,
+      "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+    },
+    {
+      "recipe": "item_recipe_lia_demon_edge",
+      "result": "item_lia_demon_edge",
+      "alternative": "01",
+      "components": [
+        "item_lia_steel_sword",
+        "item_lia_claws",
+        "item_lia_spear"
+      ],
+      "component_declared_costs": [
+        45,
+        65,
+        110
+      ],
+      "recipe_cost": 230,
+      "sum_declared_component_plus_recipe_costs": 450,
+      "result_declared_cost": 550,
+      "difference": -100,
+      "source": "game/scripts/npc/items/item_lia_demon_edge.txt",
+      "line": 19,
+      "included": true,
+      "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+    },
+    {
+      "recipe": "item_recipe_lia_huge_axe",
+      "result": "item_lia_huge_axe",
+      "alternative": "01",
+      "components": [
+        "item_lia_axe",
+        "item_lia_claws",
+        "item_lia_orb_of_fire"
+      ],
+      "component_declared_costs": [
+        85,
+        65,
+        110
+      ],
+      "recipe_cost": 265,
+      "sum_declared_component_plus_recipe_costs": 525,
+      "result_declared_cost": 515,
+      "difference": 10,
+      "source": "game/scripts/npc/items/item_lia_huge_axe.txt",
+      "line": 19,
+      "included": true,
+      "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+    },
+    {
+      "recipe": "item_recipe_lia_lightning_spear",
+      "result": "item_lia_lightning_spear",
+      "alternative": "01",
+      "components": [
+        "item_lia_fire_sword",
+        "item_lia_ancient_glove",
+        "item_lia_spear"
+      ],
+      "component_declared_costs": [
+        395,
+        150,
+        110
+      ],
+      "recipe_cost": 230,
+      "sum_declared_component_plus_recipe_costs": 885,
+      "result_declared_cost": 880,
+      "difference": 5,
+      "source": "game/scripts/npc/items/item_lia_lightning_spear.txt",
+      "line": 19,
+      "included": true,
+      "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+    },
+    {
+      "recipe": "item_recipe_lia_lunar_necklace",
+      "result": "item_lia_lunar_necklace",
+      "alternative": "01",
+      "components": [
+        "item_lia_magic_necklace",
+        "item_lia_amulet",
+        "item_lia_mana_stone"
+      ],
+      "component_declared_costs": [
+        1050,
+        120,
+        120
+      ],
+      "recipe_cost": 500,
+      "sum_declared_component_plus_recipe_costs": 1790,
+      "result_declared_cost": 1690,
+      "difference": 100,
+      "source": "game/scripts/npc/items/item_lia_lunar_necklace.txt",
+      "line": 19,
+      "included": true,
+      "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+    },
+    {
+      "recipe": "item_recipe_lia_mithril_armor",
+      "result": "item_lia_mithril_armor",
+      "alternative": "01",
+      "components": [
+        "item_lia_dwarf_armor",
+        "item_lia_ring_of_protection",
+        "item_lia_ring_of_protection"
+      ],
+      "component_declared_costs": [
+        515,
+        80,
+        80
+      ],
+      "recipe_cost": 330,
+      "sum_declared_component_plus_recipe_costs": 1005,
+      "result_declared_cost": 1045,
+      "difference": -40,
+      "source": "game/scripts/npc/items/item_lia_mithril_armor.txt",
+      "line": 19,
+      "included": true,
+      "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+    },
+    {
+      "recipe": "item_recipe_lia_staff_of_power",
+      "result": "item_lia_staff_of_power",
+      "alternative": "01",
+      "components": [
+        "item_lia_mask",
+        "item_lia_amulet_of_spell_shield"
+      ],
+      "component_declared_costs": [
+        70,
+        300
+      ],
+      "recipe_cost": 200,
+      "sum_declared_component_plus_recipe_costs": 570,
+      "result_declared_cost": 790,
+      "difference": -220,
+      "source": "game/scripts/npc/items/item_lia_scepter_of_power.txt",
+      "line": 19,
+      "included": true,
+      "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+    },
+    {
+      "recipe": "item_recipe_lia_spellbreaker",
+      "result": "item_lia_spellbreaker",
+      "alternative": "01",
+      "components": [
+        "item_lia_enchanted_shield_2",
+        "item_lia_staff_of_power"
+      ],
+      "component_declared_costs": [
+        1185,
+        790
+      ],
+      "recipe_cost": 500,
+      "sum_declared_component_plus_recipe_costs": 2475,
+      "result_declared_cost": 1185,
+      "difference": 1290,
+      "source": "game/scripts/npc/items/item_lia_spellbreaker.txt",
+      "line": 19,
+      "included": true,
+      "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+    },
+    {
+      "recipe": "item_recipe_lia_totem_of_persistence",
+      "result": "item_lia_totem_of_persistence",
+      "alternative": "01",
+      "components": [
+        "item_lia_dwarf_armor",
+        "item_lia_staff_of_power",
+        "item_lia_runed_bracers"
+      ],
+      "component_declared_costs": [
+        515,
+        790,
+        220
+      ],
+      "recipe_cost": 330,
+      "sum_declared_component_plus_recipe_costs": 1855,
+      "result_declared_cost": 1635,
+      "difference": 220,
+      "source": "game/scripts/npc/items/item_lia_totem_of_persistence.txt",
+      "line": 19,
+      "included": true,
+      "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+    }
+  ],
+  "unresolved_kv_special_references": [
+    {
+      "category": "abilities",
+      "entity": "16_wave_slow_extreme",
+      "special": "cripple_movespeed_slow_pct",
+      "key_path": "Modifiers[1]/modifier_16_wave_slow[1]/Properties[1]/MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE[1]",
+      "source": "game/scripts/npc/abilities/extreme_mode_creep_actives.txt",
+      "line": 1056,
+      "declared_in_entity": false
+    },
+    {
+      "category": "abilities",
+      "entity": "16_wave_slow_extreme",
+      "special": "cripple_attack_slow",
+      "key_path": "Modifiers[1]/modifier_16_wave_slow[1]/Properties[1]/MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT[1]",
+      "source": "game/scripts/npc/abilities/extreme_mode_creep_actives.txt",
+      "line": 1057,
+      "declared_in_entity": false
+    },
+    {
+      "category": "abilities",
+      "entity": "earth_lord_stone_skin",
+      "special": "attack_damage",
+      "key_path": "Modifiers[1]/modifier_earth_lord_stone_skin[1]/OnAttacked[1]/RunScript[1]/attack_damage[1]",
+      "source": "game/scripts/npc/abilities/npc_lia_hero_earth_lord.txt",
+      "line": 190,
+      "declared_in_entity": false
+    },
+    {
+      "category": "abilities",
+      "entity": "fallen_champion_shell",
+      "special": "attack_damage",
+      "key_path": "Modifiers[1]/modifier_fallen_champion_shell[1]/OnTakeDamage[1]/RunScript[1]/Dmg[1]",
+      "source": "game/scripts/npc/abilities/npc_lia_hero_fallen_champion.txt",
+      "line": 97,
+      "declared_in_entity": false
+    },
+    {
+      "category": "abilities",
+      "entity": "pirate_metamorphosis",
+      "special": "attack_damage",
+      "key_path": "Modifiers[1]/modifier_metamorphosis[1]/OnAttackLanded[1]/RunScript[1]/attack_damage[1]",
+      "source": "game/scripts/npc/abilities/npc_lia_hero_pirate.txt",
+      "line": 295,
+      "declared_in_entity": false
+    },
+    {
+      "category": "abilities",
+      "entity": "valkyrie_true_hit",
+      "special": "bonus_damage",
+      "key_path": "Modifiers[1]/modifier_true_hit[1]/OnAttackStart[1]/RunScript[1]/Damage[1]",
+      "source": "game/scripts/npc/abilities/npc_lia_hero_valkyrie.txt",
+      "line": 205,
+      "declared_in_entity": false
+    },
+    {
+      "category": "items",
+      "entity": "item_lia_magic_staff",
+      "special": "bonus_mana_regen_percentage",
+      "key_path": "Modifiers[1]/modifier_item_lia_magic_staff[1]/Properties[1]/MODIFIER_PROPERTY_MANA_REGEN_CONSTANT[1]",
+      "source": "game/scripts/npc/items/item_lia_magic_staff.txt",
+      "line": 47,
+      "declared_in_entity": false
+    }
+  ]
+}

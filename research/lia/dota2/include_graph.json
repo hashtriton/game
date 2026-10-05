@@ -1,0 +1,2423 @@
+[
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 1,
+    "directive": "#base",
+    "target_raw": "abilities/attribute_bonus.txt",
+    "target": "game/scripts/npc/abilities/attribute_bonus.txt",
+    "resolved": "game/scripts/npc/abilities/attribute_bonus.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 2,
+    "directive": "#base",
+    "target_raw": "abilities/barrel_no_health_bar.txt",
+    "target": "game/scripts/npc/abilities/barrel_no_health_bar.txt",
+    "resolved": "game/scripts/npc/abilities/barrel_no_health_bar.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 3,
+    "directive": "#base",
+    "target_raw": "abilities/common_abilities.txt",
+    "target": "game/scripts/npc/abilities/common_abilities.txt",
+    "resolved": "game/scripts/npc/abilities/common_abilities.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 4,
+    "directive": "#base",
+    "target_raw": "abilities/dota_items_disable.txt",
+    "target": "game/scripts/npc/abilities/dota_items_disable.txt",
+    "resolved": "game/scripts/npc/abilities/dota_items_disable.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 5,
+    "directive": "#base",
+    "target_raw": "abilities/dummy_passive.txt",
+    "target": "game/scripts/npc/abilities/dummy_passive.txt",
+    "resolved": "game/scripts/npc/abilities/dummy_passive.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 6,
+    "directive": "#base",
+    "target_raw": "abilities/extreme_mode_creep_actives.txt",
+    "target": "game/scripts/npc/abilities/extreme_mode_creep_actives.txt",
+    "resolved": "game/scripts/npc/abilities/extreme_mode_creep_actives.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 7,
+    "directive": "#base",
+    "target_raw": "abilities/extreme_mode_creep_passives.txt",
+    "target": "game/scripts/npc/abilities/extreme_mode_creep_passives.txt",
+    "resolved": "game/scripts/npc/abilities/extreme_mode_creep_passives.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 8,
+    "directive": "#base",
+    "target_raw": "abilities/healing_ward_ability.txt",
+    "target": "game/scripts/npc/abilities/healing_ward_ability.txt",
+    "resolved": "game/scripts/npc/abilities/healing_ward_ability.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 9,
+    "directive": "#base",
+    "target_raw": "abilities/normal_mode_creep_actives.txt",
+    "target": "game/scripts/npc/abilities/normal_mode_creep_actives.txt",
+    "resolved": "game/scripts/npc/abilities/normal_mode_creep_actives.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 10,
+    "directive": "#base",
+    "target_raw": "abilities/normal_mode_creep_passives.txt",
+    "target": "game/scripts/npc/abilities/normal_mode_creep_passives.txt",
+    "resolved": "game/scripts/npc/abilities/normal_mode_creep_passives.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 11,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_alchemist.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_alchemist.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_alchemist.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 12,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_ancient_priestess.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_ancient_priestess.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_ancient_priestess.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 13,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_android.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_android.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_android.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 14,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_araman.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_araman.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_araman.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 15,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_archmage.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_archmage.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_archmage.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 16,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_beastmaster.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_beastmaster.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_beastmaster.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 17,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_berserker.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_berserker.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_berserker.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 18,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_brewmaster.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_brewmaster.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_brewmaster.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 19,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_butcher.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_butcher.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_butcher.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 20,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_dark_knight.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_dark_knight.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_dark_knight.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 21,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_dark_ranger.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_dark_ranger.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_dark_ranger.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 22,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_demonologist.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_demonologist.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_demonologist.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 23,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_dice.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_dice.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_dice.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 24,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_earth_lord.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_earth_lord.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_earth_lord.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 25,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_fallen_champion.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_fallen_champion.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_fallen_champion.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 26,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_firelord.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_firelord.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_firelord.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 27,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_frost_lord.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_frost_lord.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_frost_lord.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 28,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_furbolg_champion.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_furbolg_champion.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_furbolg_champion.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 29,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_general.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_general.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_general.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 30,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_ghoul.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_ghoul.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_ghoul.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 31,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_golem.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_golem.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_golem.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 32,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_hermit.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_hermit.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_hermit.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 33,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_highlander.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_highlander.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_highlander.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 34,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_huntress.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_huntress.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_huntress.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 35,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_illusionist.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_illusionist.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_illusionist.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 36,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_keeper_of_the_grove.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_keeper_of_the_grove.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_keeper_of_the_grove.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 37,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_knight.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_knight.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_knight.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 38,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_kret.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_kret.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_kret.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 39,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_lord_of_lightning.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_lord_of_lightning.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_lord_of_lightning.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 40,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_marksman.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_marksman.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_marksman.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 41,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_naga_royal_guard.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_naga_royal_guard.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_naga_royal_guard.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 42,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_naga_siren.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_naga_siren.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_naga_siren.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 43,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_necromancer.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_necromancer.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_necromancer.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 44,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_paladin.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_paladin.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_paladin.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 45,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_pirate.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_pirate.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_pirate.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 46,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_ranger.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_ranger.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_ranger.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 47,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_serpent_queen.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_serpent_queen.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_serpent_queen.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 48,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_shadow_master.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_shadow_master.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_shadow_master.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 49,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_shaman.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_shaman.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_shaman.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 50,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_skeleton_mage.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_skeleton_mage.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_skeleton_mage.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 51,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_skeleton_thief.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_skeleton_thief.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_skeleton_thief.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 52,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_speedwarden.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_speedwarden.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_speedwarden.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 53,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_spider_queen.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_spider_queen.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_spider_queen.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 54,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_taur.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_taur.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_taur.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 55,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_tauren_champion.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_tauren_champion.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_tauren_champion.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 56,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_time_lord.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_time_lord.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_time_lord.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 57,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_treant.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_treant.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_treant.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 58,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_troll_cutthroat.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_troll_cutthroat.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_troll_cutthroat.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 59,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_valkyrie.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_valkyrie.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_valkyrie.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 60,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_vampire.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_vampire.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_vampire.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 61,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_vowen_from_blood.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_vowen_from_blood.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_vowen_from_blood.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 62,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_walking_dead.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_walking_dead.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_walking_dead.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 63,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_wanderer.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_wanderer.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_wanderer.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 64,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_warlock.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_warlock.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_warlock.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 65,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_warrior_of_light.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_warrior_of_light.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_warrior_of_light.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 66,
+    "directive": "#base",
+    "target_raw": "abilities/npc_lia_hero_witch_doctor.txt",
+    "target": "game/scripts/npc/abilities/npc_lia_hero_witch_doctor.txt",
+    "resolved": "game/scripts/npc/abilities/npc_lia_hero_witch_doctor.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 67,
+    "directive": "#base",
+    "target_raw": "abilities/purchasable_units_skills.txt",
+    "target": "game/scripts/npc/abilities/purchasable_units_skills.txt",
+    "resolved": "game/scripts/npc/abilities/purchasable_units_skills.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 68,
+    "directive": "#base",
+    "target_raw": "abilities/shadow_abilities.txt",
+    "target": "game/scripts/npc/abilities/shadow_abilities.txt",
+    "resolved": "game/scripts/npc/abilities/shadow_abilities.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 69,
+    "directive": "#base",
+    "target_raw": "abilities/spherical_staff_fire_golem_immolation.txt",
+    "target": "game/scripts/npc/abilities/spherical_staff_fire_golem_immolation.txt",
+    "resolved": "game/scripts/npc/abilities/spherical_staff_fire_golem_immolation.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 70,
+    "directive": "#base",
+    "target_raw": "abilities/stats_bonus_fix.txt",
+    "target": "game/scripts/npc/abilities/stats_bonus_fix.txt",
+    "resolved": "game/scripts/npc/abilities/stats_bonus_fix.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 71,
+    "directive": "#base",
+    "target_raw": "abilities/wanderer_abilities.txt",
+    "target": "game/scripts/npc/abilities/wanderer_abilities.txt",
+    "resolved": "game/scripts/npc/abilities/wanderer_abilities.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_abilities_custom.txt",
+    "line": 72,
+    "directive": "#base",
+    "target_raw": "abilities/water_elemental.txt",
+    "target": "game/scripts/npc/abilities/water_elemental.txt",
+    "resolved": "game/scripts/npc/abilities/water_elemental.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 1,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_alchemist.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_alchemist.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_alchemist.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 2,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_ancient_priestess.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_ancient_priestess.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_ancient_priestess.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 3,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_android.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_android.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_android.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 4,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_araman.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_araman.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_araman.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 5,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_archmage.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_archmage.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_archmage.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 6,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_beastmaster.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_beastmaster.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_beastmaster.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 7,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_berserker.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_berserker.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_berserker.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 8,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_brewmaster.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_brewmaster.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_brewmaster.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 9,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_butcher.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_butcher.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_butcher.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 10,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_dark_knight.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_dark_knight.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_dark_knight.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 11,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_dark_ranger.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_dark_ranger.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_dark_ranger.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 12,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_demonologist.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_demonologist.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_demonologist.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 13,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_dice.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_dice.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_dice.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 14,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_earth_lord.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_earth_lord.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_earth_lord.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 15,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_fallen_champion.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_fallen_champion.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_fallen_champion.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 16,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_firelord.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_firelord.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_firelord.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 17,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_frost_lord.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_frost_lord.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_frost_lord.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 18,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_furbolg_champion.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_furbolg_champion.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_furbolg_champion.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 19,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_general.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_general.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_general.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 20,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_ghoul.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_ghoul.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_ghoul.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 21,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_golem.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_golem.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_golem.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 22,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_hermit.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_hermit.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_hermit.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 23,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_highlander.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_highlander.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_highlander.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 24,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_huntress.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_huntress.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_huntress.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 25,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_illusionist.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_illusionist.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_illusionist.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 26,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_keeper_of_the_grove.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_keeper_of_the_grove.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_keeper_of_the_grove.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 27,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_knight.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_knight.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_knight.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 28,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_kret.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_kret.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_kret.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 29,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_lord_of_lightning.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_lord_of_lightning.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_lord_of_lightning.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 30,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_marksman.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_marksman.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_marksman.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 31,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_minotaur.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_minotaur.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_minotaur.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 32,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_naga_royal_guard.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_naga_royal_guard.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_naga_royal_guard.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 33,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_naga_siren.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_naga_siren.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_naga_siren.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 34,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_necromancer.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_necromancer.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_necromancer.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 35,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_paladin.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_paladin.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_paladin.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 36,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_pirate.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_pirate.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_pirate.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 37,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_ranger.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_ranger.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_ranger.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 38,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_serpent_queen.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_serpent_queen.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_serpent_queen.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 39,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_shadow_master.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_shadow_master.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_shadow_master.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 40,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_shaman.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_shaman.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_shaman.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 41,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_skeleton_mage.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_skeleton_mage.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_skeleton_mage.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 42,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_skeleton_thief.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_skeleton_thief.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_skeleton_thief.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 43,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_speedwarden.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_speedwarden.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_speedwarden.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 44,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_spider_queen.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_spider_queen.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_spider_queen.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 45,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_tauren_champion.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_tauren_champion.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_tauren_champion.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 46,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_time_lord.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_time_lord.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_time_lord.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 47,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_treant.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_treant.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_treant.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 48,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_troll_cutthroat.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_troll_cutthroat.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_troll_cutthroat.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 49,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_valkyrie.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_valkyrie.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_valkyrie.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 50,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_vampire.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_vampire.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_vampire.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 51,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_vowen_from_blood.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_vowen_from_blood.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_vowen_from_blood.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 52,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_walking_dead.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_walking_dead.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_walking_dead.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 53,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_wanderer.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_wanderer.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_wanderer.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 54,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_warlock.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_warlock.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_warlock.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 55,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_warrior_of_light.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_warrior_of_light.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_warrior_of_light.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_heroes_custom.txt",
+    "line": 56,
+    "directive": "#base",
+    "target_raw": "heroes/npc_lia_hero_witch_doctor.txt",
+    "target": "game/scripts/npc/heroes/npc_lia_hero_witch_doctor.txt",
+    "resolved": "game/scripts/npc/heroes/npc_lia_hero_witch_doctor.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 1,
+    "directive": "#base",
+    "target_raw": "items/item_lia_alanith_spear.txt",
+    "target": "game/scripts/npc/items/item_lia_alanith_spear.txt",
+    "resolved": "game/scripts/npc/items/item_lia_alanith_spear.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 2,
+    "directive": "#base",
+    "target_raw": "items/item_lia_amulet.txt",
+    "target": "game/scripts/npc/items/item_lia_amulet.txt",
+    "resolved": "game/scripts/npc/items/item_lia_amulet.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 3,
+    "directive": "#base",
+    "target_raw": "items/item_lia_amulet_of_spell_shield.txt",
+    "target": "game/scripts/npc/items/item_lia_amulet_of_spell_shield.txt",
+    "resolved": "game/scripts/npc/items/item_lia_amulet_of_spell_shield.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 4,
+    "directive": "#base",
+    "target_raw": "items/item_lia_ancient_glove.txt",
+    "target": "game/scripts/npc/items/item_lia_ancient_glove.txt",
+    "resolved": "game/scripts/npc/items/item_lia_ancient_glove.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 5,
+    "directive": "#base",
+    "target_raw": "items/item_lia_anti_magic_potion.txt",
+    "target": "game/scripts/npc/items/item_lia_anti_magic_potion.txt",
+    "resolved": "game/scripts/npc/items/item_lia_anti_magic_potion.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 6,
+    "directive": "#base",
+    "target_raw": "items/item_lia_armor_of_the_red_mist.txt",
+    "target": "game/scripts/npc/items/item_lia_armor_of_the_red_mist.txt",
+    "resolved": "game/scripts/npc/items/item_lia_armor_of_the_red_mist.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 7,
+    "directive": "#base",
+    "target_raw": "items/item_lia_axe.txt",
+    "target": "game/scripts/npc/items/item_lia_axe.txt",
+    "resolved": "game/scripts/npc/items/item_lia_axe.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 8,
+    "directive": "#base",
+    "target_raw": "items/item_lia_banner_of_victory.txt",
+    "target": "game/scripts/npc/items/item_lia_banner_of_victory.txt",
+    "resolved": "game/scripts/npc/items/item_lia_banner_of_victory.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 9,
+    "directive": "#base",
+    "target_raw": "items/item_lia_battle_axe.txt",
+    "target": "game/scripts/npc/items/item_lia_battle_axe.txt",
+    "resolved": "game/scripts/npc/items/item_lia_battle_axe.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 10,
+    "directive": "#base",
+    "target_raw": "items/item_lia_battle_javelin.txt",
+    "target": "game/scripts/npc/items/item_lia_battle_javelin.txt",
+    "resolved": "game/scripts/npc/items/item_lia_battle_javelin.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 11,
+    "directive": "#base",
+    "target_raw": "items/item_lia_blade_of_incorporeality.txt",
+    "target": "game/scripts/npc/items/item_lia_blade_of_incorporeality.txt",
+    "resolved": "game/scripts/npc/items/item_lia_blade_of_incorporeality.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 12,
+    "directive": "#base",
+    "target_raw": "items/item_lia_blood_blade.txt",
+    "target": "game/scripts/npc/items/item_lia_blood_blade.txt",
+    "resolved": "game/scripts/npc/items/item_lia_blood_blade.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 13,
+    "directive": "#base",
+    "target_raw": "items/item_lia_blood_moon.txt",
+    "target": "game/scripts/npc/items/item_lia_blood_moon.txt",
+    "resolved": "game/scripts/npc/items/item_lia_blood_moon.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 14,
+    "directive": "#base",
+    "target_raw": "items/item_lia_boar.txt",
+    "target": "game/scripts/npc/items/item_lia_boar.txt",
+    "resolved": "game/scripts/npc/items/item_lia_boar.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 15,
+    "directive": "#base",
+    "target_raw": "items/item_lia_book_of_the_dead.txt",
+    "target": "game/scripts/npc/items/item_lia_book_of_the_dead.txt",
+    "resolved": "game/scripts/npc/items/item_lia_book_of_the_dead.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 16,
+    "directive": "#base",
+    "target_raw": "items/item_lia_boots.txt",
+    "target": "game/scripts/npc/items/item_lia_boots.txt",
+    "resolved": "game/scripts/npc/items/item_lia_boots.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 17,
+    "directive": "#base",
+    "target_raw": "items/item_lia_boots_of_invisibility.txt",
+    "target": "game/scripts/npc/items/item_lia_boots_of_invisibility.txt",
+    "resolved": "game/scripts/npc/items/item_lia_boots_of_invisibility.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 18,
+    "directive": "#base",
+    "target_raw": "items/item_lia_bounty_hunters_crossbow.txt",
+    "target": "game/scripts/npc/items/item_lia_bounty_hunters_crossbow.txt",
+    "resolved": "game/scripts/npc/items/item_lia_bounty_hunters_crossbow.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 19,
+    "directive": "#base",
+    "target_raw": "items/item_lia_claws.txt",
+    "target": "game/scripts/npc/items/item_lia_claws.txt",
+    "resolved": "game/scripts/npc/items/item_lia_claws.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 20,
+    "directive": "#base",
+    "target_raw": "items/item_lia_crown_of_death.txt",
+    "target": "game/scripts/npc/items/item_lia_crown_of_death.txt",
+    "resolved": "game/scripts/npc/items/item_lia_crown_of_death.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 21,
+    "directive": "#base",
+    "target_raw": "items/item_lia_crusher.txt",
+    "target": "game/scripts/npc/items/item_lia_crusher.txt",
+    "resolved": "game/scripts/npc/items/item_lia_crusher.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 22,
+    "directive": "#base",
+    "target_raw": "items/item_lia_demonic_figure.txt",
+    "target": "game/scripts/npc/items/item_lia_demonic_figure.txt",
+    "resolved": "game/scripts/npc/items/item_lia_demonic_figure.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 23,
+    "directive": "#base",
+    "target_raw": "items/item_lia_demon_edge.txt",
+    "target": "game/scripts/npc/items/item_lia_demon_edge.txt",
+    "resolved": "game/scripts/npc/items/item_lia_demon_edge.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 24,
+    "directive": "#base",
+    "target_raw": "items/item_lia_divine_armor.txt",
+    "target": "game/scripts/npc/items/item_lia_divine_armor.txt",
+    "resolved": "game/scripts/npc/items/item_lia_divine_armor.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 25,
+    "directive": "#base",
+    "target_raw": "items/item_lia_dust_of_appearance.txt",
+    "target": "game/scripts/npc/items/item_lia_dust_of_appearance.txt",
+    "resolved": "game/scripts/npc/items/item_lia_dust_of_appearance.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 26,
+    "directive": "#base",
+    "target_raw": "items/item_lia_dwarf_armor.txt",
+    "target": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+    "resolved": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 27,
+    "directive": "#base",
+    "target_raw": "items/item_lia_enchanted_shield.txt",
+    "target": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+    "resolved": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 28,
+    "directive": "#base",
+    "target_raw": "items/item_lia_ferus_shield.txt",
+    "target": "game/scripts/npc/items/item_lia_ferus_shield.txt",
+    "resolved": "game/scripts/npc/items/item_lia_ferus_shield.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 29,
+    "directive": "#base",
+    "target_raw": "items/item_lia_fire_gloves.txt",
+    "target": "game/scripts/npc/items/item_lia_fire_gloves.txt",
+    "resolved": "game/scripts/npc/items/item_lia_fire_gloves.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 30,
+    "directive": "#base",
+    "target_raw": "items/item_lia_fire_rod.txt",
+    "target": "game/scripts/npc/items/item_lia_fire_rod.txt",
+    "resolved": "game/scripts/npc/items/item_lia_fire_rod.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 31,
+    "directive": "#base",
+    "target_raw": "items/item_lia_fire_sword.txt",
+    "target": "game/scripts/npc/items/item_lia_fire_sword.txt",
+    "resolved": "game/scripts/npc/items/item_lia_fire_sword.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 32,
+    "directive": "#base",
+    "target_raw": "items/item_lia_ghost_blade.txt",
+    "target": "game/scripts/npc/items/item_lia_ghost_blade.txt",
+    "resolved": "game/scripts/npc/items/item_lia_ghost_blade.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 33,
+    "directive": "#base",
+    "target_raw": "items/item_lia_gloves_of_haste.txt",
+    "target": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+    "resolved": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 34,
+    "directive": "#base",
+    "target_raw": "items/item_lia_gloves_of_strength.txt",
+    "target": "game/scripts/npc/items/item_lia_gloves_of_strength.txt",
+    "resolved": "game/scripts/npc/items/item_lia_gloves_of_strength.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 35,
+    "directive": "#base",
+    "target_raw": "items/item_lia_glove_of_pain.txt",
+    "target": "game/scripts/npc/items/item_lia_glove_of_pain.txt",
+    "resolved": "game/scripts/npc/items/item_lia_glove_of_pain.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 36,
+    "directive": "#base",
+    "target_raw": "items/item_lia_hammer.txt",
+    "target": "game/scripts/npc/items/item_lia_hammer.txt",
+    "resolved": "game/scripts/npc/items/item_lia_hammer.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 37,
+    "directive": "#base",
+    "target_raw": "items/item_lia_hammer_of_titans.txt",
+    "target": "game/scripts/npc/items/item_lia_hammer_of_titans.txt",
+    "resolved": "game/scripts/npc/items/item_lia_hammer_of_titans.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 38,
+    "directive": "#base",
+    "target_raw": "items/item_lia_healing_ward.txt",
+    "target": "game/scripts/npc/items/item_lia_healing_ward.txt",
+    "resolved": "game/scripts/npc/items/item_lia_healing_ward.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 39,
+    "directive": "#base",
+    "target_raw": "items/item_lia_health_elixir.txt",
+    "target": "game/scripts/npc/items/item_lia_health_elixir.txt",
+    "resolved": "game/scripts/npc/items/item_lia_health_elixir.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 40,
+    "directive": "#base",
+    "target_raw": "items/item_lia_health_stone_potion.txt",
+    "target": "game/scripts/npc/items/item_lia_health_stone_potion.txt",
+    "resolved": "game/scripts/npc/items/item_lia_health_stone_potion.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 41,
+    "directive": "#base",
+    "target_raw": "items/item_lia_hell_gloves.txt",
+    "target": "game/scripts/npc/items/item_lia_hell_gloves.txt",
+    "resolved": "game/scripts/npc/items/item_lia_hell_gloves.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 42,
+    "directive": "#base",
+    "target_raw": "items/item_lia_hell_mask.txt",
+    "target": "game/scripts/npc/items/item_lia_hell_mask.txt",
+    "resolved": "game/scripts/npc/items/item_lia_hell_mask.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 43,
+    "directive": "#base",
+    "target_raw": "items/item_lia_helm.txt",
+    "target": "game/scripts/npc/items/item_lia_helm.txt",
+    "resolved": "game/scripts/npc/items/item_lia_helm.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 44,
+    "directive": "#base",
+    "target_raw": "items/item_lia_huge_axe.txt",
+    "target": "game/scripts/npc/items/item_lia_huge_axe.txt",
+    "resolved": "game/scripts/npc/items/item_lia_huge_axe.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 45,
+    "directive": "#base",
+    "target_raw": "items/item_lia_hyper_boots.txt",
+    "target": "game/scripts/npc/items/item_lia_hyper_boots.txt",
+    "resolved": "game/scripts/npc/items/item_lia_hyper_boots.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 46,
+    "directive": "#base",
+    "target_raw": "items/item_lia_ice_sword.txt",
+    "target": "game/scripts/npc/items/item_lia_ice_sword.txt",
+    "resolved": "game/scripts/npc/items/item_lia_ice_sword.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 47,
+    "directive": "#base",
+    "target_raw": "items/item_lia_knight_cuirass.txt",
+    "target": "game/scripts/npc/items/item_lia_knight_cuirass.txt",
+    "resolved": "game/scripts/npc/items/item_lia_knight_cuirass.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 48,
+    "directive": "#base",
+    "target_raw": "items/item_lia_knight_shield.txt",
+    "target": "game/scripts/npc/items/item_lia_knight_shield.txt",
+    "resolved": "game/scripts/npc/items/item_lia_knight_shield.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 49,
+    "directive": "#base",
+    "target_raw": "items/item_lia_lightning_bow.txt",
+    "target": "game/scripts/npc/items/item_lia_lightning_bow.txt",
+    "resolved": "game/scripts/npc/items/item_lia_lightning_bow.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 50,
+    "directive": "#base",
+    "target_raw": "items/item_lia_lightning_spear.txt",
+    "target": "game/scripts/npc/items/item_lia_lightning_spear.txt",
+    "resolved": "game/scripts/npc/items/item_lia_lightning_spear.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 51,
+    "directive": "#base",
+    "target_raw": "items/item_lia_lunar_necklace.txt",
+    "target": "game/scripts/npc/items/item_lia_lunar_necklace.txt",
+    "resolved": "game/scripts/npc/items/item_lia_lunar_necklace.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 52,
+    "directive": "#base",
+    "target_raw": "items/item_lia_magician_armor.txt",
+    "target": "game/scripts/npc/items/item_lia_magician_armor.txt",
+    "resolved": "game/scripts/npc/items/item_lia_magician_armor.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 53,
+    "directive": "#base",
+    "target_raw": "items/item_lia_magic_bow.txt",
+    "target": "game/scripts/npc/items/item_lia_magic_bow.txt",
+    "resolved": "game/scripts/npc/items/item_lia_magic_bow.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 54,
+    "directive": "#base",
+    "target_raw": "items/item_lia_magic_helm.txt",
+    "target": "game/scripts/npc/items/item_lia_magic_helm.txt",
+    "resolved": "game/scripts/npc/items/item_lia_magic_helm.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 55,
+    "directive": "#base",
+    "target_raw": "items/item_lia_magic_necklace.txt",
+    "target": "game/scripts/npc/items/item_lia_magic_necklace.txt",
+    "resolved": "game/scripts/npc/items/item_lia_magic_necklace.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 56,
+    "directive": "#base",
+    "target_raw": "items/item_lia_magic_staff.txt",
+    "target": "game/scripts/npc/items/item_lia_magic_staff.txt",
+    "resolved": "game/scripts/npc/items/item_lia_magic_staff.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 57,
+    "directive": "#base",
+    "target_raw": "items/item_lia_mana_elixir.txt",
+    "target": "game/scripts/npc/items/item_lia_mana_elixir.txt",
+    "resolved": "game/scripts/npc/items/item_lia_mana_elixir.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 58,
+    "directive": "#base",
+    "target_raw": "items/item_lia_mana_staff.txt",
+    "target": "game/scripts/npc/items/item_lia_mana_staff.txt",
+    "resolved": "game/scripts/npc/items/item_lia_mana_staff.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 59,
+    "directive": "#base",
+    "target_raw": "items/item_lia_mana_stone.txt",
+    "target": "game/scripts/npc/items/item_lia_mana_stone.txt",
+    "resolved": "game/scripts/npc/items/item_lia_mana_stone.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 60,
+    "directive": "#base",
+    "target_raw": "items/item_lia_mana_stone_potion.txt",
+    "target": "game/scripts/npc/items/item_lia_mana_stone_potion.txt",
+    "resolved": "game/scripts/npc/items/item_lia_mana_stone_potion.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 61,
+    "directive": "#base",
+    "target_raw": "items/item_lia_mantle.txt",
+    "target": "game/scripts/npc/items/item_lia_mantle.txt",
+    "resolved": "game/scripts/npc/items/item_lia_mantle.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 62,
+    "directive": "#base",
+    "target_raw": "items/item_lia_mask.txt",
+    "target": "game/scripts/npc/items/item_lia_mask.txt",
+    "resolved": "game/scripts/npc/items/item_lia_mask.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 63,
+    "directive": "#base",
+    "target_raw": "items/item_lia_mask_of_death.txt",
+    "target": "game/scripts/npc/items/item_lia_mask_of_death.txt",
+    "resolved": "game/scripts/npc/items/item_lia_mask_of_death.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 64,
+    "directive": "#base",
+    "target_raw": "items/item_lia_mithril_armor.txt",
+    "target": "game/scripts/npc/items/item_lia_mithril_armor.txt",
+    "resolved": "game/scripts/npc/items/item_lia_mithril_armor.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 65,
+    "directive": "#base",
+    "target_raw": "items/item_lia_necklace.txt",
+    "target": "game/scripts/npc/items/item_lia_necklace.txt",
+    "resolved": "game/scripts/npc/items/item_lia_necklace.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 66,
+    "directive": "#base",
+    "target_raw": "items/item_lia_orb_of_fire.txt",
+    "target": "game/scripts/npc/items/item_lia_orb_of_fire.txt",
+    "resolved": "game/scripts/npc/items/item_lia_orb_of_fire.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 67,
+    "directive": "#base",
+    "target_raw": "items/item_lia_orb_of_frost.txt",
+    "target": "game/scripts/npc/items/item_lia_orb_of_frost.txt",
+    "resolved": "game/scripts/npc/items/item_lia_orb_of_frost.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 68,
+    "directive": "#base",
+    "target_raw": "items/item_lia_pantilus_blade.txt",
+    "target": "game/scripts/npc/items/item_lia_pantilus_blade.txt",
+    "resolved": "game/scripts/npc/items/item_lia_pantilus_blade.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 69,
+    "directive": "#base",
+    "target_raw": "items/item_lia_poleaxe_of_rage.txt",
+    "target": "game/scripts/npc/items/item_lia_poleaxe_of_rage.txt",
+    "resolved": "game/scripts/npc/items/item_lia_poleaxe_of_rage.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 70,
+    "directive": "#base",
+    "target_raw": "items/item_lia_potion_of_invisibility.txt",
+    "target": "game/scripts/npc/items/item_lia_potion_of_invisibility.txt",
+    "resolved": "game/scripts/npc/items/item_lia_potion_of_invisibility.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 71,
+    "directive": "#base",
+    "target_raw": "items/item_lia_potion_of_invulnerability.txt",
+    "target": "game/scripts/npc/items/item_lia_potion_of_invulnerability.txt",
+    "resolved": "game/scripts/npc/items/item_lia_potion_of_invulnerability.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 72,
+    "directive": "#base",
+    "target_raw": "items/item_lia_pure_light.txt",
+    "target": "game/scripts/npc/items/item_lia_pure_light.txt",
+    "resolved": "game/scripts/npc/items/item_lia_pure_light.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 73,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rage_sword_agi.txt",
+    "target": "game/scripts/npc/items/item_lia_rage_sword_agi.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rage_sword_agi.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 74,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rage_sword_int.txt",
+    "target": "game/scripts/npc/items/item_lia_rage_sword_int.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rage_sword_int.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 75,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rage_sword_str.txt",
+    "target": "game/scripts/npc/items/item_lia_rage_sword_str.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rage_sword_str.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 76,
+    "directive": "#base",
+    "target_raw": "items/item_lia_ring_of_protection.txt",
+    "target": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+    "resolved": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 77,
+    "directive": "#base",
+    "target_raw": "items/item_lia_ring_of_regeneration.txt",
+    "target": "game/scripts/npc/items/item_lia_ring_of_regeneration.txt",
+    "resolved": "game/scripts/npc/items/item_lia_ring_of_regeneration.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 78,
+    "directive": "#base",
+    "target_raw": "items/item_lia_runed_bracers.txt",
+    "target": "game/scripts/npc/items/item_lia_runed_bracers.txt",
+    "resolved": "game/scripts/npc/items/item_lia_runed_bracers.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 79,
+    "directive": "#base",
+    "target_raw": "items/item_lia_runed_gloves.txt",
+    "target": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+    "resolved": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 80,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rune_gold.txt",
+    "target": "game/scripts/npc/items/item_lia_rune_gold.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rune_gold.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 81,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rune_lumber.txt",
+    "target": "game/scripts/npc/items/item_lia_rune_lumber.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rune_lumber.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 82,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rune_of_agility.txt",
+    "target": "game/scripts/npc/items/item_lia_rune_of_agility.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rune_of_agility.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 83,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rune_of_healing.txt",
+    "target": "game/scripts/npc/items/item_lia_rune_of_healing.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rune_of_healing.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 84,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rune_of_intellect.txt",
+    "target": "game/scripts/npc/items/item_lia_rune_of_intellect.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rune_of_intellect.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 85,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rune_of_lifesteal.txt",
+    "target": "game/scripts/npc/items/item_lia_rune_of_lifesteal.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rune_of_lifesteal.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 86,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rune_of_luck.txt",
+    "target": "game/scripts/npc/items/item_lia_rune_of_luck.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rune_of_luck.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 87,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rune_of_mana.txt",
+    "target": "game/scripts/npc/items/item_lia_rune_of_mana.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rune_of_mana.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 88,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rune_of_protection.txt",
+    "target": "game/scripts/npc/items/item_lia_rune_of_protection.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rune_of_protection.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 89,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rune_of_restoration.txt",
+    "target": "game/scripts/npc/items/item_lia_rune_of_restoration.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rune_of_restoration.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 90,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rune_of_speed.txt",
+    "target": "game/scripts/npc/items/item_lia_rune_of_speed.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rune_of_speed.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 91,
+    "directive": "#base",
+    "target_raw": "items/item_lia_rune_of_strength.txt",
+    "target": "game/scripts/npc/items/item_lia_rune_of_strength.txt",
+    "resolved": "game/scripts/npc/items/item_lia_rune_of_strength.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 92,
+    "directive": "#base",
+    "target_raw": "items/item_lia_scepter_of_power.txt",
+    "target": "game/scripts/npc/items/item_lia_scepter_of_power.txt",
+    "resolved": "game/scripts/npc/items/item_lia_scepter_of_power.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 93,
+    "directive": "#base",
+    "target_raw": "items/item_lia_scroll_of_restoration.txt",
+    "target": "game/scripts/npc/items/item_lia_scroll_of_restoration.txt",
+    "resolved": "game/scripts/npc/items/item_lia_scroll_of_restoration.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 94,
+    "directive": "#base",
+    "target_raw": "items/item_lia_scroll_of_secret_knowledge.txt",
+    "target": "game/scripts/npc/items/item_lia_scroll_of_secret_knowledge.txt",
+    "resolved": "game/scripts/npc/items/item_lia_scroll_of_secret_knowledge.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 95,
+    "directive": "#base",
+    "target_raw": "items/item_lia_seal_of_power.txt",
+    "target": "game/scripts/npc/items/item_lia_seal_of_power.txt",
+    "resolved": "game/scripts/npc/items/item_lia_seal_of_power.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 96,
+    "directive": "#base",
+    "target_raw": "items/item_lia_shield_of_death.txt",
+    "target": "game/scripts/npc/items/item_lia_shield_of_death.txt",
+    "resolved": "game/scripts/npc/items/item_lia_shield_of_death.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 97,
+    "directive": "#base",
+    "target_raw": "items/item_lia_shield_of_endurance.txt",
+    "target": "game/scripts/npc/items/item_lia_shield_of_endurance.txt",
+    "resolved": "game/scripts/npc/items/item_lia_shield_of_endurance.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 98,
+    "directive": "#base",
+    "target_raw": "items/item_lia_spear.txt",
+    "target": "game/scripts/npc/items/item_lia_spear.txt",
+    "resolved": "game/scripts/npc/items/item_lia_spear.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 99,
+    "directive": "#base",
+    "target_raw": "items/item_lia_spellbreaker.txt",
+    "target": "game/scripts/npc/items/item_lia_spellbreaker.txt",
+    "resolved": "game/scripts/npc/items/item_lia_spellbreaker.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 100,
+    "directive": "#base",
+    "target_raw": "items/item_lia_spherical_staff.txt",
+    "target": "game/scripts/npc/items/item_lia_spherical_staff.txt",
+    "resolved": "game/scripts/npc/items/item_lia_spherical_staff.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 101,
+    "directive": "#base",
+    "target_raw": "items/item_lia_spider_ring.txt",
+    "target": "game/scripts/npc/items/item_lia_spider_ring.txt",
+    "resolved": "game/scripts/npc/items/item_lia_spider_ring.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 102,
+    "directive": "#base",
+    "target_raw": "items/item_lia_staff.txt",
+    "target": "game/scripts/npc/items/item_lia_staff.txt",
+    "resolved": "game/scripts/npc/items/item_lia_staff.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 103,
+    "directive": "#base",
+    "target_raw": "items/item_lia_staff_of_help.txt",
+    "target": "game/scripts/npc/items/item_lia_staff_of_help.txt",
+    "resolved": "game/scripts/npc/items/item_lia_staff_of_help.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 104,
+    "directive": "#base",
+    "target_raw": "items/item_lia_staff_of_illusions.txt",
+    "target": "game/scripts/npc/items/item_lia_staff_of_illusions.txt",
+    "resolved": "game/scripts/npc/items/item_lia_staff_of_illusions.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 105,
+    "directive": "#base",
+    "target_raw": "items/item_lia_staff_of_life.txt",
+    "target": "game/scripts/npc/items/item_lia_staff_of_life.txt",
+    "resolved": "game/scripts/npc/items/item_lia_staff_of_life.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 106,
+    "directive": "#base",
+    "target_raw": "items/item_lia_staff_of_light.txt",
+    "target": "game/scripts/npc/items/item_lia_staff_of_light.txt",
+    "resolved": "game/scripts/npc/items/item_lia_staff_of_light.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 107,
+    "directive": "#base",
+    "target_raw": "items/item_lia_steel_sword.txt",
+    "target": "game/scripts/npc/items/item_lia_steel_sword.txt",
+    "resolved": "game/scripts/npc/items/item_lia_steel_sword.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 108,
+    "directive": "#base",
+    "target_raw": "items/item_lia_stormwind_horn.txt",
+    "target": "game/scripts/npc/items/item_lia_stormwind_horn.txt",
+    "resolved": "game/scripts/npc/items/item_lia_stormwind_horn.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 109,
+    "directive": "#base",
+    "target_raw": "items/item_lia_sword_of_solidarity.txt",
+    "target": "game/scripts/npc/items/item_lia_sword_of_solidarity.txt",
+    "resolved": "game/scripts/npc/items/item_lia_sword_of_solidarity.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 110,
+    "directive": "#base",
+    "target_raw": "items/item_lia_thugs_dagger.txt",
+    "target": "game/scripts/npc/items/item_lia_thugs_dagger.txt",
+    "resolved": "game/scripts/npc/items/item_lia_thugs_dagger.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 111,
+    "directive": "#base",
+    "target_raw": "items/item_lia_totem_of_persistence.txt",
+    "target": "game/scripts/npc/items/item_lia_totem_of_persistence.txt",
+    "resolved": "game/scripts/npc/items/item_lia_totem_of_persistence.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 112,
+    "directive": "#base",
+    "target_raw": "items/item_lia_troll_defender.txt",
+    "target": "game/scripts/npc/items/item_lia_troll_defender.txt",
+    "resolved": "game/scripts/npc/items/item_lia_troll_defender.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 113,
+    "directive": "#base",
+    "target_raw": "items/item_lia_troll_healer.txt",
+    "target": "game/scripts/npc/items/item_lia_troll_healer.txt",
+    "resolved": "game/scripts/npc/items/item_lia_troll_healer.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_items_custom.txt",
+    "line": 114,
+    "directive": "#base",
+    "target_raw": "items/item_lia_widow_boots.txt",
+    "target": "game/scripts/npc/items/item_lia_widow_boots.txt",
+    "resolved": "game/scripts/npc/items/item_lia_widow_boots.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 1,
+    "directive": "#base",
+    "target_raw": "units/10_wave_megaboss.txt",
+    "target": "game/scripts/npc/units/10_wave_megaboss.txt",
+    "resolved": "game/scripts/npc/units/10_wave_megaboss.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 2,
+    "directive": "#base",
+    "target_raw": "units/15_wave_megaboss.txt",
+    "target": "game/scripts/npc/units/15_wave_megaboss.txt",
+    "resolved": "game/scripts/npc/units/15_wave_megaboss.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 3,
+    "directive": "#base",
+    "target_raw": "units/5_wave_megaboss.txt",
+    "target": "game/scripts/npc/units/5_wave_megaboss.txt",
+    "resolved": "game/scripts/npc/units/5_wave_megaboss.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 4,
+    "directive": "#base",
+    "target_raw": "units/android_units.txt",
+    "target": "game/scripts/npc/units/android_units.txt",
+    "resolved": "game/scripts/npc/units/android_units.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 5,
+    "directive": "#base",
+    "target_raw": "units/beastmaster_creeps.txt",
+    "target": "game/scripts/npc/units/beastmaster_creeps.txt",
+    "resolved": "game/scripts/npc/units/beastmaster_creeps.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 6,
+    "directive": "#base",
+    "target_raw": "units/beetle.txt",
+    "target": "game/scripts/npc/units/beetle.txt",
+    "resolved": "game/scripts/npc/units/beetle.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 7,
+    "directive": "#base",
+    "target_raw": "units/butcher_zombies.txt",
+    "target": "game/scripts/npc/units/butcher_zombies.txt",
+    "resolved": "game/scripts/npc/units/butcher_zombies.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 8,
+    "directive": "#base",
+    "target_raw": "units/camera_guy.txt",
+    "target": "game/scripts/npc/units/camera_guy.txt",
+    "resolved": "game/scripts/npc/units/camera_guy.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 9,
+    "directive": "#base",
+    "target_raw": "units/decorations.txt",
+    "target": "game/scripts/npc/units/decorations.txt",
+    "resolved": "game/scripts/npc/units/decorations.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 10,
+    "directive": "#base",
+    "target_raw": "units/dummy_unit.txt",
+    "target": "game/scripts/npc/units/dummy_unit.txt",
+    "resolved": "game/scripts/npc/units/dummy_unit.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 11,
+    "directive": "#base",
+    "target_raw": "units/extreme_mode_bosses.txt",
+    "target": "game/scripts/npc/units/extreme_mode_bosses.txt",
+    "resolved": "game/scripts/npc/units/extreme_mode_bosses.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 12,
+    "directive": "#base",
+    "target_raw": "units/extreme_mode_creeps.txt",
+    "target": "game/scripts/npc/units/extreme_mode_creeps.txt",
+    "resolved": "game/scripts/npc/units/extreme_mode_creeps.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 13,
+    "directive": "#base",
+    "target_raw": "units/firelord_units.txt",
+    "target": "game/scripts/npc/units/firelord_units.txt",
+    "resolved": "game/scripts/npc/units/firelord_units.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 14,
+    "directive": "#base",
+    "target_raw": "units/hermit_water_elementals.txt",
+    "target": "game/scripts/npc/units/hermit_water_elementals.txt",
+    "resolved": "game/scripts/npc/units/hermit_water_elementals.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 15,
+    "directive": "#base",
+    "target_raw": "units/item_lia_healing_ward_unit.txt",
+    "target": "game/scripts/npc/units/item_lia_healing_ward_unit.txt",
+    "resolved": "game/scripts/npc/units/item_lia_healing_ward_unit.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 16,
+    "directive": "#base",
+    "target_raw": "units/keeper_of_the_grove_units.txt",
+    "target": "game/scripts/npc/units/keeper_of_the_grove_units.txt",
+    "resolved": "game/scripts/npc/units/keeper_of_the_grove_units.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 17,
+    "directive": "#base",
+    "target_raw": "units/necromancer_creeps.txt",
+    "target": "game/scripts/npc/units/necromancer_creeps.txt",
+    "resolved": "game/scripts/npc/units/necromancer_creeps.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 18,
+    "directive": "#base",
+    "target_raw": "units/normal_mode_bosses.txt",
+    "target": "game/scripts/npc/units/normal_mode_bosses.txt",
+    "resolved": "game/scripts/npc/units/normal_mode_bosses.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 19,
+    "directive": "#base",
+    "target_raw": "units/normal_mode_creeps.txt",
+    "target": "game/scripts/npc/units/normal_mode_creeps.txt",
+    "resolved": "game/scripts/npc/units/normal_mode_creeps.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 20,
+    "directive": "#base",
+    "target_raw": "units/npc_dummy_blank.txt",
+    "target": "game/scripts/npc/units/npc_dummy_blank.txt",
+    "resolved": "game/scripts/npc/units/npc_dummy_blank.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 21,
+    "directive": "#base",
+    "target_raw": "units/orn_megaboss.txt",
+    "target": "game/scripts/npc/units/orn_megaboss.txt",
+    "resolved": "game/scripts/npc/units/orn_megaboss.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 22,
+    "directive": "#base",
+    "target_raw": "units/orn_mutant_boss.txt",
+    "target": "game/scripts/npc/units/orn_mutant_boss.txt",
+    "resolved": "game/scripts/npc/units/orn_mutant_boss.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 23,
+    "directive": "#base",
+    "target_raw": "units/purchasable_units.txt",
+    "target": "game/scripts/npc/units/purchasable_units.txt",
+    "resolved": "game/scripts/npc/units/purchasable_units.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 24,
+    "directive": "#base",
+    "target_raw": "units/pure_light_totem.txt",
+    "target": "game/scripts/npc/units/pure_light_totem.txt",
+    "resolved": "game/scripts/npc/units/pure_light_totem.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 25,
+    "directive": "#base",
+    "target_raw": "units/shadow_master_shadow.txt",
+    "target": "game/scripts/npc/units/shadow_master_shadow.txt",
+    "resolved": "game/scripts/npc/units/shadow_master_shadow.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 26,
+    "directive": "#base",
+    "target_raw": "units/spider_queen_spiders.txt",
+    "target": "game/scripts/npc/units/spider_queen_spiders.txt",
+    "resolved": "game/scripts/npc/units/spider_queen_spiders.txt",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/npc/npc_units_custom.txt",
+    "line": 27,
+    "directive": "#base",
+    "target_raw": "units/wanderer_creeps.txt",
+    "target": "game/scripts/npc/units/wanderer_creeps.txt",
+    "resolved": "game/scripts/npc/units/wanderer_creeps.txt",
+    "exists_exact_case": true
+  }
+]

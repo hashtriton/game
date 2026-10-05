@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-05",
+  "checks": [
+    {
+      "name": "dota_extraction_validation_passed",
+      "passed": true
+    },
+    {
+      "name": "warcraft_core_isolated_reproduction_passed",
+      "passed": true
+    },
+    {
+      "name": "core_formula_validation_passed",
+      "passed": true
+    },
+    {
+      "name": "dota_archive_hash_and_size",
+      "passed": true
+    },
+    {
+      "name": "dota_zip_crc",
+      "passed": true
+    },
+    {
+      "name": "dota_all_downloaded_files_match_inventory",
+      "passed": true,
+      "details": {
+        "files": 2447,
+        "mismatches": [],
+        "extra_local_files": [],
+        "missing_local_files": []
+      }
+    },
+    {
+      "name": "warcraft_3.4_map_hash_and_size",
+      "passed": true
+    },
+    {
+      "name": "warcraft_3.4_extracted_files_integrity",
+      "passed": true,
+      "details": {
+        "files": 379,
+        "mismatches": [],
+        "unnamed_archive_entries": 435
+      }
+    },
+    {
+      "name": "warcraft_3.4_all_archive_blocks_readable",
+      "passed": true,
+      "details": {
+        "known_blocks": 379,
+        "unnamed_blocks": 435,
+        "total_blocks": 814
+      }
+    },
+    {
+      "name": "warcraft_3.4_catalog_and_binary_boundaries",
+      "passed": true,
+      "details": {
+        "recipes": 76,
+        "heroes": 62,
+        "binary_tables": 3
+      }
+    },
+    {
+      "name": "warcraft_3.4_two_readers_gameplay_bytes",
+      "passed": true,
+      "details": {
+        "files": 59,
+        "missing_mandatory": []
+      }
+    },
+    {
+      "name": "warcraft_3.4_function_inventory",
+      "passed": true,
+      "details": {
+        "functions": 1994
+      }
+    },
+    {
+      "name": "warcraft_3.9c_map_hash_and_size",
+      "passed": true
+    },
+    {
+      "name": "warcraft_3.9c_extracted_files_integrity",
+      "passed": true,
+      "details": {
+        "files": 724,
+        "mismatches": [],
+        "unnamed_archive_entries": 753
+      }
+    },
+    {
+      "name": "warcraft_3.9c_all_archive_blocks_readable",
+      "passed": true,
+      "details": {
+        "known_blocks": 724,
+        "unnamed_blocks": 753,
+        "total_blocks": 1477
+      }
+    },
+    {
+      "name": "warcraft_3.9c_catalog_and_binary_boundaries",
+      "passed": true,
+      "details": {
+        "recipes": 101,
+        "heroes": 96,
+        "binary_tables": 4
+      }
+    },
+    {
+      "name": "warcraft_3.9c_two_readers_gameplay_bytes",
+      "passed": true,
+      "details": {
+        "files": 59,
+        "missing_mandatory": []
+      }
+    },
+    {
+      "name": "warcraft_3.9c_function_inventory",
+      "passed": true,
+      "details": {
+        "functions": 3271
+      }
+    },
+    {
+      "name": "structured_outputs_readable",
+      "passed": true,
+      "details": {
+        "json_files": 76,
+        "csv_files": 61,
+        "csv_data_rows": 363350,
+        "errors": []
+      }
+    },
+    {
+      "name": "research_document_local_links",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "reviewed_snapshot_matches_current_files",
+      "passed": true,
+      "details": {
+        "passed": true,
+        "reviewed_files": 182,
+        "files": {
+          "missing": [],
+          "extra": [],
+          "modified": []
+        },
+        "local_inputs": {
+          "checked": true,
+          "missing": [],
+          "extra": [],
+          "modified": []
+        },
+        "meaning": "Fingerprint agreement only; review scope and unresolved gameplay are in docs/lia-review.md"
+      }
+    }
+  ],
+  "failures": [],
+  "runtime_verified": false,
+  "review_snapshot_verified": true,
+  "passed": true,
+  "limits": [
+    "Integrity and parser coverage do not prove gameplay behavior or balance",
+    "Warcraft unnamed blocks remain preserved inside original maps",
+    "Dota engine dependencies and source syntax defects remain separately reported"
+  ]
+}

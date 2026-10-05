@@ -1,0 +1,1489 @@
+﻿array,index,value,function,line
+RC,0,HF,Ng,1760
+K,0,"""|c00696969""",eG,1911
+K,1,"""|c00BEBEBE""",eG,1912
+K,2,"""|c00B22222""",eG,1913
+K,3,"""|c004169E1""",eG,1914
+M,0,true,eG,1931
+M,1,true,eG,1932
+M,2,true,eG,1933
+M,3,true,eG,1934
+M,4,true,eG,1935
+M,5,true,eG,1936
+M,6,true,eG,1937
+M,7,true,eG,1938
+s,1,"""У б и л""",dG,1988
+s,2,"""П р и к о н ч и л""",dG,1989
+s,3,"""Д о б и л""",dG,1990
+s,4,"""З а м о ч и л""",dG,1991
+s,5,"""К а з н и л""",dG,1992
+s,6,"""И с т р е б и л""",dG,1993
+s,7,"""П р и х л о п н у л""",dG,1994
+s,8,"""С р а з и л""",dG,1995
+s,9,"""И з г н а л""",dG,1996
+s,10,"""С т ё р""",dG,1997
+s,11,"""Н а к а з а л""",dG,1998
+s,12,"""С о к р у ш и л""",dG,1999
+s,13,"""У м е р т в и л""",dG,2000
+s,14,"""Н а с т р о г а л""",dG,2001
+s,15,"""О т ш л ё п а л""",dG,2002
+s,16,"""К о к н у л""",dG,2003
+s,17,"""У с т р а н и л""",dG,2004
+s,18,"""П у с т и л   п о   в е т р у""",dG,2005
+s,19,"""В о г н а л   в   г р о б""",dG,2006
+s,20,"""Ё & н # л""",dG,2007
+r,1,Vn,Fh,2226
+r,2,En,Fh,2227
+r,3,Xn,Fh,2228
+r,4,On,Fh,2229
+r,5,Rn,Fh,2230
+r,6,An,Fh,2231
+r,7,Nn,Fh,2232
+r,8,bn,Fh,2233
+r,9,Bn,Fh,2234
+r,10,cn,Fh,2235
+r,11,Cn,Fh,2236
+r,12,dn,Fh,2237
+r,13,Dn,Fh,2238
+r,14,fn,Fh,2239
+r,15,Fn,Fh,2240
+r,16,gn,Fh,2241
+r,17,Gn,Fh,2242
+r,18,hn,Fh,2243
+r,19,Hn,Fh,2244
+r,20,jn,Fh,2245
+r,21,Jn,Fh,2246
+r,22,kn,Fh,2247
+r,23,Kn,Fh,2248
+r,24,ln,Fh,2249
+r,25,Ln,Fh,2250
+r,26,mn,Fh,2251
+r,27,Mn,Fh,2252
+r,28,pn,Fh,2253
+U,0,'aa00',eH,2577
+U,1,'aa01',eH,2578
+U,2,'aa02',eH,2579
+U,3,'aa03',eH,2580
+U,4,'aa04',eH,2581
+U,5,'aa05',eH,2582
+U,6,'aa06',eH,2583
+U,7,'aa07',eH,2584
+U,8,'aa08',eH,2585
+U,9,'aa09',eH,2586
+U,10,'aa10',eH,2587
+U,11,'aa11',eH,2588
+U,12,'aa12',eH,2589
+W,0,'ra00',eH,2590
+W,1,'ra01',eH,2591
+W,2,'ra02',eH,2592
+W,3,'ra03',eH,2593
+W,4,'ra04',eH,2594
+W,5,'ra05',eH,2595
+W,6,'ra06',eH,2596
+W,7,'ra07',eH,2597
+W,8,'ra08',eH,2598
+W,9,'ra09',eH,2599
+W,10,'ra10',eH,2600
+W,11,'ra11',eH,2601
+W,12,'ra12',eH,2602
+Z,0,'ad00',eH,2603
+Z,1,'ad01',eH,2604
+Z,2,'ad02',eH,2605
+Z,3,'ad03',eH,2606
+Z,4,'ad04',eH,2607
+Z,5,'ad05',eH,2608
+Z,6,'ad06',eH,2609
+Z,7,'ad07',eH,2610
+Z,8,'ad08',eH,2611
+Z,9,'ad09',eH,2612
+Z,10,'ad10',eH,2613
+Z,11,'ad11',eH,2614
+Z,12,'ad12',eH,2615
+vv,0,'rd00',eH,2616
+vv,1,'rd01',eH,2617
+vv,2,'rd02',eH,2618
+vv,3,'rd03',eH,2619
+vv,4,'rd04',eH,2620
+vv,5,'rd05',eH,2621
+vv,6,'rd06',eH,2622
+vv,7,'rd07',eH,2623
+vv,8,'rd08',eH,2624
+vv,9,'rd09',eH,2625
+vv,10,'rd10',eH,2626
+vv,11,'rd11',eH,2627
+vv,12,'rd12',eH,2628
+ev,0,'as00',eH,2629
+ev,1,'as01',eH,2630
+ev,2,'as02',eH,2631
+ev,3,'as03',eH,2632
+ev,4,'as04',eH,2633
+ev,5,'as05',eH,2634
+ev,6,'as06',eH,2635
+ev,7,'as07',eH,2636
+ev,8,'as08',eH,2637
+mD,0,2,Cj,3976
+mD,1,2,Cj,3977
+mD,2,2,Cj,3978
+mD,3,2,Cj,3979
+mD,4,2,Cj,3980
+mD,5,2,Cj,3981
+mD,6,2,Cj,3982
+mD,7,2,Cj,3983
+Cv,1,"""Хрустальный арахнид""",jj,4087
+Cv,2,"""Кентавр-воин""",jj,4088
+Cv,3,"""Молодой драконид""",jj,4089
+Cv,4,"""Темный тролль""",jj,4090
+Cv,5,"""Мегабосс""",jj,4091
+Cv,6,"""Разбойник""",jj,4092
+Cv,7,"""Чумной энт""",jj,4093
+Cv,8,"""Властитель""",jj,4094
+Cv,9,"""Дух Океана""",jj,4095
+Cv,10,"""Мегабосс""",jj,4096
+Cv,11,"""Адский охотник""",jj,4097
+Cv,12,"""Беорн""",jj,4098
+Cv,13,"""Каменный голем""",jj,4099
+Cv,14,"""Громовая ящерица""",jj,4100
+Cv,15,"""Мегабосс""",jj,4101
+Cv,16,"""Призрак""",jj,4102
+Cv,17,"""Хвататель""",jj,4103
+Cv,18,"""Морской дракон""",jj,4104
+Cv,19,"""Адский сатир""",jj,4105
+Cv,20,"""Финальный босс""",jj,4106
+VA,1,"""Зaклинaния бoccoв: Удap пo зeмлe [150 eд. уpoнa и зaмeдлeниe нa 4 ceк.]; Яд [10 eд. уpoнa в ceк.]",jj,4107
+VA,2,"""Зaклинaния бoccoв: Aуpa вoзмeздия [20% уpoнa вoзвpaщaeтcя]; Вoлнa cилы [вpaгaм нa пути 20% уpoнa oт мaкc. здopoвья]",jj,4109
+VA,3,"""Зaклинaния бoccoв: Змeинaя лoвкocть [25% шaнc уклoнитьcя oт aтaки]; Oмoлoжeниe [600 eд. в тeчeнии 6 ceк.]",jj,4111
+VA,4,"""Зaклинaния бoccoв: Лик cмepти [500 eд. уpoнa]",jj,4113
+VA,5,"""Зaклинaния Мeгaбocca: Ящеры [6 волн ящеров, каждое столкновение 125 ед. урона]; Oгнeнный дoждь [200 eд. уpoнa кaждый кaмeнь]; Гpoмoвaя пocтупь [300 eд. уpoнa + 4 ceк. oглушeния]; Cильный удap [16% шaнc oглушить нa 2 ceк.]; Cмepтeльный удap [32% шaнc нaнecти двoйнoй уpoн]; Яcнoвидeниe.""",jj,4115
+VA,6,"""Зaклинaния бoccoв: Невидимость; Увeчьe [Cнижeниe уpoнa нa 30% cкopocти бoя и пepeмeщeния нa 60%].",jj,4116
+VA,7,"""Зaклинaния бoccoв: Ядoвитoe oблaкo [40 eд. уpoнa в ceк.]; Лeдeнящий кpик [cнижeниe уpoнa нa 50%].",jj,4118
+VA,8,"""Зaклинaния вpaгoв: Нeвocпpиимчивocть к мaгии; Мoлoт буpь [400 eд. уpoнa + 3 ceк. oглушeния.]; Вaмпиpизм [75%]; Дeмoничecкaя cилa [50%].""",jj,4120
+VA,9,"""Зaклинaния бoccoв: Мopфoлaкcиc [шaнc 30% пpизвaть Дуxa Oкeaнa.]; Лeдянaя звeздa [400 eд. уpoнa цeли и cтoлькo жe oкpужaющим юнитaм]; Бecтeлecнocть [блoкиpуeт 15%/25% уpoнa oт ближнeгo/дaльнeгo бoя]""",jj,4121
+VA,10,"""Зaклинaния Мeгaбocca: Огнепад големов [8 волн, каждое попадание призыв голема и 275 ед. урона]; Aнтимaгия [7 ceк. нeвocпpиимчивocти к мaгии]; Зaмeдлeниe [75% скорости пepeмeщeния, 50% скорости бoя]; Пaнциpь c шипaми [15% уpoнa вoзвpaщaeтcя]; Oгнeнный гoлeм; Защитная сфера; Яcнoвидeниe.""",jj,4122
+VA,11,"""Зaклинaния бoccoв: Сожжение маны [30 ед. маны за удар].",jj,4123
+VA,12,"""Зaклинaния бoccoв: Гнeв дepeвьeв [90 eд. в ceк в тeчeниe 5 ceк.]; Кpoвoжaднocть [90% скорости aтaки]; Cильный удap [30% шaнc oглушить нa 2 ceк. и нaнecти 250 eд. уpoнa.]",jj,4125
+VA,13,"""Зaклинaния вpaгoв: Нeвocпpиимчивocть к мaгии; Бpocить кaмeнь [100 eд. уpoнa + 2 ceк. oглушeния]; Бoeвoй дуx [40%].""",jj,4127
+VA,14,"""Зaклинaния вpaгoв: Мoлoт буpь [750 eд. уpoнa + 4 ceк. oглушeния]; Oтpaвлeнный нoж [100 в тeчeниe 5 ceк.]""",jj,4128
+VA,15,"""Зaклинaния Мeгaбocca: Кладбище [четыре зоны на 10 сек, в трех из них 100+30 урона в секунду]; Иллюзии [2 иллюзии уpoн нaнocят 100%, пoлучaют 100% уpoнa]; Coжжeниe мaны [200 eд. зa удap]; Изгнaниe в acтpaл [5 ceк.]; Бeзмoлвиe [Пpeдoтвpaщeны вce виды aтaк и зaклинaния]; Толстая кожа; Яcнoвидeниe.""",jj,4129
+VA,16,"""Заклинания боссов: магический огонь [250 ед.]; Замедление [50% скорости перемещения и 25% скорости боя].",jj,4130
+VA,17,"""Зaклинaния бoccoв: змeинaя лoвкocть [90% клoнa].",jj,4132
+VA,18,"""Зaклинaния бoccoв: Магическая защита [50%]; cильный удap [100% вepoятнocть oглушить нa 0.5 ceк.]",jj,4134
+VA,19,"""Зaклинaния бoccoв: пoлимopф [6 ceк.]",jj,4136
+VA,20,"""Заклинания Орна: Мастерство Орна [20% шанс на 2.75-кратный урон, 50% уворотов, 20% шанс на 250 ед. урона и оглушение на 2 сек., -150 маны за удар]; Аура Орна [30% вампиризма, 30% обратки, 75% скорости атаки и 30% перемещения]; Пинок [II фаза]; Иллюзии [III фаза].""",jj,4138
+yj,0,false,uj,4241
+yj,0,false,uj,4252
+TD,0,0,nJ,4397
+TD,1,1,nJ,4398
+TD,2,2,nJ,4399
+TD,3,3,nJ,4400
+UD,0,4,nJ,4401
+UD,1,5,nJ,4402
+UD,2,6,nJ,4403
+UD,3,7,nJ,4404
+tD,0,1,nJ,4405
+tD,1,1,nJ,4406
+tD,2,1,nJ,4407
+tD,3,1,nJ,4408
+tD,4,1,nJ,4409
+tD,5,1,nJ,4410
+tD,6,1,nJ,4411
+tD,7,1,nJ,4412
+yj,0,false,OJ,4424
+ZD,0,0,cJ,4526
+ZD,1,1,cJ,4527
+ZD,2,2,cJ,4528
+ZD,3,3,cJ,4529
+ZD,4,4,cJ,4530
+ZD,5,5,cJ,4531
+ZD,6,6,cJ,4532
+ZD,7,7,cJ,4533
+vf,0,1,cJ,4534
+vf,1,1,cJ,4535
+vf,2,1,cJ,4536
+vf,3,1,cJ,4537
+vf,4,1,cJ,4538
+vf,5,1,cJ,4539
+vf,6,1,cJ,4540
+vf,7,1,cJ,4541
+of,0,CreateTimer(),DJ,4589
+uv,0,false,eK,5487
+uv,1,false,eK,5488
+uv,2,false,eK,5489
+uv,3,false,eK,5490
+uv,4,false,eK,5491
+uv,5,false,eK,5492
+uv,6,false,eK,5493
+uv,7,false,eK,5494
+ae,1,-1,Xl,6098
+ae,2,-1,Xl,6099
+ae,3,-1,Xl,6100
+ae,4,-1,Xl,6101
+ae,5,-1,Xl,6102
+ae,6,-1,Xl,6103
+ae,7,-1,Xl,6104
+ae,8,-1,Xl,6105
+af,0,0.012,Jl,6363
+af,1,0.012,Jl,6364
+af,2,0.1,Jl,6365
+af,3,0.04,Jl,6366
+af,4,0.04,Jl,6367
+af,5,0.04,Jl,6368
+af,6,0.04,Jl,6369
+af,7,0.04,Jl,6370
+af,8,0.045,Jl,6371
+af,9,0.04,Jl,6372
+af,10,0.04,Jl,6373
+af,11,0.012,Jl,6374
+af,12,0.012,Jl,6375
+af,13,0.012,Jl,6376
+af,14,0.012,Jl,6377
+af,15,0.012,Jl,6378
+af,16,0.012,Jl,6379
+af,17,0.012,Jl,6380
+af,18,0.012,Jl,6381
+af,19,0.012,Jl,6382
+af,20,0.012,Jl,6383
+nf,0,"""""",Jl,6384
+nf,1,"""""",Jl,6385
+nf,2,"""Игроки                Убито:""",Jl,6386
+nf,3,"""крипов""",Jl,6387
+nf,4,"""боссов""",Jl,6388
+nf,5,"""героев""",Jl,6389
+nf,6,"""Смертей""",Jl,6390
+nf,7,"""Уровень""",Jl,6391
+nf,8,"""Улучшения""",Jl,6392
+nf,9,"""Рейтинг""",Jl,6393
+nf,10,"""Побед""",Jl,6394
+nf,11,"""""",Jl,6395
+nf,12,"""""",Jl,6396
+nf,13,"""""",Jl,6397
+nf,14,"""""",Jl,6398
+nf,15,"""""",Jl,6399
+nf,16,"""""",Jl,6400
+nf,17,"""""",Jl,6401
+nf,18,"""""",Jl,6402
+nf,19,"""""",Jl,6403
+nf,20,"""""",Jl,6404
+Vf,0,0.012,ml,6506
+Vf,1,0.012,ml,6507
+Vf,2,0.1,ml,6508
+Vf,3,0.04,ml,6509
+Vf,4,0.04,ml,6510
+Vf,5,0.04,ml,6511
+Vf,6,0.045,ml,6512
+Vf,7,0.04,ml,6513
+Vf,8,0.04,ml,6514
+Vf,9,0.04,ml,6515
+Vf,10,0.05,ml,6516
+Vf,11,0.05,ml,6517
+Vf,12,0.055,ml,6518
+Vf,13,0.05,ml,6519
+Vf,14,0.012,ml,6520
+Vf,15,0.012,ml,6521
+Vf,16,0.012,ml,6522
+Vf,17,0.012,ml,6523
+Vf,18,0.012,ml,6524
+Vf,19,0.012,ml,6525
+Ef,0,"""""",ml,6526
+Ef,1,"""""",ml,6527
+Ef,2,"""Игроки                Убито:""",ml,6528
+Ef,3,"""крипов""",ml,6529
+Ef,4,"""боссов""",ml,6530
+Ef,5,"""Уровень""",ml,6531
+Ef,6,"""Улучшения""",ml,6532
+Ef,7,"""Смертей""",ml,6533
+Ef,8,"""Рейтинг""",ml,6534
+Ef,9,"""Прочее:""",ml,6535
+Ef,10,"""дуэли (в/п)""",ml,6536
+Ef,11,"""расход./руны""",ml,6537
+Ef,12,"""кол-во урона""",ml,6538
+Ef,13,"""общ. ценность""",ml,6539
+Ef,14,"""Предметы""",ml,6540
+Ef,15,"""""",ml,6541
+Ef,16,"""""",ml,6542
+Ef,17,"""""",ml,6543
+Ef,18,"""""",ml,6544
+Ef,19,"""""",ml,6545
+DL,1,20.,CL,6976
+DL,2,40.,CL,6977
+DL,3,80.,CL,6978
+qh,1,50.,sL,7149
+qh,2,100.,sL,7150
+qh,3,200.,sL,7151
+ax,1,0,Zm,8205
+ax,2,0,Zm,8206
+ax,3,0,Zm,8207
+ax,4,0,Zm,8208
+ax,5,0,Zm,8209
+ax,6,0,Zm,8210
+ax,7,0,Zm,8211
+ax,8,0,Zm,8212
+id,0,'rspd',Ap,9233
+id,1,'rres',Ap,9234
+id,2,'rsps',Ap,9235
+id,3,'rhe2',Ap,9236
+id,4,'rman',Ap,9237
+id,5,'rdis',Ap,9238
+Fr,21,'H00S',ModWarBalance,9569
+Fr,41,'E00M',ModWarBalance,9572
+Fr,5,'H00W',ModWarBalance,9575
+jx,1,'n04E',up,9650
+jx,2,'n04F',up,9651
+jx,3,'n04G',up,9652
+jx,4,'n04H',up,9653
+jx,6,'n04I',up,9654
+jx,7,'n04J',up,9655
+jx,8,'n04K',up,9656
+jx,9,'n04L',up,9657
+jx,11,'n02W',up,9658
+jx,12,'n04M',up,9659
+jx,13,'n04N',up,9660
+jx,14,'n04O',up,9661
+jx,16,'n034',up,9662
+jx,17,'n036',up,9663
+jx,18,'n038',up,9664
+jx,19,'n03A',up,9665
+Jx,1,'n02J',up,9666
+Jx,2,'n02O',up,9667
+Jx,3,'n02P',up,9668
+Jx,4,'n02Q',up,9669
+Jx,6,'n02R',up,9670
+Jx,7,'n02S',up,9671
+Jx,8,'n02T',up,9672
+Jx,9,'n02U',up,9673
+Jx,11,'n02V',up,9674
+Jx,12,'n030',up,9675
+Jx,13,'n031',up,9676
+Jx,14,'n032',up,9677
+Jx,16,'n033',up,9678
+Jx,17,'n035',up,9679
+Jx,18,'n037',up,9680
+Jx,19,'n039',up,9681
+VA,1,"""Зaклинaния бoccoв: Удap пo зeмлe [250 eд. уpoнa и зaмeдлeниe нa 4 ceк.]; Яд [15 eд. уpoнa в ceк.]",up,9683
+VA,2,"""Зaклинaния бoccoв: Aуpa вoзмeздия [35уpoнa вoзвpaщaeтcя]; Вoлнa cилы [вpaгaм нa пути 25уpoнa oт мaкc. здopoвья]",up,9685
+VA,3,"""Зaклинaния бoccoв: Змeинaя лoвкocть [30шaнc уклoнитьcя oт aтaки]; Oмoлoжeниe [1000 eд. в тeчeнии 6 ceк.]",up,9687
+VA,4,"""Зaклинaния бoccoв: Лик cмepти [500 eд. уpoнa]; Лoвчий [лoвит в ceтку гepoeв нa 4 ceк., нe-гepoeв нa 15 ceк.]",up,9689
+VA,5,"""Зaклинaния Мeгaбocca: Ящеры [6 волн ящеров, каждое столкновение 125 ед. урона]; Oгнeнный дoждь [200 eд. уpoнa кaждый кaмeнь]; Гpoмoвaя пocтупь [300 eд. уpoнa + 4 ceк. oглушeния]; Cильный удap [16шaнc oглушить нa 2 ceк.]; Cмepтeльный удap [32шaнc нaнecти двoйнoй уpoн]; Яcнoвидeниe.""",up,9691
+VA,6,"""Зaклинaния бoccoв: Невидимость; Пpoклятиe [40шaнc, чтo гepoй пpoмaxнeтcя]; Увeчьe [Cнижeниe уpoнa нa 30скорости бoя и пepeмeщeния нa 60]",up,9692
+VA,7,"""Зaклинaния бoccoв: Ядoвитoe oблaкo [40 eд. уpoнa в ceк.]; Лeдeнящий кpик [cнижeниe уpoнa нa 75].",up,9694
+VA,8,"""Зaклинaния вpaгoв: Нeвocпpиимчивocть к мaгии; Мoлoт буpь [400 eд. уpoнa + 3 ceк. oглушeния.]; Вaмпиpизм [75]; Дeмoничecкaя cилa [50]; Вaмпиpизм [50, нe aуpa]""",up,9696
+VA,9,"""Зaклинaния бoccoв: Мopфoлaкcиc [шaнc 30пpизвaть Дуxa Oкeaнa.]; Лeдянaя звeздa [400 eд. уpoнa цeли и cтoлькo жe oкpужaющим юнитaм]; Бecтeлecнocть [блoкиpуeт 25/40уpoнa oт ближнeгo/дaльнeгo бoя]",up,9697
+VA,10,"""Зaклинaния Мeгaбocca: Огнепад големов [8 волн, каждое попадание призыв голема и 275 ед. урона]; Aнтимaгия [7 ceк. нeвocпpиимчивocти к мaгии]; Зaмeдлeниe [75скорости пepeмeщeния, 50скорости бoя]; Пaнциpь c шипaми [15уpoнa вoзвpaщaeтcя]; Oгнeнный гoлeм; Защитная сфера; Яcнoвидeниe.""",up,9699
+VA,11,"""Зaклинaния бoccoв: Сожжение маны [60 ед. маны за удар].",up,9700
+VA,12,"""Зaклинaния бoccoв: Гнeв дepeвьeв [200 eд. в ceк в тeчeниe 5 ceк.]; Кpoвoжaднocть [+180скорости aтaки]; Cильный удap [30шaнc oглушить нa 2 ceк. и нaнecти 250 eд. уpoнa.]",up,9702
+VA,13,"""Зaклинaния вpaгoв: Нeвocпpиимчивocть к мaгии; Бpocить кaмeнь [100 eд. уpoнa + 2 ceк. oглушeния]; Бoeвoй дуx [60].""",up,9704
+VA,14,"""Зaклинaния вpaгoв: Мoлoт буpь [950 eд. уpoнa + 4 ceк. oглушeния]; Oтpaвлeнный нoж [150 в тeчeниe 5 ceк.]""",up,9705
+VA,15,"""Зaклинaния Мeгaбocca: Кладбище [четыре зоны на 10 сек, в трех из них 100+30 урона в секунду]; Иллюзии [2 иллюзии уpoн нaнocят 100, пoлучaют 100уpoнa]; Coжжeниe мaны [200 eд. зa удap]; Изгнaниe в acтpaл [5 ceк.]; Бeзмoлвиe [Пpeдoтвpaщeны вce виды aтaк и зaклинaния]; Толстая кожа; Яcнoвидeниe.""",up,9706
+VA,16,"""Заклинания боссов: магический огонь [400 ед.]; Замедление [75скорости перемещения и 75скорости боя].",up,9707
+VA,17,"""Зaклинaния бoccoв: змeинaя лoвкocть [100уклoнa].",up,9709
+VA,18,"""Зaклинaния бoccoв: Магическая защита [75]; cильный удap [100вepoятнocть oглушить нa 1 ceк.]",up,9711
+VA,19,"""Зaклинaния бoccoв: пoлимopф [8 ceк.]",up,9713
+VA,20,"""Заклинания Орна: Мастерство Орна [20шанс на 2.75-кратный урон, 50уворотов, 20шанс на 250 ед. урона и оглушение на 2 сек., -150 маны за удар]; Аура Орна [30вампиризма, 30обратки, 75скорости атаки и 30перемещения]; Пинок [II фаза]; Иллюзии [III фаза].""",up,9715
+NP,1,4,XP,9942
+bP,1,35,XP,9943
+NP,2,4,XP,9944
+bP,2,35,XP,9945
+NP,3,5,XP,9946
+bP,3,35,XP,9947
+NP,4,5,XP,9948
+bP,4,40,XP,9949
+NP,5,0,XP,9950
+bP,5,0,XP,9951
+NP,6,6,XP,9952
+bP,6,40,XP,9953
+NP,7,6,XP,9954
+bP,7,40,XP,9955
+NP,8,7,XP,9956
+bP,8,50,XP,9957
+NP,9,7,XP,9958
+bP,9,45,XP,9959
+NP,10,0,XP,9960
+bP,10,0,XP,9961
+NP,11,8,XP,9962
+bP,11,50,XP,9963
+NP,12,8,XP,9964
+bP,12,50,XP,9965
+NP,13,9,XP,9966
+bP,13,50,XP,9967
+NP,14,10,XP,9968
+bP,14,60,XP,9969
+NP,15,0,XP,9970
+bP,15,0,XP,9971
+NP,16,11,XP,9972
+bP,16,50,XP,9973
+NP,17,11,XP,9974
+bP,17,60,XP,9975
+NP,18,11,XP,9976
+bP,18,55,XP,9977
+NP,19,12,XP,9978
+bP,19,65,XP,9979
+NP,20,0,XP,9980
+bP,20,0,XP,9981
+it,1,null,eq,10569
+it,2,null,eq,10570
+it,3,null,eq,10571
+it,4,null,eq,10572
+it,5,null,eq,10573
+it,6,null,eq,10574
+p1,1,null,bq,10896
+p1,2,null,bq,10897
+p1,3,null,bq,10898
+p1,4,null,bq,10899
+p2,1,null,bq,10900
+p2,2,null,bq,10901
+p2,3,null,bq,10902
+p2,4,null,bq,10903
+r,1,ha,dq,10962
+r,2,Ha,dq,10963
+r,3,ja,dq,10964
+r2,1,Fa,dq,10965
+r2,2,ga,dq,10966
+r2,3,Ga,dq,10967
+QJ,1,270.,dq,10968
+QJ,2,305.,dq,10969
+QJ,3,245.,dq,10970
+so,1,"CreateUnitAtLoc(p,'n02L',GetRectCenter(xn),WH)",nQ,11691
+so,2,"CreateUnitAtLoc(p,'n000',GetRectCenter(xn),WH)",nQ,11704
+so,3,"CreateUnitAtLoc(p,'n04Q',GetRectCenter(xn),WH)",nQ,11717
+so,4,"CreateUnitAtLoc(p,'n04R',GetRectCenter(xn),WH)",nQ,11728
+so,5,"CreateUnitAtLoc(p,'n00S',GetRectCenter(xn),WH)",nQ,11740
+so,6,"CreateUnitAtLoc(p,'n007',GetRectCenter(xn),WH)",nQ,11753
+cr,1,"CreateUnitAtLoc(p,'n03Q',GetRectCenter(Za),WH)",nQ,11766
+cr,2,"CreateUnitAtLoc(p,'n004',GetRectCenter(vn),WH)",nQ,11767
+cr,3,"CreateUnitAtLoc(p,'n00C',GetRectCenter(vn),WH)",nQ,11768
+cr,4,"CreateUnitAtLoc(p,'n03S',GetRectCenter(vn),WH)",nQ,11769
+cr,5,"CreateUnitAtLoc(p,'n005',GetRectCenter(vn),WH)",nQ,11770
+cr,6,"CreateUnitAtLoc(p,'n006',GetRectCenter(vn),WH)",nQ,11771
+cr,7,"CreateUnitAtLoc(p,'n03G',GetRectCenter(vn),WH)",nQ,11772
+cr,8,"CreateUnitAtLoc(p,'n01J',GetRectCenter(vn),WH)",nQ,11773
+cr,9,"CreateUnitAtLoc(p,'n02F',GetRectCenter(vn),WH)",nQ,11774
+cr,10,"CreateUnitAtLoc(p,'n04X',GetRectCenter(vn),WH)",nQ,11775
+cr,11,"CreateUnitAtLoc(p,'n06U',GetRectCenter(vn),WH)",nQ,11776
+cr,12,"CreateUnitAtLoc(p,'n014',GetRectCenter(vn),WH)",nQ,11777
+cr,13,"CreateUnitAtLoc(p,'n001',GetRectCenter(vn),WH)",nQ,11778
+cr,14,"CreateUnitAtLoc(p,'n00A',GetRectCenter(Ka),WH)",nQ,11779
+wi,2,"CreateUnit(p,'n05V',446,836,WH)",nQ,11781
+wi,3,"CreateUnit(p,'n05W',322,704,WH)",nQ,11782
+wi,4,"CreateUnit(p,'n05X',202,704,WH)",nQ,11783
+wi,5,"CreateUnit(p,'n05P',446,1080,WH)",nQ,11784
+wi,6,"CreateUnit(p,'n05Q',446,1216,WH)",nQ,11785
+wi,7,"CreateUnit(p,'n05T',-68,1372,WH)",nQ,11786
+wi,8,"CreateUnit(p,'n05S',198,1372,WH)",nQ,11787
+wi,9,"CreateUnit(p,'n05R',322,1372,WH)",nQ,11788
+wi,10,"CreateUnit(p,'n05U',-256,1216,WH)",nQ,11789
+wi,11,"CreateUnit(p,'n06V',-256,1080,WH)",nQ,11790
+wi,12,"CreateUnit(p,'n05Z',-202,704,WH)",nQ,11791
+wi,13,"CreateUnit(p,'n05Y',-202,836,WH)",nQ,11792
+XQ,0,"""|c00ff0303""",EQ,11809
+XQ,1,"""|c000042ff""",EQ,11810
+XQ,2,"""|c001ce6b9""",EQ,11811
+XQ,3,"""|c00540081""",EQ,11812
+XQ,4,"""|c00fffc01""",EQ,11813
+XQ,5,"""|c00ff8000""",EQ,11814
+XQ,6,"""|c0020c000""",EQ,11815
+XQ,7,"""|c00e55bb0""",EQ,11816
+T,1,"Location(GetRectCenterX(va),GetRectCenterY(va))",EQ,11821
+T,2,"Location(GetRectCenterX(ea),GetRectCenterY(ea))",EQ,11822
+T,3,"Location(GetRectCenterX(xa),GetRectCenterY(xa))",EQ,11823
+T,4,"Location(GetRectCenterX(oa),GetRectCenterY(oa))",EQ,11824
+T,5,"Location(GetRectCenterX(ra),GetRectCenterY(ra))",EQ,11825
+T,6,"Location(GetRectCenterX(ia),GetRectCenterY(ia))",EQ,11826
+T,7,"Location(GetRectCenterX(aa),GetRectCenterY(aa))",EQ,11827
+T,8,"Location(GetRectCenterX(na),GetRectCenterY(na))",EQ,11828
+Yo,0,"""ReplaceableTextures\\WorldEditUI\\Editor-Random-Unit.blp""",OQ,11872
+Yo,1,"""ReplaceableTextures\\CommandButtons\\BTNPriestessOfTheMoon.blp""",OQ,11873
+Yo,2,"""ReplaceableTextures\\CommandButtons\\BTNSpiderBlack.blp""",OQ,11874
+Yo,3,"""ReplaceableTextures\\CommandButtons\\BTNHeroDemonHunter.blp""",OQ,11875
+Yo,4,"""ReplaceableTextures\\CommandButtons\\BTNSpiritWalker.blp""",OQ,11876
+Yo,5,"""ReplaceableTextures\\CommandButtons\\BTNBansheeRanger.blp""",OQ,11877
+Yo,6,"""ReplaceableTextures\\CommandButtons\\BTNChaosWarlock.blp""",OQ,11878
+Yo,7,"""ReplaceableTextures\\CommandButtons\\BTNHeroBloodElfPrince.blp""",OQ,11879
+Yo,8,"""ReplaceableTextures\\CommandButtons\\BTNSpellBreaker.blp""",OQ,11880
+Yo,9,"""ReplaceableTextures\\CommandButtons\\BTNJunkGolem.blp""",OQ,11881
+Yo,10,"""ReplaceableTextures\\CommandButtons\\BTNInfernal.blp""",OQ,11882
+Yo,11,"""ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp""",OQ,11883
+Yo,12,"""ReplaceableTextures\\CommandButtons\\BTNAbomination.blp""",OQ,11884
+Yo,13,"""ReplaceableTextures\\CommandButtons\\BTNShadowHunter.blp""",OQ,11885
+Yo,14,"""ReplaceableTextures\\CommandButtons\\BTNVoidWalker.blp""",OQ,11886
+Yo,15,"""ReplaceableTextures\\CommandButtons\\BTNHeroDreadLord.blp""",OQ,11887
+Yo,16,"""ReplaceableTextures\\CommandButtons\\BTNWarden2.blp""",OQ,11888
+Yo,17,"""ReplaceableTextures\\CommandButtons\\BTNHellScream.blp""",OQ,11889
+Yo,18,"""ReplaceableTextures\\CommandButtons\\BTNNagaMyrmidonRoyalGuard.blp""",OQ,11890
+Yo,19,"""ReplaceableTextures\\CommandButtons\\BTNSeaWitch.blp""",OQ,11891
+Yo,20,"""ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp""",OQ,11892
+Yo,21,"""ReplaceableTextures\\CommandButtons\\BTNArthas.blp""",OQ,11893
+Yo,22,"""ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp""",OQ,11894
+Yo,23,"""ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp""",OQ,11895
+Yo,24,"""ReplaceableTextures\\CommandButtons\\BTNTheCaptain.blp""",OQ,11896
+Yo,25,"""ReplaceableTextures\\CommandButtons\\BTNHeroAvatarOfFlame.blp""",OQ,11897
+Yo,26,"""ReplaceableTextures\\CommandButtons\\BTNHeroDeathKnight.blp""",OQ,11898
+Yo,27,"""ReplaceableTextures\\CommandButtons\\BTNShaman.blp""",OQ,11899
+Yo,28,"""ReplaceableTextures\\CommandButtons\\BTNGhoul.blp""",OQ,11900
+Yo,29,"""ReplaceableTextures\\CommandButtons\\BTNOrcWarlockRed.blp""",OQ,11901
+Yo,30,"""ReplaceableTextures\\CommandButtons\\BTNNagaSeaWitch.blp""",OQ,11902
+Yo,31,"""ReplaceableTextures\\CommandButtons\\BTNGarithos.blp""",OQ,11903
+Yo,32,"""ReplaceableTextures\\CommandButtons\\BTNSkeletonWarrior.blp""",OQ,11904
+Yo,33,"""ReplaceableTextures\\CommandButtons\\BTNSkeletonMage.blp""",OQ,11905
+Yo,34,"""ReplaceableTextures\\CommandButtons\\BTNMurgulBloodGill.blp""",OQ,11906
+Yo,35,"""ReplaceableTextures\\CommandButtons\\BTNHeadHunterBerserker.blp""",OQ,11907
+Yo,36,"""ReplaceableTextures\\CommandButtons\\BTNTuskaarBrown.blp""",OQ,11908
+Yo,37,"""ReplaceableTextures\\CommandButtons\\BTNEvilIllidan.blp""",OQ,11909
+Yo,38,"""ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp""",OQ,11910
+Yo,39,"""ReplaceableTextures\\CommandButtons\\BTNLichVersion2.blp""",OQ,11911
+Yo,40,"""ReplaceableTextures\\CommandButtons\\BTNKeeperOfTheGrove.blp""",OQ,11912
+Yo,41,"""ReplaceableTextures\\CommandButtons\\BTNHuntress.blp""",OQ,11913
+Yo,42,"""ReplaceableTextures\\CommandButtons\\BTNGnollWarden.blp""",OQ,11914
+Yo,43,"""ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp""",OQ,11915
+Yo,44,"""ReplaceableTextures\\CommandButtons\\BTNHeroCryptLord.blp""",OQ,11916
+Yo,45,"""ReplaceableTextures\\CommandButtons\\BTNThrall.blp""",OQ,11917
+Yo,46,"""ReplaceableTextures\\CommandButtons\\BTNHeroArchMage.blp""",OQ,11918
+Yo,47,"""ReplaceableTextures\\CommandButtons\\BTNForestTrollTrapper.blp""",OQ,11919
+Yo,48,"""ReplaceableTextures\\CommandButtons\\BTNWispSplode.blp""",OQ,11920
+Yo,49,"""ReplaceableTextures\\CommandButtons\\BTNTauren.blp""",OQ,11921
+Yo,50,"""ReplaceableTextures\\CommandButtons\\BTNEredarWarlockPurple.blp""",OQ,11922
+Yo,51,"""ReplaceableTextures\\CommandButtons\\BTNHeroAlchemist.blp""",OQ,11923
+Yo,52,"""ReplaceableTextures\\CommandButtons\\BTNTreant.blp""",OQ,11924
+Yo,53,"""ReplaceableTextures\\CommandButtons\\BTNDryad.blp""",OQ,11925
+Yo,54,"""ReplaceableTextures\\CommandButtons\\BTNSkeletalOrcGrunt.blp""",OQ,11926
+Yo,55,"""ReplaceableTextures\\CommandButtons\\BTNGoblinSapper.blp""",OQ,11927
+Yo,56,"""ReplaceableTextures\\CommandButtons\\BTNWendigo.blp""",OQ,11928
+Yo,57,"""ReplaceableTextures\\CommandButtons\\BTNDranaiMage.blp""",OQ,11929
+Yo,58,"""ReplaceableTextures\\CommandButtons\\BTNFurbolgTracker.blp""",OQ,11930
+Yo,59,"""ReplaceableTextures\\CommandButtons\\BTNAssassin.blp""",OQ,11931
+Yo,60,"""ReplaceableTextures\\CommandButtons\\BTNSylvanusWindrunner.blp""",OQ,11932
+Yo,61,"""ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp""",OQ,11933
+Yo,62,"""ReplaceableTextures\\CommandButtons\\BTNSorceress.blp""",OQ,11934
+Yo,100,"""ReplaceableTextures\\CommandButtons\\BLACK_MASK.BLP""",OQ,11935
+Yo,101,"""ReplaceableTextures\\CommandButtons\\BTNAchievement_rang1.blp""",OQ,11936
+Yo,102,"""ReplaceableTextures\\CommandButtons\\BTNAchievement_rang2.blp""",OQ,11937
+Yo,103,"""ReplaceableTextures\\CommandButtons\\BTNAchievement_rang3.blp""",OQ,11938
+Yo,104,"""ReplaceableTextures\\CommandButtons\\BTNAchievement_rang_tester.blp""",OQ,11939
+Fr,1,'E002',OQ,11942
+Fr,2,'E004',OQ,11943
+Fr,3,'E000',OQ,11944
+Fr,4,'E005',OQ,11945
+Fr,5,'H000',OQ,11946
+Fr,6,'H00A',OQ,11947
+Fr,7,'H001',OQ,11948
+Fr,8,'H007',OQ,11949
+Fr,9,'O003',OQ,11950
+Fr,10,'O004',OQ,11951
+Fr,11,'O000',OQ,11952
+Fr,12,'O005',OQ,11953
+Fr,13,'O002',OQ,11954
+Fr,14,'U002',OQ,11955
+Fr,15,'U000',OQ,11956
+Fr,16,'E003',OQ,11957
+Fr,17,'O001',OQ,11958
+Fr,18,'H005',OQ,11959
+Fr,19,'H003',OQ,11960
+Fr,20,'N00H',OQ,11961
+Fr,21,'H002',OQ,11962
+Fr,22,'N00T',OQ,11963
+Fr,23,'N00U',OQ,11964
+Fr,24,'H008',OQ,11965
+Fr,25,'N018',OQ,11966
+Fr,26,'H006',OQ,11967
+Fr,27,'E006',OQ,11968
+Fr,28,'E007',OQ,11969
+Fr,29,'H00B',OQ,11970
+Fr,30,'N01I',OQ,11971
+Fr,31,'H00F',OQ,11972
+Fr,32,'U005',OQ,11973
+Fr,33,'E00B',OQ,11974
+Fr,34,'E00C',OQ,11975
+Fr,35,'O00B',OQ,11976
+Fr,36,'H00M',OQ,11977
+Fr,37,'E00D',OQ,11978
+Fr,38,'N02G',OQ,11979
+Fr,39,'U00A',OQ,11980
+Fr,40,'E00F',OQ,11981
+Fr,41,'E00L',OQ,11982
+Fr,42,'H00U',OQ,11983
+Fr,43,'H00Z',OQ,11984
+Fr,44,'U00B',OQ,11985
+Fr,45,'O00G',OQ,11986
+Fr,46,'H00R',OQ,11987
+Fr,47,'H013',OQ,11988
+Fr,48,'E00Q',OQ,11989
+Fr,49,'H017',OQ,11990
+Fr,50,'U00D',OQ,11991
+Fr,51,'N03Y',OQ,11992
+Fr,52,'H01V',OQ,11993
+Fr,53,'E00T',OQ,11994
+Fr,54,'H02A',OQ,11995
+Fr,55,'H01W',OQ,11996
+Fr,56,'U00F',OQ,11997
+Fr,57,'H01T',OQ,11998
+Fr,58,'H01I',OQ,11999
+Fr,59,'E00S',OQ,12000
+Fr,60,'N06Y',OQ,12001
+Fr,61,'U00C',OQ,12002
+Fr,62,'H024',OQ,12003
+Hi,1,"""ReplaceableTextures\\CommandButtons\\BTNArachnathidGreen.blp""",OQ,12004
+Hi,2,"""ReplaceableTextures\\CommandButtons\\BTNcentaur.blp""",OQ,12005
+Hi,3,"""ReplaceableTextures\\CommandButtons\\BTNGreenDragonSpawn.blp""",OQ,12006
+Hi,4,"""ReplaceableTextures\\CommandButtons\\BTNDarkTroll.blp""",OQ,12007
+Hi,5,"""ReplaceableTextures\\CommandButtons\\BTNFurbolgElder.blp""",OQ,12008
+Hi,6,"""ReplaceableTextures\\CommandButtons\\BTNBandit.blp""",OQ,12009
+Hi,7,"""ReplaceableTextures\\CommandButtons\\BTNCorruptedEnt.blp""",OQ,12010
+Hi,8,"""ReplaceableTextures\\CommandButtons\\BTNFelGuardBlue.blp""",OQ,12011
+Hi,9,"""ReplaceableTextures\\CommandButtons\\BTNSeaElemental.blp""",OQ,12012
+Hi,10,"""ReplaceableTextures\\CommandButtons\\BTNFacelessOne.blp""",OQ,12013
+Hi,11,"""ReplaceableTextures\\CommandButtons\\BTNFelHound.blp""",OQ,12014
+Hi,12,"""ReplaceableTextures\\CommandButtons\\BTNPolarFurbolgShaman.blp""",OQ,12015
+Hi,13,"""ReplaceableTextures\\CommandButtons\\BTNRockGolem.blp""",OQ,12016
+Hi,14,"""ReplaceableTextures\\CommandButtons\\BTNThunderLizard.blp""",OQ,12017
+Hi,15,"""ReplaceableTextures\\CommandButtons\\BTNGhoul.blp""",OQ,12018
+Hi,16,"""ReplaceableTextures\\CommandButtons\\BTNGhost.blp""",OQ,12019
+Hi,17,"""ReplaceableTextures\\CommandButtons\\BTNLobstrokkRed.blp""",OQ,12020
+Hi,18,"""ReplaceableTextures\\CommandButtons\\BTNSnapDragon.blp""",OQ,12021
+Hi,19,"""ReplaceableTextures\\CommandButtons\\BTNSatyr.blp""",OQ,12022
+Hi,20,"""ReplaceableTextures\\CommandButtons\\BTNHeroBlademaster.blp""",OQ,12023
+Nr,1,Gx[ZD[i1]],cQ,12131
+Nr,2,Gx[ZD[i2]],cQ,12132
+Mo,1,"""Хрустальный арахнид""",Hs,13466
+Mo,2,"""Кентавр-воин""",Hs,13467
+Mo,3,"""Молодой драконид""",Hs,13468
+Mo,4,"""Темный тролль""",Hs,13469
+Mo,5,"""Мегабосс""",Hs,13470
+Mo,6,"""Разбойник""",Hs,13471
+Mo,7,"""Чумной энт""",Hs,13472
+Mo,8,"""Властитель""",Hs,13473
+Mo,9,"""Дух Океана""",Hs,13474
+Mo,10,"""Мегабосс""",Hs,13475
+Mo,11,"""Адский охотник""",Hs,13476
+Mo,12,"""Беорн""",Hs,13477
+Mo,13,"""Каменный голем""",Hs,13478
+Mo,14,"""Громовая ящерица""",Hs,13479
+Mo,15,"""Мегабосс""",Hs,13480
+Mo,16,"""Призрак""",Hs,13481
+Mo,17,"""Хвататель""",Hs,13482
+Mo,18,"""Морской дракон""",Hs,13483
+Mo,19,"""Адский сатир""",Hs,13484
+jx,1,'n008',Hs,13485
+jx,2,'n00D',Hs,13486
+jx,3,'n00F',Hs,13487
+jx,4,'n00I',Hs,13488
+jx,5,'n00K',Hs,13489
+jx,6,'n00L',Hs,13490
+jx,7,'n00N',Hs,13491
+jx,8,'n00P',Hs,13492
+jx,9,'n00R',Hs,13493
+jx,10,'n00Z',Hs,13494
+jx,11,'n015',Hs,13495
+jx,12,'n019',Hs,13496
+jx,13,'n01B',Hs,13497
+jx,14,'n01D',Hs,13498
+jx,15,'n017',Hs,13499
+jx,16,'n027',Hs,13500
+jx,17,'n029',Hs,13501
+jx,18,'n02B',Hs,13502
+jx,19,'n02D',Hs,13503
+Jx,1,'n009',Hs,13504
+Jx,2,'n00E',Hs,13505
+Jx,3,'n00G',Hs,13506
+Jx,4,'n00J',Hs,13507
+Jx,6,'n00M',Hs,13508
+Jx,5,'n00K',Hs,13509
+Jx,7,'n00O',Hs,13510
+Jx,8,'n00Q',Hs,13511
+Jx,9,'n00V',Hs,13512
+Jx,10,'n00Z',Hs,13513
+Jx,11,'n016',Hs,13514
+Jx,12,'n01A',Hs,13515
+Jx,13,'n01C',Hs,13516
+Jx,14,'n01E',Hs,13517
+Jx,15,'n017',Hs,13518
+Jx,16,'n028',Hs,13519
+Jx,17,'n02A',Hs,13520
+Jx,18,'n02C',Hs,13521
+Jx,19,'n01U',Hs,13522
+HN,1,true,Js,13526
+kN,1,'n009',Js,13527
+KN,1,'n02J',Js,13528
+lN,1,0,Js,13529
+PN,1,"""creepthunderclap""",Js,13530
+MN,1,'BTct',Js,13531
+pN,2,'A04U',Js,13532
+QN,1,250.,Js,13533
+mN,1,1,Js,13534
+HN,2,false,Js,13535
+jN,2,'n00E',Js,13536
+JN,2,'n02O',Js,13537
+kN,2,'n00E',Js,13538
+KN,2,'n02O',Js,13539
+lN,2,1,Js,13540
+LN,2,0,Js,13541
+PN,2,"""carrionswarm""",Js,13542
+qN,2,"""stomp""",Js,13543
+MN,2,'A04U',Js,13544
+pN,2,'BPSE',Js,13545
+QN,2,650.,Js,13546
+sN,2,195.,Js,13547
+mN,2,1,Js,13548
+HN,3,true,Js,13549
+kN,3,'n00G',Js,13550
+KN,3,'n02P',Js,13551
+lN,3,2,Js,13552
+PN,3,"""rejuvination""",Js,13553
+MN,3,'A04U',Js,13554
+pN,3,'A04U',Js,13555
+QN,3,1200.,Js,13556
+mN,3,2,Js,13557
+HN,4,false,Js,13558
+jN,4,'n00J',Js,13559
+JN,4,'n02Q',Js,13560
+kN,4,'n00J',Js,13561
+KN,4,'n02Q',Js,13562
+lN,4,1,Js,13563
+LN,4,1,Js,13564
+PN,4,"""ensnare""",Js,13565
+qN,4,"""deathcoil""",Js,13566
+MN,4,'Beng',Js,13567
+pN,4,'A04U',Js,13568
+QN,4,700.,Js,13569
+sN,4,700.,Js,13570
+mN,4,3,Js,13571
+HN,6,true,Js,13572
+kN,6,'n00M',Js,13573
+KN,6,'n02R',Js,13574
+lN,6,1,Js,13575
+PN,6,"""cripple""",Js,13576
+MN,6,'Bcri',Js,13577
+pN,6,'A04U',Js,13578
+QN,6,700.,Js,13579
+mN,6,3,Js,13580
+HN,7,true,Js,13581
+kN,7,'n00O',Js,13582
+KN,7,'n02S',Js,13583
+lN,7,0,Js,13584
+PN,7,"""howlofterror""",Js,13585
+MN,7,'B04N',Js,13586
+pN,7,'A04U',Js,13587
+QN,7,700.,Js,13588
+mN,7,2,Js,13589
+HN,8,true,Js,13590
+kN,8,'n00Q',Js,13591
+KN,8,'n02T',Js,13592
+lN,8,1,Js,13593
+PN,8,"""thunderbolt""",Js,13594
+MN,8,'BPSE',Js,13595
+pN,8,'A04U',Js,13596
+QN,8,950.,Js,13597
+mN,8,1,Js,13598
+HN,9,false,Js,13599
+jN,9,'n02U',Js,13600
+JN,9,'n00V',Js,13601
+kN,9,'n02U',Js,13602
+KN,9,'n00V',Js,13603
+lN,9,1,Js,13604
+LN,9,1,Js,13605
+PN,9,"""sleep""",Js,13606
+qN,9,"""frostnova""",Js,13607
+MN,9,'BUsl',Js,13608
+pN,9,'Bfro',Js,13609
+QN,9,650.,Js,13610
+sN,9,750.,Js,13611
+mN,9,3,Js,13612
+HN,11,true,Js,13613
+kN,11,'n015',Js,13614
+KN,11,'n02W',Js,13615
+lN,11,0,Js,13616
+PN,11,"""immolation""",Js,13617
+MN,11,'A04U',Js,13618
+pN,11,'A04U',Js,13619
+QN,11,220.,Js,13620
+mN,11,6,Js,13621
+HN,12,false,Js,13622
+jN,12,'n019',Js,13623
+JN,12,'n04M',Js,13624
+kN,12,'n01A',Js,13625
+KN,12,'n030',Js,13626
+lN,12,0,Js,13627
+LN,12,1,Js,13628
+PN,12,"""stomp""",Js,13629
+qN,12,"""entanglingroots""",Js,13630
+MN,12,'BPSE',Js,13631
+pN,12,'BEer',Js,13632
+QN,12,195.,Js,13633
+sN,12,550.,Js,13634
+mN,12,1,Js,13635
+HN,13,true,Js,13636
+kN,13,'n01B',Js,13637
+KN,13,'n04N',Js,13638
+lN,13,1,Js,13639
+PN,13,"""creepthunderbolt""",Js,13640
+MN,13,'BPSE',Js,13641
+pN,13,'A04U',Js,13642
+QN,13,550.,Js,13643
+mN,13,1,Js,13644
+HN,14,false,Js,13645
+jN,14,'n01D',Js,13646
+JN,14,'n04O',Js,13647
+kN,14,'n01E',Js,13648
+KN,14,'n032',Js,13649
+lN,14,1,Js,13650
+LN,14,1,Js,13651
+PN,14,"""shadowstrike""",Js,13652
+qN,14,"""thunderbolt""",Js,13653
+MN,14,'BPsh',Js,13654
+pN,14,'BPSE',Js,13655
+QN,14,350.,Js,13656
+sN,14,850.,Js,13657
+mN,14,3,Js,13658
+HN,16,false,Js,13659
+jN,16,'n027',Js,13660
+JN,16,'n034',Js,13661
+kN,16,'n028',Js,13662
+KN,16,'n028',Js,13663
+lN,16,1,Js,13664
+LN,16,1,Js,13665
+PN,16,"""manaburn""",Js,13666
+qN,16,"""manaburn""",Js,13667
+MN,16,'A04U',Js,13668
+pN,16,'A04U',Js,13669
+QN,16,500.,Js,13670
+sN,16,500.,Js,13671
+mN,16,3,Js,13672
+HN,17,true,Js,13673
+kN,17,'n029',Js,13674
+KN,17,'n036',Js,13675
+lN,17,1,Js,13676
+PN,17,"""purge""",Js,13677
+MN,17,'Bprg',Js,13678
+pN,17,'A04U',Js,13679
+QN,17,700.,Js,13680
+mN,17,3,Js,13681
+HN,18,true,Js,13682
+kN,18,'n02B',Js,13683
+KN,18,'n038',Js,13684
+lN,18,3,Js,13685
+PN,18,"""silence""",Js,13686
+MN,18,'BNsi',Js,13687
+pN,18,'A04U',Js,13688
+QN,18,650.,Js,13689
+mN,18,3,Js,13690
+HN,19,true,Js,13691
+kN,19,'n01U',Js,13692
+KN,19,'n039',Js,13693
+lN,19,1,Js,13694
+PN,19,"""polymorph""",Js,13695
+MN,19,'Bply',Js,13696
+pN,19,'A04U',Js,13697
+QN,19,500.,Js,13698
+mN,19,1,Js,13699
+Io,1,ma,ls,13736
+Io,2,Ma,ls,13737
+Io,3,pa,ls,13738
+Io,4,Pa,ls,13739
+Io,5,qa,ls,13740
+Io,6,Qa,ls,13741
+Io,7,sa,ls,13742
+Io,8,Sa,ls,13743
+Io,9,Ta,ls,13744
+Io,10,bV,ls,13745
+jx,1,'n008',ls,13749
+jx,2,'n00D',ls,13750
+jx,3,'n00F',ls,13751
+jx,4,'n00I',ls,13752
+jx,5,'n00L',ls,13753
+jx,6,'n00N',ls,13754
+jx,7,'n00P',ls,13755
+jx,8,'n00R',ls,13756
+jx,9,'n015',ls,13757
+jx,10,'n019',ls,13758
+jx,11,'n01B',ls,13759
+jx,12,'n01D',ls,13760
+Jx,1,'n009',ls,13761
+Jx,2,'n00E',ls,13762
+Jx,3,'n00G',ls,13763
+Jx,4,'n00J',ls,13764
+Jx,5,'n00M',ls,13765
+Jx,6,'n00O',ls,13766
+Jx,7,'n00Q',ls,13767
+Jx,8,'n00V',ls,13768
+Jx,9,'n016',ls,13769
+Jx,10,'n01A',ls,13770
+Jx,11,'n01C',ls,13771
+Jx,12,'n01E',ls,13772
+XB,0,"CreateUnit(Player(15),'n054',1100.,-850.,0.)",yT,15369
+XB,1,"CreateUnitAtLoc(Player(15),'n053',GetRectCenter(Wn),315.)",yT,15370
+XB,2,"CreateUnitAtLoc(Player(15),'n055',GetRectCenter(wn),90.)",yT,15371
+XB,3,"CreateUnitAtLoc(Player(15),'n056',GetRectCenter(yn),55.)",yT,15374
+XB,5,"CreateUnitAtLoc(Player(15),'n057',GetRectCenter(Yn),145.)",yT,15375
+OB,1,false,yT,15382
+OB,2,false,yT,15383
+OB,3,false,yT,15384
+OB,4,false,yT,15385
+OB,5,false,yT,15386
+OB,2,true,ZT,15401
+OB,1,true,xu,15439
+OB,3,true,iu,15479
+XB,4,"CreateUnit(Player(15),'n058',GetDestructableX(d),GetDestructableY(d),270.)",nu,15489
+OB,4,true,nu,15496
+OB,5,true,Xu,15511
+zi,2,"Dg(DU,hp,400,""Illuz"",false,true)",dU,16157
+zi,1,"Dg(DU,hp,400,""Shield"",false,true)",HU,16239
+x,1,-512.,KU,16321
+x,2,-384.,KU,16322
+x,3,-256.,KU,16323
+x,4,-128.,KU,16324
+x,5,-0.,KU,16325
+x,6,128.,KU,16326
+x,7,256.,KU,16327
+x,8,384.,KU,16328
+x,9,512.,KU,16329
+xw,0,'h01M',WU,16652
+xw,1,'h01P',WU,16653
+xw,2,'h02I',WU,16654
+xw,3,'h02I',WU,16655
+xw,4,'h02I',WU,16656
+s,5,"""|Cfffed312Подсказка:|r не стойте на пути бегущего стада \""Ящеров\"", для избежания урона.""",Aw,16928
+s,10,"""|Cfffed312Подсказка:|r уклоняйтесь от индикаторов падения \""Големов\"", для избежания призыва и урона.""",Aw,16929
+s,15,"""|Cfffed312Подсказка:|r стойте в оранжевом секторе, для того что бы избежать урона от \""Порчи\"" в зеленых зонах.""",Aw,16930
+s,20,"""""",Aw,16931
+Nr,1,Gx[ZD[i1-1]+1],Ny,18064
+Nr,2,Gx[ZD[i2-1]+1],Ny,18065
+u,1,Nr[1],Cy,18132
+u,2,Nr[2],Cy,18133
+rG,1,GetUnitUserData(u[1]),Cy,18134
+rG,2,GetUnitUserData(u[2]),Cy,18135
+u,1,null,Cy,18357
+u,2,null,Cy,18358
+Ff,0,"""UI\\Widgets\\Console\\Human\\human-inventory-slotfiller.blp""",Py,18423
+Ff,1,"""ReplaceableTextures\\CommandButtons\\BTNSell.blp""",Py,18424
+Ff,2,"""ReplaceableTextures\\CommandButtons\\BTNHire.blp""",Py,18425
+UB,0,"CreateDestructableLoc('B001',GetRectCenter(eV),270.00,0.70,1)",Sy,18490
+UB,1,"CreateDestructableLoc('B001',GetRectCenter(oV),270.00,0.70,1)",Sy,18491
+UB,2,"CreateDestructableLoc('B001',GetRectCenter(rV),0.00,0.70,1)",Sy,18492
+UB,3,"CreateDestructableLoc('B001',GetRectCenter(EV),0.00,0.70,1)",Sy,18493
+UB,4,"CreateDestructableLoc('YTpb',GetRectCenter(Zn),0.00,1.00,1)",Sy,18494
+UB,5,"CreateDestructableLoc('YTpb',GetRectCenter(vV),0.00,1.00,1)",Sy,18495
+UB,6,"CreateDestructableLoc('YTpb',GetRectCenter(xV),0.00,1.00,1)",Sy,18496
+UB,7,"CreateDestructableLoc('YTpb',GetRectCenter(XV),0.00,1.00,1)",Sy,18497
+UB,8,"CreateDestructableLoc('YTpb',GetRectCenter(OV),0.00,1.00,1)",Sy,18498
+UB,9,"CreateDestructableLoc('YTpb',GetRectCenter(RV),0.00,1.00,1)",Sy,18499
+UB,10,"CreateDestructableLoc('YTpb',GetRectCenter(IV),0.00,1.00,1)",Sy,18500
+UB,11,"CreateDestructableLoc('YTpb',GetRectCenter(AV),0.00,1.00,1)",Sy,18501
+UB,12,"CreateDestructableLoc('YTpb',GetRectCenter(NV),0.00,1.00,1)",Sy,18502
+UB,13,"CreateDestructableLoc('YTpb',GetRectCenter(VV),0.00,1.00,1)",Sy,18503
+UB,14,"CreateDestructableLoc('YTpb',GetRectCenter(nV),0.00,1.00,1)",Sy,18504
+UB,15,"CreateDestructableLoc('YTpb',GetRectCenter(iV),0.00,1.00,1)",Sy,18505
+UB,16,"CreateDestructableLoc('YTpb',GetRectCenter(aV),0.00,1.00,1)",Sy,18506
+hf,1,'n03R',IZ,19963
+hf,2,'n03N',IZ,19964
+hf,3,'n03O',IZ,19965
+hf,4,'n03T',IZ,19966
+hf,5,'n03I',IZ,19967
+hf,6,'n03J',IZ,19968
+hf,7,'n03K',IZ,19969
+hf,8,'n03L',IZ,19970
+hf,9,'n03M',IZ,19971
+hf,10,'n04Y',IZ,19972
+hf,11,'n05A',IZ,19973
+hf,12,'n03H',IZ,19974
+hf,13,'n03P',IZ,19975
+Mi,1,'h021',T0,20513
+Mi,2,'h023',T0,20514
+Mi,3,'h022',T0,20515
+id,0,'rspd',o3,21492
+id,1,'rres',o3,21493
+id,2,'rsps',o3,21494
+id,3,'rhe2',o3,21495
+id,4,'rman',o3,21496
+id,5,'rdis',o3,21497
+id,6,'vamp',o3,21498
+id,7,'tstr',o3,21499
+id,8,'tdex',o3,21500
+id,9,'tint',o3,21501
+id,10,'rspl',o3,21502
+X3,1,'A01O',V3,21536
+E3,1,'H002',V3,21537
+X3,2,'A03Z',V3,21538
+E3,2,'O002',V3,21539
+X3,3,'A05S',V3,21540
+E3,3,'U002',V3,21541
+X3,4,'A08E',V3,21542
+E3,4,'E002',V3,21543
+X3,5,'A06P',V3,21544
+E3,5,'E005',V3,21545
+X3,6,'A08J',V3,21546
+E3,6,'H00A',V3,21547
+X3,7,'A08M',V3,21548
+E3,7,'H00B',V3,21549
+X3,8,'A08P',V3,21550
+E3,8,'H00T',V3,21552
+E3,8,'H001',V3,21554
+X3,9,'A02X',V3,21556
+E3,9,'H00Y',V3,21558
+E3,9,'H007',V3,21560
+X3,10,'A091',V3,21562
+E3,10,'N00H',V3,21563
+X3,11,'A094',V3,21564
+E3,11,'N018',V3,21565
+X3,12,'A09N',V3,21566
+E3,12,'E00B',V3,21567
+E3,13,'U00A',V3,21568
+X3,13,'A0DF',V3,21569
+E3,14,'E00F',V3,21570
+X3,14,'A0DW',V3,21571
+E3,15,'O00G',V3,21572
+X3,15,'A0ID',V3,21573
+E3,16,'H00R',V3,21574
+X3,16,'A0IO',V3,21575
+E3,17,'U00D',V3,21576
+X3,17,'A0N4',V3,21577
+E3,18,'N03Y',V3,21578
+X3,18,'A0NP',V3,21579
+E3,19,'H01W',V3,21580
+X3,19,'A0QK',V3,21581
+E3,20,'H024',V3,21582
+X3,20,'A0SU',V3,21583
+E3,21,'H01T',V3,21584
+X3,21,'A0W6',V3,21585
+O3,21,'A0W7',V3,21586
+X3,1,'A01O',A3,21613
+E3,1,'H002',A3,21614
+X3,2,'A03Z',A3,21615
+E3,2,'O002',A3,21616
+X3,3,'A05S',A3,21617
+E3,3,'U002',A3,21618
+X3,4,'A08E',A3,21619
+E3,4,'E002',A3,21620
+X3,5,'A06P',A3,21621
+E3,5,'E005',A3,21622
+X3,6,'A08J',A3,21623
+E3,6,'H00A',A3,21624
+X3,7,'A08M',A3,21625
+E3,7,'H00B',A3,21626
+X3,8,'A08P',A3,21627
+E3,8,'H00T',A3,21629
+E3,8,'H001',A3,21631
+X3,9,'A02X',A3,21633
+E3,9,'H00Y',A3,21635
+E3,9,'H007',A3,21637
+X3,10,'A091',A3,21639
+E3,10,'N00H',A3,21640
+X3,11,'A094',A3,21641
+E3,11,'N018',A3,21642
+X3,12,'A09N',A3,21643
+E3,12,'E00B',A3,21644
+E3,13,'U00A',A3,21645
+X3,13,'A0DF',A3,21646
+E3,14,'E00F',A3,21647
+X3,14,'A0DW',A3,21648
+E3,15,'O00G',A3,21649
+X3,15,'A0ID',A3,21650
+E3,16,'H00R',A3,21651
+X3,16,'A0IO',A3,21652
+E3,17,'U00D',A3,21653
+X3,17,'A0N4',A3,21654
+E3,18,'N03Y',A3,21655
+X3,18,'A0NP',A3,21656
+E3,19,'H01W',A3,21657
+X3,19,'A0QK',A3,21658
+E3,20,'H024',A3,21659
+X3,20,'A0SU',A3,21660
+E3,21,'H01T',A3,21661
+X3,21,'A0W6',A3,21662
+O3,21,'A0W7',A3,21663
+s,0,"""|c00808080••• """,J4,22392
+s,1,"k4+""•|c00808080•• """,J4,22393
+s,2,"k4+""••|c00808080• """,J4,22394
+s,3,"k4+""••• """,J4,22395
+s,0,"""|c00808080| | | | | | | | """,r5,22632
+s,1,"k4+""| |c00808080| | | | | | |""",r5,22633
+s,2,"k4+""| | |c00808080| | | | | |""",r5,22634
+s,3,"k4+""| | | |c00808080| | | | |""",r5,22635
+s,4,"k4+""| | | | |c00808080| | | |""",r5,22636
+s,5,"k4+""| | | | | |c00808080| | |""",r5,22637
+s,6,"k4+""| | | | | | |c00808080| |""",r5,22638
+s,7,"k4+""| | | | | | | |c00808080|""",r5,22639
+s,8,"k4+""| | | | | | | | """,r5,22640
+Hf,1,100.,g5,22945
+Hf,2,150.,g5,22946
+Hf,3,200.,g5,22947
+Hf,4,150.,g5,22948
+Hf,5,200.,g5,22949
+Hf,6,250.,g5,22950
+jf,1,20.,g5,22951
+jf,2,30.,g5,22952
+jf,3,40.,g5,22953
+jf,4,30.,g5,22954
+jf,5,40.,g5,22955
+jf,6,50.,g5,22956
+Jf,1,50.,g5,22957
+Jf,2,75.,g5,22958
+Jf,3,100.,g5,22959
+Jf,4,100.,g5,22960
+Jf,5,125.,g5,22961
+Jf,6,150.,g5,22962
+kf,1,150.,g5,22963
+kf,2,200.,g5,22964
+kf,3,250.,g5,22965
+Kf,1,250.,g5,22966
+Kf,2,300.,g5,22967
+Kf,3,350.,g5,22968
+Kf,4,400.,g5,22969
+lf,1,10.,g5,22970
+lf,2,15.,g5,22971
+lf,3,20.,g5,22972
+lf,4,20.,g5,22973
+lf,5,25.,g5,22974
+lf,6,30.,g5,22975
+s,0,"""|c00808080•••• """,Q5,23099
+s,1,"k4+""•|c00808080••• """,Q5,23100
+s,2,"k4+""••|c00808080•• """,Q5,23101
+s,3,"k4+""•••|c00808080• """,Q5,23102
+s,4,"k4+""•••• """,Q5,23103
+s,0,"""|c00808080| | | | | | | | | | | | | | | | | | | |""",X6,23423
+s,1,"k4+""| |c00808080| | | | | | | | | | | | | | | | | | |""",X6,23424
+s,2,"k4+""| | |c00808080| | | | | | | | | | | | | | | | | |""",X6,23425
+s,3,"k4+""| | | |c00808080| | | | | | | | | | | | | | | | |""",X6,23426
+s,4,"k4+""| | | | |c00808080| | | | | | | | | | | | | | | |""",X6,23427
+s,5,"k4+""| | | | | |c00808080| | | | | | | | | | | | | | |""",X6,23428
+s,6,"k4+""| | | | | | |c00808080| | | | | | | | | | | | | |""",X6,23429
+s,7,"k4+""| | | | | | | |c00808080| | | | | | | | | | | | |""",X6,23430
+s,8,"k4+""| | | | | | | | |c00808080| | | | | | | | | | | |""",X6,23431
+s,9,"k4+""| | | | | | | | | |c00808080| | | | | | | | | | |""",X6,23432
+s,10,"k4+""| | | | | | | | | | |c00808080| | | | | | | | | |""",X6,23433
+s,11,"k4+""| | | | | | | | | | | |c00808080| | | | | | | | |""",X6,23434
+s,12,"k4+""| | | | | | | | | | | | |c00808080| | | | | | | |""",X6,23435
+s,13,"k4+""| | | | | | | | | | | | | |c00808080| | | | | | |""",X6,23436
+s,14,"k4+""| | | | | | | | | | | | | | |c00808080| | | | | |""",X6,23437
+s,15,"k4+""| | | | | | | | | | | | | | | |c00808080| | | | |""",X6,23438
+s,16,"k4+""| | | | | | | | | | | | | | | | |c00808080| | | |""",X6,23439
+s,17,"k4+""| | | | | | | | | | | | | | | | | |c00808080| | |""",X6,23440
+s,18,"k4+""| | | | | | | | | | | | | | | | | | |c00808080| |""",X6,23441
+s,19,"k4+""| | | | | | | | | | | | | | | | | | | |c00808080|""",X6,23442
+s,20,"k4+""| | | | | | | | | | | | | | | | | | | |""",X6,23443
+tH,1,6,B7,24207
+tH,2,7,B7,24208
+tH,3,8,B7,24209
+tH,4,9,B7,24210
+tH,5,10,B7,24211
+tH,6,11,B7,24212
+oM,1,85.,B7,24217
+oM,2,135.,B7,24218
+oM,3,200.,B7,24219
+oM,4,85.,B7,24220
+oM,5,135.,B7,24221
+oM,6,200.,B7,24222
+oM,1,100.,v8,24653
+oM,2,250.,v8,24654
+oM,3,400.,v8,24655
+e8,1,400.,v8,24656
+e8,2,500.,v8,24657
+e8,3,600.,v8,24658
+id,1,'A0LJ',vTv,25805
+id,2,'A0LM',vTv,25806
+id,3,'A0LP',vTv,25807
+id,4,'A0LK',vTv,25808
+id,5,'A0LL',vTv,25809
+id,6,'A0LN',vTv,25810
+id,7,'A0LO',vTv,25811
+id,8,'A0LQ',vTv,25812
+id,9,'A0LR',vTv,25813
+d,0,"LoadUnitHandle(Zo,ID,4)",xSv,27838
+d,1,"LoadUnitHandle(Zo,ID,5)",xSv,27839
+d,2,"LoadUnitHandle(Zo,ID,6)",xSv,27840
+d,3,"LoadUnitHandle(Zo,ID,7)",xSv,27841
+d,4,"LoadUnitHandle(Zo,ID,8)",xSv,27842
+d,0,null,xSv,27969
+d,1,null,xSv,27970
+d,2,null,xSv,27971
+d,3,null,xSv,27972
+d,4,null,xSv,27973
+d,0,"CreateUnit(GetOwningPlayer(u),UH,x+30*Cos(QJ),y+30*Sin(QJ),wL-32.00)",xTv,27994
+d,1,"CreateUnit(GetOwningPlayer(u),UH,x+30*Cos(QJ),y+30*Sin(QJ),wL-16.00)",xTv,27995
+d,2,"CreateUnit(GetOwningPlayer(u),UH,x+30*Cos(QJ),y+30*Sin(QJ),wL)",xTv,27996
+d,3,"CreateUnit(GetOwningPlayer(u),UH,x+30*Cos(QJ),y+30*Sin(QJ),wL+16.00)",xTv,27997
+d,4,"CreateUnit(GetOwningPlayer(u),UH,x+30*Cos(QJ),y+30*Sin(QJ),wL+32.00)",xTv,27998
+d,0,null,xTv,28013
+d,1,null,xTv,28014
+d,2,null,xTv,28015
+d,3,null,xTv,28016
+d,4,null,xTv,28017
+uL,1,0.6,oUv,28979
+uL,2,0.8,oUv,28980
+uL,3,1.,oUv,28981
+qh,1,6.,iCv,30218
+qh,2,16.,iCv,30219
+qh,3,26.,iCv,30220
+qh,4,36.,iCv,30221
+s,0,"""|c00808080••• """,akv,31308
+s,1,"k4+""•|c00808080•• """,akv,31309
+s,2,"k4+""••|c00808080• """,akv,31310
+s,3,"k4+""••• """,akv,31311
+s,0,"""|c00808080•••• """,akv,31313
+s,1,"k4+""•|c00808080••• """,akv,31314
+s,2,"k4+""••|c00808080•• """,akv,31315
+s,3,"k4+""•••|c00808080• """,akv,31316
+s,4,"k4+""•••• """,akv,31317
+s,0,"""|c00808080••••• """,akv,31319
+s,1,"k4+""•|c00808080•••• """,akv,31320
+s,2,"k4+""••|c00808080••• """,akv,31321
+s,3,"k4+""•••|c00808080•• """,akv,31322
+s,4,"k4+""••••|c00808080• """,akv,31323
+s,5,"k4+""••••• """,akv,31324
+alv,1,3,aKv,31346
+alv,2,4,aKv,31347
+alv,3,5,aKv,31348
+id,1,'A0HJ',a9v,31660
+id,2,'A0HK',a9v,31661
+id,3,'A0HL',a9v,31662
+nfv,1,'n01F',ndv,31927
+nfv,2,'n01G',ndv,31928
+nfv,3,'n01H',ndv,31929
+nfv,1,'n01F',nkv,32049
+nfv,2,'n01G',nkv,32050
+nfv,3,'n01H',nkv,32051
+qh,1,30.,EHv,33404
+qh,2,60.,EHv,33405
+qh,3,120.,EHv,33406
+qh,4,180.,EHv,33407
+Ehv,1,500.,EHv,33408
+Ehv,2,1000.,EHv,33409
+Ehv,3,1500.,EHv,33410
+Ehv,4,2000.,EHv,33411
+iL,1,6,EHv,33412
+iL,2,8,EHv,33413
+iL,3,10,EHv,33414
+iL,4,12,EHv,33415
+OVv,1,'n00W',Oav,34858
+OVv,2,'n00X',Oav,34859
+OVv,3,'h004',Oav,34860
+OVv,4,'n00Y',Oav,34861
+Rdv,1,'n043',RCv,35845
+Rdv,2,'n044',RCv,35846
+Rdv,3,'n045',RCv,35847
+x2,1,x+qJ,RCv,35848
+y2,1,y,RCv,35849
+x2,2,x+qJ,RCv,35850
+y2,2,y+qJ,RCv,35851
+x2,3,x,RCv,35852
+y2,3,y+qJ,RCv,35853
+x2,4,x-qJ,RCv,35854
+y2,4,y+qJ,RCv,35855
+x2,5,x-qJ,RCv,35856
+y2,5,y,RCv,35857
+x2,6,x-qJ,RCv,35858
+y2,6,y-qJ,RCv,35859
+x2,7,x,RCv,35860
+y2,7,y-qJ,RCv,35861
+x2,8,x+qJ,RCv,35862
+y2,8,y-qJ,RCv,35863
+x2,9,x,RCv,35864
+y2,9,y,RCv,35865
+Rjv,1,'n046',RHv,36032
+Rjv,2,'n047',RHv,36033
+Rjv,3,'n048',RHv,36034
+R7v,0,0,R3v,36521
+R7v,1,2,R3v,36522
+R7v,2,2,R3v,36523
+R7v,3,2,R3v,36524
+R7v,4,3,R3v,36525
+R7v,5,2,R3v,36526
+R8v,0,325,R3v,36527
+R8v,1,195,R3v,36528
+R8v,2,130,R3v,36529
+R8v,3,65,R3v,36530
+R8v,4,0,R3v,36531
+R8v,5,0,R3v,36532
+id,1,'n05F',Iev,36595
+id,2,'n05G',Iev,36596
+id,3,'n070',Iev,36597
+id,1,'n05F',Iov,36664
+id,2,'n05G',Iov,36665
+id,3,'n070',Iov,36666
+Iiv,1,'n05D',Iov,36667
+Iiv,2,'n05C',Iov,36668
+Iiv,3,'n05B',Iov,36669
+Iiv,4,'n05E',Iov,36670
+fG,0,'A0Y0',Iov,36671
+fG,1,'A0Y1',Iov,36672
+fG,2,'A0XX',Iov,36673
+fG,3,'A0XY',Iov,36674
+fG,4,'A0XZ',Iov,36675
+tH,1,5,NXv,38669
+tH,2,7,NXv,38670
+tH,3,9,NXv,38671
+tH,4,6,NXv,38672
+tH,5,8,NXv,38673
+tH,6,10,NXv,38674
+oM,1,75.,NXv,38679
+oM,2,150.,NXv,38680
+oM,3,300.,NXv,38681
+oM,4,150.,NXv,38682
+oM,5,300.,NXv,38683
+oM,6,600.,NXv,38684
+d,0,"LoadUnitHandle(Zo,pG,1)",bjv,39792
+d,1,"LoadUnitHandle(Zo,pG,2)",bjv,39793
+d,0,null,bjv,39860
+d,1,null,bjv,39861
+d,0,"CreateUnit(GetOwningPlayer(u),'n03E',x,y,0.)",bkv,39879
+d,1,"CreateUnit(GetOwningPlayer(u),'n03E',x,y,0.)",bkv,39880
+d,0,null,bkv,39888
+d,1,null,bkv,39889
+qh,1,100.,BSv,40848
+qh,2,180.,BSv,40849
+qh,3,260.,BSv,40850
+Af,1,5,main,42632
+Af,2,5,main,42633
+Af,3,5,main,42634
+Af,4,5,main,42635
+Af,5,6,main,42636
+Af,6,7,main,42637
+Af,7,8,main,42638
+Af,8,8,main,42639
+Af,9,9,main,42640
+Af,10,9,main,42641
+Af,11,9,main,42642
+Af,12,10,main,42643
+Af,13,10,main,42644
+Af,14,11,main,42645
+Af,15,11,main,42646
+Af,16,11,main,42647
+Af,17,12,main,42648
+Af,18,13,main,42649
+Af,19,14,main,42650
+Af,20,0,main,42651
+Nf,0,"""Little_Timmy""",main,42654
+Nf,1,"""Lord_DooM_ayt""",main,42655
+Nf,2,"""Vitiy_1""",main,42656
+Nf,3,"""Vitiy_95""",main,42657
+Nf,4,"""MooMooKhan""",main,42658
+Nf,5,"""Moo_Moo_Khan""",main,42659
+Nf,6,"""ZLOY5""",main,42660
+Nf,7,"""ZLOY""",main,42661
+Nf,8,"""TOPLOWER""",main,42662
+Nf,9,"""TOPOVIY_LOWER""",main,42663
+Nf,10,"""MazalTovGeksli""",main,42664
+Nf,11,"""x___W8___x""",main,42665
+Nf,12,"""WorldEdit""",main,42666
+LA,1,"""Режим""",main,42669
+mA,0,"""|c00808080Выбор героев|r""",main,42670
+mA,1,"""Выбор героев""",main,42671
+MA,0,"""|c00808080Сложность|r""",main,42672
+MA,1,"""Сложность""",main,42673
+pA,0,"""|c00808080Золото поровну|r""",main,42674
+pA,1,"""Золото поровну""",main,42675
+PA,0,"""|c00808080Опыт поровну|r""",main,42676
+PA,1,"""Опыт поровну""",main,42677
+qA,0,"""|c00808080Руны|r""",main,42678
+qA,1,"""Руны""",main,42679
+QA,0,"""|c00808080Взрывные бочки|r""",main,42680
+QA,1,"""Взрывные бочки""",main,42681
+sA,0,"""|c00808080Атака разрушаемых|r""",main,42682
+sA,1,"""Атака разрушаемых""",main,42683
+SA,0,"""|c00808080Некромант (хар-ки)|r""",main,42684
+SA,1,"""Некромант (хар-ки)""",main,42685
+TA,0,"""|c00808080Перемещение героев""",main,42686
+TA,1,"""Перемещение героев""",main,42687
+tA,1,"""Расположение лавок""",main,42688
+rN,1,"""В этом режиме все игроки в союзе. Ваша цель продержаться и победить все 20 волн |nмонстров.""",main,42689
+rN,2,"""В этом режиме игроки делятся на два враждующих клана. Цель вашего клана набрать |nбольше очков рейтинга чем клан противников.""",main,42690
+rN,3,"""Та же \""Битва Кланов\"" с некоторыми отличиями. Мод доступен если количество |nигроков 4/6/8. Выбор героев проходит по очереди. (1-2-1) и т.д.""",main,42691
+rN,4,"""Игроки могут выбрать любого доступного героя.""",main,42692
+rN,5,"""Все игроки получают случайного героя. Получив случайного героя вы получите |nбонус в 100 единиц золота.""",main,42693
+rN,6,"""Игроки получают возможность брать несколько одинаковых героев.""",main,42694
+rN,7,"""Все игроки получают одного и того же героя.""",main,42695
+rN,8,"""Герои получают 120% опыта и 180% золота.""",main,42696
+rN,9,"""Герои получают 100% опыта и 100% золота.""",main,42697
+rN,10,"""Герои получают 70% опыта и 70% золота. Враждебные монстры получают новые или |nулучшают старые заклинания.""",main,42698
+rN,11,"""Всем игрокам дается равное количество золота в конце раунда; за убийство |nмонстров игроки не получают золота.""",main,42699
+rN,12,"""Игроки получают золото за убийства монстров.""",main,42700
+rN,13,"""Все живые герои на карте получают равное количество опыта.""",main,42701
+rN,14,"""Герои получают опыт в радиусе 1300 от убитого монстра.""",main,42702
+rN,15,"""Каждые 45 секунд раунда, в случайном месте появляется любая из рун.""",main,42703
+rN,16,"""Без спавна рун.""",main,42704
+rN,17,"""На арене появляются 6 взрывных бочек.  Уничтожение одной, убивает всех враждебных |nмонстров (в области 500), не давая награды. Отнимает при этом 75 командного рейтинга.""",main,42705
+rN,18,"""Взрывные бочки отсутствуют.""",main,42706
+rN,19,"""Враждебные монстры атакуют разрушаемые бочки.""",main,42707
+rN,20,"""Враждебные монстры не атакуют разрушаемые бочки.""",main,42708
+rN,21,"""В конце раунда, некромант который собирает статистику лучшего игрока, увеличивает |nего характеристики на +2 единицы.""",main,42709
+rN,22,"""Некромант просто собирает статистику.""",main,42710
+rN,23,"""В конце раунда героев перемещает в центр.""",main,42711
+rN,24,"""В конце раунда герои остаются на месте.""",main,42712
+rN,25,"""Стандартное расположение магазинов с предметами.""",main,42713
+rN,26,"""Все лавки перемещаются в один магазин, с возможностью быстрого переключения |nмежду ними.""",main,42714
+UA,1,"""|c00FF0000Выживание|r | Битва Кланов | Турнир Кланов""",main,42715
+UA,2,"""Выживание | |c00FF0000Битва Кланов|r | Турнир Кланов""",main,42716
+UA,3,"""Выживание | Битва Кланов | |c00FF0000Турнир Кланов|r""",main,42717
+WA,0,"""|c00808080Свободный | Случайно | Одинаковые | Одинак. Случ.|r""",main,42718
+WA,1,"""|c00FF0000Свободный|r | Случайно | Одинаковые | Одинак. Случ.""",main,42719
+WA,2,"""Свободный | |c00FF0000Случайно|r | Одинаковые | Одинак. Случ.""",main,42720
+WA,3,"""Свободный | Случайно | |c00FF0000Одинаковые|r | Одинак. Случ.""",main,42721
+WA,4,"""Свободный | Случайно | Одинаковые | |c00FF0000Одинак. Случ.|r""",main,42722
+wA,0,"""|c00808080Легко | Стандарт | Экстрим|r""",main,42723
+wA,1,"""|c00FF0000Легко|r | Стандарт | Экстрим""",main,42724
+wA,2,"""Легко | |c00FF0000Стандарт|r | Экстрим""",main,42725
+wA,3,"""Легко | Стандарт | |c00FF0000Экстрим|r""",main,42726
+yA,0,"""|c00808080Да | Нет|r""",main,42727
+yA,1,"""|c00FF0000Да|r | Нет""",main,42728
+yA,2,"""Да | |c00FF0000Нет|r""",main,42729
+YA,0,"""|c00808080Да | Нет|r""",main,42730
+YA,1,"""|c00FF0000Да|r | Нет""",main,42731
+YA,2,"""Да | |c00FF0000Нет|r""",main,42732
+zA,0,"""|c00808080Да | Нет|r""",main,42733
+zA,1,"""|c00FF0000Да|r | Нет""",main,42734
+zA,2,"""Да | |c00FF0000Нет|r""",main,42735
+ZA,0,"""|c00808080Да | Нет|r""",main,42736
+ZA,1,"""|c00FF0000Да|r | Нет""",main,42737
+ZA,2,"""Да | |c00FF0000Нет|r""",main,42738
+vN,0,"""|c00808080Да | Нет|r""",main,42739
+vN,1,"""|c00FF0000Да|r | Нет""",main,42740
+vN,2,"""Да | |c00FF0000Нет|r""",main,42741
+eN,0,"""|c00808080Да | Нет|r""",main,42742
+eN,1,"""|c00FF0000Да|r | Нет""",main,42743
+eN,2,"""Да | |c00FF0000Нет|r""",main,42744
+xN,1,"""|c00FF0000Стандарт|r | Компактный""",main,42745
+xN,2,"""Стандарт | |c00FF0000Компактный|r""",main,42746
+oN,0,"""|c00808080Да | Нет|r""",main,42747
+oN,1,"""|c00FF0000Да|r | Нет""",main,42748
+oN,2,"""Да | |c00FF0000Нет|r""",main,42749
+hN,1,"""Режим""",main,42821
+hN,2,"""Выбор героев""",main,42822
+hN,3,"""Сложность""",main,42823
+hN,4,"""Золото/Опыт поровну""",main,42824
+hN,5,"""Руны""",main,42825
+hN,6,"""Взрывные бочки""",main,42826
+hN,7,"""Некромант""",main,42827
+hN,8,"""Расположение лавок""",main,42828
+hN,9,"""Одиночная игра""",main,42829
+hN,10,"""Текущая волна""",main,42830
+hN,11,"""Благодарность""",main,42831
+hN,12,"""Игровые команды""",main,42832
+hN,13,"""Рейтинг""",main,42833
+hN,14,"""Вплывающий урон""",main,42834
+hN,15,"""Быстрая покупка""",main,42835
+gN,1,"""• Выживание - В этом режиме все игроки в союзе. Ваша цель в этом режиме продержаться все раунды.",main,42836
+gN,2,"""• Свободный - Игроки могут выбрать любого доступного героя.",main,42839
+gN,3,"""• Легко -  Герои получают  120% опыта и 180% золота.",main,42843
+gN,4,"""• Всем игрокам дается равное количество золота в конце раунда; за убийство монстров игроки не получают золота.",main,42846
+gN,5,"""• Если включена данная настройка, то каждые 45 секунд раунда, в случайном месте будет появляться любая из рун. Каждые 20 секунд на Мегабоссе.""",main,42848
+gN,6,"""• Если включена данная настройка, то на арене появляются 6 взрывных бочек. Уничтожение одной, убивает всех враждебных монстров (в области 500), не давая награды. Отнимает при этом 75 командного рейтинга.",main,42849
+gN,7,"""• Собирает статистические данные о команде на каждый раунд (появляется на арене в конце раунда). Лучший танк означает что герой игрока получил больше всех урона (получает +2 к силе). Лучший убийца - герой игрока нанесший сам или суммонами больше всех урона врагам на арене (получает +2 к ловкости). Лучший чародей - игрок чей герой произнес больше всего заклинаний, включая любые способности предметов (получает +2 к разуму). Войдя в магический круг можно узнать личную статистику.""",main,42851
+gN,8,"""• Стандарт - Стандартное расположение магазинов с предметами.",main,42852
+gN,9,"""• Чтобы пользоваться командами одиночной игры, необходимо предварительно прописать \""-т\"" без кавычек. ",main,42854
+gN,10,""". . .""",main,42860
+gN,11,"""|c00336699• Всем кто принимал участие с версии 2.9 - Little_Timmy, Lord_DooM_ayt, Vitiy_95, Moo_Moo_Khan, ZLOY5, TOPLOWER, MazalTovGeksli;",main,42861
+gN,12,"""• \""-об\"" - игроки имеют возможность меняться героями. \""-обв\"" - желание обменяться сразу со всеми игроками. \""-обн\"" - отменить желание обменяться героями.",main,42865
+gN,13,"""• (мод \""в\"", \""б\"" и \""тк\"") Убийство крипа дает 2 рейтинга (только \""-в\"" мод), босса 20 (делится между игроками наносившие урон). Каждый полученный уровень дает 30, а смерть отнимает 30. 1 улучшениe дает 10 рейтинга.",main,42872
+gN,14,"""• Весь наносимый и получаемый урон отображается в виде всплывающего текста. Отображение соответствует цвету урона: |c00B22222чистый|r, |c00BEBEBEфизический|r, |c004169E1магический|r, |c00696969прочий|r.",main,42874
+gN,15,"""• Система включается с помощью кнопки \""Быстрая покупка\"", которая находится на панели улучшений. В активном режиме, вместо покупки рецептов покупаются уже собранные предметы, с учетом того, что у вас достаточно золота для покупки рецепта и всех составляющих. (Система определяет уже имеющие для сборки предметы и учитывает их стоимость).""",main,42876
+GN,1,"""ReplaceableTextures\\CommandButtons\\BTNCallToArms.blp""",main,42877
+GN,2,"""ReplaceableTextures\\CommandButtons\\BTNHeadHunterBerserker.blp""",main,42878
+GN,3,"""ReplaceableTextures\\CommandButtons\\BTNBattleStations.blp""",main,42879
+GN,4,"""ReplaceableTextures\\CommandButtons\\BTNChestOfGold.blp""",main,42880
+GN,5,"""ReplaceableTextures\\CommandButtons\\BTNRune.blp""",main,42881
+GN,6,"""ReplaceableTextures\\CommandButtons\\BTNBarrel03.blp""",main,42882
+GN,7,"""ReplaceableTextures\\CommandButtons\\BTNKelThuzad.blp""",main,42883
+GN,8,"""ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp""",main,42884
+GN,9,"""ReplaceableTextures\\CommandButtons\\BTNPolymorph.blp""",main,42885
+GN,10,"""ReplaceableTextures\\WorldEditUI\\Editor-MultipleUnits.blp""",main,42886
+GN,11,"""ReplaceableTextures\\PassiveButtons\\BTNCrown.blp""",main,42887
+GN,12,"""ReplaceableTextures\\WorldEditUI\\StartingLocation.blp""",main,42888
+GN,13,"""ReplaceableTextures\\CommandButtons\\BTNManual3.blp""",main,42889
+GN,14,"""ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp""",main,42890
+GN,15,"""ReplaceableTextures\\CommandButtons\\BTNPillage.blp""",main,42891

@@ -1,0 +1,2066 @@
+[
+  {
+    "line": 2,
+    "text": "constant real V=1"
+  },
+  {
+    "line": 3,
+    "text": "constant real E=0"
+  },
+  {
+    "line": 4,
+    "text": "constant real O=0"
+  },
+  {
+    "line": 6,
+    "text": "integer B"
+  },
+  {
+    "line": 7,
+    "text": "integer D"
+  },
+  {
+    "line": 11,
+    "text": "string array K"
+  },
+  {
+    "line": 12,
+    "text": "boolean array M"
+  },
+  {
+    "line": 14,
+    "text": "integer q=0"
+  },
+  {
+    "line": 15,
+    "text": "integer Q=StringHash(\"GAA_Armore\")"
+  },
+  {
+    "line": 16,
+    "text": "integer S=StringHash(\"GAA_Damage\")"
+  },
+  {
+    "line": 17,
+    "text": "integer array U"
+  },
+  {
+    "line": 18,
+    "text": "integer array W"
+  },
+  {
+    "line": 19,
+    "text": "integer array Z"
+  },
+  {
+    "line": 20,
+    "text": "integer array vv"
+  },
+  {
+    "line": 21,
+    "text": "integer array ev"
+  },
+  {
+    "line": 22,
+    "text": "integer array xv"
+  },
+  {
+    "line": 23,
+    "text": "integer array ov"
+  },
+  {
+    "line": 24,
+    "text": "integer array rv"
+  },
+  {
+    "line": 26,
+    "text": "integer array av"
+  },
+  {
+    "line": 27,
+    "text": "integer nv=0"
+  },
+  {
+    "line": 28,
+    "text": "integer array Vv"
+  },
+  {
+    "line": 34,
+    "text": "integer Av"
+  },
+  {
+    "line": 38,
+    "text": "string array Cv"
+  },
+  {
+    "line": 39,
+    "text": "integer dv=0"
+  },
+  {
+    "line": 40,
+    "text": "integer Dv=0"
+  },
+  {
+    "line": 41,
+    "text": "integer fv=0"
+  },
+  {
+    "line": 42,
+    "text": "integer Fv=0"
+  },
+  {
+    "line": 43,
+    "text": "integer gv=0"
+  },
+  {
+    "line": 44,
+    "text": "integer Gv=0"
+  },
+  {
+    "line": 45,
+    "text": "integer hv=0"
+  },
+  {
+    "line": 46,
+    "text": "integer Hv=0"
+  },
+  {
+    "line": 47,
+    "text": "integer jv=0"
+  },
+  {
+    "line": 48,
+    "text": "integer Jv=0"
+  },
+  {
+    "line": 49,
+    "text": "integer kv=0x100000"
+  },
+  {
+    "line": 51,
+    "text": "integer lv=0"
+  },
+  {
+    "line": 52,
+    "text": "string array Lv"
+  },
+  {
+    "line": 53,
+    "text": "string array mv"
+  },
+  {
+    "line": 55,
+    "text": "constant real pv=-0.061875"
+  },
+  {
+    "line": 59,
+    "text": "real sv=0."
+  },
+  {
+    "line": 63,
+    "text": "boolean array uv"
+  },
+  {
+    "line": 68,
+    "text": "integer Yv"
+  },
+  {
+    "line": 76,
+    "text": "integer array ae"
+  },
+  {
+    "line": 83,
+    "text": "integer Ie"
+  },
+  {
+    "line": 84,
+    "text": "integer Ae"
+  },
+  {
+    "line": 97,
+    "text": "boolean He"
+  },
+  {
+    "line": 99,
+    "text": "real Je"
+  },
+  {
+    "line": 100,
+    "text": "real ke"
+  },
+  {
+    "line": 101,
+    "text": "real Ke"
+  },
+  {
+    "line": 111,
+    "text": "real Se"
+  },
+  {
+    "line": 112,
+    "text": "real Te"
+  },
+  {
+    "line": 116,
+    "text": "integer ye"
+  },
+  {
+    "line": 120,
+    "text": "integer array vx"
+  },
+  {
+    "line": 124,
+    "text": "integer array ax"
+  },
+  {
+    "line": 133,
+    "text": "integer Nx"
+  },
+  {
+    "line": 134,
+    "text": "integer bx"
+  },
+  {
+    "line": 135,
+    "text": "integer array Bx"
+  },
+  {
+    "line": 139,
+    "text": "integer fx"
+  },
+  {
+    "line": 140,
+    "text": "integer Fx=0"
+  },
+  {
+    "line": 141,
+    "text": "integer array gx"
+  },
+  {
+    "line": 144,
+    "text": "integer Hx=0"
+  },
+  {
+    "line": 145,
+    "text": "integer array jx"
+  },
+  {
+    "line": 146,
+    "text": "integer array Jx"
+  },
+  {
+    "line": 148,
+    "text": "integer array Kx"
+  },
+  {
+    "line": 149,
+    "text": "integer array lx"
+  },
+  {
+    "line": 150,
+    "text": "integer array Lx"
+  },
+  {
+    "line": 151,
+    "text": "integer array mx"
+  },
+  {
+    "line": 152,
+    "text": "integer Mx=0"
+  },
+  {
+    "line": 153,
+    "text": "boolean px=false"
+  },
+  {
+    "line": 154,
+    "text": "integer Px=0"
+  },
+  {
+    "line": 155,
+    "text": "integer qx=0"
+  },
+  {
+    "line": 156,
+    "text": "boolean Qx=false"
+  },
+  {
+    "line": 157,
+    "text": "real array sx"
+  },
+  {
+    "line": 158,
+    "text": "real array Sx"
+  },
+  {
+    "line": 159,
+    "text": "integer array Tx"
+  },
+  {
+    "line": 160,
+    "text": "integer Ux=0"
+  },
+  {
+    "line": 161,
+    "text": "boolean wx=false"
+  },
+  {
+    "line": 162,
+    "text": "boolean Wx=false"
+  },
+  {
+    "line": 163,
+    "text": "integer array yx"
+  },
+  {
+    "line": 164,
+    "text": "integer Yx=0"
+  },
+  {
+    "line": 165,
+    "text": "integer zx=0"
+  },
+  {
+    "line": 168,
+    "text": "boolean eo=false"
+  },
+  {
+    "line": 169,
+    "text": "integer array xo"
+  },
+  {
+    "line": 172,
+    "text": "boolean array io"
+  },
+  {
+    "line": 173,
+    "text": "boolean ao=false"
+  },
+  {
+    "line": 174,
+    "text": "integer array no"
+  },
+  {
+    "line": 175,
+    "text": "boolean array Vo"
+  },
+  {
+    "line": 176,
+    "text": "string array Eo"
+  },
+  {
+    "line": 177,
+    "text": "integer array Xo"
+  },
+  {
+    "line": 182,
+    "text": "integer array No"
+  },
+  {
+    "line": 183,
+    "text": "boolean Bo=false"
+  },
+  {
+    "line": 184,
+    "text": "integer co=0"
+  },
+  {
+    "line": 185,
+    "text": "integer Co=0"
+  },
+  {
+    "line": 186,
+    "text": "boolean array do"
+  },
+  {
+    "line": 187,
+    "text": "boolean array Do"
+  },
+  {
+    "line": 188,
+    "text": "boolean array fo"
+  },
+  {
+    "line": 191,
+    "text": "integer ho=0"
+  },
+  {
+    "line": 192,
+    "text": "boolean Ho=false"
+  },
+  {
+    "line": 193,
+    "text": "boolean jo=false"
+  },
+  {
+    "line": 194,
+    "text": "boolean array Jo"
+  },
+  {
+    "line": 195,
+    "text": "integer ko=0"
+  },
+  {
+    "line": 197,
+    "text": "boolean lo=false"
+  },
+  {
+    "line": 198,
+    "text": "boolean Lo=false"
+  },
+  {
+    "line": 200,
+    "text": "string array Mo"
+  },
+  {
+    "line": 202,
+    "text": "boolean array Po"
+  },
+  {
+    "line": 203,
+    "text": "boolean qo=false"
+  },
+  {
+    "line": 204,
+    "text": "integer Qo=0"
+  },
+  {
+    "line": 208,
+    "text": "boolean To=false"
+  },
+  {
+    "line": 212,
+    "text": "integer Wo=0"
+  },
+  {
+    "line": 213,
+    "text": "boolean yo=false"
+  },
+  {
+    "line": 214,
+    "text": "string array Yo"
+  },
+  {
+    "line": 222,
+    "text": "real array nr"
+  },
+  {
+    "line": 224,
+    "text": "integer array Er"
+  },
+  {
+    "line": 225,
+    "text": "integer Xr=0"
+  },
+  {
+    "line": 234,
+    "text": "boolean Dr=false"
+  },
+  {
+    "line": 235,
+    "text": "boolean fr=false"
+  },
+  {
+    "line": 236,
+    "text": "integer array Fr"
+  },
+  {
+    "line": 237,
+    "text": "real Gr=0"
+  },
+  {
+    "line": 238,
+    "text": "integer hr=0"
+  },
+  {
+    "line": 242,
+    "text": "boolean kr=false"
+  },
+  {
+    "line": 243,
+    "text": "integer Kr=0"
+  },
+  {
+    "line": 244,
+    "text": "integer lr=0"
+  },
+  {
+    "line": 247,
+    "text": "integer array Mr"
+  },
+  {
+    "line": 248,
+    "text": "boolean array pr"
+  },
+  {
+    "line": 249,
+    "text": "integer Pr=0"
+  },
+  {
+    "line": 250,
+    "text": "integer qr=0"
+  },
+  {
+    "line": 252,
+    "text": "boolean sr=false"
+  },
+  {
+    "line": 254,
+    "text": "boolean array Tr"
+  },
+  {
+    "line": 255,
+    "text": "boolean ur=false"
+  },
+  {
+    "line": 257,
+    "text": "integer array wr"
+  },
+  {
+    "line": 259,
+    "text": "integer array Yr"
+  },
+  {
+    "line": 260,
+    "text": "boolean array zr"
+  },
+  {
+    "line": 262,
+    "text": "boolean vi=false"
+  },
+  {
+    "line": 263,
+    "text": "boolean ei=false"
+  },
+  {
+    "line": 266,
+    "text": "integer ri=0"
+  },
+  {
+    "line": 270,
+    "text": "boolean Vi=false"
+  },
+  {
+    "line": 271,
+    "text": "boolean Ei=false"
+  },
+  {
+    "line": 274,
+    "text": "integer Ri=0"
+  },
+  {
+    "line": 276,
+    "text": "string array Ai"
+  },
+  {
+    "line": 277,
+    "text": "integer Ni=0"
+  },
+  {
+    "line": 278,
+    "text": "integer array bi"
+  },
+  {
+    "line": 279,
+    "text": "integer array Bi"
+  },
+  {
+    "line": 280,
+    "text": "integer array ci"
+  },
+  {
+    "line": 281,
+    "text": "integer array Ci"
+  },
+  {
+    "line": 282,
+    "text": "integer array di"
+  },
+  {
+    "line": 283,
+    "text": "integer array Di"
+  },
+  {
+    "line": 284,
+    "text": "string array fi"
+  },
+  {
+    "line": 288,
+    "text": "boolean hi=false"
+  },
+  {
+    "line": 289,
+    "text": "string array Hi"
+  },
+  {
+    "line": 291,
+    "text": "string array Ji"
+  },
+  {
+    "line": 292,
+    "text": "integer array ki"
+  },
+  {
+    "line": 293,
+    "text": "integer array Ki"
+  },
+  {
+    "line": 294,
+    "text": "integer array li"
+  },
+  {
+    "line": 295,
+    "text": "real array Li"
+  },
+  {
+    "line": 296,
+    "text": "integer array mi"
+  },
+  {
+    "line": 297,
+    "text": "integer array Mi"
+  },
+  {
+    "line": 300,
+    "text": "boolean Qi=false"
+  },
+  {
+    "line": 302,
+    "text": "real array Si"
+  },
+  {
+    "line": 303,
+    "text": "real array ti"
+  },
+  {
+    "line": 304,
+    "text": "boolean Ti=false"
+  },
+  {
+    "line": 306,
+    "text": "boolean Ui=false"
+  },
+  {
+    "line": 309,
+    "text": "boolean yi=false"
+  },
+  {
+    "line": 310,
+    "text": "real Yi=0"
+  },
+  {
+    "line": 311,
+    "text": "integer array zi"
+  },
+  {
+    "line": 312,
+    "text": "boolean Zi=false"
+  },
+  {
+    "line": 723,
+    "text": "boolean nA"
+  },
+  {
+    "line": 724,
+    "text": "string array VA"
+  },
+  {
+    "line": 725,
+    "text": "boolean EA"
+  },
+  {
+    "line": 726,
+    "text": "integer XA"
+  },
+  {
+    "line": 727,
+    "text": "integer OA"
+  },
+  {
+    "line": 729,
+    "text": "boolean IA"
+  },
+  {
+    "line": 730,
+    "text": "string array AA"
+  },
+  {
+    "line": 731,
+    "text": "real NA"
+  },
+  {
+    "line": 732,
+    "text": "real bA"
+  },
+  {
+    "line": 733,
+    "text": "integer BA"
+  },
+  {
+    "line": 739,
+    "text": "string FA=\"|r  активировал  руну  |c0020B2AAЛ а г у з|r,  найдите  и  активируйте  другие  руны ...\""
+  },
+  {
+    "line": 740,
+    "text": "string gA=\"|r  активировал  руну  |c00D8BFD8А й в о с|r,  найдите  и  активируйте  другие  руны ...\""
+  },
+  {
+    "line": 741,
+    "text": "string GA=\"|r  активировал  руну  |c00B22222И н г у с|r,  найдите  и  активируйте  другие  руны ...\""
+  },
+  {
+    "line": 742,
+    "text": "string hA=\"Вы  активировали  руну  |c008B4513П е р т|r,  найдите  и  активируйте  другие  руны ...\""
+  },
+  {
+    "line": 743,
+    "text": "string HA=\"|r  активировал  последнюю  руну  |c008B008BИ с а|r ...\""
+  },
+  {
+    "line": 744,
+    "text": "string jA=\"Вам  удалось  убить  |c00FF0000Н е к р о м а н т а|r\""
+  },
+  {
+    "line": 745,
+    "text": "string JA=\"|c00FF0000Н е к р о м а н т|r  уходит ...\""
+  },
+  {
+    "line": 746,
+    "text": "string kA=\"Взломщик. Хера ты тут забыл? м м м ...\""
+  },
+  {
+    "line": 748,
+    "text": "string lA"
+  },
+  {
+    "line": 749,
+    "text": "string array LA"
+  },
+  {
+    "line": 750,
+    "text": "string array mA"
+  },
+  {
+    "line": 751,
+    "text": "string array MA"
+  },
+  {
+    "line": 752,
+    "text": "string array pA"
+  },
+  {
+    "line": 753,
+    "text": "string array PA"
+  },
+  {
+    "line": 754,
+    "text": "string array qA"
+  },
+  {
+    "line": 755,
+    "text": "string array QA"
+  },
+  {
+    "line": 756,
+    "text": "string array sA"
+  },
+  {
+    "line": 757,
+    "text": "string array SA"
+  },
+  {
+    "line": 758,
+    "text": "string array tA"
+  },
+  {
+    "line": 759,
+    "text": "string array TA"
+  },
+  {
+    "line": 760,
+    "text": "string array UA"
+  },
+  {
+    "line": 761,
+    "text": "string array wA"
+  },
+  {
+    "line": 762,
+    "text": "string array WA"
+  },
+  {
+    "line": 763,
+    "text": "string array yA"
+  },
+  {
+    "line": 764,
+    "text": "string array YA"
+  },
+  {
+    "line": 765,
+    "text": "string array zA"
+  },
+  {
+    "line": 766,
+    "text": "string array ZA"
+  },
+  {
+    "line": 767,
+    "text": "string array vN"
+  },
+  {
+    "line": 768,
+    "text": "string array eN"
+  },
+  {
+    "line": 769,
+    "text": "string array xN"
+  },
+  {
+    "line": 770,
+    "text": "string array oN"
+  },
+  {
+    "line": 771,
+    "text": "string array rN"
+  },
+  {
+    "line": 772,
+    "text": "integer iN"
+  },
+  {
+    "line": 773,
+    "text": "integer aN"
+  },
+  {
+    "line": 774,
+    "text": "integer nN"
+  },
+  {
+    "line": 775,
+    "text": "integer VN"
+  },
+  {
+    "line": 776,
+    "text": "integer EN"
+  },
+  {
+    "line": 777,
+    "text": "integer XN"
+  },
+  {
+    "line": 778,
+    "text": "integer ON"
+  },
+  {
+    "line": 779,
+    "text": "integer RN"
+  },
+  {
+    "line": 780,
+    "text": "integer IN"
+  },
+  {
+    "line": 781,
+    "text": "integer AN"
+  },
+  {
+    "line": 782,
+    "text": "integer NN"
+  },
+  {
+    "line": 783,
+    "text": "integer bN"
+  },
+  {
+    "line": 787,
+    "text": "boolean dN=false"
+  },
+  {
+    "line": 788,
+    "text": "boolean DN=false"
+  },
+  {
+    "line": 789,
+    "text": "boolean fN=false"
+  },
+  {
+    "line": 790,
+    "text": "boolean FN=false"
+  },
+  {
+    "line": 791,
+    "text": "string array gN"
+  },
+  {
+    "line": 792,
+    "text": "string array GN"
+  },
+  {
+    "line": 793,
+    "text": "string array hN"
+  },
+  {
+    "line": 794,
+    "text": "boolean array HN"
+  },
+  {
+    "line": 795,
+    "text": "integer array jN"
+  },
+  {
+    "line": 796,
+    "text": "integer array JN"
+  },
+  {
+    "line": 797,
+    "text": "integer array kN"
+  },
+  {
+    "line": 798,
+    "text": "integer array KN"
+  },
+  {
+    "line": 799,
+    "text": "integer array lN"
+  },
+  {
+    "line": 800,
+    "text": "integer array LN"
+  },
+  {
+    "line": 801,
+    "text": "integer array mN"
+  },
+  {
+    "line": 802,
+    "text": "integer array MN"
+  },
+  {
+    "line": 803,
+    "text": "integer array pN"
+  },
+  {
+    "line": 804,
+    "text": "string array PN"
+  },
+  {
+    "line": 805,
+    "text": "string array qN"
+  },
+  {
+    "line": 806,
+    "text": "real array QN"
+  },
+  {
+    "line": 807,
+    "text": "real array sN"
+  },
+  {
+    "line": 809,
+    "text": "integer tN"
+  },
+  {
+    "line": 810,
+    "text": "boolean TN"
+  },
+  {
+    "line": 811,
+    "text": "boolean uN"
+  },
+  {
+    "line": 812,
+    "text": "boolean UN"
+  },
+  {
+    "line": 813,
+    "text": "boolean wN"
+  },
+  {
+    "line": 814,
+    "text": "boolean WN"
+  },
+  {
+    "line": 815,
+    "text": "boolean yN"
+  },
+  {
+    "line": 816,
+    "text": "boolean YN"
+  },
+  {
+    "line": 817,
+    "text": "boolean zN"
+  },
+  {
+    "line": 818,
+    "text": "boolean ZN"
+  },
+  {
+    "line": 819,
+    "text": "boolean vb"
+  },
+  {
+    "line": 820,
+    "text": "boolean eb"
+  },
+  {
+    "line": 821,
+    "text": "boolean xb"
+  },
+  {
+    "line": 822,
+    "text": "boolean ob"
+  },
+  {
+    "line": 823,
+    "text": "boolean rb"
+  },
+  {
+    "line": 824,
+    "text": "boolean ib"
+  },
+  {
+    "line": 825,
+    "text": "boolean ab"
+  },
+  {
+    "line": 826,
+    "text": "boolean nb"
+  },
+  {
+    "line": 827,
+    "text": "boolean Vb"
+  },
+  {
+    "line": 828,
+    "text": "boolean Eb"
+  },
+  {
+    "line": 829,
+    "text": "boolean Xb"
+  },
+  {
+    "line": 830,
+    "text": "boolean Ob"
+  },
+  {
+    "line": 831,
+    "text": "boolean Rb"
+  },
+  {
+    "line": 832,
+    "text": "boolean Ib"
+  },
+  {
+    "line": 833,
+    "text": "boolean Ab"
+  },
+  {
+    "line": 834,
+    "text": "boolean Nb"
+  },
+  {
+    "line": 835,
+    "text": "boolean Bb"
+  },
+  {
+    "line": 836,
+    "text": "boolean Cb"
+  },
+  {
+    "line": 837,
+    "text": "boolean db"
+  },
+  {
+    "line": 838,
+    "text": "boolean Db"
+  },
+  {
+    "line": 839,
+    "text": "boolean fb"
+  },
+  {
+    "line": 840,
+    "text": "boolean Fb"
+  },
+  {
+    "line": 841,
+    "text": "boolean gb"
+  },
+  {
+    "line": 842,
+    "text": "boolean Gb"
+  },
+  {
+    "line": 843,
+    "text": "boolean hb"
+  },
+  {
+    "line": 844,
+    "text": "boolean Hb"
+  },
+  {
+    "line": 845,
+    "text": "boolean jb"
+  },
+  {
+    "line": 846,
+    "text": "boolean Jb"
+  },
+  {
+    "line": 847,
+    "text": "boolean kb"
+  },
+  {
+    "line": 848,
+    "text": "boolean Kb"
+  },
+  {
+    "line": 849,
+    "text": "boolean lb"
+  },
+  {
+    "line": 850,
+    "text": "boolean Lb"
+  },
+  {
+    "line": 851,
+    "text": "boolean Mb"
+  },
+  {
+    "line": 852,
+    "text": "boolean pb"
+  },
+  {
+    "line": 853,
+    "text": "boolean Pb"
+  },
+  {
+    "line": 854,
+    "text": "boolean qb"
+  },
+  {
+    "line": 855,
+    "text": "boolean Qb"
+  },
+  {
+    "line": 856,
+    "text": "boolean sb"
+  },
+  {
+    "line": 857,
+    "text": "boolean Sb"
+  },
+  {
+    "line": 858,
+    "text": "boolean tb"
+  },
+  {
+    "line": 859,
+    "text": "boolean Tb"
+  },
+  {
+    "line": 860,
+    "text": "boolean ub"
+  },
+  {
+    "line": 861,
+    "text": "boolean Ub"
+  },
+  {
+    "line": 862,
+    "text": "boolean wb"
+  },
+  {
+    "line": 863,
+    "text": "boolean Wb"
+  },
+  {
+    "line": 864,
+    "text": "boolean yb"
+  },
+  {
+    "line": 865,
+    "text": "boolean Yb"
+  },
+  {
+    "line": 866,
+    "text": "boolean zb"
+  },
+  {
+    "line": 867,
+    "text": "boolean Zb"
+  },
+  {
+    "line": 868,
+    "text": "boolean vB"
+  },
+  {
+    "line": 869,
+    "text": "boolean eB"
+  },
+  {
+    "line": 870,
+    "text": "boolean xB"
+  },
+  {
+    "line": 871,
+    "text": "boolean oB"
+  },
+  {
+    "line": 872,
+    "text": "real rB"
+  },
+  {
+    "line": 879,
+    "text": "boolean array OB"
+  },
+  {
+    "line": 882,
+    "text": "boolean AB"
+  },
+  {
+    "line": 883,
+    "text": "integer NB"
+  },
+  {
+    "line": 884,
+    "text": "integer bB"
+  },
+  {
+    "line": 885,
+    "text": "integer BB"
+  },
+  {
+    "line": 886,
+    "text": "boolean cB"
+  },
+  {
+    "line": 887,
+    "text": "real CB=125."
+  },
+  {
+    "line": 888,
+    "text": "integer dB"
+  },
+  {
+    "line": 889,
+    "text": "boolean DB"
+  },
+  {
+    "line": 890,
+    "text": "real fB=275."
+  },
+  {
+    "line": 895,
+    "text": "integer HB"
+  },
+  {
+    "line": 896,
+    "text": "boolean jB"
+  },
+  {
+    "line": 897,
+    "text": "real JB=100."
+  },
+  {
+    "line": 898,
+    "text": "real kB=30."
+  },
+  {
+    "line": 899,
+    "text": "integer KB"
+  },
+  {
+    "line": 900,
+    "text": "integer lB"
+  },
+  {
+    "line": 904,
+    "text": "boolean PB"
+  },
+  {
+    "line": 905,
+    "text": "boolean qB"
+  },
+  {
+    "line": 906,
+    "text": "boolean QB"
+  },
+  {
+    "line": 907,
+    "text": "boolean sB"
+  },
+  {
+    "line": 910,
+    "text": "integer TB"
+  },
+  {
+    "line": 911,
+    "text": "integer uB"
+  },
+  {
+    "line": 913,
+    "text": "integer wB=0"
+  },
+  {
+    "line": 915,
+    "text": "integer yB"
+  },
+  {
+    "line": 918,
+    "text": "integer YB"
+  },
+  {
+    "line": 919,
+    "text": "integer zB"
+  },
+  {
+    "line": 920,
+    "text": "integer ZB"
+  },
+  {
+    "line": 921,
+    "text": "integer vc"
+  },
+  {
+    "line": 923,
+    "text": "integer xc"
+  },
+  {
+    "line": 927,
+    "text": "integer ac"
+  },
+  {
+    "line": 930,
+    "text": "real X"
+  },
+  {
+    "line": 931,
+    "text": "real Y"
+  },
+  {
+    "line": 936,
+    "text": "integer Ic"
+  },
+  {
+    "line": 937,
+    "text": "real Ac=0"
+  },
+  {
+    "line": 938,
+    "text": "real Nc=0"
+  },
+  {
+    "line": 942,
+    "text": "integer Cc"
+  },
+  {
+    "line": 948,
+    "text": "integer Gc=0"
+  },
+  {
+    "line": 949,
+    "text": "integer Hc=0"
+  },
+  {
+    "line": 950,
+    "text": "integer array jc"
+  },
+  {
+    "line": 952,
+    "text": "boolean array kc"
+  },
+  {
+    "line": 953,
+    "text": "real array Kc"
+  },
+  {
+    "line": 954,
+    "text": "real array lc"
+  },
+  {
+    "line": 955,
+    "text": "real array Lc"
+  },
+  {
+    "line": 957,
+    "text": "real array Mc"
+  },
+  {
+    "line": 958,
+    "text": "real array pc"
+  },
+  {
+    "line": 960,
+    "text": "real array qc"
+  },
+  {
+    "line": 961,
+    "text": "real array Qc"
+  },
+  {
+    "line": 962,
+    "text": "real array sc"
+  },
+  {
+    "line": 963,
+    "text": "real array Sc"
+  },
+  {
+    "line": 964,
+    "text": "real array tc"
+  },
+  {
+    "line": 965,
+    "text": "real array Tc"
+  },
+  {
+    "line": 966,
+    "text": "real array uc"
+  },
+  {
+    "line": 967,
+    "text": "real array Uc"
+  },
+  {
+    "line": 968,
+    "text": "integer array wc"
+  },
+  {
+    "line": 969,
+    "text": "integer array Wc"
+  },
+  {
+    "line": 970,
+    "text": "integer array yc"
+  },
+  {
+    "line": 971,
+    "text": "integer array Yc"
+  },
+  {
+    "line": 972,
+    "text": "integer array zc"
+  },
+  {
+    "line": 973,
+    "text": "integer array Zc"
+  },
+  {
+    "line": 974,
+    "text": "real array vC"
+  },
+  {
+    "line": 975,
+    "text": "boolean array eC"
+  },
+  {
+    "line": 976,
+    "text": "real array xC"
+  },
+  {
+    "line": 977,
+    "text": "real array oC"
+  },
+  {
+    "line": 978,
+    "text": "string array rC"
+  },
+  {
+    "line": 979,
+    "text": "boolean array iC"
+  },
+  {
+    "line": 982,
+    "text": "real array EC"
+  },
+  {
+    "line": 983,
+    "text": "boolean array XC"
+  },
+  {
+    "line": 984,
+    "text": "integer array OC"
+  },
+  {
+    "line": 985,
+    "text": "integer array RC"
+  },
+  {
+    "line": 986,
+    "text": "integer IC=0"
+  },
+  {
+    "line": 987,
+    "text": "integer AC=0"
+  },
+  {
+    "line": 988,
+    "text": "integer array NC"
+  },
+  {
+    "line": 989,
+    "text": "integer bC=0"
+  },
+  {
+    "line": 990,
+    "text": "integer array BC"
+  },
+  {
+    "line": 991,
+    "text": "integer array cC"
+  },
+  {
+    "line": 992,
+    "text": "integer array CC"
+  },
+  {
+    "line": 993,
+    "text": "integer array dC"
+  },
+  {
+    "line": 994,
+    "text": "integer array DC"
+  },
+  {
+    "line": 995,
+    "text": "integer array fC"
+  },
+  {
+    "line": 996,
+    "text": "integer array FC"
+  },
+  {
+    "line": 997,
+    "text": "integer array gC"
+  },
+  {
+    "line": 998,
+    "text": "integer array GC"
+  },
+  {
+    "line": 999,
+    "text": "integer array hC"
+  },
+  {
+    "line": 1000,
+    "text": "integer HC=0"
+  },
+  {
+    "line": 1001,
+    "text": "integer jC=0"
+  },
+  {
+    "line": 1002,
+    "text": "integer array JC"
+  },
+  {
+    "line": 1003,
+    "text": "integer kC=0"
+  },
+  {
+    "line": 1004,
+    "text": "integer array KC"
+  },
+  {
+    "line": 1005,
+    "text": "integer array lC"
+  },
+  {
+    "line": 1006,
+    "text": "string array LC"
+  },
+  {
+    "line": 1007,
+    "text": "integer mC=0"
+  },
+  {
+    "line": 1008,
+    "text": "integer MC=0"
+  },
+  {
+    "line": 1009,
+    "text": "integer array pC"
+  },
+  {
+    "line": 1010,
+    "text": "integer PC=0"
+  },
+  {
+    "line": 1011,
+    "text": "integer array qC"
+  },
+  {
+    "line": 1012,
+    "text": "integer array QC"
+  },
+  {
+    "line": 1013,
+    "text": "integer array sC"
+  },
+  {
+    "line": 1014,
+    "text": "real array SC"
+  },
+  {
+    "line": 1015,
+    "text": "integer tC=0"
+  },
+  {
+    "line": 1016,
+    "text": "integer TC=0"
+  },
+  {
+    "line": 1017,
+    "text": "integer array uC"
+  },
+  {
+    "line": 1018,
+    "text": "integer UC=0"
+  },
+  {
+    "line": 1019,
+    "text": "integer array wC"
+  },
+  {
+    "line": 1020,
+    "text": "integer array WC"
+  },
+  {
+    "line": 1021,
+    "text": "real array yC"
+  },
+  {
+    "line": 1022,
+    "text": "integer YC=0"
+  },
+  {
+    "line": 1023,
+    "text": "integer zC=0"
+  },
+  {
+    "line": 1024,
+    "text": "integer array ZC"
+  },
+  {
+    "line": 1028,
+    "text": "integer array rd"
+  },
+  {
+    "line": 1029,
+    "text": "real array ad"
+  },
+  {
+    "line": 1030,
+    "text": "integer nd=0"
+  },
+  {
+    "line": 1031,
+    "text": "integer Vd=0"
+  },
+  {
+    "line": 1032,
+    "text": "integer array Ed"
+  },
+  {
+    "line": 1037,
+    "text": "integer array bd"
+  },
+  {
+    "line": 1038,
+    "text": "integer Bd=0"
+  },
+  {
+    "line": 1039,
+    "text": "integer Cd=0"
+  },
+  {
+    "line": 1040,
+    "text": "integer array dd"
+  },
+  {
+    "line": 1041,
+    "text": "integer array Dd"
+  },
+  {
+    "line": 1042,
+    "text": "integer array fd"
+  },
+  {
+    "line": 1043,
+    "text": "integer array Fd"
+  },
+  {
+    "line": 1044,
+    "text": "integer array Gd"
+  },
+  {
+    "line": 1045,
+    "text": "integer array hd"
+  },
+  {
+    "line": 1046,
+    "text": "integer array Hd"
+  },
+  {
+    "line": 1047,
+    "text": "integer jd=0"
+  },
+  {
+    "line": 1048,
+    "text": "integer Jd=0"
+  },
+  {
+    "line": 1049,
+    "text": "integer array kd"
+  },
+  {
+    "line": 1050,
+    "text": "integer array Kd"
+  },
+  {
+    "line": 1051,
+    "text": "integer array ld"
+  },
+  {
+    "line": 1052,
+    "text": "integer array Ld"
+  },
+  {
+    "line": 1053,
+    "text": "integer md=0"
+  },
+  {
+    "line": 1054,
+    "text": "integer Md=0"
+  },
+  {
+    "line": 1055,
+    "text": "integer array Pd"
+  },
+  {
+    "line": 1056,
+    "text": "integer array qd"
+  },
+  {
+    "line": 1057,
+    "text": "integer array Qd"
+  },
+  {
+    "line": 1058,
+    "text": "boolean array sd"
+  },
+  {
+    "line": 1059,
+    "text": "integer Sd=0"
+  },
+  {
+    "line": 1060,
+    "text": "integer td=0"
+  },
+  {
+    "line": 1061,
+    "text": "integer array Td"
+  },
+  {
+    "line": 1062,
+    "text": "integer array Ud"
+  },
+  {
+    "line": 1063,
+    "text": "integer array wd"
+  },
+  {
+    "line": 1064,
+    "text": "integer array Wd"
+  },
+  {
+    "line": 1065,
+    "text": "integer yd=0"
+  },
+  {
+    "line": 1066,
+    "text": "integer Yd=0"
+  },
+  {
+    "line": 1067,
+    "text": "integer array zd"
+  },
+  {
+    "line": 1071,
+    "text": "integer array xD"
+  },
+  {
+    "line": 1072,
+    "text": "real array oD"
+  },
+  {
+    "line": 1073,
+    "text": "integer rD=0"
+  },
+  {
+    "line": 1074,
+    "text": "integer aD=0"
+  },
+  {
+    "line": 1075,
+    "text": "integer array nD"
+  },
+  {
+    "line": 1079,
+    "text": "integer array OD"
+  },
+  {
+    "line": 1081,
+    "text": "integer array AD"
+  },
+  {
+    "line": 1082,
+    "text": "real array ND"
+  },
+  {
+    "line": 1083,
+    "text": "integer bD=0"
+  },
+  {
+    "line": 1084,
+    "text": "integer BD=0"
+  },
+  {
+    "line": 1085,
+    "text": "integer array cD"
+  },
+  {
+    "line": 1089,
+    "text": "integer array FD"
+  },
+  {
+    "line": 1090,
+    "text": "real array gD"
+  },
+  {
+    "line": 1091,
+    "text": "integer GD=0"
+  },
+  {
+    "line": 1092,
+    "text": "integer hD=0"
+  },
+  {
+    "line": 1093,
+    "text": "integer array HD"
+  },
+  {
+    "line": 1097,
+    "text": "integer array KD"
+  },
+  {
+    "line": 1099,
+    "text": "integer array LD"
+  },
+  {
+    "line": 1100,
+    "text": "integer array mD"
+  },
+  {
+    "line": 1101,
+    "text": "integer array MD"
+  },
+  {
+    "line": 1102,
+    "text": "integer array PD"
+  },
+  {
+    "line": 1103,
+    "text": "integer array qD"
+  },
+  {
+    "line": 1104,
+    "text": "integer array QD"
+  },
+  {
+    "line": 1105,
+    "text": "integer array sD"
+  },
+  {
+    "line": 1106,
+    "text": "integer array SD"
+  },
+  {
+    "line": 1107,
+    "text": "integer array tD"
+  },
+  {
+    "line": 1108,
+    "text": "integer array TD"
+  },
+  {
+    "line": 1109,
+    "text": "integer array UD"
+  },
+  {
+    "line": 1110,
+    "text": "integer array wD"
+  },
+  {
+    "line": 1111,
+    "text": "integer array WD"
+  },
+  {
+    "line": 1112,
+    "text": "integer array yD"
+  },
+  {
+    "line": 1113,
+    "text": "integer array YD"
+  },
+  {
+    "line": 1114,
+    "text": "integer array zD"
+  },
+  {
+    "line": 1115,
+    "text": "integer array ZD"
+  },
+  {
+    "line": 1116,
+    "text": "integer array vf"
+  },
+  {
+    "line": 1117,
+    "text": "integer array ef"
+  },
+  {
+    "line": 1118,
+    "text": "integer array xf"
+  },
+  {
+    "line": 1120,
+    "text": "integer array rf"
+  },
+  {
+    "line": 1121,
+    "text": "real array af"
+  },
+  {
+    "line": 1122,
+    "text": "string array nf"
+  },
+  {
+    "line": 1123,
+    "text": "real array Vf"
+  },
+  {
+    "line": 1124,
+    "text": "string array Ef"
+  },
+  {
+    "line": 1125,
+    "text": "real array Xf"
+  },
+  {
+    "line": 1126,
+    "text": "real array Of"
+  },
+  {
+    "line": 1127,
+    "text": "real array Rf"
+  },
+  {
+    "line": 1128,
+    "text": "real array If"
+  },
+  {
+    "line": 1129,
+    "text": "integer array Af"
+  },
+  {
+    "line": 1130,
+    "text": "string array Nf"
+  },
+  {
+    "line": 1131,
+    "text": "integer array bf"
+  },
+  {
+    "line": 1132,
+    "text": "integer array Bf"
+  },
+  {
+    "line": 1133,
+    "text": "integer array cf"
+  },
+  {
+    "line": 1134,
+    "text": "integer array Cf"
+  },
+  {
+    "line": 1135,
+    "text": "integer array df"
+  },
+  {
+    "line": 1136,
+    "text": "integer array Df"
+  },
+  {
+    "line": 1138,
+    "text": "string array Ff"
+  },
+  {
+    "line": 1139,
+    "text": "string array gf"
+  },
+  {
+    "line": 1140,
+    "text": "string array Gf"
+  },
+  {
+    "line": 1141,
+    "text": "integer array hf"
+  },
+  {
+    "line": 1142,
+    "text": "real array Hf"
+  },
+  {
+    "line": 1143,
+    "text": "real array jf"
+  },
+  {
+    "line": 1144,
+    "text": "real array Jf"
+  },
+  {
+    "line": 1145,
+    "text": "real array kf"
+  },
+  {
+    "line": 1146,
+    "text": "real array Kf"
+  },
+  {
+    "line": 1147,
+    "text": "real array lf"
+  },
+  {
+    "line": 1151,
+    "text": "integer pf"
+  },
+  {
+    "line": 1152,
+    "text": "integer Pf"
+  },
+  {
+    "line": 1153,
+    "text": "integer qf"
+  },
+  {
+    "line": 1155,
+    "text": "real Sf=0."
+  },
+  {
+    "line": 1156,
+    "text": "real tf=0."
+  }
+]

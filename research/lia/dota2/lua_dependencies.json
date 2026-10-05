@@ -1,0 +1,4052 @@
+[
+  {
+    "source": "game/scripts/vscripts/abilities/barrel_invulnerability.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_barrel_invulnerability",
+    "target": "game/scripts/vscripts/abilities/modifier_barrel_invulnerability.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/dummy_passive.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifiers/modifier_dummy_passive.lua",
+    "target": "game/scripts/vscripts/abilities/modifiers/modifier_dummy_passive.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/dummy_passive_nofly.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifiers/modifier_dummy_passive_nofly.lua",
+    "target": "game/scripts/vscripts/abilities/modifiers/modifier_dummy_passive_nofly.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/hell_beast_sleep.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_hell_beast_sleep.lua",
+    "target": "game/scripts/vscripts/abilities/modifier_hell_beast_sleep.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/megaboss_10_return.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_megaboss_10_return.lua",
+    "target": "game/scripts/vscripts/abilities/modifier_megaboss_10_return.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/megaboss_15_ghoul_purge.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/megaboss_15_ghoul_purge.lua",
+    "target": "game/scripts/vscripts/abilities/megaboss_15_ghoul_purge.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/megaboss_15_mana_break.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifiers/modifier_mana_break.lua",
+    "target": "game/scripts/vscripts/abilities/modifiers/modifier_mana_break.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/megaboss_5_bash.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/megaboss_5_bash.lua",
+    "target": "game/scripts/vscripts/abilities/megaboss_5_bash.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/megaboss_5_crit.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/megaboss_5_crit.lua",
+    "target": "game/scripts/vscripts/abilities/megaboss_5_crit.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/orn_mana_break.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifiers/modifier_mana_break.lua",
+    "target": "game/scripts/vscripts/abilities/modifiers/modifier_mana_break.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/orn_return.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_orn_return.lua",
+    "target": "game/scripts/vscripts/abilities/modifier_orn_return.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/Polymorph.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_19_wave_polymorph_lua.lua",
+    "target": "game/scripts/vscripts/abilities/modifier_19_wave_polymorph_lua.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_11_cleave.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_11_cleave.lua",
+    "target": "game/scripts/vscripts/abilities/wave_11_cleave.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_11_mana_break.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifiers/modifier_mana_break.lua",
+    "target": "game/scripts/vscripts/abilities/modifiers/modifier_mana_break.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_11_mana_break_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifiers/modifier_mana_break.lua",
+    "target": "game/scripts/vscripts/abilities/modifiers/modifier_mana_break.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_11_mana_break_extreme_creeps.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifiers/modifier_mana_break.lua",
+    "target": "game/scripts/vscripts/abilities/modifiers/modifier_mana_break.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_12_bash.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_12_bash.lua",
+    "target": "game/scripts/vscripts/abilities/wave_12_bash.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_12_crit.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_12_crit.lua",
+    "target": "game/scripts/vscripts/abilities/wave_12_crit.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_12_crit_extreme.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_12_crit_extreme.lua",
+    "target": "game/scripts/vscripts/abilities/wave_12_crit_extreme.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_13_command_aura.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_13_command_aura.lua",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_13_command_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_13_command_aura.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_13_command_aura",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_13_command_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_13_command_aura_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_13_command_aura.lua",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_13_command_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_13_command_aura_extreme.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_13_command_aura",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_13_command_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_16_evasion_extreme.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_16_evasion_extreme.lua",
+    "target": "game/scripts/vscripts/abilities/wave_16_evasion_extreme.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_17_evasion.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_17_evasion.lua",
+    "target": "game/scripts/vscripts/abilities/wave_17_evasion.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_17_evasion_extreme.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_17_evasion_extreme.lua",
+    "target": "game/scripts/vscripts/abilities/wave_17_evasion_extreme.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_18_bash.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_18_bash.lua",
+    "target": "game/scripts/vscripts/abilities/wave_18_bash.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_18_bash_extreme.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_18_bash_extreme.lua",
+    "target": "game/scripts/vscripts/abilities/wave_18_bash_extreme.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_1_poison.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_1_poison",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_1_poison.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_1_poison.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_1_poison",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_1_poison.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_1_poison_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_1_poison",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_1_poison.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_1_poison_extreme.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_1_poison",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_1_poison.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_2_aura_of_vengeance.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_2_aura_of_vengeance.lua",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_2_aura_of_vengeance.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_2_aura_of_vengeance.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_2_aura_of_vengeance_aura.lua",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_2_aura_of_vengeance_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_2_aura_of_vengeance_extreme.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_2_aura_of_vengeance.lua",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_2_aura_of_vengeance.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_2_aura_of_vengeance_extreme.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_2_aura_of_vengeance_aura.lua",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_2_aura_of_vengeance_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_2_centaur_chieftain_aura.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_2_centaur_chieftain_aura.lua",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_2_centaur_chieftain_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_2_centaur_chieftain_aura.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_2_centaur_chieftain_aura_effect",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_2_centaur_chieftain_aura_effect.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_2_centaur_chieftain_aura_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_2_centaur_chieftain_aura.lua",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_2_centaur_chieftain_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_2_centaur_chieftain_aura_extreme.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifier_wave_2_centaur_chieftain_aura_effect",
+    "target": "game/scripts/vscripts/abilities/modifier_wave_2_centaur_chieftain_aura_effect.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_2_centaurs_revenge.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_2_centaurs_revenge.lua",
+    "target": "game/scripts/vscripts/abilities/wave_2_centaurs_revenge.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_2_centaurs_revenge_extreme.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_2_centaurs_revenge_extreme.lua",
+    "target": "game/scripts/vscripts/abilities/wave_2_centaurs_revenge_extreme.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_3_evasion.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_3_evasion.lua",
+    "target": "game/scripts/vscripts/abilities/wave_3_evasion.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_3_evasion_extreme.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_3_evasion_extreme.lua",
+    "target": "game/scripts/vscripts/abilities/wave_3_evasion_extreme.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_6_assassin.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_6_assassin.lua",
+    "target": "game/scripts/vscripts/abilities/wave_6_assassin.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_6_assassin_extreme.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_6_assassin_extreme.lua",
+    "target": "game/scripts/vscripts/abilities/wave_6_assassin_extreme.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_6_invisibility.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_6_invisibility.lua",
+    "target": "game/scripts/vscripts/abilities/wave_6_invisibility.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_6_invisibility.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_6_invisibility.lua",
+    "target": "game/scripts/vscripts/abilities/wave_6_invisibility.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_8_cleave.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_8_cleave.lua",
+    "target": "game/scripts/vscripts/abilities/wave_8_cleave.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_8_lifesteal_aura.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_8_lifesteal_aura.lua",
+    "target": "game/scripts/vscripts/abilities/wave_8_lifesteal_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_8_lifesteal_aura.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_8_lifesteal_aura.lua",
+    "target": "game/scripts/vscripts/abilities/wave_8_lifesteal_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_8_lifesteal_extreme.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_8_lifesteal_extreme.lua",
+    "target": "game/scripts/vscripts/abilities/wave_8_lifesteal_extreme.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_9_incorporeity.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_9_incorporeity.lua",
+    "target": "game/scripts/vscripts/abilities/wave_9_incorporeity.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_9_incorporeity_extreme.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_9_incorporeity_extreme.lua",
+    "target": "game/scripts/vscripts/abilities/wave_9_incorporeity_extreme.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/abilities/wave_9_morphallaxis.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/wave_9_morphallaxis.lua",
+    "target": "game/scripts/vscripts/abilities/wave_9_morphallaxis.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "LiA_GameMode",
+    "target": "game/scripts/vscripts/LiA_GameMode.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "utils",
+    "target": "game/scripts/vscripts/utils.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "LiA_ForceRound",
+    "target": "game/scripts/vscripts/LiA_ForceRound.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "timers",
+    "target": "game/scripts/vscripts/timers.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 6,
+    "end_line": 6,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "timerPopup",
+    "target": "game/scripts/vscripts/timerPopup.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 7,
+    "end_line": 7,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "physics",
+    "target": "game/scripts/vscripts/physics.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 8,
+    "end_line": 8,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "stats",
+    "target": "game/scripts/vscripts/stats.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/addon_game_mode.lua",
+    "line": 9,
+    "end_line": 9,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "timeline",
+    "target": "game/scripts/vscripts/timeline.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/addon_init.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "modifiers/modifier_orb_controller",
+    "target": "game/scripts/vscripts/modifiers/modifier_orb_controller.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/addon_init.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "upgrades.lua",
+    "target": "game/scripts/vscripts/upgrades.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/addon_init.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "survival/healer.lua",
+    "target": "game/scripts/vscripts/survival/healer.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/addon_init.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/modifier_attribute_bonus_custom.lua",
+    "target": "game/scripts/vscripts/heroes/modifier_attribute_bonus_custom.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/11_wave_creeps.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/11_wave_creeps_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/12_wave_bosses.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/12_wave_bosses_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/12_wave_creeps.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/13_wave_creeps.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/14_wave_bosses.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/14_wave_bosses_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/14_wave_creeps.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/14_wave_creeps_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/15_megaboss.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/15_megaboss.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "timers",
+    "target": "game/scripts/vscripts/timers.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/16_wave_bosses.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/16_wave_bosses_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/16_wave_creeps.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/16_wave_creeps_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/17_wave_creeps.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/17_wave_creeps_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/18_wave_creeps.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/18_wave_creeps_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/19_wave_bosses.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/19_wave_bosses_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/19_wave_creeps.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/19_wave_creeps_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/1_wave_bosses.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/1_wave_bosses_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/2_wave_bosses.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/2_wave_bosses_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/3_wave_bosses.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/3_wave_bosses_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/4_wave_bosses.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/4_wave_bosses_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/6_wave_bosses.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/6_wave_bosses_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/6_wave_creeps.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/7_wave_bosses.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/7_wave_bosses_extreme.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/8_wave_bosses.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/9_wave_bosses.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/attack_wave_only.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/AI/orn_mutant_boss_slow.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/AIcreeps",
+    "target": "game/scripts/vscripts/survival/AIcreeps.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/destrSpawn.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "timers",
+    "target": "game/scripts/vscripts/timers.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Acron/acron_battle_fevor.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Acron/acron_battle_fevor.lua",
+    "target": "game/scripts/vscripts/heroes/Acron/acron_battle_fevor.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Acron/acron_battle_fevor.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Acron/acron_battle_fevor.lua",
+    "target": "game/scripts/vscripts/heroes/Acron/acron_battle_fevor.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Alchemist/alchemist_side_effect.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Alchemist/modifier_alchemist_side_effect.lua",
+    "target": "game/scripts/vscripts/heroes/Alchemist/modifier_alchemist_side_effect.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Alchemist/alchemist_side_effect.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Alchemist/modifier_alchemist_side_effect_thinker.lua",
+    "target": "game/scripts/vscripts/heroes/Alchemist/modifier_alchemist_side_effect_thinker.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Alchemist/alchemist_side_effect.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Alchemist/modifier_alchemist_side_effect_debuff.lua",
+    "target": "game/scripts/vscripts/heroes/Alchemist/modifier_alchemist_side_effect_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Alchemist/alchemist_side_effect.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Alchemist/modifier_alchemist_side_effect_burn.lua",
+    "target": "game/scripts/vscripts/heroes/Alchemist/modifier_alchemist_side_effect_burn.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Alchemist/alchemist_swiftness_potion.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Alchemist/modifier_alchemist_swiftness_potion_caster.lua",
+    "target": "game/scripts/vscripts/heroes/Alchemist/modifier_alchemist_swiftness_potion_caster.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Alchemist/alchemist_swiftness_potion.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Alchemist/modifier_alchemist_swiftness_potion_enemy.lua",
+    "target": "game/scripts/vscripts/heroes/Alchemist/modifier_alchemist_swiftness_potion_enemy.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Alchemist/alchemist_swiftness_potion.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Alchemist/modifier_alchemist_swiftness_potion_buff.lua",
+    "target": "game/scripts/vscripts/heroes/Alchemist/modifier_alchemist_swiftness_potion_buff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Alchemist/alchemist_unity.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Alchemist/modifier_alchemist_unity.lua",
+    "target": "game/scripts/vscripts/heroes/Alchemist/modifier_alchemist_unity.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/AncientPriestess/ancient_priestess_mana_shield.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/AncientPriestess/modifier_ancient_priestess_mana_shield.lua",
+    "target": "game/scripts/vscripts/heroes/AncientPriestess/modifier_ancient_priestess_mana_shield.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/AncientPriestess/ancient_priestess_ritual_protection.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/AncientPriestess/modifier_ancient_priestess_ritual_protection.lua",
+    "target": "game/scripts/vscripts/heroes/AncientPriestess/modifier_ancient_priestess_ritual_protection.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/AncientPriestess/ancient_priestess_spirit_link.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/AncientPriestess/modifier_ancient_priestess_spirit_link.lua",
+    "target": "game/scripts/vscripts/heroes/AncientPriestess/modifier_ancient_priestess_spirit_link.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/AncientPriestess/modifier_ancient_priestess_spirit_link.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "utils",
+    "target": "game/scripts/vscripts/utils.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Android/android_armor.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Android/modifier_android_armor.lua",
+    "target": "game/scripts/vscripts/heroes/Android/modifier_android_armor.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Android/android_cluster_rockets.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Android/android_cluster_rockets",
+    "target": "game/scripts/vscripts/heroes/Android/android_cluster_rockets.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Araman/araman_armor_of_darkness.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Araman/modifier_araman_armor_of_darkness.lua",
+    "target": "game/scripts/vscripts/heroes/Araman/modifier_araman_armor_of_darkness.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Araman/araman_morale.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Araman/modifier_araman_morale_aura.lua",
+    "target": "game/scripts/vscripts/heroes/Araman/modifier_araman_morale_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Araman/araman_morale.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Araman/modifier_araman_morale_effect.lua",
+    "target": "game/scripts/vscripts/heroes/Araman/modifier_araman_morale_effect.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Araman/araman_power_of_scourge.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Araman/modifier_araman_power_of_scourge.lua",
+    "target": "game/scripts/vscripts/heroes/Araman/modifier_araman_power_of_scourge.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Archmage/archmage_anomaly.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Archmage/modifier_archmage_anomaly_effect.lua",
+    "target": "game/scripts/vscripts/heroes/Archmage/modifier_archmage_anomaly_effect.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Archmage/archmage_anomaly.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Archmage/modifier_archmage_anomaly_thinker.lua",
+    "target": "game/scripts/vscripts/heroes/Archmage/modifier_archmage_anomaly_thinker.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Archmage/archmage_magic_barrier.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Archmage/modifier_archmage_magic_barrier.lua",
+    "target": "game/scripts/vscripts/heroes/Archmage/modifier_archmage_magic_barrier.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Archmage/archmage_shooting_star.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Archmage/modifier_archmage_shooting_star_stacks.lua",
+    "target": "game/scripts/vscripts/heroes/Archmage/modifier_archmage_shooting_star_stacks.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Archmage/archmage_shooting_star_staff.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Archmage/modifier_archmage_shooting_star_stacks.lua",
+    "target": "game/scripts/vscripts/heroes/Archmage/modifier_archmage_shooting_star_stacks.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Archmage/ShootingStar.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Archmage/modifier_archmage_shooting_star_cooldown.lua",
+    "target": null,
+    "exists_exact_case": false
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Beastmaster/beastmaster_dominate.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Beastmaster/modifier_beastmaster_dominate.lua",
+    "target": "game/scripts/vscripts/heroes/Beastmaster/modifier_beastmaster_dominate.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Beastmaster/beastmaster_help.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Beastmaster/modifier_beastmaster_help.lua",
+    "target": "game/scripts/vscripts/heroes/Beastmaster/modifier_beastmaster_help.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Berserker/berserker_desperation.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Berserker/modifier_berserker_desperation_aura.lua",
+    "target": "game/scripts/vscripts/heroes/Berserker/modifier_berserker_desperation_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Berserker/berserker_desperation.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Berserker/modifier_berserker_desperation_effect.lua",
+    "target": "game/scripts/vscripts/heroes/Berserker/modifier_berserker_desperation_effect.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Berserker/berserker_fire_spear.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Berserker/berserker_fire_spear.lua",
+    "target": "game/scripts/vscripts/heroes/Berserker/berserker_fire_spear.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Berserker/berserker_frenzy_aura.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Berserker/berserker_frenzy_aura.lua",
+    "target": "game/scripts/vscripts/heroes/Berserker/berserker_frenzy_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Berserker/berserker_frenzy_aura.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Berserker/berserker_frenzy_aura.lua",
+    "target": "game/scripts/vscripts/heroes/Berserker/berserker_frenzy_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Berserker/berserker_madness.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Berserker/berserker_madness.lua",
+    "target": "game/scripts/vscripts/heroes/Berserker/berserker_madness.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Brewer/brewmaster_ferocity.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Brewer/modifier_brewmaster_ferocity_lua",
+    "target": "game/scripts/vscripts/heroes/Brewer/modifier_brewmaster_ferocity_lua.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_rage.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Butcher/modifier_butcher_rage.lua",
+    "target": "game/scripts/vscripts/heroes/Butcher/modifier_butcher_rage.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_skin.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Butcher/modifier_butcher_skin.lua",
+    "target": "game/scripts/vscripts/heroes/Butcher/modifier_butcher_skin.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Butcher/modifier_butcher_zombie.lua",
+    "target": "game/scripts/vscripts/heroes/Butcher/modifier_butcher_zombie.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Butcher/modifier_butcher_zombie_bonus_stats.lua",
+    "target": "game/scripts/vscripts/heroes/Butcher/modifier_butcher_zombie_bonus_stats.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie_bash.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Butcher/butcher_zombie_bash.lua",
+    "target": "game/scripts/vscripts/heroes/Butcher/butcher_zombie_bash.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Butcher/butcher_zombie_new.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Butcher/butcher_zombie_new.lua",
+    "target": "game/scripts/vscripts/heroes/Butcher/butcher_zombie_new.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/DarkKnight/dark_knight_dark_energy_zone.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/DarkKnight/modifier_dark_knight_dark_energy_zone_effect.lua",
+    "target": "game/scripts/vscripts/heroes/DarkKnight/modifier_dark_knight_dark_energy_zone_effect.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/DarkKnight/dark_knight_dark_energy_zone.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/DarkKnight/modifier_dark_knight_dark_energy_zone_thinker.lua",
+    "target": "game/scripts/vscripts/heroes/DarkKnight/modifier_dark_knight_dark_energy_zone_thinker.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/DarkKnight/dark_knight_incinerate.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/DarkKnight/dark_knight_incinerate.lua",
+    "target": "game/scripts/vscripts/heroes/DarkKnight/dark_knight_incinerate.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/DarkKnight/dark_knight_incinerate.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/DarkKnight/dark_knight_incinerate.lua",
+    "target": "game/scripts/vscripts/heroes/DarkKnight/dark_knight_incinerate.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/DarkKnight/dark_knight_speed.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/DarkKnight/modifier_dark_knight_speed.lua",
+    "target": "game/scripts/vscripts/heroes/DarkKnight/modifier_dark_knight_speed.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/DarkRanger/dark_ranger_black_arrow.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/DarkRanger/dark_ranger_black_arrow",
+    "target": "game/scripts/vscripts/heroes/DarkRanger/dark_ranger_black_arrow.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/DarkRanger/dark_ranger_black_arrow.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/DarkRanger/dark_ranger_black_arrow",
+    "target": "game/scripts/vscripts/heroes/DarkRanger/dark_ranger_black_arrow.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/DarkRanger/dark_ranger_spiked_charm.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/DarkRanger/modifier_dark_ranger_spiked_charm.lua",
+    "target": "game/scripts/vscripts/heroes/DarkRanger/modifier_dark_ranger_spiked_charm.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/DarkRanger/dark_ranger_spiked_charm.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/DarkRanger/modifier_dark_ranger_spiked_charm_aura.lua",
+    "target": "game/scripts/vscripts/heroes/DarkRanger/modifier_dark_ranger_spiked_charm_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Demonologist/demonologist_demonic_seal.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Demonologist/modifier_demonologist_demonic_seal_debuff.lua",
+    "target": "game/scripts/vscripts/heroes/Demonologist/modifier_demonologist_demonic_seal_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Demonologist/demonologist_ritual_of_summoning.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Demonologist/modifier_demonologist_ritual_of_summoning_thinker.lua",
+    "target": "game/scripts/vscripts/heroes/Demonologist/modifier_demonologist_ritual_of_summoning_thinker.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Demonologist/demonologist_ritual_of_summoning.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Demonologist/modifier_demonologist_ritual_of_summoning_creep_debuff.lua",
+    "target": "game/scripts/vscripts/heroes/Demonologist/modifier_demonologist_ritual_of_summoning_creep_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Demonologist/demonologist_touch_of_darkness.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Demonologist/demonologist_touch_of_darkness.lua",
+    "target": "game/scripts/vscripts/heroes/Demonologist/demonologist_touch_of_darkness.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/EarthLord/earth_lord_earth_burn.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/EarthLord/modifier_earth_lord_earth_burn_thinker.lua",
+    "target": "game/scripts/vscripts/heroes/EarthLord/modifier_earth_lord_earth_burn_thinker.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/EarthLord/earth_lord_split_earth.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/EarthLord/modifier_earth_lord_split_earth_thinker.lua",
+    "target": null,
+    "exists_exact_case": false
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/FallenChampion/fallen_champion_absorption.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/FallenChampion/modifier_fallen_champion_absorption.lua",
+    "target": "game/scripts/vscripts/heroes/FallenChampion/modifier_fallen_champion_absorption.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/FallenChampion/fallen_champion_return.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/FallenChampion/modifier_fallen_champion_return.lua",
+    "target": "game/scripts/vscripts/heroes/FallenChampion/modifier_fallen_champion_return.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Firelord/firelord_flame_strike.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Firelord/modifier_firelord_flame_strike_thinker.lua",
+    "target": "game/scripts/vscripts/heroes/Firelord/modifier_firelord_flame_strike_thinker.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Firelord/firelord_flame_strike.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Firelord/modifier_firelord_flame_strike_burn.lua",
+    "target": "game/scripts/vscripts/heroes/Firelord/modifier_firelord_flame_strike_burn.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/FrostLord/frost_lord_freezing.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/FrostLord/modifier_frost_lord_freezing.lua",
+    "target": "game/scripts/vscripts/heroes/FrostLord/modifier_frost_lord_freezing.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/FrostLord/frost_lord_freezing.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/FrostLord/modifier_frost_lord_freezing_debuff.lua",
+    "target": "game/scripts/vscripts/heroes/FrostLord/modifier_frost_lord_freezing_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/FrostLord/frost_lord_frost_breath.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/FrostLord/modifier_frost_lord_frost_breath_debuff.lua",
+    "target": "game/scripts/vscripts/heroes/FrostLord/modifier_frost_lord_frost_breath_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/FrostLord/frost_lord_ice.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/FrostLord/modifier_frost_lord_ice_thinker.lua",
+    "target": "game/scripts/vscripts/heroes/FrostLord/modifier_frost_lord_ice_thinker.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/FrostLord/frost_lord_ice.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/FrostLord/modifier_frost_lord_ice_debuff.lua",
+    "target": "game/scripts/vscripts/heroes/FrostLord/modifier_frost_lord_ice_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/FurbolgChampion/furbolg_champion_bears_agility.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/FurbolgChampion/modifier_furbolg_champion_bears_agility.lua",
+    "target": "game/scripts/vscripts/heroes/FurbolgChampion/modifier_furbolg_champion_bears_agility.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/FurbolgChampion/furbolg_champion_sharp_claws.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/FurbolgChampion/modifier_furbolg_champion_sharp_claws.lua",
+    "target": "game/scripts/vscripts/heroes/FurbolgChampion/modifier_furbolg_champion_sharp_claws.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/FurbolgChampion/furbolg_champion_swelling_rage.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/FurbolgChampion/modifier_furbolg_champion_swelling_rage.lua",
+    "target": "game/scripts/vscripts/heroes/FurbolgChampion/modifier_furbolg_champion_swelling_rage.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/General/general_furious_strike.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/General/modifier_general_furious_strike.lua",
+    "target": "game/scripts/vscripts/heroes/General/modifier_general_furious_strike.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/General/general_magic_armor.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/General/modifier_general_magic_armor.lua",
+    "target": "game/scripts/vscripts/heroes/General/modifier_general_magic_armor.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Ghoul/ghoul_mortal_strike.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Ghoul/modifier_ghoul_mortal_strike.lua",
+    "target": "game/scripts/vscripts/heroes/Ghoul/modifier_ghoul_mortal_strike.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Ghoul/ghoul_persistence.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Ghoul/modifier_ghoul_persistence",
+    "target": "game/scripts/vscripts/heroes/Ghoul/modifier_ghoul_persistence.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Ghoul/ghoul_persistence.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Ghoul/modifier_ghoul_persistence_effect",
+    "target": "game/scripts/vscripts/heroes/Ghoul/modifier_ghoul_persistence_effect.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Hermit/hermit_astral.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Hermit/hermit_astral.lua",
+    "target": "game/scripts/vscripts/heroes/Hermit/hermit_astral.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Hermit/hermit_frost_arrows.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Hermit/hermit_frost_arrows.lua",
+    "target": "game/scripts/vscripts/heroes/Hermit/hermit_frost_arrows.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Hermit/hermit_frost_arrows.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Hermit/hermit_frost_arrows.lua",
+    "target": "game/scripts/vscripts/heroes/Hermit/hermit_frost_arrows.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Hermit/hermit_storm.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Hermit/modifier_hermit_storm_channel.lua",
+    "target": "game/scripts/vscripts/heroes/Hermit/modifier_hermit_storm_channel.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Highlander/highlander_improved_armor.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Highlander/modifier_highlander_improved_armor.lua",
+    "target": "game/scripts/vscripts/heroes/Highlander/modifier_highlander_improved_armor.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Huntress/huntress_curse_of_elune.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Huntress/modifier_huntress_curse_of_elune.lua",
+    "target": "game/scripts/vscripts/heroes/Huntress/modifier_huntress_curse_of_elune.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Huntress/huntress_moon_glaive.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Huntress/modifier_huntress_moon_glaive.lua",
+    "target": "game/scripts/vscripts/heroes/Huntress/modifier_huntress_moon_glaive.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Huntress/huntress_moon_rite.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Huntress/modifier_huntress_moon_rite.lua",
+    "target": "game/scripts/vscripts/heroes/Huntress/modifier_huntress_moon_rite.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Huntress/huntress_power_of_the_moon.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Huntress/modifier_huntress_power_of_the_moon.lua",
+    "target": "game/scripts/vscripts/heroes/Huntress/modifier_huntress_power_of_the_moon.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/KeeperOfTheGrove/keeper_of_the_grove_guardian_spirit.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/KeeperOfTheGrove/modifier_guardian_spirit.lua",
+    "target": "game/scripts/vscripts/heroes/KeeperOfTheGrove/modifier_guardian_spirit.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/KeeperOfTheGrove/keeper_of_the_grove_natures_curse.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/KeeperOfTheGrove/modifier_keeper_of_the_grove_natures_curse_damage.lua",
+    "target": "game/scripts/vscripts/heroes/KeeperOfTheGrove/modifier_keeper_of_the_grove_natures_curse_damage.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/KeeperOfTheGrove/keeper_of_the_grove_natures_curse.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/KeeperOfTheGrove/modifier_keeper_of_the_grove_natures_curse_disarm.lua",
+    "target": "game/scripts/vscripts/heroes/KeeperOfTheGrove/modifier_keeper_of_the_grove_natures_curse_disarm.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Knight/knight_ancient_shield.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Knight/modifier_knight_ancient_shield.lua",
+    "target": "game/scripts/vscripts/heroes/Knight/modifier_knight_ancient_shield.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Knight/knight_dark_shield.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Knight/modifier_knight_dark_shield.lua",
+    "target": "game/scripts/vscripts/heroes/Knight/modifier_knight_dark_shield.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Kret/kret_lust_for_life.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Kret/modifier_kret_lust_for_life.lua",
+    "target": "game/scripts/vscripts/heroes/Kret/modifier_kret_lust_for_life.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Kret/kret_poisoning.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Kret/modifier_kret_poisoning.lua",
+    "target": "game/scripts/vscripts/heroes/Kret/modifier_kret_poisoning.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/LightningLord/holy_wrath.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/LightningLord/modifier_lord_of_lightning_holy_wrath_slow.lua",
+    "target": "game/scripts/vscripts/heroes/LightningLord/modifier_lord_of_lightning_holy_wrath_slow.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/LightningLord/lord_of_lightning_brain_storm.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/LightningLord/modifier_lord_of_lightning_brain_storm_debuff.lua",
+    "target": "game/scripts/vscripts/heroes/LightningLord/modifier_lord_of_lightning_brain_storm_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/LightningLord/lord_of_lightning_brain_storm.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/LightningLord/modifier_lord_of_lightning_brain_storm_disarm.lua",
+    "target": "game/scripts/vscripts/heroes/LightningLord/modifier_lord_of_lightning_brain_storm_disarm.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/LightningLord/lord_of_lightning_lightning_shield.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/LightningLord/modifier_lord_of_lightning_lightning_shield.lua",
+    "target": "game/scripts/vscripts/heroes/LightningLord/modifier_lord_of_lightning_lightning_shield.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Marksman/marksman_dragon_breath.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Marksman/marksman_dragon_breath.lua",
+    "target": "game/scripts/vscripts/heroes/Marksman/marksman_dragon_breath.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Marksman/marksman_explosive_rounds.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Marksman/marksman_explosive_rounds.lua",
+    "target": "game/scripts/vscripts/heroes/Marksman/marksman_explosive_rounds.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Marksman/marksman_explosive_rounds.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Marksman/marksman_explosive_rounds.lua",
+    "target": "game/scripts/vscripts/heroes/Marksman/marksman_explosive_rounds.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Marksman/marksman_marksmans_mastery.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Marksman/marksman_marksmans_mastery.lua",
+    "target": "game/scripts/vscripts/heroes/Marksman/marksman_marksmans_mastery.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Marksman/marksman_ricochet.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Marksman/marksman_ricochet.lua",
+    "target": "game/scripts/vscripts/heroes/Marksman/marksman_ricochet.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Minotaur/minotaur_demonic_power.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Minotaur/modifier_minotaur_demonic_power.lua",
+    "target": "game/scripts/vscripts/heroes/Minotaur/modifier_minotaur_demonic_power.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Minotaur/minotaur_fear.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Minotaur/modifier_minotaur_fear_aura.lua",
+    "target": "game/scripts/vscripts/heroes/Minotaur/modifier_minotaur_fear_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Minotaur/minotaur_fear.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Minotaur/modifier_minotaur_fear_effect.lua",
+    "target": "game/scripts/vscripts/heroes/Minotaur/modifier_minotaur_fear_effect.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Minotaur/minotaur_guardian_spirits.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Minotaur/modifier_minotaur_guardian_spirits.lua",
+    "target": "game/scripts/vscripts/heroes/Minotaur/modifier_minotaur_guardian_spirits.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Minotaur/minotaur_guardian_spirits.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Minotaur/modifier_minotaur_guardian_spirits_status_effect.lua",
+    "target": "game/scripts/vscripts/heroes/Minotaur/modifier_minotaur_guardian_spirits_status_effect.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Minotaur/minotaur_thunder_strike.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Minotaur/modifier_minotaur_thunder_strike.lua",
+    "target": "game/scripts/vscripts/heroes/Minotaur/modifier_minotaur_thunder_strike.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/NagaRoyalGuard/naga_royal_guard_persistence.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/NagaRoyalGuard/modifier_naga_royal_guard_persistence.lua",
+    "target": "game/scripts/vscripts/heroes/NagaRoyalGuard/modifier_naga_royal_guard_persistence.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/NagaSiren/naga_siren_art_of_battle.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/NagaSiren/modifier_naga_siren_art_of_battle.lua",
+    "target": "game/scripts/vscripts/heroes/NagaSiren/modifier_naga_siren_art_of_battle.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/NagaSiren/naga_siren_fury.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/NagaSiren/modifier_naga_siren_fury",
+    "target": "game/scripts/vscripts/heroes/NagaSiren/modifier_naga_siren_fury.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/necromancer_reincarnation.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Necromancer/modifier_necromancer_reincarnation.lua",
+    "target": "game/scripts/vscripts/heroes/Necromancer/modifier_necromancer_reincarnation.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/necromancer_skel_return.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Necromancer/modifier_necromancer_skel_return.lua",
+    "target": "game/scripts/vscripts/heroes/Necromancer/modifier_necromancer_skel_return.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Necromancer/necromancer_stabbing_death.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Necromancer/modifier_necromancer_stabbing_death_motion.lua",
+    "target": "game/scripts/vscripts/heroes/Necromancer/modifier_necromancer_stabbing_death_motion.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Paladin/paladin_blizzard.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Paladin/modifier_paladin_blizzard_thinker.lua",
+    "target": "game/scripts/vscripts/heroes/Paladin/modifier_paladin_blizzard_thinker.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Paladin/paladin_elect.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Paladin/modifier_paladin_elect_aura.lua",
+    "target": "game/scripts/vscripts/heroes/Paladin/modifier_paladin_elect_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Paladin/paladin_elect.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Paladin/modifier_paladin_elect_effect.lua",
+    "target": "game/scripts/vscripts/heroes/Paladin/modifier_paladin_elect_effect.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Pirate/pirate_evasion.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Pirate/modifier_pirate_evasion.lua",
+    "target": "game/scripts/vscripts/heroes/Pirate/modifier_pirate_evasion.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Pirate/pirate_poisoned_weapon.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Pirate/modifier_pirate_poisoned_weapon.lua",
+    "target": "game/scripts/vscripts/heroes/Pirate/modifier_pirate_poisoned_weapon.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Pirate/pirate_poisoned_weapon.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Pirate/modifier_pirate_poisoned_weapon_debuff.lua",
+    "target": "game/scripts/vscripts/heroes/Pirate/modifier_pirate_poisoned_weapon_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Ranger/ranger_aimed_shot.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Ranger/ranger_aimed_shot.lua",
+    "target": "game/scripts/vscripts/heroes/Ranger/ranger_aimed_shot.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Ranger/ranger_aimed_shot.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Ranger/ranger_aimed_shot.lua",
+    "target": "game/scripts/vscripts/heroes/Ranger/ranger_aimed_shot.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Ranger/ranger_steel_hail.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Ranger/ranger_steel_hail.lua",
+    "target": "game/scripts/vscripts/heroes/Ranger/ranger_steel_hail.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Ranger/ranger_trap.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Ranger/ranger_trap.lua",
+    "target": "game/scripts/vscripts/heroes/Ranger/ranger_trap.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Ranger/ranger_volley_of_arrows.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Ranger/ranger_volley_of_arrows.lua",
+    "target": "game/scripts/vscripts/heroes/Ranger/ranger_volley_of_arrows.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/ShadowMaster/ArtOfShadows.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "heroes/ShadowMaster/Shadow",
+    "target": "game/scripts/vscripts/heroes/ShadowMaster/Shadow.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/ShadowMaster/PaintBlack.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "timers",
+    "target": "game/scripts/vscripts/timers.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/ShadowMaster/Shadow.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/ShadowMaster/modifier_lia_shadow.lua",
+    "target": "game/scripts/vscripts/heroes/ShadowMaster/modifier_lia_shadow.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/ShadowMaster/shadow_master_art_of_shadows.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "heroes/ShadowMaster/Shadow",
+    "target": "game/scripts/vscripts/heroes/ShadowMaster/Shadow.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/ShadowMaster/shadow_master_art_of_shadows.lua",
+    "line": 6,
+    "end_line": 6,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/ShadowMaster/shadow_master_art_of_shadows.lua",
+    "target": "game/scripts/vscripts/heroes/ShadowMaster/shadow_master_art_of_shadows.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/ShadowMaster/shadow_master_art_of_shadows.lua",
+    "line": 7,
+    "end_line": 7,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/ShadowMaster/shadow_master_art_of_shadows.lua",
+    "target": "game/scripts/vscripts/heroes/ShadowMaster/shadow_master_art_of_shadows.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Shaman/shaman_ancient_forces.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Shaman/modifier_shaman_ancient_forces.lua",
+    "target": "game/scripts/vscripts/heroes/Shaman/modifier_shaman_ancient_forces.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Shaman/shaman_resourcefulness.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Shaman/modifier_shaman_resourcefulness.lua",
+    "target": "game/scripts/vscripts/heroes/Shaman/modifier_shaman_resourcefulness.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/SkeletonMage/skeleton_mage_dark_magic.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/SkeletonMage/modifier_skeleton_mage_dark_magic.lua",
+    "target": "game/scripts/vscripts/heroes/SkeletonMage/modifier_skeleton_mage_dark_magic.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/SkeletonMage/skeleton_mage_dark_magic.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/SkeletonMage/modifier_skeleton_mage_dark_magic_cooldown.lua",
+    "target": "game/scripts/vscripts/heroes/SkeletonMage/modifier_skeleton_mage_dark_magic_cooldown.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/SkeletonMage/skeleton_mage_dark_magic_staff.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/SkeletonMage/modifier_skeleton_mage_dark_magic.lua",
+    "target": "game/scripts/vscripts/heroes/SkeletonMage/modifier_skeleton_mage_dark_magic.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/SkeletonThief/skeleton_thief_obsession.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/SkeletonThief/modifier_skeleton_thief_obsession.lua",
+    "target": "game/scripts/vscripts/heroes/SkeletonThief/modifier_skeleton_thief_obsession.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/SkeletonThief/skeleton_thief_shield_of_death.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/SkeletonThief/modifier_skeleton_thief_shield_of_death.lua",
+    "target": "game/scripts/vscripts/heroes/SkeletonThief/modifier_skeleton_thief_shield_of_death.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Speedwarden/speedwarden_mad_charge.lua",
+    "line": 7,
+    "end_line": 7,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Speedwarden/speedwarden_mad_charge.lua",
+    "target": "game/scripts/vscripts/heroes/Speedwarden/speedwarden_mad_charge.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Speedwarden/speedwarden_mad_charge.lua",
+    "line": 8,
+    "end_line": 8,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Speedwarden/speedwarden_mad_charge.lua",
+    "target": "game/scripts/vscripts/heroes/Speedwarden/speedwarden_mad_charge.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Speedwarden/speedwarden_time_strike.lua",
+    "line": 8,
+    "end_line": 8,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Speedwarden/speedwarden_time_strike.lua",
+    "target": "game/scripts/vscripts/heroes/Speedwarden/speedwarden_time_strike.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Speedwarden/speedwarden_time_strike.lua",
+    "line": 10,
+    "end_line": 10,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Speedwarden/speedwarden_time_strike.lua",
+    "target": "game/scripts/vscripts/heroes/Speedwarden/speedwarden_time_strike.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Speedwarden/speedwarden_wardens_swiftness.lua",
+    "line": 7,
+    "end_line": 7,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Speedwarden/speedwarden_wardens_swiftness.lua",
+    "target": "game/scripts/vscripts/heroes/Speedwarden/speedwarden_wardens_swiftness.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/SpiderQueen/spider_queen_infection.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/SpiderQueen/modifier_spider_queen_infection.lua",
+    "target": "game/scripts/vscripts/heroes/SpiderQueen/modifier_spider_queen_infection.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/SpiderQueen/spider_queen_infection.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/SpiderQueen/modifier_spider_queen_infection_debuff.lua",
+    "target": null,
+    "exists_exact_case": false
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/SpiderQueen/spider_queen_killer_instinct.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/SpiderQueen/modifier_spider_queen_killer_instinct.lua",
+    "target": "game/scripts/vscripts/heroes/SpiderQueen/modifier_spider_queen_killer_instinct.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/SpiderQueen/spider_queen_spider_yarn.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/SpiderQueen/modifier_spider_queen_spider_yarn_thinker.lua",
+    "target": "game/scripts/vscripts/heroes/SpiderQueen/modifier_spider_queen_spider_yarn_thinker.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/SpiderQueen/spider_queen_spider_yarn.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/SpiderQueen/modifier_spider_queen_spider_yarn_debuff.lua",
+    "target": "game/scripts/vscripts/heroes/SpiderQueen/modifier_spider_queen_spider_yarn_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/SpiderQueen/spider_queen_thick_cover.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/SpiderQueen/modifier_spider_queen_thick_cover.lua",
+    "target": "game/scripts/vscripts/heroes/SpiderQueen/modifier_spider_queen_thick_cover.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TaurenChampion/tauren_champion_accumulated_rage.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TaurenChampion/modifier_tauren_champion_accumulated_rage.lua",
+    "target": "game/scripts/vscripts/heroes/TaurenChampion/modifier_tauren_champion_accumulated_rage.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TaurenChampion/tauren_champion_accumulated_rage.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TaurenChampion/modifier_tauren_champion_accumulated_rage_block.lua",
+    "target": "game/scripts/vscripts/heroes/TaurenChampion/modifier_tauren_champion_accumulated_rage_block.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TaurenChampion/tauren_champion_accumulated_rage.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TaurenChampion/modifier_tauren_champion_accumulated_rage_damage.lua",
+    "target": "game/scripts/vscripts/heroes/TaurenChampion/modifier_tauren_champion_accumulated_rage_damage.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TaurenChampion/tauren_champion_champions_jump.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TaurenChampion/modifier_tauren_champion_champions_jump.lua",
+    "target": "game/scripts/vscripts/heroes/TaurenChampion/modifier_tauren_champion_champions_jump.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TaurenChampion/tauren_champion_champions_jump.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TaurenChampion/modifier_tauren_champion_champions_jump_phase.lua",
+    "target": "game/scripts/vscripts/heroes/TaurenChampion/modifier_tauren_champion_champions_jump_phase.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TaurenChampion/tauren_champion_crushing_totem.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TaurenChampion/modifier_tauren_champion_crushing_totem.lua",
+    "target": "game/scripts/vscripts/heroes/TaurenChampion/modifier_tauren_champion_crushing_totem.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TaurenChampion/tauren_champion_finish_off.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TaurenChampion/modifier_tauren_champion_finish_off.lua",
+    "target": "game/scripts/vscripts/heroes/TaurenChampion/modifier_tauren_champion_finish_off.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TaurenChampion/tauren_champion_finish_off.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TaurenChampion/modifier_tauren_champion_finish_off_counter.lua",
+    "target": "game/scripts/vscripts/heroes/TaurenChampion/modifier_tauren_champion_finish_off_counter.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TaurenChampion/tauren_champion_finish_off.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TaurenChampion/modifier_tauren_champion_finish_off_animation.lua",
+    "target": "game/scripts/vscripts/heroes/TaurenChampion/modifier_tauren_champion_finish_off_animation.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TimeLord/time_lord_timelapse.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TimeLord/modifier_time_lord_timelapse.lua",
+    "target": "game/scripts/vscripts/heroes/TimeLord/modifier_time_lord_timelapse.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TimeLord/time_lord_timelapse.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TimeLord/modifier_time_lord_timelapse_invul.lua",
+    "target": "game/scripts/vscripts/heroes/TimeLord/modifier_time_lord_timelapse_invul.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Treant/treant_craving_for_nature.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Treant/modifier_treant_craving_for_nature_movement.lua",
+    "target": "game/scripts/vscripts/heroes/Treant/modifier_treant_craving_for_nature_movement.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Treant/treant_sharp_thorns.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Treant/modifier_treant_sharp_thorns_debuff.lua",
+    "target": "game/scripts/vscripts/heroes/Treant/modifier_treant_sharp_thorns_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Treant/treant_take_root.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Treant/modifier_treant_take_root_root.lua",
+    "target": "game/scripts/vscripts/heroes/Treant/modifier_treant_take_root_root.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Treant/treant_take_root.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Treant/modifier_treant_take_root_self.lua",
+    "target": "game/scripts/vscripts/heroes/Treant/modifier_treant_take_root_self.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/MeleeAnimation.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TrollCutthroat/modifier_troll_cutthroat_animation.lua",
+    "target": "game/scripts/vscripts/heroes/TrollCutthroat/modifier_troll_cutthroat_animation.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_battle_trance.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TrollCutthroat/modifier_troll_cutthroat_battle_trance.lua",
+    "target": "game/scripts/vscripts/heroes/TrollCutthroat/modifier_troll_cutthroat_battle_trance.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_boomeang_axe.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TrollCutthroat/modifier_troll_cutthroat_boomeang_axe_damage.lua",
+    "target": "game/scripts/vscripts/heroes/TrollCutthroat/modifier_troll_cutthroat_boomeang_axe_damage.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_boomeang_axe.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TrollCutthroat/modifier_troll_cutthroat_boomeang_axe_disarm.lua",
+    "target": "game/scripts/vscripts/heroes/TrollCutthroat/modifier_troll_cutthroat_boomeang_axe_disarm.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_vulnerability.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TrollCutthroat/modifier_troll_cutthroat_vulnerability.lua",
+    "target": "game/scripts/vscripts/heroes/TrollCutthroat/modifier_troll_cutthroat_vulnerability.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/TrollCutthroat/troll_cutthroat_vulnerability.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/TrollCutthroat/modifier_troll_cutthroat_vulnerability_debuff.lua",
+    "target": "game/scripts/vscripts/heroes/TrollCutthroat/modifier_troll_cutthroat_vulnerability_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Valkyrie/valkyrie_agility.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Valkyrie/modifier_valkyrie_agility_aura.lua",
+    "target": "game/scripts/vscripts/heroes/Valkyrie/modifier_valkyrie_agility_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Valkyrie/valkyrie_agility.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Valkyrie/modifier_valkyrie_agility_effect.lua",
+    "target": "game/scripts/vscripts/heroes/Valkyrie/modifier_valkyrie_agility_effect.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Valkyrie/valkyrie_rage.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Valkyrie/modifier_valkyrie_rage.lua",
+    "target": "game/scripts/vscripts/heroes/Valkyrie/modifier_valkyrie_rage.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Vampire/Transformation.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Vampire/modifier_vampire_transformation_regen.lua",
+    "target": "game/scripts/vscripts/heroes/Vampire/modifier_vampire_transformation_regen.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Vampire/vampire_lifesteal.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Vampire/modifier_vampire_lifesteal.lua",
+    "target": "game/scripts/vscripts/heroes/Vampire/modifier_vampire_lifesteal.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/VowenFromBlood/vowen_from_blood_spiritual_flame.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/VowenFromBlood/modifier_vowen_from_blood_spiritual_flame.lua",
+    "target": "game/scripts/vscripts/heroes/VowenFromBlood/modifier_vowen_from_blood_spiritual_flame.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/WalkingDead/walking_dead_cemetery_power.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/WalkingDead/modifier_walking_dead_cemetery_power.lua",
+    "target": "game/scripts/vscripts/heroes/WalkingDead/modifier_walking_dead_cemetery_power.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/WalkingDead/walking_dead_decay.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/WalkingDead/modifier_walking_dead_decay_self.lua",
+    "target": "game/scripts/vscripts/heroes/WalkingDead/modifier_walking_dead_decay_self.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/WalkingDead/walking_dead_decay.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/WalkingDead/modifier_walking_dead_decay_regen.lua",
+    "target": "game/scripts/vscripts/heroes/WalkingDead/modifier_walking_dead_decay_regen.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/WalkingDead/walking_dead_decay.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/WalkingDead/modifier_walking_dead_decay_debuff.lua",
+    "target": "game/scripts/vscripts/heroes/WalkingDead/modifier_walking_dead_decay_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/WalkingDead/walking_dead_rot_curse.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/WalkingDead/modifier_walking_dead_rot_curse_enemy.lua",
+    "target": "game/scripts/vscripts/heroes/WalkingDead/modifier_walking_dead_rot_curse_enemy.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/WalkingDead/walking_dead_vitality.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/WalkingDead/modifier_walking_dead_vitality.lua",
+    "target": "game/scripts/vscripts/heroes/WalkingDead/modifier_walking_dead_vitality.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/WalkingDead/walking_dead_vitality.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/WalkingDead/modifier_walking_dead_vitality_regen.lua",
+    "target": "game/scripts/vscripts/heroes/WalkingDead/modifier_walking_dead_vitality_regen.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/wanderer_arcane_aura.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Wanderer/modifier_wanderer_arcane_aura.lua",
+    "target": "game/scripts/vscripts/heroes/Wanderer/modifier_wanderer_arcane_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/wanderer_arcane_aura.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Wanderer/modifier_wanderer_arcane_aura_effect.lua",
+    "target": "game/scripts/vscripts/heroes/Wanderer/modifier_wanderer_arcane_aura_effect.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/wanderer_arcane_aura.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Wanderer/modifier_wanderer_arcane_aura_slow.lua",
+    "target": "game/scripts/vscripts/heroes/Wanderer/modifier_wanderer_arcane_aura_slow.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Wanderer/wanderer_the_flow_of_life.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Wanderer/modifier_flow_of_life.lua",
+    "target": "game/scripts/vscripts/heroes/Wanderer/modifier_flow_of_life.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Warlock/warlock_firestorm.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Warlock/modifier_warlock_firestorm_burn.lua",
+    "target": "game/scripts/vscripts/heroes/Warlock/modifier_warlock_firestorm_burn.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/Warlock/warlock_firestorm.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Warlock/modifier_warlock_firestorm_channel.lua",
+    "target": "game/scripts/vscripts/heroes/Warlock/modifier_warlock_firestorm_channel.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/WarriorOfLight/warrior_of_light_holy_power.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/WarriorOfLight/modifier_warrior_of_light_holy_power.lua",
+    "target": "game/scripts/vscripts/heroes/WarriorOfLight/modifier_warrior_of_light_holy_power.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/WarriorOfLight/warrior_of_light_will_light.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/WarriorOfLight/modifier_warrior_of_light_will_light.lua",
+    "target": "game/scripts/vscripts/heroes/WarriorOfLight/modifier_warrior_of_light_will_light.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/WitchDoctor/witch_doctor_frost_armor.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/WitchDoctor/modifier_witch_doctor_frost_armor_buff.lua",
+    "target": "game/scripts/vscripts/heroes/WitchDoctor/modifier_witch_doctor_frost_armor_buff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/heroes/WitchDoctor/witch_doctor_frost_armor.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/WitchDoctor/modifier_witch_doctor_frost_armor_debuff.lua",
+    "target": "game/scripts/vscripts/heroes/WitchDoctor/modifier_witch_doctor_frost_armor_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_alanith_spear.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_alanith_spear",
+    "target": "game/scripts/vscripts/items/item_lia_alanith_spear.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_armor_of_the_red_mist.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_armor_of_the_red_mist.lua",
+    "target": "game/scripts/vscripts/items/modifier_armor_of_the_red_mist.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_armor_of_the_red_mist.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_armor_of_the_red_mist_taunt.lua",
+    "target": "game/scripts/vscripts/items/modifier_armor_of_the_red_mist_taunt.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_armor_of_the_red_mist.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_armor_of_the_red_mist_buff.lua",
+    "target": "game/scripts/vscripts/items/modifier_armor_of_the_red_mist_buff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_banner_of_victory.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_banner_of_victory.lua",
+    "target": "game/scripts/vscripts/items/item_lia_banner_of_victory.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_banner_of_victory.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_banner_of_victory.lua",
+    "target": "game/scripts/vscripts/items/item_lia_banner_of_victory.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_battle_javelin.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_battle_javelin.lua",
+    "target": "game/scripts/vscripts/items/item_lia_battle_javelin.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_battle_javelin.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_battle_javelin.lua",
+    "target": "game/scripts/vscripts/items/item_lia_battle_javelin.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_blade_of_incorporeality.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_blade_of_incorporeality.lua",
+    "target": "game/scripts/vscripts/items/item_lia_blade_of_incorporeality.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_blade_of_incorporeality.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_blade_of_incorporeality.lua",
+    "target": "game/scripts/vscripts/items/item_lia_blade_of_incorporeality.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_blade_of_rage_agi.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_blade_of_rage_agi.lua",
+    "target": "game/scripts/vscripts/items/item_lia_blade_of_rage_agi.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_blade_of_rage_agi.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_blade_of_rage_agi.lua",
+    "target": "game/scripts/vscripts/items/item_lia_blade_of_rage_agi.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_blade_of_rage_int.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_blade_of_rage_int.lua",
+    "target": "game/scripts/vscripts/items/item_lia_blade_of_rage_int.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_blade_of_rage_int.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_blade_of_rage_int.lua",
+    "target": "game/scripts/vscripts/items/item_lia_blade_of_rage_int.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_blade_of_rage_str.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_blade_of_rage_str.lua",
+    "target": "game/scripts/vscripts/items/item_lia_blade_of_rage_str.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_blade_of_rage_str.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_blade_of_rage_str.lua",
+    "target": "game/scripts/vscripts/items/item_lia_blade_of_rage_str.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_blood_blade.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_blood_blade",
+    "target": "game/scripts/vscripts/items/item_lia_blood_blade.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_blood_moon.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_blood_moon.lua",
+    "target": "game/scripts/vscripts/items/item_lia_blood_moon.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_blood_moon.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_blood_moon.lua",
+    "target": "game/scripts/vscripts/items/item_lia_blood_moon.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_boots_of_invisibility.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_boots_of_invisibility",
+    "target": "game/scripts/vscripts/items/item_lia_boots_of_invisibility.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_boots_of_invisibility.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_boots_of_invisibility",
+    "target": "game/scripts/vscripts/items/item_lia_boots_of_invisibility.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_bounty_hunters_crossbow.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_bounty_hunters_crossbow.lua",
+    "target": "game/scripts/vscripts/items/item_lia_bounty_hunters_crossbow.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_bounty_hunters_crossbow.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_bounty_hunters_crossbow.lua",
+    "target": "game/scripts/vscripts/items/item_lia_bounty_hunters_crossbow.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_bounty_hunters_crossbow.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_bounty_hunters_crossbow.lua",
+    "target": "game/scripts/vscripts/items/item_lia_bounty_hunters_crossbow.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_enchanted_shield.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_item_lia_enchanted_shield.lua",
+    "target": "game/scripts/vscripts/items/modifier_item_lia_enchanted_shield.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_ferus_shield.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_ferus_shield.lua",
+    "target": "game/scripts/vscripts/items/item_lia_ferus_shield.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_ferus_shield.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_ferus_shield.lua",
+    "target": "game/scripts/vscripts/items/item_lia_ferus_shield.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_ferus_shield.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_ferus_shield.lua",
+    "target": "game/scripts/vscripts/items/item_lia_ferus_shield.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_fire_gloves.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_fire_gloves.lua",
+    "target": "game/scripts/vscripts/items/modifier_fire_gloves.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_fire_gloves.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_fire_gloves_immolation.lua",
+    "target": "game/scripts/vscripts/items/modifier_fire_gloves_immolation.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_fire_rod.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_fire_rod",
+    "target": "game/scripts/vscripts/items/item_lia_fire_rod.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_hammer_of_titans.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_hammer_of_titans.lua",
+    "target": "game/scripts/vscripts/items/item_lia_hammer_of_titans.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_hammer_of_titans.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_hammer_of_titans.lua",
+    "target": "game/scripts/vscripts/items/item_lia_hammer_of_titans.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_health_stone_potion.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_health_stone_potion.lua",
+    "target": "game/scripts/vscripts/items/item_lia_health_stone_potion.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_huge_axe.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_huge_axe.lua",
+    "target": "game/scripts/vscripts/items/item_lia_huge_axe.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_huge_axe.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_huge_axe.lua",
+    "target": "game/scripts/vscripts/items/item_lia_huge_axe.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_hyper_boots.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifiers/modifier_hyper_boots.lua",
+    "target": "game/scripts/vscripts/items/modifiers/modifier_hyper_boots.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_hyper_boots.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_hyper_boots.lua",
+    "target": "game/scripts/vscripts/items/item_lia_hyper_boots.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_ice_sword.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_ice_sword",
+    "target": "game/scripts/vscripts/items/item_lia_ice_sword.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_ice_sword.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_ice_sword",
+    "target": "game/scripts/vscripts/items/item_lia_ice_sword.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_ice_sword.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_ice_sword",
+    "target": "game/scripts/vscripts/items/item_lia_ice_sword.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_ice_sword.lua",
+    "line": 6,
+    "end_line": 6,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_ice_sword",
+    "target": "game/scripts/vscripts/items/item_lia_ice_sword.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_knight_cuirass.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_knight_cuirass.lua",
+    "target": "game/scripts/vscripts/items/item_lia_knight_cuirass.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_knight_cuirass.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_knight_cuirass.lua",
+    "target": "game/scripts/vscripts/items/item_lia_knight_cuirass.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_knight_shield.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_knight_shield.lua",
+    "target": "game/scripts/vscripts/items/item_lia_knight_shield.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_lunar_necklace.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_lunar_necklace.lua",
+    "target": "game/scripts/vscripts/items/item_lia_lunar_necklace.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_lunar_necklace.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_lunar_necklace.lua",
+    "target": "game/scripts/vscripts/items/item_lia_lunar_necklace.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_magician_armor.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_magician_armor.lua",
+    "target": "game/scripts/vscripts/items/item_lia_magician_armor.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_mana_stone_potion.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_mana_stone_potion.lua",
+    "target": "game/scripts/vscripts/items/item_lia_mana_stone_potion.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_mask_of_death.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_mask_of_death",
+    "target": "game/scripts/vscripts/items/item_lia_mask_of_death.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_mithril_armor.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_mithril_armor.lua",
+    "target": "game/scripts/vscripts/items/modifier_mithril_armor.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_mithril_armor.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_mithril_armor_taunt.lua",
+    "target": "game/scripts/vscripts/items/modifier_mithril_armor_taunt.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_orb_of_fire.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_orb_of_fire",
+    "target": "game/scripts/vscripts/items/item_lia_orb_of_fire.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_orb_of_frost.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_orb_of_frost",
+    "target": "game/scripts/vscripts/items/item_lia_orb_of_frost.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_orb_of_frost.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_orb_of_frost",
+    "target": "game/scripts/vscripts/items/item_lia_orb_of_frost.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_orb_of_frost.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_orb_of_frost",
+    "target": "game/scripts/vscripts/items/item_lia_orb_of_frost.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_pure_light.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_pure_light.lua",
+    "target": "game/scripts/vscripts/items/modifier_pure_light.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_pure_light.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_pure_light_aura.lua",
+    "target": "game/scripts/vscripts/items/modifier_pure_light_aura.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_pure_light.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_pure_light_thinker.lua",
+    "target": "game/scripts/vscripts/items/modifier_pure_light_thinker.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_pure_light.lua",
+    "line": 6,
+    "end_line": 6,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_pure_light_protection.lua",
+    "target": "game/scripts/vscripts/items/modifier_pure_light_protection.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_spellbreaker.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_spellbreaker.lua",
+    "target": "game/scripts/vscripts/items/modifier_spellbreaker.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_spherical_staff.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_spherical_staff.lua",
+    "target": "game/scripts/vscripts/items/modifier_spherical_staff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_spider_ring.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_spider_ring",
+    "target": "game/scripts/vscripts/items/item_lia_spider_ring.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_spider_ring.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_spider_ring",
+    "target": "game/scripts/vscripts/items/item_lia_spider_ring.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_staff_of_life.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifiers/modifier_staff_of_life.lua",
+    "target": "game/scripts/vscripts/items/modifiers/modifier_staff_of_life.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_staff_of_life.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifiers/modifier_staff_of_life_effect.lua",
+    "target": "game/scripts/vscripts/items/modifiers/modifier_staff_of_life_effect.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_top_lover.lua",
+    "line": 2,
+    "end_line": 2,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_top_lover.lua",
+    "target": "game/scripts/vscripts/items/item_lia_top_lover.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_top_lover.lua",
+    "line": 3,
+    "end_line": 3,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_top_lover.lua",
+    "target": "game/scripts/vscripts/items/item_lia_top_lover.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_widow_boots.lua",
+    "line": 4,
+    "end_line": 4,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_widow_boots",
+    "target": "game/scripts/vscripts/items/item_lia_widow_boots.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_widow_boots.lua",
+    "line": 5,
+    "end_line": 5,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_widow_boots",
+    "target": "game/scripts/vscripts/items/item_lia_widow_boots.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_widow_boots.lua",
+    "line": 6,
+    "end_line": 6,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_widow_boots",
+    "target": "game/scripts/vscripts/items/item_lia_widow_boots.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/item_lia_widow_boots.lua",
+    "line": 7,
+    "end_line": 7,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/item_lia_widow_boots",
+    "target": "game/scripts/vscripts/items/item_lia_widow_boots.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/runes.lua",
+    "line": 93,
+    "end_line": 93,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/runes.lua",
+    "target": "game/scripts/vscripts/items/runes.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/items/SealOfPower.lua",
+    "line": 7,
+    "end_line": 7,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/SealOfPower.lua",
+    "target": "game/scripts/vscripts/items/SealOfPower.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 29,
+    "end_line": 29,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/survival",
+    "target": "game/scripts/vscripts/survival/survival.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 30,
+    "end_line": 30,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "runes",
+    "target": "game/scripts/vscripts/runes.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 31,
+    "end_line": 31,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "player",
+    "target": "game/scripts/vscripts/player.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 32,
+    "end_line": 32,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "upgrades",
+    "target": "game/scripts/vscripts/upgrades.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 33,
+    "end_line": 33,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "PseudoRandom",
+    "target": "game/scripts/vscripts/PseudoRandom.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 37,
+    "end_line": 37,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "modifier_stun_lua",
+    "target": "game/scripts/vscripts/modifier_stun_lua.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 38,
+    "end_line": 38,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "modifier_hide_lua",
+    "target": "game/scripts/vscripts/modifier_hide_lua.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 39,
+    "end_line": 39,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "modifier_orn_lua",
+    "target": "game/scripts/vscripts/modifier_orn_lua.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 40,
+    "end_line": 40,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "modifier_test_lia",
+    "target": "game/scripts/vscripts/modifier_test_lia.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 41,
+    "end_line": 41,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "survival/modifier_test_no_cooldown.lua",
+    "target": "game/scripts/vscripts/survival/modifier_test_no_cooldown.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 42,
+    "end_line": 42,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "survival/modifier_test_god_mode.lua",
+    "target": "game/scripts/vscripts/survival/modifier_test_god_mode.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 43,
+    "end_line": 43,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "abilities/modifiers/modifier_knockback_lia.lua",
+    "target": "game/scripts/vscripts/abilities/modifiers/modifier_knockback_lia.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 44,
+    "end_line": 44,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Archmage/modifier_archmage_polymorph_lua.lua",
+    "target": "game/scripts/vscripts/heroes/Archmage/modifier_archmage_polymorph_lua.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 45,
+    "end_line": 45,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifier_item_shield_of_death_armor.lua",
+    "target": "game/scripts/vscripts/items/modifier_item_shield_of_death_armor.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 46,
+    "end_line": 46,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "heroes/Demonologist/modifier_demonologist_riual_of_summoning_status_effect.lua",
+    "target": null,
+    "exists_exact_case": false
+  },
+  {
+    "source": "game/scripts/vscripts/LiA_GameMode.lua",
+    "line": 66,
+    "end_line": 66,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "filtering",
+    "target": "game/scripts/vscripts/filtering.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 28,
+    "end_line": 28,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/events",
+    "target": "game/scripts/vscripts/survival/events.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 29,
+    "end_line": 29,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/duels",
+    "target": "game/scripts/vscripts/survival/duels.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 30,
+    "end_line": 30,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/finalBoss",
+    "target": "game/scripts/vscripts/survival/finalBoss.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 31,
+    "end_line": 31,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/fightrecap",
+    "target": "game/scripts/vscripts/survival/fightRecap.lua",
+    "exists_exact_case": false
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 32,
+    "end_line": 32,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "survival/utils",
+    "target": "game/scripts/vscripts/survival/utils.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 36,
+    "end_line": 36,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "survival/modifier_16_wave_debuff.lua",
+    "target": "game/scripts/vscripts/survival/modifier_16_wave_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 37,
+    "end_line": 37,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "survival/modifier_17_wave_debuff.lua",
+    "target": "game/scripts/vscripts/survival/modifier_17_wave_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 38,
+    "end_line": 38,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "survival/modifier_18_wave_debuff.lua",
+    "target": "game/scripts/vscripts/survival/modifier_18_wave_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 39,
+    "end_line": 39,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "survival/modifier_19_wave_debuff.lua",
+    "target": "game/scripts/vscripts/survival/modifier_19_wave_debuff.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 40,
+    "end_line": 40,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "units/modifier_megaboss_three_stats.lua",
+    "target": "game/scripts/vscripts/units/modifier_megaboss_three_stats.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/survival/survival.lua",
+    "line": 41,
+    "end_line": 41,
+    "function": "<file>",
+    "kind": "LinkLuaModifier",
+    "target_raw": "items/modifiers/modifier_ultimate_upgrade.lua",
+    "target": "game/scripts/vscripts/items/modifiers/modifier_ultimate_upgrade.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/units/item_lia_healing_ward_unit.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "timers",
+    "target": "game/scripts/vscripts/timers.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/units/Megaboss10Spawn.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "timers",
+    "target": "game/scripts/vscripts/timers.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/units/Megaboss10Stats.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "timers",
+    "target": "game/scripts/vscripts/timers.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/units/Megaboss5Stats.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "timers",
+    "target": "game/scripts/vscripts/timers.lua",
+    "exists_exact_case": true
+  },
+  {
+    "source": "game/scripts/vscripts/units/MegabossOrnStats.lua",
+    "line": 1,
+    "end_line": 1,
+    "function": "<file>",
+    "kind": "require",
+    "target_raw": "timers",
+    "target": "game/scripts/vscripts/timers.lua",
+    "exists_exact_case": true
+  }
+]

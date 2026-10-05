@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-05",
+  "scope": "Independent read-only evidence review of LiA balance portability. Sources were read, not executed.",
+  "baseline": {
+    "dota_repository": "https://github.com/ZLOY5/LiA",
+    "commit": "012fab34e8c84ad0aa73cd4eadde1736e3c9df29",
+    "workshop_id": "407750024",
+    "workshop_to_commit_mapping": "unverified",
+    "runtime_verification": false
+  },
+  "sources": [
+    {
+      "id": "lia-workshop-description",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=407750024",
+      "kind": "author_published_description",
+      "access": "readable",
+      "supports": [
+        "team survival, waves, bosses and PvP duels are author-described",
+        "description states 8 players and 53 heroes",
+        "links repository and Warcraft 3.7l page"
+      ],
+      "limits": [
+        "not an inventory of a pinned game build",
+        "no mapping to Git commit",
+        "page template and crawler metadata do not prove compatibility"
+      ]
+    },
+    {
+      "id": "lia-workshop-changelog-1",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/changelog/407750024",
+      "kind": "author_change_notes",
+      "access": "readable",
+      "supports": [
+        "2025-05-28 spell immunity, resistance and UI changes",
+        "2025-06-07 Magic attack, Banish, orb and random-gold changes"
+      ],
+      "limits": [
+        "author statements not current runtime verification",
+        "pagination and crawler freshness may differ"
+      ]
+    },
+    {
+      "id": "lia-workshop-changelog-2",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/changelog/407750024?p=2",
+      "kind": "author_change_notes",
+      "access": "readable",
+      "supports": [
+        "2024-03-02 replacement orb system",
+        "2023-09-15 never-ending-round fix",
+        "2024-03-15 final boss zombies fix"
+      ],
+      "limits": [
+        "historical changes only"
+      ]
+    },
+    {
+      "id": "lia-workshop-changelog-3",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/changelog/407750024?p=3",
+      "kind": "author_change_notes",
+      "access": "readable",
+      "supports": [
+        "2023-05-15 cleave change and Walking Dead damage bug fix",
+        "2022-11-02 attribute progression and innate block changes",
+        "Dominate kill-counter caveat"
+      ],
+      "limits": [
+        "historical issues are not automatically current issues"
+      ]
+    },
+    {
+      "id": "warcraft-3.7l-page",
+      "url": "https://www.epicwar.com/maps/343589/",
+      "kind": "published_map_metadata",
+      "access": "readable",
+      "supports": [
+        "Workshop-linked page identifies 3.7l, LittleTimmy, 2025-04-25, 90 heroes in description"
+      ],
+      "limits": [
+        "catalog metadata not measured runtime or authenticated authorship",
+        "Game Version field is not proof of runtime build"
+      ]
+    },
+    {
+      "id": "warcraft-3.9c-page",
+      "url": "https://www.epicwar.com/maps/354243/",
+      "kind": "published_map_metadata",
+      "access": "readable",
+      "supports": [
+        "page identifies 3.9c, LittleTimmy, 2026-07-03, 96 heroes in description"
+      ],
+      "limits": [
+        "map binary acquisition and parser evidence recorded separately",
+        "metadata alone does not prove available hero count"
+      ]
+    },
+    {
+      "id": "warcraft-official-armor",
+      "url": "https://classic.battle.net/war3/basics/armorandweapontypes.shtml",
+      "kind": "official_historical_engine_documentation",
+      "access": "readable",
+      "supports": [
+        "positive and negative armor rules",
+        "separate TFT and RoC damage-class matrices"
+      ],
+      "limits": [
+        "not LiA custom gameplay constants",
+        "the prose EHP example disagrees with its formula"
+      ]
+    },
+    {
+      "id": "warcraft-official-heroes",
+      "url": "https://classic.battle.net/war3/basics/heroes.shtml",
+      "kind": "official_historical_engine_documentation",
+      "access": "readable",
+      "supports": [
+        "historical default attribute bonuses and cooldown formula"
+      ],
+      "limits": [
+        "defaults cannot replace map overrides or fixed-build base object data"
+      ]
+    },
+    {
+      "id": "dota-official-7.07",
+      "url": "https://www.dota2.com/duelingfates?l=english",
+      "kind": "official_historical_patch_notes",
+      "access": "readable",
+      "supports": [
+        "armor coefficient and armor per agility were changed"
+      ],
+      "limits": [
+        "not current LiA effective formula",
+        "positive-domain notation not a complete negative-armor contract"
+      ]
+    },
+    {
+      "id": "dota-official-7.20",
+      "url": "https://www.dota2.com/720",
+      "kind": "official_historical_patch_notes",
+      "access": "readable",
+      "supports": [
+        "armor formula changed again"
+      ],
+      "limits": [
+        "not current LiA effective formula"
+      ]
+    },
+    {
+      "id": "dota-code-game-mode",
+      "url": "https://github.com/ZLOY5/LiA/blob/012fab34e8c84ad0aa73cd4eadde1736e3c9df29/game/scripts/vscripts/LiA_GameMode.lua",
+      "kind": "pinned_author_source_code",
+      "access": "read_local_download_from_other_research_agent",
+      "lines": [
+        "12-25",
+        "97",
+        "122-134",
+        "154"
+      ],
+      "supports": [
+        "distinct global constants and engine-derived-stat setters",
+        "maximum attack speed setter",
+        "damage filter registration"
+      ],
+      "limits": [
+        "static configuration, API behavior not runtime measured"
+      ]
+    },
+    {
+      "id": "dota-code-damage-filter",
+      "url": "https://github.com/ZLOY5/LiA/blob/012fab34e8c84ad0aa73cd4eadde1736e3c9df29/game/scripts/vscripts/filtering.lua",
+      "kind": "pinned_author_source_code",
+      "access": "read_local_download_from_other_research_agent",
+      "lines": [
+        "53-160",
+        "242-255"
+      ],
+      "supports": [
+        "inverse and forward armor factors cancel in ordinary non-replaced branch",
+        "splash and special-state branches require separate analysis",
+        "armor=-20 denominator boundary"
+      ],
+      "limits": [
+        "cancellation is a mathematical observation, not complete engine damage semantics",
+        "boundary reachability not tested"
+      ]
+    },
+    {
+      "id": "dota-code-damage-matrix",
+      "url": "https://github.com/ZLOY5/LiA/blob/012fab34e8c84ad0aa73cd4eadde1736e3c9df29/game/scripts/kv/damage_table.kv",
+      "kind": "pinned_author_source_code",
+      "access": "read_local_download_from_other_research_agent",
+      "lines": [
+        "12-21",
+        "24-85"
+      ],
+      "supports": [
+        "hero-to-hero actual table value differs from comment"
+      ],
+      "limits": [
+        "must trace consumer and engine stage"
+      ]
+    },
+    {
+      "id": "dota-code-survival",
+      "url": "https://github.com/ZLOY5/LiA/blob/012fab34e8c84ad0aa73cd4eadde1736e3c9df29/game/scripts/vscripts/survival/survival.lua",
+      "kind": "pinned_author_source_code",
+      "access": "read_local_download_from_other_research_agent",
+      "lines": [
+        "68"
+      ],
+      "supports": [
+        "Extreme flag derived from map name"
+      ],
+      "limits": [
+        "mode reachability requires entry-path analysis"
+      ]
+    },
+    {
+      "id": "warcraft-3.4-extracted-misc",
+      "url": "https://www.epicwar.com/maps/313063/",
+      "kind": "downloaded_map_static_data",
+      "access": "read_local_extraction_from_other_research_agent",
+      "sha256": "525e3dfdf2d3926bfcaa92582d751dea03b19c458f6dbf6004e5c5f7b76ed63a",
+      "local_path": ".local/research/lia/warcraft/3.4/extracted/war3mapMisc.txt",
+      "supports": [
+        "map gameplay constants differ from historical engine defaults",
+        "level cap 250 and mana per intelligence 12"
+      ],
+      "limits": [
+        "not runtime measured",
+        "map parsing provenance recorded by extraction agent"
+      ]
+    },
+    {
+      "id": "warcraft-3.9c-extracted-core",
+      "url": "https://www.epicwar.com/maps/354243/",
+      "kind": "downloaded_map_static_data_and_jass",
+      "access": "read_local_extraction_from_other_research_agent",
+      "sha256": "02a7901230963386347df738e292e4a0bc6dbfd47d062d502986ec88f0bbea34",
+      "local_path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "supports": [
+        "30 stages and 4 survival difficulties",
+        "initial participant count includes AI",
+        "three-point ordinary-wave spawning and special stages 21/23",
+        "separate survival and clan XP paths",
+        "Orn level-before-scaling and three gated add phases"
+      ],
+      "limits": [
+        "not executed",
+        "engine inheritance and complete spell graph unresolved",
+        "see docs/lia-warcraft-39c-path-review.md for source lines"
+      ]
+    }
+  ],
+  "unresolved_sources": [
+    {
+      "url": "https://vk.com/lifeinarena",
+      "result": "web tool non-retryable access error",
+      "impact": "current Warcraft author changelog not retrieved"
+    },
+    {
+      "url": "https://www.dota2.com/patches/7.27",
+      "result": "HTML shell without extractable content",
+      "impact": "not used to establish current armor formula"
+    },
+    {
+      "url": "https://www.dota2.com/patches/7.33",
+      "result": "HTML shell without extractable content",
+      "impact": "not used to establish current immunity semantics"
+    },
+    {
+      "url": "https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Scripting/Abilities_Data_Driven",
+      "result": "web tool internal error",
+      "impact": "API documentation not relied upon"
+    },
+    {
+      "url": "https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Scripting/API/CDOTA_BaseNPC.GetSecondsPerAttack",
+      "result": "web tool internal error",
+      "impact": "attack cadence runtime contract remains unverified"
+    }
+  ],
+  "conclusions": {
+    "balance_maturity": "continued author maintenance is evidenced; empirical balance quality is unverified",
+    "recommended_transfer_unit": "one identified content snapshot plus complete engine semantics and scenario settings",
+    "unknown_policy": "retain unresolved values; never silently fill with defaults from another game or version",
+    "rights": "no license or reuse permission inferred from public availability"
+  }
+}

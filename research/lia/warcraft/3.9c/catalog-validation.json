@@ -1,0 +1,22 @@
+{
+  "version": "3.9c",
+  "units": 828,
+  "items": 440,
+  "abilities": 2175,
+  "upgrades": 87,
+  "buffs": 503,
+  "selectable_hero_stock_calls": 96,
+  "unique_selectable_hero_ids": 96,
+  "taverns": 9,
+  "hero_ability_links": 694,
+  "recipes": 101,
+  "unique_recipe_results": 99,
+  "recipe_edges": 337,
+  "shop_conversions": 132,
+  "explicit_object_fields": 166715,
+  "unknown_recipe_ingredients": [],
+  "unknown_selectable_abilities": [],
+  "profile_duplicate_assignments": 6,
+  "profile_conflicting_duplicates": 3,
+  "cross_profile_conflicts": 5
+}

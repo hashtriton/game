@@ -1,0 +1,4406 @@
+[
+  {
+    "item": "item_lia_alanith_spear",
+    "declared_cost": 490,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_alanith_spear.txt",
+    "line": 24,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_alanith_spear",
+        "alternative": "01",
+        "recipe_cost": 180,
+        "components": [
+          {
+            "item": "item_lia_spear",
+            "declared_cost": 110,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_spear.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_mask_of_death",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mask_of_death.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_alanith_spear.txt",
+        "line": 20
+      }
+    ]
+  },
+  {
+    "item": "item_lia_armor_of_the_red_mist",
+    "declared_cost": 2555,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_armor_of_the_red_mist.txt",
+    "line": 22,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_armor_of_the_red_mist",
+        "alternative": "01",
+        "recipe_cost": 450,
+        "components": [
+          {
+            "item": "item_lia_shield_of_death",
+            "declared_cost": 1060,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_shield_of_death.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_shield_of_death",
+                "alternative": "01",
+                "recipe_cost": 400,
+                "components": [
+                  {
+                    "item": "item_lia_crown_of_death",
+                    "declared_cost": 540,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_crown_of_death.txt",
+                    "line": 23,
+                    "recipes": [
+                      {
+                        "recipe": "item_recipe_lia_crown_of_death",
+                        "alternative": "01",
+                        "recipe_cost": 200,
+                        "components": [
+                          {
+                            "item": "item_lia_runed_bracers",
+                            "declared_cost": 220,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_runed_bracers.txt",
+                            "line": 3,
+                            "recipes": []
+                          },
+                          {
+                            "item": "item_lia_amulet",
+                            "declared_cost": 120,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                            "line": 3,
+                            "recipes": []
+                          }
+                        ],
+                        "source": "game/scripts/npc/items/item_lia_crown_of_death.txt",
+                        "line": 19
+                      }
+                    ]
+                  },
+                  {
+                    "item": "item_lia_amulet",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_shield_of_death.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_mithril_armor",
+            "declared_cost": 1045,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mithril_armor.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_mithril_armor",
+                "alternative": "01",
+                "recipe_cost": 330,
+                "components": [
+                  {
+                    "item": "item_lia_dwarf_armor",
+                    "declared_cost": 515,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+                    "line": 23,
+                    "recipes": [
+                      {
+                        "recipe": "item_recipe_lia_dwarf_armor",
+                        "alternative": "01",
+                        "recipe_cost": 200,
+                        "components": [
+                          {
+                            "item": "item_lia_helm",
+                            "declared_cost": 195,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_helm.txt",
+                            "line": 3,
+                            "recipes": []
+                          },
+                          {
+                            "item": "item_lia_amulet",
+                            "declared_cost": 120,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                            "line": 3,
+                            "recipes": []
+                          }
+                        ],
+                        "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+                        "line": 19
+                      }
+                    ]
+                  },
+                  {
+                    "item": "item_lia_ring_of_protection",
+                    "declared_cost": 80,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_ring_of_protection",
+                    "declared_cost": 80,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_mithril_armor.txt",
+                "line": 19
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_armor_of_the_red_mist.txt",
+        "line": 18
+      }
+    ]
+  },
+  {
+    "item": "item_lia_banner_of_victory",
+    "declared_cost": 715,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_banner_of_victory.txt",
+    "line": 22,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_banner_of_victory",
+        "alternative": "01",
+        "recipe_cost": 320,
+        "components": [
+          {
+            "item": "item_lia_helm",
+            "declared_cost": 195,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_helm.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_mask_of_death",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mask_of_death.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_banner_of_victory.txt",
+        "line": 18
+      }
+    ]
+  },
+  {
+    "item": "item_lia_battle_axe",
+    "declared_cost": 585,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_battle_axe.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_battle_axe",
+        "alternative": "01",
+        "recipe_cost": 220,
+        "components": [
+          {
+            "item": "item_lia_ring_of_protection",
+            "declared_cost": 80,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_axe",
+            "declared_cost": 85,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_axe.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_gloves_of_strength",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_gloves_of_strength.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_battle_axe.txt",
+        "line": 18
+      }
+    ]
+  },
+  {
+    "item": "item_lia_battle_javelin",
+    "declared_cost": 800,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_battle_javelin.txt",
+    "line": 22,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_battle_javelin",
+        "alternative": "01",
+        "recipe_cost": 415,
+        "components": [
+          {
+            "item": "item_lia_runed_gloves",
+            "declared_cost": 220,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_runed_gloves",
+                "alternative": "01",
+                "recipe_cost": 100,
+                "components": [
+                  {
+                    "item": "item_lia_claws",
+                    "declared_cost": 65,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_claws.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_haste",
+                    "declared_cost": 55,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_spear",
+            "declared_cost": 110,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_spear.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_gloves_of_haste",
+            "declared_cost": 55,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_battle_javelin.txt",
+        "line": 18
+      }
+    ]
+  },
+  {
+    "item": "item_lia_blade_of_incorporeality",
+    "declared_cost": 1495,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_blade_of_incorporeality.txt",
+    "line": 22,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_blade_of_incorporeality",
+        "alternative": "01",
+        "recipe_cost": 500,
+        "components": [
+          {
+            "item": "item_lia_pantilus_blade",
+            "declared_cost": 520,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_pantilus_blade.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_pantilus_blade",
+                "alternative": "01",
+                "recipe_cost": 280,
+                "components": [
+                  {
+                    "item": "item_lia_steel_sword",
+                    "declared_cost": 45,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_haste",
+                    "declared_cost": 55,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_haste",
+                    "declared_cost": 55,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_necklace",
+                    "declared_cost": 85,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_necklace.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_pantilus_blade.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_magic_helm",
+            "declared_cost": 475,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_magic_helm.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_magic_helm",
+                "alternative": "01",
+                "recipe_cost": 280,
+                "components": [
+                  {
+                    "item": "item_lia_helm",
+                    "declared_cost": 195,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_helm.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_magic_helm.txt",
+                "line": 19
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_blade_of_incorporeality.txt",
+        "line": 18
+      }
+    ]
+  },
+  {
+    "item": "item_lia_blade_of_rage_agi",
+    "declared_cost": 1065,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_rage_sword_agi.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_blade_of_rage_agi",
+        "alternative": "01",
+        "recipe_cost": 600,
+        "components": [
+          {
+            "item": "item_lia_steel_sword",
+            "declared_cost": 45,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_runed_gloves",
+            "declared_cost": 220,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_runed_gloves",
+                "alternative": "01",
+                "recipe_cost": 100,
+                "components": [
+                  {
+                    "item": "item_lia_claws",
+                    "declared_cost": 65,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_claws.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_haste",
+                    "declared_cost": 55,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_thugs_dagger",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_thugs_dagger.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_rage_sword_agi.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_blade_of_rage_int",
+    "declared_cost": 1065,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_rage_sword_int.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_blade_of_rage_int",
+        "alternative": "01",
+        "recipe_cost": 600,
+        "components": [
+          {
+            "item": "item_lia_steel_sword",
+            "declared_cost": 45,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_runed_gloves",
+            "declared_cost": 220,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_runed_gloves",
+                "alternative": "01",
+                "recipe_cost": 100,
+                "components": [
+                  {
+                    "item": "item_lia_claws",
+                    "declared_cost": 65,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_claws.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_haste",
+                    "declared_cost": 55,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_staff",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_staff.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_rage_sword_int.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_blade_of_rage_str",
+    "declared_cost": 1065,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_rage_sword_str.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_blade_of_rage_str",
+        "alternative": "01",
+        "recipe_cost": 600,
+        "components": [
+          {
+            "item": "item_lia_steel_sword",
+            "declared_cost": 45,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_runed_gloves",
+            "declared_cost": 220,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_runed_gloves",
+                "alternative": "01",
+                "recipe_cost": 100,
+                "components": [
+                  {
+                    "item": "item_lia_claws",
+                    "declared_cost": 65,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_claws.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_haste",
+                    "declared_cost": 55,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_gloves_of_strength",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_gloves_of_strength.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_rage_sword_str.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_blood_blade",
+    "declared_cost": 900,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_blood_blade.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_blood_blade",
+        "alternative": "01",
+        "recipe_cost": 365,
+        "components": [
+          {
+            "item": "item_lia_alanith_spear",
+            "declared_cost": 490,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_alanith_spear.txt",
+            "line": 24,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_alanith_spear",
+                "alternative": "01",
+                "recipe_cost": 180,
+                "components": [
+                  {
+                    "item": "item_lia_spear",
+                    "declared_cost": 110,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_spear.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_mask_of_death",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mask_of_death.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_alanith_spear.txt",
+                "line": 20
+              }
+            ]
+          },
+          {
+            "item": "item_lia_steel_sword",
+            "declared_cost": 45,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_blood_blade.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_blood_moon",
+    "declared_cost": 2135,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_blood_moon.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_blood_moon",
+        "alternative": "01",
+        "recipe_cost": 750,
+        "components": [
+          {
+            "item": "item_lia_huge_axe",
+            "declared_cost": 515,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_huge_axe.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_huge_axe",
+                "alternative": "01",
+                "recipe_cost": 265,
+                "components": [
+                  {
+                    "item": "item_lia_axe",
+                    "declared_cost": 85,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_axe.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_claws",
+                    "declared_cost": 65,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_claws.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_orb_of_fire",
+                    "declared_cost": 110,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_orb_of_fire.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_huge_axe.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_hell_gloves",
+            "declared_cost": 870,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_hell_gloves.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_hell_gloves",
+                "alternative": "01",
+                "recipe_cost": 450,
+                "components": [
+                  {
+                    "item": "item_lia_runed_gloves",
+                    "declared_cost": 220,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                    "line": 23,
+                    "recipes": [
+                      {
+                        "recipe": "item_recipe_lia_runed_gloves",
+                        "alternative": "01",
+                        "recipe_cost": 100,
+                        "components": [
+                          {
+                            "item": "item_lia_claws",
+                            "declared_cost": 65,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_claws.txt",
+                            "line": 3,
+                            "recipes": []
+                          },
+                          {
+                            "item": "item_lia_gloves_of_haste",
+                            "declared_cost": 55,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                            "line": 3,
+                            "recipes": []
+                          }
+                        ],
+                        "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                        "line": 19
+                      }
+                    ]
+                  },
+                  {
+                    "item": "item_lia_gloves_of_strength",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_strength.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_hell_gloves.txt",
+                "line": 19
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_blood_moon.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_boots_of_invisibility",
+    "declared_cost": 390,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_boots_of_invisibility.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_boots_of_invisibility",
+        "alternative": "01",
+        "recipe_cost": 300,
+        "components": [
+          {
+            "item": "item_lia_boots",
+            "declared_cost": 90,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_boots.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_boots_of_invisibility.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_bounty_hunters_crossbow",
+    "declared_cost": 1900,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_bounty_hunters_crossbow.txt",
+    "line": 22,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_bounty_hunters_crossbow",
+        "alternative": "01",
+        "recipe_cost": 650,
+        "components": [
+          {
+            "item": "item_lia_battle_javelin",
+            "declared_cost": 800,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_battle_javelin.txt",
+            "line": 22,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_battle_javelin",
+                "alternative": "01",
+                "recipe_cost": 415,
+                "components": [
+                  {
+                    "item": "item_lia_runed_gloves",
+                    "declared_cost": 220,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                    "line": 23,
+                    "recipes": [
+                      {
+                        "recipe": "item_recipe_lia_runed_gloves",
+                        "alternative": "01",
+                        "recipe_cost": 100,
+                        "components": [
+                          {
+                            "item": "item_lia_claws",
+                            "declared_cost": 65,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_claws.txt",
+                            "line": 3,
+                            "recipes": []
+                          },
+                          {
+                            "item": "item_lia_gloves_of_haste",
+                            "declared_cost": 55,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                            "line": 3,
+                            "recipes": []
+                          }
+                        ],
+                        "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                        "line": 19
+                      }
+                    ]
+                  },
+                  {
+                    "item": "item_lia_spear",
+                    "declared_cost": 110,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_spear.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_haste",
+                    "declared_cost": 55,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_battle_javelin.txt",
+                "line": 18
+              }
+            ]
+          },
+          {
+            "item": "item_lia_demon_edge",
+            "declared_cost": 550,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_demon_edge.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_demon_edge",
+                "alternative": "01",
+                "recipe_cost": 230,
+                "components": [
+                  {
+                    "item": "item_lia_steel_sword",
+                    "declared_cost": 45,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_claws",
+                    "declared_cost": 65,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_claws.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_spear",
+                    "declared_cost": 110,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_spear.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_demon_edge.txt",
+                "line": 19
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_bounty_hunters_crossbow.txt",
+        "line": 18
+      }
+    ]
+  },
+  {
+    "item": "item_lia_crown_of_death",
+    "declared_cost": 540,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_crown_of_death.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_crown_of_death",
+        "alternative": "01",
+        "recipe_cost": 200,
+        "components": [
+          {
+            "item": "item_lia_runed_bracers",
+            "declared_cost": 220,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_runed_bracers.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_amulet",
+            "declared_cost": 120,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_amulet.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_crown_of_death.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_crusher",
+    "declared_cost": 2050,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_crusher.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_crusher",
+        "alternative": "01",
+        "recipe_cost": 650,
+        "components": [
+          {
+            "item": "item_lia_pantilus_blade",
+            "declared_cost": 520,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_pantilus_blade.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_pantilus_blade",
+                "alternative": "01",
+                "recipe_cost": 280,
+                "components": [
+                  {
+                    "item": "item_lia_steel_sword",
+                    "declared_cost": 45,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_haste",
+                    "declared_cost": 55,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_haste",
+                    "declared_cost": 55,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_necklace",
+                    "declared_cost": 85,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_necklace.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_pantilus_blade.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_lightning_spear",
+            "declared_cost": 880,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_lightning_spear.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_lightning_spear",
+                "alternative": "01",
+                "recipe_cost": 230,
+                "components": [
+                  {
+                    "item": "item_lia_fire_sword",
+                    "declared_cost": 395,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_fire_sword.txt",
+                    "line": 23,
+                    "recipes": [
+                      {
+                        "recipe": "item_recipe_lia_fire_sword",
+                        "alternative": "01",
+                        "recipe_cost": 200,
+                        "components": [
+                          {
+                            "item": "item_lia_steel_sword",
+                            "declared_cost": 45,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+                            "line": 3,
+                            "recipes": []
+                          },
+                          {
+                            "item": "item_lia_ancient_glove",
+                            "declared_cost": 150,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_ancient_glove.txt",
+                            "line": 3,
+                            "recipes": []
+                          }
+                        ],
+                        "source": "game/scripts/npc/items/item_lia_fire_sword.txt",
+                        "line": 19
+                      }
+                    ]
+                  },
+                  {
+                    "item": "item_lia_ancient_glove",
+                    "declared_cost": 150,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ancient_glove.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_spear",
+                    "declared_cost": 110,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_spear.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_lightning_spear.txt",
+                "line": 19
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_crusher.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_demon_edge",
+    "declared_cost": 550,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_demon_edge.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_demon_edge",
+        "alternative": "01",
+        "recipe_cost": 230,
+        "components": [
+          {
+            "item": "item_lia_steel_sword",
+            "declared_cost": 45,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_claws",
+            "declared_cost": 65,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_claws.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_spear",
+            "declared_cost": 110,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_spear.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_demon_edge.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_divine_armor",
+    "declared_cost": 2315,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_divine_armor.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_divine_armor",
+        "alternative": "01",
+        "recipe_cost": 700,
+        "components": [
+          {
+            "item": "item_lia_shield_of_endurance",
+            "declared_cost": 625,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_shield_of_endurance.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_shield_of_endurance",
+                "alternative": "01",
+                "recipe_cost": 350,
+                "components": [
+                  {
+                    "item": "item_lia_ring_of_protection",
+                    "declared_cost": 80,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_ring_of_regeneration",
+                    "declared_cost": 75,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ring_of_regeneration.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_amulet",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_shield_of_endurance.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_dwarf_armor",
+            "declared_cost": 515,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_dwarf_armor",
+                "alternative": "01",
+                "recipe_cost": 200,
+                "components": [
+                  {
+                    "item": "item_lia_helm",
+                    "declared_cost": 195,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_helm.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_amulet",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_magic_helm",
+            "declared_cost": 475,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_magic_helm.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_magic_helm",
+                "alternative": "01",
+                "recipe_cost": 280,
+                "components": [
+                  {
+                    "item": "item_lia_helm",
+                    "declared_cost": 195,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_helm.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_magic_helm.txt",
+                "line": 19
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_divine_armor.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_dwarf_armor",
+    "declared_cost": 515,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_dwarf_armor",
+        "alternative": "01",
+        "recipe_cost": 200,
+        "components": [
+          {
+            "item": "item_lia_helm",
+            "declared_cost": 195,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_helm.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_amulet",
+            "declared_cost": 120,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_amulet.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_enchanted_shield",
+    "declared_cost": 910,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+    "line": 41,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_enchanted_shield",
+        "alternative": "01",
+        "recipe_cost": 275,
+        "components": [
+          {
+            "item": "item_lia_dwarf_armor",
+            "declared_cost": 515,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_dwarf_armor",
+                "alternative": "01",
+                "recipe_cost": 200,
+                "components": [
+                  {
+                    "item": "item_lia_helm",
+                    "declared_cost": 195,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_helm.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_amulet",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_amulet",
+            "declared_cost": 120,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_amulet.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_enchanted_shield_2",
+    "declared_cost": 1185,
+    "listed_in_main_shop": false,
+    "source": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+    "line": 73,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_enchanted_shield_2",
+        "alternative": "01",
+        "recipe_cost": 0,
+        "components": [
+          {
+            "item": "item_recipe_lia_enchanted_shield",
+            "declared_cost": 275,
+            "listed_in_main_shop": false,
+            "source": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_enchanted_shield",
+            "declared_cost": 910,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+            "line": 41,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_enchanted_shield",
+                "alternative": "01",
+                "recipe_cost": 275,
+                "components": [
+                  {
+                    "item": "item_lia_dwarf_armor",
+                    "declared_cost": 515,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+                    "line": 23,
+                    "recipes": [
+                      {
+                        "recipe": "item_recipe_lia_dwarf_armor",
+                        "alternative": "01",
+                        "recipe_cost": 200,
+                        "components": [
+                          {
+                            "item": "item_lia_helm",
+                            "declared_cost": 195,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_helm.txt",
+                            "line": 3,
+                            "recipes": []
+                          },
+                          {
+                            "item": "item_lia_amulet",
+                            "declared_cost": 120,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                            "line": 3,
+                            "recipes": []
+                          }
+                        ],
+                        "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+                        "line": 19
+                      }
+                    ]
+                  },
+                  {
+                    "item": "item_lia_amulet",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+                "line": 19
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+        "line": 37
+      }
+    ]
+  },
+  {
+    "item": "item_lia_ferus_shield",
+    "declared_cost": 2090,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_ferus_shield.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_ferus_shield",
+        "alternative": "01",
+        "recipe_cost": 750,
+        "components": [
+          {
+            "item": "item_lia_shield_of_endurance",
+            "declared_cost": 625,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_shield_of_endurance.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_shield_of_endurance",
+                "alternative": "01",
+                "recipe_cost": 350,
+                "components": [
+                  {
+                    "item": "item_lia_ring_of_protection",
+                    "declared_cost": 80,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_ring_of_regeneration",
+                    "declared_cost": 75,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ring_of_regeneration.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_amulet",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_shield_of_endurance.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_banner_of_victory",
+            "declared_cost": 715,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_banner_of_victory.txt",
+            "line": 22,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_banner_of_victory",
+                "alternative": "01",
+                "recipe_cost": 320,
+                "components": [
+                  {
+                    "item": "item_lia_helm",
+                    "declared_cost": 195,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_helm.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_mask_of_death",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mask_of_death.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_banner_of_victory.txt",
+                "line": 18
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_ferus_shield.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_fire_gloves",
+    "declared_cost": 690,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_fire_gloves.txt",
+    "line": 41,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_fire_gloves",
+        "alternative": "01",
+        "recipe_cost": 350,
+        "components": [
+          {
+            "item": "item_lia_runed_gloves",
+            "declared_cost": 220,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_runed_gloves",
+                "alternative": "01",
+                "recipe_cost": 100,
+                "components": [
+                  {
+                    "item": "item_lia_claws",
+                    "declared_cost": 65,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_claws.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_haste",
+                    "declared_cost": 55,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_mana_stone",
+            "declared_cost": 120,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mana_stone.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_fire_gloves.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_fire_gloves_2",
+    "declared_cost": 1040,
+    "listed_in_main_shop": false,
+    "source": "game/scripts/npc/items/item_lia_fire_gloves.txt",
+    "line": 87,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_fire_gloves_2",
+        "alternative": "01",
+        "recipe_cost": 0,
+        "components": [
+          {
+            "item": "item_recipe_lia_fire_gloves",
+            "declared_cost": 350,
+            "listed_in_main_shop": false,
+            "source": "game/scripts/npc/items/item_lia_fire_gloves.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_fire_gloves",
+            "declared_cost": 690,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_fire_gloves.txt",
+            "line": 41,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_fire_gloves",
+                "alternative": "01",
+                "recipe_cost": 350,
+                "components": [
+                  {
+                    "item": "item_lia_runed_gloves",
+                    "declared_cost": 220,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                    "line": 23,
+                    "recipes": [
+                      {
+                        "recipe": "item_recipe_lia_runed_gloves",
+                        "alternative": "01",
+                        "recipe_cost": 100,
+                        "components": [
+                          {
+                            "item": "item_lia_claws",
+                            "declared_cost": 65,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_claws.txt",
+                            "line": 3,
+                            "recipes": []
+                          },
+                          {
+                            "item": "item_lia_gloves_of_haste",
+                            "declared_cost": 55,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                            "line": 3,
+                            "recipes": []
+                          }
+                        ],
+                        "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                        "line": 19
+                      }
+                    ]
+                  },
+                  {
+                    "item": "item_lia_mana_stone",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mana_stone.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_fire_gloves.txt",
+                "line": 19
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_fire_gloves.txt",
+        "line": 37
+      }
+    ]
+  },
+  {
+    "item": "item_lia_fire_rod",
+    "declared_cost": 1070,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_fire_rod.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_fire_rod",
+        "alternative": "01",
+        "recipe_cost": 730,
+        "components": [
+          {
+            "item": "item_lia_orb_of_fire",
+            "declared_cost": 110,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_orb_of_fire.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_spear",
+            "declared_cost": 110,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_spear.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_mana_stone",
+            "declared_cost": 120,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mana_stone.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_fire_rod.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_fire_sword",
+    "declared_cost": 395,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_fire_sword.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_fire_sword",
+        "alternative": "01",
+        "recipe_cost": 200,
+        "components": [
+          {
+            "item": "item_lia_steel_sword",
+            "declared_cost": 45,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_ancient_glove",
+            "declared_cost": 150,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_ancient_glove.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_fire_sword.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_ghost_blade",
+    "declared_cost": 1805,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_ghost_blade.txt",
+    "line": 24,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_ghost_blade",
+        "alternative": "01",
+        "recipe_cost": 700,
+        "components": [
+          {
+            "item": "item_lia_pantilus_blade",
+            "declared_cost": 520,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_pantilus_blade.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_pantilus_blade",
+                "alternative": "01",
+                "recipe_cost": 280,
+                "components": [
+                  {
+                    "item": "item_lia_steel_sword",
+                    "declared_cost": 45,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_haste",
+                    "declared_cost": 55,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_haste",
+                    "declared_cost": 55,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_necklace",
+                    "declared_cost": 85,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_necklace.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_pantilus_blade.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_battle_axe",
+            "declared_cost": 585,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_battle_axe.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_battle_axe",
+                "alternative": "01",
+                "recipe_cost": 220,
+                "components": [
+                  {
+                    "item": "item_lia_ring_of_protection",
+                    "declared_cost": 80,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_axe",
+                    "declared_cost": 85,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_axe.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_strength",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_strength.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_battle_axe.txt",
+                "line": 18
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_ghost_blade.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_glove_of_pain",
+    "declared_cost": 1590,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_glove_of_pain.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_glove_of_pain",
+        "alternative": "01",
+        "recipe_cost": 800,
+        "components": [
+          {
+            "item": "item_lia_mana_staff",
+            "declared_cost": 720,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mana_staff.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_mana_staff",
+                "alternative": "01",
+                "recipe_cost": 400,
+                "components": [
+                  {
+                    "item": "item_lia_staff",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_staff.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_mana_stone",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mana_stone.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_mana_staff.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_mask",
+            "declared_cost": 70,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mask.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_glove_of_pain.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_hammer",
+    "declared_cost": 965,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_hammer.txt",
+    "line": 24,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_hammer",
+        "alternative": "01",
+        "recipe_cost": 600,
+        "components": [
+          {
+            "item": "item_lia_spear",
+            "declared_cost": 110,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_spear.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_axe",
+            "declared_cost": 85,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_axe.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_necklace",
+            "declared_cost": 85,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_necklace.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_mantle",
+            "declared_cost": 85,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mantle.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_hammer.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_hammer_of_titans",
+    "declared_cost": 2130,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_hammer_of_titans.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_hammer_of_titans",
+        "alternative": "01",
+        "recipe_cost": 650,
+        "components": [
+          {
+            "item": "item_lia_huge_axe",
+            "declared_cost": 515,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_huge_axe.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_huge_axe",
+                "alternative": "01",
+                "recipe_cost": 265,
+                "components": [
+                  {
+                    "item": "item_lia_axe",
+                    "declared_cost": 85,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_axe.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_claws",
+                    "declared_cost": 65,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_claws.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_orb_of_fire",
+                    "declared_cost": 110,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_orb_of_fire.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_huge_axe.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_hammer",
+            "declared_cost": 965,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_hammer.txt",
+            "line": 24,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_hammer",
+                "alternative": "01",
+                "recipe_cost": 600,
+                "components": [
+                  {
+                    "item": "item_lia_spear",
+                    "declared_cost": 110,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_spear.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_axe",
+                    "declared_cost": 85,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_axe.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_necklace",
+                    "declared_cost": 85,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_necklace.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_mantle",
+                    "declared_cost": 85,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mantle.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_hammer.txt",
+                "line": 19
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_hammer_of_titans.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_hell_gloves",
+    "declared_cost": 870,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_hell_gloves.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_hell_gloves",
+        "alternative": "01",
+        "recipe_cost": 450,
+        "components": [
+          {
+            "item": "item_lia_runed_gloves",
+            "declared_cost": 220,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_runed_gloves",
+                "alternative": "01",
+                "recipe_cost": 100,
+                "components": [
+                  {
+                    "item": "item_lia_claws",
+                    "declared_cost": 65,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_claws.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_haste",
+                    "declared_cost": 55,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_gloves_of_strength",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_gloves_of_strength.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_hell_gloves.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_hell_mask",
+    "declared_cost": 420,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_hell_mask.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_hell_mask",
+        "alternative": "01",
+        "recipe_cost": 265,
+        "components": [
+          {
+            "item": "item_lia_mask",
+            "declared_cost": 70,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mask.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_mantle",
+            "declared_cost": 85,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mantle.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_hell_mask.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_huge_axe",
+    "declared_cost": 515,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_huge_axe.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_huge_axe",
+        "alternative": "01",
+        "recipe_cost": 265,
+        "components": [
+          {
+            "item": "item_lia_axe",
+            "declared_cost": 85,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_axe.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_claws",
+            "declared_cost": 65,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_claws.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_orb_of_fire",
+            "declared_cost": 110,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_orb_of_fire.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_huge_axe.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_hyper_boots",
+    "declared_cost": 490,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_hyper_boots.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_hyper_boots",
+        "alternative": "01",
+        "recipe_cost": 400,
+        "components": [
+          {
+            "item": "item_lia_boots",
+            "declared_cost": 90,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_boots.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_hyper_boots.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_ice_sword",
+    "declared_cost": 1315,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_ice_sword.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_ice_sword",
+        "alternative": "01",
+        "recipe_cost": 500,
+        "components": [
+          {
+            "item": "item_lia_orb_of_frost",
+            "declared_cost": 770,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_orb_of_frost.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_orb_of_frost",
+                "alternative": "01",
+                "recipe_cost": 400,
+                "components": [
+                  {
+                    "item": "item_lia_mana_stone",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mana_stone.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_stormwind_horn",
+                    "declared_cost": 250,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_stormwind_horn.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_orb_of_frost.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_steel_sword",
+            "declared_cost": 45,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_ice_sword.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_knight_cuirass",
+    "declared_cost": 2240,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_knight_cuirass.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_knight_cuirass",
+        "alternative": "01",
+        "recipe_cost": 1050,
+        "components": [
+          {
+            "item": "item_lia_knight_shield",
+            "declared_cost": 565,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_knight_shield.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_knight_shield",
+                "alternative": "01",
+                "recipe_cost": 300,
+                "components": [
+                  {
+                    "item": "item_lia_claws",
+                    "declared_cost": 65,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_claws.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_ring_of_protection",
+                    "declared_cost": 80,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_amulet",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_knight_shield.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_shield_of_endurance",
+            "declared_cost": 625,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_shield_of_endurance.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_shield_of_endurance",
+                "alternative": "01",
+                "recipe_cost": 350,
+                "components": [
+                  {
+                    "item": "item_lia_ring_of_protection",
+                    "declared_cost": 80,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_ring_of_regeneration",
+                    "declared_cost": 75,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ring_of_regeneration.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_amulet",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_shield_of_endurance.txt",
+                "line": 19
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_knight_cuirass.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_knight_shield",
+    "declared_cost": 565,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_knight_shield.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_knight_shield",
+        "alternative": "01",
+        "recipe_cost": 300,
+        "components": [
+          {
+            "item": "item_lia_claws",
+            "declared_cost": 65,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_claws.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_ring_of_protection",
+            "declared_cost": 80,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_amulet",
+            "declared_cost": 120,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_amulet.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_knight_shield.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_lightning_bow",
+    "declared_cost": 2960,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_lightning_bow.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_lightning_bow",
+        "alternative": "01",
+        "recipe_cost": 900,
+        "components": [
+          {
+            "item": "item_lia_lightning_spear",
+            "declared_cost": 880,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_lightning_spear.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_lightning_spear",
+                "alternative": "01",
+                "recipe_cost": 230,
+                "components": [
+                  {
+                    "item": "item_lia_fire_sword",
+                    "declared_cost": 395,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_fire_sword.txt",
+                    "line": 23,
+                    "recipes": [
+                      {
+                        "recipe": "item_recipe_lia_fire_sword",
+                        "alternative": "01",
+                        "recipe_cost": 200,
+                        "components": [
+                          {
+                            "item": "item_lia_steel_sword",
+                            "declared_cost": 45,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+                            "line": 3,
+                            "recipes": []
+                          },
+                          {
+                            "item": "item_lia_ancient_glove",
+                            "declared_cost": 150,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_ancient_glove.txt",
+                            "line": 3,
+                            "recipes": []
+                          }
+                        ],
+                        "source": "game/scripts/npc/items/item_lia_fire_sword.txt",
+                        "line": 19
+                      }
+                    ]
+                  },
+                  {
+                    "item": "item_lia_ancient_glove",
+                    "declared_cost": 150,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ancient_glove.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_spear",
+                    "declared_cost": 110,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_spear.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_lightning_spear.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_magic_bow",
+            "declared_cost": 1180,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_magic_bow.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_magic_bow",
+                "alternative": "01",
+                "recipe_cost": 650,
+                "components": [
+                  {
+                    "item": "item_lia_runed_gloves",
+                    "declared_cost": 220,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                    "line": 23,
+                    "recipes": [
+                      {
+                        "recipe": "item_recipe_lia_runed_gloves",
+                        "alternative": "01",
+                        "recipe_cost": 100,
+                        "components": [
+                          {
+                            "item": "item_lia_claws",
+                            "declared_cost": 65,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_claws.txt",
+                            "line": 3,
+                            "recipes": []
+                          },
+                          {
+                            "item": "item_lia_gloves_of_haste",
+                            "declared_cost": 55,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                            "line": 3,
+                            "recipes": []
+                          }
+                        ],
+                        "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                        "line": 19
+                      }
+                    ]
+                  },
+                  {
+                    "item": "item_lia_spear",
+                    "declared_cost": 110,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_spear.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_thugs_dagger",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_thugs_dagger.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_magic_bow.txt",
+                "line": 19
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_lightning_bow.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_lightning_spear",
+    "declared_cost": 880,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_lightning_spear.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_lightning_spear",
+        "alternative": "01",
+        "recipe_cost": 230,
+        "components": [
+          {
+            "item": "item_lia_fire_sword",
+            "declared_cost": 395,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_fire_sword.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_fire_sword",
+                "alternative": "01",
+                "recipe_cost": 200,
+                "components": [
+                  {
+                    "item": "item_lia_steel_sword",
+                    "declared_cost": 45,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_ancient_glove",
+                    "declared_cost": 150,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ancient_glove.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_fire_sword.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_ancient_glove",
+            "declared_cost": 150,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_ancient_glove.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_spear",
+            "declared_cost": 110,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_spear.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_lightning_spear.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_lunar_necklace",
+    "declared_cost": 1690,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_lunar_necklace.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_lunar_necklace",
+        "alternative": "01",
+        "recipe_cost": 500,
+        "components": [
+          {
+            "item": "item_lia_magic_necklace",
+            "declared_cost": 1050,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_magic_necklace.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_magic_necklace",
+                "alternative": "01",
+                "recipe_cost": 450,
+                "components": [
+                  {
+                    "item": "item_lia_staff",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_staff.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_thugs_dagger",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_thugs_dagger.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_strength",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_strength.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_magic_necklace.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_amulet",
+            "declared_cost": 120,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_amulet.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_mana_stone",
+            "declared_cost": 120,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mana_stone.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_lunar_necklace.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_magic_bow",
+    "declared_cost": 1180,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_magic_bow.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_magic_bow",
+        "alternative": "01",
+        "recipe_cost": 650,
+        "components": [
+          {
+            "item": "item_lia_runed_gloves",
+            "declared_cost": 220,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_runed_gloves",
+                "alternative": "01",
+                "recipe_cost": 100,
+                "components": [
+                  {
+                    "item": "item_lia_claws",
+                    "declared_cost": 65,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_claws.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_gloves_of_haste",
+                    "declared_cost": 55,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_spear",
+            "declared_cost": 110,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_spear.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_thugs_dagger",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_thugs_dagger.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_magic_bow.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_magic_helm",
+    "declared_cost": 475,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_magic_helm.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_magic_helm",
+        "alternative": "01",
+        "recipe_cost": 280,
+        "components": [
+          {
+            "item": "item_lia_helm",
+            "declared_cost": 195,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_helm.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_magic_helm.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_magic_necklace",
+    "declared_cost": 1050,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_magic_necklace.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_magic_necklace",
+        "alternative": "01",
+        "recipe_cost": 450,
+        "components": [
+          {
+            "item": "item_lia_staff",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_staff.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_thugs_dagger",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_thugs_dagger.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_gloves_of_strength",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_gloves_of_strength.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_magic_necklace.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_magic_staff",
+    "declared_cost": 770,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_magic_staff.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_magic_staff",
+        "alternative": "01",
+        "recipe_cost": 300,
+        "components": [
+          {
+            "item": "item_lia_staff",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_staff.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_staff",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_staff.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_mask",
+            "declared_cost": 70,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mask.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_magic_staff.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_magician_armor",
+    "declared_cost": 2205,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_magician_armor.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_magician_armor",
+        "alternative": "01",
+        "recipe_cost": 800,
+        "components": [
+          {
+            "item": "item_lia_dwarf_armor",
+            "declared_cost": 515,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_dwarf_armor",
+                "alternative": "01",
+                "recipe_cost": 200,
+                "components": [
+                  {
+                    "item": "item_lia_helm",
+                    "declared_cost": 195,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_helm.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_amulet",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_magic_staff",
+            "declared_cost": 770,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_magic_staff.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_magic_staff",
+                "alternative": "01",
+                "recipe_cost": 300,
+                "components": [
+                  {
+                    "item": "item_lia_staff",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_staff.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_staff",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_staff.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_mask",
+                    "declared_cost": 70,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mask.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_magic_staff.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_amulet",
+            "declared_cost": 120,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_amulet.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_magician_armor.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_mana_staff",
+    "declared_cost": 720,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_mana_staff.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_mana_staff",
+        "alternative": "01",
+        "recipe_cost": 400,
+        "components": [
+          {
+            "item": "item_lia_staff",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_staff.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_mana_stone",
+            "declared_cost": 120,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mana_stone.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_mana_staff.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_mithril_armor",
+    "declared_cost": 1045,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_mithril_armor.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_mithril_armor",
+        "alternative": "01",
+        "recipe_cost": 330,
+        "components": [
+          {
+            "item": "item_lia_dwarf_armor",
+            "declared_cost": 515,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_dwarf_armor",
+                "alternative": "01",
+                "recipe_cost": 200,
+                "components": [
+                  {
+                    "item": "item_lia_helm",
+                    "declared_cost": 195,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_helm.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_amulet",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_ring_of_protection",
+            "declared_cost": 80,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_ring_of_protection",
+            "declared_cost": 80,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_mithril_armor.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_orb_of_frost",
+    "declared_cost": 770,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_orb_of_frost.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_orb_of_frost",
+        "alternative": "01",
+        "recipe_cost": 400,
+        "components": [
+          {
+            "item": "item_lia_mana_stone",
+            "declared_cost": 120,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mana_stone.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_stormwind_horn",
+            "declared_cost": 250,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_stormwind_horn.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_orb_of_frost.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_pantilus_blade",
+    "declared_cost": 520,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_pantilus_blade.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_pantilus_blade",
+        "alternative": "01",
+        "recipe_cost": 280,
+        "components": [
+          {
+            "item": "item_lia_steel_sword",
+            "declared_cost": 45,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_gloves_of_haste",
+            "declared_cost": 55,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_gloves_of_haste",
+            "declared_cost": 55,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_necklace",
+            "declared_cost": 85,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_necklace.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_pantilus_blade.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_poleaxe_of_rage",
+    "declared_cost": 1390,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_poleaxe_of_rage.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_poleaxe_of_rage",
+        "alternative": "01",
+        "recipe_cost": 600,
+        "components": [
+          {
+            "item": "item_lia_fire_sword",
+            "declared_cost": 395,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_fire_sword.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_fire_sword",
+                "alternative": "01",
+                "recipe_cost": 200,
+                "components": [
+                  {
+                    "item": "item_lia_steel_sword",
+                    "declared_cost": 45,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_ancient_glove",
+                    "declared_cost": 150,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ancient_glove.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_fire_sword.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_fire_sword",
+            "declared_cost": 395,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_fire_sword.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_fire_sword",
+                "alternative": "01",
+                "recipe_cost": 200,
+                "components": [
+                  {
+                    "item": "item_lia_steel_sword",
+                    "declared_cost": 45,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_ancient_glove",
+                    "declared_cost": 150,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ancient_glove.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_fire_sword.txt",
+                "line": 19
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_poleaxe_of_rage.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_pure_light",
+    "declared_cost": 1500,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_pure_light.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_pure_light",
+        "alternative": "01",
+        "recipe_cost": 705,
+        "components": [
+          {
+            "item": "item_lia_mana_staff",
+            "declared_cost": 720,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mana_staff.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_mana_staff",
+                "alternative": "01",
+                "recipe_cost": 400,
+                "components": [
+                  {
+                    "item": "item_lia_staff",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_staff.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_mana_stone",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mana_stone.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_mana_staff.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_ring_of_regeneration",
+            "declared_cost": 75,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_ring_of_regeneration.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_pure_light.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_runed_gloves",
+    "declared_cost": 220,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_runed_gloves",
+        "alternative": "01",
+        "recipe_cost": 100,
+        "components": [
+          {
+            "item": "item_lia_claws",
+            "declared_cost": 65,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_claws.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_gloves_of_haste",
+            "declared_cost": 55,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_gloves_of_haste.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_seal_of_power_shop",
+    "declared_cost": 1155,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_seal_of_power.txt",
+    "line": 22,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_seal_of_power_shop",
+        "alternative": "01",
+        "recipe_cost": 850,
+        "components": [
+          {
+            "item": "item_lia_spear",
+            "declared_cost": 110,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_spear.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_helm",
+            "declared_cost": 195,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_helm.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_seal_of_power.txt",
+        "line": 18
+      }
+    ]
+  },
+  {
+    "item": "item_lia_shield_of_death",
+    "declared_cost": 1060,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_shield_of_death.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_shield_of_death",
+        "alternative": "01",
+        "recipe_cost": 400,
+        "components": [
+          {
+            "item": "item_lia_crown_of_death",
+            "declared_cost": 540,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_crown_of_death.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_crown_of_death",
+                "alternative": "01",
+                "recipe_cost": 200,
+                "components": [
+                  {
+                    "item": "item_lia_runed_bracers",
+                    "declared_cost": 220,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_runed_bracers.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_amulet",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_crown_of_death.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_amulet",
+            "declared_cost": 120,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_amulet.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_shield_of_death.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_shield_of_endurance",
+    "declared_cost": 625,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_shield_of_endurance.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_shield_of_endurance",
+        "alternative": "01",
+        "recipe_cost": 350,
+        "components": [
+          {
+            "item": "item_lia_ring_of_protection",
+            "declared_cost": 80,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_ring_of_regeneration",
+            "declared_cost": 75,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_ring_of_regeneration.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_amulet",
+            "declared_cost": 120,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_amulet.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_shield_of_endurance.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_spellbreaker",
+    "declared_cost": 1185,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_spellbreaker.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_spellbreaker",
+        "alternative": "01",
+        "recipe_cost": 500,
+        "components": [
+          {
+            "item": "item_lia_enchanted_shield_2",
+            "declared_cost": 1185,
+            "listed_in_main_shop": false,
+            "source": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+            "line": 73,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_enchanted_shield_2",
+                "alternative": "01",
+                "recipe_cost": 0,
+                "components": [
+                  {
+                    "item": "item_recipe_lia_enchanted_shield",
+                    "declared_cost": 275,
+                    "listed_in_main_shop": false,
+                    "source": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_enchanted_shield",
+                    "declared_cost": 910,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+                    "line": 41,
+                    "recipes": [
+                      {
+                        "recipe": "item_recipe_lia_enchanted_shield",
+                        "alternative": "01",
+                        "recipe_cost": 275,
+                        "components": [
+                          {
+                            "item": "item_lia_dwarf_armor",
+                            "declared_cost": 515,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+                            "line": 23,
+                            "recipes": [
+                              {
+                                "recipe": "item_recipe_lia_dwarf_armor",
+                                "alternative": "01",
+                                "recipe_cost": 200,
+                                "components": [
+                                  {
+                                    "item": "item_lia_helm",
+                                    "declared_cost": 195,
+                                    "listed_in_main_shop": true,
+                                    "source": "game/scripts/npc/items/item_lia_helm.txt",
+                                    "line": 3,
+                                    "recipes": []
+                                  },
+                                  {
+                                    "item": "item_lia_amulet",
+                                    "declared_cost": 120,
+                                    "listed_in_main_shop": true,
+                                    "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                                    "line": 3,
+                                    "recipes": []
+                                  }
+                                ],
+                                "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+                                "line": 19
+                              }
+                            ]
+                          },
+                          {
+                            "item": "item_lia_amulet",
+                            "declared_cost": 120,
+                            "listed_in_main_shop": true,
+                            "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                            "line": 3,
+                            "recipes": []
+                          }
+                        ],
+                        "source": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+                        "line": 19
+                      }
+                    ]
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+                "line": 37
+              }
+            ]
+          },
+          {
+            "item": "item_lia_staff_of_power",
+            "declared_cost": 790,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_scepter_of_power.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_staff_of_power",
+                "alternative": "01",
+                "recipe_cost": 200,
+                "components": [
+                  {
+                    "item": "item_lia_mask",
+                    "declared_cost": 70,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mask.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_amulet_of_spell_shield",
+                    "declared_cost": 300,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_amulet_of_spell_shield.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_scepter_of_power.txt",
+                "line": 19
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_spellbreaker.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_staff_of_help",
+    "declared_cost": 680,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_staff_of_help.txt",
+    "line": 42,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_staff_of_help",
+        "alternative": "01",
+        "recipe_cost": 330,
+        "components": [
+          {
+            "item": "item_lia_mask",
+            "declared_cost": 70,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mask.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_staff",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_staff.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_ring_of_protection",
+            "declared_cost": 80,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_staff_of_help.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_staff_of_help_2",
+    "declared_cost": 1010,
+    "listed_in_main_shop": false,
+    "source": "game/scripts/npc/items/item_lia_staff_of_help.txt",
+    "line": 135,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_staff_of_help_2",
+        "alternative": "01",
+        "recipe_cost": 0,
+        "components": [
+          {
+            "item": "item_recipe_lia_staff_of_help",
+            "declared_cost": 330,
+            "listed_in_main_shop": false,
+            "source": "game/scripts/npc/items/item_lia_staff_of_help.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_staff_of_help",
+            "declared_cost": 680,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_staff_of_help.txt",
+            "line": 42,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_staff_of_help",
+                "alternative": "01",
+                "recipe_cost": 330,
+                "components": [
+                  {
+                    "item": "item_lia_mask",
+                    "declared_cost": 70,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mask.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_staff",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_staff.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_ring_of_protection",
+                    "declared_cost": 80,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_staff_of_help.txt",
+                "line": 19
+              }
+            ]
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_staff_of_help.txt",
+        "line": 37
+      }
+    ]
+  },
+  {
+    "item": "item_lia_staff_of_illusions",
+    "declared_cost": 1490,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_staff_of_illusions.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_staff_of_illusions",
+        "alternative": "01",
+        "recipe_cost": 600,
+        "components": [
+          {
+            "item": "item_lia_magic_staff",
+            "declared_cost": 770,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_magic_staff.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_magic_staff",
+                "alternative": "01",
+                "recipe_cost": 300,
+                "components": [
+                  {
+                    "item": "item_lia_staff",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_staff.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_staff",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_staff.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_mask",
+                    "declared_cost": 70,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mask.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_magic_staff.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_mana_stone",
+            "declared_cost": 120,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mana_stone.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_staff_of_illusions.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_staff_of_life",
+    "declared_cost": 1350,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_staff_of_life.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_staff_of_life",
+        "alternative": "01",
+        "recipe_cost": 500,
+        "components": [
+          {
+            "item": "item_lia_magic_staff",
+            "declared_cost": 770,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_magic_staff.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_magic_staff",
+                "alternative": "01",
+                "recipe_cost": 300,
+                "components": [
+                  {
+                    "item": "item_lia_staff",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_staff.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_staff",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_staff.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_mask",
+                    "declared_cost": 70,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mask.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_magic_staff.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_ring_of_protection",
+            "declared_cost": 80,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_staff_of_life.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_staff_of_light",
+    "declared_cost": 1545,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_staff_of_light.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_staff_of_light",
+        "alternative": "01",
+        "recipe_cost": 700,
+        "components": [
+          {
+            "item": "item_lia_magic_staff",
+            "declared_cost": 770,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_magic_staff.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_magic_staff",
+                "alternative": "01",
+                "recipe_cost": 300,
+                "components": [
+                  {
+                    "item": "item_lia_staff",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_staff.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_staff",
+                    "declared_cost": 200,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_staff.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_mask",
+                    "declared_cost": 70,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mask.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_magic_staff.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_ring_of_regeneration",
+            "declared_cost": 75,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_ring_of_regeneration.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_staff_of_light.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_staff_of_power",
+    "declared_cost": 790,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_scepter_of_power.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_staff_of_power",
+        "alternative": "01",
+        "recipe_cost": 200,
+        "components": [
+          {
+            "item": "item_lia_mask",
+            "declared_cost": 70,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_mask.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_amulet_of_spell_shield",
+            "declared_cost": 300,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_amulet_of_spell_shield.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_scepter_of_power.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_sword_of_solidarity",
+    "declared_cost": 750,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_sword_of_solidarity.txt",
+    "line": 41,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_sword_of_solidarity",
+        "alternative": "01",
+        "recipe_cost": 550,
+        "components": [
+          {
+            "item": "item_lia_steel_sword",
+            "declared_cost": 45,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_ring_of_regeneration",
+            "declared_cost": 75,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_ring_of_regeneration.txt",
+            "line": 3,
+            "recipes": []
+          },
+          {
+            "item": "item_lia_ring_of_protection",
+            "declared_cost": 80,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_sword_of_solidarity.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_sword_of_solidarity_2",
+    "declared_cost": 1300,
+    "listed_in_main_shop": false,
+    "source": "game/scripts/npc/items/item_lia_sword_of_solidarity.txt",
+    "line": 117,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_sword_of_solidarity_2",
+        "alternative": "01",
+        "recipe_cost": 0,
+        "components": [
+          {
+            "item": "item_lia_sword_of_solidarity",
+            "declared_cost": 750,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_sword_of_solidarity.txt",
+            "line": 41,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_sword_of_solidarity",
+                "alternative": "01",
+                "recipe_cost": 550,
+                "components": [
+                  {
+                    "item": "item_lia_steel_sword",
+                    "declared_cost": 45,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_ring_of_regeneration",
+                    "declared_cost": 75,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ring_of_regeneration.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_ring_of_protection",
+                    "declared_cost": 80,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_ring_of_protection.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_sword_of_solidarity.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_recipe_lia_sword_of_solidarity",
+            "declared_cost": 550,
+            "listed_in_main_shop": false,
+            "source": "game/scripts/npc/items/item_lia_sword_of_solidarity.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_sword_of_solidarity.txt",
+        "line": 37
+      }
+    ]
+  },
+  {
+    "item": "item_lia_totem_of_persistence",
+    "declared_cost": 1635,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_totem_of_persistence.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_totem_of_persistence",
+        "alternative": "01",
+        "recipe_cost": 330,
+        "components": [
+          {
+            "item": "item_lia_dwarf_armor",
+            "declared_cost": 515,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_dwarf_armor",
+                "alternative": "01",
+                "recipe_cost": 200,
+                "components": [
+                  {
+                    "item": "item_lia_helm",
+                    "declared_cost": 195,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_helm.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_amulet",
+                    "declared_cost": 120,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_amulet.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_staff_of_power",
+            "declared_cost": 790,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_scepter_of_power.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_staff_of_power",
+                "alternative": "01",
+                "recipe_cost": 200,
+                "components": [
+                  {
+                    "item": "item_lia_mask",
+                    "declared_cost": 70,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mask.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_amulet_of_spell_shield",
+                    "declared_cost": 300,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_amulet_of_spell_shield.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_scepter_of_power.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_runed_bracers",
+            "declared_cost": 220,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_runed_bracers.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_totem_of_persistence.txt",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "item": "item_lia_widow_boots",
+    "declared_cost": 1300,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_widow_boots.txt",
+    "line": 22,
+    "recipes": [
+      {
+        "recipe": "item_recipe_lia_widow_boots",
+        "alternative": "01",
+        "recipe_cost": 200,
+        "components": [
+          {
+            "item": "item_lia_boots_of_invisibility",
+            "declared_cost": 390,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_boots_of_invisibility.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_boots_of_invisibility",
+                "alternative": "01",
+                "recipe_cost": 300,
+                "components": [
+                  {
+                    "item": "item_lia_boots",
+                    "declared_cost": 90,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_boots.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_boots_of_invisibility.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_demon_edge",
+            "declared_cost": 550,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_demon_edge.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_demon_edge",
+                "alternative": "01",
+                "recipe_cost": 230,
+                "components": [
+                  {
+                    "item": "item_lia_steel_sword",
+                    "declared_cost": 45,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_steel_sword.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_claws",
+                    "declared_cost": 65,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_claws.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_spear",
+                    "declared_cost": 110,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_spear.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_demon_edge.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_spider_ring",
+            "declared_cost": 160,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_spider_ring.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_widow_boots.txt",
+        "line": 18
+      }
+    ]
+  },
+  {
+    "item": "item_ultimate_scepter",
+    "declared_cost": 1620,
+    "listed_in_main_shop": true,
+    "source": "game/scripts/npc/items/item_lia_spherical_staff.txt",
+    "line": 23,
+    "recipes": [
+      {
+        "recipe": "item_recipe_ultimate_scepter",
+        "alternative": "01",
+        "recipe_cost": 1000,
+        "components": [
+          {
+            "item": "item_lia_hell_mask",
+            "declared_cost": 420,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_hell_mask.txt",
+            "line": 23,
+            "recipes": [
+              {
+                "recipe": "item_recipe_lia_hell_mask",
+                "alternative": "01",
+                "recipe_cost": 265,
+                "components": [
+                  {
+                    "item": "item_lia_mask",
+                    "declared_cost": 70,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mask.txt",
+                    "line": 3,
+                    "recipes": []
+                  },
+                  {
+                    "item": "item_lia_mantle",
+                    "declared_cost": 85,
+                    "listed_in_main_shop": true,
+                    "source": "game/scripts/npc/items/item_lia_mantle.txt",
+                    "line": 3,
+                    "recipes": []
+                  }
+                ],
+                "source": "game/scripts/npc/items/item_lia_hell_mask.txt",
+                "line": 19
+              }
+            ]
+          },
+          {
+            "item": "item_lia_staff",
+            "declared_cost": 200,
+            "listed_in_main_shop": true,
+            "source": "game/scripts/npc/items/item_lia_staff.txt",
+            "line": 3,
+            "recipes": []
+          }
+        ],
+        "source": "game/scripts/npc/items/item_lia_spherical_staff.txt",
+        "line": 19
+      }
+    ]
+  }
+]

@@ -1,0 +1,145 @@
+{
+  "commit": "012fab34e8c84ad0aa73cd4eadde1736e3c9df29",
+  "parser": "luaparser==4.2.0",
+  "executed_game_code": false,
+  "lua_files": 683,
+  "lua_parsed": 680,
+  "lua_errors": [
+    {
+      "source": "game/scripts/vscripts/abilities/7_wave_damage_block.lua",
+      "error": "syntax errors: None"
+    },
+    {
+      "source": "game/scripts/vscripts/abilities/9_wave_incorporiety.lua",
+      "error": "syntax errors: None"
+    },
+    {
+      "source": "game/scripts/vscripts/heroes/Hermit/modifier_hermit_decrepify.lua",
+      "error": "syntax errors: line 23:18: no viable alternative at input ':'"
+    }
+  ],
+  "ast_nodes": 136284,
+  "functions": 3573,
+  "expressions": 13294,
+  "calls": 14289,
+  "special_reads": 1488,
+  "special_consumer_candidates": 1498,
+  "lua_dependency_edges": 405,
+  "kv_lua_edges": 573,
+  "unresolved_dependencies": [
+    {
+      "source": "game/scripts/vscripts/heroes/Archmage/ShootingStar.lua",
+      "line": 1,
+      "end_line": 1,
+      "function": "<file>",
+      "kind": "LinkLuaModifier",
+      "target_raw": "heroes/Archmage/modifier_archmage_shooting_star_cooldown.lua",
+      "target": null,
+      "exists_exact_case": false
+    },
+    {
+      "source": "game/scripts/vscripts/heroes/EarthLord/earth_lord_split_earth.lua",
+      "line": 2,
+      "end_line": 2,
+      "function": "<file>",
+      "kind": "LinkLuaModifier",
+      "target_raw": "heroes/EarthLord/modifier_earth_lord_split_earth_thinker.lua",
+      "target": null,
+      "exists_exact_case": false
+    },
+    {
+      "source": "game/scripts/vscripts/heroes/SpiderQueen/spider_queen_infection.lua",
+      "line": 3,
+      "end_line": 3,
+      "function": "<file>",
+      "kind": "LinkLuaModifier",
+      "target_raw": "heroes/SpiderQueen/modifier_spider_queen_infection_debuff.lua",
+      "target": null,
+      "exists_exact_case": false
+    },
+    {
+      "source": "game/scripts/vscripts/LiA_GameMode.lua",
+      "line": 46,
+      "end_line": 46,
+      "function": "<file>",
+      "kind": "LinkLuaModifier",
+      "target_raw": "heroes/Demonologist/modifier_demonologist_riual_of_summoning_status_effect.lua",
+      "target": null,
+      "exists_exact_case": false
+    }
+  ],
+  "unresolved_kv_lua": [
+    {
+      "category": "abilities",
+      "entity": "stats_bonus_fix",
+      "source": "game/scripts/npc/abilities/stats_bonus_fix.txt",
+      "line": 6,
+      "key_path": "ScriptFile[1]",
+      "target_raw": "heroes\\stats_bonus_fix.lua",
+      "target": null,
+      "exists_exact_case": false,
+      "included": true
+    }
+  ],
+  "case_mismatches_lua": [
+    {
+      "source": "game/scripts/vscripts/survival/survival.lua",
+      "line": 31,
+      "end_line": 31,
+      "function": "<file>",
+      "kind": "require",
+      "target_raw": "survival/fightrecap",
+      "target": "game/scripts/vscripts/survival/fightRecap.lua",
+      "exists_exact_case": false
+    }
+  ],
+  "case_mismatches_kv": [
+    {
+      "category": "abilities",
+      "entity": "firelord_summon_lava_spawn",
+      "source": "game/scripts/npc/abilities/npc_lia_hero_firelord.txt",
+      "line": 116,
+      "key_path": "OnSpellStart[1]/SpawnUnit[1]/Target[1]/ScriptSelectPoints[1]/ScriptFile[1]",
+      "target_raw": "heroes/firelord/summon_lava_spawn.lua",
+      "target": "game/scripts/vscripts/heroes/Firelord/summon_lava_spawn.lua",
+      "exists_exact_case": false,
+      "included": true
+    },
+    {
+      "category": "abilities",
+      "entity": "firelord_summon_lava_spawn",
+      "source": "game/scripts/npc/abilities/npc_lia_hero_firelord.txt",
+      "line": 233,
+      "key_path": "OnSpellStart[1]/SpawnUnit[3]/OnSpawn[1]/RunScript[1]/ScriptFile[1]",
+      "target_raw": "heroes/firelord/summon_lava_spawn.lua",
+      "target": "game/scripts/vscripts/heroes/Firelord/summon_lava_spawn.lua",
+      "exists_exact_case": false,
+      "included": true
+    },
+    {
+      "category": "abilities",
+      "entity": "firelord_summon_lava_spawn",
+      "source": "game/scripts/npc/abilities/npc_lia_hero_firelord.txt",
+      "line": 299,
+      "key_path": "Modifiers[1]/modifier_lava_spawn_replicate[1]/OnAttackLanded[1]/RunScript[1]/ScriptFile[1]",
+      "target_raw": "heroes/firelord/summon_lava_spawn.lua",
+      "target": "game/scripts/vscripts/heroes/Firelord/summon_lava_spawn.lua",
+      "exists_exact_case": false,
+      "included": true
+    },
+    {
+      "category": "abilities",
+      "entity": "warlock_magic_splash",
+      "source": "game/scripts/npc/abilities/npc_lia_hero_warlock.txt",
+      "line": 185,
+      "key_path": "Modifiers[1]/modifier_magic_splash[1]/OnAbilityExecuted[1]/RunScript[1]/ScriptFile[1]",
+      "target_raw": "heroes\\Warlock\\MagicSplash.lua",
+      "target": "game/scripts/vscripts/heroes/Warlock/magicSplash.lua",
+      "exists_exact_case": false,
+      "included": true
+    }
+  ],
+  "reachable_lua_files": 628,
+  "bootstrap_reachable_lua_files": 40,
+  "coverage_limit": "AST extracts all assignments, returns, branch tests, loops, function signatures and calls. It does not execute Lua or prove path feasibility, callback scheduling, attack/Dota engine semantics. Lexical conditions exclude early-return and interprocedural guards."
+}

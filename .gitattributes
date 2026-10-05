@@ -1,0 +1,5 @@
+# Research fingerprints verify exact bytes, including CSV line endings.
+/.gitattributes text eol=lf
+research/lia/** -text whitespace=cr-at-eol
+tools/research/** -text whitespace=cr-at-eol
+docs/lia-*.md -text whitespace=cr-at-eol

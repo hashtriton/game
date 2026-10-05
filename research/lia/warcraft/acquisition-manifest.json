@@ -1,0 +1,61 @@
+{
+  "acquisitions": [
+    {
+      "version": "3.4",
+      "map_path": ".local/research/lia/warcraft/Life_in_Arena_v3_4.w3x",
+      "page_url": "https://www.epicwar.com/maps/313063/",
+      "download_route": "https://www.epicwar.com/maps/313063/download/",
+      "status": "existing_local_verified",
+      "content_type": "not re-requested",
+      "file_timestamp_utc": "2026-10-05T11:35:18.338450+00:00",
+      "checked_utc": "2026-10-05T11:50:24.216595+00:00",
+      "size": 6841771,
+      "sha256": "525e3dfdf2d3926bfcaa92582d751dea03b19c458f6dbf6004e5c5f7b76ed63a"
+    },
+    {
+      "version": "3.9c",
+      "map_path": ".local/research/lia/warcraft/Life_in_Arena_v3_9_c.w3x",
+      "page_url": "https://www.epicwar.com/maps/354243/",
+      "download_route": "https://www.epicwar.com/maps/354243/download/",
+      "status": "existing_local_verified",
+      "content_type": "not re-requested",
+      "file_timestamp_utc": "2026-10-05T11:35:20.852421+00:00",
+      "checked_utc": "2026-10-05T11:50:24.230087+00:00",
+      "size": 8355716,
+      "sha256": "02a7901230963386347df738e292e4a0bc6dbfd47d062d502986ec88f0bbea34"
+    }
+  ],
+  "readers": [
+    {
+      "name": "mpyq",
+      "version": "0.2.5",
+      "repository": "https://github.com/eagleflo/mpyq",
+      "commit": "6bfba18ec403f702666b4109db3d95f3b97b1dc5",
+      "source_sha256": "5bbf8fb213fc466a98aa51fdcb7ae35e5857887adf8490c944bf654592aa7c2f",
+      "license": "BSD-2-Clause; source inspected; no global installation"
+    },
+    {
+      "name": "StormLib",
+      "version": "9.40",
+      "url": "https://github.com/ladislav-zezula/StormLib/releases/download/v9.40/stormlib_dll.zip",
+      "zip_sha256": "b2c9635e7b63edee1bd7c82e7dc180d739f3accb2b8994804c7774e464ce89ae",
+      "publisher_digest_api": "https://api.github.com/repos/ladislav-zezula/StormLib/releases/latest",
+      "asset_id": 466311987,
+      "dll_sha256": "93321f6f030be5d7d79eb4cbf433d6ef7e83ce20d47d8963717f207d54afbe16",
+      "license": "MIT; local native DLL called only for archive reading"
+    }
+  ],
+  "initial_attempts": [
+    {
+      "url": "https://wc3maps.com/api/download/181024",
+      "redirect": "https://storagebox.wc3maps.com/181024/Life_in_Arena_v3_4.w3x",
+      "outcome": "connection timed out after 60 seconds with 0 bytes; independent EpicWar publication used"
+    },
+    {
+      "page": "EpicWar download anchor with HTML entity &amp;",
+      "outcome": "un-decoded anchor initially returned HTML200, not a map; standard HTML decoding yielded official signed download and valid octet-stream200 for both versions"
+    }
+  ],
+  "license_boundary": "Map/content reuse rights not established. Local analysis only. Do not copy maps, scripts, models, sounds, names or branding into Unity/game or publish without rights review.",
+  "execution": "Only archive decompression and static parsing. No JASS, triggers, game map or asset code executed."
+}

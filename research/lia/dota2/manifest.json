@@ -1,0 +1,23 @@
+{
+  "captured_date_utc": "2026-10-05",
+  "repository": "https://github.com/ZLOY5/LiA",
+  "head_api": "https://api.github.com/repos/ZLOY5/LiA/commits/master",
+  "snapshot_api": "https://api.github.com/repos/ZLOY5/LiA/commits/012fab34e8c84ad0aa73cd4eadde1736e3c9df29",
+  "commit": "012fab34e8c84ad0aa73cd4eadde1736e3c9df29",
+  "commit_date": "2026-09-30T06:06:16Z",
+  "head_matches_snapshot_on_acquisition": true,
+  "archive_url": "https://codeload.github.com/ZLOY5/LiA/zip/012fab34e8c84ad0aa73cd4eadde1736e3c9df29",
+  "archive_bytes": 85299759,
+  "archive_sha256": "6a6793b5cddd69b8a453aa6c11b92d8291b9a2698b97716508df961523764afb",
+  "local_archive": ".local/research/lia/dota2/012fab34e8c84ad0aa73cd4eadde1736e3c9df29.zip",
+  "local_source": ".local/research/lia/dota2/LiA-012fab34e8c84ad0aa73cd4eadde1736e3c9df29",
+  "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=407750024",
+  "workshop_content_matches_commit": "not_verified",
+  "license_api": null,
+  "root_license_files": [],
+  "rights": "No repository-wide license established. Local research only; do not reuse foreign code/assets in own game without permission.",
+  "full_archive_extracted": true,
+  "source_files": 2447,
+  "source_bytes": 189118429,
+  "method": "Static KV parsing and Lua AST. No game scripts executed."
+}

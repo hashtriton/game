@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-05",
+  "isolated": true,
+  "game_code_executed": false,
+  "python": "3.14.2",
+  "commands": [
+    {
+      "script": "warcraft_extract.py",
+      "arguments": [
+        "--version",
+        "3.4",
+        "--out",
+        "<isolated-output>\\warcraft\\3.4",
+        "--raw-out",
+        "<isolated-output>\\raw\\3.4"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "script": "warcraft_catalog.py",
+      "arguments": [
+        "--version",
+        "3.4",
+        "--out",
+        "<isolated-output>\\warcraft\\3.4",
+        "--raw",
+        "<isolated-output>\\raw\\3.4"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "script": "warcraft_extract.py",
+      "arguments": [
+        "--version",
+        "3.9c",
+        "--out",
+        "<isolated-output>\\warcraft\\3.9c",
+        "--raw-out",
+        "<isolated-output>\\raw\\3.9c"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "script": "warcraft_catalog.py",
+      "arguments": [
+        "--version",
+        "3.9c",
+        "--out",
+        "<isolated-output>\\warcraft\\3.9c",
+        "--raw",
+        "<isolated-output>\\raw\\3.9c"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "script": "warcraft_compare.py",
+      "arguments": [
+        "--base",
+        "<isolated-output>\\warcraft"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "script": "lia_core_balance.py",
+      "arguments": [
+        "--out",
+        "<isolated-output>\\core"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ],
+  "comparisons": {
+    "warcraft": {
+      "expected_files": 90,
+      "actual_files": 90,
+      "missing": [],
+      "extra": [],
+      "modified": [],
+      "reference_files_unchanged": true,
+      "passed": true
+    },
+    "core": {
+      "expected_files": 4,
+      "actual_files": 4,
+      "missing": [],
+      "extra": [],
+      "modified": [],
+      "reference_files_unchanged": true,
+      "passed": true
+    }
+  },
+  "passed": true
+}

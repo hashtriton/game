@@ -1,0 +1,1434 @@
+[
+  {
+    "recipe": "item_recipe_lia_alanith_spear",
+    "result": "item_lia_alanith_spear",
+    "alternative": "01",
+    "components": [
+      "item_lia_spear",
+      "item_lia_mask_of_death"
+    ],
+    "component_declared_costs": [
+      110,
+      200
+    ],
+    "recipe_cost": 180,
+    "sum_declared_component_plus_recipe_costs": 490,
+    "result_declared_cost": 490,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_alanith_spear.txt",
+    "line": 20,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_armor_of_the_red_mist",
+    "result": "item_lia_armor_of_the_red_mist",
+    "alternative": "01",
+    "components": [
+      "item_lia_shield_of_death",
+      "item_lia_mithril_armor"
+    ],
+    "component_declared_costs": [
+      1060,
+      1045
+    ],
+    "recipe_cost": 450,
+    "sum_declared_component_plus_recipe_costs": 2555,
+    "result_declared_cost": 2555,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_armor_of_the_red_mist.txt",
+    "line": 18,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_banner_of_victory",
+    "result": "item_lia_banner_of_victory",
+    "alternative": "01",
+    "components": [
+      "item_lia_helm",
+      "item_lia_mask_of_death"
+    ],
+    "component_declared_costs": [
+      195,
+      200
+    ],
+    "recipe_cost": 320,
+    "sum_declared_component_plus_recipe_costs": 715,
+    "result_declared_cost": 715,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_banner_of_victory.txt",
+    "line": 18,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_battle_axe",
+    "result": "item_lia_battle_axe",
+    "alternative": "01",
+    "components": [
+      "item_lia_ring_of_protection",
+      "item_lia_axe",
+      "item_lia_gloves_of_strength"
+    ],
+    "component_declared_costs": [
+      80,
+      85,
+      200
+    ],
+    "recipe_cost": 220,
+    "sum_declared_component_plus_recipe_costs": 585,
+    "result_declared_cost": 585,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_battle_axe.txt",
+    "line": 18,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_battle_javelin",
+    "result": "item_lia_battle_javelin",
+    "alternative": "01",
+    "components": [
+      "item_lia_runed_gloves",
+      "item_lia_spear",
+      "item_lia_gloves_of_haste"
+    ],
+    "component_declared_costs": [
+      220,
+      110,
+      55
+    ],
+    "recipe_cost": 415,
+    "sum_declared_component_plus_recipe_costs": 800,
+    "result_declared_cost": 800,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_battle_javelin.txt",
+    "line": 18,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_blade_of_incorporeality",
+    "result": "item_lia_blade_of_incorporeality",
+    "alternative": "01",
+    "components": [
+      "item_lia_pantilus_blade",
+      "item_lia_magic_helm"
+    ],
+    "component_declared_costs": [
+      520,
+      475
+    ],
+    "recipe_cost": 500,
+    "sum_declared_component_plus_recipe_costs": 1495,
+    "result_declared_cost": 1495,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_blade_of_incorporeality.txt",
+    "line": 18,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_blood_blade",
+    "result": "item_lia_blood_blade",
+    "alternative": "01",
+    "components": [
+      "item_lia_alanith_spear",
+      "item_lia_steel_sword"
+    ],
+    "component_declared_costs": [
+      490,
+      45
+    ],
+    "recipe_cost": 365,
+    "sum_declared_component_plus_recipe_costs": 900,
+    "result_declared_cost": 900,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_blood_blade.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_blood_moon",
+    "result": "item_lia_blood_moon",
+    "alternative": "01",
+    "components": [
+      "item_lia_huge_axe",
+      "item_lia_hell_gloves"
+    ],
+    "component_declared_costs": [
+      515,
+      870
+    ],
+    "recipe_cost": 750,
+    "sum_declared_component_plus_recipe_costs": 2135,
+    "result_declared_cost": 2135,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_blood_moon.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_boots_of_invisibility",
+    "result": "item_lia_boots_of_invisibility",
+    "alternative": "01",
+    "components": [
+      "item_lia_boots"
+    ],
+    "component_declared_costs": [
+      90
+    ],
+    "recipe_cost": 300,
+    "sum_declared_component_plus_recipe_costs": 390,
+    "result_declared_cost": 390,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_boots_of_invisibility.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_bounty_hunters_crossbow",
+    "result": "item_lia_bounty_hunters_crossbow",
+    "alternative": "01",
+    "components": [
+      "item_lia_battle_javelin",
+      "item_lia_demon_edge"
+    ],
+    "component_declared_costs": [
+      800,
+      550
+    ],
+    "recipe_cost": 650,
+    "sum_declared_component_plus_recipe_costs": 2000,
+    "result_declared_cost": 1900,
+    "difference": 100,
+    "source": "game/scripts/npc/items/item_lia_bounty_hunters_crossbow.txt",
+    "line": 18,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_crown_of_death",
+    "result": "item_lia_crown_of_death",
+    "alternative": "01",
+    "components": [
+      "item_lia_runed_bracers",
+      "item_lia_amulet"
+    ],
+    "component_declared_costs": [
+      220,
+      120
+    ],
+    "recipe_cost": 200,
+    "sum_declared_component_plus_recipe_costs": 540,
+    "result_declared_cost": 540,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_crown_of_death.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_crusher",
+    "result": "item_lia_crusher",
+    "alternative": "01",
+    "components": [
+      "item_lia_pantilus_blade",
+      "item_lia_lightning_spear"
+    ],
+    "component_declared_costs": [
+      520,
+      880
+    ],
+    "recipe_cost": 650,
+    "sum_declared_component_plus_recipe_costs": 2050,
+    "result_declared_cost": 2050,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_crusher.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_demon_edge",
+    "result": "item_lia_demon_edge",
+    "alternative": "01",
+    "components": [
+      "item_lia_steel_sword",
+      "item_lia_claws",
+      "item_lia_spear"
+    ],
+    "component_declared_costs": [
+      45,
+      65,
+      110
+    ],
+    "recipe_cost": 230,
+    "sum_declared_component_plus_recipe_costs": 450,
+    "result_declared_cost": 550,
+    "difference": -100,
+    "source": "game/scripts/npc/items/item_lia_demon_edge.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_divine_armor",
+    "result": "item_lia_divine_armor",
+    "alternative": "01",
+    "components": [
+      "item_lia_shield_of_endurance",
+      "item_lia_dwarf_armor",
+      "item_lia_magic_helm"
+    ],
+    "component_declared_costs": [
+      625,
+      515,
+      475
+    ],
+    "recipe_cost": 700,
+    "sum_declared_component_plus_recipe_costs": 2315,
+    "result_declared_cost": 2315,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_divine_armor.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_dwarf_armor",
+    "result": "item_lia_dwarf_armor",
+    "alternative": "01",
+    "components": [
+      "item_lia_helm",
+      "item_lia_amulet"
+    ],
+    "component_declared_costs": [
+      195,
+      120
+    ],
+    "recipe_cost": 200,
+    "sum_declared_component_plus_recipe_costs": 515,
+    "result_declared_cost": 515,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_dwarf_armor.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_enchanted_shield",
+    "result": "item_lia_enchanted_shield",
+    "alternative": "01",
+    "components": [
+      "item_lia_dwarf_armor",
+      "item_lia_amulet"
+    ],
+    "component_declared_costs": [
+      515,
+      120
+    ],
+    "recipe_cost": 275,
+    "sum_declared_component_plus_recipe_costs": 910,
+    "result_declared_cost": 910,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_enchanted_shield_2",
+    "result": "item_lia_enchanted_shield_2",
+    "alternative": "01",
+    "components": [
+      "item_recipe_lia_enchanted_shield",
+      "item_lia_enchanted_shield"
+    ],
+    "component_declared_costs": [
+      275,
+      910
+    ],
+    "recipe_cost": 0,
+    "sum_declared_component_plus_recipe_costs": 1185,
+    "result_declared_cost": 1185,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_enchanted_shield.txt",
+    "line": 37,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_ferus_shield",
+    "result": "item_lia_ferus_shield",
+    "alternative": "01",
+    "components": [
+      "item_lia_shield_of_endurance",
+      "item_lia_banner_of_victory"
+    ],
+    "component_declared_costs": [
+      625,
+      715
+    ],
+    "recipe_cost": 750,
+    "sum_declared_component_plus_recipe_costs": 2090,
+    "result_declared_cost": 2090,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_ferus_shield.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_fire_gloves",
+    "result": "item_lia_fire_gloves",
+    "alternative": "01",
+    "components": [
+      "item_lia_runed_gloves",
+      "item_lia_mana_stone"
+    ],
+    "component_declared_costs": [
+      220,
+      120
+    ],
+    "recipe_cost": 350,
+    "sum_declared_component_plus_recipe_costs": 690,
+    "result_declared_cost": 690,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_fire_gloves.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_fire_gloves_2",
+    "result": "item_lia_fire_gloves_2",
+    "alternative": "01",
+    "components": [
+      "item_recipe_lia_fire_gloves",
+      "item_lia_fire_gloves"
+    ],
+    "component_declared_costs": [
+      350,
+      690
+    ],
+    "recipe_cost": 0,
+    "sum_declared_component_plus_recipe_costs": 1040,
+    "result_declared_cost": 1040,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_fire_gloves.txt",
+    "line": 37,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_fire_rod",
+    "result": "item_lia_fire_rod",
+    "alternative": "01",
+    "components": [
+      "item_lia_orb_of_fire",
+      "item_lia_spear",
+      "item_lia_mana_stone"
+    ],
+    "component_declared_costs": [
+      110,
+      110,
+      120
+    ],
+    "recipe_cost": 730,
+    "sum_declared_component_plus_recipe_costs": 1070,
+    "result_declared_cost": 1070,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_fire_rod.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_fire_sword",
+    "result": "item_lia_fire_sword",
+    "alternative": "01",
+    "components": [
+      "item_lia_steel_sword",
+      "item_lia_ancient_glove"
+    ],
+    "component_declared_costs": [
+      45,
+      150
+    ],
+    "recipe_cost": 200,
+    "sum_declared_component_plus_recipe_costs": 395,
+    "result_declared_cost": 395,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_fire_sword.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_ghost_blade",
+    "result": "item_lia_ghost_blade",
+    "alternative": "01",
+    "components": [
+      "item_lia_pantilus_blade",
+      "item_lia_battle_axe"
+    ],
+    "component_declared_costs": [
+      520,
+      585
+    ],
+    "recipe_cost": 700,
+    "sum_declared_component_plus_recipe_costs": 1805,
+    "result_declared_cost": 1805,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_ghost_blade.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_glove_of_pain",
+    "result": "item_lia_glove_of_pain",
+    "alternative": "01",
+    "components": [
+      "item_lia_mana_staff",
+      "item_lia_mask"
+    ],
+    "component_declared_costs": [
+      720,
+      70
+    ],
+    "recipe_cost": 800,
+    "sum_declared_component_plus_recipe_costs": 1590,
+    "result_declared_cost": 1590,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_glove_of_pain.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_hammer",
+    "result": "item_lia_hammer",
+    "alternative": "01",
+    "components": [
+      "item_lia_spear",
+      "item_lia_axe",
+      "item_lia_necklace",
+      "item_lia_mantle"
+    ],
+    "component_declared_costs": [
+      110,
+      85,
+      85,
+      85
+    ],
+    "recipe_cost": 600,
+    "sum_declared_component_plus_recipe_costs": 965,
+    "result_declared_cost": 965,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_hammer.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_hammer_of_titans",
+    "result": "item_lia_hammer_of_titans",
+    "alternative": "01",
+    "components": [
+      "item_lia_huge_axe",
+      "item_lia_hammer"
+    ],
+    "component_declared_costs": [
+      515,
+      965
+    ],
+    "recipe_cost": 650,
+    "sum_declared_component_plus_recipe_costs": 2130,
+    "result_declared_cost": 2130,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_hammer_of_titans.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_hell_gloves",
+    "result": "item_lia_hell_gloves",
+    "alternative": "01",
+    "components": [
+      "item_lia_runed_gloves",
+      "item_lia_gloves_of_strength"
+    ],
+    "component_declared_costs": [
+      220,
+      200
+    ],
+    "recipe_cost": 450,
+    "sum_declared_component_plus_recipe_costs": 870,
+    "result_declared_cost": 870,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_hell_gloves.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_hell_mask",
+    "result": "item_lia_hell_mask",
+    "alternative": "01",
+    "components": [
+      "item_lia_mask",
+      "item_lia_mantle"
+    ],
+    "component_declared_costs": [
+      70,
+      85
+    ],
+    "recipe_cost": 265,
+    "sum_declared_component_plus_recipe_costs": 420,
+    "result_declared_cost": 420,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_hell_mask.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_huge_axe",
+    "result": "item_lia_huge_axe",
+    "alternative": "01",
+    "components": [
+      "item_lia_axe",
+      "item_lia_claws",
+      "item_lia_orb_of_fire"
+    ],
+    "component_declared_costs": [
+      85,
+      65,
+      110
+    ],
+    "recipe_cost": 265,
+    "sum_declared_component_plus_recipe_costs": 525,
+    "result_declared_cost": 515,
+    "difference": 10,
+    "source": "game/scripts/npc/items/item_lia_huge_axe.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_hyper_boots",
+    "result": "item_lia_hyper_boots",
+    "alternative": "01",
+    "components": [
+      "item_lia_boots"
+    ],
+    "component_declared_costs": [
+      90
+    ],
+    "recipe_cost": 400,
+    "sum_declared_component_plus_recipe_costs": 490,
+    "result_declared_cost": 490,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_hyper_boots.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_ice_sword",
+    "result": "item_lia_ice_sword",
+    "alternative": "01",
+    "components": [
+      "item_lia_orb_of_frost",
+      "item_lia_steel_sword"
+    ],
+    "component_declared_costs": [
+      770,
+      45
+    ],
+    "recipe_cost": 500,
+    "sum_declared_component_plus_recipe_costs": 1315,
+    "result_declared_cost": 1315,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_ice_sword.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_knight_cuirass",
+    "result": "item_lia_knight_cuirass",
+    "alternative": "01",
+    "components": [
+      "item_lia_knight_shield",
+      "item_lia_shield_of_endurance"
+    ],
+    "component_declared_costs": [
+      565,
+      625
+    ],
+    "recipe_cost": 1050,
+    "sum_declared_component_plus_recipe_costs": 2240,
+    "result_declared_cost": 2240,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_knight_cuirass.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_knight_shield",
+    "result": "item_lia_knight_shield",
+    "alternative": "01",
+    "components": [
+      "item_lia_claws",
+      "item_lia_ring_of_protection",
+      "item_lia_amulet"
+    ],
+    "component_declared_costs": [
+      65,
+      80,
+      120
+    ],
+    "recipe_cost": 300,
+    "sum_declared_component_plus_recipe_costs": 565,
+    "result_declared_cost": 565,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_knight_shield.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_lightning_bow",
+    "result": "item_lia_lightning_bow",
+    "alternative": "01",
+    "components": [
+      "item_lia_lightning_spear",
+      "item_lia_magic_bow"
+    ],
+    "component_declared_costs": [
+      880,
+      1180
+    ],
+    "recipe_cost": 900,
+    "sum_declared_component_plus_recipe_costs": 2960,
+    "result_declared_cost": 2960,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_lightning_bow.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_lightning_spear",
+    "result": "item_lia_lightning_spear",
+    "alternative": "01",
+    "components": [
+      "item_lia_fire_sword",
+      "item_lia_ancient_glove",
+      "item_lia_spear"
+    ],
+    "component_declared_costs": [
+      395,
+      150,
+      110
+    ],
+    "recipe_cost": 230,
+    "sum_declared_component_plus_recipe_costs": 885,
+    "result_declared_cost": 880,
+    "difference": 5,
+    "source": "game/scripts/npc/items/item_lia_lightning_spear.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_lunar_necklace",
+    "result": "item_lia_lunar_necklace",
+    "alternative": "01",
+    "components": [
+      "item_lia_magic_necklace",
+      "item_lia_amulet",
+      "item_lia_mana_stone"
+    ],
+    "component_declared_costs": [
+      1050,
+      120,
+      120
+    ],
+    "recipe_cost": 500,
+    "sum_declared_component_plus_recipe_costs": 1790,
+    "result_declared_cost": 1690,
+    "difference": 100,
+    "source": "game/scripts/npc/items/item_lia_lunar_necklace.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_magic_bow",
+    "result": "item_lia_magic_bow",
+    "alternative": "01",
+    "components": [
+      "item_lia_runed_gloves",
+      "item_lia_spear",
+      "item_lia_thugs_dagger"
+    ],
+    "component_declared_costs": [
+      220,
+      110,
+      200
+    ],
+    "recipe_cost": 650,
+    "sum_declared_component_plus_recipe_costs": 1180,
+    "result_declared_cost": 1180,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_magic_bow.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_magic_helm",
+    "result": "item_lia_magic_helm",
+    "alternative": "01",
+    "components": [
+      "item_lia_helm"
+    ],
+    "component_declared_costs": [
+      195
+    ],
+    "recipe_cost": 280,
+    "sum_declared_component_plus_recipe_costs": 475,
+    "result_declared_cost": 475,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_magic_helm.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_magic_necklace",
+    "result": "item_lia_magic_necklace",
+    "alternative": "01",
+    "components": [
+      "item_lia_staff",
+      "item_lia_thugs_dagger",
+      "item_lia_gloves_of_strength"
+    ],
+    "component_declared_costs": [
+      200,
+      200,
+      200
+    ],
+    "recipe_cost": 450,
+    "sum_declared_component_plus_recipe_costs": 1050,
+    "result_declared_cost": 1050,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_magic_necklace.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_magic_staff",
+    "result": "item_lia_magic_staff",
+    "alternative": "01",
+    "components": [
+      "item_lia_staff",
+      "item_lia_staff",
+      "item_lia_mask"
+    ],
+    "component_declared_costs": [
+      200,
+      200,
+      70
+    ],
+    "recipe_cost": 300,
+    "sum_declared_component_plus_recipe_costs": 770,
+    "result_declared_cost": 770,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_magic_staff.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_magician_armor",
+    "result": "item_lia_magician_armor",
+    "alternative": "01",
+    "components": [
+      "item_lia_dwarf_armor",
+      "item_lia_magic_staff",
+      "item_lia_amulet"
+    ],
+    "component_declared_costs": [
+      515,
+      770,
+      120
+    ],
+    "recipe_cost": 800,
+    "sum_declared_component_plus_recipe_costs": 2205,
+    "result_declared_cost": 2205,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_magician_armor.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_mana_staff",
+    "result": "item_lia_mana_staff",
+    "alternative": "01",
+    "components": [
+      "item_lia_staff",
+      "item_lia_mana_stone"
+    ],
+    "component_declared_costs": [
+      200,
+      120
+    ],
+    "recipe_cost": 400,
+    "sum_declared_component_plus_recipe_costs": 720,
+    "result_declared_cost": 720,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_mana_staff.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_mithril_armor",
+    "result": "item_lia_mithril_armor",
+    "alternative": "01",
+    "components": [
+      "item_lia_dwarf_armor",
+      "item_lia_ring_of_protection",
+      "item_lia_ring_of_protection"
+    ],
+    "component_declared_costs": [
+      515,
+      80,
+      80
+    ],
+    "recipe_cost": 330,
+    "sum_declared_component_plus_recipe_costs": 1005,
+    "result_declared_cost": 1045,
+    "difference": -40,
+    "source": "game/scripts/npc/items/item_lia_mithril_armor.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_orb_of_frost",
+    "result": "item_lia_orb_of_frost",
+    "alternative": "01",
+    "components": [
+      "item_lia_mana_stone",
+      "item_lia_stormwind_horn"
+    ],
+    "component_declared_costs": [
+      120,
+      250
+    ],
+    "recipe_cost": 400,
+    "sum_declared_component_plus_recipe_costs": 770,
+    "result_declared_cost": 770,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_orb_of_frost.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_pantilus_blade",
+    "result": "item_lia_pantilus_blade",
+    "alternative": "01",
+    "components": [
+      "item_lia_steel_sword",
+      "item_lia_gloves_of_haste",
+      "item_lia_gloves_of_haste",
+      "item_lia_necklace"
+    ],
+    "component_declared_costs": [
+      45,
+      55,
+      55,
+      85
+    ],
+    "recipe_cost": 280,
+    "sum_declared_component_plus_recipe_costs": 520,
+    "result_declared_cost": 520,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_pantilus_blade.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_poleaxe_of_rage",
+    "result": "item_lia_poleaxe_of_rage",
+    "alternative": "01",
+    "components": [
+      "item_lia_fire_sword",
+      "item_lia_fire_sword"
+    ],
+    "component_declared_costs": [
+      395,
+      395
+    ],
+    "recipe_cost": 600,
+    "sum_declared_component_plus_recipe_costs": 1390,
+    "result_declared_cost": 1390,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_poleaxe_of_rage.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_pure_light",
+    "result": "item_lia_pure_light",
+    "alternative": "01",
+    "components": [
+      "item_lia_mana_staff",
+      "item_lia_ring_of_regeneration"
+    ],
+    "component_declared_costs": [
+      720,
+      75
+    ],
+    "recipe_cost": 705,
+    "sum_declared_component_plus_recipe_costs": 1500,
+    "result_declared_cost": 1500,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_pure_light.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_blade_of_rage_agi",
+    "result": "item_lia_blade_of_rage_agi",
+    "alternative": "01",
+    "components": [
+      "item_lia_steel_sword",
+      "item_lia_runed_gloves",
+      "item_lia_thugs_dagger"
+    ],
+    "component_declared_costs": [
+      45,
+      220,
+      200
+    ],
+    "recipe_cost": 600,
+    "sum_declared_component_plus_recipe_costs": 1065,
+    "result_declared_cost": 1065,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_rage_sword_agi.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_blade_of_rage_int",
+    "result": "item_lia_blade_of_rage_int",
+    "alternative": "01",
+    "components": [
+      "item_lia_steel_sword",
+      "item_lia_runed_gloves",
+      "item_lia_staff"
+    ],
+    "component_declared_costs": [
+      45,
+      220,
+      200
+    ],
+    "recipe_cost": 600,
+    "sum_declared_component_plus_recipe_costs": 1065,
+    "result_declared_cost": 1065,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_rage_sword_int.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_blade_of_rage_str",
+    "result": "item_lia_blade_of_rage_str",
+    "alternative": "01",
+    "components": [
+      "item_lia_steel_sword",
+      "item_lia_runed_gloves",
+      "item_lia_gloves_of_strength"
+    ],
+    "component_declared_costs": [
+      45,
+      220,
+      200
+    ],
+    "recipe_cost": 600,
+    "sum_declared_component_plus_recipe_costs": 1065,
+    "result_declared_cost": 1065,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_rage_sword_str.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_runed_gloves",
+    "result": "item_lia_runed_gloves",
+    "alternative": "01",
+    "components": [
+      "item_lia_claws",
+      "item_lia_gloves_of_haste"
+    ],
+    "component_declared_costs": [
+      65,
+      55
+    ],
+    "recipe_cost": 100,
+    "sum_declared_component_plus_recipe_costs": 220,
+    "result_declared_cost": 220,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_runed_gloves.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_staff_of_power",
+    "result": "item_lia_staff_of_power",
+    "alternative": "01",
+    "components": [
+      "item_lia_mask",
+      "item_lia_amulet_of_spell_shield"
+    ],
+    "component_declared_costs": [
+      70,
+      300
+    ],
+    "recipe_cost": 200,
+    "sum_declared_component_plus_recipe_costs": 570,
+    "result_declared_cost": 790,
+    "difference": -220,
+    "source": "game/scripts/npc/items/item_lia_scepter_of_power.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_seal_of_power_shop",
+    "result": "item_lia_seal_of_power_shop",
+    "alternative": "01",
+    "components": [
+      "item_lia_spear",
+      "item_lia_helm"
+    ],
+    "component_declared_costs": [
+      110,
+      195
+    ],
+    "recipe_cost": 850,
+    "sum_declared_component_plus_recipe_costs": 1155,
+    "result_declared_cost": 1155,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_seal_of_power.txt",
+    "line": 18,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_shield_of_death",
+    "result": "item_lia_shield_of_death",
+    "alternative": "01",
+    "components": [
+      "item_lia_crown_of_death",
+      "item_lia_amulet"
+    ],
+    "component_declared_costs": [
+      540,
+      120
+    ],
+    "recipe_cost": 400,
+    "sum_declared_component_plus_recipe_costs": 1060,
+    "result_declared_cost": 1060,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_shield_of_death.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_shield_of_endurance",
+    "result": "item_lia_shield_of_endurance",
+    "alternative": "01",
+    "components": [
+      "item_lia_ring_of_protection",
+      "item_lia_ring_of_regeneration",
+      "item_lia_amulet"
+    ],
+    "component_declared_costs": [
+      80,
+      75,
+      120
+    ],
+    "recipe_cost": 350,
+    "sum_declared_component_plus_recipe_costs": 625,
+    "result_declared_cost": 625,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_shield_of_endurance.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_spellbreaker",
+    "result": "item_lia_spellbreaker",
+    "alternative": "01",
+    "components": [
+      "item_lia_enchanted_shield_2",
+      "item_lia_staff_of_power"
+    ],
+    "component_declared_costs": [
+      1185,
+      790
+    ],
+    "recipe_cost": 500,
+    "sum_declared_component_plus_recipe_costs": 2475,
+    "result_declared_cost": 1185,
+    "difference": 1290,
+    "source": "game/scripts/npc/items/item_lia_spellbreaker.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_ultimate_scepter",
+    "result": "item_ultimate_scepter",
+    "alternative": "01",
+    "components": [
+      "item_lia_hell_mask",
+      "item_lia_staff"
+    ],
+    "component_declared_costs": [
+      420,
+      200
+    ],
+    "recipe_cost": 1000,
+    "sum_declared_component_plus_recipe_costs": 1620,
+    "result_declared_cost": 1620,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_spherical_staff.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_staff_of_help",
+    "result": "item_lia_staff_of_help",
+    "alternative": "01",
+    "components": [
+      "item_lia_mask",
+      "item_lia_staff",
+      "item_lia_ring_of_protection"
+    ],
+    "component_declared_costs": [
+      70,
+      200,
+      80
+    ],
+    "recipe_cost": 330,
+    "sum_declared_component_plus_recipe_costs": 680,
+    "result_declared_cost": 680,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_staff_of_help.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_staff_of_help_2",
+    "result": "item_lia_staff_of_help_2",
+    "alternative": "01",
+    "components": [
+      "item_recipe_lia_staff_of_help",
+      "item_lia_staff_of_help"
+    ],
+    "component_declared_costs": [
+      330,
+      680
+    ],
+    "recipe_cost": 0,
+    "sum_declared_component_plus_recipe_costs": 1010,
+    "result_declared_cost": 1010,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_staff_of_help.txt",
+    "line": 37,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_staff_of_illusions",
+    "result": "item_lia_staff_of_illusions",
+    "alternative": "01",
+    "components": [
+      "item_lia_magic_staff",
+      "item_lia_mana_stone"
+    ],
+    "component_declared_costs": [
+      770,
+      120
+    ],
+    "recipe_cost": 600,
+    "sum_declared_component_plus_recipe_costs": 1490,
+    "result_declared_cost": 1490,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_staff_of_illusions.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_staff_of_life",
+    "result": "item_lia_staff_of_life",
+    "alternative": "01",
+    "components": [
+      "item_lia_magic_staff",
+      "item_lia_ring_of_protection"
+    ],
+    "component_declared_costs": [
+      770,
+      80
+    ],
+    "recipe_cost": 500,
+    "sum_declared_component_plus_recipe_costs": 1350,
+    "result_declared_cost": 1350,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_staff_of_life.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_staff_of_light",
+    "result": "item_lia_staff_of_light",
+    "alternative": "01",
+    "components": [
+      "item_lia_magic_staff",
+      "item_lia_ring_of_regeneration"
+    ],
+    "component_declared_costs": [
+      770,
+      75
+    ],
+    "recipe_cost": 700,
+    "sum_declared_component_plus_recipe_costs": 1545,
+    "result_declared_cost": 1545,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_staff_of_light.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_sword_of_solidarity",
+    "result": "item_lia_sword_of_solidarity",
+    "alternative": "01",
+    "components": [
+      "item_lia_steel_sword",
+      "item_lia_ring_of_regeneration",
+      "item_lia_ring_of_protection"
+    ],
+    "component_declared_costs": [
+      45,
+      75,
+      80
+    ],
+    "recipe_cost": 550,
+    "sum_declared_component_plus_recipe_costs": 750,
+    "result_declared_cost": 750,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_sword_of_solidarity.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_sword_of_solidarity_2",
+    "result": "item_lia_sword_of_solidarity_2",
+    "alternative": "01",
+    "components": [
+      "item_lia_sword_of_solidarity",
+      "item_recipe_lia_sword_of_solidarity"
+    ],
+    "component_declared_costs": [
+      750,
+      550
+    ],
+    "recipe_cost": 0,
+    "sum_declared_component_plus_recipe_costs": 1300,
+    "result_declared_cost": 1300,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_sword_of_solidarity.txt",
+    "line": 37,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_totem_of_persistence",
+    "result": "item_lia_totem_of_persistence",
+    "alternative": "01",
+    "components": [
+      "item_lia_dwarf_armor",
+      "item_lia_staff_of_power",
+      "item_lia_runed_bracers"
+    ],
+    "component_declared_costs": [
+      515,
+      790,
+      220
+    ],
+    "recipe_cost": 330,
+    "sum_declared_component_plus_recipe_costs": 1855,
+    "result_declared_cost": 1635,
+    "difference": 220,
+    "source": "game/scripts/npc/items/item_lia_totem_of_persistence.txt",
+    "line": 19,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  },
+  {
+    "recipe": "item_recipe_lia_widow_boots",
+    "result": "item_lia_widow_boots",
+    "alternative": "01",
+    "components": [
+      "item_lia_boots_of_invisibility",
+      "item_lia_demon_edge",
+      "item_lia_spider_ring"
+    ],
+    "component_declared_costs": [
+      390,
+      550,
+      160
+    ],
+    "recipe_cost": 200,
+    "sum_declared_component_plus_recipe_costs": 1300,
+    "result_declared_cost": 1300,
+    "difference": 0,
+    "source": "game/scripts/npc/items/item_lia_widow_boots.txt",
+    "line": 18,
+    "included": true,
+    "note": "Declared-cost arithmetic only; does not emulate Dota purchase/upgrade consumption rules."
+  }
+]
