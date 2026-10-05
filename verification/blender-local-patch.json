@@ -4,9 +4,11 @@
   "patched_sha256": "5a608f16c449f1eb4c46fde9092f8fdc08b608b73f29980c8a9ad6c7f45533cc",
   "patch": "stdin=subprocess.DEVNULL",
   "source": "https://projects.blender.org/lab/blender_mcp/issues/58",
-  "cause_status": "hypothesis matching upstream report; MCP retry pending separate owner consent",
+  "cause_status": "same read-only MCP retry passed after local stdin DEVNULL patch; detailed mechanism matches upstream issue58",
   "paths": [
     "C:\\Users\\Netes\\Desktop\\proj\\game\\.local\\blender-mcp-source\\blmcp\\tools_helpers\\blender_cli.py",
     "C:\\Users\\Netes\\Desktop\\proj\\game\\.local\\blender-mcp-venv\\Lib\\site-packages\\blmcp\\tools_helpers\\blender_cli.py"
-  ]
+  ],
+  "smoke_test_after_patch_passed": true,
+  "smoke_evidence": "verification/blender-mcp-read-smoke.json"
 }

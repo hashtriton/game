@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-05",
+  "session_title": "Проверить стек Game",
+  "thread_id": "01a10bc9-9019-78e0-bdf6-4006eec55bb9",
+  "host": "local",
+  "cwd": "C:\\Users\\Netes\\Desktop\\proj\\game",
+  "native_codex_tool_catalog_verified": true,
+  "unity_tools": [
+    "mcp__unity__editor_status",
+    "mcp__unity__get_scene_hierarchy",
+    "mcp__unity__list_open_scenes",
+    "mcp__unity__get_component_properties",
+    "mcp__unity__find_assets",
+    "mcp__unity__package_list"
+  ],
+  "blender_tools": [
+    "mcp__blender__execute_blender_code_for_cli"
+  ],
+  "unity_native_call": {
+    "tool": "mcp__unity__editor_status",
+    "arguments": {},
+    "passed": true,
+    "project": "C:\\Users\\Netes\\Desktop\\proj\\game\\unity",
+    "ready": true,
+    "compiling": false,
+    "domainReloadInProgress": false,
+    "playMode": "stopped",
+    "unityVersion": "6000.6.4f1"
+  },
+  "blender_native_python_executed": false,
+  "blender_approval_policy_configured": "prompt",
+  "blender_approval_dialog_tested": false,
+  "evidence": "supported Codex create_thread/local Game + wait_threads completed report; no custom client substitution"
+}

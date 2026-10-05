@@ -1,0 +1,888 @@
+{
+  "checked_at_utc": "2026-10-05T14:46:29.508374+00:00",
+  "blender_version": "5.2.2 LTS",
+  "source_file": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\astra-low\\final.blend",
+  "source_sha256_before": "f4fb5a32b5d8aa5dbfa6b71b5e4ef173b98d8ed0a9f301643d39990e72873474",
+  "source_sha256_after": "f4fb5a32b5d8aa5dbfa6b71b5e4ef173b98d8ed0a9f301643d39990e72873474",
+  "source_unchanged": true,
+  "variant": "astra-low",
+  "stage": "final",
+  "scene": "Scene",
+  "scene_count": 1,
+  "active_view_layer": "ViewLayer",
+  "collection": "ASSET",
+  "unit_scale": 1.0,
+  "render_visible_geometry_objects": 12,
+  "evaluated_triangles": 11656,
+  "budgets": {
+    "visible_geometry_objects": 120,
+    "evaluated_triangles": 100000
+  },
+  "near_zero_area_threshold_m2": 1e-12,
+  "totals": {
+    "nonfinite_vertices": 0,
+    "near_zero_area_triangles": 0,
+    "invalid_polygon_normals": 0,
+    "missing_material_faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges_more_than_two_faces": 0,
+    "inconsistent_winding_edges": 0,
+    "negative_closed_components": 0
+  },
+  "bounds_m": {
+    "min": [
+      -0.5699999928474426,
+      -0.3338380753993988,
+      0.0
+    ],
+    "max": [
+      0.5299999713897705,
+      0.348171591758728,
+      0.8999999761581421
+    ],
+    "size": [
+      1.0999999642372131,
+      0.6820096671581268,
+      0.8999999761581421
+    ]
+  },
+  "dimension_checks": [
+    {
+      "name": "overall_X_length",
+      "measured_m": 1.0999999642372131,
+      "expected_m": 1.1,
+      "tolerance_percent": 10,
+      "pass": true
+    },
+    {
+      "name": "overall_Z_height",
+      "measured_m": 0.8999999761581421,
+      "expected_m": 0.9,
+      "tolerance_percent": 10,
+      "pass": true
+    }
+  ],
+  "objects_without_uv": [
+    "Bent hold-down -0.17 -1",
+    "Bent hold-down -0.17 1",
+    "Bent hold-down 0.17 -1",
+    "Bent hold-down 0.17 1",
+    "Iron hoop 1",
+    "Iron hoop 2"
+  ],
+  "external_files": [
+    {
+      "path": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\datafiles\\assets\\brushes\\essentials_brushes-gp_draw.blend",
+      "available": true,
+      "template": false
+    }
+  ],
+  "render_visible_geometry_outside_asset": [],
+  "hidden_asset_objects": [],
+  "evaluation": {
+    "depsgraph_mode": "VIEWPORT",
+    "temporary_render_flag_adjustments": []
+  },
+  "meshes": [
+    {
+      "name": "Anvil - continuous head and round horn",
+      "source_type": "MESH",
+      "vertices": 3138,
+      "polygons": 6272,
+      "evaluated_triangles": 6280,
+      "bounds_m": {
+        "min": [
+          -0.5699999928474426,
+          -0.17499999701976776,
+          0.5
+        ],
+        "max": [
+          0.5299999713897705,
+          0.17499999701976776,
+          0.8999999761581421
+        ],
+        "size": [
+          1.0999999642372131,
+          0.3499999940395355,
+          0.3999999761581421
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.8110130036934795e-12,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Forged iron",
+        "Polished working face"
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 18824,
+          "nonfinite": 0
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 6272,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.05037107782064875
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false
+    },
+    {
+      "name": "Bent hold-down -0.17 -1",
+      "source_type": "MESH",
+      "vertices": 112,
+      "polygons": 106,
+      "evaluated_triangles": 220,
+      "bounds_m": {
+        "min": [
+          -0.18799999356269836,
+          -0.25699999928474426,
+          0.5009999871253967
+        ],
+        "max": [
+          -0.15199999511241913,
+          -0.14499999582767487,
+          0.5509999990463257
+        ],
+        "size": [
+          0.035999998450279236,
+          0.1120000034570694,
+          0.050000011920928955
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 8.282499421338779e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Oxidized iron fittings"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 106,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 6.290115239425404e-05
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false
+    },
+    {
+      "name": "Bent hold-down -0.17 1",
+      "source_type": "MESH",
+      "vertices": 112,
+      "polygons": 106,
+      "evaluated_triangles": 220,
+      "bounds_m": {
+        "min": [
+          -0.18799999356269836,
+          0.14499999582767487,
+          0.5009999871253967
+        ],
+        "max": [
+          -0.15199999511241913,
+          0.25699999928474426,
+          0.5509999990463257
+        ],
+        "size": [
+          0.035999998450279236,
+          0.1120000034570694,
+          0.050000011920928955
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 8.282499421338779e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Oxidized iron fittings"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 106,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 6.290114993340312e-05
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false
+    },
+    {
+      "name": "Bent hold-down 0.17 -1",
+      "source_type": "MESH",
+      "vertices": 112,
+      "polygons": 106,
+      "evaluated_triangles": 220,
+      "bounds_m": {
+        "min": [
+          0.15199999511241913,
+          -0.25699999928474426,
+          0.5009999871253967
+        ],
+        "max": [
+          0.18799999356269836,
+          -0.14499999582767487,
+          0.5509999990463257
+        ],
+        "size": [
+          0.035999998450279236,
+          0.1120000034570694,
+          0.050000011920928955
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 8.282499421338779e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Oxidized iron fittings"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 106,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 6.290115466315453e-05
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false
+    },
+    {
+      "name": "Bent hold-down 0.17 1",
+      "source_type": "MESH",
+      "vertices": 112,
+      "polygons": 106,
+      "evaluated_triangles": 220,
+      "bounds_m": {
+        "min": [
+          0.15199999511241913,
+          0.14499999582767487,
+          0.5009999871253967
+        ],
+        "max": [
+          0.18799999356269836,
+          0.25699999928474426,
+          0.5509999990463257
+        ],
+        "size": [
+          0.035999998450279236,
+          0.1120000034570694,
+          0.050000011920928955
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 8.282499421338779e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Oxidized iron fittings"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 106,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 6.290115141495636e-05
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false
+    },
+    {
+      "name": "Hex timber fixing",
+      "source_type": "MESH",
+      "vertices": 84,
+      "polygons": 80,
+      "evaluated_triangles": 164,
+      "bounds_m": {
+        "min": [
+          -0.1803923100233078,
+          -0.24873915314674377,
+          0.5135000348091125
+        ],
+        "max": [
+          -0.1596076935529709,
+          -0.22526085376739502,
+          0.5224999785423279
+        ],
+        "size": [
+          0.020784616470336914,
+          0.023478299379348755,
+          0.008999943733215332
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 2.504448140394211e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Oxidized iron fittings"
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 324,
+          "nonfinite": 0
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 80,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 3.313087606445116e-06
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false
+    },
+    {
+      "name": "Hex timber fixing.001",
+      "source_type": "MESH",
+      "vertices": 84,
+      "polygons": 80,
+      "evaluated_triangles": 164,
+      "bounds_m": {
+        "min": [
+          -0.1803923100233078,
+          0.22526085376739502,
+          0.5135000348091125
+        ],
+        "max": [
+          -0.1596076935529709,
+          0.24873915314674377,
+          0.5224999785423279
+        ],
+        "size": [
+          0.020784616470336914,
+          0.023478299379348755,
+          0.008999943733215332
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 2.504448140394211e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Oxidized iron fittings"
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 324,
+          "nonfinite": 0
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 80,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 3.313087606445116e-06
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false
+    },
+    {
+      "name": "Hex timber fixing.002",
+      "source_type": "MESH",
+      "vertices": 84,
+      "polygons": 80,
+      "evaluated_triangles": 164,
+      "bounds_m": {
+        "min": [
+          0.1596076935529709,
+          -0.24873915314674377,
+          0.5135000348091125
+        ],
+        "max": [
+          0.1803923100233078,
+          -0.22526085376739502,
+          0.5224999785423279
+        ],
+        "size": [
+          0.020784616470336914,
+          0.023478299379348755,
+          0.008999943733215332
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 2.504448140394211e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Oxidized iron fittings"
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 324,
+          "nonfinite": 0
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 80,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 3.313087606445116e-06
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false
+    },
+    {
+      "name": "Hex timber fixing.003",
+      "source_type": "MESH",
+      "vertices": 84,
+      "polygons": 80,
+      "evaluated_triangles": 164,
+      "bounds_m": {
+        "min": [
+          0.1596076935529709,
+          0.22526085376739502,
+          0.5135000348091125
+        ],
+        "max": [
+          0.1803923100233078,
+          0.24873915314674377,
+          0.5224999785423279
+        ],
+        "size": [
+          0.020784616470336914,
+          0.023478299379348755,
+          0.008999943733215332
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 2.504448140394211e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Oxidized iron fittings"
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 324,
+          "nonfinite": 0
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 80,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 3.313087606445116e-06
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false
+    },
+    {
+      "name": "Iron hoop 1",
+      "source_type": "MESH",
+      "vertices": 768,
+      "polygons": 768,
+      "evaluated_triangles": 1536,
+      "bounds_m": {
+        "min": [
+          -0.3405081629753113,
+          -0.3338380753993988,
+          0.07400000095367432
+        ],
+        "max": [
+          0.34429484605789185,
+          0.348171591758728,
+          0.11599999666213989
+        ],
+        "size": [
+          0.6848030090332031,
+          0.6820096671581268,
+          0.041999995708465576
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.999176513699651e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Oxidized iron fittings"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 768,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0008744764363635871
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false
+    },
+    {
+      "name": "Iron hoop 2",
+      "source_type": "MESH",
+      "vertices": 768,
+      "polygons": 768,
+      "evaluated_triangles": 1536,
+      "bounds_m": {
+        "min": [
+          -0.33300724625587463,
+          -0.3264940679073334,
+          0.37400001287460327
+        ],
+        "max": [
+          0.3367115557193756,
+          0.3404995799064636,
+          0.41600000858306885
+        ],
+        "size": [
+          0.6697188019752502,
+          0.666993647813797,
+          0.041999995708465576
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.953996908637873e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Oxidized iron fittings"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 768,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0008549432622454192
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false
+    },
+    {
+      "name": "Oak stump",
+      "source_type": "MESH",
+      "vertices": 386,
+      "polygons": 339,
+      "evaluated_triangles": 768,
+      "bounds_m": {
+        "min": [
+          -0.3322884440422058,
+          -0.32408857345581055,
+          0.0
+        ],
+        "max": [
+          0.3351134955883026,
+          0.33941832184791565,
+          0.5
+        ],
+        "size": [
+          0.6674019396305084,
+          0.6635068953037262,
+          0.5
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 3.397682558287731e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Oak - long side grain",
+        "Oak - cut end rings"
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 1446,
+          "nonfinite": 0
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 339,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.16204948487073217
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "6 evaluated meshes have no UV layer; allowed for this procedural-material study"
+  ],
+  "technical_pass": true,
+  "interpretation": {
+    "boundary_and_nonmanifold": "Errors for the solid anvil and stump brief; legitimate intentionally open detail would need explicit review",
+    "signed_volume": "Per closed consistently wound connected surface, in world meters; negative components flagged for inward orientation or deliberate cavities requiring review",
+    "uv": "Absence is allowed; no UV completeness or game-readiness claim",
+    "limits": [
+      "No self-intersection or inter-object collision test",
+      "No art or silhouette acceptance",
+      "No automatic semantic measurement of stump top, anvil face width, holes or horn direction",
+      "No export or game-readiness validation",
+      "Render-specific Geometry Nodes, particles, displacement and instancing are not fully evaluated",
+      "External path existence does not validate every sequence frame, UDIM tile or linked asset contents"
+    ]
+  }
+}

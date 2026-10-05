@@ -1,0 +1,40 @@
+{
+  "checked_at_utc": "2026-10-05T14:15:56.222944+00:00",
+  "blender_version": "5.2.2 LTS",
+  "source_file": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\astra-bust-trial\\astra-bust.blend",
+  "source_sha256": "baeaf8f309bb33949d1ec4e36c0d5b0bcfcf7235192d87eb74d5dd0deff8f65f",
+  "source_unchanged": true,
+  "model_collections": [
+    "01 Sculpt and eyes",
+    "02 Groom",
+    "03 Forged cuirass",
+    "04 Mantle and collar"
+  ],
+  "mesh_objects": 7214,
+  "evaluated_triangles": 6088420,
+  "near_zero_area_triangles": 0,
+  "nonfinite_vertices": 0,
+  "missing_material_faces": 0,
+  "objects_without_uv": 106,
+  "bounds_blender_units": {
+    "min": [
+      -3.009999990463257,
+      -1.5260406732559204,
+      1.2660125494003296
+    ],
+    "max": [
+      3.009999990463257,
+      1.2997199296951294,
+      7.936799049377441
+    ]
+  },
+  "unit_scale": 1.0,
+  "external_images": [],
+  "camera_present": true,
+  "light_count": 4,
+  "errors": [],
+  "technical_pass": true,
+  "visual_acceptance": "Requires separate inspection against the user reference.",
+  "scope": "Local static bust trial. No claim of game readiness, rig, UVs or export.",
+  "meshes_with_geometry_warnings": []
+}

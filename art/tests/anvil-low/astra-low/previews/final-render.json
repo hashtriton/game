@@ -1,0 +1,41 @@
+{
+  "source": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\astra-low\\final.blend",
+  "sha256": "f4fb5a32b5d8aa5dbfa6b71b5e4ef173b98d8ed0a9f301643d39990e72873474",
+  "source_unchanged": true,
+  "mode": "present",
+  "device": {
+    "backend": "OPTIX",
+    "device": "GPU",
+    "devices": [
+      "NVIDIA GeForce RTX 2080 Ti"
+    ],
+    "fallbacks": []
+  },
+  "views": [
+    {
+      "view": "beauty",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\astra-low\\previews\\final-beauty.png",
+      "seconds": 6.016
+    },
+    {
+      "view": "front",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\astra-low\\previews\\final-front.png",
+      "seconds": 5.769
+    },
+    {
+      "view": "side",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\astra-low\\previews\\final-side.png",
+      "seconds": 5.337
+    },
+    {
+      "view": "top",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\astra-low\\previews\\final-top.png",
+      "seconds": 5.824
+    },
+    {
+      "view": "detail",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\astra-low\\previews\\final-detail.png",
+      "seconds": 5.8
+    }
+  ]
+}

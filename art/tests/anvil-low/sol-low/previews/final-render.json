@@ -1,0 +1,41 @@
+{
+  "source": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\sol-low\\final.blend",
+  "sha256": "c5bad690a3975fa7b3836f4af8c21f75c7f39abff8db26cc34647c5254561e5c",
+  "source_unchanged": true,
+  "mode": "final",
+  "device": {
+    "backend": "OPTIX",
+    "device": "GPU",
+    "devices": [
+      "NVIDIA GeForce RTX 2080 Ti"
+    ],
+    "fallbacks": []
+  },
+  "views": [
+    {
+      "view": "beauty",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\sol-low\\previews\\final-beauty.png",
+      "seconds": 6.185
+    },
+    {
+      "view": "front",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\sol-low\\previews\\final-front.png",
+      "seconds": 5.611
+    },
+    {
+      "view": "side",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\sol-low\\previews\\final-side.png",
+      "seconds": 5.598
+    },
+    {
+      "view": "top",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\sol-low\\previews\\final-top.png",
+      "seconds": 6.002
+    },
+    {
+      "view": "detail",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\sol-low\\previews\\final-detail.png",
+      "seconds": 5.792
+    }
+  ]
+}

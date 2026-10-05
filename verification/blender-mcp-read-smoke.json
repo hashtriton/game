@@ -1,0 +1,588 @@
+{
+  "transport": "stdio",
+  "client": "shell-hosted Python JSON-RPC verification client invoked by Codex",
+  "native_codex_tool_catalog_verified": false,
+  "protocol_version": "2024-11-05",
+  "server_info": {
+    "name": "blender-mcp",
+    "version": "1.30.0"
+  },
+  "tools": [
+    {
+      "name": "execute_blender_code",
+      "annotations": {
+        "title": "Execute Python Code",
+        "destructiveHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "code": {
+            "title": "Code",
+            "type": "string"
+          }
+        },
+        "required": [
+          "code"
+        ],
+        "title": "execute_blender_codeArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "execute_blender_code_for_cli",
+      "annotations": {
+        "title": "Execute Python Code for Command-Line",
+        "destructiveHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "blend_file": {
+            "title": "Blend File",
+            "type": "string"
+          },
+          "code": {
+            "title": "Code",
+            "type": "string"
+          }
+        },
+        "required": [
+          "blend_file",
+          "code"
+        ],
+        "title": "execute_blender_code_for_cliArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_blendfile_summary_datablocks",
+      "annotations": {
+        "title": "Get Blend-File Data-blocks Summary",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {},
+        "title": "get_blendfile_summary_datablocksArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_blendfile_summary_datablocks_for_cli",
+      "annotations": {
+        "title": "Get Blend-File Data-blocks Summary for Command-Line",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "blend_file": {
+            "title": "Blend File",
+            "type": "string"
+          }
+        },
+        "required": [
+          "blend_file"
+        ],
+        "title": "get_blendfile_summary_datablocks_for_cliArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_blendfile_summary_missing_files",
+      "annotations": {
+        "title": "Get Blend-File Missing Files Summary",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {},
+        "title": "get_blendfile_summary_missing_filesArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_blendfile_summary_missing_files_for_cli",
+      "annotations": {
+        "title": "Get Blend-File Missing Files Summary for Command-Line",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "blend_file": {
+            "title": "Blend File",
+            "type": "string"
+          }
+        },
+        "required": [
+          "blend_file"
+        ],
+        "title": "get_blendfile_summary_missing_files_for_cliArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_blendfile_summary_of_linked_libraries",
+      "annotations": {
+        "title": "Get Blend-File Linked Library Summary",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {},
+        "title": "get_blendfile_summary_of_linked_librariesArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_blendfile_summary_of_linked_libraries_for_cli",
+      "annotations": {
+        "title": "Get Blend-File Linked Library Summary for Command-Line",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "blend_file": {
+            "title": "Blend File",
+            "type": "string"
+          }
+        },
+        "required": [
+          "blend_file"
+        ],
+        "title": "get_blendfile_summary_of_linked_libraries_for_cliArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_blendfile_summary_path_info",
+      "annotations": {
+        "title": "Get Blend-File Path Info Summary",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {},
+        "title": "get_blendfile_summary_path_infoArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_blendfile_summary_path_info_for_cli",
+      "annotations": {
+        "title": "Get Blend-File Path Info Summary for Command-Line",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "blend_file": {
+            "title": "Blend File",
+            "type": "string"
+          }
+        },
+        "required": [
+          "blend_file"
+        ],
+        "title": "get_blendfile_summary_path_info_for_cliArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_blendfile_summary_usage_guess",
+      "annotations": {
+        "title": "Get Blend-File Usage Summary",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {},
+        "title": "get_blendfile_summary_usage_guessArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_blendfile_summary_usage_guess_for_cli",
+      "annotations": {
+        "title": "Get Blend-File Usage Summary for Command-Line",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "blend_file": {
+            "title": "Blend File",
+            "type": "string"
+          }
+        },
+        "required": [
+          "blend_file"
+        ],
+        "title": "get_blendfile_summary_usage_guess_for_cliArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_object_detail_summary",
+      "annotations": {
+        "title": "Get Object Detail Summary",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "name": {
+            "title": "Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "title": "get_object_detail_summaryArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_objects_summary",
+      "annotations": {
+        "title": "Get Objects Summary",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {},
+        "title": "get_objects_summaryArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_python_api_docs",
+      "annotations": {
+        "title": "Get Python API Docs",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "identifier": {
+            "title": "Identifier",
+            "type": "string"
+          }
+        },
+        "required": [
+          "identifier"
+        ],
+        "title": "get_python_api_docsArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_screenshot_of_area_as_image",
+      "annotations": {
+        "title": "Get Area Screenshot",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "area_ui_type": {
+            "enum": [
+              "VIEW_3D",
+              "IMAGE_EDITOR",
+              "UV",
+              "ShaderNodeTree",
+              "CompositorNodeTree",
+              "GeometryNodeTree",
+              "TextureNodeTree",
+              "SEQUENCE_EDITOR",
+              "CLIP_EDITOR",
+              "DOPESHEET_EDITOR",
+              "GRAPH_EDITOR",
+              "NLA_EDITOR",
+              "TEXT_EDITOR",
+              "CONSOLE",
+              "INFO",
+              "TOPBAR",
+              "STATUSBAR",
+              "OUTLINER",
+              "PROPERTIES",
+              "FILE_BROWSER",
+              "SPREADSHEET",
+              "PREFERENCES"
+            ],
+            "title": "Area Ui Type",
+            "type": "string"
+          },
+          "size_limit_in_bytes": {
+            "default": 0,
+            "title": "Size Limit In Bytes",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "area_ui_type"
+        ],
+        "title": "get_screenshot_of_area_as_imageArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_screenshot_of_window_as_image",
+      "annotations": {
+        "title": "Get Window Screenshot",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "size_limit_in_bytes": {
+            "default": 0,
+            "title": "Size Limit In Bytes",
+            "type": "integer"
+          }
+        },
+        "title": "get_screenshot_of_window_as_imageArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_screenshot_of_window_as_json",
+      "annotations": {
+        "title": "Get Screenshot as JSON",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {},
+        "title": "get_screenshot_of_window_as_jsonArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "jump_to_tab_by_name",
+      "annotations": {
+        "title": "Switch to Workspace",
+        "destructiveHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "name": {
+            "title": "Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "title": "jump_to_tab_by_nameArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "jump_to_tab_by_space_type",
+      "annotations": {
+        "title": "Switch to Matching Workspace",
+        "destructiveHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "space_type": {
+            "title": "Space Type",
+            "type": "string"
+          },
+          "allow_edits": {
+            "default": false,
+            "title": "Allow Edits",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "space_type"
+        ],
+        "title": "jump_to_tab_by_space_typeArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "jump_to_view3d_object_by_name",
+      "annotations": {
+        "title": "Focus on Object",
+        "destructiveHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "allow_edits": {
+            "default": false,
+            "title": "Allow Edits",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "title": "jump_to_view3d_object_by_nameArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "jump_to_view3d_object_data_by_name",
+      "annotations": {
+        "title": "Focus on Object Data",
+        "destructiveHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "allow_edits": {
+            "default": false,
+            "title": "Allow Edits",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "title": "jump_to_view3d_object_data_by_nameArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "render_thumbnail_to_path",
+      "annotations": {
+        "title": "Render Thumbnail to Path",
+        "destructiveHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "output_path": {
+            "title": "Output Path",
+            "type": "string"
+          }
+        },
+        "required": [
+          "output_path"
+        ],
+        "title": "render_thumbnail_to_pathArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "render_viewport_to_path",
+      "annotations": {
+        "title": "Render Viewport to Path",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "output_path": {
+            "title": "Output Path",
+            "type": "string"
+          }
+        },
+        "required": [
+          "output_path"
+        ],
+        "title": "render_viewport_to_pathArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "search_api_docs",
+      "annotations": {
+        "title": "Search API Docs",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "query": {
+            "title": "Query",
+            "type": "string"
+          },
+          "max_results": {
+            "default": 20,
+            "title": "Max Results",
+            "type": "integer"
+          },
+          "context": {
+            "default": 0,
+            "title": "Context",
+            "type": "integer"
+          },
+          "index": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Index"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "title": "search_api_docsArguments",
+        "type": "object"
+      }
+    },
+    {
+      "name": "search_manual_docs",
+      "annotations": {
+        "title": "Search User Manual",
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "properties": {
+          "query": {
+            "title": "Query",
+            "type": "string"
+          },
+          "max_results": {
+            "default": 20,
+            "title": "Max Results",
+            "type": "integer"
+          },
+          "context": {
+            "default": 0,
+            "title": "Context",
+            "type": "integer"
+          },
+          "index": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Index"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "title": "search_manual_docsArguments",
+        "type": "object"
+      }
+    }
+  ],
+  "initialize_passed": true,
+  "tools_list_passed": true,
+  "called_tool": "execute_blender_code_for_cli",
+  "tool_call_passed": true,
+  "tool_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"blender_version\": \"5.2.2 LTS\",\n  \"objects\": [\n    \"GameSetupSmokeCube\",\n    \"GameSetupSmokeCamera\",\n    \"GameSetupSmokeLight\"\n  ]\n}"
+      }
+    ],
+    "structuredContent": {
+      "blender_version": "5.2.2 LTS",
+      "objects": [
+        "GameSetupSmokeCube",
+        "GameSetupSmokeCamera",
+        "GameSetupSmokeLight"
+      ]
+    },
+    "isError": false
+  }
+}
