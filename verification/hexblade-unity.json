@@ -1,0 +1,27 @@
+{
+  "open_scene": "Lia39Arena",
+  "bounds_min": [
+    -0.49,
+    0.0,
+    -0.38
+  ],
+  "material": "Assets/Heroes/Hexblade/Hexblade.mat (Universal Render Pipeline/Lit, _BaseMap + _EmissionMap)",
+  "bounds_max": [
+    0.67,
+    2.82,
+    0.6
+  ],
+  "facing": "+Z",
+  "pipeline": "URP (ArenaURP)",
+  "console_errors": 0,
+  "method": "unity command eval_file tools/unity/hexblade_setup.cs (live editor, preview scene)",
+  "console_warnings": 0,
+  "vertices": 44727,
+  "face_mean_z": 0.23,
+  "prefab": "Assets/Heroes/Hexblade/Hexblade.prefab",
+  "triangles": 52890,
+  "unity": "6000.6.4f1",
+  "submeshes": 1,
+  "shot": "verification/hexblade-unity.png",
+  "open_scene_dirty": false
+}

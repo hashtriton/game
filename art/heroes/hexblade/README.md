@@ -56,3 +56,17 @@ powershell -File tools/blender-gui.ps1 -File art/heroes/hexblade/hexblade.blend
 ```
 
 Сборщик перезаписывает `hexblade.blend`. Последняя команда открывает GUI с мостом Claude Code (см. [blender-claude-code.md](../../../docs/blender-claude-code.md)).
+
+## Unity
+
+Игровая версия собрана скриптом [hexblade_export.py](../../../tools/hexblade_export.py) и лежит в [game/](game/): 52890 треугольников вместо 513 тысяч, один материал, UV, запеченные текстуры 2048 (альбедо с AO и градиентом, эмиссия свечения), FBX с пивотом у ног. Каждая деталь децимирована отдельно, мелкие кольца и руны сохраняют минимум 400 треугольников.
+
+В проекте Unity: `Assets/Heroes/Hexblade/Hexblade.prefab` (prefab-вариант FBX), материал URP Lit `Hexblade.mat` с картами альбедо и эмиссии. Настройку выполняет [hexblade_setup.cs](../../../tools/unity/hexblade_setup.cs) в открытом редакторе через `unity command eval_file`, без domain reload и без изменения открытой сцены. Проверено: герой смотрит в +Z, высота 2.82 м, один сабмеш, консоль без ошибок, [кадр из Unity](../../../verification/hexblade-unity.png), [отчет](../../../verification/hexblade-unity.json).
+
+Не сделано: риг, анимации, коллайдер, LOD, размещение в сцене арены. Модель статична.
+
+```powershell
+& $bl --background --factory-startup --disable-autoexec --offline-mode art/heroes/hexblade/hexblade.blend --python-exit-code 1 --python tools/hexblade_export.py
+Copy-Item art/heroes/hexblade/game/Hexblade.fbx, art/heroes/hexblade/game/Hexblade_*.png unity/Assets/Heroes/Hexblade
+cd unity; & 'C:\Program Files\Unity Hub\resources\unity.exe' command eval_file --file ..\tools\unity\hexblade_setup.cs --timeout 300
+```

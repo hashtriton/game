@@ -1,0 +1,21 @@
+{
+  "source": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\hexblade\\hexblade.blend",
+  "high_triangles": 513062,
+  "game_triangles": 52890,
+  "materials": 1,
+  "uv_layers": [
+    "UVMap"
+  ],
+  "texture_size": 2048,
+  "bounds_min_m": [
+    -0.6691,
+    -0.5951,
+    0.0003
+  ],
+  "bounds_max_m": [
+    0.4912,
+    0.3843,
+    2.8174
+  ],
+  "fbx": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\hexblade\\game\\Hexblade.fbx"
+}
