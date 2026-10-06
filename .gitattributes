@@ -3,3 +3,5 @@
 research/lia/** -text whitespace=cr-at-eol
 tools/research/** -text whitespace=cr-at-eol
 docs/lia-*.md -text whitespace=cr-at-eol
+# Multiplayer compares exact TextAsset bytes across machines and builds.
+unity/Assets/Arena/Data/lia39-*.json -text whitespace=cr-at-eol

@@ -1,0 +1,1734 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "02a7901230963386347df738e292e4a0bc6dbfd47d062d502986ec88f0bbea34",
+  "waves": [
+    {
+      "round": 1,
+      "name": "Хрустальный арахнид",
+      "regularId": "n008",
+      "bossId": "n009",
+      "casterId": "n05J",
+      "rewardRate": 12,
+      "regularBounty": 4,
+      "bossBounty": 32,
+      "sourceLine": 19961
+    },
+    {
+      "round": 2,
+      "name": "Иглогрив",
+      "regularId": "n00D",
+      "bossId": "n00E",
+      "casterId": "n05M",
+      "rewardRate": 12,
+      "regularBounty": 4,
+      "bossBounty": 36,
+      "sourceLine": 19962
+    },
+    {
+      "round": 3,
+      "name": "Молодой драконид",
+      "regularId": "n00F",
+      "bossId": "n00G",
+      "casterId": "n05I",
+      "rewardRate": 12,
+      "regularBounty": 5,
+      "bossBounty": 40,
+      "sourceLine": 19963
+    },
+    {
+      "round": 4,
+      "name": "Темный тролль",
+      "regularId": "n00I",
+      "bossId": "n00J",
+      "casterId": "n05L",
+      "rewardRate": 12,
+      "regularBounty": 5,
+      "bossBounty": 42,
+      "sourceLine": 19964
+    },
+    {
+      "round": 5,
+      "name": "Мегабосс",
+      "regularId": "",
+      "bossId": "n00K",
+      "casterId": "",
+      "rewardRate": 12,
+      "regularBounty": 0,
+      "bossBounty": 0,
+      "sourceLine": 19965
+    },
+    {
+      "round": 6,
+      "name": "Разбойник",
+      "regularId": "n00L",
+      "bossId": "n00M",
+      "casterId": "n05K",
+      "rewardRate": 12,
+      "regularBounty": 6,
+      "bossBounty": 44,
+      "sourceLine": 19966
+    },
+    {
+      "round": 7,
+      "name": "Чумной энт",
+      "regularId": "n00N",
+      "bossId": "n00O",
+      "casterId": "n05N",
+      "rewardRate": 15,
+      "regularBounty": 6,
+      "bossBounty": 48,
+      "sourceLine": 19967
+    },
+    {
+      "round": 8,
+      "name": "Властитель",
+      "regularId": "n00P",
+      "bossId": "n00Q",
+      "casterId": "n072",
+      "rewardRate": 15,
+      "regularBounty": 7,
+      "bossBounty": 62,
+      "sourceLine": 19968
+    },
+    {
+      "round": 9,
+      "name": "Дух Океана",
+      "regularId": "n00R",
+      "bossId": "n00V",
+      "casterId": "n073",
+      "rewardRate": 18,
+      "regularBounty": 7,
+      "bossBounty": 54,
+      "sourceLine": 19969
+    },
+    {
+      "round": 10,
+      "name": "Мегабосс",
+      "regularId": "",
+      "bossId": "n00Z",
+      "casterId": "",
+      "rewardRate": 18,
+      "regularBounty": 0,
+      "bossBounty": 0,
+      "sourceLine": 19970
+    },
+    {
+      "round": 11,
+      "name": "Адский охотник",
+      "regularId": "n015",
+      "bossId": "n016",
+      "casterId": "n074",
+      "rewardRate": 18,
+      "regularBounty": 8,
+      "bossBounty": 65,
+      "sourceLine": 19971
+    },
+    {
+      "round": 12,
+      "name": "Беорн",
+      "regularId": "n019",
+      "bossId": "n01A",
+      "casterId": "n075",
+      "rewardRate": 18,
+      "regularBounty": 8,
+      "bossBounty": 56,
+      "sourceLine": 19972
+    },
+    {
+      "round": 13,
+      "name": "Каменный голем",
+      "regularId": "n01B",
+      "bossId": "n01C",
+      "casterId": "n076",
+      "rewardRate": 18,
+      "regularBounty": 9,
+      "bossBounty": 62,
+      "sourceLine": 19973
+    },
+    {
+      "round": 14,
+      "name": "Саламандра",
+      "regularId": "n01D",
+      "bossId": "n01E",
+      "casterId": "n077",
+      "rewardRate": 21,
+      "regularBounty": 10,
+      "bossBounty": 75,
+      "sourceLine": 19974
+    },
+    {
+      "round": 15,
+      "name": "Мегабосс",
+      "regularId": "",
+      "bossId": "n017",
+      "casterId": "",
+      "rewardRate": 21,
+      "regularBounty": 0,
+      "bossBounty": 0,
+      "sourceLine": 19975
+    },
+    {
+      "round": 16,
+      "name": "Призрак",
+      "regularId": "n027",
+      "bossId": "n028",
+      "casterId": "n078",
+      "rewardRate": 24,
+      "regularBounty": 11,
+      "bossBounty": 62,
+      "sourceLine": 19976
+    },
+    {
+      "round": 17,
+      "name": "Хвататель",
+      "regularId": "n029",
+      "bossId": "n02A",
+      "casterId": "n079",
+      "rewardRate": 24,
+      "regularBounty": 11,
+      "bossBounty": 69,
+      "sourceLine": 19977
+    },
+    {
+      "round": 18,
+      "name": "Морской дракон",
+      "regularId": "n02B",
+      "bossId": "n02C",
+      "casterId": "n07A",
+      "rewardRate": 27,
+      "regularBounty": 11,
+      "bossBounty": 58,
+      "sourceLine": 19978
+    },
+    {
+      "round": 19,
+      "name": "Адский сатир",
+      "regularId": "n02D",
+      "bossId": "n01U",
+      "casterId": "n07B",
+      "rewardRate": 27,
+      "regularBounty": 12,
+      "bossBounty": 80,
+      "sourceLine": 19979
+    },
+    {
+      "round": 20,
+      "name": "Мегабосс",
+      "regularId": "",
+      "bossId": "u00G",
+      "casterId": "",
+      "rewardRate": 30,
+      "regularBounty": 0,
+      "bossBounty": 0,
+      "sourceLine": 19980
+    },
+    {
+      "round": 21,
+      "name": "Болотная тварь",
+      "regularId": "n069",
+      "bossId": "n06D",
+      "casterId": "n06I",
+      "rewardRate": 30,
+      "regularBounty": 13,
+      "bossBounty": 85,
+      "sourceLine": 19981
+    },
+    {
+      "round": 22,
+      "name": "Осадный голем",
+      "regularId": "n023",
+      "bossId": "n02I",
+      "casterId": "o00C",
+      "rewardRate": 30,
+      "regularBounty": 13,
+      "bossBounty": 85,
+      "sourceLine": 19982
+    },
+    {
+      "round": 23,
+      "name": "Воин неруба",
+      "regularId": "u00L",
+      "bossId": "n067",
+      "casterId": "n06J",
+      "rewardRate": 33,
+      "regularBounty": 14,
+      "bossBounty": 90,
+      "sourceLine": 19983
+    },
+    {
+      "round": 24,
+      "name": "Мутант",
+      "regularId": "n06E",
+      "bossId": "n01X",
+      "casterId": "n06K",
+      "rewardRate": 33,
+      "regularBounty": 14,
+      "bossBounty": 95,
+      "sourceLine": 19984
+    },
+    {
+      "round": 25,
+      "name": "Мегабосс",
+      "regularId": "",
+      "bossId": "n0AW",
+      "casterId": "",
+      "rewardRate": 35,
+      "regularBounty": 0,
+      "bossBounty": 0,
+      "sourceLine": 19985
+    },
+    {
+      "round": 26,
+      "name": "Ледяной Гигант",
+      "regularId": "n0AO",
+      "bossId": "n0AP",
+      "casterId": "n024",
+      "rewardRate": 38,
+      "regularBounty": 16,
+      "bossBounty": 110,
+      "sourceLine": 19986
+    },
+    {
+      "round": 27,
+      "name": "Болотная Гидра",
+      "regularId": "n0AQ",
+      "bossId": "n0AR",
+      "casterId": "n02H",
+      "rewardRate": 38,
+      "regularBounty": 16,
+      "bossBounty": 110,
+      "sourceLine": 19987
+    },
+    {
+      "round": 28,
+      "name": "Эфирный Охотник",
+      "regularId": "n0AS",
+      "bossId": "n0AT",
+      "casterId": "n02J",
+      "rewardRate": 42,
+      "regularBounty": 18,
+      "bossBounty": 125,
+      "sourceLine": 19988
+    },
+    {
+      "round": 29,
+      "name": "Хаотический Мутант",
+      "regularId": "n0AU",
+      "bossId": "n0AV",
+      "casterId": "n02O",
+      "rewardRate": 45,
+      "regularBounty": 20,
+      "bossBounty": 150,
+      "sourceLine": 19989
+    },
+    {
+      "round": 30,
+      "name": "Орн",
+      "regularId": "",
+      "bossId": "O006",
+      "casterId": "",
+      "rewardRate": 60,
+      "regularBounty": 0,
+      "bossBounty": 0,
+      "sourceLine": 19907
+    }
+  ],
+  "enemies": [
+    {
+      "id": "O006",
+      "name": "Мастер Клинка ",
+      "level": 5,
+      "abilities": [
+        "A0Y9",
+        "A0EW",
+        "A0EX",
+        "ACah",
+        "SCae",
+        "ACvp",
+        "ACce",
+        "A04U",
+        "AInv"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n008",
+      "name": "Хpycтaльный apaхнид ",
+      "level": 1,
+      "abilities": [
+        "A0TC",
+        "A15E"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n009",
+      "name": "Хpycтaльный apaхнид ",
+      "level": 1,
+      "abilities": [
+        "A046",
+        "A0TC",
+        "A15E"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00D",
+      "name": "Иглогрив",
+      "level": 2,
+      "abilities": [
+        "A15F"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00E",
+      "name": "Иглогрив",
+      "level": 2,
+      "abilities": [
+        "A0RA",
+        "A0G5",
+        "A15F"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00F",
+      "name": "Мoлoдoй дpaкoнид ",
+      "level": 3,
+      "abilities": [
+        "A15G"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00G",
+      "name": "Мoлoдoй дpaкoнид ",
+      "level": 3,
+      "abilities": [
+        "A15G",
+        "A04E"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00I",
+      "name": "Тeмный тpoлль ",
+      "level": 4,
+      "abilities": [
+        "A0QV",
+        "A15R"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00J",
+      "name": "Тeмный тpoлль ",
+      "level": 4,
+      "abilities": [
+        "A04T",
+        "A15R"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00K",
+      "name": "Ш а л у н  [|Cffff0000М е г а  -  Б о с с|r]",
+      "level": 0,
+      "abilities": [
+        "A101",
+        "A05B",
+        "A05C",
+        "A04U",
+        "AInv"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00L",
+      "name": "Разбойник",
+      "level": 6,
+      "abilities": [
+        "A15H",
+        "A0RX"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00M",
+      "name": "Разбойник",
+      "level": 6,
+      "abilities": [
+        "A15H",
+        "A0RX",
+        "A064"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00N",
+      "name": "Чyмнoй энт ",
+      "level": 7,
+      "abilities": [
+        "A0VP",
+        "A15R",
+        "A15K"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00O",
+      "name": "Чyмнoй энт ",
+      "level": 7,
+      "abilities": [
+        "A0VP",
+        "A06V",
+        "A15R",
+        "A15K"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00P",
+      "name": "Влacтитeль",
+      "level": 8,
+      "abilities": [
+        "A15I",
+        "A15J"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00Q",
+      "name": "Влacтитeль",
+      "level": 8,
+      "abilities": [
+        "A15I",
+        "A15J",
+        "A06Z",
+        "A06Y"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00R",
+      "name": "Дyх Oкeaнa ",
+      "level": 9,
+      "abilities": [
+        "A15G",
+        "A15M"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00V",
+      "name": "Дyх Oкeaнa ",
+      "level": 9,
+      "abilities": [
+        "A09S",
+        "A15G",
+        "A15M"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n00Z",
+      "name": "Б е з л и к и й  [|Cffff0000М е г а  -  Б о с с|r]",
+      "level": 0,
+      "abilities": [
+        "A071",
+        "A0X9",
+        "A0QD",
+        "ANth",
+        "A04U",
+        "AInv"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n015",
+      "name": "Адский охотник",
+      "level": 11,
+      "abilities": [
+        "A05Y",
+        "A15J",
+        "A15K"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n016",
+      "name": "Адский охотник",
+      "level": 11,
+      "abilities": [
+        "A15J",
+        "A0RS",
+        "A15K"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n017",
+      "name": "Г у л ь  [|Cffff0000М е г а  -  Б о с с|r]",
+      "level": 0,
+      "abilities": [
+        "A04C",
+        "A055",
+        "A07B",
+        "A04U",
+        "AInv"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n019",
+      "name": "Бeopн ",
+      "level": 12,
+      "abilities": [
+        "A073",
+        "A0R1",
+        "A15E",
+        "A15L"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n01A",
+      "name": "Бeopн ",
+      "level": 12,
+      "abilities": [
+        "A074",
+        "A076",
+        "A15E",
+        "A15L"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n01B",
+      "name": "Кaмeнный гoлeм",
+      "level": 13,
+      "abilities": [
+        "A15I",
+        "A078"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n01C",
+      "name": "Кaмeнный гoлeм",
+      "level": 13,
+      "abilities": [
+        "A15I",
+        "A079"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n01D",
+      "name": "Саламандра",
+      "level": 14,
+      "abilities": [
+        "A07A",
+        "A15K"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n01E",
+      "name": "Саламандра",
+      "level": 14,
+      "abilities": [
+        "A03E",
+        "A15K"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n01U",
+      "name": "Адский сатир ",
+      "level": 19,
+      "abilities": [
+        "A0B1",
+        "A15E",
+        "A15I"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n01X",
+      "name": "Мyтaнт",
+      "level": 24,
+      "abilities": [
+        "A11I",
+        "A11G"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n023",
+      "name": "Осадный голем",
+      "level": 22,
+      "abilities": [
+        "A15I",
+        "A15F",
+        "A11D"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n024",
+      "name": "Ледяной Гигант",
+      "level": 26,
+      "abilities": [
+        "A1DA",
+        "A077",
+        "A15F"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n027",
+      "name": "Призрак ",
+      "level": 16,
+      "abilities": [
+        "A0AN",
+        "A15H",
+        "A15M"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n028",
+      "name": "Призрак ",
+      "level": 16,
+      "abilities": [
+        "ACsw",
+        "A0AN",
+        "A15H",
+        "A15M"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n029",
+      "name": "Хвататель ",
+      "level": 17,
+      "abilities": [
+        "ACpu",
+        "A15F",
+        "A15G"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n02A",
+      "name": "Хвататель ",
+      "level": 17,
+      "abilities": [
+        "A15T",
+        "A15F",
+        "A15G"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n02B",
+      "name": "Морской дракон ",
+      "level": 18,
+      "abilities": [
+        "A09A",
+        "A15M",
+        "A15L"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n02C",
+      "name": "Морской дракон ",
+      "level": 18,
+      "abilities": [
+        "A0AZ",
+        "A15L",
+        "A15M"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n02D",
+      "name": "Адский сатир ",
+      "level": 19,
+      "abilities": [
+        "A0B0",
+        "A15E",
+        "A15I"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n02H",
+      "name": "Болотная Гидра",
+      "level": 27,
+      "abilities": [
+        "A1DC",
+        "A077",
+        "A15E",
+        "A15K"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n02I",
+      "name": "Осадный голем",
+      "level": 22,
+      "abilities": [
+        "A15I",
+        "A15F",
+        "A11E"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n02J",
+      "name": "Эфирный Охотник",
+      "level": 28,
+      "abilities": [
+        "A1DE",
+        "A15R",
+        "A15G",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n02O",
+      "name": "Хаотический Мутант",
+      "level": 29,
+      "abilities": [
+        "A1DF",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n05I",
+      "name": "Мoлoдoй дpaкoнид ",
+      "level": 3,
+      "abilities": [
+        "A0Z5",
+        "A15G",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n05J",
+      "name": "Хpycтaльный apaхнид ",
+      "level": 1,
+      "abilities": [
+        "A0Z3",
+        "A15E",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n05K",
+      "name": "Разбойник",
+      "level": 6,
+      "abilities": [
+        "A0Z7",
+        "A15H",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n05L",
+      "name": "Тeмный тpoлль",
+      "level": 4,
+      "abilities": [
+        "A0Z6",
+        "A0QX",
+        "A15R",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n05M",
+      "name": "Иглогрив",
+      "level": 2,
+      "abilities": [
+        "A0Z4",
+        "A15F",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n05N",
+      "name": "Чyмнoй энт ",
+      "level": 7,
+      "abilities": [
+        "A0Z8",
+        "A15R",
+        "A15K",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n065",
+      "name": "Усиленный Воин Неруба",
+      "level": 23,
+      "abilities": [
+        "A11K",
+        "A15H",
+        "A15L"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n066",
+      "name": "Воин Неруба",
+      "level": 23,
+      "abilities": [
+        "A11K",
+        "A15H",
+        "A15L"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n067",
+      "name": "Воин Неруба",
+      "level": 23,
+      "abilities": [
+        "A11L",
+        "A15H",
+        "A15L"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n068",
+      "name": "n068",
+      "level": 0,
+      "abilities": [
+        ""
+      ],
+      "definitionKnown": false
+    },
+    {
+      "id": "n069",
+      "name": "Болотная тварь",
+      "level": 21,
+      "abilities": [
+        "A11J",
+        "A15J",
+        "A15R"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n06A",
+      "name": "Болотная тварь",
+      "level": 21,
+      "abilities": [
+        "A11J",
+        "A15J",
+        "A15R"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n06B",
+      "name": "Болотная тварь",
+      "level": 21,
+      "abilities": [
+        "A11J",
+        "A15J",
+        "A15R"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n06C",
+      "name": "Болотная тварь",
+      "level": 21,
+      "abilities": [
+        "A11J",
+        "A15J",
+        "A15R"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n06D",
+      "name": "Болотная тварь",
+      "level": 21,
+      "abilities": [
+        "A0TR",
+        "A15J",
+        "A15R"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n06E",
+      "name": "Мyтaнт",
+      "level": 24,
+      "abilities": [
+        "A11I"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n06I",
+      "name": "Болотная тварь",
+      "level": 21,
+      "abilities": [
+        "A120",
+        "A15J",
+        "A15R",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n06J",
+      "name": "Воин Неруба",
+      "level": 23,
+      "abilities": [
+        "A122",
+        "A15H",
+        "A15L",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n06K",
+      "name": "Мyтaнт",
+      "level": 24,
+      "abilities": [
+        "A123",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n072",
+      "name": "Влacтитeль",
+      "level": 8,
+      "abilities": [
+        "A0Z9",
+        "A15I",
+        "A15J",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n073",
+      "name": "Дyх Oкeaнa ",
+      "level": 9,
+      "abilities": [
+        "A0ZA",
+        "A15G",
+        "A15M",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n074",
+      "name": "Адский охотник",
+      "level": 11,
+      "abilities": [
+        "A0ZB",
+        "A0RR",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n075",
+      "name": "Бeopн",
+      "level": 12,
+      "abilities": [
+        "A0ZC",
+        "A15E",
+        "A15L",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n076",
+      "name": "Кaмeнный гoлeм",
+      "level": 13,
+      "abilities": [
+        "A0ZD",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n077",
+      "name": "Саламандра",
+      "level": 14,
+      "abilities": [
+        "A0ZE",
+        "A15K",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n078",
+      "name": "Призрак ",
+      "level": 16,
+      "abilities": [
+        "A0ZF",
+        "A15H",
+        "A15M",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n079",
+      "name": "Хвататель ",
+      "level": 17,
+      "abilities": [
+        "A0ZG",
+        "A15F",
+        "A15G",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n07A",
+      "name": "Морской дракон ",
+      "level": 18,
+      "abilities": [
+        "A0ZH",
+        "A15L",
+        "A15M",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n07B",
+      "name": "Адский сатир ",
+      "level": 19,
+      "abilities": [
+        "A0ZI",
+        "A15E",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n0AO",
+      "name": "Ледяной Гигант",
+      "level": 26,
+      "abilities": [
+        "A15I",
+        "A15F"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n0AP",
+      "name": "Ледяной Гигант",
+      "level": 26,
+      "abilities": [
+        "A15I",
+        "A15F",
+        "A1D9"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n0AQ",
+      "name": "Болотная Гидра",
+      "level": 27,
+      "abilities": [
+        "A15E",
+        "A15K"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n0AR",
+      "name": "Болотная Гидра",
+      "level": 27,
+      "abilities": [
+        "A1DB",
+        "A15E",
+        "A15K"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n0AS",
+      "name": "Эфирный Охотник",
+      "level": 28,
+      "abilities": [
+        "A15R",
+        "A15G"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n0AT",
+      "name": "Эфирный Охотник",
+      "level": 28,
+      "abilities": [
+        "A1DD",
+        "A15R",
+        "A15G"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n0AU",
+      "name": "Хаотический Мутант",
+      "level": 29,
+      "abilities": [
+        "_"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n0AV",
+      "name": "Хаотический Мутант",
+      "level": 29,
+      "abilities": [
+        "A1DI"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "n0AW",
+      "name": "Э р е б [|Cffff0000М е г а  -  Б о с с|r]",
+      "level": 0,
+      "abilities": [
+        "A1D5",
+        "A15I",
+        "A15F",
+        "A04U",
+        "AInv"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "o00C",
+      "name": "Осадный голем",
+      "level": 21,
+      "abilities": [
+        "A121",
+        "A15F",
+        "A077"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "u00G",
+      "name": "А с к е р у с  [|Cffff0000М е г а  -  Б о с с|r]",
+      "level": 0,
+      "abilities": [
+        "A11F",
+        "A04U",
+        "AInv"
+      ],
+      "definitionKnown": true
+    },
+    {
+      "id": "u00L",
+      "name": "Кокон",
+      "level": 1,
+      "abilities": [
+        "A0K4",
+        "ACmi"
+      ],
+      "definitionKnown": true
+    }
+  ],
+  "sources": [
+    {
+      "ruleId": "participants",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "zZ",
+      "line": 15229,
+      "endLine": 15310
+    },
+    {
+      "ruleId": "participants",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "eZ",
+      "line": 14389,
+      "endLine": 14395
+    },
+    {
+      "ruleId": "participants",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "xZ",
+      "line": 14396,
+      "endLine": 14402
+    },
+    {
+      "ruleId": "configuration",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "p4",
+      "line": 18875,
+      "endLine": 18943
+    },
+    {
+      "ruleId": "configuration",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "m4",
+      "line": 18869,
+      "endLine": 18874
+    },
+    {
+      "ruleId": "configuration",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "M4",
+      "line": 19029,
+      "endLine": 19396
+    },
+    {
+      "ruleId": "configuration",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "UZ",
+      "line": 15103,
+      "endLine": 15152
+    },
+    {
+      "ruleId": "preparation",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "D4",
+      "line": 18656,
+      "endLine": 18791
+    },
+    {
+      "ruleId": "preparation",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "H4",
+      "line": 18792,
+      "endLine": 18803
+    },
+    {
+      "ruleId": "preparation",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Q3",
+      "line": 18025,
+      "endLine": 18063
+    },
+    {
+      "ruleId": "preparation",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "A3",
+      "line": 17674,
+      "endLine": 17720
+    },
+    {
+      "ruleId": "preparation",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "I3",
+      "line": 17661,
+      "endLine": 17673
+    },
+    {
+      "ruleId": "preparation",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "X1v",
+      "line": 32904,
+      "endLine": 32949
+    },
+    {
+      "ruleId": "spawn-normal",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "V4",
+      "line": 18400,
+      "endLine": 18405
+    },
+    {
+      "ruleId": "spawn-normal",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Ezv",
+      "line": 31956,
+      "endLine": 32023
+    },
+    {
+      "ruleId": "spawn-normal",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "EMv",
+      "line": 31728,
+      "endLine": 31814
+    },
+    {
+      "ruleId": "spawn-normal",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "ETv",
+      "line": 31815,
+      "endLine": 31900
+    },
+    {
+      "ruleId": "spawn-normal",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "E5v",
+      "line": 32052,
+      "endLine": 32077
+    },
+    {
+      "ruleId": "spawn-normal",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "E7v",
+      "line": 32078,
+      "endLine": 32080
+    },
+    {
+      "ruleId": "spawn-normal",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xvv",
+      "line": 32129,
+      "endLine": 32192
+    },
+    {
+      "ruleId": "wave-21-descendants",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "a4",
+      "line": 18385,
+      "endLine": 18399
+    },
+    {
+      "ruleId": "wave-21-descendants",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Ezv",
+      "line": 31956,
+      "endLine": 32023
+    },
+    {
+      "ruleId": "wave-21-descendants",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "a4v",
+      "line": 28569,
+      "endLine": 28571
+    },
+    {
+      "ruleId": "wave-21-descendants",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "a5v",
+      "line": 28572,
+      "endLine": 28603
+    },
+    {
+      "ruleId": "wave-23-cocoons",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "a4",
+      "line": 18385,
+      "endLine": 18399
+    },
+    {
+      "ruleId": "wave-23-cocoons",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Ezv",
+      "line": 31956,
+      "endLine": 32023
+    },
+    {
+      "ruleId": "wave-23-cocoons",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Elv",
+      "line": 31696,
+      "endLine": 31727
+    },
+    {
+      "ruleId": "wave-23-cocoons",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "EKv",
+      "line": 31627,
+      "endLine": 31695
+    },
+    {
+      "ruleId": "wave-23-cocoons",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "E7v",
+      "line": 32078,
+      "endLine": 32080
+    },
+    {
+      "ruleId": "round-income",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "y0",
+      "line": 16352,
+      "endLine": 16368
+    },
+    {
+      "ruleId": "round-income",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "D4",
+      "line": 18656,
+      "endLine": 18791
+    },
+    {
+      "ruleId": "round-income",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "c5",
+      "line": 19898,
+      "endLine": 20104
+    },
+    {
+      "ruleId": "round-income",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "M3",
+      "line": 17988,
+      "endLine": 18024
+    },
+    {
+      "ruleId": "round-income",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "m3",
+      "line": 17970,
+      "endLine": 17987
+    },
+    {
+      "ruleId": "round-income",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xmv",
+      "line": 32475,
+      "endLine": 32492
+    },
+    {
+      "ruleId": "round-income",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xyv",
+      "line": 32791,
+      "endLine": 32804
+    },
+    {
+      "ruleId": "xp-survival",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "I0",
+      "line": 15977,
+      "endLine": 15992
+    },
+    {
+      "ruleId": "xp-survival",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Ibv",
+      "line": 36132,
+      "endLine": 36158
+    },
+    {
+      "ruleId": "xp-survival",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "D2",
+      "line": 17030,
+      "endLine": 17040
+    },
+    {
+      "ruleId": "mega-scaling",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "i0",
+      "line": 15759,
+      "endLine": 15812
+    },
+    {
+      "ruleId": "mega-scaling",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "VMv",
+      "line": 30504,
+      "endLine": 30614
+    },
+    {
+      "ruleId": "mega-scaling",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "UL",
+      "line": 3182,
+      "endLine": 3224
+    },
+    {
+      "ruleId": "mega-scaling",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "uL",
+      "line": 3139,
+      "endLine": 3181
+    },
+    {
+      "ruleId": "mega-scaling",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "zl",
+      "line": 2657,
+      "endLine": 2698
+    },
+    {
+      "ruleId": "mega-transition",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "VMv",
+      "line": 30504,
+      "endLine": 30614
+    },
+    {
+      "ruleId": "mega-transition",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "VLv",
+      "line": 30428,
+      "endLine": 30490
+    },
+    {
+      "ruleId": "mega-transition",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xiv",
+      "line": 32224,
+      "endLine": 32260
+    },
+    {
+      "ruleId": "final-phases",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "V3v",
+      "line": 30849,
+      "endLine": 30851
+    },
+    {
+      "ruleId": "final-phases",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "V2v",
+      "line": 30838,
+      "endLine": 30848
+    },
+    {
+      "ruleId": "final-phases",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "VYv",
+      "line": 30757,
+      "endLine": 30759
+    },
+    {
+      "ruleId": "final-phases",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Vyv",
+      "line": 30745,
+      "endLine": 30756
+    },
+    {
+      "ruleId": "final-phases",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Vuv",
+      "line": 30684,
+      "endLine": 30686
+    },
+    {
+      "ruleId": "final-phases",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "VTv",
+      "line": 30673,
+      "endLine": 30683
+    },
+    {
+      "ruleId": "final-phases",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "ENv",
+      "line": 31228,
+      "endLine": 31265
+    },
+    {
+      "ruleId": "final-phases",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "f3",
+      "line": 17784,
+      "endLine": 17837
+    },
+    {
+      "ruleId": "final-phases",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "C3",
+      "line": 17743,
+      "endLine": 17765
+    },
+    {
+      "ruleId": "final-phases",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "c3",
+      "line": 17721,
+      "endLine": 17742
+    },
+    {
+      "ruleId": "final-phases",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "VLv",
+      "line": 30428,
+      "endLine": 30490
+    },
+    {
+      "ruleId": "final-phases",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "XVv",
+      "line": 32264,
+      "endLine": 32284
+    },
+    {
+      "ruleId": "death-and-wipe",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "bpv",
+      "line": 38693,
+      "endLine": 38722
+    },
+    {
+      "ruleId": "death-and-wipe",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "H0",
+      "line": 16062,
+      "endLine": 16073
+    },
+    {
+      "ruleId": "death-and-wipe",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "bMv",
+      "line": 38634,
+      "endLine": 38692
+    },
+    {
+      "ruleId": "death-and-wipe",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "bmv",
+      "line": 38603,
+      "endLine": 38633
+    },
+    {
+      "ruleId": "death-and-wipe",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "bLv",
+      "line": 38586,
+      "endLine": 38602
+    },
+    {
+      "ruleId": "death-and-wipe",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "blv",
+      "line": 38556,
+      "endLine": 38585
+    },
+    {
+      "ruleId": "death-and-wipe",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "S0",
+      "line": 16236,
+      "endLine": 16277
+    },
+    {
+      "ruleId": "death-and-wipe",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "A3",
+      "line": 17674,
+      "endLine": 17720
+    }
+  ]
+}

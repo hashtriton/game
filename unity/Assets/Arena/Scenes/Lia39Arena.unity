@@ -47880,7 +47880,7 @@ GameObject:
   - component: {fileID: 532292993}
   - component: {fileID: 532292996}
   - component: {fileID: 532292995}
-  - component: {fileID: 532292994}
+  - component: {fileID: 532292998}
   m_Layer: 0
   m_Name: Arena camera
   m_TagString: MainCamera
@@ -47939,20 +47939,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &532292994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 532292992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26832367638d1c94ea45ced9c69ec7b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Arena.Runtime::Arena.ArenaMapCamera
-  game: {fileID: 1510454392}
-  view: {fileID: 532292993}
 --- !u!114 &532292995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48020,6 +48006,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &532292998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532292992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0346e38a032def94b84231b71e4ca6f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Arena.Runtime::Arena.OriginalArenaCamera
+  map: {fileID: 1868414909}
+  hero: {fileID: 0}
+  inputBlocked: 0
 --- !u!1 &532587366
 GameObject:
   m_ObjectHideFlags: 0
@@ -132730,8 +132731,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1510454393}
-  - component: {fileID: 1510454392}
-  - component: {fileID: 1510454391}
+  - component: {fileID: 1510454396}
+  - component: {fileID: 1510454395}
+  - component: {fileID: 1510454394}
   m_Layer: 0
   m_Name: Arena game
   m_TagString: Untagged
@@ -132739,40 +132741,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1510454391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1510454390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd2304566798474fbd3356a4d4f45bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Arena.Presentation::Arena.ArenaHud
-  game: {fileID: 1510454392}
-  mapTexture: {fileID: 2800000, guid: 4d1d9691849eb8446b743dee202f1a02, type: 3}
---- !u!114 &1510454392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1510454390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45a9ad3e3a297cb47a18e08bc9bb5422, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Arena.Runtime::Arena.ArenaGame
-  heroPrefab: {fileID: 7538933989185304199, guid: dd14869f7aa34c8439562fdc6b094adf, type: 3}
-  meleePrefab: {fileID: 362634860797205045, guid: b46041ab1f2a3fc4e90c937d2b26d2dc, type: 3}
-  rangedPrefab: {fileID: 4140781245251531628, guid: f4fa85e7dac52b2489e020b1ec7baecb, type: 3}
-  bossPrefab: {fileID: 4082282660493366184, guid: 9b7b697be6ef60e4886510e62f9f4ba8, type: 3}
-  arenaCamera: {fileID: 532292993}
-  effectMaterial: {fileID: 2100000, guid: d4816f59849d1b745a6111667744059c, type: 2}
-  arenaMap: {fileID: 1868414909}
-  arenaRadius: 13
 --- !u!4 &1510454393
 Transform:
   m_ObjectHideFlags: 0
@@ -132788,6 +132756,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1510454394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510454390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31888a037a659cd46a0553ec0d40e04c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Arena.Presentation::Arena.OriginalArenaHud
+  runtime: {fileID: 1510454395}
+  mapTexture: {fileID: 2800000, guid: 4d1d9691849eb8446b743dee202f1a02, type: 3}
+--- !u!114 &1510454395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510454390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3114acee8bb660f479f4a94da346ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Arena.Runtime::Arena.OriginalArenaRuntime
+  network: {fileID: 1510454396}
+  map: {fileID: 1868414909}
+  viewCamera: {fileID: 532292993}
+  cameraControl: {fileID: 532292998}
+  heroPrefab: {fileID: 7538933989185304199, guid: dd14869f7aa34c8439562fdc6b094adf, type: 3}
+  meleePrefab: {fileID: 362634860797205045, guid: b46041ab1f2a3fc4e90c937d2b26d2dc, type: 3}
+  wellPrefab: {fileID: 919132149155446097, guid: ac9186b193575584089c84b2bce2090a, type: 3}
+  effectMaterial: {fileID: 2100000, guid: d4816f59849d1b745a6111667744059c, type: 2}
+--- !u!114 &1510454396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510454390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a3b623dc57a35449c38aa32f05f106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Arena.Runtime::Arena.OriginalNetworkGame
+  dataAssets:
+  - {fileID: 4900000, guid: b11143cace844e84093015584ac5a6fd, type: 3}
+  - {fileID: 4900000, guid: 8d74ace8e6514c04fbd4682bcfce0303, type: 3}
+  - {fileID: 4900000, guid: 383834d85d7c76641b09ed68779041bf, type: 3}
+  - {fileID: 4900000, guid: affb8b061791d064bb509ea270248c09, type: 3}
+  - {fileID: 4900000, guid: ad29608efac4eac43b12de494f0c6929, type: 3}
+  - {fileID: 4900000, guid: c1c9ead5ca73d3c4c873516d952074ef, type: 3}
+  - {fileID: 4900000, guid: 36d9851c0eade714c84b74f3456740df, type: 3}
+  - {fileID: 4900000, guid: 81f94e98e2e4c8e4e969e013969f3142, type: 3}
+  - {fileID: 4900000, guid: 64efe4ab284206b418db5db88a99e7e7, type: 3}
 --- !u!1 &1510806605
 GameObject:
   m_ObjectHideFlags: 0

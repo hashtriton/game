@@ -23,6 +23,26 @@ namespace Arena.Tests
         public void Cleanup() => Object.DestroyImmediate(root);
 
         [Test]
+        public void DynamicFootprintsKeepOverlapAndOriginalBarrelMasksWhenRemoved()
+        {
+            var point = map.WcToWorld(0, 1000);
+            Assert.That(map.IsWalkable(point, 0), Is.True);
+            long revision = map.NavigationRevision;
+            Assert.That(map.TryAddDynamicDoodad(1000000, "B009", point, 0, 1.2f), Is.True);
+            Assert.That(map.TryAddDynamicDoodad(1000001, "B009", point, 0, 1.2f), Is.True);
+            Assert.That(map.NavigationRevision, Is.EqualTo(revision + 2));
+            Assert.That(map.IsWalkable(point, 0), Is.False);
+            Assert.That(map.RemoveDynamicDoodad(1000000), Is.True); Assert.That(map.IsWalkable(point, 0), Is.False);
+            Assert.That(map.RemoveDynamicDoodad(1000001), Is.True); Assert.That(map.IsWalkable(point, 0), Is.True);
+            point = map.WcToWorld(1376, 2464);
+            Assert.That(map.TryAddDynamicDoodad(1000002, "B009", point, 0, 1.2f), Is.True);
+            Assert.That(map.RemoveDynamicDoodad(1000002), Is.True); Assert.That(map.IsWalkable(point, 0), Is.False);
+            revision = map.NavigationRevision;
+            Assert.That(map.TryAddDynamicDoodad(1000003, "B009", map.WorldBounds.min, 0, 1.2f), Is.False);
+            Assert.That(map.NavigationRevision, Is.EqualTo(revision));
+        }
+
+        [Test]
         public void Original39cLandmarksAndNortheastBarrelsArePreserved()
         {
             Assert.That(map.Layout.version,Is.EqualTo("3.9c"));

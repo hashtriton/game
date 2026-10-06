@@ -1,0 +1,627 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "02a7901230963386347df738e292e4a0bc6dbfd47d062d502986ec88f0bbea34",
+  "jassSha256": "8af410dad5ccf8c5dbf718e9fdace81d60add0176578548afc673baff6366389",
+  "scope": "Survival cooperative 2..8 human players; clans excluded",
+  "countdownTicks": 10,
+  "pairCountdownSeconds": 11,
+  "gladiatorCountdownSeconds": 10,
+  "combatSeconds": 120.0,
+  "transitionSeconds": 2.0,
+  "betSettlementSeconds": 0.5,
+  "returnSeconds": 0.5,
+  "pairGold": 250,
+  "pairSouls": 10,
+  "drawGold": 125,
+  "drawSouls": 5,
+  "gladiatorBaseSouls": 10,
+  "betCap": 1000,
+  "ringDelaySeconds": 61.0,
+  "ringPeriod": 0.04,
+  "ringInitialRadius": 810.0,
+  "ringShrinkPerTick": 0.52,
+  "ringMinimumRadius": 325.0,
+  "ringSecondStageTick": 801,
+  "circleRadius": 525.0,
+  "degreesToRadians": 0.0174532,
+  "ringCenterX": 0.0,
+  "ringCenterY": -2700.0,
+  "pairLeftX": -416.0,
+  "pairRightX": 416.0,
+  "pairY": -2688.0,
+  "cameraX": 0.0,
+  "cameraY": -2688.0,
+  "returnMinX": -384.0,
+  "returnMinY": 736.0,
+  "returnMaxX": 256.0,
+  "returnMaxY": 1248.0,
+  "rules": [
+    {
+      "id": "outer-wiring",
+      "evidence": "static-path",
+      "summary": "Match.DuelRequired occurs after the outer 25-second preparation. Start one OriginalDuel. Apply each drained currency event once through the same host ledger used by inventory; sequence numbers are instance-local, so include a duel-instance identity. Only Completed allows Match.CompleteDuelSequence(). Preserve carryPrizeGold between Pairs and Gladiator and later rounds. Do not add Match rewards for duel events.",
+      "unresolved": []
+    },
+    {
+      "id": "pairing",
+      "evidence": "static-path",
+      "summary": "Stable descending rating nH*2 + IH*15 + AH + bH - 15; equal scores use earlier slot. Select unused present participants twice. 2/3 players play one pair, 4/5 two, 6/7 three, 8 four. Next pair is selected at resolution, before the 2-second transition.",
+      "unresolved": [
+        "O1 returns 0 while u3 checks -1. Missing or disconnected participants require explicit halt; no substitute pairing."
+      ]
+    },
+    {
+      "id": "pair-prepare",
+      "evidence": "static-path",
+      "summary": "Pause nonheroes except n03W. Hide/pause shops 1..15. Delete arena items with userData 0. Revive fighters at rectangle centers, remove buffs, reset cooldowns except I0AE in inventory slots 0..4, full life/mana, XP paused, invulnerable. Opponents have every alliance flag false. Living visible spectators move to (-64,580), hide and pause XP, repeated at +1.3 seconds. Z2 cleanup runs immediately and +0.1 seconds. At combat start unpause fighters and side panels, remove invulnerability and buffs; kill eligible nonhero arena units.",
+      "unresolved": [
+        "World must implement Z2/U2/w2/e3 entity filters and Jz item cooldown preservation. Native collision/pathing after teleport is not established."
+      ]
+    },
+    {
+      "id": "death-eligibility",
+      "evidence": "static-path",
+      "summary": "World reports only non-illusion primary hero deaths: no A188/A0XH, not U00T/O00D/E00E/E00J, userData not 11/12. Send authoritative alive-mask after the event for simultaneous deaths. Pair startup failure is distinct from a death event: Xkv remains 0 and bets refund.",
+      "unresolved": []
+    },
+    {
+      "id": "pair-result",
+      "evidence": "static-path",
+      "summary": "Death winner receives 250 plus prior carry and 10 souls, win +1; loser loss +1. Clear carry immediately before delayed bet settlement. Draw gives each result recipient 125 gold and 5 souls, leaving carry unchanged. Both-dead flag suppresses duel rewards but still settles bets for the other physical side. Restore alliances, move both to (-60,600), heal physical winner life only. Mirror A19P changes reward recipient to loser without changing loser or bet side; even draw can award the same player twice. Loser A19Q infects result recipient on an inclusive random 0..1 roll of 0.",
+      "unresolved": []
+    },
+    {
+      "id": "bets",
+      "evidence": "static-path",
+      "summary": "Only spectators may bet during pair countdown. Keyboard stake adjustments immediately debit/refund gold; cap 1000. Side can remain 0 with positive stake. Cancel n06S clears side/stake without refund. Close at combat start; settle 0.5 seconds after result. Draw refunds stakes. Winners receive stake + floor(other-side pool * stake / winner pool). Side-0 stakes are excluded from distributable pool. If any payout is positive carry resets to 0, otherwise losing and side-0 stakes add to carry.",
+      "unresolved": [
+        "Selected winning side with stake 0 and empty winning pool evaluates integer 0/0; native outcome unknown and explicitly halted.",
+        "Computer betting (random gold/3..gold, capped 1000) is excluded from human-only core.",
+        "Raw keyboard up at stake>=500 and gold=1 may request a 2-gold debit; native gold clamp is unknown. Core accepts only fully funded aggregate stake adjustments."
+      ]
+    },
+    {
+      "id": "gladiator",
+      "evidence": "static-path",
+      "summary": "Fisher-Yates shuffle using inclusive random 1..i. Slots around circle radius 525 at source radians constant .0174532, facing angle+180. Revive/full life and mana/cooldowns/XP pause/invulnerability. All players enemies. At second 10 unpause and remove invulnerability. At second 11 restore AI only if original Fn enabled. Each eligible death decrements vc; vc==1 awards killer owner 10+completedRound souls and one win. If killer hero dead, choose last living non-victim slot. No gold or loss counter. Timeout has no winner or rewards.",
+      "unresolved": [
+        "Killer owner outside participant slots and undefined native null-unit semantics are explicitly halted.",
+        "RNG seed is portable host RNG, not Warcraft RNG replay parity."
+      ]
+    },
+    {
+      "id": "ring",
+      "evidence": "static-path",
+      "summary": "Start when 120-second timer has 59 seconds remaining (elapsed 61). 72 h02C markers, center (0,-2700), radius 810, .04-second updates; boundary max(325, pre-decrement radius), subtract .52 per tick. Markers stop moving once the radius falls below325; boundary stays325. Stage2 on tick801. Stage1 add A10H and hide it, stages set A10J/A10I/A0LW to 1 or 2; stage2 remove B08A. Pairs keep An active during the 2-second result interval; Gladiator clears An immediately. RingStopped means An=false: the world removes A10H/B08A/B08B and markers on its next ring tick. Eligible outside units within radius1620, visible/alive/nonstructure and no A0K4/A0VY, gain A0VY, pathing off/speed0, 10-unit inward steps every .03 seconds until floor(distance/10) steps or blocked, then restore.",
+      "unresolved": [
+        "Native timer remaining equality and pressure ability inherited object effects require world/native verification; core exposes geometry and pressure-stage events only."
+      ]
+    },
+    {
+      "id": "finish",
+      "evidence": "static-path",
+      "summary": "At series end show heroes and restore XP, alliances, world pause state. Return every hero to independent random points in XV and reset cooldowns at +0.5 seconds. This return does not revive or refill mana. Complete at +2 seconds; following Match.D4 performs its own restoration. Gladiator result heals all heroes life before return. Pairs activate MA boundary killing eligible leaving nonheroes; finish disables MA. Gladiator start does not enable MA.",
+      "unresolved": []
+    }
+  ],
+  "sources": [
+    {
+      "ruleId": "countdown",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "X3",
+      "line": 17652,
+      "endLine": 17652
+    },
+    {
+      "ruleId": "combat-timeout",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "A1",
+      "line": 16512,
+      "endLine": 16512
+    },
+    {
+      "ruleId": "gladiator-timeout",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Z3",
+      "line": 18204,
+      "endLine": 18204
+    },
+    {
+      "ruleId": "next-pair",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xpv",
+      "line": 32684,
+      "endLine": 32684
+    },
+    {
+      "ruleId": "bet-settlement",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xpv",
+      "line": 32659,
+      "endLine": 32659
+    },
+    {
+      "ruleId": "return",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xpv",
+      "line": 32690,
+      "endLine": 32690
+    },
+    {
+      "ruleId": "pair-prize",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xpv",
+      "line": 32618,
+      "endLine": 32618
+    },
+    {
+      "ruleId": "pair-prize",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xpv",
+      "line": 32619,
+      "endLine": 32619
+    },
+    {
+      "ruleId": "draw-prize",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xpv",
+      "line": 32632,
+      "endLine": 32632
+    },
+    {
+      "ruleId": "draw-prize",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xpv",
+      "line": 32633,
+      "endLine": 32633
+    },
+    {
+      "ruleId": "gladiator-prize",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xzv",
+      "line": 32850,
+      "endLine": 32850
+    },
+    {
+      "ruleId": "bet-cap",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Ss",
+      "line": 8106,
+      "endLine": 8106
+    },
+    {
+      "ruleId": "ring-start",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "I1",
+      "line": 16502,
+      "endLine": 16502
+    },
+    {
+      "ruleId": "ring",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Js",
+      "line": 7915,
+      "endLine": 7915
+    },
+    {
+      "ruleId": "ring",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Js",
+      "line": 7899,
+      "endLine": 7899
+    },
+    {
+      "ruleId": "ring",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "hs",
+      "line": 7844,
+      "endLine": 7844
+    },
+    {
+      "ruleId": "ring",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "hs",
+      "line": 7827,
+      "endLine": 7827
+    },
+    {
+      "ruleId": "ring-stage",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "hs",
+      "line": 7872,
+      "endLine": 7872
+    },
+    {
+      "ruleId": "gladiator-placement",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "e4",
+      "line": 18351,
+      "endLine": 18351
+    },
+    {
+      "ruleId": "gladiator-placement",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "e4",
+      "line": 18351,
+      "endLine": 18351
+    },
+    {
+      "ruleId": "gladiator-placement",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "e4",
+      "line": 18352,
+      "endLine": 18352
+    },
+    {
+      "ruleId": "rect-Zn",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "rectangles",
+      "line": 84292,
+      "endLine": 84292
+    },
+    {
+      "ruleId": "rect-EV",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "rectangles",
+      "line": 84302,
+      "endLine": 84302
+    },
+    {
+      "ruleId": "rect-XV",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "rectangles",
+      "line": 84303,
+      "endLine": 84303
+    },
+    {
+      "ruleId": "rect-DV",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "rectangles",
+      "line": 84314,
+      "endLine": 84314
+    },
+    {
+      "ruleId": "rect-qV",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "rectangles",
+      "line": 84331,
+      "endLine": 84331
+    },
+    {
+      "ruleId": "rect-iX",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "rectangles",
+      "line": 84398,
+      "endLine": 84398
+    },
+    {
+      "ruleId": "outer-wiring",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "D4",
+      "line": 18656,
+      "endLine": 18791
+    },
+    {
+      "ruleId": "outer-wiring",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xmv",
+      "line": 32475,
+      "endLine": 32492
+    },
+    {
+      "ruleId": "outer-wiring",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xyv",
+      "line": 32791,
+      "endLine": 32804
+    },
+    {
+      "ruleId": "pairing",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "BP",
+      "line": 5789,
+      "endLine": 5824
+    },
+    {
+      "ruleId": "pairing",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "O1",
+      "line": 16475,
+      "endLine": 16490
+    },
+    {
+      "ruleId": "pairing",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "u3",
+      "line": 18090,
+      "endLine": 18157
+    },
+    {
+      "ruleId": "pairing",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "XKv",
+      "line": 32374,
+      "endLine": 32448
+    },
+    {
+      "ruleId": "pairing",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xpv",
+      "line": 32500,
+      "endLine": 32752
+    },
+    {
+      "ruleId": "pair-prepare",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "u3",
+      "line": 18090,
+      "endLine": 18157
+    },
+    {
+      "ruleId": "pair-prepare",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "X3",
+      "line": 17561,
+      "endLine": 17660
+    },
+    {
+      "ruleId": "pair-prepare",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "r3",
+      "line": 17484,
+      "endLine": 17503
+    },
+    {
+      "ruleId": "pair-prepare",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "j0",
+      "line": 16074,
+      "endLine": 16092
+    },
+    {
+      "ruleId": "pair-prepare",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Z2",
+      "line": 17462,
+      "endLine": 17469
+    },
+    {
+      "ruleId": "pair-prepare",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "U2",
+      "line": 17416,
+      "endLine": 17438
+    },
+    {
+      "ruleId": "pair-prepare",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "w2",
+      "line": 17439,
+      "endLine": 17454
+    },
+    {
+      "ruleId": "pair-prepare",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "v3",
+      "line": 17470,
+      "endLine": 17476
+    },
+    {
+      "ruleId": "pair-prepare",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "e3",
+      "line": 17477,
+      "endLine": 17479
+    },
+    {
+      "ruleId": "pair-prepare",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Jz",
+      "line": 13390,
+      "endLine": 13411
+    },
+    {
+      "ruleId": "death-eligibility",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "XHv",
+      "line": 32351,
+      "endLine": 32353
+    },
+    {
+      "ruleId": "death-eligibility",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xuv",
+      "line": 32759,
+      "endLine": 32761
+    },
+    {
+      "ruleId": "death-eligibility",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "bpv",
+      "line": 38693,
+      "endLine": 38722
+    },
+    {
+      "ruleId": "death-eligibility",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Uk",
+      "line": 2251,
+      "endLine": 2253
+    },
+    {
+      "ruleId": "pair-result",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xpv",
+      "line": 32500,
+      "endLine": 32752
+    },
+    {
+      "ruleId": "bets",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "us",
+      "line": 8145,
+      "endLine": 8233
+    },
+    {
+      "ruleId": "bets",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "ls",
+      "line": 7949,
+      "endLine": 7986
+    },
+    {
+      "ruleId": "bets",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Ms",
+      "line": 7987,
+      "endLine": 8003
+    },
+    {
+      "ruleId": "bets",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "ps",
+      "line": 8004,
+      "endLine": 8032
+    },
+    {
+      "ruleId": "bets",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Ks",
+      "line": 7922,
+      "endLine": 7948
+    },
+    {
+      "ruleId": "bets",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Ss",
+      "line": 8091,
+      "endLine": 8144
+    },
+    {
+      "ruleId": "bets",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Ps",
+      "line": 8033,
+      "endLine": 8090
+    },
+    {
+      "ruleId": "bets",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "XJv",
+      "line": 32360,
+      "endLine": 32373
+    },
+    {
+      "ruleId": "gladiator",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "e4",
+      "line": 18255,
+      "endLine": 18384
+    },
+    {
+      "ruleId": "gladiator",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "v4",
+      "line": 18217,
+      "endLine": 18254
+    },
+    {
+      "ruleId": "gladiator",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Z3",
+      "line": 18202,
+      "endLine": 18216
+    },
+    {
+      "ruleId": "gladiator",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xzv",
+      "line": 32812,
+      "endLine": 32903
+    },
+    {
+      "ruleId": "ring",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "I1",
+      "line": 16500,
+      "endLine": 16509
+    },
+    {
+      "ruleId": "ring",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Js",
+      "line": 7881,
+      "endLine": 7918
+    },
+    {
+      "ruleId": "ring",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "hs",
+      "line": 7795,
+      "endLine": 7880
+    },
+    {
+      "ruleId": "ring",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Gs",
+      "line": 7767,
+      "endLine": 7794
+    },
+    {
+      "ruleId": "ring",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "fs",
+      "line": 7730,
+      "endLine": 7751
+    },
+    {
+      "ruleId": "ring",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "gs",
+      "line": 7752,
+      "endLine": 7766
+    },
+    {
+      "ruleId": "finish",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "XLv",
+      "line": 32456,
+      "endLine": 32474
+    },
+    {
+      "ruleId": "finish",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "XWv",
+      "line": 32772,
+      "endLine": 32790
+    },
+    {
+      "ruleId": "finish",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xpv",
+      "line": 32500,
+      "endLine": 32752
+    },
+    {
+      "ruleId": "finish",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xzv",
+      "line": 32812,
+      "endLine": 32903
+    },
+    {
+      "ruleId": "finish",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xmv",
+      "line": 32475,
+      "endLine": 32492
+    },
+    {
+      "ruleId": "finish",
+      "path": ".local/research/lia/warcraft/3.9c/extracted/war3map.normalized.j",
+      "function": "Xyv",
+      "line": 32791,
+      "endLine": 32804
+    }
+  ]
+}

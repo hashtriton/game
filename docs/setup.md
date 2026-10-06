@@ -1,6 +1,30 @@
 # Состояние настройки
 
-Проверенный срез на 5 октября 2026 года после smoke tests и проверки новой локальной сессии Game. Техническая основа Unity/Blender работает в описанных пределах. Игровой прототип пока не реализован.
+Ниже сохранены текущие результаты и история проверок настройки с 5 октября 2026 года. Самостоятельная Windows-сборка доступна для запуска и проверки. Полнота обычного прохождения и границы переноса описаны в [статусе игры](lia39-port-status.md).
+
+## Итоговая Windows-проверка 6 октября 2026 года
+
+Unity Editor `6000.6.4f1`, CLI `1.0.0-beta.12`, Pipeline `0.8.0-exp.1`. Итоговый код использует protocol 17 / `lia39-unity-rules-10`. Сцена `Lia39Arena` включена в самостоятельную сборку. Запрошенный skill `ui-ux-pro-max` установлен в проект и применен; новые модели отложены.
+
+| Проверка | Фактический результат | Локальный артефакт |
+| --- | --- | --- |
+| Полный Unity EditMode, фильтр Original | 1426/1426 PASS, 683.3 с; до последнего узкого I02C AI-моста и информационной подписи | `.local/lia-port/unity-original-rules10-release.json` и `.xml` |
+| Затронутый AI после последней правки | 32/32 PASS, 22.04 с | `.local/lia-port/unity-ai-items-rules10-final.json` и `.xml` |
+| Полный Unity PlayMode на итоговом Player-коде | 26/26 PASS, 104.71 с | `.local/lia-port/unity-playmode-rules10-player.json` и `.xml` |
+| Windows64 Player | `Succeeded`, 156155236 байт суммарного build output, 26792 мс, 0 ошибок, 1 ожидаемое предупреждение `Pipeline Disabled in Player` | `.local/lia-port/unity-build-rules10-final.json` |
+| Самостоятельное приложение | Два процесса, Knight/Archer, localhost:17739, готовность/старт и общий исход; одиночный перезапуск, покупка, расход маны навыка, отметка приказа движения, меню и выход | Нативный smoke в готовом `builds/windows/Arena.exe`; итог описан в [отчете](lia39-overnight-progress.md) |
+
+Локальный ZIP `builds/Arena-Windows-2026-10-06-rules10.zip` создан: 46763783 байта, SHA256 `bd80a14aa368b7e7d4fc511e2ad7a3824df087015ee59163cdde1d204e9aa0b8`. Бинарные сборки и `.local` не входят в Git; из клона репозитория запускайте Unity-проект по [инструкции](playing.md). Внутри ZIP находятся приложение, `Build-info.json`, инструкция и семь файлов лицензий; source files/хеши отмечены в Build-info. Полный результат упаковки хранится в `.local/lia-port/windows-package-final.json`.
+
+Статическая проверка распакованного архива сравнила 204 файла с актуальной папкой сборки: все SHA256 совпали, расхождений и запрещенных файлов нет, Mono/D3D12 и семь лицензий присутствуют. Артефакт - `.local/lia-port/windows-package-validation.json`. GUI-запуск из распакованной папки отдельно не повторялся.
+
+Эти результаты подтверждают сборку и проверенные маршруты. Два физических ПК, обычные 30 волн до финала и все частные распределения/тайминги native Warcraft не проверены. Исторические записи ниже относятся к своим срезам и не заменяют итоговые результаты.
+
+## Проверка 6 октября, 08:40 MSK
+
+- Unity Editor6000.6.4f1, CLI1.0.0-beta.12 и Pipeline0.8.0-exp.1 сохранены. Новый полный прогон после protocol7 пока не запускался: агенты интегрируют gameplay. Последний широкий Unity результат736 EditMode и9 PlayMode относится к предыдущему срезу и не переносится автоматически на новые файлы.
+- Через bundled `Editor/Data/DotNetSdk/dotnet.exe run --project` повторно проверены BossWorld70/70, ItemScripts/Recipes10/10 и AttackMove3/3. Артефакты: `.local/lia-port/boss-world-check/image-hooks.json`, `.local/lia-port/item-script-check/recipes-first.json`, `.local/lia-port/attack-move-check/green.json`. Это portable исполнение тех же Core файлов, а не новый визуальный Unity smoke.
+- Protocol9 добавляет адресную цель предмета и игровые команды быстрой сборки/атаки с движением. Изменения UI магазина требуют следующей реальной проверки GameView. Standalone сборка этого среза отсутствует; прежний исполняемый прототип не заменен.
 
 ## Инструменты и подтверждённые операции
 
@@ -166,3 +190,26 @@ Unity MCP сейчас предоставляет только шесть инс
 Ограничения: stock bounds и object footprints частично приближены, оригинальная графика заменена CC0, часть мелкого декора/эффектов пропущена. Магазины пока являются объектами окружения. Полные механики 3.9c, разрушение бочек, исходный выбор героев, предметы и экономика не реализованы. Warcraft runtime не проверялся. Сохраненная карта и пробный бой не означают готовности полной игры или ее художественной приемки пользователем.
 
 Финальная Windows сборка `build_319468085129`: Succeeded, 0 errors, 125483784 bytes. EXE запущен, создано отвечающее окно `Arena Map Prototype`, графическое устройство инициализировано, managed exceptions не обнаружены. Player log содержит диагностическую строку `d3d12: failed to query info queue interface (0x80004002).`; она сохранена в отчете запуска. Ввод и прохождение проверялись в Editor PlayMode, отдельно в standalone подтверждены процесс, окно и startup log. Финальные снимки обзора и северо-восточного участка: `verification/lia39-overview.png`, `verification/lia39-barrels.png`. Runtime кадровый счетчик продвигается, финальная консоль Editor без ошибок. Запущенное окно игры оставлено пользователю; Editor остановлен на сохраненной Lia39Arena.
+
+
+## 2026-10-06: текущий порт 3.9c
+
+Работа идет в существующем `unity` через Unity CLI/Pipeline на loopback 127.0.0.1:7800. Editor 6000.6.4f1. `unity recompile --project-path .../game/unity --format json` после подключения экипировки и A05M завершился с 0 errors / 0 warnings. Реальный Play до этой компиляции подтвержден изменением frameCount 20973 -> 21021; контрольный бой записан в `.local/lia-port/choke-range-live.jsonl`, изображение `unity/Assets/Screenshots/choke-range-final.png`. Новый полный набор Original EditMode и сетевой PlayMode запускаются отдельно.
+
+Клиент Warcraft 1.26 используется только для контролируемых локальных замеров исходной карты. CUA/sky управляет предоставленным пользователем окном `Warcraft III`, cache читается отдельным проверяющим parser. Новые модели/текстуры/звуки оригинала в Unity не добавлялись. Измерения выполнены исследовательскими копиями с собственным скриптом; writer проверяет исходный SHA и сохранение 1474 payload. Актуальные границы механик и доказательства находятся в `docs/lia39-port-status.md`. Старая Windows сборка из предыдущего этапа не представляет текущую полноту Original-порта; новую сборку еще не заявляем готовой.
+
+### Проверка 6 октября, 07:22 MSK
+
+Live Unity CLI `run_tests --mode editor --filter Original --filter_type testName --async_tests true` и последующий `test_status`: 736/736 PASS за258.46с. Сюда вошли настоящие маски навигации B009 и сохранение исходных бочек при удалении динамических препятствий. `run_tests --mode playmode --filter OriginalNetworkGameTests --filter_type testName --async_tests true`: 9/9 PASS за14.82с. Полные отчеты: `.local/lia-port/unity-original-protocol7.json`, `.local/lia-port/unity-network-protocol7.json`. Перед запуском исправлены три ошибки тестовой сборки, обращавшейся к internal Copy(); редактор затем сообщил 0 errors / 0 warnings.
+
+После этого прогона добавлены новые boss drivers и типы призывов/иллюзий в еще не выпущенный protocol8. Они проходят сфокусированные portable наборы и независимое ревью, но не входят в указанные736/9. Нужны новый общий Unity прогон, проверка обычного матча, визуальная приемка и новый Windows build. Межмашинная сеть этим локальным PlayMode набором не проверена. Выключение ПК не запланировано, поскольку итоговая игра еще не завершена.
+
+### Дополнение 6 октября, 15:00 MSK
+
+Unity Editor6000.6.4f1, Unity CLI1.0.0-beta.12 и Pipeline0.8.0-exp.1 продолжают работать на локальном loopback127.0.0.1:7800. Предварительный StandaloneWindows64 build завершен успешно: `.local/lia-port/windows-build-status.json`, executable `builds/windows/Arena.exe`, 0errors/1expectedwarning о выключенном Runtime Pipeline. Он не содержит последних protocol16 дополнений и не считается итоговой сборкой.
+
+Два отдельных экземпляра Arena были запущены и через настоящее Windows UI создали совместный матч H008/N0A0. Подтверждены выбор/готовность/start, покупка I007 с вычетом45gold и показ результата поражения обоим игрокам. Логи `.local/lia-port/standalone-host.log` и `standalone-client.log` не содержали runtime exceptions. Клавиатурный native smoke не подтвержден этим UI проходом; actual Input System сценарии отдельно проверены в Unity.
+
+Actual Unity focused suites: Gameplay4/4, Rune14/14, RandomHero18/18. Файлы результатов перечислены в `docs/lia39-overnight-progress.md`. Эти проверки не заменяют окончательный общий прогон, органический матч и новый standalone smoke.
+
+Существующий CC0 KenneyFantasyTown `fountain-round-detail.fbx` назначен полю runtime.wellPrefab, сцена Lia39Arena сохранена через Unity CLI (`.local/lia-port/unity-well-model-binding.json`). Протокол колодца16 и Core consumers завершаются; новый asset моделирования не создавался.

@@ -200,6 +200,16 @@ namespace Arena
         private Bounds worldBounds;
         private Bounds arenaBounds;
         private bool[] blocked;
+        private bool[] terrainBlocked;
+        private int[] objectBlockCount;
+        private sealed class ObjectFootprint
+        {
+            public int[] cells;
+            public bool alive;
+            public bool dynamic;
+        }
+        private readonly Dictionary<int, ObjectFootprint> objectFootprints = new Dictionary<int, ObjectFootprint>();
+        public long NavigationRevision { get; private set; }
         private bool[] clearance;
         private float clearanceRadius = -1f;
         private int width;
@@ -223,6 +233,58 @@ namespace Arena
         public Vector3 HeroSpawn { get { EnsureInitialized(); return heroSpawn; } }
         public Vector3[] SpawnPoints { get { EnsureInitialized(); return (Vector3[])spawnPoints.Clone(); } }
 
+        // Authority supplies destruction/revival from combat. This only updates
+        // navigation; it does not invent damage, rewards or explosion effects.
+        public bool SetDoodadAlive(int editorId, bool alive)
+        {
+            EnsureInitialized();
+            if (!objectFootprints.TryGetValue(editorId, out var footprint) || footprint.alive == alive) return false;
+            footprint.alive = alive;
+            foreach (int index in footprint.cells)
+            {
+                objectBlockCount[index] += alive ? 1 : -1;
+                blocked[index] = terrainBlocked[index] || objectBlockCount[index] > 0;
+            }
+            clearanceRadius = -1f;
+            NavigationRevision++;
+            return true;
+        }
+
+        public bool TryAddDynamicDoodad(int editorId, string rawcode, Vector3 position, float facingDegrees, float scale)
+        {
+            EnsureInitialized();
+            if (editorId < 1000000 || rawcode != "B009" || objectFootprints.ContainsKey(editorId) || objectFootprints.Count >= 8192 ||
+                !Finite(position.x) || !Finite(position.z) || !Finite(facingDegrees) || facingDegrees < 0 || facingDegrees >= 360 ||
+                facingDegrees % 90 != 0 || !Finite(scale) || scale <= 0 || scale > 8) return false;
+            // B009 bptx/bptd point to8x8Unflyable.tga. Native war3.mpq mask
+            // SHA c278ea75ba0fa7392251ad00a1dfd1c069df4583a52e0aacf882135dcd44b639
+            // is8x8 full-white. Unscaled256WC footprint is a derived host
+            // policy pending FOOTPRINT63; visual scale is not measured pathing.
+            float half = 128f / unitsPerMeter;
+            float x = position.x - originX, z = position.z - originZ;
+            int minX = Mathf.FloorToInt((x - half) / cell), maxX = Mathf.CeilToInt((x + half) / cell) - 1;
+            int minY = Mathf.FloorToInt((z - half) / cell), maxY = Mathf.CeilToInt((z + half) / cell) - 1;
+            if (minX < 0 || minY < 0 || maxX >= width || maxY >= height || minX > maxX || minY > maxY) return false;
+            var cells = new int[(maxX - minX + 1) * (maxY - minY + 1)];
+            int cursor = 0;
+            for (int yy = minY; yy <= maxY; yy++) for (int xx = minX; xx <= maxX; xx++) cells[cursor++] = yy * width + xx;
+            objectFootprints.Add(editorId, new ObjectFootprint { cells = cells, alive = true, dynamic = true });
+            foreach (int index in cells) { objectBlockCount[index]++; blocked[index] = true; }
+            clearanceRadius = -1f; NavigationRevision++; return true;
+        }
+
+        public bool RemoveDynamicDoodad(int editorId)
+        {
+            EnsureInitialized();
+            if (!objectFootprints.TryGetValue(editorId, out var footprint) || !footprint.dynamic) return false;
+            if (footprint.alive) foreach (int index in footprint.cells)
+            {
+                objectBlockCount[index]--;
+                blocked[index] = terrainBlocked[index] || objectBlockCount[index] > 0;
+            }
+            objectFootprints.Remove(editorId); clearanceRadius = -1f; NavigationRevision++; return true;
+        }
+
         public void Initialize()
         {
             if (layoutJson == null) throw new InvalidOperationException("ArenaMap requires a layout JSON asset.");
@@ -236,13 +298,20 @@ namespace Arena
             loadedScale = unitsPerMeter;
             TerrainLayout terrain = layout.terrain;
             PathingLayout pathing = layout.pathing;
-            width = pathing.width;
-            height = pathing.height;
-            cell = pathing.cellSize / unitsPerMeter;
+            // Search on half-cell grid vertices, retaining all original cell
+            // centers and doorway axes. Center-only samples can miss a corridor
+            // even when the physical body fits. The source mask stays unchanged.
+            const int subdivisions = 2;
+            width = pathing.width * subdivisions;
+            height = pathing.height * subdivisions;
+            cell = pathing.cellSize / unitsPerMeter / subdivisions;
             originX = pathing.origin[0] / unitsPerMeter;
             originZ = pathing.origin[1] / unitsPerMeter;
             int count = width * height;
             blocked = new bool[count];
+            terrainBlocked = new bool[count];
+            objectBlockCount = new int[count];
+            objectFootprints.Clear();
             clearance = new bool[count];
             searchState = new byte[count];
             cost = new int[count];
@@ -252,8 +321,13 @@ namespace Arena
             heapPosition = new int[count];
             clearanceRadius = -1f;
             int mask = pathing.blockedMask == 0 ? 2 : pathing.blockedMask;
-            for (int i = 0; i < count; i++) blocked[i] = (pathing.flags[i] & mask) != 0;
-            AddApproximateObjectFootprints();
+            for (int i = 0; i < count; i++)
+            {
+                int source = (i / width / subdivisions) * pathing.width + (i % width / subdivisions);
+                terrainBlocked[i] = blocked[i] = (pathing.flags[source] & mask) != 0;
+            }
+            AddObjectFootprints();
+            NavigationRevision++;
 
             float minHeight = float.PositiveInfinity;
             float maxHeight = float.NegativeInfinity;
@@ -432,7 +506,7 @@ namespace Arena
 
         private static bool Finite(float value) => !float.IsNaN(value) && !float.IsInfinity(value);
 
-        private static void Validate(ArenaMapLayout data)
+        internal static void Validate(ArenaMapLayout data)
         {
             if (data == null || data.terrain == null || data.pathing == null)
                 throw new InvalidOperationException("ArenaMap layout needs terrain and pathing.");
@@ -461,8 +535,8 @@ namespace Arena
 
         private Vector3 CellPoint(int index)
         {
-            return Ground(new Vector3(originX + (index % width + .5f) * cell, 0f,
-                originZ + (index / width + .5f) * cell));
+            return Ground(new Vector3(originX + (index % width) * cell, 0f,
+                originZ + (index / width) * cell));
         }
 
         private bool CanOccupy(Vector3 point, float radius)
@@ -507,7 +581,7 @@ namespace Arena
                 {
                     int candidate = y * width + x;
                     if (blocked[candidate]) continue;
-                    Vector3 position = new Vector3(originX + (x + .5f) * cell, 0f, originZ + (y + .5f) * cell);
+                    Vector3 position = new Vector3(originX + x * cell, 0f, originZ + y * cell);
                     float dx = position.x - point.x;
                     float dz = position.z - point.z;
                     float distance = dx * dx + dz * dz;
@@ -520,8 +594,10 @@ namespace Arena
             return index >= 0;
         }
 
-        private bool SegmentClear(Vector3 a, Vector3 b, float radius)
+        public bool SegmentClear(Vector3 a, Vector3 b, float radius)
         {
+            EnsureInitialized();
+            if (!Finite(a.x) || !Finite(a.z) || !Finite(b.x) || !Finite(b.z) || !Finite(radius) || radius < 0) return false;
             if (!CanOccupy(a, radius) || !CanOccupy(b, radius)) return false;
             float ax = a.x - originX;
             float ay = a.z - originZ;
@@ -590,8 +666,8 @@ namespace Arena
         {
             if (clearanceRadius == radius) return;
             for (int i = 0; i < clearance.Length; i++)
-                clearance[i] = !blocked[i] && CanOccupy(new Vector3(originX + (i % width + .5f) * cell, 0f,
-                    originZ + (i / width + .5f) * cell), radius);
+                clearance[i] = !blocked[i] && CanOccupy(new Vector3(originX + (i % width) * cell, 0f,
+                    originZ + (i / width) * cell), radius);
             clearanceRadius = radius;
         }
 
@@ -684,18 +760,18 @@ namespace Arena
             heapPosition[heap[b]] = b;
         }
 
-        private void AddApproximateObjectFootprints()
+        private void AddObjectFootprints()
         {
             if (layout.doodads == null) return;
             foreach (MapDoodad doodad in layout.doodads)
             {
-                if (doodad == null || doodad.life == 0 || string.IsNullOrEmpty(doodad.pathingTexture)) continue;
+                if (doodad == null || string.IsNullOrEmpty(doodad.pathingTexture)) continue;
                 int size = FootprintSize(doodad.pathingTexture);
                 if (size == 0) continue;
-                // WPM excludes destructable footprints. The named texture dimensions supply
-                // a conservative solid square, not decoded pixels or Warcraft runtime pathing.
-                // Visual mesh scale/GEOS bounds do not define that footprint. Destruction and
-                // script changes are intentionally outside this static navigation snapshot.
+                // The 1.26 native 2x2/4x4/8x8Unflyable TGAs were decoded as all-white
+                // masks. WPM excludes these object footprints. Keep individual owners
+                // so removing a barrel cannot erase terrain or an overlapping object.
+                // Visual mesh scale/GEOS bounds do not define the pathing footprint.
                 float half = size * 32f * .5f / unitsPerMeter;
                 float x = doodad.x / unitsPerMeter - originX;
                 float z = doodad.y / unitsPerMeter - originZ;
@@ -703,8 +779,17 @@ namespace Arena
                 int maxX = Mathf.Min(width - 1, Mathf.CeilToInt((x + half) / cell) - 1);
                 int minY = Mathf.Max(0, Mathf.FloorToInt((z - half) / cell));
                 int maxY = Mathf.Min(height - 1, Mathf.CeilToInt((z + half) / cell) - 1);
+                var cells = new List<int>();
                 for (int yy = minY; yy <= maxY; yy++)
-                    for (int xx = minX; xx <= maxX; xx++) blocked[yy * width + xx] = true;
+                    for (int xx = minX; xx <= maxX; xx++) cells.Add(yy * width + xx);
+                var footprint = new ObjectFootprint { cells = cells.ToArray(), alive = doodad.life != 0 };
+                objectFootprints.Add(doodad.editorId, footprint);
+                if (!footprint.alive) continue;
+                foreach (int index in footprint.cells)
+                {
+                    objectBlockCount[index]++;
+                    blocked[index] = true;
+                }
             }
         }
 
