@@ -1,0 +1,261 @@
+{
+  "success": true,
+  "command": "command run_tests",
+  "data": {
+    "command": "run_tests",
+    "parameters": {
+      "mode": "editor",
+      "filter": "Arena.Tests.EditMode",
+      "filter_type": "assembly",
+      "timeout": "60"
+    },
+    "result": {
+      "Summary": {
+        "Total": 32,
+        "Passed": 30,
+        "Failed": 2,
+        "Skipped": 0,
+        "Inconclusive": 0
+      },
+      "Results": [
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.EnemyDefeated_RejectsDeathWithoutLivingEnemy",
+          "Status": "Passed",
+          "Duration": 0.0170851,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.FinalVitalityChoice_ImmediatelyHelpsSurviveTheBoss",
+          "Status": "Failed",
+          "Duration": 0.010518,
+          "Message": "  Expected: 100.0f\r\n  But was:  65.0f\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.FinalVitalityChoice_ImmediatelyHelpsSurviveTheBoss () [0x00085] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:161\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.FiveCompletedWaves_EndWithVictoryInsteadOfAnotherUpgrade",
+          "Status": "Passed",
+          "Duration": 0.0015247,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.HasteChoices_StackAcrossAvailableWaveBreaks",
+          "Status": "Passed",
+          "Duration": 0.00095,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth(0.0f)",
+          "Status": "Passed",
+          "Duration": 0.0008322,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth(-1.0f)",
+          "Status": "Passed",
+          "Duration": 0.0001171,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth(float.NaN)",
+          "Status": "Passed",
+          "Duration": 0.0000612,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth(float.PositiveInfinity)",
+          "Status": "Passed",
+          "Duration": 0.0000487,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth(float.NegativeInfinity)",
+          "Status": "Passed",
+          "Duration": 0.0000355,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidUpgrade_DoesNotConsumeTheChoice(-1)",
+          "Status": "Passed",
+          "Duration": 0.0005226,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidUpgrade_DoesNotConsumeTheChoice(3)",
+          "Status": "Passed",
+          "Duration": 0.0000559,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidUpgrade_DoesNotConsumeTheChoice(int.MaxValue)",
+          "Status": "Passed",
+          "Duration": 0.0000394,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidWaveIndex_HasNoSpawnBudget(int.MinValue)",
+          "Status": "Passed",
+          "Duration": 0.0002667,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidWaveIndex_HasNoSpawnBudget(-1)",
+          "Status": "Passed",
+          "Duration": 0.0000435,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidWaveIndex_HasNoSpawnBudget(0)",
+          "Status": "Passed",
+          "Duration": 0.0000297,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidWaveIndex_HasNoSpawnBudget(6)",
+          "Status": "Passed",
+          "Duration": 0.0000275,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidWaveIndex_HasNoSpawnBudget(int.MaxValue)",
+          "Status": "Passed",
+          "Duration": 0.0000205,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.LastLivingEnemy_DoesNotEndWaveWhileSpawnsRemain",
+          "Status": "Passed",
+          "Duration": 0.0005663,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.LethalDamage_ClampsHealthAndMakesLossTerminal(140.0f)",
+          "Status": "Passed",
+          "Duration": 0.0011111,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.LethalDamage_ClampsHealthAndMakesLossTerminal(200.0f)",
+          "Status": "Passed",
+          "Duration": 0.0000528,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.LethalDamage_ClampsHealthAndMakesLossTerminal(float.MaxValue)",
+          "Status": "Passed",
+          "Duration": 0.0000313,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.Pause_BlocksDamageUntilResumed",
+          "Status": "Passed",
+          "Duration": 0.0002637,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.PowerChoice_AppliesOnceAndPreparesNextWave",
+          "Status": "Passed",
+          "Duration": 0.0003209,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.ReadyRun_RejectsCombatAndUpgradeActions",
+          "Status": "Passed",
+          "Duration": 0.0004403,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.Reset_AfterDeathMakesAnotherRunPlayable",
+          "Status": "Passed",
+          "Duration": 0.0002258,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.Reset_ClearsUpgradesDamageKillsAndPauseForAnotherRun",
+          "Status": "Passed",
+          "Duration": 0.0003487,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.SpawnEnemy_TransfersPendingEnemyToAliveAndRejectsExtraSpawns",
+          "Status": "Passed",
+          "Duration": 0.0003007,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.StartWave_PreparesFirstWaveAndCannotBeRepeated",
+          "Status": "Passed",
+          "Duration": 0.0002559,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.VitalityChoice_IncreasesCurrentAndMaximumHealth",
+          "Status": "Failed",
+          "Duration": 0.0005064,
+          "Message": "  Expected: 120.0f\r\n  But was:  85.0f\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.VitalityChoice_IncreasesCurrentAndMaximumHealth () [0x0004b] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:139\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.WaveBreak_HealsOnceWithoutExceedingMaximum(80.0f,85.0f)",
+          "Status": "Passed",
+          "Duration": 0.0006758,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.WaveBreak_HealsOnceWithoutExceedingMaximum(10.0f,140.0f)",
+          "Status": "Passed",
+          "Duration": 0.0000622,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.WaveFinishesOnlyAfterAllSpawnedEnemiesDie",
+          "Status": "Passed",
+          "Duration": 0.0003901,
+          "Message": null,
+          "StackTrace": null
+        }
+      ],
+      "Duration": 4.6,
+      "StatusPath": null,
+      "Mode": "EditMode",
+      "FilterApplied": "assembly: Arena.Tests.EditMode",
+      "success": true,
+      "result": null
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\Netes\\Desktop\\proj\\game\\unity"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

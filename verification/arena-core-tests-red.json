@@ -1,0 +1,254 @@
+{
+  "success": true,
+  "command": "command run_tests",
+  "data": {
+    "command": "run_tests",
+    "parameters": {
+      "mode": "editor",
+      "filter": "Arena.Tests.EditMode",
+      "filter_type": "assembly",
+      "timeout": "60"
+    },
+    "result": {
+      "Summary": {
+        "Total": 31,
+        "Passed": 5,
+        "Failed": 26,
+        "Skipped": 0,
+        "Inconclusive": 0
+      },
+      "Results": [
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.EnemyDefeated_RejectsDeathWithoutLivingEnemy",
+          "Status": "Failed",
+          "Duration": 0.0131601,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.EnemyDefeated_RejectsDeathWithoutLivingEnemy () [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:55\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.FiveCompletedWaves_EndWithVictoryInsteadOfAnotherUpgrade",
+          "Status": "Failed",
+          "Duration": 0.0037804,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.FiveCompletedWaves_EndWithVictoryInsteadOfAnotherUpgrade () [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:236\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.HasteChoices_StackAcrossAvailableWaveBreaks",
+          "Status": "Failed",
+          "Duration": 0.0005062,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.HasteChoices_StackAcrossAvailableWaveBreaks () [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:148\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth(0.0f)",
+          "Status": "Failed",
+          "Duration": 0.000423,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth (System.Single amount) [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:187\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth(-1.0f)",
+          "Status": "Failed",
+          "Duration": 0.0001602,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth (System.Single amount) [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:187\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth(float.NaN)",
+          "Status": "Failed",
+          "Duration": 0.0001316,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth (System.Single amount) [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:187\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth(float.PositiveInfinity)",
+          "Status": "Failed",
+          "Duration": 0.0001195,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth (System.Single amount) [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:187\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth(float.NegativeInfinity)",
+          "Status": "Failed",
+          "Duration": 0.0001379,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.InvalidDamage_DoesNotCorruptHealth (System.Single amount) [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:187\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidUpgrade_DoesNotConsumeTheChoice(-1)",
+          "Status": "Failed",
+          "Duration": 0.000531,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.InvalidUpgrade_DoesNotConsumeTheChoice (System.Int32 value) [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:165\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidUpgrade_DoesNotConsumeTheChoice(3)",
+          "Status": "Failed",
+          "Duration": 0.0001742,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.InvalidUpgrade_DoesNotConsumeTheChoice (System.Int32 value) [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:165\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidUpgrade_DoesNotConsumeTheChoice(int.MaxValue)",
+          "Status": "Failed",
+          "Duration": 0.0001353,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.InvalidUpgrade_DoesNotConsumeTheChoice (System.Int32 value) [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:165\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidWaveIndex_HasNoSpawnBudget(int.MinValue)",
+          "Status": "Passed",
+          "Duration": 0.0082572,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidWaveIndex_HasNoSpawnBudget(-1)",
+          "Status": "Passed",
+          "Duration": 0.0001511,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidWaveIndex_HasNoSpawnBudget(0)",
+          "Status": "Passed",
+          "Duration": 0.0001447,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidWaveIndex_HasNoSpawnBudget(6)",
+          "Status": "Passed",
+          "Duration": 0.0000967,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.InvalidWaveIndex_HasNoSpawnBudget(int.MaxValue)",
+          "Status": "Passed",
+          "Duration": 0.0000693,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.LastLivingEnemy_DoesNotEndWaveWhileSpawnsRemain",
+          "Status": "Failed",
+          "Duration": 0.0005558,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.LastLivingEnemy_DoesNotEndWaveWhileSpawnsRemain () [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:66\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.LethalDamage_ClampsHealthAndMakesLossTerminal(140.0f)",
+          "Status": "Failed",
+          "Duration": 0.0004915,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.LethalDamage_ClampsHealthAndMakesLossTerminal (System.Single damage) [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:214\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.LethalDamage_ClampsHealthAndMakesLossTerminal(200.0f)",
+          "Status": "Failed",
+          "Duration": 0.0003036,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.LethalDamage_ClampsHealthAndMakesLossTerminal (System.Single damage) [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:214\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.LethalDamage_ClampsHealthAndMakesLossTerminal(float.MaxValue)",
+          "Status": "Failed",
+          "Duration": 0.0001575,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.LethalDamage_ClampsHealthAndMakesLossTerminal (System.Single damage) [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:214\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.Pause_BlocksDamageUntilResumed",
+          "Status": "Failed",
+          "Duration": 0.0006338,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.Pause_BlocksDamageUntilResumed () [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:198\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.PowerChoice_AppliesOnceAndPreparesNextWave",
+          "Status": "Failed",
+          "Duration": 0.0007718,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.PowerChoice_AppliesOnceAndPreparesNextWave () [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:114\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.ReadyRun_RejectsCombatAndUpgradeActions",
+          "Status": "Failed",
+          "Duration": 0.0032218,
+          "Message": "  Expected: 140.0f\r\n  But was:  0.0f\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.AssertReady (Arena.ArenaRun run) [0x00056] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:336\r\nat Arena.Tests.ArenaRunTests.ReadyRun_RejectsCombatAndUpgradeActions () [0x00052] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:32\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.Reset_AfterDeathMakesAnotherRunPlayable",
+          "Status": "Failed",
+          "Duration": 0.0004699,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.Reset_AfterDeathMakesAnotherRunPlayable () [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:289\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.Reset_ClearsUpgradesDamageKillsAndPauseForAnotherRun",
+          "Status": "Failed",
+          "Duration": 0.0004559,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.Reset_ClearsUpgradesDamageKillsAndPauseForAnotherRun () [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:267\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.SpawnEnemy_TransfersPendingEnemyToAliveAndRejectsExtraSpawns",
+          "Status": "Failed",
+          "Duration": 0.0005273,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.SpawnEnemy_TransfersPendingEnemyToAliveAndRejectsExtraSpawns () [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:38\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.StartWave_PreparesFirstWaveAndCannotBeRepeated",
+          "Status": "Failed",
+          "Duration": 0.0005054,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.StartWave_PreparesFirstWaveAndCannotBeRepeated () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:12\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.VitalityChoice_IncreasesCapacityWithoutAnUndocumentedHeal",
+          "Status": "Failed",
+          "Duration": 0.0005492,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.VitalityChoice_IncreasesCapacityWithoutAnUndocumentedHeal () [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:132\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.WaveBreak_HealsOnceWithoutExceedingMaximum(80.0f,85.0f)",
+          "Status": "Failed",
+          "Duration": 0.0018603,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.WaveBreak_HealsOnceWithoutExceedingMaximum (System.Single damage, System.Single expectedHealth) [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:100\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.WaveBreak_HealsOnceWithoutExceedingMaximum(10.0f,140.0f)",
+          "Status": "Failed",
+          "Duration": 0.0005893,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.WaveBreak_HealsOnceWithoutExceedingMaximum (System.Single damage, System.Single expectedHealth) [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:100\r\n"
+        },
+        {
+          "FullName": "Arena.Tests.ArenaRunTests.WaveFinishesOnlyAfterAllSpawnedEnemiesDie",
+          "Status": "Failed",
+          "Duration": 0.0008633,
+          "Message": "  Expected: True\r\n  But was:  False\r\n",
+          "StackTrace": "at Arena.Tests.ArenaRunTests.BeginRun () [0x00005] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:313\r\nat Arena.Tests.ArenaRunTests.WaveFinishesOnlyAfterAllSpawnedEnemiesDie () [0x00000] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\EditMode\\ArenaRunTests.cs:81\r\n"
+        }
+      ],
+      "Duration": 4.36,
+      "StatusPath": null,
+      "Mode": "EditMode",
+      "FilterApplied": "assembly: Arena.Tests.EditMode",
+      "success": true,
+      "result": null
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\Netes\\Desktop\\proj\\game\\unity"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

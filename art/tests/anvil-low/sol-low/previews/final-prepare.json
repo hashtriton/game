@@ -1,0 +1,15 @@
+{
+  "source": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\sol-low\\final.blend",
+  "sha256": "c5bad690a3975fa7b3836f4af8c21f75c7f39abff8db26cc34647c5254561e5c",
+  "source_unchanged": true,
+  "mode": "prepare",
+  "device": {
+    "backend": "OPTIX",
+    "device": "GPU",
+    "devices": [
+      "NVIDIA GeForce RTX 2080 Ti"
+    ],
+    "fallbacks": []
+  },
+  "views": []
+}

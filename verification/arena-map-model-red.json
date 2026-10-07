@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 1.38,
+      "summary": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "Arena.Tests.ArenaPlayModeTests.AnimatedModelsRemainVisibleAndCameraFramesHero",
+          "Status": "Failed",
+          "Duration": 1.3277879,
+          "Message": "  actual skinned vertices must stay human-sized after animation\r\n  Expected: in range (1,5,2,3)\r\n  But was:  0.0126178265f\r\n",
+          "StackTrace": "at Arena.Tests.ArenaPlayModeTests+<AnimatedModelsRemainVisibleAndCameraFramesHero>d__9.MoveNext () [0x000f6] in C:\\Users\\Netes\\Desktop\\proj\\game\\unity\\Assets\\Arena\\Tests\\PlayMode\\ArenaPlayModeTests.cs:120\r\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@80f691d4262b\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:52\r\n"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\Netes\\Desktop\\proj\\game\\unity"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

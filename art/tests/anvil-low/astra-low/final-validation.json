@@ -1,0 +1,173 @@
+{
+  "objects": [
+    {
+      "name": "Oak stump",
+      "triangles": 768,
+      "non_manifold": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.16204948264113378,
+      "finite": true,
+      "dimensions": [
+        0.667401909828186,
+        0.6635068655014038,
+        0.5
+      ],
+      "materials": 2
+    },
+    {
+      "name": "Anvil - continuous head and round horn",
+      "triangles": 6280,
+      "non_manifold": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.05037108303994677,
+      "finite": true,
+      "dimensions": [
+        1.0999999046325684,
+        0.3499999940395355,
+        0.3999999761581421
+      ],
+      "materials": 2
+    },
+    {
+      "name": "Iron hoop 1",
+      "triangles": 1536,
+      "non_manifold": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0008744773505319251,
+      "finite": true,
+      "dimensions": [
+        0.6848030090332031,
+        0.6820096969604492,
+        0.041999995708465576
+      ],
+      "materials": 1
+    },
+    {
+      "name": "Iron hoop 2",
+      "triangles": 1536,
+      "non_manifold": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0008549423794331169,
+      "finite": true,
+      "dimensions": [
+        0.6697188019752502,
+        0.6669936180114746,
+        0.041999995708465576
+      ],
+      "materials": 1
+    },
+    {
+      "name": "Bent hold-down -0.17 -1",
+      "triangles": 220,
+      "non_manifold": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 6.289933394310582e-05,
+      "finite": true,
+      "dimensions": [
+        0.035999998450279236,
+        0.1120000034570694,
+        0.050000011920928955
+      ],
+      "materials": 1
+    },
+    {
+      "name": "Hex timber fixing",
+      "triangles": 164,
+      "non_manifold": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 3.3129357842897546e-06,
+      "finite": true,
+      "dimensions": [
+        0.020784609019756317,
+        0.023478291928768158,
+        0.008999999612569809
+      ],
+      "materials": 1
+    },
+    {
+      "name": "Bent hold-down -0.17 1",
+      "triangles": 220,
+      "non_manifold": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 6.289933392422721e-05,
+      "finite": true,
+      "dimensions": [
+        0.035999998450279236,
+        0.1120000034570694,
+        0.050000011920928955
+      ],
+      "materials": 1
+    },
+    {
+      "name": "Hex timber fixing.001",
+      "triangles": 164,
+      "non_manifold": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 3.3129357842897546e-06,
+      "finite": true,
+      "dimensions": [
+        0.020784609019756317,
+        0.023478291928768158,
+        0.008999999612569809
+      ],
+      "materials": 1
+    },
+    {
+      "name": "Bent hold-down 0.17 -1",
+      "triangles": 220,
+      "non_manifold": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 6.289933392422706e-05,
+      "finite": true,
+      "dimensions": [
+        0.035999998450279236,
+        0.1120000034570694,
+        0.050000011920928955
+      ],
+      "materials": 1
+    },
+    {
+      "name": "Hex timber fixing.002",
+      "triangles": 164,
+      "non_manifold": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 3.3129357842897546e-06,
+      "finite": true,
+      "dimensions": [
+        0.020784609019756317,
+        0.023478291928768158,
+        0.008999999612569809
+      ],
+      "materials": 1
+    },
+    {
+      "name": "Bent hold-down 0.17 1",
+      "triangles": 220,
+      "non_manifold": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 6.289933394310591e-05,
+      "finite": true,
+      "dimensions": [
+        0.035999998450279236,
+        0.1120000034570694,
+        0.050000011920928955
+      ],
+      "materials": 1
+    },
+    {
+      "name": "Hex timber fixing.003",
+      "triangles": 164,
+      "non_manifold": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 3.3129357842897546e-06,
+      "finite": true,
+      "dimensions": [
+        0.020784609019756317,
+        0.023478291928768158,
+        0.008999999612569809
+      ],
+      "materials": 1
+    }
+  ],
+  "total_triangles": 11656
+}

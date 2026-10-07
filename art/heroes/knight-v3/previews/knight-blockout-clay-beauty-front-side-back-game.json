@@ -1,0 +1,41 @@
+{
+  "source": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\knight-blockout.blend",
+  "sha256": "17bd9f7244f030a3cba84d3c865fb9dc27285740182dd8ae58021fd43ed7142f",
+  "source_unchanged": true,
+  "device": {
+    "backend": "OPTIX",
+    "device": "GPU",
+    "devices": [
+      "NVIDIA GeForce RTX 2080 Ti"
+    ],
+    "fallbacks": []
+  },
+  "mode": "clay",
+  "views": [
+    {
+      "view": "beauty",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\previews\\knight-blockout-beauty.png",
+      "seconds": 5.09
+    },
+    {
+      "view": "front",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\previews\\knight-blockout-front.png",
+      "seconds": 4.46
+    },
+    {
+      "view": "side",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\previews\\knight-blockout-side.png",
+      "seconds": 4.16
+    },
+    {
+      "view": "back",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\previews\\knight-blockout-back.png",
+      "seconds": 4.85
+    },
+    {
+      "view": "game",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\previews\\knight-blockout-game.png",
+      "seconds": 4.88
+    }
+  ]
+}

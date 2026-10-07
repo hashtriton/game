@@ -1,0 +1,36 @@
+{
+  "source": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\sol-low\\blockout.blend",
+  "sha256": "007adaffd8132b22a81290b304d0b4798333b1b879780713d604b9d99f29c433",
+  "source_unchanged": true,
+  "mode": "clay",
+  "device": {
+    "backend": "OPTIX",
+    "device": "GPU",
+    "devices": [
+      "NVIDIA GeForce RTX 2080 Ti"
+    ],
+    "fallbacks": []
+  },
+  "views": [
+    {
+      "view": "beauty",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\sol-low\\previews\\blockout-beauty.png",
+      "seconds": 2.506
+    },
+    {
+      "view": "front",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\sol-low\\previews\\blockout-front.png",
+      "seconds": 2.002
+    },
+    {
+      "view": "side",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\sol-low\\previews\\blockout-side.png",
+      "seconds": 2.002
+    },
+    {
+      "view": "top",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\sol-low\\previews\\blockout-top.png",
+      "seconds": 2.147
+    }
+  ]
+}

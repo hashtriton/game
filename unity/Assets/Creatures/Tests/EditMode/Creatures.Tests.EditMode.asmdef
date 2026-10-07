@@ -1,0 +1,8 @@
+{
+    "name": "Creatures.Tests.EditMode",
+    "rootNamespace": "Creatures.Tests",
+    "references": [],
+    "includePlatforms": ["Editor"],
+    "optionalUnityReferences": ["TestAssemblies"],
+    "autoReferenced": false
+}

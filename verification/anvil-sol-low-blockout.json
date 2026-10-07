@@ -1,0 +1,226 @@
+{
+  "checked_at_utc": "2026-10-05T14:35:16.914434+00:00",
+  "blender_version": "5.2.2 LTS",
+  "source_file": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\tests\\anvil-low\\sol-low\\blockout.blend",
+  "source_sha256_before": "007adaffd8132b22a81290b304d0b4798333b1b879780713d604b9d99f29c433",
+  "source_sha256_after": "007adaffd8132b22a81290b304d0b4798333b1b879780713d604b9d99f29c433",
+  "source_unchanged": true,
+  "variant": "sol-low",
+  "stage": "blockout",
+  "scene": "Scene",
+  "scene_count": 1,
+  "active_view_layer": "ViewLayer",
+  "collection": "ASSET",
+  "unit_scale": 1.0,
+  "render_visible_geometry_objects": 2,
+  "evaluated_triangles": 616,
+  "budgets": {
+    "visible_geometry_objects": 12,
+    "evaluated_triangles": 100000
+  },
+  "near_zero_area_threshold_m2": 1e-12,
+  "totals": {
+    "nonfinite_vertices": 0,
+    "near_zero_area_triangles": 0,
+    "invalid_polygon_normals": 0,
+    "missing_material_faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges_more_than_two_faces": 0,
+    "inconsistent_winding_edges": 0,
+    "negative_closed_components": 0
+  },
+  "bounds_m": {
+    "min": [
+      -0.6000000238418579,
+      -0.3296126425266266,
+      0.0
+    ],
+    "max": [
+      0.5,
+      0.3319038450717926,
+      0.8999999761581421
+    ],
+    "size": [
+      1.100000023841858,
+      0.6615164875984192,
+      0.8999999761581421
+    ]
+  },
+  "dimension_checks": [
+    {
+      "name": "overall_X_length",
+      "measured_m": 1.100000023841858,
+      "expected_m": 1.1,
+      "tolerance_percent": 10,
+      "pass": true
+    },
+    {
+      "name": "overall_Z_height",
+      "measured_m": 0.8999999761581421,
+      "expected_m": 0.9,
+      "tolerance_percent": 10,
+      "pass": true
+    }
+  ],
+  "objects_without_uv": [
+    "Anvil continuous forged body",
+    "Solid wooden stump"
+  ],
+  "external_files": [
+    {
+      "path": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\datafiles\\assets\\brushes\\essentials_brushes-gp_draw.blend",
+      "available": true,
+      "template": false
+    }
+  ],
+  "render_visible_geometry_outside_asset": [],
+  "hidden_asset_objects": [],
+  "evaluation": {
+    "depsgraph_mode": "VIEWPORT",
+    "temporary_render_flag_adjustments": []
+  },
+  "meshes": [
+    {
+      "name": "Anvil continuous forged body",
+      "source_type": "MESH",
+      "vertices": 120,
+      "polygons": 100,
+      "evaluated_triangles": 236,
+      "bounds_m": {
+        "min": [
+          -0.6000000238418579,
+          -0.1850000023841858,
+          0.5
+        ],
+        "max": [
+          0.5,
+          0.1850000023841858,
+          0.8999999761581421
+        ],
+        "size": [
+          1.100000023841858,
+          0.3700000047683716,
+          0.3999999761581421
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 2.4887137241869233e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Forged iron blockout"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 100,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.05226354906899168
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false
+    },
+    {
+      "name": "Solid wooden stump",
+      "source_type": "MESH",
+      "vertices": 192,
+      "polygons": 162,
+      "evaluated_triangles": 380,
+      "bounds_m": {
+        "min": [
+          -0.3304668664932251,
+          -0.3296126425266266,
+          0.0
+        ],
+        "max": [
+          0.3336479961872101,
+          0.3319038450717926,
+          0.5
+        ],
+        "size": [
+          0.6641148626804352,
+          0.6615164875984192,
+          0.5
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 5.412264775884805e-06,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Warm wood blockout"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 162,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.1645743711906462
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "2 evaluated meshes have no UV layer; allowed for this procedural-material study"
+  ],
+  "technical_pass": true,
+  "interpretation": {
+    "boundary_and_nonmanifold": "Errors for the solid anvil and stump brief; legitimate intentionally open detail would need explicit review",
+    "signed_volume": "Per closed consistently wound connected surface, in world meters; negative components flagged for inward orientation or deliberate cavities requiring review",
+    "uv": "Absence is allowed; no UV completeness or game-readiness claim",
+    "limits": [
+      "No self-intersection or inter-object collision test",
+      "No art or silhouette acceptance",
+      "No automatic semantic measurement of stump top, anvil face width, holes or horn direction",
+      "No export or game-readiness validation",
+      "Render-specific Geometry Nodes, particles, displacement and instancing are not fully evaluated",
+      "External path existence does not validate every sequence frame, UDIM tile or linked asset contents"
+    ]
+  }
+}

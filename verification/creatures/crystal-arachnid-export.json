@@ -1,0 +1,29 @@
+{
+  "id": "crystal_arachnid",
+  "unity_name": "CrystalArachnid",
+  "device": "OPTIX",
+  "high_triangles": 41590,
+  "game_triangles": 16412,
+  "texture_size": 2048,
+  "bones": 33,
+  "weighted_bones": 32,
+  "unweighted_vertices": 0,
+  "actions": [
+    "Attack",
+    "Death",
+    "Idle",
+    "Run"
+  ],
+  "bounds_min_m": [
+    -1.623,
+    -2.4,
+    -0.051
+  ],
+  "bounds_max_m": [
+    1.622,
+    2.009,
+    2.218
+  ],
+  "fbx": "unity/Assets/Creatures/CrystalArachnid/CrystalArachnid.fbx",
+  "fbx_bytes": 1750476
+}

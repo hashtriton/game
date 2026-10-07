@@ -1,0 +1,5071 @@
+{
+  "checked_at_utc": "2026-10-05T15:08:53.703221+00:00",
+  "blender_version": "5.2.2 LTS",
+  "source_file": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\knight-blockout.blend",
+  "source_sha256_before": "17bd9f7244f030a3cba84d3c865fb9dc27285740182dd8ae58021fd43ed7142f",
+  "source_sha256_after": "17bd9f7244f030a3cba84d3c865fb9dc27285740182dd8ae58021fd43ed7142f",
+  "source_unchanged": true,
+  "scene_count": 1,
+  "unit_scale": 1.0,
+  "collection": "KNIGHT",
+  "render_visible_geometry_objects": 63,
+  "evaluated_triangles": 63970,
+  "budgets": {
+    "objects": 350,
+    "evaluated_triangles": 350000
+  },
+  "near_zero_area_threshold_m2": 1e-12,
+  "totals": {
+    "nonfinite_vertices": 0,
+    "nonfinite_triangles": 0,
+    "near_zero_area_triangles": 20,
+    "invalid_polygon_normals": 0,
+    "missing_material_faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges_more_than_two_faces": 0,
+    "inconsistent_winding_edges": 0,
+    "negative_closed_components": 0
+  },
+  "bounds_m": {
+    "min": [
+      -0.7806565761566162,
+      -0.2557004988193512,
+      0.02500000037252903
+    ],
+    "max": [
+      0.6289490461349487,
+      0.38620030879974365,
+      2.161543846130371
+    ],
+    "size": [
+      1.409605622291565,
+      0.6419008076190948,
+      2.136543845757842
+    ]
+  },
+  "body_bounds_excluding_weapon_m": {
+    "min": [
+      -0.6147399544715881,
+      -0.2557004988193512,
+      0.02500000037252903
+    ],
+    "max": [
+      0.6289490461349487,
+      0.38620030879974365,
+      2.161543846130371
+    ],
+    "size": [
+      1.2436890006065369,
+      0.6419008076190948,
+      2.136543845757842
+    ]
+  },
+  "ground_contacts": [
+    {
+      "name": "Boot sole",
+      "minimum_z_m": 0.02500000037252903,
+      "target_z_m": 0.025,
+      "tolerance_m": 0.01,
+      "pass": true
+    },
+    {
+      "name": "Boot sole.001",
+      "minimum_z_m": 0.02500000037252903,
+      "target_z_m": 0.025,
+      "tolerance_m": 0.01,
+      "pass": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Abdomen articulated lame 0",
+      "source_type": "MESH",
+      "vertices": 384,
+      "polygons": 338,
+      "evaluated_triangles": 764,
+      "bounds_m": {
+        "min": [
+          -0.24812740087509155,
+          -0.1314852386713028,
+          1.1449999809265137
+        ],
+        "max": [
+          0.24812740087509155,
+          0.18148523569107056,
+          1.184999942779541
+        ],
+        "size": [
+          0.4962548017501831,
+          0.31297047436237335,
+          0.039999961853027344
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.3173326553103893e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 338,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.004659781481779627
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "BODY"
+      ]
+    },
+    {
+      "name": "Abdomen articulated lame 1",
+      "source_type": "MESH",
+      "vertices": 384,
+      "polygons": 338,
+      "evaluated_triangles": 764,
+      "bounds_m": {
+        "min": [
+          -0.25312715768814087,
+          -0.131485253572464,
+          1.1920000314712524
+        ],
+        "max": [
+          0.25312715768814087,
+          0.18148525059223175,
+          1.2319999933242798
+        ],
+        "size": [
+          0.5062543153762817,
+          0.31297050416469574,
+          0.039999961853027344
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.3174334432148842e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 338,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.004755877280244291
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "BODY"
+      ]
+    },
+    {
+      "name": "Abdomen articulated lame 2",
+      "source_type": "MESH",
+      "vertices": 384,
+      "polygons": 338,
+      "evaluated_triangles": 764,
+      "bounds_m": {
+        "min": [
+          -0.2581269443035126,
+          -0.131485253572464,
+          1.2389999628067017
+        ],
+        "max": [
+          0.2581269443035126,
+          0.18148525059223175,
+          1.2790000438690186
+        ],
+        "size": [
+          0.5162538886070251,
+          0.31297050416469574,
+          0.040000081062316895
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.317612481167793e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 338,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.004851986115584239
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "BODY"
+      ]
+    },
+    {
+      "name": "Anatomical greave",
+      "source_type": "MESH",
+      "vertices": 440,
+      "polygons": 402,
+      "evaluated_triangles": 876,
+      "bounds_m": {
+        "min": [
+          -0.375,
+          -0.10000000149011612,
+          0.1599999964237213
+        ],
+        "max": [
+          -0.14499999582767487,
+          0.164000004529953,
+          0.5600000023841858
+        ],
+        "size": [
+          0.23000000417232513,
+          0.2640000060200691,
+          0.4000000059604645
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 9.890915110696698e-06,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 402,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.01449127357072309
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Anatomical greave.001",
+      "source_type": "MESH",
+      "vertices": 440,
+      "polygons": 402,
+      "evaluated_triangles": 876,
+      "bounds_m": {
+        "min": [
+          0.14499999582767487,
+          -0.10000000149011612,
+          0.1599999964237213
+        ],
+        "max": [
+          0.375,
+          0.164000004529953,
+          0.5600000023841858
+        ],
+        "size": [
+          0.23000000417232513,
+          0.2640000060200691,
+          0.4000000059604645
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 9.88727943830628e-06,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 402,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.014491273488598626
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Armored sabaton",
+      "source_type": "MESH",
+      "vertices": 432,
+      "polygons": 392,
+      "evaluated_triangles": 860,
+      "bounds_m": {
+        "min": [
+          -0.3839644491672516,
+          -0.24500000476837158,
+          0.05999999865889549
+        ],
+        "max": [
+          -0.16403555870056152,
+          0.10692891478538513,
+          0.2199999988079071
+        ],
+        "size": [
+          0.21992889046669006,
+          0.3519289195537567,
+          0.1600000001490116
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 2,
+      "minimum_triangle_area_m2": 0.0,
+      "near_zero_samples": [
+        {
+          "triangle": 782,
+          "polygon": 356,
+          "area_m2": 0.0
+        },
+        {
+          "triangle": 839,
+          "polygon": 383,
+          "area_m2": 0.0
+        }
+      ],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 392,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.007506554805612148
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Armored sabaton.001",
+      "source_type": "MESH",
+      "vertices": 432,
+      "polygons": 392,
+      "evaluated_triangles": 860,
+      "bounds_m": {
+        "min": [
+          0.16403555870056152,
+          -0.24500000476837158,
+          0.05999999865889549
+        ],
+        "max": [
+          0.3839644491672516,
+          0.10692891478538513,
+          0.2199999988079071
+        ],
+        "size": [
+          0.21992889046669006,
+          0.3519289195537567,
+          0.1600000001490116
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 2,
+      "minimum_triangle_area_m2": 0.0,
+      "near_zero_samples": [
+        {
+          "triangle": 782,
+          "polygon": 356,
+          "area_m2": 0.0
+        },
+        {
+          "triangle": 848,
+          "polygon": 386,
+          "area_m2": 0.0
+        }
+      ],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 392,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0075066329954210295
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Boot sole",
+      "source_type": "MESH",
+      "vertices": 320,
+      "polygons": 282,
+      "evaluated_triangles": 636,
+      "bounds_m": {
+        "min": [
+          -0.3872555196285248,
+          -0.2557004988193512,
+          0.02500000037252903
+        ],
+        "max": [
+          -0.16074448823928833,
+          0.10970049351453781,
+          0.06499999761581421
+        ],
+        "size": [
+          0.22651103138923645,
+          0.365400992333889,
+          0.03999999724328518
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 2.461724628458412e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Near black padded cloth"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 282,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.002523148816266016
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Boot sole.001",
+      "source_type": "MESH",
+      "vertices": 320,
+      "polygons": 282,
+      "evaluated_triangles": 636,
+      "bounds_m": {
+        "min": [
+          0.16074448823928833,
+          -0.2557004988193512,
+          0.02500000037252903
+        ],
+        "max": [
+          0.3872555196285248,
+          0.10970049351453781,
+          0.06499999761581421
+        ],
+        "size": [
+          0.22651103138923645,
+          0.365400992333889,
+          0.03999999724328518
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 2.4617294484520145e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Near black padded cloth"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 282,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0025231487807231496
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Bracer ridge plate",
+      "source_type": "MESH",
+      "vertices": 124,
+      "polygons": 128,
+      "evaluated_triangles": 244,
+      "bounds_m": {
+        "min": [
+          -0.5977901816368103,
+          -0.1919952929019928,
+          0.9761123657226562
+        ],
+        "max": [
+          -0.40420982241630554,
+          -0.136763334274292,
+          1.283853530883789
+        ],
+        "size": [
+          0.19358035922050476,
+          0.055231958627700806,
+          0.3077411651611328
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.510501169723581e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 128,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0006608036927900975
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Bracer ridge plate.001",
+      "source_type": "MESH",
+      "vertices": 124,
+      "polygons": 128,
+      "evaluated_triangles": 244,
+      "bounds_m": {
+        "min": [
+          0.40420985221862793,
+          -0.1919952929019928,
+          0.9761123657226562
+        ],
+        "max": [
+          0.5977902412414551,
+          -0.136763334274292,
+          1.283853530883789
+        ],
+        "size": [
+          0.19358038902282715,
+          0.055231958627700806,
+          0.3077411651611328
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.510384453397376e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 128,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0006608037821826037
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Broad clipped sword blade",
+      "source_type": "MESH",
+      "vertices": 244,
+      "polygons": 244,
+      "evaluated_triangles": 484,
+      "bounds_m": {
+        "min": [
+          -0.7806565761566162,
+          -0.1770000010728836,
+          0.042950164526700974
+        ],
+        "max": [
+          -0.4774784445762634,
+          -0.13900001347064972,
+          0.8859671354293823
+        ],
+        "size": [
+          0.3031781315803528,
+          0.03799998760223389,
+          0.8430169709026814
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.7634564772551014e-08,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Worn steel bevel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 244,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0032061224412795316
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "WEAPON"
+      ]
+    },
+    {
+      "name": "Curved flared thigh tasset",
+      "source_type": "MESH",
+      "vertices": 140,
+      "polygons": 142,
+      "evaluated_triangles": 276,
+      "bounds_m": {
+        "min": [
+          -0.31074100732803345,
+          -0.18863828480243683,
+          0.8302048444747925
+        ],
+        "max": [
+          -0.10418013483285904,
+          -0.12427041679620743,
+          1.1206265687942505
+        ],
+        "size": [
+          0.2065608724951744,
+          0.0643678680062294,
+          0.290421724319458
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.887201453376272e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 142,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0008334995967484459
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Curved flared thigh tasset.001",
+      "source_type": "MESH",
+      "vertices": 140,
+      "polygons": 142,
+      "evaluated_triangles": 276,
+      "bounds_m": {
+        "min": [
+          -0.3917410373687744,
+          -0.17163830995559692,
+          0.7772048711776733
+        ],
+        "max": [
+          -0.18518014252185822,
+          -0.10727042704820633,
+          1.0676265954971313
+        ],
+        "size": [
+          0.2065608948469162,
+          0.0643678829073906,
+          0.290421724319458
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.886800001070055e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 142,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0008334993836514916
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Curved flared thigh tasset.002",
+      "source_type": "MESH",
+      "vertices": 140,
+      "polygons": 142,
+      "evaluated_triangles": 276,
+      "bounds_m": {
+        "min": [
+          0.10418013483285904,
+          -0.18863828480243683,
+          0.830204963684082
+        ],
+        "max": [
+          0.31074103713035583,
+          -0.12427040934562683,
+          1.1206265687942505
+        ],
+        "size": [
+          0.2065609022974968,
+          0.06436787545681,
+          0.29042160511016846
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.887281559634107e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 142,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0008333521066317754
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Curved flared thigh tasset.003",
+      "source_type": "MESH",
+      "vertices": 140,
+      "polygons": 142,
+      "evaluated_triangles": 276,
+      "bounds_m": {
+        "min": [
+          0.18518014252185822,
+          -0.17163830995559692,
+          0.7772049903869629
+        ],
+        "max": [
+          0.3917410373687744,
+          -0.10727041959762573,
+          1.0676265954971313
+        ],
+        "size": [
+          0.2065608948469162,
+          0.06436789035797119,
+          0.29042160511016846
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.886442961247862e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 142,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0008333522476511339
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Elbow fan",
+      "source_type": "MESH",
+      "vertices": 146,
+      "polygons": 156,
+      "evaluated_triangles": 288,
+      "bounds_m": {
+        "min": [
+          -0.5779223442077637,
+          -0.15299054980278015,
+          1.1905639171600342
+        ],
+        "max": [
+          -0.3420776128768921,
+          -0.09768757969141006,
+          1.3896318674087524
+        ],
+        "size": [
+          0.23584473133087158,
+          0.05530297011137009,
+          0.19906795024871826
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.480737627084785e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 156,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0005337187640495006
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Elbow fan.001",
+      "source_type": "MESH",
+      "vertices": 146,
+      "polygons": 156,
+      "evaluated_triangles": 288,
+      "bounds_m": {
+        "min": [
+          0.3420776426792145,
+          -0.15299054980278015,
+          1.1905639171600342
+        ],
+        "max": [
+          0.5779223442077637,
+          -0.09768757969141006,
+          1.3896318674087524
+        ],
+        "size": [
+          0.2358447015285492,
+          0.05530297011137009,
+          0.19906795024871826
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.48062715148947e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 156,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0005337188258475149
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Elbow flexible leather",
+      "source_type": "MESH",
+      "vertices": 48,
+      "polygons": 26,
+      "evaluated_triangles": 92,
+      "bounds_m": {
+        "min": [
+          -0.5572596788406372,
+          -0.10418257862329483,
+          1.2011024951934814
+        ],
+        "max": [
+          -0.3637349605560303,
+          0.08596815913915634,
+          1.3444092273712158
+        ],
+        "size": [
+          0.19352471828460693,
+          0.19015073776245117,
+          0.14330673217773438
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 5.9298815946271697e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Worn brown leather"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 26,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0018864846139029124
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Elbow flexible leather.001",
+      "source_type": "MESH",
+      "vertices": 48,
+      "polygons": 26,
+      "evaluated_triangles": 92,
+      "bounds_m": {
+        "min": [
+          0.3637349605560303,
+          -0.10418257862329483,
+          1.2011024951934814
+        ],
+        "max": [
+          0.5572596788406372,
+          0.08596815913915634,
+          1.3444092273712158
+        ],
+        "size": [
+          0.19352471828460693,
+          0.19015073776245117,
+          0.14330673217773438
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 5.9298808457264866e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Worn brown leather"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 26,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.001886484550524869
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Fist main volume",
+      "source_type": "MESH",
+      "vertices": 180,
+      "polygons": 162,
+      "evaluated_triangles": 356,
+      "bounds_m": {
+        "min": [
+          -0.6100000143051147,
+          -0.19390229880809784,
+          0.8634450435638428
+        ],
+        "max": [
+          -0.4700000286102295,
+          -0.0678824782371521,
+          0.9699417948722839
+        ],
+        "size": [
+          0.13999998569488525,
+          0.12601982057094574,
+          0.10649675130844116
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.0377475705458377e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Worn brown leather"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 162,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0009516659164876317
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Fist main volume.001",
+      "source_type": "MESH",
+      "vertices": 180,
+      "polygons": 162,
+      "evaluated_triangles": 356,
+      "bounds_m": {
+        "min": [
+          0.4700000286102295,
+          -0.19390229880809784,
+          0.8634450435638428
+        ],
+        "max": [
+          0.6100000143051147,
+          -0.0678824782371521,
+          0.9699417948722839
+        ],
+        "size": [
+          0.13999998569488525,
+          0.12601982057094574,
+          0.10649675130844116
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.0377470439842258e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Worn brown leather"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 162,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0009516661445370397
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Folded mantle collar",
+      "source_type": "MESH",
+      "vertices": 60,
+      "polygons": 50,
+      "evaluated_triangles": 116,
+      "bounds_m": {
+        "min": [
+          -0.30435314774513245,
+          -0.1939944326877594,
+          1.6570957899093628
+        ],
+        "max": [
+          0.3340414762496948,
+          -0.036107443273067474,
+          1.81063973903656
+        ],
+        "size": [
+          0.6383946239948273,
+          0.15788698941469193,
+          0.15354394912719727
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 7.294864014145672e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Forest green heavy cloth"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 50,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.002136074654026728
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "CLOTH"
+      ]
+    },
+    {
+      "name": "Folded mantle collar.001",
+      "source_type": "MESH",
+      "vertices": 60,
+      "polygons": 50,
+      "evaluated_triangles": 116,
+      "bounds_m": {
+        "min": [
+          -0.30435314774513245,
+          -0.1939944326877594,
+          1.6820957660675049
+        ],
+        "max": [
+          0.3340414762496948,
+          -0.036107439547777176,
+          1.8356397151947021
+        ],
+        "size": [
+          0.6383946239948273,
+          0.15788699313998222,
+          0.15354394912719727
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 7.294901510457347e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Forest green heavy cloth"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 50,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.002136075259072223
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "CLOTH"
+      ]
+    },
+    {
+      "name": "Gauntlet cuff",
+      "source_type": "MESH",
+      "vertices": 256,
+      "polygons": 226,
+      "evaluated_triangles": 508,
+      "bounds_m": {
+        "min": [
+          -0.6147399544715881,
+          -0.1724746823310852,
+          0.9621294736862183
+        ],
+        "max": [
+          -0.43012645840644836,
+          0.001434145262464881,
+          1.073927402496338
+        ],
+        "size": [
+          0.18461349606513977,
+          0.17390882759355009,
+          0.11179792881011963
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.1477091277659298e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 226,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0014566592496756954
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Gauntlet cuff.001",
+      "source_type": "MESH",
+      "vertices": 256,
+      "polygons": 226,
+      "evaluated_triangles": 508,
+      "bounds_m": {
+        "min": [
+          0.43012645840644836,
+          -0.1724746823310852,
+          0.9621294736862183
+        ],
+        "max": [
+          0.6147399544715881,
+          0.0014341440983116627,
+          1.073927640914917
+        ],
+        "size": [
+          0.18461349606513977,
+          0.17390882642939687,
+          0.11179816722869873
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.1477127022006408e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 226,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.001456658955757107
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Gorget rim",
+      "source_type": "MESH",
+      "vertices": 384,
+      "polygons": 384,
+      "evaluated_triangles": 768,
+      "bounds_m": {
+        "min": [
+          -0.1379999965429306,
+          -0.0989999994635582,
+          1.7689999341964722
+        ],
+        "max": [
+          0.1379999965429306,
+          0.13899999856948853,
+          1.781000018119812
+        ],
+        "size": [
+          0.2759999930858612,
+          0.23799999803304672,
+          0.012000083923339844
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 3.185167706843394e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 384,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 7.622815287774042e-05
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "BODY"
+      ]
+    },
+    {
+      "name": "Gorget rim.001",
+      "source_type": "MESH",
+      "vertices": 384,
+      "polygons": 384,
+      "evaluated_triangles": 768,
+      "bounds_m": {
+        "min": [
+          -0.1379999965429306,
+          -0.0989999994635582,
+          1.8140000104904175
+        ],
+        "max": [
+          0.1379999965429306,
+          0.13899999856948853,
+          1.8260000944137573
+        ],
+        "size": [
+          0.2759999930858612,
+          0.23799999803304672,
+          0.012000083923339844
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 3.185167706843394e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 384,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 7.622815287774042e-05
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "BODY"
+      ]
+    },
+    {
+      "name": "Heavy forest half cloak",
+      "source_type": "MESH",
+      "vertices": 1850,
+      "polygons": 1848,
+      "evaluated_triangles": 3696,
+      "bounds_m": {
+        "min": [
+          -0.25711381435394287,
+          0.1685030609369278,
+          0.3045283854007721
+        ],
+        "max": [
+          0.5127922892570496,
+          0.38620030879974365,
+          1.7603703737258911
+        ],
+        "size": [
+          0.7699061036109924,
+          0.21769724786281586,
+          1.455841988325119
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 8.089680490222557e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Forest green heavy cloth"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 1848,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.007640754732178956
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "CLOTH"
+      ]
+    },
+    {
+      "name": "Helmet bronze brow edge",
+      "source_type": "MESH",
+      "vertices": 848,
+      "polygons": 850,
+      "evaluated_triangles": 1692,
+      "bounds_m": {
+        "min": [
+          -0.13019099831581116,
+          -0.16263678669929504,
+          1.9753639698028564
+        ],
+        "max": [
+          0.13019099831581116,
+          -0.03568597882986069,
+          1.9962998628616333
+        ],
+        "size": [
+          0.2603819966316223,
+          0.12695080786943436,
+          0.020935893058776855
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 2.8244409272582273e-10,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Aged warm bronze"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 850,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 1.3344214367748261e-05
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "HELMET"
+      ]
+    },
+    {
+      "name": "Helmet closed cheek and jaw visor",
+      "source_type": "MESH",
+      "vertices": 1189,
+      "polygons": 1192,
+      "evaluated_triangles": 2374,
+      "bounds_m": {
+        "min": [
+          -0.12748929858207703,
+          -0.17499999701976776,
+          1.8008360862731934
+        ],
+        "max": [
+          0.12748929858207703,
+          -0.02804890275001526,
+          1.9748743772506714
+        ],
+        "size": [
+          0.25497859716415405,
+          0.1469510942697525,
+          0.17403829097747803
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 2.4471766926809343e-08,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 1192,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0002487736020393571
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "HELMET"
+      ]
+    },
+    {
+      "name": "Helmet low central crown rib",
+      "source_type": "MESH",
+      "vertices": 1080,
+      "polygons": 1084,
+      "evaluated_triangles": 2156,
+      "bounds_m": {
+        "min": [
+          -0.008786272257566452,
+          -0.167903870344162,
+          1.9835883378982544
+        ],
+        "max": [
+          0.008786272257566452,
+          0.14822354912757874,
+          2.161543846130371
+        ],
+        "size": [
+          0.017572544515132904,
+          0.3161274194717407,
+          0.1779555082321167
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 4,
+      "minimum_triangle_area_m2": 0.0,
+      "near_zero_samples": [
+        {
+          "triangle": 1668,
+          "polygon": 840,
+          "area_m2": 0.0
+        },
+        {
+          "triangle": 1677,
+          "polygon": 844,
+          "area_m2": 8.37829549439741e-19
+        },
+        {
+          "triangle": 1993,
+          "polygon": 1002,
+          "area_m2": 6.283568091096839e-19
+        },
+        {
+          "triangle": 1994,
+          "polygon": 1003,
+          "area_m2": 0.0
+        }
+      ],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 1084,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 2.685869500448608e-05
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "HELMET"
+      ]
+    },
+    {
+      "name": "Helmet rear and temple shell",
+      "source_type": "MESH",
+      "vertices": 1178,
+      "polygons": 1180,
+      "evaluated_triangles": 2352,
+      "bounds_m": {
+        "min": [
+          -0.13098740577697754,
+          -0.05540758743882179,
+          1.8207157850265503
+        ],
+        "max": [
+          0.13098740577697754,
+          0.1319667100906372,
+          1.9940340518951416
+        ],
+        "size": [
+          0.2619748115539551,
+          0.187374297529459,
+          0.1733182668685913
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 3.0862730171896797e-08,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 1180,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.00033261493471417966
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "HELMET"
+      ]
+    },
+    {
+      "name": "Helmet sculpted crown",
+      "source_type": "MESH",
+      "vertices": 3968,
+      "polygons": 3968,
+      "evaluated_triangles": 7936,
+      "bounds_m": {
+        "min": [
+          -0.13530468940734863,
+          -0.1593593806028366,
+          1.9841127395629883
+        ],
+        "max": [
+          0.13530468940734863,
+          0.14087499678134918,
+          2.1528167724609375
+        ],
+        "size": [
+          0.27060937881469727,
+          0.3002343773841858,
+          0.16870403289794922
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 5.155562946730967e-10,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 3968,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0006044032953256553
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "HELMET"
+      ]
+    },
+    {
+      "name": "Helmet shadow inside eye opening",
+      "source_type": "MESH",
+      "vertices": 848,
+      "polygons": 850,
+      "evaluated_triangles": 1692,
+      "bounds_m": {
+        "min": [
+          -0.11589644104242325,
+          -0.1459999978542328,
+          1.944000005722046
+        ],
+        "max": [
+          0.11589644104242325,
+          -0.03345392271876335,
+          2.0
+        ],
+        "size": [
+          0.2317928820848465,
+          0.11254607513546944,
+          0.0559999942779541
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 12,
+      "minimum_triangle_area_m2": 0.0,
+      "near_zero_samples": [
+        {
+          "triangle": 1393,
+          "polygon": 700,
+          "area_m2": 5.278555341391564e-13
+        },
+        {
+          "triangle": 1396,
+          "polygon": 702,
+          "area_m2": 2.2737367544323206e-13
+        },
+        {
+          "triangle": 1401,
+          "polygon": 704,
+          "area_m2": 0.0
+        },
+        {
+          "triangle": 1404,
+          "polygon": 706,
+          "area_m2": 0.0
+        },
+        {
+          "triangle": 1409,
+          "polygon": 708,
+          "area_m2": 3.1739888950341454e-13
+        },
+        {
+          "triangle": 1412,
+          "polygon": 710,
+          "area_m2": 6.821210263296962e-13
+        },
+        {
+          "triangle": 1542,
+          "polygon": 775,
+          "area_m2": 6.821210263296962e-13
+        },
+        {
+          "triangle": 1545,
+          "polygon": 776,
+          "area_m2": 3.1739888950341454e-13
+        },
+        {
+          "triangle": 1546,
+          "polygon": 777,
+          "area_m2": 0.0
+        },
+        {
+          "triangle": 1549,
+          "polygon": 778,
+          "area_m2": 0.0
+        },
+        {
+          "triangle": 1550,
+          "polygon": 779,
+          "area_m2": 2.2737367544323206e-13
+        },
+        {
+          "triangle": 1553,
+          "polygon": 780,
+          "area_m2": 5.278555341391564e-13
+        }
+      ],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Near black padded cloth"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 850,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 3.8645537596393434e-05
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "HELMET"
+      ]
+    },
+    {
+      "name": "Leather palm",
+      "source_type": "MESH",
+      "vertices": 72,
+      "polygons": 50,
+      "evaluated_triangles": 140,
+      "bounds_m": {
+        "min": [
+          -0.5988100171089172,
+          -0.1802649199962616,
+          0.9280311465263367
+        ],
+        "max": [
+          -0.4766964614391327,
+          -0.03473509103059769,
+          1.0036855936050415
+        ],
+        "size": [
+          0.12211355566978455,
+          0.1455298289656639,
+          0.07565444707870483
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 3.0557830491424483e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Worn brown leather"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 50,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0007811013555262628
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Leather palm.001",
+      "source_type": "MESH",
+      "vertices": 72,
+      "polygons": 50,
+      "evaluated_triangles": 140,
+      "bounds_m": {
+        "min": [
+          0.4766964614391327,
+          -0.1802649199962616,
+          0.9280311465263367
+        ],
+        "max": [
+          0.5988100171089172,
+          -0.03473509103059769,
+          1.0036855936050415
+        ],
+        "size": [
+          0.12211355566978455,
+          0.1455298289656639,
+          0.07565444707870483
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 3.0557823225050275e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Worn brown leather"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 50,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0007811013263140748
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Leather weapon belt",
+      "source_type": "MESH",
+      "vertices": 384,
+      "polygons": 338,
+      "evaluated_triangles": 764,
+      "bounds_m": {
+        "min": [
+          -0.25880077481269836,
+          -0.14594289660453796,
+          1.0800000429153442
+        ],
+        "max": [
+          0.25880077481269836,
+          0.19394290447235107,
+          1.149999976158142
+        ],
+        "size": [
+          0.5176015496253967,
+          0.33988580107688904,
+          0.06999993324279785
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.0864936265063989e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Worn brown leather"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 338,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.009466138739186851
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "BODY"
+      ]
+    },
+    {
+      "name": "Left shoulder lame 0",
+      "source_type": "MESH",
+      "vertices": 1360,
+      "polygons": 1360,
+      "evaluated_triangles": 2720,
+      "bounds_m": {
+        "min": [
+          0.18439602851867676,
+          -0.18942339718341827,
+          1.7227895259857178
+        ],
+        "max": [
+          0.5536039471626282,
+          0.20942340791225433,
+          1.8461698293685913
+        ],
+        "size": [
+          0.3692079186439514,
+          0.3988468050956726,
+          0.12338030338287354
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 2.4727278679043437e-06,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 1360,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.002586190390420411
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Left shoulder lame 1",
+      "source_type": "MESH",
+      "vertices": 1360,
+      "polygons": 1360,
+      "evaluated_triangles": 2720,
+      "bounds_m": {
+        "min": [
+          0.18492597341537476,
+          -0.2222454696893692,
+          1.5928221940994263
+        ],
+        "max": [
+          0.6030740141868591,
+          0.24224546551704407,
+          1.7598973512649536
+        ],
+        "size": [
+          0.4181480407714844,
+          0.46449093520641327,
+          0.16707515716552734
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.159837621284597e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 1360,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0037533765235531727
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Left shoulder lame 2",
+      "source_type": "MESH",
+      "vertices": 1360,
+      "polygons": 1360,
+      "evaluated_triangles": 2720,
+      "bounds_m": {
+        "min": [
+          0.2090509831905365,
+          -0.22994115948677063,
+          1.455001711845398
+        ],
+        "max": [
+          0.6289490461349487,
+          0.2499411553144455,
+          1.6386586427688599
+        ],
+        "size": [
+          0.41989806294441223,
+          0.4798823148012161,
+          0.18365693092346191
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.8363468624575634e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 1360,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.004293334623345437
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Oxblood sash tail",
+      "source_type": "MESH",
+      "vertices": 522,
+      "polygons": 520,
+      "evaluated_triangles": 1040,
+      "bounds_m": {
+        "min": [
+          0.037360116839408875,
+          -0.2304999977350235,
+          0.45992785692214966
+        ],
+        "max": [
+          0.1876205950975418,
+          -0.1893329918384552,
+          1.1054569482803345
+        ],
+        "size": [
+          0.15026047825813293,
+          0.0411670058965683,
+          0.6455290913581848
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 2.9450930815386616e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Oxblood sash"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 520,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.00032254087338774755
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "CLOTH"
+      ]
+    },
+    {
+      "name": "Oxblood wrapped waist sash",
+      "source_type": "MESH",
+      "vertices": 144,
+      "polygons": 98,
+      "evaluated_triangles": 284,
+      "bounds_m": {
+        "min": [
+          -0.24899999797344208,
+          -0.13500000536441803,
+          1.0449999570846558
+        ],
+        "max": [
+          0.24899999797344208,
+          0.1850000023841858,
+          1.1399999856948853
+        ],
+        "size": [
+          0.49799999594688416,
+          0.3200000077486038,
+          0.09500002861022949
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.287986687999238e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Oxblood sash"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 98,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.011684739928133086
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "BODY"
+      ]
+    },
+    {
+      "name": "Protective neck collar",
+      "source_type": "MESH",
+      "vertices": 400,
+      "polygons": 362,
+      "evaluated_triangles": 796,
+      "bounds_m": {
+        "min": [
+          -0.15955530107021332,
+          -0.119269959628582,
+          1.690000057220459
+        ],
+        "max": [
+          0.15955530107021332,
+          0.14975138008594513,
+          1.8250000476837158
+        ],
+        "size": [
+          0.31911060214042664,
+          0.26902133971452713,
+          0.13499999046325684
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.3408563505338218e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 362,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.00762643246454531
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "BODY"
+      ]
+    },
+    {
+      "name": "Quilted arming jacket",
+      "source_type": "MESH",
+      "vertices": 160,
+      "polygons": 122,
+      "evaluated_triangles": 316,
+      "bounds_m": {
+        "min": [
+          -0.30000001192092896,
+          -0.15000000596046448,
+          1.0299999713897705
+        ],
+        "max": [
+          0.30000001192092896,
+          0.20999999344348907,
+          1.7200000286102295
+        ],
+        "size": [
+          0.6000000238418579,
+          0.35999999940395355,
+          0.690000057220459
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 5.3301016176821544e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Near black padded cloth"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 122,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.08877630342396971
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "BODY"
+      ]
+    },
+    {
+      "name": "Ridged knee cop",
+      "source_type": "MESH",
+      "vertices": 160,
+      "polygons": 169,
+      "evaluated_triangles": 316,
+      "bounds_m": {
+        "min": [
+          -0.35271865129470825,
+          -0.19288811087608337,
+          0.5178759098052979
+        ],
+        "max": [
+          -0.1452813446521759,
+          -0.11741871386766434,
+          0.7284353971481323
+        ],
+        "size": [
+          0.20743730664253235,
+          0.07546939700841904,
+          0.21055948734283447
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.99958105325655e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 169,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0005596999851859787
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Ridged knee cop.001",
+      "source_type": "MESH",
+      "vertices": 160,
+      "polygons": 169,
+      "evaluated_triangles": 316,
+      "bounds_m": {
+        "min": [
+          0.14528131484985352,
+          -0.19288814067840576,
+          0.5178759098052979
+        ],
+        "max": [
+          0.35271865129470825,
+          -0.11741870641708374,
+          0.7284353971481323
+        ],
+        "size": [
+          0.20743733644485474,
+          0.07546943426132202,
+          0.21055948734283447
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.999658040645187e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 169,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0005596999761280758
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Right shoulder lame 0",
+      "source_type": "MESH",
+      "vertices": 1360,
+      "polygons": 1360,
+      "evaluated_triangles": 2720,
+      "bounds_m": {
+        "min": [
+          -0.5231454372406006,
+          -0.1649925261735916,
+          1.6979029178619385
+        ],
+        "max": [
+          -0.19285456836223602,
+          0.18499252200126648,
+          1.8014391660690308
+        ],
+        "size": [
+          0.33029086887836456,
+          0.3499850481748581,
+          0.10353624820709229
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 2.2012518533976156e-06,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 1360,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.001953485678300193
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Right shoulder lame 1",
+      "source_type": "MESH",
+      "vertices": 1360,
+      "polygons": 1360,
+      "evaluated_triangles": 2720,
+      "bounds_m": {
+        "min": [
+          -0.5696390271186829,
+          -0.19401900470256805,
+          1.581967830657959
+        ],
+        "max": [
+          -0.1963610053062439,
+          0.21401900053024292,
+          1.7205801010131836
+        ],
+        "size": [
+          0.37327802181243896,
+          0.408038005232811,
+          0.1386122703552246
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.0285074340637328e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 1360,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0027708109610103645
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Right shoulder lame 2",
+      "source_type": "MESH",
+      "vertices": 1360,
+      "polygons": 1360,
+      "evaluated_triangles": 2720,
+      "bounds_m": {
+        "min": [
+          -0.5949544310569763,
+          -0.20094802975654602,
+          1.4594358205795288
+        ],
+        "max": [
+          -0.22104555368423462,
+          0.22094804048538208,
+          1.6108814477920532
+        ],
+        "size": [
+          0.3739088773727417,
+          0.4218960702419281,
+          0.15144562721252441
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.6195240903758533e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 1360,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.003112698420965754
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Sculpted cuirass",
+      "source_type": "MESH",
+      "vertices": 796,
+      "polygons": 728,
+      "evaluated_triangles": 1588,
+      "bounds_m": {
+        "min": [
+          -0.32899999618530273,
+          -0.20399999618530273,
+          1.159999966621399
+        ],
+        "max": [
+          0.32899999618530273,
+          0.22499999403953552,
+          1.7599999904632568
+        ],
+        "size": [
+          0.6579999923706055,
+          0.42899999022483826,
+          0.6000000238418579
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 5.820766091346741e-11,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 728,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.09726675489577372
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "BODY"
+      ]
+    },
+    {
+      "name": "Split green front tabard",
+      "source_type": "MESH",
+      "vertices": 1178,
+      "polygons": 1176,
+      "evaluated_triangles": 2352,
+      "bounds_m": {
+        "min": [
+          -0.10417436063289642,
+          -0.20695258677005768,
+          0.304761677980423
+        ],
+        "max": [
+          0.1266862004995346,
+          -0.15504741668701172,
+          1.075400471687317
+        ],
+        "size": [
+          0.23086056113243103,
+          0.05190517008304596,
+          0.7706387937068939
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.012589583432511e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Forest green heavy cloth"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 1176,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0010590378257567135
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "CLOTH"
+      ]
+    },
+    {
+      "name": "Swept bronze sword guard",
+      "source_type": "MESH",
+      "vertices": 200,
+      "polygons": 212,
+      "evaluated_triangles": 396,
+      "bounds_m": {
+        "min": [
+          -0.7061067819595337,
+          -0.2009863704442978,
+          0.8414337635040283
+        ],
+        "max": [
+          -0.36716192960739136,
+          -0.1561347246170044,
+          0.9620522260665894
+        ],
+        "size": [
+          0.33894485235214233,
+          0.044851645827293396,
+          0.12061846256256104
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.1616164475162409e-07,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Aged warm bronze"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 212,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.0003783723056007448
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "WEAPON"
+      ]
+    },
+    {
+      "name": "Sword pommel",
+      "source_type": "MESH",
+      "vertices": 144,
+      "polygons": 134,
+      "evaluated_triangles": 284,
+      "bounds_m": {
+        "min": [
+          -0.5348853468894958,
+          -0.19940653443336487,
+          1.0336202383041382
+        ],
+        "max": [
+          -0.45419415831565857,
+          -0.11659348011016846,
+          1.1017446517944336
+        ],
+        "size": [
+          0.08069118857383728,
+          0.08281305432319641,
+          0.06812441349029541
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 6.824582715681309e-06,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Aged warm bronze"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 134,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.00020665718527111104
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "WEAPON"
+      ]
+    },
+    {
+      "name": "Tapered vambrace",
+      "source_type": "MESH",
+      "vertices": 320,
+      "polygons": 290,
+      "evaluated_triangles": 636,
+      "bounds_m": {
+        "min": [
+          -0.6080201268196106,
+          -0.1633051186800003,
+          0.9975389242172241
+        ],
+        "max": [
+          -0.3535044193267822,
+          0.08465642482042313,
+          1.3180919885635376
+        ],
+        "size": [
+          0.25451570749282837,
+          0.24796154350042343,
+          0.3205530643463135
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.131883121906741e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 290,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.009380534198295688
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Tapered vambrace.001",
+      "source_type": "MESH",
+      "vertices": 320,
+      "polygons": 290,
+      "evaluated_triangles": 636,
+      "bounds_m": {
+        "min": [
+          0.3535044193267822,
+          -0.1633051186800003,
+          0.9975389242172241
+        ],
+        "max": [
+          0.6080201268196106,
+          0.08465642482042313,
+          1.3180921077728271
+        ],
+        "size": [
+          0.25451570749282837,
+          0.24796154350042343,
+          0.320553183555603
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 1.1318989094869577e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 290,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.009380534722362022
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Upper leg padded leather",
+      "source_type": "MESH",
+      "vertices": 96,
+      "polygons": 66,
+      "evaluated_triangles": 188,
+      "bounds_m": {
+        "min": [
+          -0.3533013164997101,
+          -0.0980256199836731,
+          0.6365817785263062
+        ],
+        "max": [
+          -0.05900318920612335,
+          0.16781315207481384,
+          1.0973527431488037
+        ],
+        "size": [
+          0.29429812729358673,
+          0.26583877205848694,
+          0.46077096462249756
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.250886844853397e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Near black padded cloth"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 66,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.02091761004578767
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Upper leg padded leather.001",
+      "source_type": "MESH",
+      "vertices": 96,
+      "polygons": 66,
+      "evaluated_triangles": 188,
+      "bounds_m": {
+        "min": [
+          0.05900318920612335,
+          -0.0980256199836731,
+          0.6365817785263062
+        ],
+        "max": [
+          0.3533013164997101,
+          0.16781315207481384,
+          1.0973527431488037
+        ],
+        "size": [
+          0.29429812729358673,
+          0.26583877205848694,
+          0.46077096462249756
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 4.250886844853397e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Near black padded cloth"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 66,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.020917609420543225
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Upper sleeve",
+      "source_type": "MESH",
+      "vertices": 96,
+      "polygons": 66,
+      "evaluated_triangles": 188,
+      "bounds_m": {
+        "min": [
+          -0.5450258255004883,
+          -0.11302541196346283,
+          1.2740966081619263
+        ],
+        "max": [
+          -0.24263101816177368,
+          0.12732093036174774,
+          1.647686243057251
+        ],
+        "size": [
+          0.3023948073387146,
+          0.24034634232521057,
+          0.3735896348953247
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 3.3830917099364495e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Dark mail underlayers"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 66,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.012640589838976975
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Upper sleeve.001",
+      "source_type": "MESH",
+      "vertices": 96,
+      "polygons": 66,
+      "evaluated_triangles": 188,
+      "bounds_m": {
+        "min": [
+          0.24263101816177368,
+          -0.11302541196346283,
+          1.2740966081619263
+        ],
+        "max": [
+          0.5450258255004883,
+          0.12732093036174774,
+          1.647686243057251
+        ],
+        "size": [
+          0.3023948073387146,
+          0.24034634232521057,
+          0.3735896348953247
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 3.383090228692674e-05,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Dark mail underlayers"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 66,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.012640589680443052
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "ARMS"
+      ]
+    },
+    {
+      "name": "Upper thigh curved cuirass",
+      "source_type": "MESH",
+      "vertices": 320,
+      "polygons": 290,
+      "evaluated_triangles": 636,
+      "bounds_m": {
+        "min": [
+          -0.36213818192481995,
+          -0.17209896445274353,
+          0.6700870394706726
+        ],
+        "max": [
+          -0.08715790510177612,
+          0.095598965883255,
+          1.0038118362426758
+        ],
+        "size": [
+          0.2749802768230438,
+          0.26769793033599854,
+          0.3337247967720032
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 9.995333958848885e-06,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 290,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.014949412933894608
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Upper thigh curved cuirass.001",
+      "source_type": "MESH",
+      "vertices": 320,
+      "polygons": 290,
+      "evaluated_triangles": 636,
+      "bounds_m": {
+        "min": [
+          0.08715790510177612,
+          -0.17209896445274353,
+          0.6700869798660278
+        ],
+        "max": [
+          0.36213818192481995,
+          0.095598965883255,
+          1.0038118362426758
+        ],
+        "size": [
+          0.2749802768230438,
+          0.26769793033599854,
+          0.33372485637664795
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 9.995294055324752e-06,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Blued forged steel"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 290,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.014949415651577348
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "LEGS"
+      ]
+    },
+    {
+      "name": "Wrapped sword grip",
+      "source_type": "MESH",
+      "vertices": 180,
+      "polygons": 162,
+      "evaluated_triangles": 356,
+      "bounds_m": {
+        "min": [
+          -0.5634415149688721,
+          -0.18400001525878906,
+          0.8817214369773865
+        ],
+        "max": [
+          -0.47384923696517944,
+          -0.13199999928474426,
+          1.05534827709198
+        ],
+        "size": [
+          0.08959227800369263,
+          0.0520000159740448,
+          0.1736268401145935
+        ]
+      },
+      "nonfinite_vertices": 0,
+      "nonfinite_triangles": 0,
+      "near_zero_area_triangles": 0,
+      "minimum_triangle_area_m2": 3.882274254295028e-06,
+      "near_zero_samples": [],
+      "invalid_polygon_normals": 0,
+      "missing_material_faces": 0,
+      "materials": [
+        "Worn brown leather"
+      ],
+      "uv_layers": [],
+      "boundary_edges": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "inconsistent_winding_edges": 0,
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "connected_surface_components": [
+        {
+          "faces": 162,
+          "closed": true,
+          "winding_consistent": true,
+          "signed_volume_m3": 0.00034853619059009236
+        }
+      ],
+      "negative_closed_components": 0,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_determinant": 1.0,
+      "unapplied_object_scale": false,
+      "nonunit_world_scale": false,
+      "collections": [
+        "WEAPON"
+      ]
+    }
+  ],
+  "objects_without_uv": [
+    "Abdomen articulated lame 0",
+    "Abdomen articulated lame 1",
+    "Abdomen articulated lame 2",
+    "Anatomical greave",
+    "Anatomical greave.001",
+    "Armored sabaton",
+    "Armored sabaton.001",
+    "Boot sole",
+    "Boot sole.001",
+    "Bracer ridge plate",
+    "Bracer ridge plate.001",
+    "Broad clipped sword blade",
+    "Curved flared thigh tasset",
+    "Curved flared thigh tasset.001",
+    "Curved flared thigh tasset.002",
+    "Curved flared thigh tasset.003",
+    "Elbow fan",
+    "Elbow fan.001",
+    "Elbow flexible leather",
+    "Elbow flexible leather.001",
+    "Fist main volume",
+    "Fist main volume.001",
+    "Folded mantle collar",
+    "Folded mantle collar.001",
+    "Gauntlet cuff",
+    "Gauntlet cuff.001",
+    "Gorget rim",
+    "Gorget rim.001",
+    "Heavy forest half cloak",
+    "Helmet bronze brow edge",
+    "Helmet closed cheek and jaw visor",
+    "Helmet low central crown rib",
+    "Helmet rear and temple shell",
+    "Helmet sculpted crown",
+    "Helmet shadow inside eye opening",
+    "Leather palm",
+    "Leather palm.001",
+    "Leather weapon belt",
+    "Left shoulder lame 0",
+    "Left shoulder lame 1",
+    "Left shoulder lame 2",
+    "Oxblood sash tail",
+    "Oxblood wrapped waist sash",
+    "Protective neck collar",
+    "Quilted arming jacket",
+    "Ridged knee cop",
+    "Ridged knee cop.001",
+    "Right shoulder lame 0",
+    "Right shoulder lame 1",
+    "Right shoulder lame 2",
+    "Sculpted cuirass",
+    "Split green front tabard",
+    "Swept bronze sword guard",
+    "Sword pommel",
+    "Tapered vambrace",
+    "Tapered vambrace.001",
+    "Upper leg padded leather",
+    "Upper leg padded leather.001",
+    "Upper sleeve",
+    "Upper sleeve.001",
+    "Upper thigh curved cuirass",
+    "Upper thigh curved cuirass.001",
+    "Wrapped sword grip"
+  ],
+  "external_files": [],
+  "render_visible_geometry_outside_knight": [],
+  "hidden_knight_objects": [],
+  "collection_visibility": [
+    {
+      "name": "Scene Collection",
+      "render_enabled_path": true,
+      "excluded": false,
+      "hide_render": false
+    },
+    {
+      "name": "KNIGHT",
+      "render_enabled_path": true,
+      "excluded": false,
+      "hide_render": false
+    },
+    {
+      "name": "BODY",
+      "render_enabled_path": true,
+      "excluded": false,
+      "hide_render": false
+    },
+    {
+      "name": "ARMS",
+      "render_enabled_path": true,
+      "excluded": false,
+      "hide_render": false
+    },
+    {
+      "name": "LEGS",
+      "render_enabled_path": true,
+      "excluded": false,
+      "hide_render": false
+    },
+    {
+      "name": "CLOTH",
+      "render_enabled_path": true,
+      "excluded": false,
+      "hide_render": false
+    },
+    {
+      "name": "WEAPON",
+      "render_enabled_path": true,
+      "excluded": false,
+      "hide_render": false
+    },
+    {
+      "name": "HELMET",
+      "render_enabled_path": true,
+      "excluded": false,
+      "hide_render": false
+    }
+  ],
+  "modifiers": [
+    {
+      "object": "Sculpted cuirass",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Protective neck collar",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Abdomen articulated lame 0",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Abdomen articulated lame 1",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Abdomen articulated lame 2",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Leather weapon belt",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Tapered vambrace",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Elbow fan",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Elbow fan",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Bracer ridge plate",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Bracer ridge plate",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Gauntlet cuff",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Fist main volume",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Right shoulder lame 0",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Right shoulder lame 0",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Right shoulder lame 1",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Right shoulder lame 1",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Right shoulder lame 2",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Right shoulder lame 2",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Tapered vambrace.001",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Elbow fan.001",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Elbow fan.001",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Bracer ridge plate.001",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Bracer ridge plate.001",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Gauntlet cuff.001",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Fist main volume.001",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Left shoulder lame 0",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Left shoulder lame 0",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Left shoulder lame 1",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Left shoulder lame 1",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Left shoulder lame 2",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Left shoulder lame 2",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Upper thigh curved cuirass",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Anatomical greave",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Ridged knee cop",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Ridged knee cop",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Boot sole",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Armored sabaton",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Curved flared thigh tasset",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Curved flared thigh tasset",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Curved flared thigh tasset.001",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Curved flared thigh tasset.001",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Upper thigh curved cuirass.001",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Anatomical greave.001",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Ridged knee cop.001",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Ridged knee cop.001",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Boot sole.001",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Armored sabaton.001",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Curved flared thigh tasset.002",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Curved flared thigh tasset.002",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Curved flared thigh tasset.003",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Curved flared thigh tasset.003",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Heavy forest half cloak",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Split green front tabard",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Oxblood sash tail",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Broad clipped sword blade",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Wrapped sword grip",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Swept bronze sword guard",
+      "modifier": "Plate thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Swept bronze sword guard",
+      "modifier": "Plate edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Sword pommel",
+      "modifier": "Forged edge radius",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Helmet sculpted crown",
+      "modifier": "Forged shell thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Helmet sculpted crown",
+      "modifier": "Soft forged edges",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Helmet rear and temple shell",
+      "modifier": "Forged shell thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Helmet rear and temple shell",
+      "modifier": "Soft forged edges",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Helmet closed cheek and jaw visor",
+      "modifier": "Forged shell thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Helmet closed cheek and jaw visor",
+      "modifier": "Soft forged edges",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Helmet shadow inside eye opening",
+      "modifier": "Forged shell thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Helmet shadow inside eye opening",
+      "modifier": "Soft forged edges",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Helmet bronze brow edge",
+      "modifier": "Forged shell thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Helmet bronze brow edge",
+      "modifier": "Soft forged edges",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Helmet low central crown rib",
+      "modifier": "Forged shell thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    },
+    {
+      "object": "Helmet low central crown rib",
+      "modifier": "Soft forged edges",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport_before": true,
+      "levels_before": null,
+      "render_levels": null
+    }
+  ],
+  "boolean_operands": [],
+  "evaluation": {
+    "depsgraph_mode": "VIEWPORT",
+    "temporary_render_adjustments": []
+  },
+  "errors": [
+    "Armored sabaton: near_zero_area_triangles=2",
+    "Armored sabaton.001: near_zero_area_triangles=2",
+    "Helmet low central crown rib: near_zero_area_triangles=4",
+    "Helmet shadow inside eye opening: near_zero_area_triangles=12"
+  ],
+  "warnings": [
+    "63 meshes have no UV layer; permitted for a procedural visual study"
+  ],
+  "technical_pass": false,
+  "limits": [
+    "No self-intersection or inter-object collision test",
+    "No visual, pose, silhouette, rig, UV completeness or game-readiness acceptance",
+    "Solidify cloth is expected to be closed after evaluation",
+    "Negative volume is per closed consistently wound connected surface; deliberate nested cavities need review",
+    "Viewport depsgraph with render flags and subdivision levels mirrored in memory; render engine displacement is not included",
+    "File existence does not validate every sequence frame, UDIM tile or dependency contents"
+  ]
+}

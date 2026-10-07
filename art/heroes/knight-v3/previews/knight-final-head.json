@@ -1,0 +1,21 @@
+{
+  "source": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\knight.blend",
+  "sha256": "82b857cc787277a630bece2f2eb90d86d79c1b440dcf008622ddb94d0c2a4474",
+  "source_unchanged": true,
+  "device": {
+    "backend": "OPTIX",
+    "device": "GPU",
+    "devices": [
+      "NVIDIA GeForce RTX 2080 Ti"
+    ],
+    "fallbacks": []
+  },
+  "mode": "final",
+  "views": [
+    {
+      "view": "head",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\previews\\knight-head.png",
+      "seconds": 13.6
+    }
+  ]
+}

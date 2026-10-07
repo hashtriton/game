@@ -1,0 +1,46 @@
+{
+  "source": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\knight.blend",
+  "sha256": "674e5ab15b7d04043ecfc713af85a1bf52bd348515f9b8d503b92053009c40d5",
+  "source_unchanged": true,
+  "device": {
+    "backend": "OPTIX",
+    "device": "GPU",
+    "devices": [
+      "NVIDIA GeForce RTX 2080 Ti"
+    ],
+    "fallbacks": []
+  },
+  "mode": "final",
+  "views": [
+    {
+      "view": "beauty",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\previews\\knight-beauty.png",
+      "seconds": 12.12
+    },
+    {
+      "view": "head",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\previews\\knight-head.png",
+      "seconds": 12.43
+    },
+    {
+      "view": "side",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\previews\\knight-side.png",
+      "seconds": 11.28
+    },
+    {
+      "view": "back",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\previews\\knight-back.png",
+      "seconds": 11.07
+    },
+    {
+      "view": "front",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\previews\\knight-front.png",
+      "seconds": 10.94
+    },
+    {
+      "view": "game",
+      "path": "C:\\Users\\Netes\\Desktop\\proj\\game\\art\\heroes\\knight-v3\\previews\\knight-game.png",
+      "seconds": 11.41
+    }
+  ]
+}
