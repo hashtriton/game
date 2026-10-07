@@ -26,15 +26,18 @@ namespace Game.EditorTools
 
             EnsureFolders();
             ImportTextures();
+            ImportInterfaceImages();
             BuildMaterials();
             ConfigurePipeline();
 
             var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
 
+            var layoutAsset = BuildLayout();
+            breakEffectPrefab = BuildBreakEffect();
+
             var mapObject = new GameObject("Arena Map");
             var map = mapObject.AddComponent<ArenaMap>();
-            map.layoutJson = AssetDatabase.LoadAssetAtPath<TextAsset>(LayoutPath);
-            if (map.layoutJson == null) throw new FileNotFoundException(LayoutPath);
+            map.layoutJson = layoutAsset;
             map.unitsPerMeter = 64f;
 
             // Terrain layers need their packed masks imported before batching starts.
@@ -53,15 +56,17 @@ namespace Game.EditorTools
 
             BuildAtmosphere();
             var hero = BuildHero(map);
-            BuildCamera(map, hero.transform);
+            var camera = BuildCamera(map, hero.transform);
             BuildAir(map, hero.transform);
+            BuildTrainingCreeps(map);
+            BuildHud(camera, hero.GetComponent<HeroController>());
 
             if (!EditorSceneManager.SaveScene(scene, ScenePath)) throw new IOException("Arena scene failed to save.");
             AssetDatabase.SaveAssets();
 
             var summary = new System.Text.StringBuilder("ARENA_BUILT");
             foreach (var pair in placed) summary.Append(' ').Append(pair.Key).Append('=').Append(pair.Value);
-            summary.Append(" meshes=").Append(meshes.Count);
+            summary.Append(" icons=").Append(iconCount).Append(" cornerBarrels=").Append(cornerBarrels).Append(" meshes=").Append(meshes.Count);
             Debug.Log(summary.ToString());
         }
 
@@ -70,9 +75,10 @@ namespace Game.EditorTools
             foreach (var path in new[] { "Assets/Game/Scenes", "Assets/Game/Generated" })
                 Directory.CreateDirectory(path);
             AssetDatabase.DeleteAsset(MeshRoot.TrimEnd('/'));
-            AssetDatabase.DeleteAsset(MatRoot.TrimEnd('/'));
             AssetDatabase.CreateFolder("Assets/Game/Generated", "Meshes");
-            AssetDatabase.CreateFolder("Assets/Game/Generated", "Materials");
+            // Materials are updated in place, never deleted: prefabs refer to them by GUID, and a prefab that is
+            // imported while its material is being recreated keeps an empty slot (a pink hero).
+            if (!AssetDatabase.IsValidFolder(MatRoot.TrimEnd('/'))) AssetDatabase.CreateFolder("Assets/Game/Generated", "Materials");
             meshes.Clear();
             // Packed masks derive from the roughness textures; regenerate them in case those changed.
             foreach (var mask in Directory.GetFiles(GenRoot.TrimEnd('/'), "*_mask.png"))
@@ -283,21 +289,33 @@ namespace Game.EditorTools
             return effect;
         }
 
+        // Hero height in metres. A barrel is 0.95 m and a wall 3 to 4 m, so this reads as a heavy fighter next to both.
+        const float HeroHeight = 2.4f;
+
         static GameObject BuildHero(ArenaMap map)
         {
             var hero = new GameObject("Hero");
             var ring = Prop("Selection ring", hero.transform, FlatQuadMesh("quad_flat"), materials["Ring"],
-                Vector3.zero, Quaternion.identity, new Vector3(1.9f, 1f, 1.9f), false, false);
+                Vector3.zero, Quaternion.identity, new Vector3(2.2f, 1f, 2.2f), false, false);
             ring.transform.localPosition = new Vector3(0f, 0.07f, 0f);
 
             var marker = new GameObject("Move marker");
             Prop("Ring", marker.transform, FlatQuadMesh("quad_flat"), materials["Ring"], Vector3.zero, Quaternion.identity, Vector3.one, false, false);
             var clickMarker = marker.AddComponent<ClickMarker>();
 
+            var attackFlash = new GameObject("Attack marker");
+            Prop("Ring", attackFlash.transform, FlatQuadMesh("quad_flat"), materials["Ring"], Vector3.zero, Quaternion.identity, Vector3.one, false, false);
+            var attackMarker = attackFlash.AddComponent<ClickMarker>();
+            attackMarker.color = new Color(1f, 0.22f, 0.16f, 1f);
+
+            var highlightObject = new GameObject("Target highlight");
+            Prop("Ring", highlightObject.transform, FlatQuadMesh("quad_flat"), materials["Ring"], Vector3.zero, Quaternion.identity, Vector3.one, false, false);
+            var highlight = highlightObject.AddComponent<TargetHighlight>();
+
             // A faint personal light keeps the hero readable in the dark without flattening the scene.
             var glow = new GameObject("Hero light").AddComponent<Light>();
             glow.transform.SetParent(hero.transform, false);
-            glow.transform.localPosition = new Vector3(0f, 2.6f, -0.6f);
+            glow.transform.localPosition = new Vector3(0f, HeroHeight + 0.7f, -0.8f);
             glow.type = LightType.Point;
             glow.color = new Color(1f, 0.86f, 0.68f);
             glow.intensity = 2.6f;
@@ -305,10 +323,28 @@ namespace Game.EditorTools
             glow.shadows = LightShadows.None;
 
             hero.AddComponent<ArenaActor>();
+            var unit = hero.AddComponent<Unit>();
+            unit.faction = Faction.Hero;
+            unit.displayName = "Герой";
+            unit.modelPrefab = BuildHeroModel();
+            unit.height = HeroHeight;
+            unit.radius = 0.4f;
+            unit.baseMaxHealth = 700f;
+            unit.baseMaxMana = 240f;
+            unit.baseArmor = 3f;
+            unit.baseDamageMin = 26f;
+            unit.baseDamageMax = 34f;
+            unit.attackRange = 1.1f;
+            unit.baseAttackInterval = 1.35f;
+            unit.baseMoveSpeed = 5f;
+            unit.healthRegen = 1.2f;
+            unit.manaRegen = 0.8f;
+
             var controller = hero.AddComponent<HeroController>();
             controller.map = map;
-            controller.modelPrefab = BuildHeroModel();
             controller.marker = clickMarker;
+            controller.attackMarker = attackMarker;
+            controller.highlight = highlight;
             // The map spawn is the hero's start; Start() snaps the transform there at runtime, set it here for the editor view.
             hero.transform.position = map.HeroSpawn;
             return hero;
@@ -333,6 +369,8 @@ namespace Game.EditorTools
             blade.SetFloat("_Smoothness", 0.55f);
 
             var instance = (GameObject)PrefabUtility.InstantiatePrefab(source);
+            // Unpacked, so the new prefab holds its materials directly instead of overrides aimed at the source prefab.
+            PrefabUtility.UnpackPrefabInstance(instance, PrefabUnpackMode.Completely, InteractionMode.AutomatedAction);
             foreach (var renderer in instance.GetComponentsInChildren<Renderer>())
             {
                 var materialsOnRenderer = renderer.sharedMaterials;
@@ -340,12 +378,14 @@ namespace Game.EditorTools
                     materialsOnRenderer[i] = materialsOnRenderer[i] != null && materialsOnRenderer[i].name.ToLowerInvariant().Contains("sword") ? blade : body;
                 renderer.sharedMaterials = materialsOnRenderer;
             }
+            // The materials above only exist in memory until saved; the prefab must point at files, not at objects.
+            AssetDatabase.SaveAssets();
             var prefab = PrefabUtility.SaveAsPrefabAsset(instance, GenRoot + "HeroModel.prefab");
             UnityEngine.Object.DestroyImmediate(instance);
             return prefab;
         }
 
-        static void BuildCamera(ArenaMap map, Transform hero)
+        static Camera BuildCamera(ArenaMap map, Transform hero)
         {
             var go = new GameObject("Main Camera", typeof(Camera), typeof(AudioListener));
             go.tag = "MainCamera";
@@ -368,6 +408,7 @@ namespace Game.EditorTools
             hero.GetComponent<HeroController>().viewCamera = camera;
             go.transform.position = map.HeroSpawn + new Vector3(0f, 22f, -16f);
             go.transform.rotation = Quaternion.Euler(rts.pitch, 0f, 0f);
+            return camera;
         }
     }
 }

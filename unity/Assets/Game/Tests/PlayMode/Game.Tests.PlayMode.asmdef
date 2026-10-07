@@ -3,7 +3,10 @@
     "rootNamespace": "Game.Tests",
     "references": [
         "Game.Runtime",
+        "Arena.Core",
         "Arena.Runtime",
+        "Unity.InputSystem",
+        "Unity.InputSystem.TestFramework",
         "UnityEngine.TestRunner"
     ],
     "includePlatforms": [],

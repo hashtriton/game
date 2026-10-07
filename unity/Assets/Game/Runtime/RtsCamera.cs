@@ -1,5 +1,6 @@
 using Arena;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 namespace Game
@@ -14,16 +15,19 @@ namespace Game
         public ArenaMap map;
         public Bounds limits;
         public float pitch = 56f;
-        public float distance = 22f;
-        public float minDistance = 10f;
+        public float distance = 19f;
+        public float minDistance = 8f;
         public float maxDistance = 46f;
         public float panSpeed = 24f;
-        public float edgeMargin = 4f;
+        /// <summary>Width of the scroll zone at the screen border in pixels at 1080p.</summary>
+        public float edgeMargin = 12f;
         public bool edgeScroll = true;
         public bool lockToHero = true;
 
         private Vector3 focus;
         private float targetDistance;
+        private Vector2? firstCursor;
+        private bool edgeArmed;
 
         public void Focus(Vector3 point)
         {
@@ -34,8 +38,10 @@ namespace Game
         private void Start()
         {
             targetDistance = distance;
-            // In the Editor the cursor sits on the Game view edge or outside it, which would scroll the map away.
-            if (Application.isEditor) edgeScroll = false;
+#if !UNITY_EDITOR
+            // Keeps the cursor in the window so pushing it against the border scrolls the map.
+            Cursor.lockState = CursorLockMode.Confined;
+#endif
             if (follow != null) focus = follow.position;
             Apply();
         }
@@ -58,11 +64,18 @@ namespace Game
 
             if (mouse != null)
             {
-                if (edgeScroll && Application.isFocused) pan += EdgePan(mouse.position.ReadValue());
-                var wheel = mouse.scroll.ReadValue().y;
+                var cursor = mouse.position.ReadValue();
+                // A cursor that was already resting on the border when the game started must not scroll the map away.
+                if (!firstCursor.HasValue) firstCursor = cursor;
+                else if (!edgeArmed && (cursor - firstCursor.Value).sqrMagnitude > 4f) edgeArmed = true;
+                if (edgeScroll && edgeArmed && Application.isFocused)
+                    pan += EdgePan(cursor, Screen.width, Screen.height, Mathf.Max(4f, edgeMargin * Screen.height / 1080f));
+                // Over a window the wheel scrolls the window and the middle button belongs to it.
+                var overUi = EventSystem.current != null && EventSystem.current.IsPointerOverGameObject();
+                var wheel = overUi ? 0f : mouse.scroll.ReadValue().y;
                 if (Mathf.Abs(wheel) > 0.01f)
                     targetDistance = Mathf.Clamp(targetDistance - Mathf.Sign(wheel) * 2.5f, minDistance, maxDistance);
-                if (mouse.middleButton.isPressed)
+                if (mouse.middleButton.isPressed && !overUi)
                 {
                     var drag = mouse.delta.ReadValue();
                     var scale = distance * 0.0016f;
@@ -88,14 +101,15 @@ namespace Game
             Apply();
         }
 
-        private Vector2 EdgePan(Vector2 cursor)
+        /// <summary>Scroll direction for a cursor position; zero when the cursor is not inside the window.</summary>
+        public static Vector2 EdgePan(Vector2 cursor, float width, float height, float margin)
         {
-            if (cursor.x < 0f || cursor.y < 0f || cursor.x > Screen.width || cursor.y > Screen.height) return Vector2.zero;
+            if (cursor.x < 0f || cursor.y < 0f || cursor.x > width || cursor.y > height) return Vector2.zero;
             var pan = Vector2.zero;
-            if (cursor.x <= edgeMargin) pan.x -= 1f;
-            else if (cursor.x >= Screen.width - 1 - edgeMargin) pan.x += 1f;
-            if (cursor.y <= edgeMargin) pan.y -= 1f;
-            else if (cursor.y >= Screen.height - 1 - edgeMargin) pan.y += 1f;
+            if (cursor.x <= margin) pan.x -= 1f;
+            else if (cursor.x >= width - 1f - margin) pan.x += 1f;
+            if (cursor.y <= margin) pan.y -= 1f;
+            else if (cursor.y >= height - 1f - margin) pan.y += 1f;
             return pan;
         }
 

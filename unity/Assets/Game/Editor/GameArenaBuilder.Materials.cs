@@ -74,9 +74,18 @@ namespace Game.EditorTools
         static Material NewMaterial(string name, string shaderName)
         {
             var path = MatRoot + name + ".mat";
-            AssetDatabase.DeleteAsset(path);
             var material = new Material(Shader.Find(shaderName)) { name = name, enableInstancing = true };
-            AssetDatabase.CreateAsset(material, path);
+            var existing = AssetDatabase.LoadAssetAtPath<Material>(path);
+            if (existing != null)
+            {
+                // Overwrite the asset in place so its GUID, and every prefab and scene pointing at it, stays valid.
+                EditorUtility.CopySerialized(material, existing);
+                existing.name = name;
+                Object.DestroyImmediate(material);
+                material = existing;
+                EditorUtility.SetDirty(material);
+            }
+            else AssetDatabase.CreateAsset(material, path);
             materials[name] = material;
             return material;
         }
@@ -191,6 +200,7 @@ namespace Game.EditorTools
                 Mathf.Pow(Mathf.Clamp01(1f - Mathf.Sqrt(x * x + y * y)), 1.4f) * (0.5f + 0.5f * Mathf.PerlinNoise(x * 2.5f + 11f, y * 2.5f + 7f)));
             Blended("Mist", cloud, new Color(0.5f, 0.62f, 0.78f, 0.16f), false);
             Blended("Ash", soft, new Color(0.9f, 0.78f, 0.62f, 0.55f), true);
+            Blended("Dust", soft, new Color(0.55f, 0.5f, 0.45f, 0.35f), false);
             Blended("Blood", Tex("blood.png"), new Color(0.5f, 0.07f, 0.05f, 0.85f), false);
             Blended("Scorch", Tex("scorch.png"), new Color(0.03f, 0.03f, 0.03f, 0.9f), false);
             AssetDatabase.SaveAssets();

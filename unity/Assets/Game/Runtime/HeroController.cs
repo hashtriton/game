@@ -1,78 +1,153 @@
-using System.Collections.Generic;
 using Arena;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 namespace Game
 {
     /// <summary>
-    /// Right click moves the hero along an A* path over the original arena pathing grid.
-    /// Holding the button keeps steering towards the cursor, like Warcraft III.
+    /// Dota-style orders. Right click on the ground walks there (hold to keep steering to the cursor).
+    /// Right click on an enemy or a barrel walks up to it and attacks until it falls, however far it was.
+    /// A then left click attacks along the way, S stops. An idle hero fights back whoever comes close.
     /// </summary>
-    [RequireComponent(typeof(ArenaActor))]
+    [RequireComponent(typeof(Unit))]
     public sealed class HeroController : MonoBehaviour
     {
+        private enum OrderKind { None, Move, Attack, AttackMove }
+
         public ArenaMap map;
         public Camera viewCamera;
-        public GameObject modelPrefab;
         public ClickMarker marker;
-        public float height = 1.9f;
-        public float radius = 0.4f;
-        public float speed = 4.7f;
+        public ClickMarker attackMarker;
+        public TargetHighlight highlight;
         // Gap between repaths while the button is held, keeps A* off the hot path.
         public float holdRepathInterval = 0.12f;
+        /// <summary>How far an attack-moving hero notices enemies, measured to their edge.</summary>
+        public float acquireRange = 9f;
+        /// <summary>Extra distance beyond the weapon reach at which an idle hero starts a fight.</summary>
+        public float idleAcquireMargin = 2.8f;
+        /// <summary>An enemy picked by the hero itself is dropped when it runs this far away.</summary>
+        public float leashRange = 11f;
 
-        private const float StuckSeconds = 0.35f;
-
-        private ArenaActor actor;
-        private readonly List<Vector3> path = new List<Vector3>();
-        private int pathIndex;
+        private Unit unit;
+        private PathMover mover;
+        private OrderKind order;
+        private Targetable target;
+        private bool targetChosenByHero;
+        private bool resumeAttackMove;
+        private Vector3 attackMoveGoal;
+        private bool attackMoveArmed;
+        private bool steeringOnGround;
         private float holdTimer;
-        private float stuckTimer;
-        private long navigationRevision;
-        private Vector3 destination;
+        private float repathTimer;
+        private float unreachableTimer;
+        private float scanTimer;
 
-        public bool IsMoving => pathIndex < path.Count;
+        // Lazy: other components may ask for it in their own Awake, before this one has run.
+        public Unit Unit => unit != null ? unit : (unit = GetComponent<Unit>());
+        public float radius => unit.radius;
+        public bool IsMoving => mover != null && mover.IsMoving;
+        public bool IsAttackMoveArmed => attackMoveArmed;
+        public Targetable Target => order == OrderKind.Attack ? target : null;
+
+        private void Awake()
+        {
+            unit = GetComponent<Unit>();
+        }
 
         private void Start()
         {
-            actor = GetComponent<ArenaActor>();
-            actor.Initialize(modelPrefab, height, radius, true, null);
-            var spawn = map.HeroSpawn;
-            transform.position = spawn;
-            navigationRevision = map.NavigationRevision;
+            unit.map = map;
+            mover = new PathMover(unit, map);
+            transform.position = map.HeroSpawn;
+            unit.Died += OnDied;
+        }
+
+        private void OnDestroy()
+        {
+            if (unit != null) unit.Died -= OnDied;
+            GameCursor.Set(CursorKind.Default);
+        }
+
+        private void OnDied(Unit victim, Unit killer)
+        {
+            Stop();
+            attackMoveArmed = false;
+            GameCursor.Set(CursorKind.Default);
+            if (highlight != null) highlight.Hide();
         }
 
         private void Update()
         {
-            ReadOrders();
-            Walk(Time.deltaTime);
+            if (!unit.IsAlive) return;
+            ReadInput();
+            RunOrder(Time.deltaTime);
         }
 
-        private void ReadOrders()
+        // ---- input -------------------------------------------------------------------------------------------
+
+        private void ReadInput()
         {
             var mouse = Mouse.current;
+            var keyboard = Keyboard.current;
             if (mouse == null || viewCamera == null) return;
+
+            var overUi = EventSystem.current != null && EventSystem.current.IsPointerOverGameObject();
+            Ray ray = default;
+            Targetable hovered = null;
+            if (!overUi)
+            {
+                ray = viewCamera.ScreenPointToRay(mouse.position.ReadValue());
+                hovered = TargetPicker.Pick(ray, unit);
+            }
+
+            if (keyboard != null)
+            {
+                if (keyboard.sKey.wasPressedThisFrame) Stop();
+                if (keyboard.aKey.wasPressedThisFrame) attackMoveArmed = true;
+                if (keyboard.escapeKey.wasPressedThisFrame) attackMoveArmed = false;
+            }
+
+            GameCursor.Set(!overUi && (hovered != null || attackMoveArmed) ? CursorKind.Attack : CursorKind.Default);
+            if (highlight != null) highlight.Show(hovered);
+            if (overUi) return;
+
+            if (attackMoveArmed)
+            {
+                if (mouse.leftButton.wasPressedThisFrame)
+                {
+                    attackMoveArmed = false;
+                    if (hovered != null) OrderAttack(hovered);
+                    else if (TryGroundPoint(ray, out var point)) OrderAttackMove(point);
+                }
+                else if (mouse.rightButton.wasPressedThisFrame) attackMoveArmed = false;
+                return;
+            }
 
             if (mouse.rightButton.wasPressedThisFrame)
             {
                 holdTimer = 0f;
-                if (TryGroundPoint(out var point)) Order(point, true);
+                steeringOnGround = false;
+                if (hovered != null) OrderAttack(hovered);
+                else if (TryGroundPoint(ray, out var point))
+                {
+                    steeringOnGround = true;
+                    OrderMove(point, true);
+                }
             }
-            else if (mouse.rightButton.isPressed)
+            else if (mouse.rightButton.isPressed && steeringOnGround)
             {
                 holdTimer += Time.deltaTime;
                 if (holdTimer >= holdRepathInterval)
                 {
                     holdTimer = 0f;
-                    if (TryGroundPoint(out var point)) Order(point, false);
+                    if (TryGroundPoint(ray, out var point)) OrderMove(point, false);
                 }
             }
         }
 
-        private bool TryGroundPoint(out Vector3 point)
+        private bool TryGroundPoint(Ray ray, out Vector3 point)
         {
-            var ray = viewCamera.ScreenPointToRay(Mouse.current.position.ReadValue());
             if (Physics.Raycast(ray, out var hit, 500f))
             {
                 point = hit.point;
@@ -89,73 +164,206 @@ namespace Game
             return false;
         }
 
-        public void Order(Vector3 target, bool showMarker)
+        // ---- orders ------------------------------------------------------------------------------------------
+
+        /// <summary>Walk order, kept under this name for the code that predates attack orders.</summary>
+        public void Order(Vector3 point, bool showMarker) => OrderMove(point, showMarker);
+
+        public void OrderMove(Vector3 point, bool showMarker)
         {
-            var route = map.FindPath(transform.position, target, radius);
-            if (route.Count == 0) return;
-            path.Clear();
-            path.AddRange(route);
-            pathIndex = 1;
-            stuckTimer = 0f;
-            destination = route[route.Count - 1];
-            navigationRevision = map.NavigationRevision;
-            if (showMarker && marker != null) marker.Show(destination);
+            if (!mover.SetDestination(point)) return;
+            order = OrderKind.Move;
+            target = null;
+            resumeAttackMove = false;
+            if (showMarker && marker != null) marker.Show(mover.Destination);
         }
 
-        private void Walk(float dt)
+        public void OrderAttack(Targetable victim)
         {
-            if (!IsMoving)
+            if (victim == null || !victim.CanBeAttackedBy(unit)) return;
+            order = OrderKind.Attack;
+            target = victim;
+            targetChosenByHero = false;
+            resumeAttackMove = false;
+            repathTimer = 0f;
+            unreachableTimer = 0f;
+            mover.Clear();
+            if (attackMarker != null) attackMarker.Show(victim.Position);
+        }
+
+        public void OrderAttackMove(Vector3 point)
+        {
+            if (!mover.SetDestination(point)) return;
+            order = OrderKind.AttackMove;
+            target = null;
+            resumeAttackMove = false;
+            attackMoveGoal = mover.Destination;
+            scanTimer = 0f;
+            if (attackMarker != null) attackMarker.Show(mover.Destination);
+        }
+
+        public void Stop()
+        {
+            order = OrderKind.None;
+            target = null;
+            resumeAttackMove = false;
+            if (mover != null) mover.Clear();
+            if (unit != null && unit.Actor != null) unit.Actor.SetMoving(false);
+        }
+
+        // ---- execution ---------------------------------------------------------------------------------------
+
+        private void RunOrder(float dt)
+        {
+            var actor = unit.Actor;
+            // The blow is winding up: stand still and keep facing the victim.
+            if (unit.IsSwinging)
             {
                 actor.SetMoving(false);
+                if (target != null) FaceTarget(dt);
                 return;
             }
 
-            // A barrel was destroyed or revived since the route was built: plan again.
-            if (navigationRevision != map.NavigationRevision)
+            switch (order)
             {
-                navigationRevision = map.NavigationRevision;
-                Order(destination, false);
-                if (!IsMoving)
-                {
+                case OrderKind.Move:
+                    actor.SetMoving(mover.Step(dt));
+                    if (!mover.IsMoving) order = OrderKind.None;
+                    break;
+                case OrderKind.Attack:
+                    RunAttack(dt);
+                    break;
+                case OrderKind.AttackMove:
+                    RunAttackMove(dt);
+                    break;
+                default:
                     actor.SetMoving(false);
-                    return;
-                }
+                    RunIdle(dt);
+                    break;
+            }
+        }
+
+        private void RunAttack(float dt)
+        {
+            if (target == null || !target.IsAlive)
+            {
+                TargetGone();
+                return;
             }
 
-            var position = transform.position;
-            var waypoint = path[pathIndex];
-            var toWaypoint = waypoint - position;
-            toWaypoint.y = 0f;
-            var step = speed * dt;
-
-            if (toWaypoint.magnitude <= step)
+            var actor = unit.Actor;
+            if (InReach(target))
             {
-                pathIndex++;
-                if (!IsMoving)
-                {
-                    actor.SetMoving(false);
-                    return;
-                }
-                waypoint = path[pathIndex];
-                toWaypoint = waypoint - position;
-                toWaypoint.y = 0f;
-            }
-
-            var direction = toWaypoint.normalized;
-            var moved = map.Move(position, direction * step, radius);
-            var travelled = new Vector3(moved.x - position.x, 0f, moved.z - position.z).magnitude;
-            transform.position = moved;
-            actor.Face(direction, dt);
-            actor.SetMoving(true);
-
-            // Pathing grid and body disagree (a body edge on an obstacle corner): give up instead of jittering.
-            stuckTimer = travelled < step * 0.2f ? stuckTimer + dt : 0f;
-            if (stuckTimer > StuckSeconds)
-            {
-                path.Clear();
-                pathIndex = 0;
+                mover.Clear();
                 actor.SetMoving(false);
+                FaceTarget(dt);
+                if (unit.CanAttackNow) unit.BeginAttack(target);
+                return;
             }
+
+            var away = target.Position - transform.position;
+            away.y = 0f;
+            if (targetChosenByHero && away.magnitude > leashRange)
+            {
+                Stop();
+                return;
+            }
+
+            // Walk up to it. The victim may move, so the route is renewed a few times a second.
+            repathTimer -= dt;
+            if (repathTimer <= 0f)
+            {
+                repathTimer = 0.3f;
+                mover.SetDestination(target.Position);
+            }
+
+            if (mover.Step(dt))
+            {
+                actor.SetMoving(true);
+                unreachableTimer = 0f;
+                return;
+            }
+
+            // The route ended short of the reach (a barrel deep in the field, a victim behind a wall): give up.
+            actor.SetMoving(false);
+            unreachableTimer += dt;
+            if (unreachableTimer > 0.8f) Stop();
+        }
+
+        private void RunAttackMove(float dt)
+        {
+            scanTimer -= dt;
+            if (scanTimer <= 0f)
+            {
+                scanTimer = 0.2f;
+                var enemy = NearestEnemy(acquireRange);
+                if (enemy != null)
+                {
+                    order = OrderKind.Attack;
+                    target = enemy;
+                    targetChosenByHero = true;
+                    resumeAttackMove = true;
+                    unreachableTimer = 0f;
+                    repathTimer = 0f;
+                    mover.Clear();
+                    return;
+                }
+            }
+
+            var moving = mover.Step(dt);
+            unit.Actor.SetMoving(moving);
+            if (!moving) order = OrderKind.None;
+        }
+
+        private void RunIdle(float dt)
+        {
+            scanTimer -= dt;
+            if (scanTimer > 0f) return;
+            scanTimer = 0.25f;
+            var enemy = NearestEnemy(unit.attackRange + idleAcquireMargin);
+            if (enemy == null) return;
+            order = OrderKind.Attack;
+            target = enemy;
+            targetChosenByHero = true;
+            resumeAttackMove = false;
+            unreachableTimer = 0f;
+            repathTimer = 0f;
+        }
+
+        private void TargetGone()
+        {
+            target = null;
+            if (resumeAttackMove && mover.SetDestination(attackMoveGoal))
+            {
+                order = OrderKind.AttackMove;
+                resumeAttackMove = false;
+                return;
+            }
+            order = OrderKind.None;
+            resumeAttackMove = false;
+            unit.Actor.SetMoving(false);
+        }
+
+        private bool InReach(Targetable victim) => victim.EdgeDistance(transform.position) <= unit.attackRange;
+
+        private void FaceTarget(float dt)
+        {
+            if (target != null) unit.Actor.Face(target.Position - transform.position, dt);
+        }
+
+        private Unit NearestEnemy(float range)
+        {
+            Unit best = null;
+            var bestDistance = range;
+            foreach (var other in Unit.All)
+            {
+                if (!other.CanBeAttackedBy(unit)) continue;
+                var distance = other.EdgeDistance(transform.position);
+                if (distance > bestDistance) continue;
+                best = other;
+                bestDistance = distance;
+            }
+            return best;
         }
     }
 }

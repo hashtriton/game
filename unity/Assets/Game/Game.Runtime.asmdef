@@ -2,8 +2,11 @@
     "name": "Game.Runtime",
     "rootNamespace": "Game",
     "references": [
+        "Arena.Core",
         "Arena.Runtime",
-        "Unity.InputSystem"
+        "Arena.Presentation",
+        "Unity.InputSystem",
+        "Unity.ugui"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

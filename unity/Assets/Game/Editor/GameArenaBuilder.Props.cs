@@ -14,6 +14,7 @@ namespace Game.EditorTools
         }
 
         static readonly Dictionary<Kind, int> placed = new Dictionary<Kind, int>();
+        static GameObject breakEffectPrefab;
 
         static Kind Classify(MapDoodad d)
         {
@@ -152,7 +153,16 @@ namespace Game.EditorTools
                         var turn = Quaternion.Euler(0f, Hash01(d.editorId, 1) * 360f, 0f);
                         var s = new Vector3(1f, 0.96f + Hash01(d.editorId, 2) * 0.1f, 1f);
                         var material = kind == Kind.Barrel ? materials["Barrel"] : materials["BarrelExplosive"];
-                        Prop("Barrel#" + d.editorId, barrels, barrelMesh, material, position, turn, s, false);
+                        var barrel = Prop("Barrel#" + d.editorId, barrels, barrelMesh, material, position, turn, s, false);
+                        // Only barrels that block the pathing grid can be cut through; stacked-barrel scenery stays as it is.
+                        if (string.IsNullOrEmpty(d.pathingTexture)) break;
+                        var breakable = barrel.AddComponent<Destructible>();
+                        breakable.map = map;
+                        breakable.editorId = d.editorId;
+                        breakable.radius = 0.42f;
+                        breakable.height = 0.95f;
+                        breakable.explosive = kind == Kind.BarrelExplosive;
+                        breakable.breakEffect = breakEffectPrefab;
                         break;
                     }
                     case Kind.Crate:

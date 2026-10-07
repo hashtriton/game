@@ -59,16 +59,23 @@ namespace Game.Tests
         [UnityTest]
         public IEnumerator Order_into_a_blocked_point_ends_on_walkable_ground()
         {
-            var barrel = map.Layout.doodads.First(d => d.id == "LTbr" && d.life != 0);
+            // A barrel on the edge of a field (open ground just south of it), far from the spawn: the hero has to travel to reach it.
+            var barrel = map.Layout.doodads.First(d =>
+            {
+                if (d.id != "LTbr" || d.life == 0) return false;
+                var at = new Vector3(d.x, d.z, d.y) / map.unitsPerMeter;
+                return Vector3.Distance(at, map.HeroSpawn) > 8f && map.IsWalkable(at + new Vector3(0f, 0f, -1.8f), hero.radius);
+            });
             var blocked = new Vector3(barrel.x, barrel.z, barrel.y) / map.unitsPerMeter;
             Assert.IsFalse(map.IsWalkable(blocked, hero.radius), "a standing barrel must block the pathing grid");
+            var start = hero.transform.position;
 
             hero.Order(blocked, false);
-            if (hero.IsMoving)
-            {
-                var deadline = Time.time + 30f;
-                while (hero.IsMoving && Time.time < deadline) yield return null;
-            }
+            Assert.IsTrue(hero.IsMoving, "an order into a blocked point still leads somewhere near it");
+            var deadline = Time.time + 30f;
+            while (hero.IsMoving && Time.time < deadline) yield return null;
+
+            Assert.Greater(Vector3.Distance(start, hero.transform.position), 5f, "the hero walked towards the barrel");
             Assert.IsTrue(map.IsWalkable(hero.transform.position, hero.radius * 0.9f));
         }
 
@@ -102,6 +109,26 @@ namespace Game.Tests
             Assert.Less(Mathf.Abs(viewCenter.x - hero.transform.position.x), 0.6f);
             Assert.Less(Mathf.Abs(viewCenter.z - hero.transform.position.z), 0.6f);
             Assert.IsTrue(rtsCamera.limits.Contains(new Vector3(viewCenter.x, rtsCamera.limits.center.y, viewCenter.z)));
+        }
+        [UnityTest]
+        public IEnumerator Every_unit_renders_with_real_materials_not_the_pink_error_material()
+        {
+            // A model whose materials failed to load shows as solid magenta; this caught exactly that.
+            foreach (var unit in Object.FindObjectsByType<Unit>(FindObjectsInactive.Exclude))
+            {
+                foreach (var renderer in unit.GetComponentsInChildren<Renderer>())
+                {
+                    Assert.IsNotEmpty(renderer.sharedMaterials, unit.name + "/" + renderer.name);
+                    foreach (var material in renderer.sharedMaterials)
+                    {
+                        Assert.IsNotNull(material, unit.name + "/" + renderer.name + " has an empty material slot");
+                        Assert.IsNotNull(material.shader);
+                        Assert.IsTrue(material.shader.isSupported, unit.name + "/" + renderer.name + ": " + material.shader.name);
+                        Assert.AreNotEqual("Hidden/InternalErrorShader", material.shader.name);
+                    }
+                }
+            }
+            yield return null;
         }
     }
 }
