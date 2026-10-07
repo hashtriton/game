@@ -1,0 +1,3438 @@
+{
+  "schemaVersion": 1,
+  "sourceDirectory": "art/icons/dota-inspired",
+  "style": "Original hand-painted dark fantasy item icons with chunky readable silhouettes, painted volume, dark vignetted backgrounds and selective colored magic accents.",
+  "sourceCatalog": "tools/art/items-for-icons.json",
+  "sourceCatalogHashMode": "utf8-lf",
+  "sourceCatalogSha256": "4eb3eac4a82fb4144c31dbf3dab7c3dd7d3b25779a05e84eccbd11a16bb7b3f7",
+  "sourceDesigns": "tools/art/gen_icons.py:DESIGNS",
+  "sourceDesignsAvailability": "Historical local input at generation time; not required by the importer and not included in this icon asset commit. Its source options are embedded in the cells below.",
+  "sourceDesignsSha256": "36996f52b398fb5c36f31ccd8a45f806e506420291ae5447166441ebb205f81b",
+  "cellOrder": "row-major, left to right, top to bottom",
+  "optionsEncoding": "Literal source DESIGNS options; tuples are JSON arrays. tinted(...) becomes an object with kind, rgb, finish and named flags.",
+  "recipeAppearance": "Derive from the finished sourceId artwork with a small clearly distinct recipe seal; keep the main item readable.",
+  "recipeBadge": {
+    "page": "advanced",
+    "cell": 26
+  },
+  "cellIndexBase": 0,
+  "levelAppearance": "Keep each family silhouette. Mark levels I and II with an unobtrusive, readable corner badge; level II may add a restrained glow accent.",
+  "counts": {
+    "catalogIds": 233,
+    "standaloneDesigns": 134,
+    "aliases": 13,
+    "recipes": 86,
+    "baseItems": 26,
+    "consumables": 22,
+    "finishedItems": 99,
+    "serviceArtworks": 1
+  },
+  "pages": [
+    {
+      "id": "primary",
+      "sourceFile": "primary.png",
+      "columns": 12,
+      "rows": 5,
+      "cells": [
+        {
+          "id": "I07W",
+          "previewId": "I07W",
+          "name": "Мешочек с золотом (6)",
+          "descriptionEnglish": "Worn brown leather coin pouch tied with cord, with bright gold coins spilling beside its base.",
+          "archetype": "pouch",
+          "options": {
+            "rich": 0.0
+          },
+          "level": 0
+        },
+        {
+          "id": "I0AI",
+          "previewId": "I0AI",
+          "name": "Чаша с душами (50)",
+          "descriptionEnglish": "Golden chalice with a small skull ornament and tall luminous turquoise spirit flames.",
+          "archetype": "chalice",
+          "options": {
+            "el": "soul",
+            "rich": 0.1
+          },
+          "level": 0
+        },
+        {
+          "id": "I05F",
+          "previewId": "I05F",
+          "name": "Тракт монахов (70) (9)",
+          "descriptionEnglish": "Worn brown leather book with bronze corners, a curved bead ornament and a dark red ribbon bookmark.",
+          "archetype": "tome",
+          "options": {
+            "cover": {
+              "kind": "tinted",
+              "rgb": [
+                0.3,
+                0.2,
+                0.1
+              ],
+              "finish": "matte",
+              "leather": true
+            },
+            "trim": "bronze",
+            "emblem": "beads",
+            "ribbon": {
+              "kind": "tinted",
+              "rgb": [
+                0.5,
+                0.06,
+                0.06
+              ],
+              "finish": "matte",
+              "cloth": true
+            },
+            "rich": 0.0,
+            "rot": -10
+          },
+          "level": 0
+        },
+        {
+          "id": "I0AT",
+          "previewId": "I0AT",
+          "name": "Сундук Судьбы (1200) (19)",
+          "descriptionEnglish": "Ornate golden treasure chest with dark panels, purple glowing lock and subtle violet runes.",
+          "archetype": "chest",
+          "options": {
+            "el": "shadow",
+            "rich": 0.9
+          },
+          "level": 0
+        },
+        {
+          "id": "I0B7",
+          "previewId": "I0B7",
+          "name": "Кузнечный Молот",
+          "descriptionEnglish": "Compact iron blacksmith hammer, squared dark steel caps, worn wooden handle and a few warm sparks.",
+          "archetype": "hammer",
+          "options": {
+            "hmat": "iron",
+            "hw": 15,
+            "hh": 9.5,
+            "hl": 0.9,
+            "cap": "darksteel",
+            "rich": 0.0,
+            "sparks": true,
+            "rot": 34
+          },
+          "level": 0
+        },
+        {
+          "id": "I001",
+          "previewId": "I003",
+          "name": "Рунные Перчатки",
+          "descriptionEnglish": "Open-finger steel gauntlet with articulated plates and bright blue engraved runes.",
+          "archetype": "glove",
+          "options": {
+            "style": "plate",
+            "mat": "steel",
+            "runes": true,
+            "el": "arcane",
+            "runecol": [
+              0.45,
+              0.65,
+              1.0
+            ]
+          },
+          "level": 0
+        },
+        {
+          "id": "I009",
+          "previewId": "I00A",
+          "name": "Огненный Меч",
+          "descriptionEnglish": "Flame sword with a wavy steel blade, curved bronze guard, orange gem and fiery edge.",
+          "archetype": "sword",
+          "options": {
+            "el": "fire",
+            "w": 5.0,
+            "wave": 1.1,
+            "waves": 2.5,
+            "gmat": "bronze",
+            "guard": "curve",
+            "glowline": [
+              1,
+              0.45,
+              0.08
+            ],
+            "flames": 5,
+            "gem": [
+              0.9,
+              0.3,
+              0.05
+            ],
+            "pommel": "ball",
+            "embers": true
+          },
+          "level": 0
+        },
+        {
+          "id": "I00H",
+          "previewId": "I00J",
+          "name": "Копье Аланита",
+          "descriptionEnglish": "Elegant winged steel spearhead, gold fittings, small crimson tassel and a warm luminous accent.",
+          "archetype": "polearm",
+          "options": {
+            "head": "spear",
+            "hmat": "steel",
+            "trim": "gold",
+            "tassel": [
+              0.55,
+              0.06,
+              0.06
+            ],
+            "wing": true,
+            "hw": 6.4,
+            "el": "holy",
+            "rich": 0.4
+          },
+          "level": 0
+        },
+        {
+          "id": "I005",
+          "previewId": "I006",
+          "name": "Огромный Топор",
+          "descriptionEnglish": "Oversized dark steel axe with a massive notched cutting head and a long reinforced wooden haft.",
+          "archetype": "axe",
+          "options": {
+            "type": "great",
+            "sz": 1.25,
+            "hmat": "darksteel",
+            "notches": 3,
+            "hl": 1.05
+          },
+          "level": 0
+        },
+        {
+          "id": "I00L",
+          "previewId": "I00M",
+          "name": "Меч Пантилуса",
+          "descriptionEnglish": "Broad polished steel longsword, substantial golden crossguard, blue guard gem and disc pommel.",
+          "archetype": "sword",
+          "options": {
+            "w": 6.0,
+            "belly": 0.06,
+            "bmat": "steel",
+            "gmat": "gold",
+            "guard": "cross",
+            "gspan": 17,
+            "pommel": "disc",
+            "gem": [
+              0.15,
+              0.3,
+              0.8
+            ],
+            "tip": 0.2
+          },
+          "level": 0
+        },
+        {
+          "id": "I00F",
+          "previewId": "I00G",
+          "name": "Боевой Топор",
+          "descriptionEnglish": "Symmetrical double-bladed steel battle axe, strong wooden haft and restrained metal fittings.",
+          "archetype": "axe",
+          "options": {
+            "type": "double",
+            "hmat": "steel"
+          },
+          "level": 0
+        },
+        {
+          "id": "I0A3",
+          "previewId": "I0A5",
+          "name": "Лезвие Демона",
+          "descriptionEnglish": "Curved dark steel blade with jagged teeth, horned black guard, blood-red luminous edge and spiked pommel.",
+          "archetype": "sword",
+          "options": {
+            "el": "blood",
+            "bmat": "darksteel",
+            "w": 5.6,
+            "curve": -9,
+            "belly": 0.12,
+            "back": 0.15,
+            "serr": 5,
+            "gmat": "blackiron",
+            "guard": "demon",
+            "glowline": [
+              0.8,
+              0.1,
+              0.1
+            ],
+            "pommel": "spike"
+          },
+          "level": 0
+        },
+        {
+          "id": "I00B",
+          "previewId": "I00D",
+          "name": "Адские Перчатки",
+          "descriptionEnglish": "Spiked black iron gauntlet, deep orange fissures across the plates and dark steel wrist trim.",
+          "archetype": "glove",
+          "options": {
+            "style": "plate",
+            "mat": "blackiron",
+            "spikes": true,
+            "el": "fire",
+            "cracks": [
+              1,
+              0.35,
+              0.08
+            ],
+            "rim": "darksteel"
+          },
+          "level": 0
+        },
+        {
+          "id": "I015",
+          "previewId": "I016",
+          "name": "Копье Молний",
+          "descriptionEnglish": "Dark steel spear with a bright blue-white cutting edge and small branching lightning arcs.",
+          "archetype": "polearm",
+          "options": {
+            "head": "spear",
+            "el": "bolt",
+            "hmat": "darksteel",
+            "glowline": [
+              0.55,
+              0.75,
+              1.0
+            ],
+            "bolts": 3
+          },
+          "level": 0
+        },
+        {
+          "id": "I02P",
+          "previewId": "I02O",
+          "name": "Молот Превосходства",
+          "descriptionEnglish": "Steel war hammer with gold end caps, blue central gem and prominent decorative rivets.",
+          "archetype": "hammer",
+          "options": {
+            "hmat": "steel",
+            "cap": "gold",
+            "gem": [
+              0.2,
+              0.4,
+              0.9
+            ],
+            "rivets": true
+          },
+          "level": 0
+        },
+        {
+          "id": "I011",
+          "previewId": "I012",
+          "name": "Волшебный Лук",
+          "descriptionEnglish": "Curved wooden bow with silver fittings, blue gem, engraved blue runes and a luminous pale blue string.",
+          "archetype": "bow",
+          "options": {
+            "type": "bow",
+            "limb": "wood",
+            "metal": "silver",
+            "glowstring": [
+              0.5,
+              0.7,
+              1.0
+            ],
+            "runes": true,
+            "runecol": [
+              0.5,
+              0.7,
+              1.0
+            ],
+            "el": "arcane",
+            "gem": [
+              0.4,
+              0.6,
+              1.0
+            ],
+            "bglow": [
+              [
+                0.4,
+                0.6,
+                1.0
+              ],
+              1.4,
+              0.2
+            ]
+          },
+          "level": 0
+        },
+        {
+          "id": "I01U",
+          "previewId": "I01V",
+          "name": "Перчатки Огня I",
+          "descriptionEnglish": "Rust-red plated gauntlet with bronze wrist trim, orange gem and flames above the fingertips.",
+          "archetype": "glove",
+          "options": {
+            "style": "plate",
+            "mat": "rustiron",
+            "el": "fire",
+            "flames": true,
+            "embers": 7,
+            "rim": "bronze",
+            "gem": [
+              0.95,
+              0.35,
+              0.05
+            ]
+          },
+          "level": 1
+        },
+        {
+          "id": "I0AD",
+          "previewId": "I0AC",
+          "name": "Кулак Нарвала",
+          "descriptionEnglish": "Closed steel armored fist with a long spiraled ivory horn and an ice-blue central gem.",
+          "archetype": "fist",
+          "options": {
+            "mat": "steel",
+            "el": "ice",
+            "gem": [
+              0.4,
+              0.8,
+              1.0
+            ]
+          },
+          "level": 0
+        },
+        {
+          "id": "I01B",
+          "previewId": "I01T",
+          "name": "Перчатки Боли I",
+          "descriptionEnglish": "Spiked dark steel gauntlet with crimson luminous cracks and a small skull on the hand plate.",
+          "archetype": "glove",
+          "options": {
+            "style": "plate",
+            "mat": "darksteel",
+            "spikes": true,
+            "el": "blood",
+            "cracks": [
+              0.85,
+              0.1,
+              0.1
+            ],
+            "skull": true,
+            "rim": "blackiron"
+          },
+          "level": 1
+        },
+        {
+          "id": "I026",
+          "previewId": "I027",
+          "name": "Эгида Смерти I",
+          "descriptionEnglish": "Round dark steel shield with a black iron rim, central skull and luminous green circular runes.",
+          "archetype": "shield",
+          "options": {
+            "kind": "round",
+            "rim": "blackiron",
+            "face": "darksteel",
+            "emblem": "plates",
+            "boss": "skull",
+            "el": "soul",
+            "glowring": [
+              0.3,
+              0.9,
+              0.6
+            ],
+            "runes": true
+          },
+          "level": 1
+        },
+        {
+          "id": "I01N",
+          "previewId": "I01O",
+          "name": "Сфера Льда",
+          "descriptionEnglish": "Blue-white magic orb on a silver stand, with icy crystal growths and bright swirling frost light.",
+          "archetype": "orbitem",
+          "options": {
+            "c1": [
+              0.03,
+              0.12,
+              0.25
+            ],
+            "c2": [
+              0.6,
+              0.9,
+              1.0
+            ],
+            "crystals": [
+              0.55,
+              0.85,
+              1.0
+            ],
+            "el": "ice",
+            "stand": "silver",
+            "oseed": 4
+          },
+          "level": 0
+        },
+        {
+          "id": "I09X",
+          "previewId": "I09Z",
+          "name": "Магическая Цепь",
+          "descriptionEnglish": "Complete silver necklace loop with a small vivid blue gem held in a polished silver setting.",
+          "archetype": "chain",
+          "options": {
+            "mat": "silver",
+            "el": "arcane",
+            "gem": [
+              0.3,
+              0.5,
+              1.0
+            ]
+          },
+          "level": 0
+        },
+        {
+          "id": "I057",
+          "previewId": "I058",
+          "name": "Том Заклинаний",
+          "descriptionEnglish": "Blue leather spellbook with silver trim, blue central gem and glowing engraved runes.",
+          "archetype": "tome",
+          "options": {
+            "cover": {
+              "kind": "tinted",
+              "rgb": [
+                0.07,
+                0.1,
+                0.26
+              ],
+              "finish": "matte",
+              "leather": true,
+              "spec": 0.15
+            },
+            "trim": "silver",
+            "emblem": "gem",
+            "gem": [
+              0.3,
+              0.5,
+              1.0
+            ],
+            "runes": true,
+            "el": "arcane"
+          },
+          "level": 0
+        },
+        {
+          "id": "I05I",
+          "previewId": "I05J",
+          "name": "Доспехи Заклинателя",
+          "descriptionEnglish": "Silver-blue breastplate with silver trim, blue central gem, luminous blue runes and dark blue cloth.",
+          "archetype": "armor",
+          "options": {
+            "mat": "mithril",
+            "trim": "silver",
+            "emblem": "gem",
+            "gem": [
+              0.35,
+              0.5,
+              1.0
+            ],
+            "runes": true,
+            "runecol": [
+              0.5,
+              0.65,
+              1.0
+            ],
+            "cloth": {
+              "kind": "tinted",
+              "rgb": [
+                0.1,
+                0.12,
+                0.35
+              ],
+              "finish": "matte",
+              "cloth": true
+            },
+            "el": "arcane"
+          },
+          "level": 0
+        },
+        {
+          "id": "I02N",
+          "previewId": "I02M",
+          "name": "Колье Лунного Света I",
+          "descriptionEnglish": "Silver crescent-moon pendant with a pale blue-white gem and an elegant silver chain.",
+          "archetype": "pendant",
+          "options": {
+            "kind": "moon",
+            "mat": "silver",
+            "chain": "silver",
+            "el": "arcane",
+            "gem": [
+              0.75,
+              0.85,
+              1.0
+            ],
+            "bglow": [
+              [
+                0.6,
+                0.75,
+                1.0
+              ],
+              2.0,
+              0.3
+            ]
+          },
+          "level": 1
+        },
+        {
+          "id": "I05E",
+          "previewId": "I05M",
+          "name": "Амулет Изменчивости",
+          "descriptionEnglish": "Golden swirling pendant, red-to-blue magical jewel and a fine golden chain.",
+          "archetype": "pendant",
+          "options": {
+            "kind": "swirl",
+            "mat": "gold",
+            "chain": "gold",
+            "c1": [
+              0.4,
+              0.03,
+              0.08
+            ],
+            "c2": [
+              0.3,
+              0.55,
+              1.0
+            ],
+            "el": "arcane"
+          },
+          "level": 0
+        },
+        {
+          "id": "I07A",
+          "previewId": "I07B",
+          "name": "Знамя Победы",
+          "descriptionEnglish": "Hanging crimson battle banner with golden embroidery, metal crossbar and a small red jewel.",
+          "archetype": "banner",
+          "options": {
+            "el": "holy",
+            "gem": [
+              0.85,
+              0.15,
+              0.15
+            ]
+          },
+          "level": 0
+        },
+        {
+          "id": "I04F",
+          "previewId": "I075",
+          "name": "Корона Кенария",
+          "descriptionEnglish": "Golden leaf-shaped crown with five tall points and three vivid green jewels.",
+          "archetype": "crown",
+          "options": {
+            "mat": "gold",
+            "style": "leaf",
+            "tines": 5,
+            "tall": 28,
+            "gems": [
+              [
+                0.2,
+                0.8,
+                0.35
+              ],
+              [
+                0.2,
+                0.8,
+                0.35
+              ],
+              [
+                0.3,
+                0.9,
+                0.4
+              ]
+            ],
+            "el": "holy"
+          },
+          "level": 0
+        },
+        {
+          "id": "I042",
+          "previewId": "I040",
+          "name": "Волшебный Посох",
+          "descriptionEnglish": "Dark wooden magic staff topped by a faceted blue crystal in an elegant silver setting.",
+          "archetype": "staff",
+          "options": {
+            "head": "crystal",
+            "col": [
+              0.3,
+              0.5,
+              1.0
+            ],
+            "metal": "silver",
+            "el": "arcane"
+          },
+          "level": 0
+        },
+        {
+          "id": "I00T",
+          "previewId": "I00U",
+          "name": "Посох Помощи I",
+          "descriptionEnglish": "Staff with a golden cross-shaped setting, bright green gem and pale cloth wrapping below the head.",
+          "archetype": "staff",
+          "options": {
+            "head": "cross",
+            "metal": "gold",
+            "col": [
+              0.3,
+              0.95,
+              0.5
+            ],
+            "wmat": {
+              "kind": "tinted",
+              "rgb": [
+                0.85,
+                0.85,
+                0.8
+              ],
+              "finish": "matte",
+              "cloth": true
+            },
+            "el": "poison"
+          },
+          "level": 1
+        },
+        {
+          "id": "I048",
+          "previewId": "I046",
+          "name": "Посох Иллюзий",
+          "descriptionEnglish": "Dark staff with a polished violet mirror-like head held in a dark steel setting.",
+          "archetype": "staff",
+          "options": {
+            "head": "mirror",
+            "metal": "darksteel",
+            "shaft": "darkwood",
+            "el": "shadow"
+          },
+          "level": 0
+        },
+        {
+          "id": "I00W",
+          "previewId": "I00X",
+          "name": "Посох Маны",
+          "descriptionEnglish": "Dark wooden staff supporting a deep blue luminous orb inside a silver cradle.",
+          "archetype": "staff",
+          "options": {
+            "head": "orb",
+            "metal": "silver",
+            "c1": [
+              0.02,
+              0.05,
+              0.3
+            ],
+            "c2": [
+              0.35,
+              0.55,
+              1.0
+            ],
+            "el": "arcane",
+            "shaft": "darkwood"
+          },
+          "level": 0
+        },
+        {
+          "id": "I045",
+          "previewId": "I044",
+          "name": "Посох Вечного Сияния I",
+          "descriptionEnglish": "Golden sun-headed staff with sharp radiant rays and concentrated warm golden light.",
+          "archetype": "staff",
+          "options": {
+            "head": "sun",
+            "metal": "gold",
+            "el": "holy"
+          },
+          "level": 1
+        },
+        {
+          "id": "I08Q",
+          "previewId": "I08T",
+          "name": "Чистейший Свет",
+          "descriptionEnglish": "Pale staff topped by a fine golden starburst, slender bright rays and a brilliant white-gold center.",
+          "archetype": "staff",
+          "options": {
+            "head": "pure",
+            "metal": "gold",
+            "shaft": {
+              "kind": "tinted",
+              "rgb": [
+                0.7,
+                0.66,
+                0.56
+              ],
+              "finish": "matte",
+              "grain": true
+            },
+            "el": "holy"
+          },
+          "level": 0
+        },
+        {
+          "id": "I02G",
+          "previewId": "I02F",
+          "name": "Адская Маска",
+          "descriptionEnglish": "Black iron horned face mask, bone horns and fierce orange-red glowing eyes.",
+          "archetype": "mask",
+          "options": {
+            "kind": "demon",
+            "mat": "blackiron",
+            "horns": true,
+            "eye": [
+              1,
+              0.25,
+              0.08
+            ],
+            "el": "fire",
+            "hmat": "bone"
+          },
+          "level": 0
+        },
+        {
+          "id": "I00Z",
+          "previewId": "I010",
+          "name": "Сферический Посох",
+          "descriptionEnglish": "Dark wooden runic staff supporting a blue magical sphere inside an open golden cage.",
+          "archetype": "staff",
+          "options": {
+            "head": "sphere",
+            "metal": "gold",
+            "el": "arcane",
+            "shaft": "darkwood",
+            "runes": true
+          },
+          "level": 0
+        },
+        {
+          "id": "I02C",
+          "previewId": "I02B",
+          "name": "Жезл Огня",
+          "descriptionEnglish": "Short bronze-trimmed wand with an orange-red fiery gem and a compact glowing head.",
+          "archetype": "staff",
+          "options": {
+            "head": "wand",
+            "metal": "bronze",
+            "el": "fire",
+            "len": 0.74,
+            "hy": 20
+          },
+          "level": 0
+        },
+        {
+          "id": "I085",
+          "previewId": "I089",
+          "name": "Посох Величия I",
+          "descriptionEnglish": "Tall ornate golden staff with several blue-violet crystals, engraved shaft and a grand branching head.",
+          "archetype": "staff",
+          "options": {
+            "head": "grand",
+            "metal": "gold",
+            "shaft": "darkwood",
+            "el": "holy",
+            "hy": 24,
+            "runes": true
+          },
+          "level": 1
+        },
+        {
+          "id": "I04D",
+          "previewId": "I05R",
+          "name": "Кадило Вечного Света",
+          "descriptionEnglish": "Curved bronze censer handle with a hanging perforated golden incense sphere on a short chain.",
+          "archetype": "staff",
+          "options": {
+            "head": "censer",
+            "metal": "bronze",
+            "el": "holy",
+            "len": 0.95,
+            "hy": 24
+          },
+          "level": 0
+        },
+        {
+          "id": "I025",
+          "previewId": "I01X",
+          "name": "Эфирная Коса",
+          "descriptionEnglish": "Slim ghostly scythe, curved silver blade, mint-green luminous edge and partly translucent metal.",
+          "archetype": "polearm",
+          "options": {
+            "head": "scythe",
+            "len": 0.86,
+            "el": "soul",
+            "hmat": "mithril",
+            "glowline": [
+              0.4,
+              0.95,
+              0.8
+            ],
+            "bop": 0.85,
+            "bglow": [
+              [
+                0.3,
+                0.9,
+                0.75
+              ],
+              1.5,
+              0.4
+            ]
+          },
+          "level": 0
+        },
+        {
+          "id": "I09A",
+          "previewId": "I09C",
+          "name": "Клинок Бестелесности",
+          "descriptionEnglish": "Slender translucent blue-violet saber, understated silver guard, ring pommel and faint spectral wisps.",
+          "archetype": "sword",
+          "options": {
+            "el": "arcane",
+            "bmat": "mithril",
+            "bop": 0.5,
+            "curve": -7,
+            "w": 4.0,
+            "tip": 0.3,
+            "bglow": [
+              [
+                0.5,
+                0.6,
+                1
+              ],
+              1.6,
+              0.4
+            ],
+            "wisps": [
+              0.6,
+              0.7,
+              1
+            ],
+            "gmat": "silver",
+            "guard": "flat",
+            "gspan": 9,
+            "bl": 0.7,
+            "pommel": "ring",
+            "grip": "blackleather",
+            "fuller": false
+          },
+          "level": 0
+        },
+        {
+          "id": "I02E",
+          "previewId": "I02D",
+          "name": "Меч Единства I",
+          "descriptionEnglish": "Radiant steel sword with a golden ring-shaped guard, pale gold gem and warm luminous fuller.",
+          "archetype": "sword",
+          "options": {
+            "el": "holy",
+            "w": 5.4,
+            "bmat": "steel",
+            "gmat": "gold",
+            "guard": "ring",
+            "ring_r": 7.5,
+            "gspan": 14,
+            "pommel": "disc",
+            "gem": [
+              1.0,
+              0.9,
+              0.6
+            ],
+            "glowline": [
+              1,
+              0.9,
+              0.55
+            ],
+            "tip": 0.18
+          },
+          "level": 1
+        },
+        {
+          "id": "I07T",
+          "previewId": "I06W",
+          "name": "Меч Гнева",
+          "descriptionEnglish": "Heavy toothed dark sword, spiked black guard, red leather grip, golden-amber glow, amber gem and spike pommel.",
+          "archetype": "sword",
+          "options": {
+            "el": "blood",
+            "bmat": "hotiron",
+            "w": 6.4,
+            "serr": 4,
+            "serr_amp": 1.3,
+            "belly": 0.05,
+            "gmat": "blackiron",
+            "guard": "spiked",
+            "gspan": 14,
+            "glowline": [
+              0.95,
+              0.25,
+              0.08
+            ],
+            "glow_variants": [
+              [
+                0.95,
+                0.22,
+                0.08
+              ],
+              [
+                0.95,
+                0.62,
+                0.12
+              ],
+              [
+                0.72,
+                0.2,
+                0.95
+              ]
+            ],
+            "gem_variants": [
+              [
+                0.9,
+                0.12,
+                0.1
+              ],
+              [
+                0.95,
+                0.55,
+                0.1
+              ],
+              [
+                0.6,
+                0.12,
+                0.75
+              ]
+            ],
+            "pommel_variants": [
+              "gem",
+              "spike",
+              "gem"
+            ],
+            "grip": "redleather",
+            "blood": 3
+          },
+          "level": 0,
+          "variant": {
+            "index": 1,
+            "name": "golden-amber",
+            "glowColor": [
+              0.95,
+              0.62,
+              0.12
+            ],
+            "gemColor": [
+              0.95,
+              0.55,
+              0.1
+            ],
+            "pommel": "spike"
+          }
+        },
+        {
+          "id": "I03N",
+          "previewId": "I03P",
+          "name": "Ледяной Меч",
+          "descriptionEnglish": "Frost-blue silver sword, crystalline blade growths, silver crossguard and luminous ice-blue gems.",
+          "archetype": "sword",
+          "options": {
+            "el": "ice",
+            "bmat": "mithril",
+            "w": 5.2,
+            "tip": 0.2,
+            "gmat": "silver",
+            "gspan": 15,
+            "glowline": [
+              0.5,
+              0.85,
+              1
+            ],
+            "crystals": [
+              0.5,
+              0.8,
+              1
+            ],
+            "gem": [
+              0.5,
+              0.85,
+              1
+            ],
+            "pommel": "gem",
+            "pgem": [
+              0.5,
+              0.85,
+              1
+            ],
+            "grip": "blackleather"
+          },
+          "level": 0
+        },
+        {
+          "id": "I017",
+          "previewId": "I018",
+          "name": "Секира Ярости I",
+          "descriptionEnglish": "Bearded iron axe with an orange fiery cutting edge, projecting spike and warm flame accents.",
+          "archetype": "axe",
+          "options": {
+            "type": "beard",
+            "el": "fire",
+            "hmat": "iron",
+            "glowline": [
+              1,
+              0.4,
+              0.08
+            ],
+            "flames": true,
+            "spike": true
+          },
+          "level": 1
+        },
+        {
+          "id": "I02L",
+          "previewId": "I02K",
+          "name": "Призрачный Меч",
+          "descriptionEnglish": "Translucent mint-green curved sword, silver guard, ring pommel and curling green spirit wisps.",
+          "archetype": "sword",
+          "options": {
+            "el": "soul",
+            "bmat": "mithril",
+            "bop": 0.62,
+            "w": 5.0,
+            "bglow": [
+              [
+                0.3,
+                0.9,
+                0.75
+              ],
+              1.8,
+              0.45
+            ],
+            "wisps": [
+              0.5,
+              0.95,
+              0.85
+            ],
+            "glowline": [
+              0.5,
+              1,
+              0.9
+            ],
+            "gmat": "silver",
+            "guard": "curve",
+            "pommel": "ring",
+            "grip": "blackleather"
+          },
+          "level": 0
+        },
+        {
+          "id": "I07Y",
+          "previewId": "I081",
+          "name": "Сокрушитель",
+          "descriptionEnglish": "Chunky dark steel sword with a wide squared blade, thick flat iron guard and pale blue engraved runes.",
+          "archetype": "sword",
+          "options": {
+            "bmat": "darksteel",
+            "w": 8.4,
+            "tip": 0.08,
+            "taper": 0.0,
+            "gmat": "iron",
+            "guard": "flat",
+            "gspan": 17,
+            "gth": 3.2,
+            "pommel": "disc",
+            "pommel_r": 5.2,
+            "grip": "blackleather",
+            "el": "bolt",
+            "runes": true,
+            "runecol": [
+              0.5,
+              0.7,
+              1
+            ],
+            "len": 0.96,
+            "bl": 0.62,
+            "fuller": false
+          },
+          "level": 0
+        },
+        {
+          "id": "I01P",
+          "previewId": "I01Q",
+          "name": "Кровавая Луна",
+          "descriptionEnglish": "Long dark polearm with a crimson crescent-shaped head enclosing a red gem.",
+          "archetype": "polearm",
+          "options": {
+            "head": "crescent",
+            "el": "blood",
+            "hmat": "darksteel",
+            "moon": [
+              0.6,
+              0.05,
+              0.07
+            ],
+            "gem": [
+              0.8,
+              0.1,
+              0.1
+            ]
+          },
+          "level": 0
+        },
+        {
+          "id": "I07U",
+          "previewId": "I08Z",
+          "name": "Молот Титанов",
+          "descriptionEnglish": "Massive rectangular stone-headed hammer, dark steel caps, engraved violet-blue runes and a long haft.",
+          "archetype": "hammer",
+          "options": {
+            "hmat": "stone",
+            "hw": 24,
+            "hh": 13,
+            "runes": true,
+            "el": "arcane",
+            "cap": "darksteel",
+            "hl": 1.1
+          },
+          "level": 0
+        },
+        {
+          "id": "I03T",
+          "previewId": "I03V",
+          "name": "Лук Молний",
+          "descriptionEnglish": "Dark wooden bow with black metal fittings, bright icy string and concentrated blue lightning arcs.",
+          "archetype": "bow",
+          "options": {
+            "type": "bow",
+            "limb": "darkwood",
+            "metal": "darksteel",
+            "glowstring": [
+              0.7,
+              0.85,
+              1.0
+            ],
+            "bolts": 6,
+            "bglow": [
+              [
+                0.55,
+                0.75,
+                1.0
+              ],
+              1.4,
+              0.18
+            ],
+            "el": "bolt"
+          },
+          "level": 0
+        },
+        {
+          "id": "I03S",
+          "previewId": "I03Q",
+          "name": "Меч Крови",
+          "descriptionEnglish": "Slim steel sword with crimson streaks, black wing-shaped guard, red gem and ring pommel.",
+          "archetype": "sword",
+          "options": {
+            "el": "blood",
+            "bmat": "steel",
+            "blood": 7,
+            "glowline": [
+              0.8,
+              0.08,
+              0.08
+            ],
+            "w": 4.4,
+            "tip": 0.2,
+            "gmat": "blackiron",
+            "guard": "wing",
+            "gspan": 15,
+            "grip": "blackleather",
+            "gem": [
+              0.8,
+              0.05,
+              0.07
+            ],
+            "pommel": "ring",
+            "bwear": 1.4
+          },
+          "level": 0
+        },
+        {
+          "id": "I0AL",
+          "previewId": "I03X",
+          "name": "Глефа Калдорай",
+          "descriptionEnglish": "Long silver glaive with a broad curved blade, violet luminous inlay, purple tassel and violet gem.",
+          "archetype": "polearm",
+          "options": {
+            "head": "glaive",
+            "el": "arcane",
+            "hmat": "silver",
+            "glowline": [
+              0.5,
+              0.4,
+              1.0
+            ],
+            "tassel": [
+              0.3,
+              0.2,
+              0.6
+            ],
+            "gem": [
+              0.5,
+              0.4,
+              1
+            ]
+          },
+          "level": 0
+        },
+        {
+          "id": "I01F",
+          "previewId": "I01G",
+          "name": "Щит Выносливости",
+          "descriptionEnglish": "Wooden heater shield, bronze rim, reinforcing plates and a vivid green central gem.",
+          "archetype": "shield",
+          "options": {
+            "kind": "heater",
+            "rim": "bronze",
+            "face": "wood",
+            "emblem": "plates",
+            "boss": "gem",
+            "gem": [
+              0.2,
+              0.8,
+              0.3
+            ],
+            "el": "poison"
+          },
+          "level": 0
+        },
+        {
+          "id": "I04B",
+          "previewId": "I063",
+          "name": "Щит Феруса",
+          "descriptionEnglish": "Long black iron kite shield with gold rim, horizontal gold bars and a red central jewel.",
+          "archetype": "shield",
+          "options": {
+            "kind": "kite",
+            "rim": "gold",
+            "face": "blackiron",
+            "emblem": "bars",
+            "emblem_col": [
+              0.62,
+              0.45,
+              0.12
+            ],
+            "boss": "gem",
+            "gem": [
+              0.85,
+              0.1,
+              0.1
+            ],
+            "bossmat": "gold",
+            "el": "blood"
+          },
+          "level": 0
+        },
+        {
+          "id": "I029",
+          "previewId": "I028",
+          "name": "Рыцарский Щит",
+          "descriptionEnglish": "Blue heater shield with a broad silver rim, silver cross and central steel boss.",
+          "archetype": "shield",
+          "options": {
+            "kind": "heater",
+            "rim": "steel",
+            "face": {
+              "kind": "tinted",
+              "rgb": [
+                0.09,
+                0.14,
+                0.36
+              ],
+              "finish": "matte",
+              "spec": 0.2
+            },
+            "emblem": "cross",
+            "emblem_col": [
+              0.72,
+              0.74,
+              0.8
+            ],
+            "boss": "steel"
+          },
+          "level": 0
+        },
+        {
+          "id": "I076",
+          "previewId": "I077",
+          "name": "Кираса Рыцаря",
+          "descriptionEnglish": "Polished steel knight breastplate, gold trim, blue cross emblem and dark blue cloth panels.",
+          "archetype": "armor",
+          "options": {
+            "mat": "steel",
+            "trim": "gold",
+            "emblem": "cross",
+            "emblem_col": [
+              0.12,
+              0.25,
+              0.65
+            ],
+            "cloth": {
+              "kind": "tinted",
+              "rgb": [
+                0.1,
+                0.16,
+                0.4
+              ],
+              "finish": "matte",
+              "cloth": true
+            }
+          },
+          "level": 0
+        },
+        {
+          "id": "I01I",
+          "previewId": "I01H",
+          "name": "Магический Шлем",
+          "descriptionEnglish": "Silver closed helmet with pale feathered wings, blue gem and bright blue engraved runes.",
+          "archetype": "helm",
+          "options": {
+            "el": "arcane",
+            "wings": true,
+            "wmat": {
+              "kind": "tinted",
+              "rgb": [
+                0.62,
+                0.68,
+                0.8
+              ],
+              "finish": "matte",
+              "cloth": true
+            },
+            "gem": [
+              0.3,
+              0.5,
+              1.0
+            ],
+            "runes": true,
+            "mat": "silver",
+            "trim": "silver"
+          },
+          "level": 0
+        },
+        {
+          "id": "I00O",
+          "previewId": "I00Q",
+          "name": "Гномья Броня",
+          "descriptionEnglish": "Sturdy iron breastplate with bronze shoulder plates, a bronze gear emblem and a leather waist belt.",
+          "archetype": "armor",
+          "options": {
+            "mat": "iron",
+            "trim": "bronze",
+            "emblem": "gear",
+            "pmat": "bronze",
+            "beltmat": "leather"
+          },
+          "level": 0
+        },
+        {
+          "id": "I01R",
+          "previewId": "I01S",
+          "name": "Доспехи Бога",
+          "descriptionEnglish": "Radiant gold breastplate with silver trim, pale cloth panels and a brilliant ivory-gold central jewel.",
+          "archetype": "armor",
+          "options": {
+            "mat": "gold",
+            "trim": "silver",
+            "emblem": "gem",
+            "gem": [
+              1.0,
+              0.95,
+              0.7
+            ],
+            "rays": true,
+            "el": "holy",
+            "cloth": {
+              "kind": "tinted",
+              "rgb": [
+                0.8,
+                0.78,
+                0.7
+              ],
+              "finish": "matte",
+              "cloth": true
+            }
+          },
+          "level": 0
+        },
+        {
+          "id": "I0A6",
+          "previewId": "I0A9",
+          "name": "Драконий Щит",
+          "descriptionEnglish": "Round dark red shield with scale patterns, dark steel rim and a small sculpted dragon-like central boss.",
+          "archetype": "shield",
+          "options": {
+            "kind": "round",
+            "rim": "darksteel",
+            "face": {
+              "kind": "tinted",
+              "rgb": [
+                0.28,
+                0.05,
+                0.04
+              ],
+              "finish": "matte",
+              "spec": 0.3,
+              "shin": 20
+            },
+            "emblem": "scales",
+            "emblem_col": [
+              0.6,
+              0.12,
+              0.06
+            ],
+            "boss": "dragon",
+            "el": "fire"
+          },
+          "level": 0
+        }
+      ]
+    },
+    {
+      "id": "support",
+      "sourceFile": "support.png",
+      "columns": 8,
+      "rows": 6,
+      "cells": [
+        {
+          "id": "I007",
+          "previewId": null,
+          "name": "Стальной Меч",
+          "descriptionEnglish": "Plain short steel sword, modest iron crossguard, dark leather grip, simple straight blade.",
+          "archetype": "sword",
+          "options": {
+            "bl": 0.62,
+            "w": 4.6,
+            "gmat": "iron",
+            "gspan": 13,
+            "rich": 0.0
+          },
+          "level": 0
+        },
+        {
+          "id": "I000",
+          "previewId": null,
+          "name": "Когти",
+          "descriptionEnglish": "Three curved steel claw blades fixed to a dark leather knuckle bar with small iron rivets.",
+          "archetype": "claws",
+          "options": {
+            "rich": 0.0
+          },
+          "level": 0
+        },
+        {
+          "id": "I00I",
+          "previewId": null,
+          "name": "Копье",
+          "descriptionEnglish": "Simple steel spear with a leaf-shaped point and a long plain wooden shaft.",
+          "archetype": "polearm",
+          "options": {
+            "head": "spear",
+            "rich": 0.0
+          },
+          "level": 0
+        },
+        {
+          "id": "I02A",
+          "previewId": null,
+          "name": "Сфера Огня",
+          "descriptionEnglish": "Deep orange-red magic orb on a bronze stand, with warm internal flames and tiny fiery embers.",
+          "archetype": "orbitem",
+          "options": {
+            "c1": [
+              0.25,
+              0.02,
+              0.01
+            ],
+            "c2": [
+              1,
+              0.45,
+              0.08
+            ],
+            "embers": [
+              1,
+              0.5,
+              0.1
+            ],
+            "el": "fire",
+            "stand": "bronze",
+            "rich": 0.1
+          },
+          "level": 0
+        },
+        {
+          "id": "I008",
+          "previewId": null,
+          "name": "Древняя Перчатка",
+          "descriptionEnglish": "Ancient bronze-green plated gauntlet with gold runes, worn verdigris surfaces and bronze trim.",
+          "archetype": "glove",
+          "options": {
+            "style": "plate",
+            "mat": "verdigris",
+            "runes": true,
+            "el": "holy",
+            "runecol": [
+              1,
+              0.8,
+              0.4
+            ],
+            "rim": "bronze"
+          },
+          "level": 0
+        },
+        {
+          "id": "I002",
+          "previewId": null,
+          "name": "Перчатки Скорости",
+          "descriptionEnglish": "Supple brown leather glove with straps, light metal buckles and small pale feathered accents.",
+          "archetype": "glove",
+          "options": {
+            "style": "leather",
+            "mat": "leather",
+            "rich": 0.0,
+            "strap": true,
+            "wing": {
+              "kind": "tinted",
+              "rgb": [
+                0.55,
+                0.62,
+                0.66
+              ],
+              "finish": "matte",
+              "cloth": true
+            }
+          },
+          "level": 0
+        },
+        {
+          "id": "I08M",
+          "previewId": null,
+          "name": "Маска Смерти",
+          "descriptionEnglish": "Bone-colored skull mask with luminous green eyes and faint green spirit light.",
+          "archetype": "mask",
+          "options": {
+            "kind": "skull",
+            "eye": [
+              0.3,
+              0.9,
+              0.6
+            ],
+            "el": "soul",
+            "mat": {
+              "kind": "tinted",
+              "rgb": [
+                0.58,
+                0.53,
+                0.4
+              ],
+              "finish": "matte",
+              "spec": 0.12,
+              "shin": 16
+            }
+          },
+          "level": 0
+        },
+        {
+          "id": "I07R",
+          "previewId": null,
+          "name": "Чародейская Лента",
+          "descriptionEnglish": "Folded blue-violet cloth headband, a small magical gem and two flowing ribbon tails.",
+          "archetype": "circlet",
+          "options": {
+            "el": "arcane"
+          },
+          "level": 0
+        },
+        {
+          "id": "I06B",
+          "previewId": null,
+          "name": "Кольцо Паука",
+          "descriptionEnglish": "Steel finger ring with a clearly sculpted spider-shaped setting and delicate small legs.",
+          "archetype": "ring",
+          "options": {
+            "mat": "steel",
+            "setting": "spider",
+            "rich": 0.1
+          },
+          "level": 0
+        },
+        {
+          "id": "I08F",
+          "previewId": null,
+          "name": "Сфера Яда",
+          "descriptionEnglish": "Green magic orb on a dark steel stand, with suspended bubbles and poisonous yellow-green light.",
+          "archetype": "orbitem",
+          "options": {
+            "c1": [
+              0.03,
+              0.15,
+              0.02
+            ],
+            "c2": [
+              0.55,
+              0.9,
+              0.2
+            ],
+            "bubbles": true,
+            "el": "poison",
+            "stand": "darksteel",
+            "rich": 0.1,
+            "oseed": 3
+          },
+          "level": 0
+        },
+        {
+          "id": "I004",
+          "previewId": null,
+          "name": "Топор",
+          "descriptionEnglish": "Plain single-bladed iron axe, modest wooden handle, clean readable crescent-shaped cutting edge.",
+          "archetype": "axe",
+          "options": {
+            "type": "single",
+            "rich": 0.0
+          },
+          "level": 0
+        },
+        {
+          "id": "I00K",
+          "previewId": null,
+          "name": "Ожерелье",
+          "descriptionEnglish": "Simple necklace of modest beads, arranged as a complete visible loop.",
+          "archetype": "pendant",
+          "options": {
+            "kind": "beads",
+            "rich": 0.0
+          },
+          "level": 0
+        },
+        {
+          "id": "I08K",
+          "previewId": null,
+          "name": "Мантия",
+          "descriptionEnglish": "Simple draped cloth robe with a broad hood and clearly visible hanging folds.",
+          "archetype": "robe",
+          "options": {
+            "rich": 0.0
+          },
+          "level": 0
+        },
+        {
+          "id": "I01W",
+          "previewId": null,
+          "name": "Амулет Защиты",
+          "descriptionEnglish": "Bronze shield-shaped pendant hanging from a chain, with a small vivid blue gem.",
+          "archetype": "pendant",
+          "options": {
+            "kind": "shield",
+            "mat": "bronze",
+            "gem": [
+              0.25,
+              0.45,
+              1.0
+            ],
+            "rich": 0.3
+          },
+          "level": 0
+        },
+        {
+          "id": "I00C",
+          "previewId": null,
+          "name": "Перчатки Силы",
+          "descriptionEnglish": "Sturdy leather glove with iron finger plates, dark studs and a distinctive red leather wrist strap.",
+          "archetype": "glove",
+          "options": {
+            "style": "leather",
+            "mat": "leather",
+            "plates": true,
+            "studs": true,
+            "rich": 0.1,
+            "strapmat": "redleather"
+          },
+          "level": 0
+        },
+        {
+          "id": "I08L",
+          "previewId": null,
+          "name": "Кинжал Разбойника",
+          "descriptionEnglish": "Short curved dark steel dagger, hooked black guard, compact leather grip and a subtle poison-green edge.",
+          "archetype": "sword",
+          "options": {
+            "len": 0.62,
+            "bl": 0.62,
+            "w": 3.6,
+            "gmat": "blackiron",
+            "guard": "curve",
+            "gspan": 8,
+            "grip": "blackleather",
+            "pommel": "ball",
+            "pommel_r": 3.0,
+            "el": "poison",
+            "glowline": [
+              0.5,
+              0.9,
+              0.2
+            ],
+            "bmat": "darksteel"
+          },
+          "level": 0
+        },
+        {
+          "id": "I00S",
+          "previewId": null,
+          "name": "Посох",
+          "descriptionEnglish": "Plain wooden staff with a simple unadorned top and restrained metal bindings.",
+          "archetype": "staff",
+          "options": {
+            "head": "plain",
+            "rich": 0.0
+          },
+          "level": 0
+        },
+        {
+          "id": "I024",
+          "previewId": null,
+          "name": "Рунные Браслеты",
+          "descriptionEnglish": "Pair of slightly angled steel bracers with bronze rims, leather buckles and blue engraved runes.",
+          "archetype": "bracers",
+          "options": {
+            "mat": "steel",
+            "el": "arcane",
+            "runecol": [
+              0.45,
+              0.65,
+              1.0
+            ]
+          },
+          "level": 0
+        },
+        {
+          "id": "I00Y",
+          "previewId": null,
+          "name": "Сапоги",
+          "descriptionEnglish": "Plain worn brown leather boot, dark sole, simple straps and small iron buckles.",
+          "archetype": "boot",
+          "options": {
+            "rich": 0.0
+          },
+          "level": 0
+        },
+        {
+          "id": "I019",
+          "previewId": null,
+          "name": "Сфера Маны",
+          "descriptionEnglish": "Deep blue magic orb on a silver stand, with swirling bright blue light and small pale sparks.",
+          "archetype": "orbitem",
+          "options": {
+            "c1": [
+              0.02,
+              0.05,
+              0.3
+            ],
+            "c2": [
+              0.35,
+              0.55,
+              1.0
+            ],
+            "sparks": [
+              0.7,
+              0.85,
+              1.0
+            ],
+            "el": "arcane",
+            "stand": "silver",
+            "rich": 0.1,
+            "oseed": 2
+          },
+          "level": 0
+        },
+        {
+          "id": "I01K",
+          "previewId": null,
+          "name": "Рог Ветров",
+          "descriptionEnglish": "Curved ivory blowing horn with bronze bands and a subtle pale blue magical accent.",
+          "archetype": "horn",
+          "options": {
+            "mat": "bone",
+            "trim": "bronze",
+            "el": "arcane",
+            "rich": 0.1
+          },
+          "level": 0
+        },
+        {
+          "id": "I00R",
+          "previewId": null,
+          "name": "Маска",
+          "descriptionEnglish": "Simple carved wooden face mask with a muted brown finish and a clean expressive silhouette.",
+          "archetype": "mask",
+          "options": {
+            "kind": "plain",
+            "rich": 0.0,
+            "mat": {
+              "kind": "tinted",
+              "rgb": [
+                0.36,
+                0.3,
+                0.21
+              ],
+              "finish": "matte",
+              "spec": 0.12,
+              "shin": 14,
+              "grain": true
+            }
+          },
+          "level": 0
+        },
+        {
+          "id": "I01E",
+          "previewId": null,
+          "name": "Кольцо Регенерации",
+          "descriptionEnglish": "Golden finger ring with leaf-shaped ornamentation and a vivid green gem.",
+          "archetype": "ring",
+          "options": {
+            "mat": "gold",
+            "gem": [
+              0.2,
+              0.85,
+              0.35
+            ],
+            "leaves": true,
+            "el": "poison",
+            "rich": 0.1
+          },
+          "level": 0
+        },
+        {
+          "id": "I00E",
+          "previewId": null,
+          "name": "Кольцо Защиты",
+          "descriptionEnglish": "Silver finger ring with a tiny shield-shaped setting and a blue faceted gem.",
+          "archetype": "ring",
+          "options": {
+            "mat": "silver",
+            "setting": "shield",
+            "gem": [
+              0.2,
+              0.45,
+              1.0
+            ],
+            "el": "arcane",
+            "rich": 0.1
+          },
+          "level": 0
+        },
+        {
+          "id": "I00P",
+          "previewId": null,
+          "name": "Амулет",
+          "descriptionEnglish": "Round bronze pendant with a red central gem and a simple visible chain.",
+          "archetype": "pendant",
+          "options": {
+            "kind": "disc",
+            "mat": "bronze",
+            "gem": [
+              0.85,
+              0.15,
+              0.15
+            ],
+            "rich": 0.1
+          },
+          "level": 0
+        },
+        {
+          "id": "I00N",
+          "previewId": null,
+          "name": "Шлем",
+          "descriptionEnglish": "Plain closed iron helmet with a restrained visor and a broad simple crown.",
+          "archetype": "helm",
+          "options": {
+            "rich": 0.0
+          },
+          "level": 0
+        },
+        {
+          "id": "I03L",
+          "previewId": null,
+          "name": "Зелье Здоровья",
+          "descriptionEnglish": "Small round glass potion bottle with a simple cork and bright crimson liquid.",
+          "archetype": "flask",
+          "options": {
+            "shape": "round",
+            "liquid": [
+              0.66,
+              0.04,
+              0.06
+            ],
+            "glow": 0.35,
+            "rich": 0.0
+          },
+          "level": 0
+        },
+        {
+          "id": "I03M",
+          "previewId": null,
+          "name": "Зелье Маны",
+          "descriptionEnglish": "Small round glass potion bottle with a simple cork and deep sapphire-blue liquid.",
+          "archetype": "flask",
+          "options": {
+            "shape": "round",
+            "liquid": [
+              0.1,
+              0.26,
+              0.82
+            ],
+            "glow": 0.35,
+            "rich": 0.0,
+            "oseed": 3
+          },
+          "level": 0
+        },
+        {
+          "id": "I022",
+          "previewId": null,
+          "name": "Камень Здоровья",
+          "descriptionEnglish": "Rough faceted crimson crystal stone with a small concentrated red inner glow.",
+          "archetype": "stone",
+          "options": {
+            "color": [
+              0.8,
+              0.08,
+              0.1
+            ],
+            "el": "blood"
+          },
+          "level": 0
+        },
+        {
+          "id": "I023",
+          "previewId": null,
+          "name": "Камень Маны",
+          "descriptionEnglish": "Rough faceted sapphire-blue crystal stone with a small concentrated blue inner glow.",
+          "archetype": "stone",
+          "options": {
+            "color": [
+              0.2,
+              0.42,
+              0.95
+            ],
+            "el": "arcane"
+          },
+          "level": 0
+        },
+        {
+          "id": "I0AJ",
+          "previewId": null,
+          "name": "Могущественный Эликсир",
+          "descriptionEnglish": "Large glass potion bottle with a wooden cork, gold neck band and bubbling amber-orange liquid.",
+          "archetype": "flask",
+          "options": {
+            "shape": "big",
+            "liquid": [
+              0.95,
+              0.55,
+              0.08
+            ],
+            "glow": 0.5,
+            "bubbles": true,
+            "cork": "wood",
+            "lipmat": "gold",
+            "rich": 0.1
+          },
+          "level": 0
+        },
+        {
+          "id": "I06M",
+          "previewId": null,
+          "name": "Эликсир невидимости",
+          "descriptionEnglish": "Tall glass potion bottle with pale translucent blue liquid, soft ghostly wisps and tiny pale sparkles.",
+          "archetype": "flask",
+          "options": {
+            "shape": "tall",
+            "liquid": [
+              0.62,
+              0.72,
+              0.9
+            ],
+            "glow": 0.25,
+            "ghost": true,
+            "sparkle": [
+              0.8,
+              0.9,
+              1.0
+            ],
+            "rich": 0.1
+          },
+          "level": 0
+        },
+        {
+          "id": "I01Y",
+          "previewId": null,
+          "name": "Антимагический Эликсир",
+          "descriptionEnglish": "Hexagonal glass potion bottle with silver neck band, stone stopper and vivid purple liquid.",
+          "archetype": "flask",
+          "options": {
+            "shape": "hex",
+            "liquid": [
+              0.5,
+              0.2,
+              0.8
+            ],
+            "glow": 0.4,
+            "lipmat": "silver",
+            "cork": "stone",
+            "rich": 0.1,
+            "el": "shadow"
+          },
+          "level": 0
+        },
+        {
+          "id": "I06O",
+          "previewId": null,
+          "name": "Эликсир бессмертия",
+          "descriptionEnglish": "Amphora-shaped glass potion bottle with gold fittings, a bright cross emblem and sparkling golden liquid.",
+          "archetype": "flask",
+          "options": {
+            "shape": "amph",
+            "liquid": [
+              1.0,
+              0.88,
+              0.45
+            ],
+            "glow": 0.7,
+            "symbol": "cross",
+            "lipmat": "gold",
+            "sparkle": [
+              1,
+              0.95,
+              0.7
+            ],
+            "fill": 0.8,
+            "rich": 0.2,
+            "el": "holy"
+          },
+          "level": 0
+        },
+        {
+          "id": "I01L",
+          "previewId": null,
+          "name": "Свиток Возрождения",
+          "descriptionEnglish": "Rolled parchment scroll tied with a gold-brown cord and marked by a luminous golden resurrection symbol.",
+          "archetype": "scrollroll",
+          "options": {
+            "kind": "ankh",
+            "sigil": [
+              1.0,
+              0.85,
+              0.4
+            ],
+            "cord": {
+              "kind": "tinted",
+              "rgb": [
+                0.55,
+                0.4,
+                0.1
+              ],
+              "finish": "matte",
+              "cloth": true
+            },
+            "el": "holy"
+          },
+          "level": 0
+        },
+        {
+          "id": "I02H",
+          "previewId": null,
+          "name": "Свиток Тайного Знания",
+          "descriptionEnglish": "Rolled parchment scroll tied with a dark blue cord and marked by a luminous blue star sigil.",
+          "archetype": "scrollroll",
+          "options": {
+            "kind": "star",
+            "sigil": [
+              0.5,
+              0.7,
+              1.0
+            ],
+            "cord": {
+              "kind": "tinted",
+              "rgb": [
+                0.1,
+                0.2,
+                0.5
+              ],
+              "finish": "matte",
+              "cloth": true
+            },
+            "el": "arcane"
+          },
+          "level": 0
+        },
+        {
+          "id": "I021",
+          "previewId": null,
+          "name": "Дух - Целитель",
+          "descriptionEnglish": "Small emerald-green spirit figurine with a luminous pale green core and a clear healing cross symbol.",
+          "archetype": "spirit",
+          "options": {
+            "c1": [
+              0.04,
+              0.22,
+              0.12
+            ],
+            "c2": [
+              0.6,
+              1.0,
+              0.75
+            ],
+            "symbol": "cross"
+          },
+          "level": 0
+        },
+        {
+          "id": "I094",
+          "previewId": null,
+          "name": "Дух - Маны",
+          "descriptionEnglish": "Small sapphire-blue spirit figurine with a luminous pale blue core and soft swirling energy.",
+          "archetype": "spirit",
+          "options": {
+            "c1": [
+              0.03,
+              0.06,
+              0.3
+            ],
+            "c2": [
+              0.5,
+              0.7,
+              1.0
+            ],
+            "oseed": 2
+          },
+          "level": 0
+        },
+        {
+          "id": "I01A",
+          "previewId": null,
+          "name": "Тролль-лекарь",
+          "descriptionEnglish": "Small tusked humanoid healer figurine with muted green skin, teal hair accents and a compact healing staff.",
+          "archetype": "troll",
+          "options": {
+            "kind": "healer",
+            "hair_acc": [
+              0.1,
+              0.28,
+              0.25
+            ],
+            "rich": 0.1
+          },
+          "level": 0
+        },
+        {
+          "id": "I01M",
+          "previewId": null,
+          "name": "Тролль-защитник",
+          "descriptionEnglish": "Small tusked humanoid guard figurine with muted green skin, dark red hair accents and a sturdy protective stance.",
+          "archetype": "troll",
+          "options": {
+            "kind": "guard",
+            "hair_acc": [
+              0.34,
+              0.07,
+              0.05
+            ],
+            "skin": [
+              0.22,
+              0.27,
+              0.2
+            ],
+            "rich": 0.2
+          },
+          "level": 0
+        },
+        {
+          "id": "I07E",
+          "previewId": null,
+          "name": "Морлок-охотник",
+          "descriptionEnglish": "Small amphibian hunter figurine with a clear finned silhouette, compact hunting weapon and earthy colors.",
+          "archetype": "murloc",
+          "options": {
+            "kind": "hunter",
+            "rich": 0.1
+          },
+          "level": 0
+        },
+        {
+          "id": "I07K",
+          "previewId": null,
+          "name": "Морлок-заклинатель",
+          "descriptionEnglish": "Small blue amphibian spellcaster figurine with violet fins and a short magical staff.",
+          "archetype": "murloc",
+          "options": {
+            "kind": "caster",
+            "skin": [
+              0.08,
+              0.18,
+              0.3
+            ],
+            "fin": [
+              0.2,
+              0.1,
+              0.3
+            ],
+            "rich": 0.1
+          },
+          "level": 0
+        },
+        {
+          "id": "I01D",
+          "previewId": null,
+          "name": "Статуэтка демона",
+          "descriptionEnglish": "Small dark bronze horned demon statuette with fiery orange-red inlays and a substantial pedestal.",
+          "archetype": "demonstat",
+          "options": {
+            "mat": "darkbronze",
+            "el": "fire",
+            "rich": 0.1
+          },
+          "level": 0
+        },
+        {
+          "id": "I06J",
+          "previewId": null,
+          "name": "Реактивные Сапоги I",
+          "descriptionEnglish": "Dark steel armored boot with side-mounted jet cylinders and concentrated pale blue exhaust flames.",
+          "archetype": "boot",
+          "options": {
+            "plated": true,
+            "mat": "darksteel",
+            "jet": true,
+            "el": "bolt",
+            "cuff": "iron",
+            "rich": 0.5
+          },
+          "level": 1
+        },
+        {
+          "id": "I013",
+          "previewId": null,
+          "name": "Сапоги Вдовы",
+          "descriptionEnglish": "Black leather boot with a red hourglass emblem, dark steel fittings and spider-like side accents.",
+          "archetype": "boot",
+          "options": {
+            "mat": "blackleather",
+            "hourglass": true,
+            "legs": true,
+            "el": "blood",
+            "strap": "blackleather",
+            "trim": "darksteel"
+          },
+          "level": 0
+        },
+        {
+          "id": "I0AP",
+          "previewId": null,
+          "name": "Сапоги-Невидимки",
+          "descriptionEnglish": "Soft gray-violet boot with translucent folds, muted straps and curling blue-violet magical wisps.",
+          "archetype": "boot",
+          "options": {
+            "mat": {
+              "kind": "tinted",
+              "rgb": [
+                0.42,
+                0.4,
+                0.5
+              ],
+              "finish": "matte",
+              "cloth": true
+            },
+            "sole": {
+              "kind": "tinted",
+              "rgb": [
+                0.3,
+                0.3,
+                0.38
+              ],
+              "finish": "matte"
+            },
+            "op": 0.8,
+            "wisps": true,
+            "el": "arcane",
+            "strap": {
+              "kind": "tinted",
+              "rgb": [
+                0.3,
+                0.3,
+                0.4
+              ],
+              "finish": "matte"
+            }
+          },
+          "level": 0
+        },
+        {
+          "id": "I0AS",
+          "previewId": null,
+          "name": "Сапоги Защитника",
+          "descriptionEnglish": "Segmented polished steel boot, dark ankle cuff, reinforced toe and a blue central gem.",
+          "archetype": "boot",
+          "options": {
+            "plated": true,
+            "mat": "steel",
+            "cuff": "darksteel",
+            "toe": "steel",
+            "gem": [
+              0.2,
+              0.45,
+              1.0
+            ],
+            "el": "arcane"
+          },
+          "level": 0
+        },
+        {
+          "id": "I05P",
+          "previewId": null,
+          "name": "Сапоги Пространства",
+          "descriptionEnglish": "Purple leather boot with tiny star patterns, orbiting violet energy and a dark iron sole.",
+          "archetype": "boot",
+          "options": {
+            "mat": {
+              "kind": "tinted",
+              "rgb": [
+                0.13,
+                0.085,
+                0.22
+              ],
+              "finish": "matte",
+              "leather": true
+            },
+            "stars": [
+              0.8,
+              0.7,
+              1.0
+            ],
+            "orbit": [
+              0.65,
+              0.4,
+              1.0
+            ],
+            "el": "shadow",
+            "sole": "blackiron"
+          },
+          "level": 0
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "sourceFile": "advanced.png",
+      "columns": 7,
+      "rows": 4,
+      "cells": [
+        {
+          "id": "I0AZ",
+          "previewId": null,
+          "name": "Сапоги Рассвета",
+          "descriptionEnglish": "Warm pale leather boot with gold trim, a bronze sole and white-gold feathered wing accents.",
+          "archetype": "boot",
+          "options": {
+            "mat": {
+              "kind": "tinted",
+              "rgb": [
+                0.62,
+                0.56,
+                0.44
+              ],
+              "finish": "matte",
+              "leather": true
+            },
+            "cuff": "gold",
+            "trim": "gold",
+            "wing": {
+              "kind": "tinted",
+              "rgb": [
+                0.9,
+                0.85,
+                0.68
+              ],
+              "finish": "matte",
+              "cloth": true
+            },
+            "el": "holy",
+            "sole": "bronze"
+          },
+          "level": 0
+        },
+        {
+          "id": "I0B0",
+          "previewId": null,
+          "name": "Сапоги Тороса",
+          "descriptionEnglish": "Heavy iron armored boot with bone horns and angular ice-blue crystal growths.",
+          "archetype": "boot",
+          "options": {
+            "plated": true,
+            "mat": "iron",
+            "horns": true,
+            "crystals": [
+              0.5,
+              0.8,
+              1.0
+            ],
+            "el": "ice",
+            "cuff": "darksteel"
+          },
+          "level": 0
+        },
+        {
+          "id": "I0B1",
+          "previewId": null,
+          "name": "Сапоги Гравитации",
+          "descriptionEnglish": "Dark steel runic boot with a violet glowing core, purple gem and concentrated circular magical energy.",
+          "archetype": "boot",
+          "options": {
+            "plated": true,
+            "mat": "darksteel",
+            "core": [
+              0.7,
+              0.35,
+              1.0
+            ],
+            "runes": true,
+            "runecol": [
+              0.7,
+              0.4,
+              1.0
+            ],
+            "gem": [
+              0.6,
+              0.3,
+              1.0
+            ],
+            "el": "shadow"
+          },
+          "level": 0
+        },
+        {
+          "id": "I0B2",
+          "previewId": null,
+          "name": "Сапоги Пламени",
+          "descriptionEnglish": "Dark red leather boot with bronze trim, red cuff and orange flames rising around the opening.",
+          "archetype": "boot",
+          "options": {
+            "mat": {
+              "kind": "tinted",
+              "rgb": [
+                0.42,
+                0.09,
+                0.06
+              ],
+              "finish": "matte",
+              "leather": true
+            },
+            "flames": true,
+            "trim": "bronze",
+            "el": "fire",
+            "sole": "blackleather",
+            "cuff": "redleather",
+            "rich": 0.5
+          },
+          "level": 0
+        },
+        {
+          "id": "I06R",
+          "previewId": null,
+          "name": "Мифриловый Доспех",
+          "descriptionEnglish": "Silver-blue chainmail breastplate with silver trim, a frost-blue central gem and cool luminous details.",
+          "archetype": "armor",
+          "options": {
+            "mat": "mithrilmail",
+            "trim": "silver",
+            "emblem": "gem",
+            "gem": [
+              0.4,
+              0.7,
+              1.0
+            ],
+            "el": "ice"
+          },
+          "level": 0
+        },
+        {
+          "id": "I090",
+          "previewId": null,
+          "name": "Доспех Красного Тумана",
+          "descriptionEnglish": "Spiked black iron breastplate, central skull emblem and curling crimson mist between the plates.",
+          "archetype": "armor",
+          "options": {
+            "mat": "blackiron",
+            "trim": "darksteel",
+            "emblem": "skull",
+            "mist": [
+              0.9,
+              0.1,
+              0.1
+            ],
+            "pspike": true,
+            "el": "blood"
+          },
+          "level": 0
+        },
+        {
+          "id": "I05Y",
+          "previewId": null,
+          "name": "Доспех Друида",
+          "descriptionEnglish": "Green leather breastplate with wooden shoulder plates, leaf emblem and dark green cloth panels.",
+          "archetype": "armor",
+          "options": {
+            "mat": {
+              "kind": "tinted",
+              "rgb": [
+                0.2,
+                0.27,
+                0.13
+              ],
+              "finish": "matte",
+              "leather": true
+            },
+            "pmat": "wood",
+            "trim": "wood",
+            "emblem": "leaf",
+            "cloth": {
+              "kind": "tinted",
+              "rgb": [
+                0.14,
+                0.24,
+                0.12
+              ],
+              "finish": "matte",
+              "cloth": true
+            },
+            "el": "poison"
+          },
+          "level": 0
+        },
+        {
+          "id": "I072",
+          "previewId": null,
+          "name": "Тотем Астрального Змея I",
+          "descriptionEnglish": "Carved serpent-shaped magical totem with blue-violet luminous inlays and a strong coiled silhouette.",
+          "archetype": "totem",
+          "options": {
+            "el": "arcane"
+          },
+          "level": 1
+        },
+        {
+          "id": "I082",
+          "previewId": null,
+          "name": "Печать Силы",
+          "descriptionEnglish": "Golden seal-shaped pendant on a bronze chain, with a luminous orange central jewel.",
+          "archetype": "pendant",
+          "options": {
+            "kind": "seal",
+            "mat": "gold",
+            "chain": "bronze",
+            "gem": [
+              1,
+              0.35,
+              0.1
+            ],
+            "el": "fire"
+          },
+          "level": 0
+        },
+        {
+          "id": "I09G",
+          "previewId": null,
+          "name": "Камень Душ",
+          "descriptionEnglish": "Dark mystical stone holding concentrated luminous green spirit energy in its center.",
+          "archetype": "soulstone",
+          "options": {
+            "el": "soul"
+          },
+          "level": 0
+        },
+        {
+          "id": "I09U",
+          "previewId": null,
+          "name": "Разрушитель Заклинаний",
+          "descriptionEnglish": "Spiked dark steel breastplate with angular plates and luminous violet cracks across the chest.",
+          "archetype": "armor",
+          "options": {
+            "mat": "darksteel",
+            "trim": "iron",
+            "crack": [
+              0.7,
+              0.35,
+              1.0
+            ],
+            "pspike": true,
+            "el": "shadow"
+          },
+          "level": 0
+        },
+        {
+          "id": "I09L",
+          "previewId": null,
+          "name": "Путь Войны",
+          "descriptionEnglish": "Carved wooden tribal face mask with dark red feather accents and crimson details.",
+          "archetype": "mask",
+          "options": {
+            "kind": "tribal",
+            "mat": "wood",
+            "feathers": {
+              "kind": "tinted",
+              "rgb": [
+                0.55,
+                0.12,
+                0.08
+              ],
+              "finish": "matte",
+              "cloth": true
+            },
+            "el": "blood"
+          },
+          "level": 0
+        },
+        {
+          "id": "I05K",
+          "previewId": null,
+          "name": "Урна Теней",
+          "descriptionEnglish": "Dark ceremonial urn with a fitted lid, curved handles and concentrated violet shadow light.",
+          "archetype": "urn",
+          "options": {
+            "el": "shadow"
+          },
+          "level": 0
+        },
+        {
+          "id": "I08D",
+          "previewId": null,
+          "name": "Фибула Умбры",
+          "descriptionEnglish": "Ornate silver brooch-shaped pendant with a faceted violet gem and silver chain.",
+          "archetype": "pendant",
+          "options": {
+            "kind": "brooch",
+            "mat": "silver",
+            "chain": "silver",
+            "gem": [
+              0.5,
+              0.25,
+              0.85
+            ],
+            "el": "shadow"
+          },
+          "level": 0
+        },
+        {
+          "id": "I064",
+          "previewId": null,
+          "name": "Кусаригама",
+          "descriptionEnglish": "Dark steel sickle connected to a weighted metal ball by a chain, with small crimson highlights.",
+          "archetype": "kusari",
+          "options": {
+            "el": "blood",
+            "glowline": [
+              0.85,
+              0.15,
+              0.1
+            ]
+          },
+          "level": 0
+        },
+        {
+          "id": "I070",
+          "previewId": null,
+          "name": "Лук Дедала",
+          "descriptionEnglish": "Ornate bronze and gold bow, feathered wing ornaments, sky-blue details and a dark leather grip.",
+          "archetype": "bow",
+          "options": {
+            "type": "bow",
+            "limb": "bronze",
+            "metal": "gold",
+            "ornament": [
+              0.4,
+              0.8,
+              1.0
+            ],
+            "headmat": "gold",
+            "el": "holy",
+            "grip": "blackleather",
+            "wings": {
+              "kind": "tinted",
+              "rgb": [
+                0.82,
+                0.76,
+                0.55
+              ],
+              "finish": "matte",
+              "cloth": true
+            }
+          },
+          "level": 0
+        },
+        {
+          "id": "I09P",
+          "previewId": null,
+          "name": "Арбалет Головореза",
+          "descriptionEnglish": "Dark wooden crossbow with a black iron bow assembly, sharp spikes and a blood-red gem.",
+          "archetype": "bow",
+          "options": {
+            "type": "crossbow",
+            "limb": "darkwood",
+            "prod": "blackiron",
+            "spikes": true,
+            "el": "blood",
+            "gem": [
+              0.85,
+              0.1,
+              0.1
+            ],
+            "headmat": "darksteel"
+          },
+          "level": 0
+        },
+        {
+          "id": "I0AE",
+          "previewId": null,
+          "name": "Амулет Немезиды",
+          "descriptionEnglish": "Black iron eye-shaped pendant with a blood-red iris and a dark steel chain.",
+          "archetype": "pendant",
+          "options": {
+            "kind": "eye",
+            "mat": "blackiron",
+            "chain": "darksteel",
+            "el": "blood"
+          },
+          "level": 0
+        },
+        {
+          "id": "I049",
+          "previewId": null,
+          "name": "Шлем Рокового Лорда",
+          "descriptionEnglish": "Spiked black iron helmet, narrow slit visor, black horns and bright orange-red eyes.",
+          "archetype": "helm",
+          "options": {
+            "mat": "blackiron",
+            "trim": "darksteel",
+            "visor": "slit",
+            "horns": true,
+            "hmat": "blackiron",
+            "eye": [
+              1,
+              0.15,
+              0.1
+            ],
+            "spikes": true,
+            "el": "fire",
+            "rich": 0.9
+          },
+          "level": 0
+        },
+        {
+          "id": "I050",
+          "previewId": null,
+          "name": "Секира Хана",
+          "descriptionEnglish": "Heavy bearded iron axe, dark wooden haft, bronze trim, bone skull ornaments and notched edge.",
+          "archetype": "axe",
+          "options": {
+            "type": "beard",
+            "hmat": "iron",
+            "haft": "darkwood",
+            "trim": "bronze",
+            "skulls": 2,
+            "spike": true,
+            "notches": 2,
+            "sz": 1.1,
+            "rich": 0.7
+          },
+          "level": 0
+        },
+        {
+          "id": "I054",
+          "previewId": null,
+          "name": "Корона Злобы",
+          "descriptionEnglish": "Tall black iron crown with seven spiked points, sharp thorns and crimson jewels.",
+          "archetype": "crown",
+          "options": {
+            "mat": "blackiron",
+            "trim": "darksteel",
+            "tines": 7,
+            "tall": 34,
+            "gems": [
+              [
+                0.85,
+                0.08,
+                0.08
+              ],
+              [
+                0.85,
+                0.08,
+                0.08
+              ]
+            ],
+            "thorns": true,
+            "el": "blood",
+            "tipgem": [
+              0.8,
+              0.1,
+              0.1
+            ]
+          },
+          "level": 0
+        },
+        {
+          "id": "I05A",
+          "previewId": null,
+          "name": "Молот Гексли",
+          "descriptionEnglish": "Dark steel hammer with a pointed spike, shadow-purple runes and a heavy angular head.",
+          "archetype": "hammer",
+          "options": {
+            "hmat": "darksteel",
+            "spike": true,
+            "claw": false,
+            "el": "shadow",
+            "runes": true
+          },
+          "level": 0
+        },
+        {
+          "id": "I05D",
+          "previewId": null,
+          "name": "Амулет Вершителя",
+          "descriptionEnglish": "Dark steel sun-shaped pendant with a deep red gem and a dark chain.",
+          "archetype": "pendant",
+          "options": {
+            "kind": "sun",
+            "mat": "darksteel",
+            "chain": "darksteel",
+            "gem": [
+              0.85,
+              0.1,
+              0.1
+            ],
+            "el": "blood"
+          },
+          "level": 0
+        },
+        {
+          "id": "I0A7",
+          "previewId": null,
+          "name": "Меч Гоуцзяня",
+          "descriptionEnglish": "Ancient slender bronze-green sword, diamond-patterned blade, short golden guard, dark wood grip and disc pommel.",
+          "archetype": "sword",
+          "options": {
+            "bmat": "verdigris",
+            "diamonds": true,
+            "w": 3.8,
+            "tip": 0.14,
+            "taper": 0.05,
+            "gmat": "gold",
+            "guard": "flat",
+            "gspan": 7,
+            "gth": 2.0,
+            "pommel": "disc",
+            "pmat": "gold",
+            "grip": "darkwood",
+            "bl": 0.68,
+            "gl": 0.2,
+            "gem": [
+              0.2,
+              0.7,
+              0.65
+            ],
+            "gem_r": 1.8,
+            "el": "holy",
+            "rich": 0.9
+          },
+          "level": 0
+        },
+        {
+          "id": "I060",
+          "previewId": null,
+          "name": "Секира У-син",
+          "descriptionEnglish": "Large engraved bronze axe with five distinct decorative motifs and a weighty ancient silhouette.",
+          "archetype": "axe",
+          "options": {
+            "type": "great",
+            "five": true,
+            "hmat": "bronze",
+            "engrave": true
+          },
+          "level": 0
+        },
+        {
+          "id": "I08I",
+          "previewId": null,
+          "name": "Секира Дромандон",
+          "descriptionEnglish": "Large notched dark steel axe with a top spike, luminous poison-green edge and reinforced haft.",
+          "archetype": "axe",
+          "options": {
+            "type": "great",
+            "hmat": "darksteel",
+            "glowline": [
+              0.5,
+              0.9,
+              0.2
+            ],
+            "el": "poison",
+            "top_spike": true,
+            "notches": 2,
+            "sz": 1.15,
+            "rich": 0.8
+          },
+          "level": 0
+        },
+        null,
+        null
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "id": "I07N",
+      "sourceId": "I01U",
+      "level": 2
+    },
+    {
+      "id": "I03Y",
+      "sourceId": "I026",
+      "level": 2
+    },
+    {
+      "id": "I07P",
+      "sourceId": "I02N",
+      "level": 2
+    },
+    {
+      "id": "I00V",
+      "sourceId": "I00T",
+      "level": 2
+    },
+    {
+      "id": "I096",
+      "sourceId": "I045",
+      "level": 2
+    },
+    {
+      "id": "I07M",
+      "sourceId": "I01B",
+      "level": 2
+    },
+    {
+      "id": "I088",
+      "sourceId": "I085",
+      "level": 2
+    },
+    {
+      "id": "I03Z",
+      "sourceId": "I02E",
+      "level": 2
+    },
+    {
+      "id": "I07O",
+      "sourceId": "I07T",
+      "variant": {
+        "index": 0,
+        "name": "red-orange",
+        "glowColor": [
+          0.95,
+          0.22,
+          0.08
+        ],
+        "gemColor": [
+          0.9,
+          0.12,
+          0.1
+        ],
+        "pommel": "gem"
+      }
+    },
+    {
+      "id": "I087",
+      "sourceId": "I07T",
+      "variant": {
+        "index": 2,
+        "name": "violet",
+        "glowColor": [
+          0.72,
+          0.2,
+          0.95
+        ],
+        "gemColor": [
+          0.6,
+          0.12,
+          0.75
+        ],
+        "pommel": "gem"
+      }
+    },
+    {
+      "id": "I07C",
+      "sourceId": "I017",
+      "level": 2
+    },
+    {
+      "id": "I08U",
+      "sourceId": "I06J",
+      "level": 2
+    },
+    {
+      "id": "I05Q",
+      "sourceId": "I072",
+      "level": 2
+    }
+  ],
+  "recipes": [
+    {
+      "id": "I003",
+      "sourceId": "I001"
+    },
+    {
+      "id": "I00A",
+      "sourceId": "I009"
+    },
+    {
+      "id": "I00J",
+      "sourceId": "I00H"
+    },
+    {
+      "id": "I006",
+      "sourceId": "I005"
+    },
+    {
+      "id": "I00M",
+      "sourceId": "I00L"
+    },
+    {
+      "id": "I00G",
+      "sourceId": "I00F"
+    },
+    {
+      "id": "I0A5",
+      "sourceId": "I0A3"
+    },
+    {
+      "id": "I00D",
+      "sourceId": "I00B"
+    },
+    {
+      "id": "I016",
+      "sourceId": "I015"
+    },
+    {
+      "id": "I02O",
+      "sourceId": "I02P"
+    },
+    {
+      "id": "I012",
+      "sourceId": "I011"
+    },
+    {
+      "id": "I01V",
+      "sourceId": "I01U"
+    },
+    {
+      "id": "I0AC",
+      "sourceId": "I0AD"
+    },
+    {
+      "id": "I01T",
+      "sourceId": "I01B"
+    },
+    {
+      "id": "I027",
+      "sourceId": "I026"
+    },
+    {
+      "id": "I01O",
+      "sourceId": "I01N"
+    },
+    {
+      "id": "I09Z",
+      "sourceId": "I09X"
+    },
+    {
+      "id": "I058",
+      "sourceId": "I057"
+    },
+    {
+      "id": "I05J",
+      "sourceId": "I05I"
+    },
+    {
+      "id": "I02M",
+      "sourceId": "I02N"
+    },
+    {
+      "id": "I05M",
+      "sourceId": "I05E"
+    },
+    {
+      "id": "I07B",
+      "sourceId": "I07A"
+    },
+    {
+      "id": "I075",
+      "sourceId": "I04F"
+    },
+    {
+      "id": "I040",
+      "sourceId": "I042"
+    },
+    {
+      "id": "I00U",
+      "sourceId": "I00T"
+    },
+    {
+      "id": "I046",
+      "sourceId": "I048"
+    },
+    {
+      "id": "I00X",
+      "sourceId": "I00W"
+    },
+    {
+      "id": "I044",
+      "sourceId": "I045"
+    },
+    {
+      "id": "I08T",
+      "sourceId": "I08Q"
+    },
+    {
+      "id": "I02F",
+      "sourceId": "I02G"
+    },
+    {
+      "id": "I010",
+      "sourceId": "I00Z"
+    },
+    {
+      "id": "I02B",
+      "sourceId": "I02C"
+    },
+    {
+      "id": "I089",
+      "sourceId": "I085"
+    },
+    {
+      "id": "I05R",
+      "sourceId": "I04D"
+    },
+    {
+      "id": "I01X",
+      "sourceId": "I025"
+    },
+    {
+      "id": "I09C",
+      "sourceId": "I09A"
+    },
+    {
+      "id": "I02D",
+      "sourceId": "I02E"
+    },
+    {
+      "id": "I06W",
+      "sourceId": "I07T"
+    },
+    {
+      "id": "I03P",
+      "sourceId": "I03N"
+    },
+    {
+      "id": "I018",
+      "sourceId": "I017"
+    },
+    {
+      "id": "I02K",
+      "sourceId": "I02L"
+    },
+    {
+      "id": "I081",
+      "sourceId": "I07Y"
+    },
+    {
+      "id": "I01Q",
+      "sourceId": "I01P"
+    },
+    {
+      "id": "I08Z",
+      "sourceId": "I07U"
+    },
+    {
+      "id": "I03V",
+      "sourceId": "I03T"
+    },
+    {
+      "id": "I03Q",
+      "sourceId": "I03S"
+    },
+    {
+      "id": "I03X",
+      "sourceId": "I0AL"
+    },
+    {
+      "id": "I01G",
+      "sourceId": "I01F"
+    },
+    {
+      "id": "I063",
+      "sourceId": "I04B"
+    },
+    {
+      "id": "I028",
+      "sourceId": "I029"
+    },
+    {
+      "id": "I077",
+      "sourceId": "I076"
+    },
+    {
+      "id": "I01H",
+      "sourceId": "I01I"
+    },
+    {
+      "id": "I00Q",
+      "sourceId": "I00O"
+    },
+    {
+      "id": "I01S",
+      "sourceId": "I01R"
+    },
+    {
+      "id": "I0A9",
+      "sourceId": "I0A6"
+    },
+    {
+      "id": "I06T",
+      "sourceId": "I06R"
+    },
+    {
+      "id": "I092",
+      "sourceId": "I090"
+    },
+    {
+      "id": "I05V",
+      "sourceId": "I05Y"
+    },
+    {
+      "id": "I09W",
+      "sourceId": "I09U"
+    },
+    {
+      "id": "I09T",
+      "sourceId": "I09P"
+    },
+    {
+      "id": "I06V",
+      "sourceId": "I070"
+    },
+    {
+      "id": "I09K",
+      "sourceId": "I09L"
+    },
+    {
+      "id": "I09I",
+      "sourceId": "I09G"
+    },
+    {
+      "id": "I065",
+      "sourceId": "I064"
+    },
+    {
+      "id": "I086",
+      "sourceId": "I082"
+    },
+    {
+      "id": "I05L",
+      "sourceId": "I05K"
+    },
+    {
+      "id": "I08A",
+      "sourceId": "I08D"
+    },
+    {
+      "id": "I074",
+      "sourceId": "I072"
+    },
+    {
+      "id": "I0AG",
+      "sourceId": "I0AE"
+    },
+    {
+      "id": "I04Z",
+      "sourceId": "I049"
+    },
+    {
+      "id": "I055",
+      "sourceId": "I054"
+    },
+    {
+      "id": "I052",
+      "sourceId": "I050"
+    },
+    {
+      "id": "I05B",
+      "sourceId": "I05D"
+    },
+    {
+      "id": "I059",
+      "sourceId": "I05A"
+    },
+    {
+      "id": "I08X",
+      "sourceId": "I0A7"
+    },
+    {
+      "id": "I061",
+      "sourceId": "I060"
+    },
+    {
+      "id": "I08V",
+      "sourceId": "I08I"
+    },
+    {
+      "id": "I0AN",
+      "sourceId": "I0AP"
+    },
+    {
+      "id": "I014",
+      "sourceId": "I013"
+    },
+    {
+      "id": "I0AQ",
+      "sourceId": "I0AS"
+    },
+    {
+      "id": "I06L",
+      "sourceId": "I06J"
+    },
+    {
+      "id": "I0B3",
+      "sourceId": "I0AZ"
+    },
+    {
+      "id": "I05S",
+      "sourceId": "I05P"
+    },
+    {
+      "id": "I0B4",
+      "sourceId": "I0B0"
+    },
+    {
+      "id": "I0B5",
+      "sourceId": "I0B1"
+    },
+    {
+      "id": "I0B6",
+      "sourceId": "I0B2"
+    }
+  ]
+}
