@@ -1,0 +1,290 @@
+{
+  "concept_3quarter": {
+    "bbox": [
+      52,
+      66,
+      681,
+      630
+    ],
+    "width": 629,
+    "height": 564,
+    "aspect_ratio": 1.1152482269503545,
+    "fill_ratio": 0.5434411257314887,
+    "area_pixels": 192789
+  },
+  "concept_extraction": {
+    "source": "art\\concepts\\2026-10-09-hero-b-breakwater-source-v1.png",
+    "source_sha256": "18aa70d35d4b19362d325014af06de2041df1e9d72588722b963905de28f5401",
+    "method": "RGB Euclidean distance from least-squares spatial plane fitted to five fixed plain-background patches; threshold 32/255; landmark ROI excludes title/rule above helmet and floor shadow outside boots below 555/585/615 px; closing radius 2 pixels; components at least 1200 pixels; enclosed holes filled",
+    "limitations": "AI perspective; manual background/ROI selection; shadow contamination and armor similar to background; sensitivity 28/32/36 shown, not a 3D measurement",
+    "background_patches": [
+      [
+        45,
+        180,
+        175,
+        320
+      ],
+      [
+        45,
+        70,
+        250,
+        96
+      ],
+      [
+        696,
+        120,
+        745,
+        590
+      ],
+      [
+        100,
+        535,
+        190,
+        565
+      ],
+      [
+        55,
+        340,
+        155,
+        365
+      ]
+    ],
+    "sensitivity": {
+      "28": {
+        "bbox": [
+          52,
+          65,
+          681,
+          630
+        ],
+        "width": 629,
+        "height": 565,
+        "aspect_ratio": 1.1132743362831858,
+        "fill_ratio": 0.5451524403112118,
+        "area_pixels": 193739
+      },
+      "32": {
+        "bbox": [
+          52,
+          66,
+          681,
+          630
+        ],
+        "width": 629,
+        "height": 564,
+        "aspect_ratio": 1.1152482269503545,
+        "fill_ratio": 0.5434411257314887,
+        "area_pixels": 192789
+      },
+      "36": {
+        "bbox": [
+          52,
+          66,
+          681,
+          630
+        ],
+        "width": 629,
+        "height": 564,
+        "aspect_ratio": 1.1152482269503545,
+        "fill_ratio": 0.5421754670815997,
+        "area_pixels": 192340
+      }
+    }
+  },
+  "p2_3quarter": {
+    "bbox": [
+      322,
+      114,
+      730,
+      894
+    ],
+    "width": 408,
+    "height": 780,
+    "aspect_ratio": 0.5230769230769231,
+    "fill_ratio": 0.7080882352941177,
+    "area_pixels": 225342,
+    "relative_error_to_concept": {
+      "aspect_ratio": 0.530977130977131,
+      "fill_ratio": 0.30297138322207173
+    },
+    "within_12_percent": false
+  },
+  "p3_3quarter": {
+    "bbox": [
+      267,
+      125,
+      797,
+      896
+    ],
+    "width": 530,
+    "height": 771,
+    "aspect_ratio": 0.6874189364461738,
+    "fill_ratio": 0.6880087120377848,
+    "area_pixels": 281141,
+    "relative_error_to_concept": {
+      "aspect_ratio": 0.3836179965729061,
+      "fill_ratio": 0.26602253576540336
+    },
+    "within_12_percent": false
+  },
+  "method": "Same saved threshold concept mask and P3 silhouette_numbers: alpha >=128, tight bbox, width/height and binary area/bbox area. Same orthographic camera and 3.10 m scale; raster resolution differs only.",
+  "p4_3quarter": {
+    "bbox": [
+      350,
+      163,
+      1036,
+      1150
+    ],
+    "width": 686,
+    "height": 987,
+    "aspect_ratio": 0.6950354609929078,
+    "fill_ratio": 0.6265267722373361,
+    "area_pixels": 424210,
+    "relative_error_to_concept": {
+      "aspect_ratio": 0.3767885532591414,
+      "fill_ratio": 0.1528880362044951
+    },
+    "within_12_percent": false
+  },
+  "directions": {
+    "0": {
+      "bbox": [
+        886,
+        436,
+        1016,
+        558
+      ],
+      "width": 130,
+      "height": 122,
+      "aspect_ratio": 1.0655737704918034,
+      "fill_ratio": 0.6264817150063051,
+      "area_pixels": 9936,
+      "visible_sword_pixels": 738,
+      "sword_visible_fraction_of_hero": 0.07427536231884058
+    },
+    "45": {
+      "bbox": [
+        915,
+        425,
+        1035,
+        587
+      ],
+      "width": 120,
+      "height": 162,
+      "aspect_ratio": 0.7407407407407407,
+      "fill_ratio": 0.4984053497942387,
+      "area_pixels": 9689,
+      "visible_sword_pixels": 637,
+      "sword_visible_fraction_of_hero": 0.06574465889152648
+    },
+    "90": {
+      "bbox": [
+        938,
+        423,
+        1014,
+        587
+      ],
+      "width": 76,
+      "height": 164,
+      "aspect_ratio": 0.4634146341463415,
+      "fill_ratio": 0.5428433889602053,
+      "area_pixels": 6766,
+      "visible_sword_pixels": 387,
+      "sword_visible_fraction_of_hero": 0.0571977534732486
+    },
+    "135": {
+      "bbox": [
+        916,
+        410,
+        1033,
+        559
+      ],
+      "width": 117,
+      "height": 149,
+      "aspect_ratio": 0.785234899328859,
+      "fill_ratio": 0.4267768026157288,
+      "area_pixels": 7440,
+      "visible_sword_pixels": 292,
+      "sword_visible_fraction_of_hero": 0.03924731182795699
+    },
+    "180": {
+      "bbox": [
+        906,
+        423,
+        1032,
+        551
+      ],
+      "width": 126,
+      "height": 128,
+      "aspect_ratio": 0.984375,
+      "fill_ratio": 0.5027281746031746,
+      "area_pixels": 8108,
+      "visible_sword_pixels": 284,
+      "sword_visible_fraction_of_hero": 0.03502713369511593
+    },
+    "225": {
+      "bbox": [
+        885,
+        423,
+        1004,
+        559
+      ],
+      "width": 119,
+      "height": 136,
+      "aspect_ratio": 0.875,
+      "fill_ratio": 0.5211319822046465,
+      "area_pixels": 8434,
+      "visible_sword_pixels": 34,
+      "sword_visible_fraction_of_hero": 0.004031301873369694
+    },
+    "270": {
+      "bbox": [
+        904,
+        422,
+        982,
+        562
+      ],
+      "width": 78,
+      "height": 140,
+      "aspect_ratio": 0.5571428571428572,
+      "fill_ratio": 0.6011904761904762,
+      "area_pixels": 6565,
+      "visible_sword_pixels": 66,
+      "sword_visible_fraction_of_hero": 0.010053313023610053
+    },
+    "315": {
+      "bbox": [
+        888,
+        424,
+        1004,
+        562
+      ],
+      "width": 116,
+      "height": 138,
+      "aspect_ratio": 0.8405797101449275,
+      "fill_ratio": 0.49387806096951525,
+      "area_pixels": 7906,
+      "visible_sword_pixels": 561,
+      "sword_visible_fraction_of_hero": 0.0709587654945611
+    }
+  },
+  "worst_directions_degrees": [
+    225,
+    270
+  ],
+  "worst_selection": "Two lowest visible sword pixel fractions in actual occluded object-ID renders, followed by visual review. Shield edge-on weakness is also shown by all eight silhouettes.",
+  "normalization": "110/135/160 px tiles rescale the full equipment bbox to requested height. Mock uses original projected pixels without resizing.",
+  "body_game_045": {
+    "bbox": [
+      915,
+      424,
+      1008,
+      563
+    ],
+    "width": 93,
+    "height": 139,
+    "aspect_ratio": 0.6690647482014388,
+    "fill_ratio": 0.5674170341146437,
+    "area_pixels": 7335
+  }
+}

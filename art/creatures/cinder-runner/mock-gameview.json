@@ -1,0 +1,66 @@
+{
+  "source": ".local\\codex-tasks\\ow2-arena\\shots\\final-arena-1920x1080.png",
+  "source_sha256": "e8dcae2eb648de065e832c54b577aee877f130326139e0f0651d20bfe62f54fb",
+  "source_contains_old_hero": true,
+  "label": "MOCK-UP",
+  "not_unity_screenshot": true,
+  "placements": [
+    {
+      "label": "\u0413\u0435\u0440\u043e\u0439 P4",
+      "source": "art\\heroes\\breakwater\\p4\\renders\\game-045.png",
+      "bbox": [
+        915,
+        425,
+        1035,
+        587
+      ],
+      "placement": [
+        530,
+        478
+      ],
+      "native_size": [
+        120,
+        162
+      ],
+      "resized": false
+    },
+    {
+      "label": "R1",
+      "source": "art\\creatures\\cinder-runner\\renders\\game-045.png",
+      "bbox": [
+        912,
+        462,
+        1000,
+        584
+      ],
+      "placement": [
+        776,
+        513
+      ],
+      "native_size": [
+        88,
+        122
+      ],
+      "resized": false
+    },
+    {
+      "label": "R1 225\u00b0",
+      "source": "art\\creatures\\cinder-runner\\renders\\game-225.png",
+      "bbox": [
+        919,
+        440,
+        1006,
+        551
+      ],
+      "placement": [
+        1137,
+        604
+      ],
+      "native_size": [
+        87,
+        111
+      ],
+      "resized": false
+    }
+  ]
+}

@@ -1,0 +1,1168 @@
+{
+  "method": "Blender flat material ID, alpha>=128, nearest RGB category, all visible geometry including equipment. Display and source Idle frame1 per8directions. Actual arena data is authoritative Unity-ID: same ArenaActor, camera and frozen Idle phase0.01. FBX axis transform measured as Blender(x,y,z)->Unity(-x,z,-y), so hero yaw145.196 corresponds to Blender camera-relative34.804. The old325.201 conversion was mirrored and rejected.",
+  "P4_display": {
+    "0": {
+      "pixels": {
+        "white": 7130,
+        "navy": 667,
+        "steel": 1510,
+        "dark": 171,
+        "cyan": 162,
+        "bronze": 296,
+        "visible_total": 9936
+      },
+      "percent": {
+        "white": 71.759,
+        "navy": 6.713,
+        "steel": 15.197,
+        "dark": 1.721,
+        "cyan": 1.63,
+        "bronze": 2.979
+      },
+      "left_leg_visible": 2,
+      "left_leg_without_shield": 741,
+      "shield_left_leg_cover_percent": 99.73
+    },
+    "45": {
+      "pixels": {
+        "white": 7169,
+        "navy": 533,
+        "steel": 1213,
+        "dark": 307,
+        "cyan": 109,
+        "bronze": 358,
+        "visible_total": 9689
+      },
+      "percent": {
+        "white": 73.991,
+        "navy": 5.501,
+        "steel": 12.519,
+        "dark": 3.169,
+        "cyan": 1.125,
+        "bronze": 3.695
+      },
+      "left_leg_visible": 216,
+      "left_leg_without_shield": 641,
+      "shield_left_leg_cover_percent": 66.303
+    },
+    "90": {
+      "pixels": {
+        "white": 5196,
+        "navy": 293,
+        "steel": 760,
+        "dark": 290,
+        "cyan": 11,
+        "bronze": 216,
+        "visible_total": 6766
+      },
+      "percent": {
+        "white": 76.796,
+        "navy": 4.33,
+        "steel": 11.233,
+        "dark": 4.286,
+        "cyan": 0.163,
+        "bronze": 3.192
+      },
+      "left_leg_visible": 63,
+      "left_leg_without_shield": 72,
+      "shield_left_leg_cover_percent": 12.5
+    },
+    "135": {
+      "pixels": {
+        "white": 5914,
+        "navy": 663,
+        "steel": 581,
+        "dark": 196,
+        "cyan": 5,
+        "bronze": 81,
+        "visible_total": 7440
+      },
+      "percent": {
+        "white": 79.489,
+        "navy": 8.911,
+        "steel": 7.809,
+        "dark": 2.634,
+        "cyan": 0.067,
+        "bronze": 1.089
+      },
+      "left_leg_visible": 482,
+      "left_leg_without_shield": 482,
+      "shield_left_leg_cover_percent": 0.0
+    },
+    "180": {
+      "pixels": {
+        "white": 6170,
+        "navy": 864,
+        "steel": 646,
+        "dark": 295,
+        "cyan": 13,
+        "bronze": 120,
+        "visible_total": 8108
+      },
+      "percent": {
+        "white": 76.098,
+        "navy": 10.656,
+        "steel": 7.967,
+        "dark": 3.638,
+        "cyan": 0.16,
+        "bronze": 1.48
+      },
+      "left_leg_visible": 789,
+      "left_leg_without_shield": 795,
+      "shield_left_leg_cover_percent": 0.755
+    },
+    "225": {
+      "pixels": {
+        "white": 6919,
+        "navy": 633,
+        "steel": 355,
+        "dark": 409,
+        "cyan": 9,
+        "bronze": 109,
+        "visible_total": 8434
+      },
+      "percent": {
+        "white": 82.037,
+        "navy": 7.505,
+        "steel": 4.209,
+        "dark": 4.849,
+        "cyan": 0.107,
+        "bronze": 1.292
+      },
+      "left_leg_visible": 1067,
+      "left_leg_without_shield": 1086,
+      "shield_left_leg_cover_percent": 1.75
+    },
+    "270": {
+      "pixels": {
+        "white": 5356,
+        "navy": 243,
+        "steel": 343,
+        "dark": 488,
+        "cyan": 3,
+        "bronze": 132,
+        "visible_total": 6565
+      },
+      "percent": {
+        "white": 81.584,
+        "navy": 3.701,
+        "steel": 5.225,
+        "dark": 7.433,
+        "cyan": 0.046,
+        "bronze": 2.011
+      },
+      "left_leg_visible": 1201,
+      "left_leg_without_shield": 1203,
+      "shield_left_leg_cover_percent": 0.166
+    },
+    "315": {
+      "pixels": {
+        "white": 5951,
+        "navy": 334,
+        "steel": 1051,
+        "dark": 229,
+        "cyan": 105,
+        "bronze": 236,
+        "visible_total": 7906
+      },
+      "percent": {
+        "white": 75.272,
+        "navy": 4.225,
+        "steel": 13.294,
+        "dark": 2.897,
+        "cyan": 1.328,
+        "bronze": 2.985
+      },
+      "left_leg_visible": 677,
+      "left_leg_without_shield": 886,
+      "shield_left_leg_cover_percent": 23.589
+    }
+  },
+  "P5_display": {
+    "0": {
+      "pixels": {
+        "white": 3620,
+        "navy": 2517,
+        "steel": 2534,
+        "dark": 511,
+        "cyan": 235,
+        "bronze": 257,
+        "visible_total": 9674
+      },
+      "percent": {
+        "white": 37.42,
+        "navy": 26.018,
+        "steel": 26.194,
+        "dark": 5.282,
+        "cyan": 2.429,
+        "bronze": 2.657
+      },
+      "left_leg_visible": 121,
+      "left_leg_without_shield": 833,
+      "shield_left_leg_cover_percent": 85.474
+    },
+    "45": {
+      "pixels": {
+        "white": 3741,
+        "navy": 2072,
+        "steel": 2391,
+        "dark": 503,
+        "cyan": 200,
+        "bronze": 308,
+        "visible_total": 9215
+      },
+      "percent": {
+        "white": 40.597,
+        "navy": 22.485,
+        "steel": 25.947,
+        "dark": 5.458,
+        "cyan": 2.17,
+        "bronze": 3.342
+      },
+      "left_leg_visible": 404,
+      "left_leg_without_shield": 657,
+      "shield_left_leg_cover_percent": 38.508
+    },
+    "90": {
+      "pixels": {
+        "white": 2797,
+        "navy": 1661,
+        "steel": 1536,
+        "dark": 404,
+        "cyan": 103,
+        "bronze": 195,
+        "visible_total": 6696
+      },
+      "percent": {
+        "white": 41.771,
+        "navy": 24.806,
+        "steel": 22.939,
+        "dark": 6.033,
+        "cyan": 1.538,
+        "bronze": 2.912
+      },
+      "left_leg_visible": 71,
+      "left_leg_without_shield": 73,
+      "shield_left_leg_cover_percent": 2.74
+    },
+    "135": {
+      "pixels": {
+        "white": 3059,
+        "navy": 2542,
+        "steel": 1031,
+        "dark": 331,
+        "cyan": 46,
+        "bronze": 117,
+        "visible_total": 7126
+      },
+      "percent": {
+        "white": 42.927,
+        "navy": 35.672,
+        "steel": 14.468,
+        "dark": 4.645,
+        "cyan": 0.646,
+        "bronze": 1.642
+      },
+      "left_leg_visible": 482,
+      "left_leg_without_shield": 482,
+      "shield_left_leg_cover_percent": 0.0
+    },
+    "180": {
+      "pixels": {
+        "white": 3484,
+        "navy": 2917,
+        "steel": 799,
+        "dark": 584,
+        "cyan": 56,
+        "bronze": 115,
+        "visible_total": 7955
+      },
+      "percent": {
+        "white": 43.796,
+        "navy": 36.669,
+        "steel": 10.044,
+        "dark": 7.341,
+        "cyan": 0.704,
+        "bronze": 1.446
+      },
+      "left_leg_visible": 782,
+      "left_leg_without_shield": 795,
+      "shield_left_leg_cover_percent": 1.635
+    },
+    "225": {
+      "pixels": {
+        "white": 4004,
+        "navy": 2500,
+        "steel": 838,
+        "dark": 653,
+        "cyan": 43,
+        "bronze": 139,
+        "visible_total": 8177
+      },
+      "percent": {
+        "white": 48.967,
+        "navy": 30.574,
+        "steel": 10.248,
+        "dark": 7.986,
+        "cyan": 0.526,
+        "bronze": 1.7
+      },
+      "left_leg_visible": 1072,
+      "left_leg_without_shield": 1086,
+      "shield_left_leg_cover_percent": 1.289
+    },
+    "270": {
+      "pixels": {
+        "white": 2940,
+        "navy": 1636,
+        "steel": 1075,
+        "dark": 498,
+        "cyan": 72,
+        "bronze": 123,
+        "visible_total": 6344
+      },
+      "percent": {
+        "white": 46.343,
+        "navy": 25.788,
+        "steel": 16.945,
+        "dark": 7.85,
+        "cyan": 1.135,
+        "bronze": 1.939
+      },
+      "left_leg_visible": 1196,
+      "left_leg_without_shield": 1201,
+      "shield_left_leg_cover_percent": 0.416
+    },
+    "315": {
+      "pixels": {
+        "white": 2694,
+        "navy": 1969,
+        "steel": 2129,
+        "dark": 565,
+        "cyan": 171,
+        "bronze": 237,
+        "visible_total": 7765
+      },
+      "percent": {
+        "white": 34.694,
+        "navy": 25.357,
+        "steel": 27.418,
+        "dark": 7.276,
+        "cyan": 2.202,
+        "bronze": 3.052
+      },
+      "left_leg_visible": 428,
+      "left_leg_without_shield": 828,
+      "shield_left_leg_cover_percent": 48.309
+    }
+  },
+  "P4_Idle": {
+    "0": {
+      "pixels": {
+        "white": 7116,
+        "navy": 706,
+        "steel": 1722,
+        "dark": 273,
+        "cyan": 291,
+        "bronze": 419,
+        "visible_total": 10527
+      },
+      "percent": {
+        "white": 67.598,
+        "navy": 6.707,
+        "steel": 16.358,
+        "dark": 2.593,
+        "cyan": 2.764,
+        "bronze": 3.98
+      },
+      "left_leg_visible": 2,
+      "left_leg_without_shield": 734,
+      "shield_left_leg_cover_percent": 99.728
+    },
+    "45": {
+      "pixels": {
+        "white": 7020,
+        "navy": 701,
+        "steel": 1263,
+        "dark": 280,
+        "cyan": 212,
+        "bronze": 352,
+        "visible_total": 9828
+      },
+      "percent": {
+        "white": 71.429,
+        "navy": 7.133,
+        "steel": 12.851,
+        "dark": 2.849,
+        "cyan": 2.157,
+        "bronze": 3.582
+      },
+      "left_leg_visible": 426,
+      "left_leg_without_shield": 426,
+      "shield_left_leg_cover_percent": 0.0
+    },
+    "90": {
+      "pixels": {
+        "white": 5586,
+        "navy": 767,
+        "steel": 743,
+        "dark": 232,
+        "cyan": 40,
+        "bronze": 162,
+        "visible_total": 7530
+      },
+      "percent": {
+        "white": 74.183,
+        "navy": 10.186,
+        "steel": 9.867,
+        "dark": 3.081,
+        "cyan": 0.531,
+        "bronze": 2.151
+      },
+      "left_leg_visible": 45,
+      "left_leg_without_shield": 45,
+      "shield_left_leg_cover_percent": 0.0
+    },
+    "135": {
+      "pixels": {
+        "white": 5201,
+        "navy": 1010,
+        "steel": 361,
+        "dark": 239,
+        "cyan": 16,
+        "bronze": 86,
+        "visible_total": 6913
+      },
+      "percent": {
+        "white": 75.235,
+        "navy": 14.61,
+        "steel": 5.222,
+        "dark": 3.457,
+        "cyan": 0.231,
+        "bronze": 1.244
+      },
+      "left_leg_visible": 550,
+      "left_leg_without_shield": 550,
+      "shield_left_leg_cover_percent": 0.0
+    },
+    "180": {
+      "pixels": {
+        "white": 5559,
+        "navy": 1066,
+        "steel": 362,
+        "dark": 258,
+        "cyan": 15,
+        "bronze": 91,
+        "visible_total": 7351
+      },
+      "percent": {
+        "white": 75.622,
+        "navy": 14.501,
+        "steel": 4.925,
+        "dark": 3.51,
+        "cyan": 0.204,
+        "bronze": 1.238
+      },
+      "left_leg_visible": 808,
+      "left_leg_without_shield": 808,
+      "shield_left_leg_cover_percent": 0.0
+    },
+    "225": {
+      "pixels": {
+        "white": 5250,
+        "navy": 925,
+        "steel": 573,
+        "dark": 328,
+        "cyan": 14,
+        "bronze": 134,
+        "visible_total": 7224
+      },
+      "percent": {
+        "white": 72.674,
+        "navy": 12.805,
+        "steel": 7.932,
+        "dark": 4.54,
+        "cyan": 0.194,
+        "bronze": 1.855
+      },
+      "left_leg_visible": 954,
+      "left_leg_without_shield": 954,
+      "shield_left_leg_cover_percent": 0.0
+    },
+    "270": {
+      "pixels": {
+        "white": 5087,
+        "navy": 608,
+        "steel": 1426,
+        "dark": 244,
+        "cyan": 156,
+        "bronze": 212,
+        "visible_total": 7733
+      },
+      "percent": {
+        "white": 65.783,
+        "navy": 7.862,
+        "steel": 18.44,
+        "dark": 3.155,
+        "cyan": 2.017,
+        "bronze": 2.741
+      },
+      "left_leg_visible": 913,
+      "left_leg_without_shield": 913,
+      "shield_left_leg_cover_percent": 0.0
+    },
+    "315": {
+      "pixels": {
+        "white": 6212,
+        "navy": 511,
+        "steel": 1712,
+        "dark": 154,
+        "cyan": 286,
+        "bronze": 341,
+        "visible_total": 9216
+      },
+      "percent": {
+        "white": 67.405,
+        "navy": 5.545,
+        "steel": 18.576,
+        "dark": 1.671,
+        "cyan": 3.103,
+        "bronze": 3.7
+      },
+      "left_leg_visible": 412,
+      "left_leg_without_shield": 897,
+      "shield_left_leg_cover_percent": 54.069
+    }
+  },
+  "P5_Idle": {
+    "0": {
+      "pixels": {
+        "white": 4162,
+        "navy": 1905,
+        "steel": 2792,
+        "dark": 633,
+        "cyan": 295,
+        "bronze": 274,
+        "visible_total": 10061
+      },
+      "percent": {
+        "white": 41.368,
+        "navy": 18.934,
+        "steel": 27.751,
+        "dark": 6.292,
+        "cyan": 2.932,
+        "bronze": 2.723
+      },
+      "left_leg_visible": 508,
+      "left_leg_without_shield": 736,
+      "shield_left_leg_cover_percent": 30.978
+    },
+    "45": {
+      "pixels": {
+        "white": 3996,
+        "navy": 1495,
+        "steel": 2376,
+        "dark": 464,
+        "cyan": 212,
+        "bronze": 241,
+        "visible_total": 8784
+      },
+      "percent": {
+        "white": 45.492,
+        "navy": 17.02,
+        "steel": 27.049,
+        "dark": 5.282,
+        "cyan": 2.413,
+        "bronze": 2.744
+      },
+      "left_leg_visible": 357,
+      "left_leg_without_shield": 357,
+      "shield_left_leg_cover_percent": 0.0
+    },
+    "90": {
+      "pixels": {
+        "white": 3436,
+        "navy": 1285,
+        "steel": 1336,
+        "dark": 382,
+        "cyan": 81,
+        "bronze": 181,
+        "visible_total": 6701
+      },
+      "percent": {
+        "white": 51.276,
+        "navy": 19.176,
+        "steel": 19.937,
+        "dark": 5.701,
+        "cyan": 1.209,
+        "bronze": 2.701
+      },
+      "left_leg_visible": 42,
+      "left_leg_without_shield": 42,
+      "shield_left_leg_cover_percent": 0.0
+    },
+    "135": {
+      "pixels": {
+        "white": 3765,
+        "navy": 2059,
+        "steel": 747,
+        "dark": 354,
+        "cyan": 43,
+        "bronze": 101,
+        "visible_total": 7069
+      },
+      "percent": {
+        "white": 53.261,
+        "navy": 29.127,
+        "steel": 10.567,
+        "dark": 5.008,
+        "cyan": 0.608,
+        "bronze": 1.429
+      },
+      "left_leg_visible": 551,
+      "left_leg_without_shield": 551,
+      "shield_left_leg_cover_percent": 0.0
+    },
+    "180": {
+      "pixels": {
+        "white": 4266,
+        "navy": 2415,
+        "steel": 582,
+        "dark": 456,
+        "cyan": 60,
+        "bronze": 154,
+        "visible_total": 7933
+      },
+      "percent": {
+        "white": 53.775,
+        "navy": 30.442,
+        "steel": 7.336,
+        "dark": 5.748,
+        "cyan": 0.756,
+        "bronze": 1.941
+      },
+      "left_leg_visible": 802,
+      "left_leg_without_shield": 808,
+      "shield_left_leg_cover_percent": 0.743
+    },
+    "225": {
+      "pixels": {
+        "white": 4778,
+        "navy": 1999,
+        "steel": 924,
+        "dark": 789,
+        "cyan": 73,
+        "bronze": 138,
+        "visible_total": 8701
+      },
+      "percent": {
+        "white": 54.913,
+        "navy": 22.974,
+        "steel": 10.619,
+        "dark": 9.068,
+        "cyan": 0.839,
+        "bronze": 1.586
+      },
+      "left_leg_visible": 951,
+      "left_leg_without_shield": 951,
+      "shield_left_leg_cover_percent": 0.0
+    },
+    "270": {
+      "pixels": {
+        "white": 3311,
+        "navy": 1119,
+        "steel": 2364,
+        "dark": 907,
+        "cyan": 151,
+        "bronze": 174,
+        "visible_total": 8026
+      },
+      "percent": {
+        "white": 41.253,
+        "navy": 13.942,
+        "steel": 29.454,
+        "dark": 11.301,
+        "cyan": 1.881,
+        "bronze": 2.168
+      },
+      "left_leg_visible": 914,
+      "left_leg_without_shield": 914,
+      "shield_left_leg_cover_percent": 0.0
+    },
+    "315": {
+      "pixels": {
+        "white": 3469,
+        "navy": 1449,
+        "steel": 2830,
+        "dark": 716,
+        "cyan": 264,
+        "bronze": 201,
+        "visible_total": 8929
+      },
+      "percent": {
+        "white": 38.851,
+        "navy": 16.228,
+        "steel": 31.694,
+        "dark": 8.019,
+        "cyan": 2.957,
+        "bronze": 2.251
+      },
+      "left_leg_visible": 211,
+      "left_leg_without_shield": 896,
+      "shield_left_leg_cover_percent": 76.451
+    }
+  },
+  "P4_UnityIdle": {
+    "0": {
+      "percent": {
+        "white": 73.4,
+        "navy": 8.305,
+        "steel": 15.205,
+        "dark": 0.866,
+        "cyan": 1.973,
+        "bronze": 0.25
+      },
+      "visible_pixels": 10391,
+      "left_leg_visible": 457,
+      "left_leg_without_shield": 464,
+      "shield_left_leg_cover_percent": 1.509,
+      "image_sha256": "aa5d3492968f526219dbf6fc8a88719bd415566996cb512f7f40a58d7d6b5266",
+      "camera": {
+        "direction": 0,
+        "heroYaw": 145.196,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    },
+    "45": {
+      "percent": {
+        "white": 70.865,
+        "navy": 7.081,
+        "steel": 18.872,
+        "dark": 0.258,
+        "cyan": 2.618,
+        "bronze": 0.306
+      },
+      "visible_pixels": 10465,
+      "left_leg_visible": 0,
+      "left_leg_without_shield": 774,
+      "shield_left_leg_cover_percent": 100.0,
+      "image_sha256": "8dc4882cda34434eac55e0f807c5f03b0e24cb0506cf356591f78665aa0f16d4",
+      "camera": {
+        "direction": 45,
+        "heroYaw": 190.195984,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    },
+    "90": {
+      "percent": {
+        "white": 69.945,
+        "navy": 5.946,
+        "steel": 21.052,
+        "dark": 0.303,
+        "cyan": 2.529,
+        "bronze": 0.225
+      },
+      "visible_pixels": 8897,
+      "left_leg_visible": 593,
+      "left_leg_without_shield": 890,
+      "shield_left_leg_cover_percent": 33.371,
+      "image_sha256": "0d60841ca897886fe53288265ca02f7d840aef787532f1f40480984963fbb529",
+      "camera": {
+        "direction": 90,
+        "heroYaw": 235.195984,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    },
+    "135": {
+      "percent": {
+        "white": 67.68,
+        "navy": 9.821,
+        "steel": 19.431,
+        "dark": 1.856,
+        "cyan": 1.211,
+        "bronze": 0.0
+      },
+      "visible_pixels": 7596,
+      "left_leg_visible": 945,
+      "left_leg_without_shield": 945,
+      "shield_left_leg_cover_percent": 0.0,
+      "image_sha256": "beae8fb28bb335c971b249c3ac65987c7272c5df395a4f7589247674f59c1f93",
+      "camera": {
+        "direction": 135,
+        "heroYaw": 280.195984,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    },
+    "180": {
+      "percent": {
+        "white": 76.448,
+        "navy": 14.605,
+        "steel": 7.066,
+        "dark": 1.881,
+        "cyan": 0.0,
+        "bronze": 0.0
+      },
+      "visible_pixels": 7388,
+      "left_leg_visible": 922,
+      "left_leg_without_shield": 922,
+      "shield_left_leg_cover_percent": 0.0,
+      "image_sha256": "512688086207be89bc623365e228cdd6de518e3546eb4ad131452c27d322efe8",
+      "camera": {
+        "direction": 180,
+        "heroYaw": 325.195984,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    },
+    "225": {
+      "percent": {
+        "white": 77.191,
+        "navy": 16.612,
+        "steel": 5.624,
+        "dark": 0.573,
+        "cyan": 0.0,
+        "bronze": 0.0
+      },
+      "visible_pixels": 7326,
+      "left_leg_visible": 764,
+      "left_leg_without_shield": 764,
+      "shield_left_leg_cover_percent": 0.0,
+      "image_sha256": "b609db91eb6fcd0b6fa247e8f7eacee7b32c8d87820481c41ffbe29f626280b7",
+      "camera": {
+        "direction": 225,
+        "heroYaw": 10.1959858,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    },
+    "270": {
+      "percent": {
+        "white": 77.281,
+        "navy": 14.752,
+        "steel": 7.13,
+        "dark": 0.779,
+        "cyan": 0.058,
+        "bronze": 0.0
+      },
+      "visible_pixels": 6928,
+      "left_leg_visible": 426,
+      "left_leg_without_shield": 426,
+      "shield_left_leg_cover_percent": 0.0,
+      "image_sha256": "f3ebddad1a01c9a74d2352b97aab3e8060b028ab6e29c45b330dcf548a56b445",
+      "camera": {
+        "direction": 270,
+        "heroYaw": 55.19599,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    },
+    "315": {
+      "percent": {
+        "white": 74.578,
+        "navy": 10.204,
+        "steel": 12.913,
+        "dark": 1.222,
+        "cyan": 0.92,
+        "bronze": 0.164
+      },
+      "visible_pixels": 7938,
+      "left_leg_visible": 59,
+      "left_leg_without_shield": 59,
+      "shield_left_leg_cover_percent": 0.0,
+      "image_sha256": "252b267a7b25e19b075b528a393215e144f14cec7cfc6c84fc451b89ee3f517a",
+      "camera": {
+        "direction": 315,
+        "heroYaw": 100.195984,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    }
+  },
+  "P5_UnityIdle": {
+    "0": {
+      "percent": {
+        "white": 44.355,
+        "navy": 22.215,
+        "steel": 25.557,
+        "dark": 6.684,
+        "cyan": 0.91,
+        "bronze": 0.278
+      },
+      "visible_pixels": 9336,
+      "left_leg_visible": 382,
+      "left_leg_without_shield": 382,
+      "shield_left_leg_cover_percent": 0.0,
+      "image_sha256": "cb3b75b78e2afe2aa94ab4895b2b290fa657363f28001d5e2c2bbdcc2b75f3fe",
+      "camera": {
+        "direction": 0,
+        "heroYaw": 145.196,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    },
+    "45": {
+      "percent": {
+        "white": 41.4,
+        "navy": 22.926,
+        "steel": 26.021,
+        "dark": 8.041,
+        "cyan": 1.296,
+        "bronze": 0.316
+      },
+      "visible_pixels": 10111,
+      "left_leg_visible": 355,
+      "left_leg_without_shield": 774,
+      "shield_left_leg_cover_percent": 54.134,
+      "image_sha256": "8b442cb92d7c7576d702908d88a45d15f40ac9342b48357686d9f92c3760f9b3",
+      "camera": {
+        "direction": 45,
+        "heroYaw": 190.195984,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    },
+    "90": {
+      "percent": {
+        "white": 38.026,
+        "navy": 19.797,
+        "steel": 28.847,
+        "dark": 11.869,
+        "cyan": 1.181,
+        "bronze": 0.281
+      },
+      "visible_pixels": 8552,
+      "left_leg_visible": 522,
+      "left_leg_without_shield": 890,
+      "shield_left_leg_cover_percent": 41.348,
+      "image_sha256": "844544127b1f569a5e6578511dc174e24bb30968af867303e7e8d7a59d82b056",
+      "camera": {
+        "direction": 90,
+        "heroYaw": 235.195984,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    },
+    "135": {
+      "percent": {
+        "white": 45.427,
+        "navy": 19.396,
+        "steel": 22.331,
+        "dark": 12.773,
+        "cyan": 0.073,
+        "bronze": 0.0
+      },
+      "visible_pixels": 8244,
+      "left_leg_visible": 945,
+      "left_leg_without_shield": 945,
+      "shield_left_leg_cover_percent": 0.0,
+      "image_sha256": "2a52c5677af2ca8df64d6b7874752d125b1dd2c5f2a924de009f435c63e06e88",
+      "camera": {
+        "direction": 135,
+        "heroYaw": 280.195984,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    },
+    "180": {
+      "percent": {
+        "white": 56.147,
+        "navy": 28.321,
+        "steel": 10.228,
+        "dark": 5.304,
+        "cyan": 0.0,
+        "bronze": 0.0
+      },
+      "visible_pixels": 8711,
+      "left_leg_visible": 922,
+      "left_leg_without_shield": 922,
+      "shield_left_leg_cover_percent": 0.0,
+      "image_sha256": "436a95dd157dda2506a90e4a395b046bc9f429b38d547687b8b9c62c2e5ef38c",
+      "camera": {
+        "direction": 180,
+        "heroYaw": 325.195984,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    },
+    "225": {
+      "percent": {
+        "white": 53.907,
+        "navy": 36.165,
+        "steel": 8.549,
+        "dark": 1.379,
+        "cyan": 0.0,
+        "bronze": 0.0
+      },
+      "visible_pixels": 7615,
+      "left_leg_visible": 764,
+      "left_leg_without_shield": 764,
+      "shield_left_leg_cover_percent": 0.0,
+      "image_sha256": "c61b6375c5dbdd3e0143e69a8d58ca6900bba16dac39879ad219bb624c141970",
+      "camera": {
+        "direction": 225,
+        "heroYaw": 10.1959858,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    },
+    "270": {
+      "percent": {
+        "white": 53.013,
+        "navy": 32.358,
+        "steel": 12.978,
+        "dark": 1.651,
+        "cyan": 0.0,
+        "bronze": 0.0
+      },
+      "visible_pixels": 6904,
+      "left_leg_visible": 426,
+      "left_leg_without_shield": 426,
+      "shield_left_leg_cover_percent": 0.0,
+      "image_sha256": "e6cbb417f620919b6088c57b457df2f8d7b7d7e4962cf00b91349f59d395b1c3",
+      "camera": {
+        "direction": 270,
+        "heroYaw": 55.19599,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    },
+    "315": {
+      "percent": {
+        "white": 48.834,
+        "navy": 23.071,
+        "steel": 22.456,
+        "dark": 5.353,
+        "cyan": 0.143,
+        "bronze": 0.143
+      },
+      "visible_pixels": 6987,
+      "left_leg_visible": 59,
+      "left_leg_without_shield": 59,
+      "shield_left_leg_cover_percent": 0.0,
+      "image_sha256": "470c888933884398a38e1366b79dc8cb3a6469104a552ec6a93977dcf3e479cc",
+      "camera": {
+        "direction": 315,
+        "heroYaw": 100.195984,
+        "phase": 0.01,
+        "width": 1920,
+        "height": 1080,
+        "cameraPosition": [
+          2.109375,
+          16.6228065,
+          5.00033474
+        ],
+        "fov": 45.0
+      }
+    }
+  },
+  "native_ID_method": "Actual Unity ArenaActor in real Arena at frozen Idle phase0.01, original camera transform/FOV/aspect, RT1920x1080. Temporary Unlit material IDs, postprocessing/fog/shadows off, layer31 isolates own meshes, all restored, scene reloaded without save. 8 actor rotations relative to native Idle. Left leg is all *_L anatomical leg/foot meshes. Shield-only occlusion is loss of visible leg pixels when shield is enabled relative to same pose with shield disabled. Body self-occlusion retained. First camera/skin render warmed and original direction repeated after full loop; all ID renders validated nonempty."
+}

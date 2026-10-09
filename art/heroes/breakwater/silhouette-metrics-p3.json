@@ -1,0 +1,241 @@
+{
+  "concept_3quarter": {
+    "bbox": [
+      52,
+      66,
+      681,
+      630
+    ],
+    "width": 629,
+    "height": 564,
+    "aspect_ratio": 1.1152482269503545,
+    "fill_ratio": 0.5434411257314887,
+    "area_pixels": 192789
+  },
+  "concept_extraction": {
+    "source": "art\\concepts\\2026-10-09-hero-b-breakwater-source-v1.png",
+    "source_sha256": "18aa70d35d4b19362d325014af06de2041df1e9d72588722b963905de28f5401",
+    "method": "RGB Euclidean distance from least-squares spatial plane fitted to five fixed plain-background patches; threshold 32/255; landmark ROI excludes title/rule above helmet and floor shadow outside boots below 555/585/615 px; closing radius 2 pixels; components at least 1200 pixels; enclosed holes filled",
+    "limitations": "AI perspective; manual background/ROI selection; shadow contamination and armor similar to background; sensitivity 28/32/36 shown, not a 3D measurement",
+    "background_patches": [
+      [
+        45,
+        180,
+        175,
+        320
+      ],
+      [
+        45,
+        70,
+        250,
+        96
+      ],
+      [
+        696,
+        120,
+        745,
+        590
+      ],
+      [
+        100,
+        535,
+        190,
+        565
+      ],
+      [
+        55,
+        340,
+        155,
+        365
+      ]
+    ],
+    "sensitivity": {
+      "28": {
+        "bbox": [
+          52,
+          65,
+          681,
+          630
+        ],
+        "width": 629,
+        "height": 565,
+        "aspect_ratio": 1.1132743362831858,
+        "fill_ratio": 0.5451524403112118,
+        "area_pixels": 193739
+      },
+      "32": {
+        "bbox": [
+          52,
+          66,
+          681,
+          630
+        ],
+        "width": 629,
+        "height": 564,
+        "aspect_ratio": 1.1152482269503545,
+        "fill_ratio": 0.5434411257314887,
+        "area_pixels": 192789
+      },
+      "36": {
+        "bbox": [
+          52,
+          66,
+          681,
+          630
+        ],
+        "width": 629,
+        "height": 564,
+        "aspect_ratio": 1.1152482269503545,
+        "fill_ratio": 0.5421754670815997,
+        "area_pixels": 192340
+      }
+    }
+  },
+  "p2_3quarter": {
+    "bbox": [
+      322,
+      114,
+      730,
+      894
+    ],
+    "width": 408,
+    "height": 780,
+    "aspect_ratio": 0.5230769230769231,
+    "fill_ratio": 0.7080882352941177,
+    "area_pixels": 225342,
+    "relative_error_to_concept": {
+      "aspect_ratio": 0.530977130977131,
+      "fill_ratio": 0.30297138322207173
+    },
+    "within_12_percent": false
+  },
+  "p3_3quarter": {
+    "bbox": [
+      267,
+      125,
+      797,
+      896
+    ],
+    "width": 530,
+    "height": 771,
+    "aspect_ratio": 0.6874189364461738,
+    "fill_ratio": 0.6880087120377848,
+    "area_pixels": 281141,
+    "relative_error_to_concept": {
+      "aspect_ratio": 0.3836179965729061,
+      "fill_ratio": 0.26602253576540336
+    },
+    "within_12_percent": false
+  },
+  "directions": {
+    "0": {
+      "bbox": [
+        881,
+        432,
+        1014,
+        563
+      ],
+      "width": 133,
+      "height": 131,
+      "aspect_ratio": 1.015267175572519,
+      "fill_ratio": 0.6045457154336222,
+      "area_pixels": 10533
+    },
+    "45": {
+      "bbox": [
+        912,
+        417,
+        1033,
+        581
+      ],
+      "width": 121,
+      "height": 164,
+      "aspect_ratio": 0.7378048780487805,
+      "fill_ratio": 0.5212154807498488,
+      "area_pixels": 10343
+    },
+    "90": {
+      "bbox": [
+        935,
+        418,
+        1012,
+        578
+      ],
+      "width": 77,
+      "height": 160,
+      "aspect_ratio": 0.48125,
+      "fill_ratio": 0.571590909090909,
+      "area_pixels": 7042
+    },
+    "135": {
+      "bbox": [
+        912,
+        407,
+        1042,
+        561
+      ],
+      "width": 130,
+      "height": 154,
+      "aspect_ratio": 0.8441558441558441,
+      "fill_ratio": 0.39805194805194805,
+      "area_pixels": 7969
+    },
+    "180": {
+      "bbox": [
+        908,
+        421,
+        1037,
+        554
+      ],
+      "width": 129,
+      "height": 133,
+      "aspect_ratio": 0.9699248120300752,
+      "fill_ratio": 0.4914612111674535,
+      "area_pixels": 8432
+    },
+    "225": {
+      "bbox": [
+        887,
+        420,
+        1007,
+        561
+      ],
+      "width": 120,
+      "height": 141,
+      "aspect_ratio": 0.851063829787234,
+      "fill_ratio": 0.527127659574468,
+      "area_pixels": 8919
+    },
+    "270": {
+      "bbox": [
+        906,
+        419,
+        985,
+        562
+      ],
+      "width": 79,
+      "height": 143,
+      "aspect_ratio": 0.5524475524475524,
+      "fill_ratio": 0.6221120651500398,
+      "area_pixels": 7028
+    },
+    "315": {
+      "bbox": [
+        880,
+        417,
+        1009,
+        571
+      ],
+      "width": 129,
+      "height": 154,
+      "aspect_ratio": 0.8376623376623377,
+      "fill_ratio": 0.42816873049431187,
+      "area_pixels": 8506
+    }
+  },
+  "worst_directions_degrees": [
+    90,
+    270
+  ],
+  "worst_selection": "Side facings: shield is edge-on and sword overlaps the arm/body more than front diagonals; chosen after visual inspection, not the lowest fill-ratio heuristic"
+}

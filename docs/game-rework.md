@@ -136,3 +136,8 @@ Skin отделен от магазина: `Runtime/Hud/HudSkin.cs` и `Art/Ui/H
 Гайды используют те же plates, видимую отметку «есть» и динамическую высоту summary/source перед кнопкой покупки. Tooltip имеет ширину 520px, светлый контур и тонкую grade line; body 20px, stats 21px. Cursor follow, reserved bottom 244px и fit высокого tooltip сохранены. Sweep 367 вариантов дал минимум 19,60px при 1080p. Покупки, продажа, B/G/Esc/F9, тексты, 233 item icons и нижний HUD сохранены. Строка цены остается некликабельной.
 
 Новые sprites создает `tools/art/gen_shop_skin.py`, импортирует `Game/HUD/Import skin`. Старые panel/tooltip/slot/frame/button/tab оставлены для builder и fallback. Технические проверки и ограничения: [setup.md](setup.md). Локальные кадры, contrast и отчет: `.local/codex-tasks/shop/`.
+
+
+### Герой Breakwater P5, интеграция, 10 октября 2026
+
+В сохраненной Arena герой использует собственный Breakwater P5: один SkinnedMeshRenderer, шесть материалов, четыре Legacy clips, рост 2.4 м и radius 0.4 м. `Game/Hero/Build Breakwater prefab` воспроизводит ассет; `UseBreakwaterHero = false` в `GameArenaBuilder.cs` и `Game/Build Arena scene` возвращают прежнюю модель. Для полного визуального отката затем выполнить `Game/HUD/Render hero portrait`. Runtime, крипы и существующие тесты сохранены. EditMode 18/18, PlayMode 65/65; одна Windows-сборка и скрытый startup с exit 0, без интерактивной игры. Editor-замеры не подтверждают ускорение: исходные средние idle 3.854 -> 5.434 мс, с 30 крипами 5.532 -> 7.386 мс; повторная толпа дала p99 до 106.714 мс. Кадры, ограничения и независимое ревью: `.local/codex-tasks/hero-integration/REPORT.md`, `art/heroes/breakwater/rig/integration-frames.png`.

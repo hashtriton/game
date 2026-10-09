@@ -1,0 +1,236 @@
+{
+  "concept": {
+    "bbox": [
+      2,
+      3,
+      141,
+      163
+    ],
+    "width": 139,
+    "height": 160,
+    "aspect_ratio": 0.86875,
+    "fill_ratio": 0.4234262589928058,
+    "area_pixels": 9417
+  },
+  "concept_extraction": {
+    "source": "art/concepts/2026-10-09-creeps-elites-v1.png",
+    "sha256": "69c32c2c1e9c2293894c0dbc46d29d2e726dda18d30dbc6cfbf789758971b372",
+    "roi": [
+      1723,
+      832,
+      1866,
+      995
+    ],
+    "method": "Existing black 160 px concept silhouette, max RGB <65; no filling, no stretching.",
+    "sensitivity": {
+      "50": {
+        "bbox": [
+          2,
+          3,
+          141,
+          163
+        ],
+        "width": 139,
+        "height": 160,
+        "aspect_ratio": 0.86875,
+        "fill_ratio": 0.4168615107913669,
+        "area_pixels": 9271
+      },
+      "65": {
+        "bbox": [
+          2,
+          3,
+          141,
+          163
+        ],
+        "width": 139,
+        "height": 160,
+        "aspect_ratio": 0.86875,
+        "fill_ratio": 0.4234262589928058,
+        "area_pixels": 9417
+      },
+      "80": {
+        "bbox": [
+          2,
+          3,
+          141,
+          163
+        ],
+        "width": 139,
+        "height": 160,
+        "aspect_ratio": 0.86875,
+        "fill_ratio": 0.4299010791366906,
+        "area_pixels": 9561
+      }
+    },
+    "limitations": "AI concept top camera is labelled 56 degrees but no verified extrinsics. Compare projection guide, not reconstructed anatomy."
+  },
+  "render_game_000": {
+    "bbox": [
+      803,
+      338,
+      1058,
+      569
+    ],
+    "width": 255,
+    "height": 231,
+    "aspect_ratio": 1.103896103896104,
+    "fill_ratio": 0.3366946778711485,
+    "area_pixels": 19833
+  },
+  "comparison_facing": 0,
+  "directions": {
+    "0": {
+      "bbox": [
+        803,
+        338,
+        1058,
+        569
+      ],
+      "width": 255,
+      "height": 231,
+      "aspect_ratio": 1.103896103896104,
+      "fill_ratio": 0.3366946778711485,
+      "area_pixels": 19833,
+      "special_visible_pixels": 3260,
+      "special_fraction": 0.1643725104623607,
+      "cleaver_visible_pixels": 2132,
+      "cleaver_fraction": 0.10749760500176474
+    },
+    "45": {
+      "bbox": [
+        867,
+        300,
+        1045,
+        629
+      ],
+      "width": 178,
+      "height": 329,
+      "aspect_ratio": 0.541033434650456,
+      "fill_ratio": 0.310918342952768,
+      "area_pixels": 18208,
+      "special_visible_pixels": 3040,
+      "special_fraction": 0.16695957820738136,
+      "cleaver_visible_pixels": 2123,
+      "cleaver_fraction": 0.11659710017574693
+    },
+    "90": {
+      "bbox": [
+        905,
+        307,
+        1023,
+        638
+      ],
+      "width": 118,
+      "height": 331,
+      "aspect_ratio": 0.3564954682779456,
+      "fill_ratio": 0.3172717497055661,
+      "area_pixels": 12392,
+      "special_visible_pixels": 2732,
+      "special_fraction": 0.22046481601032925,
+      "cleaver_visible_pixels": 1316,
+      "cleaver_fraction": 0.10619754680438993
+    },
+    "135": {
+      "bbox": [
+        850,
+        352,
+        1102,
+        575
+      ],
+      "width": 252,
+      "height": 223,
+      "aspect_ratio": 1.1300448430493273,
+      "fill_ratio": 0.2779201366645313,
+      "area_pixels": 15618,
+      "special_visible_pixels": 4627,
+      "special_fraction": 0.2962607248047125,
+      "cleaver_visible_pixels": 970,
+      "cleaver_fraction": 0.06210782430528877
+    },
+    "180": {
+      "bbox": [
+        858,
+        390,
+        1112,
+        548
+      ],
+      "width": 254,
+      "height": 158,
+      "aspect_ratio": 1.6075949367088607,
+      "fill_ratio": 0.3729442838632513,
+      "area_pixels": 14967,
+      "special_visible_pixels": 4757,
+      "special_fraction": 0.31783256497628115,
+      "cleaver_visible_pixels": 1308,
+      "cleaver_fraction": 0.08739226297855282
+    },
+    "225": {
+      "bbox": [
+        873,
+        381,
+        1043,
+        561
+      ],
+      "width": 170,
+      "height": 180,
+      "aspect_ratio": 0.9444444444444444,
+      "fill_ratio": 0.41323529411764703,
+      "area_pixels": 12645,
+      "special_visible_pixels": 2854,
+      "special_fraction": 0.22570185844207197,
+      "cleaver_visible_pixels": 779,
+      "cleaver_fraction": 0.061605377619612496
+    },
+    "270": {
+      "bbox": [
+        901,
+        370,
+        1019,
+        567
+      ],
+      "width": 118,
+      "height": 197,
+      "aspect_ratio": 0.5989847715736041,
+      "fill_ratio": 0.4551750838853996,
+      "area_pixels": 10581,
+      "special_visible_pixels": 1658,
+      "special_fraction": 0.15669596446460637,
+      "cleaver_visible_pixels": 608,
+      "cleaver_fraction": 0.05746148757206313
+    },
+    "315": {
+      "bbox": [
+        827,
+        397,
+        1071,
+        570
+      ],
+      "width": 244,
+      "height": 173,
+      "aspect_ratio": 1.4104046242774566,
+      "fill_ratio": 0.41554534255661896,
+      "area_pixels": 17541,
+      "special_visible_pixels": 3020,
+      "special_fraction": 0.17216806339433327,
+      "cleaver_visible_pixels": 1477,
+      "cleaver_fraction": 0.0842027250441822
+    }
+  },
+  "relative_error": {
+    "aspect_ratio": 0.27067177426889666,
+    "fill_ratio": 0.20483278795217774
+  },
+  "within_12_percent": false,
+  "worst_directions": [
+    270,
+    225
+  ],
+  "lowest_special_fraction_facings": [
+    270,
+    0
+  ],
+  "worst_selection": "B1: visually selected side views 90/270, yoke and limbs merge into one narrow column. E2 final: two lowest visible cleaver fractions from occluded green ID renders; before separate IDs, lowest combined special fraction. All eight directions retained.",
+  "normalization": "Game-size crops normalize full bbox height to 110/135/160; mock retains native projected pixels.",
+  "clay_material_masks_equal": true
+}

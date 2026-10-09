@@ -1,0 +1,234 @@
+{
+  "concept": {
+    "bbox": [
+      32,
+      136,
+      472,
+      661
+    ],
+    "width": 440,
+    "height": 525,
+    "aspect": 0.8380952380952381,
+    "fill": 0.39985281385281385,
+    "area": 92366
+  },
+  "render_3quarter": {
+    "bbox": [
+      221,
+      332,
+      897,
+      1151
+    ],
+    "width": 676,
+    "height": 819,
+    "aspect": 0.8253968253968254,
+    "fill": 0.4267453453843986,
+    "area": 236265
+  },
+  "relative_error": {
+    "aspect": 0.015151515151515249,
+    "fill": 0.06725607673598599
+  },
+  "within_12_percent": true,
+  "concept_extraction": {
+    "source": "art\\concepts\\2026-10-09-creeps-raiders-v1.png",
+    "sha256": "0d980870c0f9afe28390385c7b081b7d15f8c2b21e86cfaced6126c45df83e18",
+    "method": "RGB Euclidean distance from least-squares spatial background plane, threshold32, 1px closing, components>=1200, fill holes, explicit landmark ROI",
+    "patches": [
+      [
+        35,
+        210,
+        120,
+        330
+      ],
+      [
+        465,
+        210,
+        490,
+        520
+      ],
+      [
+        40,
+        615,
+        100,
+        640
+      ],
+      [
+        340,
+        635,
+        455,
+        661
+      ]
+    ],
+    "sensitivity": {
+      "28": {
+        "bbox": [
+          32,
+          136,
+          472,
+          661
+        ],
+        "width": 440,
+        "height": 525,
+        "aspect": 0.8380952380952381,
+        "fill": 0.4034199134199134,
+        "area": 93190
+      },
+      "32": {
+        "bbox": [
+          32,
+          136,
+          472,
+          661
+        ],
+        "width": 440,
+        "height": 525,
+        "aspect": 0.8380952380952381,
+        "fill": 0.39985281385281385,
+        "area": 92366
+      },
+      "36": {
+        "bbox": [
+          32,
+          136,
+          472,
+          661
+        ],
+        "width": 440,
+        "height": 525,
+        "aspect": 0.8380952380952381,
+        "fill": 0.3979177489177489,
+        "area": 91919
+      }
+    },
+    "limitations": "AI perspective, manually specified ROI/background, possible floor-shadow contamination; projection proxy, not runtime or 3D reconstruction"
+  },
+  "directions": {
+    "0": {
+      "bbox": [
+        885,
+        473,
+        1009,
+        557
+      ],
+      "width": 124,
+      "height": 84,
+      "aspect": 1.4761904761904763,
+      "fill": 0.38047235023041476,
+      "area": 3963,
+      "visible_weapon_pixels": 477,
+      "weapon_fraction": 0.12036336109008328
+    },
+    "45": {
+      "bbox": [
+        912,
+        462,
+        1000,
+        584
+      ],
+      "width": 88,
+      "height": 122,
+      "aspect": 0.7213114754098361,
+      "fill": 0.33979135618479883,
+      "area": 3648,
+      "visible_weapon_pixels": 490,
+      "weapon_fraction": 0.13432017543859648
+    },
+    "90": {
+      "bbox": [
+        950,
+        450,
+        1006,
+        596
+      ],
+      "width": 56,
+      "height": 146,
+      "aspect": 0.3835616438356164,
+      "fill": 0.4157289628180039,
+      "area": 3399,
+      "visible_weapon_pixels": 347,
+      "weapon_fraction": 0.10208884966166519
+    },
+    "135": {
+      "bbox": [
+        928,
+        440,
+        1022,
+        572
+      ],
+      "width": 94,
+      "height": 132,
+      "aspect": 0.7121212121212122,
+      "fill": 0.3778207607994842,
+      "area": 4688,
+      "visible_weapon_pixels": 577,
+      "weapon_fraction": 0.123080204778157
+    },
+    "180": {
+      "bbox": [
+        911,
+        430,
+        1035,
+        541
+      ],
+      "width": 124,
+      "height": 111,
+      "aspect": 1.117117117117117,
+      "fill": 0.3425603022377216,
+      "area": 4715,
+      "visible_weapon_pixels": 562,
+      "weapon_fraction": 0.11919406150583245
+    },
+    "225": {
+      "bbox": [
+        919,
+        440,
+        1006,
+        551
+      ],
+      "width": 87,
+      "height": 111,
+      "aspect": 0.7837837837837838,
+      "fill": 0.4558351454903179,
+      "area": 4402,
+      "visible_weapon_pixels": 374,
+      "weapon_fraction": 0.08496138119036802
+    },
+    "270": {
+      "bbox": [
+        914,
+        453,
+        970,
+        559
+      ],
+      "width": 56,
+      "height": 106,
+      "aspect": 0.5283018867924528,
+      "fill": 0.5277964959568733,
+      "area": 3133,
+      "visible_weapon_pixels": 4,
+      "weapon_fraction": 0.0012767315671879987
+    },
+    "315": {
+      "bbox": [
+        900,
+        464,
+        993,
+        564
+      ],
+      "width": 93,
+      "height": 100,
+      "aspect": 0.93,
+      "fill": 0.39408602150537636,
+      "area": 3665,
+      "visible_weapon_pixels": 284,
+      "weapon_fraction": 0.07748976807639836
+    }
+  },
+  "normalization": "Tiles scale full equipped tight bbox to 110/135/160 px; mock uses unresized native pixels.",
+  "worst_directions": [
+    270,
+    315
+  ],
+  "worst_selection": "Two lowest visible weapon pixel fractions in occluded object-ID renders; all eight also shown for visual review."
+}

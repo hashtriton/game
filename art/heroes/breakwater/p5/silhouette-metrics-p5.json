@@ -1,0 +1,15 @@
+{
+  "aspect_ratio": 0.7092866756393001,
+  "fill_ratio": 0.6161798544798894,
+  "native_bbox": [
+    256,
+    121,
+    783,
+    864
+  ],
+  "relative_error_to_concept": {
+    "aspect_ratio": 0.36401003964933976,
+    "fill_ratio": 0.13384840657852703
+  },
+  "within_12_percent": false
+}

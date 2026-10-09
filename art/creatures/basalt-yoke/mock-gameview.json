@@ -1,0 +1,47 @@
+{
+  "source": ".local/codex-tasks/ow2-arena/shots/final-arena-1920x1080.png",
+  "source_sha256": "e8dcae2eb648de065e832c54b577aee877f130326139e0f0651d20bfe62f54fb",
+  "source_contains_old_hero": true,
+  "label": "MOCK-UP",
+  "layers": [
+    {
+      "name": "hero P4",
+      "source": "art/heroes/breakwater/p4/renders",
+      "bbox": [
+        915,
+        425,
+        1035,
+        587
+      ],
+      "placement": [
+        765,
+        515
+      ],
+      "native_size": [
+        120,
+        162
+      ],
+      "resized": false
+    },
+    {
+      "name": "B1 / \u0411\u0410\u0417\u0410\u041b\u042c\u0422\u041e\u0412\u041e\u0415 \u042f\u0420\u041c\u041e",
+      "source": "art/creatures/basalt-yoke/renders",
+      "bbox": [
+        864,
+        347,
+        1091,
+        635
+      ],
+      "placement": [
+        474,
+        417
+      ],
+      "native_size": [
+        227,
+        288
+      ],
+      "resized": false
+    }
+  ],
+  "limitations": "No engine integration. Native centre-camera projection translated to free paving; perspective shift, scene occlusion and integrated shadows untested."
+}

@@ -18,6 +18,7 @@ namespace Game.EditorTools
         public const string ScenePath = "Assets/Game/Scenes/Arena.unity";
         const string LayoutPath = "Assets/Arena/Data/lia39-layout.json";
         const string HeroPrefabPath = "Assets/Arena/Generated/Warrior.prefab";
+        static readonly bool UseBreakwaterHero = true;
 
         [MenuItem("Game/Build Arena scene")]
         public static void Build()
@@ -378,6 +379,12 @@ namespace Game.EditorTools
         // Existing CC0 placeholder, with restrained metal response and its original texture and animations.
         static GameObject BuildHeroModel()
         {
+            if (UseBreakwaterHero)
+            {
+                var breakwater = AssetDatabase.LoadAssetAtPath<GameObject>(HeroBreakwaterBuilder.PrefabPath);
+                if (breakwater == null) throw new FileNotFoundException(HeroBreakwaterBuilder.PrefabPath);
+                return breakwater;
+            }
             var source = AssetDatabase.LoadAssetAtPath<GameObject>(HeroPrefabPath);
             if (source == null) throw new FileNotFoundException(HeroPrefabPath);
 

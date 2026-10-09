@@ -1,0 +1,4176 @@
+{
+  "pose": "rest",
+  "objects": [
+    {
+      "name": "Forearm_L_socket",
+      "type": "EMPTY",
+      "parent": "HB_Forearm_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [],
+      "modifiers": [],
+      "triangles": 0
+    },
+    {
+      "name": "HB_Back",
+      "type": "MESH",
+      "parent": "HB_Torso",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel",
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.02199999988079071,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 204,
+      "ground_radius": 0.38700019052032114
+    },
+    {
+      "name": "HB_Belt",
+      "type": "MESH",
+      "parent": "HB_Pelvis",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.02500000037252903,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 132,
+      "ground_radius": 0.2949680685997009
+    },
+    {
+      "name": "HB_Boot_L",
+      "type": "MESH",
+      "parent": "HB_Shin_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [],
+      "triangles": 156,
+      "ground_radius": 0.3131909074242391
+    },
+    {
+      "name": "HB_Boot_R",
+      "type": "MESH",
+      "parent": "HB_Shin_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [],
+      "triangles": 156,
+      "ground_radius": 0.3131909074242391
+    },
+    {
+      "name": "HB_Breastplate",
+      "type": "MESH",
+      "parent": "HB_Torso",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel",
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.029999999329447746,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 204,
+      "ground_radius": 0.41249905535201203
+    },
+    {
+      "name": "HB_BreathSlot_-1_0",
+      "type": "MESH",
+      "parent": "HB_Helmet",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_DarkJointSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Plate_edge",
+          "thickness": null,
+          "width": 0.0010000000474974513,
+          "segments": 1
+        }
+      ],
+      "triangles": 44,
+      "ground_radius": 0.23636889004772665
+    },
+    {
+      "name": "HB_BreathSlot_-1_1",
+      "type": "MESH",
+      "parent": "HB_Helmet",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_DarkJointSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Plate_edge",
+          "thickness": null,
+          "width": 0.0010000000474974513,
+          "segments": 1
+        }
+      ],
+      "triangles": 44,
+      "ground_radius": 0.2440128113917306
+    },
+    {
+      "name": "HB_BreathSlot_1_0",
+      "type": "MESH",
+      "parent": "HB_Helmet",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_DarkJointSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Plate_edge",
+          "thickness": null,
+          "width": 0.0010000000474974513,
+          "segments": 1
+        }
+      ],
+      "triangles": 44,
+      "ground_radius": 0.23636889004772665
+    },
+    {
+      "name": "HB_BreathSlot_1_1",
+      "type": "MESH",
+      "parent": "HB_Helmet",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_DarkJointSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Plate_edge",
+          "thickness": null,
+          "width": 0.0010000000474974513,
+          "segments": 1
+        }
+      ],
+      "triangles": 44,
+      "ground_radius": 0.2440128113917306
+    },
+    {
+      "name": "HB_Brow",
+      "type": "MESH",
+      "parent": "HB_Helmet",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.02500000037252903,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 100,
+      "ground_radius": 0.270357221364975
+    },
+    {
+      "name": "HB_Buckle",
+      "type": "MESH",
+      "parent": "HB_Belt",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_RestrainedBronze"
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Plate_edge",
+          "thickness": null,
+          "width": 0.003000000026077032,
+          "segments": 1
+        }
+      ],
+      "triangles": 44,
+      "ground_radius": 0.2406501562450165
+    },
+    {
+      "name": "HB_Cheek_L",
+      "type": "MESH",
+      "parent": "HB_Helmet",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.01899999938905239,
+          "width": null,
+          "segments": null
+        },
+        {
+          "type": "BEVEL",
+          "name": "Forged_edge",
+          "thickness": null,
+          "width": 0.0020000000949949026,
+          "segments": 1
+        }
+      ],
+      "triangles": 40,
+      "ground_radius": 0.2191187671691083
+    },
+    {
+      "name": "HB_Cheek_R",
+      "type": "MESH",
+      "parent": "HB_Helmet",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.01899999938905239,
+          "width": null,
+          "segments": null
+        },
+        {
+          "type": "BEVEL",
+          "name": "Forged_edge",
+          "thickness": null,
+          "width": 0.0020000000949949026,
+          "segments": 1
+        }
+      ],
+      "triangles": 40,
+      "ground_radius": 0.21915173201572663
+    },
+    {
+      "name": "HB_ChestInlay",
+      "type": "MESH",
+      "parent": "HB_Torso",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.004999999888241291,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 28,
+      "ground_radius": 0.32653771347412563
+    },
+    {
+      "name": "HB_ChestLip",
+      "type": "MESH",
+      "parent": "HB_Torso",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.020999999716877937,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 100,
+      "ground_radius": 0.3670609306957339
+    },
+    {
+      "name": "HB_Collar",
+      "type": "MESH",
+      "parent": "HB_Torso",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.026000000536441803,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 200,
+      "ground_radius": 0.2656701942718338
+    },
+    {
+      "name": "HB_Couter_L",
+      "type": "MESH",
+      "parent": "HB_UpperArm_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.024000000208616257,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 128,
+      "ground_radius": 0.6942189200636445
+    },
+    {
+      "name": "HB_Couter_R",
+      "type": "MESH",
+      "parent": "HB_UpperArm_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.024000000208616257,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 128,
+      "ground_radius": 0.6942189200636445
+    },
+    {
+      "name": "HB_CrownRidge",
+      "type": "MESH",
+      "parent": "HB_Helmet",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.008999999612569809,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 36,
+      "ground_radius": 0.16374004604078746
+    },
+    {
+      "name": "HB_Cuisse_L",
+      "type": "MESH",
+      "parent": "HB_Thigh_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.023000000044703484,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 128,
+      "ground_radius": 0.3840114040527853
+    },
+    {
+      "name": "HB_Cuisse_R",
+      "type": "MESH",
+      "parent": "HB_Thigh_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.023000000044703484,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 128,
+      "ground_radius": 0.3810308799524724
+    },
+    {
+      "name": "HB_Elbow_L",
+      "type": "MESH",
+      "parent": "HB_UpperArm_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_DarkJointSteel"
+      ],
+      "modifiers": [],
+      "triangles": 44,
+      "ground_radius": 0.6732290983200073
+    },
+    {
+      "name": "HB_Elbow_R",
+      "type": "MESH",
+      "parent": "HB_UpperArm_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_DarkJointSteel"
+      ],
+      "modifiers": [],
+      "triangles": 44,
+      "ground_radius": 0.6732290983200073
+    },
+    {
+      "name": "HB_Faceplate",
+      "type": "MESH",
+      "parent": "HB_Helmet",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.017999999225139618,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 128,
+      "ground_radius": 0.25773802399635315
+    },
+    {
+      "name": "HB_Fauld",
+      "type": "MESH",
+      "parent": "HB_Pelvis",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.017999999225139618,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 132,
+      "ground_radius": 0.3249835669994354
+    },
+    {
+      "name": "HB_Fauld_2",
+      "type": "MESH",
+      "parent": "HB_Pelvis",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.017999999225139618,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 132,
+      "ground_radius": 0.3389838933944702
+    },
+    {
+      "name": "HB_Fauld_3",
+      "type": "MESH",
+      "parent": "HB_Pelvis",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.017999999225139618,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 132,
+      "ground_radius": 0.35298416018486023
+    },
+    {
+      "name": "HB_Forearm_L",
+      "type": "MESH",
+      "parent": "HB_UpperArm_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [],
+      "triangles": 124,
+      "ground_radius": 0.811637257135768
+    },
+    {
+      "name": "HB_Forearm_R",
+      "type": "MESH",
+      "parent": "HB_UpperArm_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [],
+      "triangles": 124,
+      "ground_radius": 0.811637257135768
+    },
+    {
+      "name": "HB_Gauntlet_L",
+      "type": "MESH",
+      "parent": "HB_Forearm_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_DarkJointSteel"
+      ],
+      "modifiers": [],
+      "triangles": 92,
+      "ground_radius": 0.6001327926670236
+    },
+    {
+      "name": "HB_Gauntlet_R",
+      "type": "MESH",
+      "parent": "HB_Forearm_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_DarkJointSteel"
+      ],
+      "modifiers": [],
+      "triangles": 92,
+      "ground_radius": 0.7912815965635172
+    },
+    {
+      "name": "HB_Gorget",
+      "type": "MESH",
+      "parent": "HB_Torso",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.02500000037252903,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 132,
+      "ground_radius": 0.28280818462371826
+    },
+    {
+      "name": "HB_Greave_L",
+      "type": "MESH",
+      "parent": "HB_Shin_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.023000000044703484,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 172,
+      "ground_radius": 0.36154626094893716
+    },
+    {
+      "name": "HB_Greave_R",
+      "type": "MESH",
+      "parent": "HB_Shin_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.023000000044703484,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 172,
+      "ground_radius": 0.35911363764514465
+    },
+    {
+      "name": "HB_GripFingers_L",
+      "type": "MESH",
+      "parent": "HB_Gauntlet_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [],
+      "triangles": 204,
+      "ground_radius": 0.5850068050332854
+    },
+    {
+      "name": "HB_GripFingers_R",
+      "type": "MESH",
+      "parent": "HB_Gauntlet_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [],
+      "triangles": 204,
+      "ground_radius": 0.7756746256330151
+    },
+    {
+      "name": "HB_GripThumb_L",
+      "type": "MESH",
+      "parent": "HB_Gauntlet_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Plate_edge",
+          "thickness": null,
+          "width": 0.004999999888241291,
+          "segments": 1
+        }
+      ],
+      "triangles": 44,
+      "ground_radius": 0.5412069938610086
+    },
+    {
+      "name": "HB_GripThumb_R",
+      "type": "MESH",
+      "parent": "HB_Gauntlet_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Plate_edge",
+          "thickness": null,
+          "width": 0.004999999888241291,
+          "segments": 1
+        }
+      ],
+      "triangles": 44,
+      "ground_radius": 0.7291584704457588
+    },
+    {
+      "name": "HB_Helmet",
+      "type": "MESH",
+      "parent": "HB_Torso",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [],
+      "triangles": 284,
+      "ground_radius": 0.20499999821186066
+    },
+    {
+      "name": "HB_Knee_L",
+      "type": "MESH",
+      "parent": "HB_Thigh_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_DarkJointSteel"
+      ],
+      "modifiers": [],
+      "triangles": 68,
+      "ground_radius": 0.3319999873638153
+    },
+    {
+      "name": "HB_Knee_R",
+      "type": "MESH",
+      "parent": "HB_Thigh_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_DarkJointSteel"
+      ],
+      "modifiers": [],
+      "triangles": 68,
+      "ground_radius": 0.3266591085143262
+    },
+    {
+      "name": "HB_Knuckle_L",
+      "type": "MESH",
+      "parent": "HB_Gauntlet_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.012000000104308128,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 16,
+      "ground_radius": 0.6083610078074985
+    },
+    {
+      "name": "HB_Knuckle_R",
+      "type": "MESH",
+      "parent": "HB_Gauntlet_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.012000000104308128,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 16,
+      "ground_radius": 0.7914137869747401
+    },
+    {
+      "name": "HB_NeckGuard",
+      "type": "MESH",
+      "parent": "HB_Helmet",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.017999999225139618,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 128,
+      "ground_radius": 0.22540459036827087
+    },
+    {
+      "name": "HB_PauldronEdge_L",
+      "type": "MESH",
+      "parent": "HB_Pauldron_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [],
+      "triangles": 240,
+      "ground_radius": 0.5688434839248657
+    },
+    {
+      "name": "HB_PauldronEdge_R",
+      "type": "MESH",
+      "parent": "HB_Pauldron_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [],
+      "triangles": 240,
+      "ground_radius": 0.5688434839248657
+    },
+    {
+      "name": "HB_PauldronLame_L",
+      "type": "MESH",
+      "parent": "HB_UpperArm_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.03500000014901161,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 200,
+      "ground_radius": 0.6477904308998101
+    },
+    {
+      "name": "HB_PauldronLame_R",
+      "type": "MESH",
+      "parent": "HB_UpperArm_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.03500000014901161,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 200,
+      "ground_radius": 0.6480655074119568
+    },
+    {
+      "name": "HB_PauldronLip_L",
+      "type": "MESH",
+      "parent": "HB_UpperArm_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.03500000014901161,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 200,
+      "ground_radius": 0.6089098493706143
+    },
+    {
+      "name": "HB_PauldronLip_R",
+      "type": "MESH",
+      "parent": "HB_UpperArm_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.03500000014901161,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 200,
+      "ground_radius": 0.6091846227645874
+    },
+    {
+      "name": "HB_Pauldron_L",
+      "type": "MESH",
+      "parent": "HB_UpperArm_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel",
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.054999999701976776,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 336,
+      "ground_radius": 0.5779845169735156
+    },
+    {
+      "name": "HB_Pauldron_R",
+      "type": "MESH",
+      "parent": "HB_UpperArm_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel",
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.054999999701976776,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 336,
+      "ground_radius": 0.5783854722976685
+    },
+    {
+      "name": "HB_Pelvis",
+      "type": "MESH",
+      "parent": "HB_Root",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [],
+      "triangles": 92,
+      "ground_radius": 0.32199999690055847
+    },
+    {
+      "name": "HB_Poleyn_L",
+      "type": "MESH",
+      "parent": "HB_Knee_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.02500000037252903,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 152,
+      "ground_radius": 0.3537933339511787
+    },
+    {
+      "name": "HB_Poleyn_R",
+      "type": "MESH",
+      "parent": "HB_Knee_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.02500000037252903,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 152,
+      "ground_radius": 0.34985079785699896
+    },
+    {
+      "name": "HB_Pouches",
+      "type": "MESH",
+      "parent": "HB_Belt",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Plate_edge",
+          "thickness": null,
+          "width": 0.009999999776482582,
+          "segments": 1
+        }
+      ],
+      "triangles": 88,
+      "ground_radius": 0.3630550882578154
+    },
+    {
+      "name": "HB_Rim",
+      "type": "MESH",
+      "parent": "HB_Shield",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.05000000074505806,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 68,
+      "ground_radius": 1.0636966880242917
+    },
+    {
+      "name": "HB_Root",
+      "type": "EMPTY",
+      "parent": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [],
+      "modifiers": [],
+      "triangles": 0
+    },
+    {
+      "name": "HB_Sabaton_L",
+      "type": "MESH",
+      "parent": "HB_Boot_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.01899999938905239,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 108,
+      "ground_radius": 0.3183889972802438
+    },
+    {
+      "name": "HB_Sabaton_R",
+      "type": "MESH",
+      "parent": "HB_Boot_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.01899999938905239,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 108,
+      "ground_radius": 0.3092340115108277
+    },
+    {
+      "name": "HB_Shield",
+      "type": "MESH",
+      "parent": "Forearm_L_socket",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.06800000369548798,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 164,
+      "ground_radius": 1.062223921394068
+    },
+    {
+      "name": "HB_ShieldHandle",
+      "type": "MESH",
+      "parent": "HB_Shield",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [],
+      "triangles": 36,
+      "ground_radius": 0.6641597200232668
+    },
+    {
+      "name": "HB_ShieldHandleMount_0",
+      "type": "MESH",
+      "parent": "HB_Shield",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Plate_edge",
+          "thickness": null,
+          "width": 0.004000000189989805,
+          "segments": 1
+        }
+      ],
+      "triangles": 44,
+      "ground_radius": 0.82061396404068
+    },
+    {
+      "name": "HB_ShieldHandleMount_1",
+      "type": "MESH",
+      "parent": "HB_Shield",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Plate_edge",
+          "thickness": null,
+          "width": 0.004000000189989805,
+          "segments": 1
+        }
+      ],
+      "triangles": 44,
+      "ground_radius": 0.82061396404068
+    },
+    {
+      "name": "HB_ShieldPanel",
+      "type": "MESH",
+      "parent": "HB_Shield",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_DarkJointSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.024000000208616257,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 12,
+      "ground_radius": 0.9401483239738478
+    },
+    {
+      "name": "HB_ShieldStrap",
+      "type": "MESH",
+      "parent": "HB_Shield",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Plate_edge",
+          "thickness": null,
+          "width": 0.006000000052154064,
+          "segments": 1
+        }
+      ],
+      "triangles": 44,
+      "ground_radius": 0.8904206659707737
+    },
+    {
+      "name": "HB_Shield_Stripe",
+      "type": "MESH",
+      "parent": "HB_Shield",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_CyanAccent"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.004000000189989805,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 28,
+      "ground_radius": 0.9400232572384571
+    },
+    {
+      "name": "HB_Shin_L",
+      "type": "MESH",
+      "parent": "HB_Thigh_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [],
+      "triangles": 124,
+      "ground_radius": 0.34763798546144953
+    },
+    {
+      "name": "HB_Shin_R",
+      "type": "MESH",
+      "parent": "HB_Thigh_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_WhitePaintedSteel"
+      ],
+      "modifiers": [],
+      "triangles": 124,
+      "ground_radius": 0.34763798546144953
+    },
+    {
+      "name": "HB_Sword",
+      "type": "MESH",
+      "parent": "Hand_R_socket",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_DarkJointSteel",
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [],
+      "triangles": 156,
+      "ground_radius": 0.8403520018722043
+    },
+    {
+      "name": "HB_SwordGrip",
+      "type": "MESH",
+      "parent": "HB_Sword",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [],
+      "triangles": 36,
+      "ground_radius": 0.7322981976361442
+    },
+    {
+      "name": "HB_SwordGuard",
+      "type": "MESH",
+      "parent": "HB_Sword",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Plate_edge",
+          "thickness": null,
+          "width": 0.004999999888241291,
+          "segments": 1
+        }
+      ],
+      "triangles": 44,
+      "ground_radius": 0.8889601730679348
+    },
+    {
+      "name": "HB_SwordPommel",
+      "type": "MESH",
+      "parent": "HB_Sword",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_RestrainedBronze"
+      ],
+      "modifiers": [],
+      "triangles": 56,
+      "ground_radius": 0.759290339976098
+    },
+    {
+      "name": "HB_Tabard",
+      "type": "MESH",
+      "parent": "HB_Pelvis",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.01600000075995922,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 32,
+      "ground_radius": 0.339559315157706
+    },
+    {
+      "name": "HB_Thigh_L",
+      "type": "MESH",
+      "parent": "HB_Pelvis",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [],
+      "triangles": 124,
+      "ground_radius": 0.3673325233913
+    },
+    {
+      "name": "HB_Thigh_R",
+      "type": "MESH",
+      "parent": "HB_Pelvis",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [],
+      "triangles": 124,
+      "ground_radius": 0.3630000054836273
+    },
+    {
+      "name": "HB_Torso",
+      "type": "MESH",
+      "parent": "HB_Pelvis",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [],
+      "triangles": 156,
+      "ground_radius": 0.3663864679698053
+    },
+    {
+      "name": "HB_UpperArm_L",
+      "type": "MESH",
+      "parent": "HB_Torso",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [],
+      "triangles": 92,
+      "ground_radius": 0.6567697525024414
+    },
+    {
+      "name": "HB_UpperArm_R",
+      "type": "MESH",
+      "parent": "HB_Torso",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_NavyClothLeather"
+      ],
+      "modifiers": [],
+      "triangles": 92,
+      "ground_radius": 0.6567697525024414
+    },
+    {
+      "name": "HB_VambraceAccent_L",
+      "type": "MESH",
+      "parent": "HB_Vambrace_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_CyanAccent"
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Plate_edge",
+          "thickness": null,
+          "width": 0.0010000000474974513,
+          "segments": 1
+        }
+      ],
+      "triangles": 44,
+      "ground_radius": 0.6950881543228231
+    },
+    {
+      "name": "HB_VambraceAccent_R",
+      "type": "MESH",
+      "parent": "HB_Vambrace_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_CyanAccent"
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Plate_edge",
+          "thickness": null,
+          "width": 0.0010000000474974513,
+          "segments": 1
+        }
+      ],
+      "triangles": 44,
+      "ground_radius": 0.6950881543228231
+    },
+    {
+      "name": "HB_Vambrace_L",
+      "type": "MESH",
+      "parent": "HB_Forearm_L",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.020999999716877937,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 152,
+      "ground_radius": 0.82717129993338
+    },
+    {
+      "name": "HB_Vambrace_R",
+      "type": "MESH",
+      "parent": "HB_Forearm_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_BrushedSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.020999999716877937,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 152,
+      "ground_radius": 0.82717129993338
+    },
+    {
+      "name": "HB_VisorShadow",
+      "type": "MESH",
+      "parent": "HB_Helmet",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "HB_DarkJointSteel"
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Forged_thickness",
+          "thickness": 0.012000000104308128,
+          "width": null,
+          "segments": null
+        }
+      ],
+      "triangles": 84,
+      "ground_radius": 0.22604964673519135
+    },
+    {
+      "name": "Hand_R_socket",
+      "type": "EMPTY",
+      "parent": "HB_Forearm_R",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [],
+      "modifiers": [],
+      "triangles": 0
+    }
+  ],
+  "total_triangles": 9452,
+  "nonfinite_vertices": 0,
+  "zero_area_triangles": 0,
+  "degenerate_details": [],
+  "footprint_radius": 0.41249905535201203,
+  "part_bounds": {
+    "HB_Back": {
+      "min": [
+        -0.38699451088905334,
+        -0.0021300434600561857,
+        1.3966106176376343
+      ],
+      "max": [
+        0.38699451088905334,
+        0.274211585521698,
+        2.0277745723724365
+      ],
+      "size": [
+        0.7739890217781067,
+        0.2763416289817542,
+        0.6311639547348022
+      ]
+    },
+    "HB_Belt": {
+      "min": [
+        -0.2949680685997009,
+        -0.2156263142824173,
+        1.2998425960540771
+      ],
+      "max": [
+        0.2949680685997009,
+        0.21537300944328308,
+        1.375157356262207
+      ],
+      "size": [
+        0.5899361371994019,
+        0.4309993237257004,
+        0.07531476020812988
+      ]
+    },
+    "HB_Boot_L": {
+      "min": [
+        0.07745999842882156,
+        -0.2521117031574249,
+        0.0
+      ],
+      "max": [
+        0.3093644380569458,
+        0.20000000298023224,
+        0.28999999165534973
+      ],
+      "size": [
+        0.23190443962812424,
+        0.45211170613765717,
+        0.28999999165534973
+      ]
+    },
+    "HB_Boot_R": {
+      "min": [
+        -0.3093644380569458,
+        -0.2521117031574249,
+        0.0
+      ],
+      "max": [
+        -0.07745999842882156,
+        0.20000000298023224,
+        0.28999999165534973
+      ],
+      "size": [
+        0.23190443962812424,
+        0.45211170613765717,
+        0.28999999165534973
+      ]
+    },
+    "HB_Breastplate": {
+      "min": [
+        -0.41210275888442993,
+        -0.33444488048553467,
+        1.4961978197097778
+      ],
+      "max": [
+        0.41210275888442993,
+        0.002726311795413494,
+        1.9970439672470093
+      ],
+      "size": [
+        0.8242055177688599,
+        0.33717119228094816,
+        0.5008461475372314
+      ]
+    },
+    "HB_BreathSlot_-1_0": {
+      "min": [
+        -0.05550000071525574,
+        -0.23000000417232513,
+        2.0505001544952393
+      ],
+      "max": [
+        -0.048500001430511475,
+        -0.2239999920129776,
+        2.0855000019073486
+      ],
+      "size": [
+        0.006999999284744263,
+        0.006000012159347534,
+        0.034999847412109375
+      ]
+    },
+    "HB_BreathSlot_-1_1": {
+      "min": [
+        -0.08250000327825546,
+        -0.23000000417232513,
+        2.0505001544952393
+      ],
+      "max": [
+        -0.0755000039935112,
+        -0.2239999920129776,
+        2.0855000019073486
+      ],
+      "size": [
+        0.006999999284744263,
+        0.006000012159347534,
+        0.034999847412109375
+      ]
+    },
+    "HB_BreathSlot_1_0": {
+      "min": [
+        0.048500001430511475,
+        -0.23000000417232513,
+        2.0505001544952393
+      ],
+      "max": [
+        0.05550000071525574,
+        -0.2239999920129776,
+        2.0855000019073486
+      ],
+      "size": [
+        0.006999999284744263,
+        0.006000012159347534,
+        0.034999847412109375
+      ]
+    },
+    "HB_BreathSlot_1_1": {
+      "min": [
+        0.0755000039935112,
+        -0.23000000417232513,
+        2.0505001544952393
+      ],
+      "max": [
+        0.08250000327825546,
+        -0.2239999920129776,
+        2.0855000019073486
+      ],
+      "size": [
+        0.006999999284744263,
+        0.006000012159347534,
+        0.034999847412109375
+      ]
+    },
+    "HB_Brow": {
+      "min": [
+        -0.19132983684539795,
+        -0.270357221364975,
+        2.1646924018859863
+      ],
+      "max": [
+        0.19132983684539795,
+        -0.04805300757288933,
+        2.2193074226379395
+      ],
+      "size": [
+        0.3826596736907959,
+        0.22230421379208565,
+        0.054615020751953125
+      ]
+    },
+    "HB_Buckle": {
+      "min": [
+        -0.04749999940395355,
+        -0.23649999499320984,
+        1.3009999990463257
+      ],
+      "max": [
+        0.04749999940395355,
+        -0.20149999856948853,
+        1.3730000257492065
+      ],
+      "size": [
+        0.0949999988079071,
+        0.034999996423721313,
+        0.07200002670288086
+      ]
+    },
+    "HB_Cheek_L": {
+      "min": [
+        0.10733303427696228,
+        -0.16677464544773102,
+        2.0138895511627197
+      ],
+      "max": [
+        0.18899953365325928,
+        -0.03355305641889572,
+        2.151001453399658
+      ],
+      "size": [
+        0.081666499376297,
+        0.1332215890288353,
+        0.13711190223693848
+      ]
+    },
+    "HB_Cheek_R": {
+      "min": [
+        -0.18899953365325928,
+        -0.1668040007352829,
+        2.0138893127441406
+      ],
+      "max": [
+        -0.10733303427696228,
+        -0.03355306014418602,
+        2.151001453399658
+      ],
+      "size": [
+        0.081666499376297,
+        0.13325094059109688,
+        0.13711214065551758
+      ]
+    },
+    "HB_ChestInlay": {
+      "min": [
+        -0.028999999165534973,
+        -0.3255009651184082,
+        1.5595623254776
+      ],
+      "max": [
+        0.028999999165534973,
+        -0.2497486174106598,
+        1.9760868549346924
+      ],
+      "size": [
+        0.057999998331069946,
+        0.07575234770774841,
+        0.4165245294570923
+      ]
+    },
+    "HB_ChestLip": {
+      "min": [
+        -0.366540789604187,
+        -0.3015306293964386,
+        1.4668333530426025
+      ],
+      "max": [
+        0.366540789604187,
+        -0.010466018691658974,
+        1.642857313156128
+      ],
+      "size": [
+        0.733081579208374,
+        0.2910646107047796,
+        0.1760239601135254
+      ]
+    },
+    "HB_Collar": {
+      "min": [
+        -0.2656041383743286,
+        -0.1994263082742691,
+        1.9854198694229126
+      ],
+      "max": [
+        0.2656041383743286,
+        0.21146123111248016,
+        2.116999864578247
+      ],
+      "size": [
+        0.5312082767486572,
+        0.41088753938674927,
+        0.13157999515533447
+      ]
+    },
+    "HB_Couter_L": {
+      "min": [
+        0.4133317470550537,
+        -0.19314846396446228,
+        1.4988956451416016
+      ],
+      "max": [
+        0.693491518497467,
+        0.028467267751693726,
+        1.7451927661895752
+      ],
+      "size": [
+        0.28015977144241333,
+        0.221615731716156,
+        0.24629712104797363
+      ]
+    },
+    "HB_Couter_R": {
+      "min": [
+        -0.693491518497467,
+        -0.19314846396446228,
+        1.4988956451416016
+      ],
+      "max": [
+        -0.4133317470550537,
+        0.028467267751693726,
+        1.7451927661895752
+      ],
+      "size": [
+        0.28015977144241333,
+        0.221615731716156,
+        0.24629712104797363
+      ]
+    },
+    "HB_CrownRidge": {
+      "min": [
+        -0.008999999612569809,
+        -0.15307043492794037,
+        2.2811622619628906
+      ],
+      "max": [
+        0.008999999612569809,
+        0.16349251568317413,
+        2.3986897468566895
+      ],
+      "size": [
+        0.017999999225139618,
+        0.3165629506111145,
+        0.11752748489379883
+      ]
+    },
+    "HB_Cuisse_L": {
+      "min": [
+        0.01240183413028717,
+        -0.2120799422264099,
+        0.6282068490982056
+      ],
+      "max": [
+        0.3835981488227844,
+        0.06292810291051865,
+        1.0648877620697021
+      ],
+      "size": [
+        0.37119631469249725,
+        0.27500804513692856,
+        0.4366809129714966
+      ]
+    },
+    "HB_Cuisse_R": {
+      "min": [
+        -0.38060781359672546,
+        -0.21210692822933197,
+        0.6281687021255493
+      ],
+      "max": [
+        -0.01240183413028717,
+        0.06292810291051865,
+        1.0648877620697021
+      ],
+      "size": [
+        0.3682059794664383,
+        0.2750350311398506,
+        0.43671905994415283
+      ]
+    },
+    "HB_Elbow_L": {
+      "min": [
+        0.444863885641098,
+        -0.11599999666213989,
+        1.52814781665802
+      ],
+      "max": [
+        0.6732290983200073,
+        0.11599999666213989,
+        1.6878290176391602
+      ],
+      "size": [
+        0.2283652126789093,
+        0.23199999332427979,
+        0.15968120098114014
+      ]
+    },
+    "HB_Elbow_R": {
+      "min": [
+        -0.6732290983200073,
+        -0.11599999666213989,
+        1.52814781665802
+      ],
+      "max": [
+        -0.444863885641098,
+        0.11599999666213989,
+        1.6878290176391602
+      ],
+      "size": [
+        0.2283652126789093,
+        0.23199999332427979,
+        0.15968120098114014
+      ]
+    },
+    "HB_Faceplate": {
+      "min": [
+        -0.16790936887264252,
+        -0.25773802399635315,
+        1.984441876411438
+      ],
+      "max": [
+        0.16790936887264252,
+        -0.08360272645950317,
+        2.1273860931396484
+      ],
+      "size": [
+        0.33581873774528503,
+        0.17413529753684998,
+        0.14294421672821045
+      ]
+    },
+    "HB_Fauld": {
+      "min": [
+        -0.3249835669994354,
+        -0.23400817811489105,
+        1.1975502967834473
+      ],
+      "max": [
+        0.3249835669994354,
+        0.2338288575410843,
+        1.3074496984481812
+      ],
+      "size": [
+        0.6499671339988708,
+        0.46783703565597534,
+        0.10989940166473389
+      ]
+    },
+    "HB_Fauld_2": {
+      "min": [
+        -0.3389838933944702,
+        -0.24400809407234192,
+        1.1135501861572266
+      ],
+      "max": [
+        0.3389838933944702,
+        0.24382896721363068,
+        1.2234498262405396
+      ],
+      "size": [
+        0.6779677867889404,
+        0.4878370612859726,
+        0.10989964008331299
+      ]
+    },
+    "HB_Fauld_3": {
+      "min": [
+        -0.35298416018486023,
+        -0.254008024930954,
+        1.0295499563217163
+      ],
+      "max": [
+        0.35298416018486023,
+        0.25382906198501587,
+        1.139449954032898
+      ],
+      "size": [
+        0.7059683203697205,
+        0.5078370869159698,
+        0.10989999771118164
+      ]
+    },
+    "HB_Forearm_L": {
+      "min": [
+        0.4603819251060486,
+        -0.143219992518425,
+        1.2190005779266357
+      ],
+      "max": [
+        0.8114646077156067,
+        0.13019999861717224,
+        1.6522234678268433
+      ],
+      "size": [
+        0.3510826826095581,
+        0.27341999113559723,
+        0.4332228899002075
+      ]
+    },
+    "HB_Forearm_R": {
+      "min": [
+        -0.8114646077156067,
+        -0.143219992518425,
+        1.2190005779266357
+      ],
+      "max": [
+        -0.4603819251060486,
+        0.13019999861717224,
+        1.6522234678268433
+      ],
+      "size": [
+        0.3510826826095581,
+        0.27341999113559723,
+        0.4332228899002075
+      ]
+    },
+    "HB_Gauntlet_L": {
+      "min": [
+        0.40257665514945984,
+        -0.2146763801574707,
+        1.1269999742507935
+      ],
+      "max": [
+        0.5828054547309875,
+        -0.046330757439136505,
+        1.290000081062317
+      ],
+      "size": [
+        0.1802287995815277,
+        0.1683456227183342,
+        0.16300010681152344
+      ]
+    },
+    "HB_Gauntlet_R": {
+      "min": [
+        -0.7910768389701843,
+        -0.10300000011920929,
+        1.1777375936508179
+      ],
+      "max": [
+        -0.6090768575668335,
+        0.06700000166893005,
+        1.3407375812530518
+      ],
+      "size": [
+        0.18199998140335083,
+        0.17000000178813934,
+        0.1629999876022339
+      ]
+    },
+    "HB_Gorget": {
+      "min": [
+        -0.28280818462371826,
+        -0.22060295939445496,
+        1.958439826965332
+      ],
+      "max": [
+        0.28280818462371826,
+        0.2203148454427719,
+        2.0105602741241455
+      ],
+      "size": [
+        0.5656163692474365,
+        0.44091780483722687,
+        0.05212044715881348
+      ]
+    },
+    "HB_Greave_L": {
+      "min": [
+        0.027414649724960327,
+        -0.21313247084617615,
+        0.2036145031452179
+      ],
+      "max": [
+        0.35698413848876953,
+        0.0638505220413208,
+        0.5536408424377441
+      ],
+      "size": [
+        0.3295694887638092,
+        0.27698299288749695,
+        0.35002633929252625
+      ]
+    },
+    "HB_Greave_R": {
+      "min": [
+        -0.3547726273536682,
+        -0.2123347371816635,
+        0.2036145031452179
+      ],
+      "max": [
+        -0.027414649724960327,
+        0.0655764490365982,
+        0.5532867908477783
+      ],
+      "size": [
+        0.3273579776287079,
+        0.2779111862182617,
+        0.3496722877025604
+      ]
+    },
+    "HB_GripFingers_L": {
+      "min": [
+        0.4174782931804657,
+        -0.20518970489501953,
+        1.1410000324249268
+      ],
+      "max": [
+        0.5665308237075806,
+        -0.09258406609296799,
+        1.2669999599456787
+      ],
+      "size": [
+        0.14905253052711487,
+        0.11260563880205154,
+        0.12599992752075195
+      ]
+    },
+    "HB_GripFingers_R": {
+      "min": [
+        -0.7753355503082275,
+        -0.09342015534639359,
+        1.1917376518249512
+      ],
+      "max": [
+        -0.6248181462287903,
+        0.010599277913570404,
+        1.3177376985549927
+      ],
+      "size": [
+        0.15051740407943726,
+        0.10401943325996399,
+        0.1260000467300415
+      ]
+    },
+    "HB_GripThumb_L": {
+      "min": [
+        0.46128350496292114,
+        -0.168294295668602,
+        1.1660000085830688
+      ],
+      "max": [
+        0.5240986347198486,
+        -0.09271275997161865,
+        1.2440000772476196
+      ],
+      "size": [
+        0.06281512975692749,
+        0.07558153569698334,
+        0.07800006866455078
+      ]
+    },
+    "HB_GripThumb_R": {
+      "min": [
+        -0.7275768518447876,
+        -0.05299999564886093,
+        1.2167376279830933
+      ],
+      "max": [
+        -0.6725768446922302,
+        0.017000004649162292,
+        1.294737696647644
+      ],
+      "size": [
+        0.05500000715255737,
+        0.07000000029802322,
+        0.07800006866455078
+      ]
+    },
+    "HB_Helmet": {
+      "min": [
+        -0.17800000309944153,
+        -0.1469999998807907,
+        1.9800000190734863
+      ],
+      "max": [
+        0.17800000309944153,
+        0.20499999821186066,
+        2.4000000953674316
+      ],
+      "size": [
+        0.35600000619888306,
+        0.35199999809265137,
+        0.4200000762939453
+      ]
+    },
+    "HB_Knee_L": {
+      "min": [
+        0.06399999558925629,
+        -0.14499999582767487,
+        0.5049999952316284
+      ],
+      "max": [
+        0.3319999873638153,
+        0.14499999582767487,
+        0.6650000214576721
+      ],
+      "size": [
+        0.267999991774559,
+        0.28999999165534973,
+        0.1600000262260437
+      ]
+    },
+    "HB_Knee_R": {
+      "min": [
+        -0.32665377855300903,
+        -0.14499999582767487,
+        0.5049999952316284
+      ],
+      "max": [
+        -0.06399999558925629,
+        0.14499999582767487,
+        0.6650000214576721
+      ],
+      "size": [
+        0.26265378296375275,
+        0.28999999165534973,
+        0.1600000262260437
+      ]
+    },
+    "HB_Knuckle_L": {
+      "min": [
+        0.3970789611339569,
+        -0.2296389937400818,
+        1.1354317665100098
+      ],
+      "max": [
+        0.5651150345802307,
+        -0.19118347764015198,
+        1.2835612297058105
+      ],
+      "size": [
+        0.1680360734462738,
+        0.03845551609992981,
+        0.14812946319580078
+      ]
+    },
+    "HB_Knuckle_R": {
+      "min": [
+        -0.7846821546554565,
+        -0.11810965836048126,
+        1.1861693859100342
+      ],
+      "max": [
+        -0.615471601486206,
+        -0.09099661558866501,
+        1.334298849105835
+      ],
+      "size": [
+        0.1692105531692505,
+        0.027113042771816254,
+        0.14812946319580078
+      ]
+    },
+    "HB_NeckGuard": {
+      "min": [
+        -0.19117970764636993,
+        0.019663531333208084,
+        1.9784682989120483
+      ],
+      "max": [
+        0.19117970764636993,
+        0.22540459036827087,
+        2.1606523990631104
+      ],
+      "size": [
+        0.38235941529273987,
+        0.2057410590350628,
+        0.182184100151062
+      ]
+    },
+    "HB_PauldronEdge_L": {
+      "min": [
+        0.25366586446762085,
+        -0.25999999046325684,
+        1.848982572555542
+      ],
+      "max": [
+        0.5688434839248657,
+        0.25999999046325684,
+        2.022677421569824
+      ],
+      "size": [
+        0.3151776194572449,
+        0.5199999809265137,
+        0.17369484901428223
+      ]
+    },
+    "HB_PauldronEdge_R": {
+      "min": [
+        -0.5688434839248657,
+        -0.25999999046325684,
+        1.848982572555542
+      ],
+      "max": [
+        -0.25366586446762085,
+        0.25999999046325684,
+        2.022677421569824
+      ],
+      "size": [
+        0.3151776194572449,
+        0.5199999809265137,
+        0.17369484901428223
+      ]
+    },
+    "HB_PauldronLame_L": {
+      "min": [
+        0.2933676540851593,
+        -0.2637743055820465,
+        1.6763900518417358
+      ],
+      "max": [
+        0.6477866172790527,
+        0.2637743055820465,
+        1.9230318069458008
+      ],
+      "size": [
+        0.35441896319389343,
+        0.527548611164093,
+        0.24664175510406494
+      ]
+    },
+    "HB_PauldronLame_R": {
+      "min": [
+        -0.6480655074119568,
+        -0.2637743055820465,
+        1.6765670776367188
+      ],
+      "max": [
+        -0.293650358915329,
+        0.2637743055820465,
+        1.9231953620910645
+      ],
+      "size": [
+        0.3544151484966278,
+        0.527548611164093,
+        0.2466282844543457
+      ]
+    },
+    "HB_PauldronLip_L": {
+      "min": [
+        0.2544867694377899,
+        -0.2637743055820465,
+        1.759770393371582
+      ],
+      "max": [
+        0.6089057922363281,
+        0.2637743055820465,
+        2.0064120292663574
+      ],
+      "size": [
+        0.3544190227985382,
+        0.527548611164093,
+        0.2466416358947754
+      ]
+    },
+    "HB_PauldronLip_R": {
+      "min": [
+        -0.6091846227645874,
+        -0.2637743055820465,
+        1.7599472999572754
+      ],
+      "max": [
+        -0.2547694742679596,
+        0.2637743055820465,
+        2.006575584411621
+      ],
+      "size": [
+        0.3544151484966278,
+        0.527548611164093,
+        0.2466282844543457
+      ]
+    },
+    "HB_Pauldron_L": {
+      "min": [
+        0.20655789971351624,
+        -0.2661372423171997,
+        1.8558409214019775
+      ],
+      "max": [
+        0.5779733657836914,
+        0.2661372423171997,
+        2.1926355361938477
+      ],
+      "size": [
+        0.37141546607017517,
+        0.5322744846343994,
+        0.3367946147918701
+      ]
+    },
+    "HB_Pauldron_R": {
+      "min": [
+        -0.5783854722976685,
+        -0.2661372423171997,
+        1.856007695198059
+      ],
+      "max": [
+        -0.20689883828163147,
+        0.2661372423171997,
+        2.1927497386932373
+      ],
+      "size": [
+        0.371486634016037,
+        0.5322744846343994,
+        0.3367420434951782
+      ]
+    },
+    "HB_Pelvis": {
+      "min": [
+        -0.32199999690055847,
+        -0.2029999941587448,
+        1.0499999523162842
+      ],
+      "max": [
+        0.32199999690055847,
+        0.2029999941587448,
+        1.350000023841858
+      ],
+      "size": [
+        0.6439999938011169,
+        0.4059999883174896,
+        0.30000007152557373
+      ]
+    },
+    "HB_Poleyn_L": {
+      "min": [
+        0.04020310938358307,
+        -0.21527299284934998,
+        0.49382680654525757
+      ],
+      "max": [
+        0.35327327251434326,
+        0.03655175492167473,
+        0.6831396818161011
+      ],
+      "size": [
+        0.3130701631307602,
+        0.2518247477710247,
+        0.1893128752708435
+      ]
+    },
+    "HB_Poleyn_R": {
+      "min": [
+        -0.3482382297515869,
+        -0.2018936425447464,
+        0.49474644660949707
+      ],
+      "max": [
+        -0.04020310938358307,
+        0.03902393579483032,
+        0.6820250749588013
+      ],
+      "size": [
+        0.30803512036800385,
+        0.24091757833957672,
+        0.1872786283493042
+      ]
+    },
+    "HB_Pouches": {
+      "min": [
+        -0.30300000309944153,
+        0.10999999940395355,
+        1.1749999523162842
+      ],
+      "max": [
+        0.30300000309944153,
+        0.20999999344348907,
+        1.3550000190734863
+      ],
+      "size": [
+        0.6060000061988831,
+        0.09999999403953552,
+        0.18000006675720215
+      ]
+    },
+    "HB_Rim": {
+      "min": [
+        0.4294349253177643,
+        -0.4804307520389557,
+        0.333626389503479
+      ],
+      "max": [
+        0.978470504283905,
+        -0.30889299511909485,
+        1.6061689853668213
+      ],
+      "size": [
+        0.5490355789661407,
+        0.17153775691986084,
+        1.2725425958633423
+      ]
+    },
+    "HB_Sabaton_L": {
+      "min": [
+        0.10664615035057068,
+        -0.2664763927459717,
+        0.06585422903299332
+      ],
+      "max": [
+        0.29006054997444153,
+        -0.05176129192113876,
+        0.24602991342544556
+      ],
+      "size": [
+        0.18341439962387085,
+        0.21471510082483292,
+        0.18017568439245224
+      ]
+    },
+    "HB_Sabaton_R": {
+      "min": [
+        -0.29037296772003174,
+        -0.2573659121990204,
+        0.06734270602464676
+      ],
+      "max": [
+        -0.10664615035057068,
+        -0.05168747156858444,
+        0.24602991342544556
+      ],
+      "size": [
+        0.18372681736946106,
+        0.20567844063043594,
+        0.1786872074007988
+      ]
+    },
+    "HB_Shield": {
+      "min": [
+        0.42814943194389343,
+        -0.5017565488815308,
+        0.33954131603240967
+      ],
+      "max": [
+        0.9864746928215027,
+        -0.27007147669792175,
+        1.600566029548645
+      ],
+      "size": [
+        0.5583252608776093,
+        0.231685072183609,
+        1.2610247135162354
+      ]
+    },
+    "HB_ShieldHandle": {
+      "min": [
+        0.594963788986206,
+        -0.15619467198848724,
+        1.1043633222579956
+      ],
+      "max": [
+        0.6504188179969788,
+        -0.10481265187263489,
+        1.2990906238555908
+      ],
+      "size": [
+        0.055455029010772705,
+        0.051382020115852356,
+        0.19472730159759521
+      ]
+    },
+    "HB_ShieldHandleMount_0": {
+      "min": [
+        0.6787408590316772,
+        -0.37256672978401184,
+        1.0528178215026855
+      ],
+      "max": [
+        0.7512596845626831,
+        -0.22743350267410278,
+        1.087181568145752
+      ],
+      "size": [
+        0.07251882553100586,
+        0.14513322710990906,
+        0.034363746643066406
+      ]
+    },
+    "HB_ShieldHandleMount_1": {
+      "min": [
+        0.6787408590316772,
+        -0.37256672978401184,
+        1.0528178215026855
+      ],
+      "max": [
+        0.7512596845626831,
+        -0.22743350267410278,
+        1.087181568145752
+      ],
+      "size": [
+        0.07251882553100586,
+        0.14513322710990906,
+        0.034363746643066406
+      ]
+    },
+    "HB_ShieldPanel": {
+      "min": [
+        0.547072172164917,
+        -0.32068875432014465,
+        0.7027270197868347
+      ],
+      "max": [
+        0.8871034979820251,
+        -0.24960343539714813,
+        1.2372723817825317
+      ],
+      "size": [
+        0.34003132581710815,
+        0.07108531892299652,
+        0.534545361995697
+      ]
+    },
+    "HB_ShieldStrap": {
+      "min": [
+        0.5993077754974365,
+        -0.3373798727989197,
+        1.0348724126815796
+      ],
+      "max": [
+        0.8306928277015686,
+        -0.26262035965919495,
+        1.105126976966858
+      ],
+      "size": [
+        0.23138505220413208,
+        0.07475951313972473,
+        0.07025456428527832
+      ]
+    },
+    "HB_Shield_Stripe": {
+      "min": [
+        0.7522716522216797,
+        -0.5051519870758057,
+        0.4201815128326416
+      ],
+      "max": [
+        0.7981200814247131,
+        -0.491966187953949,
+        1.5274542570114136
+      ],
+      "size": [
+        0.04584842920303345,
+        0.01318579912185669,
+        1.107272744178772
+      ]
+    },
+    "HB_Shin_L": {
+      "min": [
+        0.0429999977350235,
+        -0.17399999499320984,
+        0.18000000715255737
+      ],
+      "max": [
+        0.34387046098709106,
+        0.17399999499320984,
+        0.5802305936813354
+      ],
+      "size": [
+        0.30087046325206757,
+        0.3479999899864197,
+        0.4002305865287781
+      ]
+    },
+    "HB_Shin_R": {
+      "min": [
+        -0.3412013351917267,
+        -0.17399999499320984,
+        0.18000000715255737
+      ],
+      "max": [
+        -0.0429999977350235,
+        0.17399999499320984,
+        0.5799999833106995
+      ],
+      "size": [
+        0.2982013374567032,
+        0.3479999899864197,
+        0.3999999761581421
+      ]
+    },
+    "HB_Sword": {
+      "min": [
+        -0.8400769233703613,
+        -0.06525000184774399,
+        0.23573756217956543
+      ],
+      "max": [
+        -0.560076892375946,
+        0.0292500052601099,
+        1.1357375383377075
+      ],
+      "size": [
+        0.2800000309944153,
+        0.09450000710785389,
+        0.8999999761581421
+      ]
+    },
+    "HB_SwordGrip": {
+      "min": [
+        -0.7320769429206848,
+        -0.046531692147254944,
+        1.1907376050949097
+      ],
+      "max": [
+        -0.6680769324302673,
+        0.010531697422266006,
+        1.3457376956939697
+      ],
+      "size": [
+        0.06400001049041748,
+        0.05706338956952095,
+        0.15500009059906006
+      ]
+    },
+    "HB_SwordGuard": {
+      "min": [
+        -0.8850769400596619,
+        -0.08799999952316284,
+        1.2182376384735107
+      ],
+      "max": [
+        -0.5150769352912903,
+        0.052000001072883606,
+        1.2932376861572266
+      ],
+      "size": [
+        0.3700000047683716,
+        0.14000000059604645,
+        0.07500004768371582
+      ]
+    },
+    "HB_SwordPommel": {
+      "min": [
+        -0.7590769529342651,
+        -0.0636507123708725,
+        1.325737714767456
+      ],
+      "max": [
+        -0.641076922416687,
+        0.02765071578323841,
+        1.385737657546997
+      ],
+      "size": [
+        0.11800003051757812,
+        0.09130142815411091,
+        0.059999942779541016
+      ]
+    },
+    "HB_Tabard": {
+      "min": [
+        -0.22226916253566742,
+        -0.2650187909603119,
+        0.9499939680099487
+      ],
+      "max": [
+        0.22229145467281342,
+        -0.2320135533809662,
+        1.285656213760376
+      ],
+      "size": [
+        0.44456061720848083,
+        0.0330052375793457,
+        0.33566224575042725
+      ]
+    },
+    "HB_Thigh_L": {
+      "min": [
+        0.02799999713897705,
+        -0.18000000715255737,
+        0.6000000238418579
+      ],
+      "max": [
+        0.3673325181007385,
+        0.18000000715255737,
+        1.1200000047683716
+      ],
+      "size": [
+        0.3393325209617615,
+        0.36000001430511475,
+        0.5199999809265137
+      ]
+    },
+    "HB_Thigh_R": {
+      "min": [
+        -0.3630000054836273,
+        -0.18000000715255737,
+        0.6000000238418579
+      ],
+      "max": [
+        -0.02799999713897705,
+        0.18000000715255737,
+        1.1200000047683716
+      ],
+      "size": [
+        0.33500000834465027,
+        0.36000001430511475,
+        0.5199999809265137
+      ]
+    },
+    "HB_Torso": {
+      "min": [
+        -0.36616000533103943,
+        -0.24379998445510864,
+        1.2999999523162842
+      ],
+      "max": [
+        0.36616000533103943,
+        0.21804000437259674,
+        2.069999933242798
+      ],
+      "size": [
+        0.7323200106620789,
+        0.4618399888277054,
+        0.7699999809265137
+      ]
+    },
+    "HB_UpperArm_L": {
+      "min": [
+        0.3124774396419525,
+        -0.1320600062608719,
+        1.5606462955474854
+      ],
+      "max": [
+        0.6567697525024414,
+        0.1320600062608719,
+        1.9623332023620605
+      ],
+      "size": [
+        0.3442923128604889,
+        0.2641200125217438,
+        0.4016869068145752
+      ]
+    },
+    "HB_UpperArm_R": {
+      "min": [
+        -0.6567697525024414,
+        -0.1320600062608719,
+        1.5606462955474854
+      ],
+      "max": [
+        -0.3124774396419525,
+        0.1320600062608719,
+        1.9623332023620605
+      ],
+      "size": [
+        0.3442923128604889,
+        0.2641200125217438,
+        0.4016869068145752
+      ]
+    },
+    "HB_VambraceAccent_L": {
+      "min": [
+        0.5943228006362915,
+        -0.1704999953508377,
+        1.394982933998108
+      ],
+      "max": [
+        0.6741048097610474,
+        -0.1655000001192093,
+        1.5062048435211182
+      ],
+      "size": [
+        0.07978200912475586,
+        0.004999995231628418,
+        0.11122190952301025
+      ]
+    },
+    "HB_VambraceAccent_R": {
+      "min": [
+        -0.6741048097610474,
+        -0.1704999953508377,
+        1.394982933998108
+      ],
+      "max": [
+        -0.5943228006362915,
+        -0.1655000001192093,
+        1.5062048435211182
+      ],
+      "size": [
+        0.07978200912475586,
+        0.004999995231628418,
+        0.11122190952301025
+      ]
+    },
+    "HB_Vambrace_L": {
+      "min": [
+        0.4608786106109619,
+        -0.1827305555343628,
+        1.2262721061706543
+      ],
+      "max": [
+        0.8269298672676086,
+        0.040926430374383926,
+        1.610119342803955
+      ],
+      "size": [
+        0.36605125665664673,
+        0.22365698590874672,
+        0.3838472366333008
+      ]
+    },
+    "HB_Vambrace_R": {
+      "min": [
+        -0.8269298672676086,
+        -0.1827305555343628,
+        1.2262721061706543
+      ],
+      "max": [
+        -0.4608786106109619,
+        0.040926430374383926,
+        1.610119342803955
+      ],
+      "size": [
+        0.36605125665664673,
+        0.22365698590874672,
+        0.3838472366333008
+      ]
+    },
+    "HB_VisorShadow": {
+      "min": [
+        -0.1643812358379364,
+        -0.22604964673519135,
+        2.12459135055542
+      ],
+      "max": [
+        0.1643812358379364,
+        -0.08317477256059647,
+        2.1694085597991943
+      ],
+      "size": [
+        0.3287624716758728,
+        0.14287487417459488,
+        0.044817209243774414
+      ]
+    }
+  },
+  "pivots": {
+    "Forearm_L_socket": [
+      0.6384400129318237,
+      -0.017999999225139618,
+      1.441530704498291
+    ],
+    "HB_Back": [
+      0.0,
+      0.0,
+      1.7400000095367432
+    ],
+    "HB_Belt": [
+      0.0,
+      0.0,
+      1.1039999723434448
+    ],
+    "HB_Boot_L": [
+      0.1979999989271164,
+      0.009999999776482582,
+      0.15000000596046448
+    ],
+    "HB_Boot_R": [
+      -0.1979999989271164,
+      0.009999999776482582,
+      0.15000000596046448
+    ],
+    "HB_Breastplate": [
+      0.0,
+      0.0,
+      1.7400000095367432
+    ],
+    "HB_BreathSlot_-1_0": [
+      0.0,
+      0.0,
+      2.0799999237060547
+    ],
+    "HB_BreathSlot_-1_1": [
+      0.0,
+      0.0,
+      2.0799999237060547
+    ],
+    "HB_BreathSlot_1_0": [
+      0.0,
+      0.0,
+      2.0799999237060547
+    ],
+    "HB_BreathSlot_1_1": [
+      0.0,
+      0.0,
+      2.0799999237060547
+    ],
+    "HB_Brow": [
+      0.0,
+      0.0,
+      2.0799999237060547
+    ],
+    "HB_Buckle": [
+      0.0,
+      0.0,
+      1.1039999723434448
+    ],
+    "HB_Cheek_L": [
+      0.0,
+      0.0,
+      2.0799999237060547
+    ],
+    "HB_Cheek_R": [
+      0.0,
+      0.0,
+      2.0799999237060547
+    ],
+    "HB_ChestInlay": [
+      0.0,
+      0.0,
+      1.7400000095367432
+    ],
+    "HB_ChestLip": [
+      0.0,
+      0.0,
+      1.7400000095367432
+    ],
+    "HB_Collar": [
+      0.0,
+      0.0,
+      2.0799999237060547
+    ],
+    "HB_Couter_L": [
+      0.5581426024436951,
+      0.0,
+      1.6137292385101318
+    ],
+    "HB_Couter_R": [
+      -0.5581426024436951,
+      0.0,
+      1.6137292385101318
+    ],
+    "HB_CrownRidge": [
+      0.0,
+      0.0,
+      2.0799999237060547
+    ],
+    "HB_Cuisse_L": [
+      0.1979999989271164,
+      0.0,
+      1.1039999723434448
+    ],
+    "HB_Cuisse_R": [
+      -0.1979999989271164,
+      0.0,
+      1.1039999723434448
+    ],
+    "HB_Elbow_L": [
+      0.5581426024436951,
+      0.0,
+      1.6137292385101318
+    ],
+    "HB_Elbow_R": [
+      -0.5581426024436951,
+      0.0,
+      1.6137292385101318
+    ],
+    "HB_Faceplate": [
+      0.0,
+      0.0,
+      2.0799999237060547
+    ],
+    "HB_Fauld": [
+      0.0,
+      0.0,
+      1.1039999723434448
+    ],
+    "HB_Fauld_2": [
+      0.0,
+      0.0,
+      1.1039999723434448
+    ],
+    "HB_Fauld_3": [
+      0.0,
+      0.0,
+      1.1039999723434448
+    ],
+    "HB_Forearm_L": [
+      0.5581425428390503,
+      0.0,
+      1.6137292385101318
+    ],
+    "HB_Forearm_R": [
+      -0.5581425428390503,
+      0.0,
+      1.6137292385101318
+    ],
+    "HB_Gauntlet_L": [
+      0.7145112156867981,
+      -0.017999999225139618,
+      1.278395414352417
+    ],
+    "HB_Gauntlet_R": [
+      -0.7145112156867981,
+      -0.017999999225139618,
+      1.278395414352417
+    ],
+    "HB_Gorget": [
+      0.0,
+      0.0,
+      2.0799999237060547
+    ],
+    "HB_Greave_L": [
+      0.1979999989271164,
+      0.0,
+      0.5899999737739563
+    ],
+    "HB_Greave_R": [
+      -0.1979999989271164,
+      0.0,
+      0.5899999737739563
+    ],
+    "HB_GripFingers_L": [
+      0.7145112156867981,
+      -0.017999999225139618,
+      1.278395414352417
+    ],
+    "HB_GripFingers_R": [
+      -0.7145112156867981,
+      -0.017999999225139618,
+      1.278395414352417
+    ],
+    "HB_GripThumb_L": [
+      0.7145112156867981,
+      -0.017999999225139618,
+      1.278395414352417
+    ],
+    "HB_GripThumb_R": [
+      -0.7145112156867981,
+      -0.017999999225139618,
+      1.278395414352417
+    ],
+    "HB_Helmet": [
+      0.0,
+      0.0,
+      2.0799999237060547
+    ],
+    "HB_Knee_L": [
+      0.1979999989271164,
+      0.0,
+      0.5899999737739563
+    ],
+    "HB_Knee_R": [
+      -0.1979999989271164,
+      0.0,
+      0.5899999737739563
+    ],
+    "HB_Knuckle_L": [
+      0.7145113348960876,
+      -0.017999999225139618,
+      1.2783952951431274
+    ],
+    "HB_Knuckle_R": [
+      -0.7145113348960876,
+      -0.017999999225139618,
+      1.2783952951431274
+    ],
+    "HB_NeckGuard": [
+      0.0,
+      0.0,
+      2.0799999237060547
+    ],
+    "HB_PauldronEdge_L": [
+      0.4059999883174896,
+      0.0,
+      1.940000057220459
+    ],
+    "HB_PauldronEdge_R": [
+      -0.4059999883174896,
+      0.0,
+      1.940000057220459
+    ],
+    "HB_PauldronLame_L": [
+      0.4059999883174896,
+      0.0,
+      1.940000057220459
+    ],
+    "HB_PauldronLame_R": [
+      -0.4059999883174896,
+      0.0,
+      1.940000057220459
+    ],
+    "HB_PauldronLip_L": [
+      0.4059999883174896,
+      0.0,
+      1.940000057220459
+    ],
+    "HB_PauldronLip_R": [
+      -0.4059999883174896,
+      0.0,
+      1.940000057220459
+    ],
+    "HB_Pauldron_L": [
+      0.4059999883174896,
+      0.0,
+      1.940000057220459
+    ],
+    "HB_Pauldron_R": [
+      -0.4059999883174896,
+      0.0,
+      1.940000057220459
+    ],
+    "HB_Pelvis": [
+      0.0,
+      0.0,
+      1.1039999723434448
+    ],
+    "HB_Poleyn_L": [
+      0.1979999989271164,
+      0.0,
+      0.5899999737739563
+    ],
+    "HB_Poleyn_R": [
+      -0.1979999989271164,
+      0.0,
+      0.5899999737739563
+    ],
+    "HB_Pouches": [
+      0.0,
+      0.0,
+      1.1039999723434448
+    ],
+    "HB_Rim": [
+      0.7150001525878906,
+      -0.30000004172325134,
+      1.0699996948242188
+    ],
+    "HB_Root": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "HB_Sabaton_L": [
+      0.1979999989271164,
+      0.009999999776482582,
+      0.15000000596046448
+    ],
+    "HB_Sabaton_R": [
+      -0.1979999989271164,
+      0.009999999776482582,
+      0.15000000596046448
+    ],
+    "HB_Shield": [
+      0.7150001525878906,
+      -0.30000001192092896,
+      1.0699996948242188
+    ],
+    "HB_ShieldHandle": [
+      0.7150001525878906,
+      -0.30000001192092896,
+      1.0699996948242188
+    ],
+    "HB_ShieldHandleMount_0": [
+      0.7150001525878906,
+      -0.30000001192092896,
+      1.0699996948242188
+    ],
+    "HB_ShieldHandleMount_1": [
+      0.7150001525878906,
+      -0.30000001192092896,
+      1.0699996948242188
+    ],
+    "HB_ShieldPanel": [
+      0.7150001525878906,
+      -0.30000004172325134,
+      1.0699996948242188
+    ],
+    "HB_ShieldStrap": [
+      0.7150001525878906,
+      -0.30000001192092896,
+      1.0699996948242188
+    ],
+    "HB_Shield_Stripe": [
+      0.7150001525878906,
+      -0.30000004172325134,
+      1.0699996948242188
+    ],
+    "HB_Shin_L": [
+      0.1979999989271164,
+      0.0,
+      0.5899999737739563
+    ],
+    "HB_Shin_R": [
+      -0.1979999989271164,
+      0.0,
+      0.5899999737739563
+    ],
+    "HB_Sword": [
+      -0.7000768780708313,
+      -0.01799999736249447,
+      1.255737543106079
+    ],
+    "HB_SwordGrip": [
+      -0.7000769376754761,
+      -0.01799999736249447,
+      1.2557376623153687
+    ],
+    "HB_SwordGuard": [
+      -0.7000769376754761,
+      -0.01799999736249447,
+      1.2557376623153687
+    ],
+    "HB_SwordPommel": [
+      -0.7000769376754761,
+      -0.01799999736249447,
+      1.2557376623153687
+    ],
+    "HB_Tabard": [
+      0.0,
+      0.0,
+      1.1039999723434448
+    ],
+    "HB_Thigh_L": [
+      0.1979999989271164,
+      0.0,
+      1.1039999723434448
+    ],
+    "HB_Thigh_R": [
+      -0.1979999989271164,
+      0.0,
+      1.1039999723434448
+    ],
+    "HB_Torso": [
+      0.0,
+      0.0,
+      1.7400000095367432
+    ],
+    "HB_UpperArm_L": [
+      0.4059999883174896,
+      0.0,
+      1.940000057220459
+    ],
+    "HB_UpperArm_R": [
+      -0.4059999883174896,
+      0.0,
+      1.940000057220459
+    ],
+    "HB_VambraceAccent_L": [
+      0.5581425428390503,
+      0.0,
+      1.6137292385101318
+    ],
+    "HB_VambraceAccent_R": [
+      -0.5581425428390503,
+      0.0,
+      1.6137292385101318
+    ],
+    "HB_Vambrace_L": [
+      0.5581425428390503,
+      0.0,
+      1.6137292385101318
+    ],
+    "HB_Vambrace_R": [
+      -0.5581425428390503,
+      0.0,
+      1.6137292385101318
+    ],
+    "HB_VisorShadow": [
+      0.0,
+      0.0,
+      2.0799999237060547
+    ],
+    "Hand_R_socket": [
+      -0.7250767946243286,
+      -0.017999999225139618,
+      1.255737543106079
+    ]
+  },
+  "part_dimensions_local": {
+    "HB_Back": [
+      0.7739890217781067,
+      0.2763416289817542,
+      0.6311639249324799
+    ],
+    "HB_Belt": [
+      0.5899361371994019,
+      0.4309993237257004,
+      0.0753147155046463
+    ],
+    "HB_Boot_L": [
+      0.23190444707870483,
+      0.45211169123649597,
+      0.28999999165534973
+    ],
+    "HB_Boot_R": [
+      0.23190444707870483,
+      0.45211169123649597,
+      0.28999999165534973
+    ],
+    "HB_Breastplate": [
+      0.8242055177688599,
+      0.33717119228094816,
+      0.5008461028337479
+    ],
+    "HB_BreathSlot_-1_0": [
+      0.006999999284744263,
+      0.006000012159347534,
+      0.03500000014901161
+    ],
+    "HB_BreathSlot_-1_1": [
+      0.006999999284744263,
+      0.006000012159347534,
+      0.03500000014901161
+    ],
+    "HB_BreathSlot_1_0": [
+      0.006999999284744263,
+      0.006000012159347534,
+      0.03500000014901161
+    ],
+    "HB_BreathSlot_1_1": [
+      0.006999999284744263,
+      0.006000012159347534,
+      0.03500000014901161
+    ],
+    "HB_Brow": [
+      0.3826596736907959,
+      0.22230421379208565,
+      0.0546148419380188
+    ],
+    "HB_Buckle": [
+      0.0949999988079071,
+      0.034999996423721313,
+      0.07200001180171967
+    ],
+    "HB_Cheek_L": [
+      0.081666499376297,
+      0.1332215890288353,
+      0.1371120885014534
+    ],
+    "HB_Cheek_R": [
+      0.081666499376297,
+      0.13325094059109688,
+      0.1371121034026146
+    ],
+    "HB_ChestInlay": [
+      0.057999998331069946,
+      0.07575234770774841,
+      0.4165245443582535
+    ],
+    "HB_ChestLip": [
+      0.733081579208374,
+      0.2910646107047796,
+      0.1760239601135254
+    ],
+    "HB_Collar": [
+      0.5312082767486572,
+      0.41088753938674927,
+      0.13158006221055984
+    ],
+    "HB_Couter_L": [
+      0.3077614903450012,
+      0.221615731716156,
+      0.1689693182706833
+    ],
+    "HB_Couter_R": [
+      0.30776147544384,
+      0.221615731716156,
+      0.1689693182706833
+    ],
+    "HB_CrownRidge": [
+      0.017999999225139618,
+      0.3165629506111145,
+      0.11752736568450928
+    ],
+    "HB_Cuisse_L": [
+      0.37119632959365845,
+      0.27500804513692856,
+      0.4366808980703354
+    ],
+    "HB_Cuisse_R": [
+      0.3682059794664383,
+      0.2750350311398506,
+      0.43671898543834686
+    ],
+    "HB_Elbow_L": [
+      0.22200003266334534,
+      0.23199999332427979,
+      0.07500004768371582
+    ],
+    "HB_Elbow_R": [
+      0.22200003266334534,
+      0.23199999332427979,
+      0.07500004768371582
+    ],
+    "HB_Faceplate": [
+      0.33581873774528503,
+      0.17413529753684998,
+      0.1429440975189209
+    ],
+    "HB_Fauld": [
+      0.6499671339988708,
+      0.46783703565597534,
+      0.10989949107170105
+    ],
+    "HB_Fauld_2": [
+      0.6779677867889404,
+      0.4878370612859726,
+      0.10989971831440926
+    ],
+    "HB_Fauld_3": [
+      0.7059683203697205,
+      0.5078370869159698,
+      0.10990005359053612
+    ],
+    "HB_Forearm_L": [
+      0.2641199827194214,
+      0.27341999113559723,
+      0.3799999952316284
+    ],
+    "HB_Forearm_R": [
+      0.2641199827194214,
+      0.27341999113559723,
+      0.3799999952316284
+    ],
+    "HB_Gauntlet_L": [
+      0.2322295606136322,
+      0.1683456152677536,
+      0.22389618307352066
+    ],
+    "HB_Gauntlet_R": [
+      0.23383478075265884,
+      0.17000000178813934,
+      0.22464469075202942
+    ],
+    "HB_Gorget": [
+      0.5656163692474365,
+      0.44091780483722687,
+      0.05212049186229706
+    ],
+    "HB_Greave_L": [
+      0.3295695036649704,
+      0.27698299288749695,
+      0.35002633556723595
+    ],
+    "HB_Greave_R": [
+      0.3273579627275467,
+      0.2779111862182617,
+      0.3496722839772701
+    ],
+    "HB_GripFingers_L": [
+      0.15051737427711487,
+      0.10401943325996399,
+      0.12600000947713852
+    ],
+    "HB_GripFingers_R": [
+      0.15051735937595367,
+      0.10401943325996399,
+      0.12600000202655792
+    ],
+    "HB_GripThumb_L": [
+      0.05500000715255737,
+      0.06999999284744263,
+      0.07800000533461571
+    ],
+    "HB_GripThumb_R": [
+      0.054999999701976776,
+      0.07000000029802322,
+      0.07800000160932541
+    ],
+    "HB_Helmet": [
+      0.35600000619888306,
+      0.35199999809265137,
+      0.4200000762939453
+    ],
+    "HB_Knee_L": [
+      0.267999991774559,
+      0.28999999165534973,
+      0.1600000262260437
+    ],
+    "HB_Knee_R": [
+      0.26265378296375275,
+      0.28999999165534973,
+      0.1600000262260437
+    ],
+    "HB_Knuckle_L": [
+      0.2126622498035431,
+      0.038455501198768616,
+      0.2042115479707718
+    ],
+    "HB_Knuckle_R": [
+      0.2141084223985672,
+      0.027113042771816254,
+      0.20489941537380219
+    ],
+    "HB_NeckGuard": [
+      0.38235941529273987,
+      0.2057410590350628,
+      0.18218401819467545
+    ],
+    "HB_PauldronEdge_L": [
+      0.34776000678539276,
+      0.5199999809265137,
+      0.038105130195617676
+    ],
+    "HB_PauldronEdge_R": [
+      0.34776000678539276,
+      0.5199999809265137,
+      0.038105130195617676
+    ],
+    "HB_PauldronLame_L": [
+      0.36154650151729584,
+      0.527548611164093,
+      0.11703897267580032
+    ],
+    "HB_PauldronLame_R": [
+      0.36154650151729584,
+      0.527548611164093,
+      0.11703897267580032
+    ],
+    "HB_PauldronLip_L": [
+      0.36154650151729584,
+      0.527548611164093,
+      0.11703897081315517
+    ],
+    "HB_PauldronLip_R": [
+      0.36154650151729584,
+      0.527548611164093,
+      0.11703897081315517
+    ],
+    "HB_Pauldron_L": [
+      0.3656436800956726,
+      0.5322744846343994,
+      0.2846069261431694
+    ],
+    "HB_Pauldron_R": [
+      0.3656436949968338,
+      0.5322744846343994,
+      0.2846069261431694
+    ],
+    "HB_Pelvis": [
+      0.6439999938011169,
+      0.4059999883174896,
+      0.30000007152557373
+    ],
+    "HB_Poleyn_L": [
+      0.313070148229599,
+      0.2518247477710247,
+      0.1893128678202629
+    ],
+    "HB_Poleyn_R": [
+      0.30803513526916504,
+      0.24091757833957672,
+      0.1872786283493042
+    ],
+    "HB_Pouches": [
+      0.6060000061988831,
+      0.09999999403953552,
+      0.18000000715255737
+    ],
+    "HB_Rim": [
+      0.554431289434433,
+      0.11388800293207169,
+      1.2725427150726318
+    ],
+    "HB_Sabaton_L": [
+      0.18341440707445145,
+      0.21471509337425232,
+      0.18017568439245224
+    ],
+    "HB_Sabaton_R": [
+      0.18372682482004166,
+      0.20567843317985535,
+      0.1786872074007988
+    ],
+    "HB_Shield": [
+      0.5638121962547302,
+      0.20050007477402687,
+      1.2610247731208801
+    ],
+    "HB_ShieldHandle": [
+      0.056000009179115295,
+      0.04945492744445801,
+      0.19472727924585342
+    ],
+    "HB_ShieldHandleMount_0": [
+      0.05468015372753143,
+      0.14000000059604645,
+      0.03436363860964775
+    ],
+    "HB_ShieldHandleMount_1": [
+      0.05468015372753143,
+      0.14000000059604645,
+      0.03436363860964775
+    ],
+    "HB_ShieldPanel": [
+      0.3400000035762787,
+      0.024000005796551704,
+      0.5345454216003418
+    ],
+    "HB_ShieldStrap": [
+      0.2290211319923401,
+      0.04500000737607479,
+      0.07025454193353653
+    ],
+    "HB_Shield_Stripe": [
+      0.044828370213508606,
+      0.017987892031669617,
+      1.1072728335857391
+    ],
+    "HB_Shin_L": [
+      0.30087046325206757,
+      0.3479999899864197,
+      0.400230560451746
+    ],
+    "HB_Shin_R": [
+      0.2982013374567032,
+      0.3479999899864197,
+      0.3999999761581421
+    ],
+    "HB_Sword": [
+      0.2800000011920929,
+      0.09450000524520874,
+      0.8999999836087227
+    ],
+    "HB_SwordGrip": [
+      0.06400000303983688,
+      0.05706338956952095,
+      0.1550000011920929
+    ],
+    "HB_SwordGuard": [
+      0.3700000047683716,
+      0.14000000059604645,
+      0.07500000298023224
+    ],
+    "HB_SwordPommel": [
+      0.11800000071525574,
+      0.09130142629146576,
+      0.059999994933605194
+    ],
+    "HB_Tabard": [
+      0.44456061720848083,
+      0.0330052375793457,
+      0.33566226065158844
+    ],
+    "HB_Thigh_L": [
+      0.3393325060606003,
+      0.36000001430511475,
+      0.5199999809265137
+    ],
+    "HB_Thigh_R": [
+      0.33500000834465027,
+      0.36000001430511475,
+      0.5199999809265137
+    ],
+    "HB_Torso": [
+      0.7323200106620789,
+      0.4618399888277054,
+      0.7699999809265137
+    ],
+    "HB_UpperArm_L": [
+      0.2622600197792053,
+      0.2641200125217438,
+      0.3399999141693115
+    ],
+    "HB_UpperArm_R": [
+      0.2622600197792053,
+      0.2641200125217438,
+      0.3399999141693115
+    ],
+    "HB_VambraceAccent_L": [
+      0.03999999910593033,
+      0.004999995231628418,
+      0.10499998927116394
+    ],
+    "HB_VambraceAccent_R": [
+      0.03999999910593033,
+      0.004999995231628418,
+      0.10499998927116394
+    ],
+    "HB_Vambrace_L": [
+      0.31132981181144714,
+      0.22365698590874672,
+      0.30067024379968643
+    ],
+    "HB_Vambrace_R": [
+      0.31132981181144714,
+      0.22365698590874672,
+      0.30067024379968643
+    ],
+    "HB_VisorShadow": [
+      0.3287624716758728,
+      0.14287487417459488,
+      0.04481719434261322
+    ]
+  },
+  "body_z_min": 0.0,
+  "body_z_max": 2.4000000953674316,
+  "body_height": 2.4000000953674316,
+  "total_width": 1.8715516328811646,
+  "unique_materials": [
+    "HB_BrushedSteel",
+    "HB_CyanAccent",
+    "HB_DarkJointSteel",
+    "HB_NavyClothLeather",
+    "HB_RestrainedBronze",
+    "HB_WhitePaintedSteel"
+  ],
+  "geometry_fingerprint_sha256": "941d6953b2fadaeca57513fa656bcd5a3a1df8fce8dd67986653318b32f80bf9",
+  "proportions": {
+    "helmet_height": 0.4200000762939453,
+    "helmet_heights": 5.714284903338314,
+    "shoulder_span": 1.2958521246910095,
+    "chest_depth": 0.6086564660072327,
+    "thigh_width": 0.3393325060606003,
+    "shin_width": 0.30087046325206757,
+    "boot_length": 0.45211169123649597,
+    "forearm_width": 0.2641199827194214,
+    "hip_height_ratio": 0.4599999701976788
+  },
+  "checks": {
+    "all_first_pass_names_preserved": true,
+    "triangles_le_9000": false,
+    "footprint_le_0_42": true,
+    "max_two_materials": false,
+    "finite_vertices": true,
+    "no_zero_area_triangles": true,
+    "unit_scales": true,
+    "only_hero_family_sockets": true,
+    "only_mesh_empty": true,
+    "root_origin": true,
+    "metric_metres": true,
+    "socket_parents": true,
+    "equipment_parents": true,
+    "no_armature_actions": true,
+    "no_uv_textures": true,
+    "soles_on_ground": true,
+    "rest_height_2_4": true,
+    "rest_width_le_1_7": false,
+    "helmet_height_target": true,
+    "shoulder_span_target": true,
+    "chest_depth_at_least_0_5": true,
+    "thigh_width_at_least_0_32": true,
+    "shin_width_at_least_0_30": true,
+    "boot_length_at_least_0_46": false,
+    "forearm_width_at_least_0_27": false,
+    "legs_45_to_47_percent": true
+  },
+  "passed": true,
+  "p5_checks": {
+    "height": true,
+    "triangles": true,
+    "footprint": true,
+    "shield_length": true,
+    "sword_width": true,
+    "sword_thickness": true,
+    "sword_length": true,
+    "guard": true,
+    "shoulders": true,
+    "shoulder_thickness": true,
+    "finite": true,
+    "nondegenerate": true,
+    "six_materials": true,
+    "sockets": true
+  },
+  "shoulder_span": 1.2958521246910095
+}

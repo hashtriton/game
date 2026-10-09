@@ -1,0 +1,24 @@
+{
+  "source": ".local\\codex-tasks\\ow2-arena\\shots\\final-arena-1920x1080.png",
+  "source_sha256": "e8dcae2eb648de065e832c54b577aee877f130326139e0f0651d20bfe62f54fb",
+  "source_contains_old_hero": true,
+  "placement": [
+    570,
+    448
+  ],
+  "equipment_bbox": [
+    915,
+    425,
+    1035,
+    587
+  ],
+  "native_equipment_size": [
+    120,
+    162
+  ],
+  "native_body_height": 139,
+  "resized": false,
+  "label": "MOCK-UP",
+  "not_unity_p4_screenshot": true,
+  "limitations": "No engine integration, shadow and selection ring approximations, saved frame has original hero."
+}
