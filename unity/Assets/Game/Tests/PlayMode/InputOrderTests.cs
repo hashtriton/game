@@ -3,6 +3,7 @@ using System.Linq;
 using Arena;
 using NUnit.Framework;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
@@ -41,6 +42,23 @@ namespace Game.Tests
         }
 
         private Vector2 ScreenOf(Vector3 world) => view.WorldToScreenPoint(world);
+
+        private IEnumerator WaitForCameraToSettle()
+        {
+            const float epsilon = 0.0001f;
+            const int requiredFrames = 5;
+            var deadline = Time.realtimeSinceStartup + 10f;
+            var previous = view.transform.position;
+            var stableFrames = 0;
+            while (stableFrames < requiredFrames && Time.realtimeSinceStartup < deadline)
+            {
+                yield return null;
+                var current = view.transform.position;
+                stableFrames = (current - previous).sqrMagnitude < epsilon * epsilon ? stableFrames + 1 : 0;
+                previous = current;
+            }
+            Assert.AreEqual(requiredFrames, stableFrames, "the camera must settle within 10 seconds before projecting a click");
+        }
 
         private IEnumerator RightClickAt(Vector3 world)
         {
@@ -85,11 +103,40 @@ namespace Game.Tests
         public IEnumerator Right_click_on_a_barrel_attacks_it()
         {
             AddDevices();
-            var barrel = Destructible.All.First(b => !b.explosive && map.IsWalkable(b.Position + new Vector3(0f, 0f, -1.8f), hero.radius));
-            hero.transform.position = map.FindNearestWalkable(barrel.Position + new Vector3(0f, 0f, -5f));
-            // The camera follows the hero softly; let it settle so the screen position of the barrel stays valid.
-            yield return new WaitForSeconds(1.5f);
-            yield return RightClickAt(barrel.Position + Vector3.up * 0.4f);
+            var candidates = Destructible.All.Where(b => !b.explosive && map.IsWalkable(b.Position + new Vector3(0f, 0f, -1.8f), hero.radius))
+                .OrderBy(b => b.editorId).ToArray();
+            Assert.IsNotEmpty(candidates, "a normal barrel must have open ground to the south");
+            // A new virtual mouse starts on the screen edge and can otherwise pan the camera during the wait.
+            Set(mouse.position, new Vector2(Screen.width * 0.5f, Screen.height * 0.5f));
+            yield return null;
+            view.GetComponent<RtsCamera>().lockToHero = true;
+            hero.Stop();
+            hero.transform.position = map.FindNearestWalkable(candidates[0].Position + new Vector3(0f, 0f, -5f));
+            yield return WaitForCameraToSettle();
+
+            Destructible barrel = null;
+            var margin = Mathf.Max(4f, view.GetComponent<RtsCamera>().edgeMargin * Screen.height / 1080f) + 2f;
+            foreach (var candidate in candidates)
+            {
+                // Keep the barrel alive through the input frames so this assertion checks the order, not the first hit.
+                if (!candidate.IsAlive || candidate.EdgeDistance(hero.transform.position) <= hero.Unit.attackRange + 2f) continue;
+                var screen = view.WorldToScreenPoint(candidate.Position + Vector3.up * 0.4f);
+                if (screen.z <= 0f || screen.x <= margin || screen.x >= Screen.width - margin
+                    || screen.y <= margin || screen.y >= Screen.height - margin) continue;
+                // Neighbours may win the picker even when the ray passes through this barrel's centre.
+                if (TargetPicker.Pick(view.ScreenPointToRay(screen), hero.Unit) != candidate) continue;
+                Set(mouse.position, (Vector2)screen);
+                yield return null;
+                if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject()) continue;
+                if (TargetPicker.Pick(view.ScreenPointToRay(mouse.position.ReadValue()), hero.Unit) != candidate) continue;
+                barrel = candidate;
+                break;
+            }
+            Assert.IsNotNull(barrel, "a visible normal barrel with open ground to the south must be selectable by the settled camera");
+            Press(mouse.rightButton);
+            yield return null;
+            Release(mouse.rightButton);
+            yield return null;
             Assert.AreSame(barrel, hero.Target);
         }
 
