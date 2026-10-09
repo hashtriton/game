@@ -10,12 +10,15 @@ namespace Game
     /// </summary>
     public sealed class TooltipView
     {
-        private const float Width = 460f;
+        private const float Width = 520f;
         private const int MaxStats = 12;
 
         private readonly HudAssets assets;
+        private readonly HudSkin skin;
+        private readonly Image gradeAccent;
         private readonly RectTransform canvasRect;
         private readonly RectTransform root;
+        private readonly float reservedBottom;
         private readonly Text title;
         private readonly Text kind;
         private readonly GameObject costRow;
@@ -38,14 +41,16 @@ namespace Game
 
         public bool Visible => root.gameObject.activeSelf;
 
-        public TooltipView(HudAssets assets, RectTransform canvasRect, Transform parent)
+        public TooltipView(HudAssets assets, RectTransform canvasRect, Transform parent, float reservedBottom = 8f, HudSkin hudSkin = null)
         {
             this.assets = assets;
+            skin = hudSkin ?? Resources.Load<HudSkin>("HudSkin");
             this.canvasRect = canvasRect;
+            this.reservedBottom = reservedBottom;
 
             root = UiKit.Rect("Tooltip", parent);
             var back = root.gameObject.AddComponent<Image>();
-            back.sprite = assets.tooltip;
+            back.sprite = skin.shopTooltip;
             back.type = Image.Type.Sliced;
             back.raycastTarget = false;
             root.anchorMin = Vector2.zero;
@@ -53,44 +58,53 @@ namespace Game
             root.pivot = new Vector2(0f, 1f);
             root.sizeDelta = new Vector2(Width, 100f);
             UiKit.Vertical(root.gameObject, 18, 6f, true);
+            gradeAccent = UiKit.Picture(root, "Grade accent", null, Color.white);
+            gradeAccent.gameObject.AddComponent<LayoutElement>().ignoreLayout = true;
+            gradeAccent.rectTransform.anchorMin = new Vector2(0f, 1f);
+            gradeAccent.rectTransform.anchorMax = Vector2.one;
+            gradeAccent.rectTransform.pivot = new Vector2(0.5f, 1f);
+            gradeAccent.rectTransform.offsetMin = new Vector2(22f, -10f);
+            gradeAccent.rectTransform.offsetMax = new Vector2(-22f, -7f);
 
-            title = Line("Title", assets.titleFont, 28, UiColors.Gold);
-            kind = Line("Kind", assets.bodyFont, 17, UiColors.Muted);
+            title = Line("Title", assets.titleFont, 28, HudSkin.White);
+            title.fontStyle = FontStyle.Italic;
+            kind = Line("Kind", assets.bodyFont, 20, HudSkin.ShopMuted);
 
             costRow = UiKit.Rect("Cost row", root).gameObject;
             UiKit.Sized(costRow, -1f, 26f);
-            var coin = UiKit.Picture(costRow.transform, "Coin", assets.coin, Color.white);
+            var coin = UiKit.Picture(costRow.transform, "Coin", skin.coin, Color.white);
             coinImage = coin;
             coin.rectTransform.anchorMin = new Vector2(0f, 0.5f);
             coin.rectTransform.anchorMax = new Vector2(0f, 0.5f);
             coin.rectTransform.pivot = new Vector2(0f, 0.5f);
             coin.rectTransform.anchoredPosition = Vector2.zero;
             coin.rectTransform.sizeDelta = new Vector2(24f, 24f);
-            cost = UiKit.Label(costRow.transform, "Cost", assets.bodyFont, 22, UiColors.Gold, TextAnchor.MiddleLeft);
+            cost = UiKit.Label(costRow.transform, "Cost", assets.titleFont, 22, HudSkin.ShopGold, TextAnchor.MiddleLeft);
+            cost.fontStyle = FontStyle.Italic;
             cost.rectTransform.anchorMin = new Vector2(0f, 0f);
             cost.rectTransform.anchorMax = new Vector2(1f, 1f);
             cost.rectTransform.offsetMin = new Vector2(32f, 0f);
             cost.rectTransform.offsetMax = Vector2.zero;
-            recipe = Line("Recipe", assets.bodyFont, 17, UiColors.Muted);
+            recipe = Line("Recipe", assets.bodyFont, 20, HudSkin.ShopMuted);
 
             firstDivider = Divider();
 
-            activeHeader = Line("Active header", assets.bodyFont, 18, new Color(0.62f, 0.78f, 0.95f));
-            active = Line("Active", assets.bodyFont, 19, UiColors.Text);
-            passive = Line("Passive", assets.bodyFont, 19, UiColors.Text);
+            activeHeader = Line("Active header", assets.bodyFont, 20, HudSkin.ManaNumeral);
+            active = Line("Active", assets.bodyFont, 20, HudSkin.White);
+            passive = Line("Passive", assets.bodyFont, 20, HudSkin.White);
 
             partsBlock = UiKit.Rect("Parts", root).gameObject;
             UiKit.Vertical(partsBlock, 0, 4f, true);
-            partsHeader = UiKit.Label(partsBlock.transform, "Parts header", assets.bodyFont, 18, UiColors.Gold, TextAnchor.MiddleLeft, "Состав");
+            partsHeader = UiKit.Label(partsBlock.transform, "Parts header", assets.bodyFont, 20, HudSkin.White, TextAnchor.MiddleLeft, "Состав");
             partsRow = UiKit.Rect("Parts row", partsBlock.transform);
             UiKit.Sized(partsRow.gameObject, -1f, 48f);
             UiKit.Horizontal(partsRow.gameObject, 6f, TextAnchor.MiddleLeft);
-            partsNames = UiKit.Label(partsBlock.transform, "Parts names", assets.bodyFont, 17, UiColors.Muted, TextAnchor.UpperLeft);
-            usedIn = UiKit.Label(partsBlock.transform, "Used in", assets.bodyFont, 17, UiColors.Muted, TextAnchor.UpperLeft);
+            partsNames = UiKit.Label(partsBlock.transform, "Parts names", assets.bodyFont, 20, HudSkin.ShopMuted, TextAnchor.UpperLeft);
+            usedIn = UiKit.Label(partsBlock.transform, "Used in", assets.bodyFont, 20, HudSkin.ShopMuted, TextAnchor.UpperLeft);
 
             statsDivider = Divider();
-            for (var i = 0; i < MaxStats; i++) statLines[i] = Line("Stat " + (i + 1), assets.bodyFont, 21, UiColors.Good);
-            footer = Line("Footer", assets.bodyFont, 17, UiColors.Muted);
+            for (var i = 0; i < MaxStats; i++) statLines[i] = Line("Stat " + (i + 1), assets.bodyFont, 21, HudSkin.ShopGood);
+            footer = Line("Footer", assets.bodyFont, 20, HudSkin.ShopMuted);
             root.gameObject.SetActive(false);
         }
 
@@ -102,8 +116,8 @@ namespace Game
 
         private GameObject Divider()
         {
-            var line = UiKit.Picture(root, "Divider", assets.divider, Color.white);
-            UiKit.Sized(line.gameObject, -1f, 6f);
+            var line = UiKit.Picture(root, "Divider", null, new Color(0.72f, 0.82f, 0.92f, 0.5f));
+            UiKit.Sized(line.gameObject, -1f, 2f);
             return line.gameObject;
         }
 
@@ -111,11 +125,12 @@ namespace Game
         public void Show(ItemBook book, ItemInfo info, ICollection<string> owned, string footerText)
         {
             title.text = info.name;
+            gradeAccent.color = UiColors.Grade(info.totalCost);
             kind.text = info.kind ?? "";
             kind.gameObject.SetActive(!string.IsNullOrEmpty(info.kind));
 
             var paidInSouls = info.souls > 0;
-            coinImage.sprite = paidInSouls ? assets.soul : assets.coin;
+            coinImage.sprite = paidInSouls ? skin.soul : skin.coin;
             if (paidInSouls) cost.text = (info.totalCost > 0 ? info.totalCost + " золота и " : "") + info.souls + " душ";
             else cost.text = info.totalCost >= 0 ? info.totalCost.ToString() : "цена не определена";
             costRow.SetActive(true);
@@ -161,7 +176,7 @@ namespace Game
             usedIn.gameObject.SetActive(hasUses);
 
             while (partSlots.Count < info.components.Count)
-                partSlots.Add(new ItemSlotView(assets, partsRow, "Part " + partSlots.Count, 44f, false));
+                partSlots.Add(new ItemSlotView(assets, partsRow, "Part " + partSlots.Count, 44f, false, skin, true));
             for (var i = 0; i < partSlots.Count; i++)
             {
                 var slot = partSlots[i];
@@ -200,12 +215,16 @@ namespace Game
             RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect, screenPoint, null, out var local);
             var canvas = canvasRect.rect.size;
             var size = root.rect.size;
+            // Keep rare long descriptions above the HUD, preserving cursor follow and the reserved bottom zone.
+            var fit = Mathf.Min(1f, Mathf.Max(1f, canvas.y - reservedBottom - 8f) / Mathf.Max(1f, size.y));
+            root.localScale = Vector3.one * fit;
+            size *= fit;
             var anchorPoint = local + canvas * 0.5f;
 
             var x = anchorPoint.x + 26f;
             if (x + size.x > canvas.x - 8f) x = anchorPoint.x - 26f - size.x;
             var y = anchorPoint.y - 18f;
-            y = Mathf.Clamp(y, size.y + 8f, canvas.y - 8f);
+            y = Mathf.Clamp(y, Mathf.Min(size.y + reservedBottom, canvas.y - 8f), canvas.y - 8f);
             root.anchoredPosition = new Vector2(Mathf.Max(8f, x), y);
         }
     }

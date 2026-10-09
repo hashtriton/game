@@ -10,7 +10,7 @@ using UnityEngine.Rendering.Universal;
 namespace Game.EditorTools
 {
     /// <summary>
-    /// Builds the grim night arena scene from the measured Life in Arena 3.9c layout:
+    /// Builds the sunlit arena scene from the measured Life in Arena 3.9c layout:
     /// terrain, props, light, post processing, camera and a hero that runs on the original pathing grid.
     /// </summary>
     public static partial class GameArenaBuilder
@@ -74,15 +74,11 @@ namespace Game.EditorTools
         {
             foreach (var path in new[] { "Assets/Game/Scenes", "Assets/Game/Generated" })
                 Directory.CreateDirectory(path);
-            AssetDatabase.DeleteAsset(MeshRoot.TrimEnd('/'));
-            AssetDatabase.CreateFolder("Assets/Game/Generated", "Meshes");
+            if (!AssetDatabase.IsValidFolder(MeshRoot.TrimEnd('/'))) AssetDatabase.CreateFolder("Assets/Game/Generated", "Meshes");
             // Materials are updated in place, never deleted: prefabs refer to them by GUID, and a prefab that is
             // imported while its material is being recreated keeps an empty slot (a pink hero).
             if (!AssetDatabase.IsValidFolder(MatRoot.TrimEnd('/'))) AssetDatabase.CreateFolder("Assets/Game/Generated", "Materials");
             meshes.Clear();
-            // Packed masks derive from the roughness textures; regenerate them in case those changed.
-            foreach (var mask in Directory.GetFiles(GenRoot.TrimEnd('/'), "*_mask.png"))
-                AssetDatabase.DeleteAsset(mask.Replace('\\', '/'));
             AssetDatabase.Refresh();
         }
 
@@ -99,6 +95,24 @@ namespace Game.EditorTools
             }
             // Forward+ lifts the per-object limit on additional lights: the arena has dozens of torches.
             renderer.renderingMode = RenderingMode.ForwardPlus;
+            if (!renderer.TryGetRendererFeature<ScreenSpaceAmbientOcclusion>(out var occlusion))
+            {
+                occlusion = ScriptableObject.CreateInstance<ScreenSpaceAmbientOcclusion>();
+                occlusion.name = "Courtyard ambient occlusion";
+                AssetDatabase.AddObjectToAsset(occlusion, renderer);
+                renderer.rendererFeatures.Add(occlusion);
+            }
+            var ao = new SerializedObject(occlusion);
+            var settings = ao.FindProperty("m_Settings");
+            settings.FindPropertyRelative("Source").enumValueIndex = 1;
+            settings.FindPropertyRelative("Intensity").floatValue = 0.55f;
+            settings.FindPropertyRelative("Radius").floatValue = 0.35f;
+            settings.FindPropertyRelative("DirectLightingStrength").floatValue = 0.12f;
+            settings.FindPropertyRelative("Downsample").boolValue = false;
+            settings.FindPropertyRelative("AfterOpaque").boolValue = false;
+            ao.ApplyModifiedPropertiesWithoutUndo();
+            occlusion.SetActive(true);
+            renderer.SetDirty();
             EditorUtility.SetDirty(renderer);
 
             var pipeline = AssetDatabase.LoadAssetAtPath<UniversalRenderPipelineAsset>(pipelinePath);
@@ -117,6 +131,7 @@ namespace Game.EditorTools
             // Soft shadows have no public setter.
             var serialized = new SerializedObject(pipeline);
             serialized.FindProperty("m_SoftShadowsSupported").boolValue = true;
+            serialized.FindProperty("m_SoftShadowQuality").enumValueIndex = (int)SoftShadowQuality.High;
             serialized.ApplyModifiedPropertiesWithoutUndo();
             EditorUtility.SetDirty(pipeline);
 
@@ -144,10 +159,14 @@ namespace Game.EditorTools
 
             var layers = new[]
             {
-                TerrainLayerFor("Dirt", "ground", 12f, new Color(1f, 0.93f, 0.84f), 0.45f),
-                TerrainLayerFor("Cobble", "cobble", 4f, new Color(0.9f, 0.9f, 0.95f), 0.55f),
-                TerrainLayerFor("Paving", "stone", 3.5f, new Color(0.82f, 0.84f, 0.9f), 0.6f),
-                TerrainLayerFor("DeadGrass", "ground", 6f, new Color(0.5f, 0.56f, 0.36f), 0.3f)
+                TerrainLayerFor("Dirt", "ground", 8f, Color.white, 0.42f),
+                TerrainLayerFor("Cobble", "cobble", 8f, Color.white, 0.42f),
+                TerrainLayerFor("Paving", "cobble", 8f, new Color(0.95f, 0.98f, 1f), 0.42f),
+                TerrainLayerFor("DeadGrass", "ground", 8f, new Color(0.76f, 0.84f, 0.65f), 0.3f),
+                TerrainLayerFor("DirtDamp", "ground", 8f, new Color(0.85f, 0.90f, 0.94f), 0.55f),
+                TerrainLayerFor("CobbleDamp", "cobble", 8f, new Color(0.85f, 0.90f, 0.94f), 0.55f),
+                TerrainLayerFor("PavingDamp", "cobble", 8f, new Color(0.85f, 0.90f, 0.94f), 0.55f),
+                TerrainLayerFor("GrassDamp", "ground", 8f, new Color(0.58f, 0.69f, 0.53f), 0.42f)
             };
             terrainData.terrainLayers = layers;
 
@@ -164,13 +183,22 @@ namespace Game.EditorTools
                     var vz = Mathf.Min(source.height - 2, Mathf.FloorToInt(gz));
                     var fx = gx - vx;
                     var fz = gz - vz;
+                    // World-scale staining breaks the repeat without moving texture joints or terrain vertices.
+                    var worldX = (source.origin[0] + gx * source.cellSize) / unit;
+                    var worldZ = (source.origin[1] + gz * source.cellSize) / unit;
+                    var patch = Mathf.PerlinNoise(worldX * 0.25f + 37f, worldZ * 0.10f + 91f);
+                    var broad = Mathf.PerlinNoise(worldX * 0.025f + 17f, worldZ * 0.025f + 8f);
+                    var wornLane = Mathf.Exp(-Mathf.Pow((worldX - map.HeroSpawn.x) / 3.5f, 2f));
+                    var damp = Mathf.Clamp01((patch * 0.85f + broad * 0.15f - 0.52f) / 0.30f) * 0.22f * (1f - wornLane * 0.7f);
                     for (var dz = 0; dz < 2; dz++)
                     {
                         for (var dx = 0; dx < 2; dx++)
                         {
                             var vertex = source.vertices[(vz + dz) * source.width + vx + dx];
                             var layer = LayerIndex(source.groundTextures[vertex.groundTextureIndex]);
-                            weights[z, x, layer] += (dx == 0 ? 1f - fx : fx) * (dz == 0 ? 1f - fz : fz);
+                            var weight = (dx == 0 ? 1f - fx : fx) * (dz == 0 ? 1f - fz : fz);
+                            weights[z, x, layer] += weight * (1f - damp);
+                            weights[z, x, layer + 4] += weight * damp;
                         }
                     }
                 }
@@ -187,6 +215,7 @@ namespace Game.EditorTools
             var material = new Material(Shader.Find("Universal Render Pipeline/Terrain/Lit")) { name = "TerrainLit" };
             AssetDatabase.CreateAsset(material, MatRoot + "TerrainLit.mat");
             terrain.materialTemplate = material;
+            Prop("Outer ground", null, OuterGroundMesh(map), materials["OuterGround"], Vector3.zero, Quaternion.identity, Vector3.one, true);
         }
 
         // Original ground tile rawcodes folded into the four looks the arena needs.
@@ -234,22 +263,24 @@ namespace Game.EditorTools
 
         static void BuildAtmosphere()
         {
-            var moon = new GameObject("Moon").AddComponent<Light>();
-            moon.type = LightType.Directional;
-            moon.color = new Color(0.62f, 0.7f, 0.92f);
-            moon.intensity = 1.9f;
-            moon.shadows = LightShadows.Soft;
-            moon.shadowStrength = 0.9f;
-            moon.transform.rotation = Quaternion.Euler(48f, -38f, 0f);
+            var sun = new GameObject("Afternoon sun").AddComponent<Light>();
+            sun.type = LightType.Directional;
+            sun.color = new Color(1f, 0.9f, 0.76f);
+            sun.intensity = 2.9f;
+            sun.shadows = LightShadows.Soft;
+            sun.shadowStrength = 0.95f;
+            // Camera yaw is zero: +X and -Z project toward the lower-right of the frame.
+            sun.transform.rotation = Quaternion.Euler(42f, 135f, 0f);
+            RenderSettings.sun = sun;
 
             RenderSettings.ambientMode = AmbientMode.Trilight;
-            RenderSettings.ambientSkyColor = new Color(0.24f, 0.29f, 0.45f);
-            RenderSettings.ambientEquatorColor = new Color(0.17f, 0.21f, 0.32f);
-            RenderSettings.ambientGroundColor = new Color(0.10f, 0.11f, 0.14f);
+            RenderSettings.ambientSkyColor = new Color(0.4f, 0.5f, 0.64f);
+            RenderSettings.ambientEquatorColor = new Color(0.3f, 0.37f, 0.47f);
+            RenderSettings.ambientGroundColor = new Color(0.46f, 0.39f, 0.28f);
             RenderSettings.fog = true;
             RenderSettings.fogMode = FogMode.ExponentialSquared;
-            RenderSettings.fogColor = new Color(0.04f, 0.06f, 0.10f);
-            RenderSettings.fogDensity = 0.014f;
+            RenderSettings.fogColor = new Color(0.65f, 0.75f, 0.82f);
+            RenderSettings.fogDensity = 0.0018f;
             RenderSettings.skybox = null;
 
             var profile = ScriptableObject.CreateInstance<VolumeProfile>();
@@ -258,23 +289,17 @@ namespace Game.EditorTools
             var tonemapping = AddEffect<Tonemapping>(profile);
             tonemapping.mode.Override(TonemappingMode.ACES);
             var bloom = AddEffect<Bloom>(profile);
-            bloom.threshold.Override(0.9f);
-            bloom.intensity.Override(0.8f);
-            bloom.scatter.Override(0.7f);
+            bloom.threshold.Override(1.2f);
+            bloom.intensity.Override(0.22f);
+            bloom.scatter.Override(0.55f);
             bloom.highQualityFiltering.Override(true);
             var vignette = AddEffect<Vignette>(profile);
-            vignette.intensity.Override(0.42f);
+            vignette.intensity.Override(0.08f);
             vignette.smoothness.Override(0.5f);
             var adjustments = AddEffect<ColorAdjustments>(profile);
-            adjustments.contrast.Override(16f);
-            adjustments.saturation.Override(-16f);
-            adjustments.colorFilter.Override(new Color(0.92f, 0.98f, 1f));
-            var lift = AddEffect<LiftGammaGain>(profile);
-            lift.lift.Override(new Vector4(0.96f, 0.99f, 1.06f, 0f));
-            var grain = AddEffect<FilmGrain>(profile);
-            grain.type.Override(FilmGrainLookup.Thin1);
-            grain.intensity.Override(0.3f);
-            grain.response.Override(0.8f);
+            adjustments.contrast.Override(8f);
+            adjustments.saturation.Override(14f);
+            adjustments.colorFilter.Override(Color.white);
             EditorUtility.SetDirty(profile);
 
             var volume = new GameObject("Post processing").AddComponent<Volume>();
@@ -312,13 +337,13 @@ namespace Game.EditorTools
             Prop("Ring", highlightObject.transform, FlatQuadMesh("quad_flat"), materials["Ring"], Vector3.zero, Quaternion.identity, Vector3.one, false, false);
             var highlight = highlightObject.AddComponent<TargetHighlight>();
 
-            // A faint personal light keeps the hero readable in the dark without flattening the scene.
+            // Gentle warm bounce on the placeholder armour complements the daylight key.
             var glow = new GameObject("Hero light").AddComponent<Light>();
             glow.transform.SetParent(hero.transform, false);
             glow.transform.localPosition = new Vector3(0f, HeroHeight + 0.7f, -0.8f);
             glow.type = LightType.Point;
             glow.color = new Color(1f, 0.86f, 0.68f);
-            glow.intensity = 2.6f;
+            glow.intensity = 0.55f;
             glow.range = 7.5f;
             glow.shadows = LightShadows.None;
 
@@ -350,8 +375,7 @@ namespace Game.EditorTools
             return hero;
         }
 
-        // Placeholder hero: the existing CC0 Warrior with its animation clips, re-skinned with duller, darker materials
-        // so it does not read as a toy under torchlight. Own prefab, the shared source assets stay untouched.
+        // Existing CC0 placeholder, with restrained metal response and its original texture and animations.
         static GameObject BuildHeroModel()
         {
             var source = AssetDatabase.LoadAssetAtPath<GameObject>(HeroPrefabPath);
@@ -359,12 +383,12 @@ namespace Game.EditorTools
 
             var body = NewMaterial("HeroBody", "Universal Render Pipeline/Lit");
             body.SetTexture("_BaseMap", AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/ThirdParty/Quaternius/Warrior_Texture.png"));
-            body.SetColor("_BaseColor", new Color(0.55f, 0.53f, 0.58f));
-            body.SetFloat("_Metallic", 0.25f);
-            body.SetFloat("_Smoothness", 0.35f);
+            body.SetColor("_BaseColor", new Color(0.88f, 0.9f, 0.98f));
+            body.SetFloat("_Metallic", 0.18f);
+            body.SetFloat("_Smoothness", 0.32f);
             var blade = NewMaterial("HeroBlade", "Universal Render Pipeline/Lit");
             blade.SetTexture("_BaseMap", AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/ThirdParty/Quaternius/Warrior_Sword_Texture.png"));
-            blade.SetColor("_BaseColor", new Color(0.7f, 0.72f, 0.78f));
+            blade.SetColor("_BaseColor", new Color(0.92f, 0.97f, 1f));
             blade.SetFloat("_Metallic", 0.6f);
             blade.SetFloat("_Smoothness", 0.55f);
 
@@ -394,7 +418,7 @@ namespace Game.EditorTools
             camera.nearClipPlane = 0.3f;
             camera.farClipPlane = 300f;
             camera.clearFlags = CameraClearFlags.SolidColor;
-            camera.backgroundColor = new Color(0.02f, 0.03f, 0.05f);
+            camera.backgroundColor = new Color(0.65f, 0.78f, 0.86f);
             camera.allowHDR = true;
             var data = go.AddComponent<UniversalAdditionalCameraData>();
             data.renderPostProcessing = true;

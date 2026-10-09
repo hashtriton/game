@@ -174,8 +174,7 @@ namespace Game.EditorTools
         // Three dummies to try the orders on: far enough that the hero has to walk up, quiet until he comes close.
         static void BuildTrainingCreeps(ArenaMap map)
         {
-            var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(CreepPrefabPath);
-            if (prefab == null) throw new FileNotFoundException(CreepPrefabPath);
+            var prefab = BuildCreepModel();
             var root = new GameObject("Training creeps").transform;
             var offsets = new[] { new Vector3(11f, 0f, 5f), new Vector3(7f, 0f, 12f), new Vector3(-9f, 0f, 9f) };
             for (var i = 0; i < offsets.Length; i++)
@@ -201,6 +200,91 @@ namespace Game.EditorTools
                 ai.map = map;
                 ai.aggroRange = 7f;
             }
+        }
+
+        static GameObject BuildCreepModel()
+        {
+            var source = AssetDatabase.LoadAssetAtPath<GameObject>(CreepPrefabPath);
+            if (source == null) throw new FileNotFoundException(CreepPrefabPath);
+            var instance = (GameObject)PrefabUtility.InstantiatePrefab(source);
+            try
+            {
+                PrefabUtility.UnpackPrefabInstance(instance, PrefabUnpackMode.Completely, InteractionMode.AutomatedAction);
+                var albedo = BuildCreepPalette("Albedo");
+                var glowMask = BuildCreepPalette("Emission");
+                var copies = new Dictionary<Material, Material>();
+                foreach (var renderer in instance.GetComponentsInChildren<Renderer>())
+                {
+                    var slots = renderer.sharedMaterials;
+                    for (var i = 0; i < slots.Length; i++)
+                    {
+                        var original = slots[i];
+                        if (original == null) throw new System.InvalidOperationException("Creep has an empty material slot.");
+                        if (!copies.TryGetValue(original, out var material))
+                        {
+                            material = NewMaterial("Creep_" + original.name, original.shader.name);
+                            material.CopyPropertiesFromMaterial(original);
+                            material.SetColor("_BaseColor", new Color(0.98f, 0.94f, 0.88f));
+                            material.SetFloat("_Smoothness", 0.3f);
+                            material.SetFloat("_BumpScale", 0.65f);
+                            material.SetTexture("_BaseMap", albedo);
+                            material.SetTexture("_EmissionMap", glowMask);
+                            material.SetColor("_EmissionColor", new Color(1.5f, 0.34f, 0.045f));
+                            EditorUtility.SetDirty(material);
+                            copies.Add(original, material);
+                        }
+                        slots[i] = material;
+                    }
+                    renderer.sharedMaterials = slots;
+                }
+                AssetDatabase.SaveAssets();
+                return PrefabUtility.SaveAsPrefabAsset(instance, GenRoot + "CreepModel.prefab");
+            }
+            finally
+            {
+                Object.DestroyImmediate(instance);
+            }
+        }
+
+        // Recolour the existing cyan mineral patches; geometry and all animation bindings stay intact.
+        static Texture2D BuildCreepPalette(string channel)
+        {
+            var path = GenRoot + "Creep" + channel + ".png";
+            var sourcePath = "Assets/Creatures/CrystalArachnid/CrystalArachnid_" + channel + ".png";
+            var texture = new Texture2D(2, 2, TextureFormat.RGBA32, false);
+            try
+            {
+                if (!texture.LoadImage(File.ReadAllBytes(sourcePath)))
+                    throw new InvalidDataException("Unable to decode creep texture: " + sourcePath);
+                var pixels = texture.GetPixels32();
+                for (var i = 0; i < pixels.Length; i++)
+                {
+                    if (channel == "Emission")
+                    {
+                        var value = System.Math.Max(pixels[i].r, System.Math.Max(pixels[i].g, pixels[i].b));
+                        pixels[i] = new Color32(value, value, value, 255);
+                    }
+                    else
+                    {
+                        Color.RGBToHSV(pixels[i], out var hue, out var saturation, out var value);
+                        if (hue > 0.38f && hue < 0.65f && saturation > 0.25f)
+                            pixels[i] = Color.HSVToRGB(0.055f, saturation * 0.8f, value);
+                    }
+                }
+                texture.SetPixels32(pixels);
+                File.WriteAllBytes(path, texture.EncodeToPNG());
+            }
+            finally
+            {
+                Object.DestroyImmediate(texture);
+            }
+            AssetDatabase.ImportAsset(path);
+            var importer = (TextureImporter)AssetImporter.GetAtPath(path);
+            importer.sRGBTexture = true;
+            importer.mipmapEnabled = true;
+            importer.wrapMode = TextureWrapMode.Repeat;
+            importer.SaveAndReimport();
+            return AssetDatabase.LoadAssetAtPath<Texture2D>(path);
         }
     }
 }

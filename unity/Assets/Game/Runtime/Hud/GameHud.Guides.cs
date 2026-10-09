@@ -36,7 +36,7 @@ namespace Game
             var guides = session.Guides?.guides ?? new GuideDefinition[0];
             if (guides.Length == 0)
             {
-                var none = UiKit.Label(guideArea, "None", assets.bodyFont, 24, UiColors.Muted, TextAnchor.UpperLeft, "Гайдов пока нет.");
+                var none = UiKit.Label(guideArea, "None", assets.bodyFont, 24, HudSkin.ShopMuted, TextAnchor.UpperLeft, "Гайдов пока нет.");
                 Corner(none.rectTransform, 0f, 0f, 600f, 40f);
                 return;
             }
@@ -45,40 +45,41 @@ namespace Game
             for (var i = 0; i < guides.Length; i++)
             {
                 var index = i;
-                var card = UiKit.Picture(guideArea, "Guide " + guides[i].id, assets.button, Color.white, true);
+                var card = UiKit.Picture(guideArea, "Guide " + guides[i].id, skin.shopTab, Color.white, true);
                 Corner(card.rectTransform, 0f, -i * 76f, 262f, 70f);
                 var button = card.gameObject.AddComponent<Button>();
                 button.targetGraphic = card;
-                button.transition = Selectable.Transition.None;
+                UiKit.ShopPlateState(card, skin, false);
                 button.onClick.AddListener(() => SelectGuide(index));
-                var title = UiKit.Label(card.rectTransform, "Title", assets.bodyFont, 21, UiColors.Text, TextAnchor.UpperLeft, guides[i].title);
+                var title = UiKit.Label(card.rectTransform, "Title", assets.bodyFont, 21, HudSkin.White, TextAnchor.UpperLeft, guides[i].title);
                 Corner(title.rectTransform, 14f, -9f, 238f, 30f);
                 title.horizontalOverflow = HorizontalWrapMode.Overflow;
-                var role = UiKit.Label(card.rectTransform, "Role", assets.bodyFont, 16, UiColors.Muted, TextAnchor.UpperLeft, guides[i].role);
+                var role = UiKit.Label(card.rectTransform, "Role", assets.bodyFont, 18, HudSkin.ShopMuted, TextAnchor.UpperLeft, guides[i].role);
                 Corner(role.rectTransform, 14f, -38f, 238f, 24f);
                 role.horizontalOverflow = HorizontalWrapMode.Overflow;
                 guideCards.Add(card);
             }
 
             // Right column: header, then the steps in a scrolling list.
-            guideTitle = UiKit.Label(guideArea, "Guide title", assets.titleFont, 32, UiColors.Gold, TextAnchor.UpperLeft);
+            guideTitle = UiKit.Label(guideArea, "Guide title", assets.titleFont, 32, HudSkin.White, TextAnchor.UpperLeft);
+            guideTitle.fontStyle = FontStyle.Italic;
             Corner(guideTitle.rectTransform, 286f, 0f, 654f, 40f);
-            guideSummary = UiKit.Label(guideArea, "Guide summary", assets.bodyFont, 19, UiColors.Text, TextAnchor.UpperLeft);
+            guideSummary = UiKit.Label(guideArea, "Guide summary", assets.bodyFont, 20, HudSkin.White, TextAnchor.UpperLeft);
             Corner(guideSummary.rectTransform, 286f, -42f, 654f, 54f);
-            guideSource = UiKit.Label(guideArea, "Guide source", assets.bodyFont, 15, UiColors.Muted, TextAnchor.UpperLeft);
+            guideSource = UiKit.Label(guideArea, "Guide source", assets.bodyFont, 18, HudSkin.ShopMuted, TextAnchor.UpperLeft);
             Corner(guideSource.rectTransform, 286f, -98f, 654f, 44f);
 
-            nextButtonImage = UiKit.Picture(guideArea, "Buy next", assets.button, Color.white, true);
-            Corner(nextButtonImage.rectTransform, 286f, -146f, 654f, 42f);
+            nextButtonImage = UiKit.Picture(guideArea, "Buy next", skin.shopTab, Color.white, true);
+            Corner(nextButtonImage.rectTransform, 286f, -146f, 654f, 48f);
             var next = nextButtonImage.gameObject.AddComponent<Button>();
             next.targetGraphic = nextButtonImage;
-            next.transition = Selectable.Transition.None;
+            UiKit.ShopPlateState(nextButtonImage, skin, false);
             next.onClick.AddListener(BuyNextOfGuide);
-            nextButtonLabel = UiKit.Label(nextButtonImage.rectTransform, "Text", assets.bodyFont, 21, UiColors.Gold, TextAnchor.MiddleCenter);
-            UiKit.Stretch(nextButtonLabel.rectTransform);
+            nextButtonLabel = UiKit.Label(nextButtonImage.rectTransform, "Text", assets.bodyFont, 20, HudSkin.White, TextAnchor.MiddleCenter);
+            UiKit.Stretch(nextButtonLabel.rectTransform, 18f, 0f, 18f, 0f);
 
             var scroll = UiKit.Rect("Steps", guideArea);
-            Corner(scroll, 286f, -198f, 654f, 322f);
+            Corner(scroll, 286f, -204f, 654f, 316f);
             guideScroll = scroll.gameObject.AddComponent<ScrollRect>();
             var viewport = UiKit.Rect("Viewport", scroll);
             UiKit.Stretch(viewport);
@@ -116,11 +117,21 @@ namespace Game
             if (guide == null) return;
 
             for (var i = 0; i < guideCards.Count; i++)
-                guideCards[i].color = i == index ? new Color(1.35f, 1.1f, 0.75f) : Color.white;
+                UiKit.ShopPlateState(guideCards[i], skin, i == index);
 
             guideTitle.text = guide.title;
             guideSummary.text = guide.summary;
             guideSource.text = guide.source;
+            // Longer source notes must clear the next-purchase plate at the larger body size.
+            var summaryHeight = Mathf.Max(54f, Mathf.Ceil(guideSummary.preferredHeight));
+            Corner(guideSummary.rectTransform, 286f, -42f, 654f, summaryHeight);
+            var sourceTop = 42f + summaryHeight + 2f;
+            var sourceHeight = Mathf.Max(44f, Mathf.Ceil(guideSource.preferredHeight));
+            Corner(guideSource.rectTransform, 286f, -sourceTop, 654f, sourceHeight);
+            var nextTop = sourceTop + sourceHeight + 8f;
+            Corner(nextButtonImage.rectTransform, 286f, -nextTop, 654f, 48f);
+            var stepsTop = nextTop + 58f;
+            Corner((RectTransform)guideScroll.transform, 286f, -stepsTop, 654f, 520f - stepsTop);
             RebuildGuideSteps(guide);
             RefreshGuides();
             guideScroll.verticalNormalizedPosition = 1f;
@@ -134,13 +145,13 @@ namespace Game
             for (var s = 0; s < guide.steps.Length; s++)
             {
                 var step = guide.steps[s];
-                var row = UiKit.Picture(guideContent, "Step " + (s + 1), assets.slot, new Color(1f, 1f, 1f, 0.8f), false);
-                UiKit.Vertical(row.gameObject, 10, 4f, false);
+                var row = UiKit.Picture(guideContent, "Step " + (s + 1), skin.shopTab, Color.white, false);
+                var rowLayout = UiKit.Vertical(row.gameObject, 10, 4f, false);
+                rowLayout.padding = new RectOffset(32, 20, 10, 10);
 
-                var when = UiKit.Label(row.transform, "When", assets.bodyFont, 21, UiColors.Gold, TextAnchor.UpperLeft, (s + 1) + ".  " + step.when);
+                var when = UiKit.Label(row.transform, "When", assets.bodyFont, 21, HudSkin.ManaNumeral, TextAnchor.UpperLeft, (s + 1) + ".  " + step.when);
                 when.horizontalOverflow = HorizontalWrapMode.Overflow;
-                var note = UiKit.Label(row.transform, "Note", assets.bodyFont, 18, UiColors.Text, TextAnchor.UpperLeft, step.note);
-                note.color = new Color(0.78f, 0.75f, 0.68f);
+                var note = UiKit.Label(row.transform, "Note", assets.bodyFont, 20, HudSkin.White, TextAnchor.UpperLeft, step.note);
 
                 if (step.items == null || step.items.Length == 0) continue;
                 var items = UiKit.Rect("Items", row.transform);
@@ -149,7 +160,7 @@ namespace Game
                 for (var i = 0; i < step.items.Length; i++)
                 {
                     var id = step.items[i];
-                    var view = new ItemSlotView(assets, items, "Item " + (i + 1), 64f, true);
+                    var view = new ItemSlotView(assets, items, "Item " + (i + 1), 64f, true, skin, true);
                     var slotRef = new GuideSlot { view = view, itemId = id, step = s, index = i };
                     var relay = UiKit.Relay(view.root.gameObject);
                     relay.entered = _ => ShowTooltip(id, GuideFooter(slotRef));
@@ -173,13 +184,13 @@ namespace Game
             {
                 var mark = marks[slot.step][slot.index];
                 var id = slot.itemId;
-                var affordableColor = UiColors.Gold;
+                var affordableColor = HudSkin.ShopGold;
                 var priceText = "";
                 if (mark != ItemMark.Done)
                 {
                     var plan = Loadout.PlanFor(id, true);
                     priceText = plan.problem != null ? "-" : plan.gold.ToString();
-                    affordableColor = plan.problem == null && Loadout.Gold >= plan.gold ? UiColors.Gold : new Color(0.72f, 0.36f, 0.30f);
+                    affordableColor = plan.problem == null && Loadout.Gold >= plan.gold ? HudSkin.ShopGold : HudSkin.ShopBad;
                 }
                 slot.view.Set(id, Book.Name(id), UiColors.Grade(Book.TotalCost(id)), priceText, affordableColor);
                 slot.view.SetMark(mark);
@@ -190,13 +201,13 @@ namespace Game
             if (nextItemId == null)
             {
                 nextButtonLabel.text = "Все предметы гайда собраны";
-                nextButtonLabel.color = UiColors.Muted;
+                nextButtonLabel.color = HudSkin.ShopMuted;
             }
             else
             {
                 var plan = Loadout.PlanFor(nextItemId, true);
                 nextButtonLabel.text = "КУПИТЬ СЛЕДУЮЩИЙ: " + Book.Name(nextItemId) + (plan.problem == null ? "  (" + plan.gold + ")" : "");
-                nextButtonLabel.color = UiColors.Gold;
+                nextButtonLabel.color = HudSkin.White;
             }
         }
 

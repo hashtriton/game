@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e08830680d7150d4899cf2e52328e9c4, type: 3}
+  m_Name: HudSkin
+  m_EditorClassIdentifier: Game.Runtime::Game.HudSkin
+  plate: {fileID: 21300000, guid: 8a41121b899224141a893fe5303efa0c, type: 3}
+  frame: {fileID: 21300000, guid: 0e07ba4075c514e428eb0195e6492603, type: 3}
+  badge: {fileID: 21300000, guid: 1a2e2086c92765942b07f8b9f7a9c508, type: 3}
+  segment: {fileID: 21300000, guid: aa1ab78425a21844e9d36c37584b464e, type: 3}
+  ring: {fileID: 21300000, guid: feb9e97833c606c4f8dbbb17549020ae, type: 3}
+  smoke: {fileID: 21300000, guid: 59533f3cfd5a0bf48bec7609ff2deb85, type: 3}
+  backing: {fileID: 21300000, guid: ee7b217b0ea43d24d8fa0b27fb6308f6, type: 3}
+  portraitMask: {fileID: 21300000, guid: e7310de2e5368b744907f86fc44efae2, type: 3}
+  portraitFrame: {fileID: 21300000, guid: 6b9510d75c13ec348a4f2dda24f86363, type: 3}
+  portrait: {fileID: 21300000, guid: 2c2ab495155c8f04483dc09f1a926c77, type: 3}
+  q: {fileID: 21300000, guid: 5a5579368b49b4b4bba57684ead1903e, type: 3}
+  w: {fileID: 21300000, guid: 5b0733a3d6ece2245817b2882bc7ef25, type: 3}
+  e: {fileID: 21300000, guid: dbadf85adbafacc489509ee627ee4c33, type: 3}
+  r: {fileID: 21300000, guid: 204cfeb636c5ced428ba389d40873216, type: 3}
+  passive: {fileID: 21300000, guid: 0a29286b8ba1d3a4da96be488cdc7704, type: 3}
+  attack: {fileID: 21300000, guid: 22603b8e364ee99459df441344e2a089, type: 3}
+  armor: {fileID: 21300000, guid: 8a76ed92cd1ed2f47a3239f5c5f5ffa5, type: 3}
+  locked: {fileID: 21300000, guid: 912011216309f194b8ebd8cd6f011fb5, type: 3}
+  coin: {fileID: 21300000, guid: edb85b14d7dcf854299f9df4d891b735, type: 3}
+  soul: {fileID: 21300000, guid: f925af9b97a80ec41939a50e519c58a0, type: 3}
+  shopWindow: {fileID: 21300000, guid: b2c6798f863ae394c859ae59441a891c, type: 3}
+  shopTooltip: {fileID: 21300000, guid: b295e084ff8d8e64f81efdb97fc25b42, type: 3}
+  shopTab: {fileID: 21300000, guid: 312f765af2b721745b77218d1d19409c, type: 3}
+  shopHover: {fileID: 21300000, guid: cd0d939efa0e754438e6f4e3bc13d720, type: 3}
+  shopSelected: {fileID: 21300000, guid: 9fcda7ffb7ef4d546889a16604e0059f, type: 3}

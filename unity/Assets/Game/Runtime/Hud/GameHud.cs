@@ -37,7 +37,7 @@ namespace Game
             BuildShopWindow();
             BuildToastAndOverlays();
             // The tooltip goes last so it draws above every window.
-            tooltip = new TooltipView(assets, canvasRect, canvasRect);
+            tooltip = new TooltipView(assets, canvasRect, canvasRect, 244f, skin);
         }
 
         private void Start()
@@ -84,9 +84,12 @@ namespace Game
 
         private void BuildToastAndOverlays()
         {
-            toast = UiKit.Label(transform, "Toast", assets.bodyFont, 28, UiColors.Text, TextAnchor.MiddleCenter);
-            UiKit.Place(toast.rectTransform, new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0f, 250f), new Vector2(1100f, 44f));
-            toast.gameObject.SetActive(false);
+            var message = UiKit.Picture(transform, "Toast plate", skin.smoke, Color.white);
+            UiKit.Place(message.rectTransform, new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0f, 257f), new Vector2(1100f, 50f));
+            toast = UiKit.Label(message.transform, "Toast", assets.bodyFont, 25, HudSkin.White, TextAnchor.MiddleCenter);
+            toast.fontStyle = FontStyle.Italic;
+            UiKit.Stretch(toast.rectTransform, 20f, 2f, 20f, 2f);
+            message.gameObject.SetActive(false);
 
             loadingLabel = UiKit.Label(transform, "Loading", assets.bodyFont, 24, UiColors.Muted, TextAnchor.MiddleCenter, "Загрузка данных предметов...");
             UiKit.Place(loadingLabel.rectTransform, new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0f, 230f), new Vector2(900f, 40f));
@@ -94,11 +97,16 @@ namespace Game
             var overlay = UiKit.Rect("Death overlay", transform);
             UiKit.Stretch(overlay);
             var tint = overlay.gameObject.AddComponent<Image>();
-            tint.color = new Color(0.25f, 0f, 0f, 0.35f);
+            tint.color = new Color(0.03f, 0.06f, 0.10f, 0.48f);
+            var deathPlate = UiKit.Picture(overlay, "Death contrast", skin.smoke, Color.white);
+            UiKit.Place(deathPlate.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), Vector2.zero, new Vector2(1000f, 210f));
+            var rule = UiKit.Picture(overlay, "Death accent", null, new Color(1f, 0.64f, 0.18f));
+            UiKit.Place(rule.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0f, -14f), new Vector2(360f, 3f));
             tint.raycastTarget = false;
-            var title = UiKit.Label(overlay, "Title", assets.titleFont, 84, new Color(0.78f, 0.16f, 0.12f), TextAnchor.MiddleCenter, "ГЕРОЙ ПАЛ");
+            var title = UiKit.Label(overlay, "Title", assets.titleFont, 64, HudSkin.White, TextAnchor.MiddleCenter, "ГЕРОЙ ПАЛ");
             UiKit.Place(title.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0f, 40f), new Vector2(1200f, 120f));
-            var sub = UiKit.Label(overlay, "Subtitle", assets.bodyFont, 28, UiColors.Muted, TextAnchor.MiddleCenter, "Перезапустите сцену, чтобы начать заново");
+            title.fontStyle = FontStyle.Italic;
+            var sub = UiKit.Label(overlay, "Subtitle", assets.bodyFont, 26, HudSkin.Muted, TextAnchor.MiddleCenter, "Перезапустите сцену, чтобы начать заново");
             UiKit.Place(sub.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0f, -40f), new Vector2(1200f, 50f));
             deathOverlay = overlay.gameObject;
             deathOverlay.SetActive(false);
@@ -128,7 +136,7 @@ namespace Game
         public void Say(string text, float seconds = 2.6f)
         {
             toast.text = text;
-            toast.gameObject.SetActive(true);
+            toast.transform.parent.gameObject.SetActive(true);
             toastUntil = Time.unscaledTime + seconds;
         }
 
@@ -142,7 +150,7 @@ namespace Game
                 if (keyboard.escapeKey.wasPressedThisFrame && ShopOpen) CloseShop();
             }
 
-            if (toast.gameObject.activeSelf && Time.unscaledTime > toastUntil) toast.gameObject.SetActive(false);
+            if (toast.transform.parent.gameObject.activeSelf && Time.unscaledTime > toastUntil) toast.transform.parent.gameObject.SetActive(false);
             deathOverlay.SetActive(hero != null && !hero.Unit.IsAlive);
 
             UpdateHeroPanel();

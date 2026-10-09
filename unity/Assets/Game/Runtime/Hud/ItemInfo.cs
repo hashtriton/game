@@ -34,8 +34,8 @@ namespace Game
 
     public static class ItemInfoBuilder
     {
-        private static readonly Color Positive = new Color(0.56f, 0.80f, 0.48f);
-        private static readonly Color Magic = new Color(0.46f, 0.66f, 0.92f);
+        private static readonly Color Positive = HudSkin.ShopGood;
+        private static readonly Color Magic = new Color(0.56f, 0.87f, 1f);
 
         /// <summary>Builds the description of a finished or basic item (pass the finished item for a recipe scroll).</summary>
         public static ItemInfo Build(ItemBook book, string itemId)
@@ -128,7 +128,7 @@ namespace Game
             if (Math.Abs(value) < 1e-9) return;
             var sign = value > 0 ? "+" : "";
             var glue = label.StartsWith("%") ? "" : " ";
-            info.stats.Add(new StatLine { text = sign + Number(value) + glue + label, color = value > 0 ? color : new Color(0.86f, 0.38f, 0.32f) });
+            info.stats.Add(new StatLine { text = sign + Number(value) + glue + label, color = value > 0 ? color : HudSkin.ShopBad });
         }
 
         public static string Number(double value) =>

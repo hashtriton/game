@@ -134,7 +134,7 @@ namespace Game.Tests
         [UnityTest]
         public IEnumerator Attack_order_on_a_barrel_cuts_a_passage_through_the_field()
         {
-            // A barrel with open ground two metres south of it, so the hero can stand in front of it.
+            // Open ground south of the barrel lets the hero approach and open a passage with one hit.
             var barrel = Destructible.All.First(b => !b.explosive && map.IsWalkable(b.Position + new Vector3(0f, 0f, -1.8f), hero.radius));
             hero.transform.position = map.FindNearestWalkable(barrel.Position + new Vector3(0f, 0f, -6f));
             var position = barrel.Position;
@@ -144,9 +144,74 @@ namespace Game.Tests
             hero.OrderAttack(barrel);
             yield return WaitUntil(() => barrel == null || !barrel.IsAlive, 20f);
 
-            Assert.IsTrue(barrel == null || !barrel.IsAlive, "three or four blows must break a barrel");
+            Assert.IsTrue(barrel == null || !barrel.IsAlive, "the hero's first hit must break a barrel");
             Assert.IsTrue(map.IsWalkable(position), "the broken barrel's cell is open");
             Assert.Greater(map.NavigationRevision, revision, "routes in flight must notice the new gap");
+        }
+
+        [UnityTest]
+        public IEnumerator A_normal_barrel_breaks_on_the_first_hit()
+        {
+            yield return BarrelBreaksOnFirstHit(false);
+        }
+
+        [UnityTest]
+        public IEnumerator An_explosive_barrel_breaks_on_the_first_hit()
+        {
+            yield return BarrelBreaksOnFirstHit(true);
+        }
+
+        private IEnumerator BarrelBreaksOnFirstHit(bool explosive)
+        {
+            hero.Stop();
+            foreach (var creep in Unit.All.Where(u => u.faction == Faction.Creep))
+                creep.GetComponent<CreepAi>().enabled = false;
+
+            Destructible barrel = null;
+            var stand = Vector3.zero;
+            foreach (var candidate in Destructible.All.Where(b => b.explosive == explosive))
+            {
+                for (var angle = 0; angle < 360; angle += 15)
+                {
+                    var point = candidate.Position + Quaternion.Euler(0f, angle, 0f) * Vector3.forward
+                        * (candidate.radius + hero.Unit.attackRange - 0.05f);
+                    if (!map.IsWalkable(point, hero.Unit.pathRadius)) continue;
+                    if (Unit.All.Any(u => u.faction == Faction.Creep && Vector3.Distance(u.Position, point) < 5f)) continue;
+                    point.y = map.SampleHeight(point);
+                    barrel = candidate;
+                    stand = point;
+                    break;
+                }
+                if (barrel != null) break;
+            }
+            Assert.IsNotNull(barrel, "a barrel must have a clear spot within melee reach");
+            hero.transform.position = stand;
+            Assert.LessOrEqual(barrel.EdgeDistance(stand), hero.Unit.attackRange);
+            Assert.IsTrue(hero.Unit.CanAttackNow);
+            var position = barrel.Position;
+            var brokenAt = -1f;
+            System.Action<Destructible> onBroken = victim =>
+            {
+                if (ReferenceEquals(victim, barrel)) brokenAt = Time.time;
+            };
+            Destructible.Broken += onBroken;
+            try
+            {
+                // BeginAttack cannot start a second swing before this absolute deadline.
+                var secondAttackEarliest = Time.time + hero.Unit.AttackInterval;
+                hero.OrderAttack(barrel);
+                Assert.AreSame(barrel, hero.Target);
+                yield return WaitUntil(() => brokenAt >= 0f, hero.Unit.AttackInterval);
+                Assert.GreaterOrEqual(brokenAt, 0f, "the first hero attack must break the barrel");
+                Assert.Less(brokenAt, secondAttackEarliest, "the barrel must break before a second swing can start");
+                yield return null;
+                Assert.IsTrue(barrel == null, "the broken barrel must be removed from the scene");
+                Assert.IsTrue(map.IsWalkable(position), "the first hit opens the barrel's cell");
+            }
+            finally
+            {
+                Destructible.Broken -= onBroken;
+            }
         }
 
         [UnityTest]

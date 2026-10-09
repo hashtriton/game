@@ -27,19 +27,29 @@ namespace Game
 
         private void BuildShopWindow()
         {
-            var window = UiKit.Picture(transform, "Shop window", assets.panel, Color.white, true);
-            UiKit.Place(window.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0f, 62f), new Vector2(1240f, 740f));
+            var window = UiKit.Picture(transform, "Shop window", skin.shopWindow, Color.white, true);
+            UiKit.Place(window.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0f, 80f), new Vector2(1240f, 740f));
             shopWindow = window.gameObject;
             var root = window.rectTransform;
 
-            var title = UiKit.Label(root, "Title", assets.titleFont, 36, UiColors.Gold, TextAnchor.UpperLeft, "ЛАВКИ");
+            var title = UiKit.Label(root, "Title", assets.titleFont, 36, HudSkin.White, TextAnchor.UpperLeft, "ЛАВКИ");
+            title.fontStyle = FontStyle.Italic;
             Corner(title.rectTransform, 36f, -24f, 400f, 46f);
 
-            var coin = UiKit.Picture(root, "Coin", assets.coin, Color.white);
+            var coin = UiKit.Picture(root, "Coin", skin.coin, Color.white);
             Corner(coin.rectTransform, 930f, -30f, 30f, 30f);
-            goldShop = UiKit.Label(root, "Gold", assets.titleFont, 32, UiColors.Gold, TextAnchor.MiddleLeft, "0");
+            goldShop = UiKit.Label(root, "Gold", assets.titleFont, 32, HudSkin.ShopGold, TextAnchor.MiddleLeft, "0");
+            goldShop.fontStyle = FontStyle.Italic;
             Corner(goldShop.rectTransform, 968f, -28f, 170f, 34f);
-            PanelButton(root, "X", new Vector2(1176f, -22f), new Vector2(40f, 40f), CloseShop);
+            var close = UiKit.Picture(root, "X", skin.shopTab, Color.white, true);
+            Corner(close.rectTransform, 1170f, -22f, 48f, 44f);
+            var closeButton = close.gameObject.AddComponent<Button>();
+            closeButton.targetGraphic = close;
+            closeButton.onClick.AddListener(CloseShop);
+            UiKit.ShopPlateState(close, skin, false);
+            var closeLabel = UiKit.Label(close.transform, "Text", assets.titleFont, 24, HudSkin.White, TextAnchor.MiddleCenter, "X");
+            closeLabel.fontStyle = FontStyle.Italic;
+            UiKit.Stretch(closeLabel.rectTransform);
 
             shelfArea = UiKit.Rect("Shelf", root);
             Corner(shelfArea, 276f, -98f, 940f, 520f);
@@ -55,11 +65,11 @@ namespace Game
             Corner(guideArea, 276f, -98f, 940f, 520f);
             guideArea.gameObject.SetActive(false);
 
-            var bagLabel = UiKit.Label(root, "Bag label", assets.bodyFont, 21, UiColors.Muted, TextAnchor.MiddleLeft, "Рюкзак");
+            var bagLabel = UiKit.Label(root, "Bag label", assets.bodyFont, 21, HudSkin.ShopMuted, TextAnchor.MiddleLeft, "Рюкзак");
             Corner(bagLabel.rectTransform, 276f, -640f, 90f, 64f);
             for (var i = 0; i < shopBag.Length; i++)
             {
-                var slot = new ItemSlotView(assets, root, "Shop bag " + (i + 1), 64f, false);
+                var slot = new ItemSlotView(assets, root, "Shop bag " + (i + 1), 64f, false, skin, true);
                 Corner(slot.root, 372f + i * 72f, -640f, 64f, 64f);
                 var index = i;
                 var relay = UiKit.Relay(slot.root.gameObject);
@@ -71,9 +81,9 @@ namespace Game
                 };
                 shopBag[i] = slot;
             }
-            var hint = UiKit.Label(root, "Hint", assets.bodyFont, 17, UiColors.Muted, TextAnchor.MiddleLeft,
+            var hint = UiKit.Label(root, "Hint", assets.bodyFont, 19, HudSkin.ShopMuted, TextAnchor.MiddleLeft,
                 "ЛКМ по предмету: купить вместе с недостающими частями. ПКМ: только сам предмет (для составных это рецепт). ПКМ по рюкзаку: продать за половину цены.");
-            Corner(hint.rectTransform, 820f, -632f, 396f, 84f);
+            Corner(hint.rectTransform, 820f, -610f, 396f, 112f);
 
             shopWindow.SetActive(false);
         }
@@ -88,13 +98,13 @@ namespace Game
             for (var i = 0; i < names.Count; i++)
             {
                 var index = i;
-                var image = UiKit.Picture(tabsRoot, "Tab " + names[i], assets.tab, Color.white, true);
+                var image = UiKit.Picture(tabsRoot, "Tab " + names[i], skin.shopTab, Color.white, true);
                 Corner(image.rectTransform, 34f, -98f - i * 44f, 226f, 40f);
                 var button = image.gameObject.AddComponent<Button>();
                 button.targetGraphic = image;
-                button.transition = Selectable.Transition.None;
+                UiKit.ShopPlateState(image, skin, false);
                 button.onClick.AddListener(() => SelectTab(index));
-                var label = UiKit.Label(image.rectTransform, "Text", assets.bodyFont, 20, UiColors.Text, TextAnchor.MiddleLeft, names[i]);
+                var label = UiKit.Label(image.rectTransform, "Text", assets.bodyFont, 20, HudSkin.White, TextAnchor.MiddleLeft, names[i]);
                 UiKit.Stretch(label.rectTransform, 14f, 0f, 6f, 0f);
                 tabImages.Add(image);
             }
@@ -103,7 +113,7 @@ namespace Game
             foreach (var tab in Book.Tabs) most = Mathf.Max(most, tab.entries.Count);
             for (var i = 0; i < most; i++)
             {
-                var cell = new ItemSlotView(assets, shelfArea, "Shelf cell " + (i + 1), CellSize, true);
+                var cell = new ItemSlotView(assets, shelfArea, "Shelf cell " + (i + 1), CellSize, true, skin, true);
                 var cellIndex = i;
                 var relay = UiKit.Relay(cell.root.gameObject);
                 relay.entered = _ => ShowTooltip(cell.ItemId, ShelfFooter(cellIndex));
@@ -153,7 +163,7 @@ namespace Game
             currentTab = index;
             lastWasGuides = index == GuideTab;
             for (var i = 0; i < tabImages.Count; i++)
-                tabImages[i].color = i == index ? new Color(1.35f, 1.1f, 0.75f) : Color.white;
+                UiKit.ShopPlateState(tabImages[i], skin, i == index);
 
             var guides = index == GuideTab;
             shelfArea.gameObject.SetActive(!guides);
@@ -189,7 +199,7 @@ namespace Game
                 cell.Set(shownId, Book.Name(shownId), UiColors.Grade(worth), "", UiColors.Gold);
 
                 var line = ShelfPrice(entry, out var affordable);
-                cell.SetPrice(line, affordable ? UiColors.Gold : new Color(0.72f, 0.36f, 0.30f));
+                cell.SetPrice(line, affordable ? HudSkin.ShopGold : HudSkin.ShopBad);
             }
         }
 

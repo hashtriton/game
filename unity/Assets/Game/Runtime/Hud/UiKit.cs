@@ -103,6 +103,20 @@ namespace Game
             return relay != null ? relay : target.AddComponent<PointerRelay>();
         }
 
+        public static void ShopPlateState(Image image, HudSkin skin, bool selected)
+        {
+            image.color = Color.white;
+            image.sprite = selected ? skin.shopSelected : skin.shopTab;
+            var button = image.GetComponent<Button>();
+            button.transition = Selectable.Transition.SpriteSwap;
+            button.spriteState = new SpriteState
+            {
+                highlightedSprite = selected ? skin.shopSelected : skin.shopHover,
+                pressedSprite = skin.shopSelected,
+                selectedSprite = selected ? skin.shopSelected : skin.shopHover
+            };
+        }
+
         public static VerticalLayoutGroup Vertical(GameObject target, int padding, float spacing, bool fitHeight)
         {
             var layout = target.AddComponent<VerticalLayoutGroup>();

@@ -18,7 +18,7 @@ namespace Game
         public Camera view;
         public HudAssets assets;
         public RectTransform canvasRect;
-        public Vector2 size = new Vector2(78f, 9f);
+        public Vector2 size = new Vector2(82f, 8f);
 
         private readonly Dictionary<Unit, Bar> bars = new Dictionary<Unit, Bar>();
         private readonly List<Unit> gone = new List<Unit>();
@@ -61,12 +61,13 @@ namespace Game
             root.pivot = new Vector2(0.5f, 0f);
             root.sizeDelta = size;
 
-            var back = UiKit.Picture(root, "Back", assets.slot, new Color(1f, 1f, 1f, 0.95f));
+            var skin = Resources.Load<HudSkin>("HudSkin");
+            var back = UiKit.Picture(root, "Back", skin.segment, new Color(0.035f, 0.055f, 0.075f, 0.94f));
             UiKit.Stretch(back.rectTransform);
-            var fill = UiKit.Picture(root, "Fill", assets.barFill, unit.faction == Faction.Hero ? new Color(0.30f, 0.62f, 0.28f) : UiColors.Health);
+            var fill = UiKit.Picture(root, "Fill", skin.segment, unit.faction == Faction.Hero ? new Color(0.5f, 0.94f, 0.70f) : new Color(1f, 0.22f, 0.17f));
             fill.type = Image.Type.Filled;
             fill.fillMethod = Image.FillMethod.Horizontal;
-            UiKit.Stretch(fill.rectTransform, 2f, 2f, 2f, 2f);
+            UiKit.Stretch(fill.rectTransform, 1f, 1f, 1f, 1f);
             return new Bar { root = root, fill = fill };
         }
     }
